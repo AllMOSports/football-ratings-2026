@@ -36,6 +36,11 @@ jobs:
       - name: Install Playwright Chromium
         run: playwright install --with-deps chromium
  
+      - name: Debug - list repo contents
+        run: |
+          pwd
+          ls -la
+ 
       - name: Run scraper
         run: python scrape_football_scoreboard_2026.py --season 2026 --out football_scoreboard_2026.json
  
