@@ -631,6 +631,13 @@
   },
   {
     "date": "2026-08-28",
+    "team1": "Winnetonka",
+    "score1": null,
+    "team2": "Platte County",
+    "score2": null
+  },
+  {
+    "date": "2026-08-28",
     "team1": "Windsor",
     "score1": null,
     "team2": "Plattsburg",
@@ -1653,13 +1660,6 @@
   },
   {
     "date": "2026-09-04",
-    "team1": "Normandy Collaborative",
-    "score1": null,
-    "team2": "Riverview Gardens",
-    "score2": null
-  },
-  {
-    "date": "2026-09-04",
     "team1": "Valle Catholic",
     "score1": null,
     "team2": "Rockwood Summit",
@@ -1908,6 +1908,13 @@
     "team1": "Kennett",
     "score1": null,
     "team2": "Priory",
+    "score2": null
+  },
+  {
+    "date": "2026-09-05",
+    "team1": "Normandy Collaborative",
+    "score1": null,
+    "team2": "Riverview Gardens",
     "score2": null
   },
   {
@@ -2353,6 +2360,13 @@
   },
   {
     "date": "2026-09-11",
+    "team1": "Oak Park",
+    "score1": null,
+    "team2": "Lee's Summit",
+    "score2": null
+  },
+  {
+    "date": "2026-09-11",
     "team1": "Lee's Summit North",
     "score1": null,
     "team2": "Lee's Summit West",
@@ -2706,6 +2720,13 @@
     "team1": "Liberty (Wentzville)",
     "score1": null,
     "team2": "Timberland",
+    "score2": null
+  },
+  {
+    "date": "2026-09-11",
+    "team1": "East Newton",
+    "score1": null,
+    "team2": "Tipton",
     "score2": null
   },
   {
@@ -4222,6 +4243,13 @@
   },
   {
     "date": "2026-09-25",
+    "team1": "Raymore-Peculiar",
+    "score1": null,
+    "team2": "Lee's Summit",
+    "score2": null
+  },
+  {
+    "date": "2026-09-25",
     "team1": "Blue Springs",
     "score1": null,
     "team2": "Lee's Summit West",
@@ -4754,16 +4782,16 @@
   },
   {
     "date": "2026-09-26",
-    "team1": "Clayton with Brentwood",
+    "team1": "MICDS",
     "score1": null,
-    "team2": "McCluer",
+    "team2": "John Burroughs",
     "score2": null
   },
   {
     "date": "2026-09-26",
-    "team1": "Priory",
+    "team1": "Clayton with Brentwood",
     "score1": null,
-    "team2": "MICDS",
+    "team2": "McCluer",
     "score2": null
   },
   {
@@ -4778,6 +4806,13 @@
     "team1": "Priory",
     "score1": null,
     "team2": "Westminster Christian Academy",
+    "score2": null
+  },
+  {
+    "date": "2026-09-26",
+    "team1": "Charleston",
+    "score1": null,
+    "team2": "Westran",
     "score2": null
   },
   {
@@ -5366,6 +5401,13 @@
     "team1": "Hogan Prep Academy Charter",
     "score1": null,
     "team2": "Pembroke Hill",
+    "score2": null
+  },
+  {
+    "date": "2026-10-02",
+    "team1": "Raytown",
+    "score1": null,
+    "team2": "Platte County",
     "score2": null
   },
   {
@@ -6133,6 +6175,13 @@
   },
   {
     "date": "2026-10-09",
+    "team1": "Lee's Summit",
+    "score1": null,
+    "team2": "Liberty North",
+    "score2": null
+  },
+  {
+    "date": "2026-10-09",
     "team1": "Central (Kansas City)",
     "score1": null,
     "team2": "Lincoln College Prep",
@@ -6374,6 +6423,13 @@
     "team1": "Potosi",
     "score1": null,
     "team2": "Perryville",
+    "score2": null
+  },
+  {
+    "date": "2026-10-09",
+    "team1": "Fort Osage",
+    "score1": null,
+    "team2": "Platte County",
     "score2": null
   },
   {
@@ -6661,6 +6717,13 @@
     "team1": "Affton",
     "score1": null,
     "team2": "McCluer North",
+    "score2": null
+  },
+  {
+    "date": "2026-10-10",
+    "team1": "Lutheran North",
+    "score1": null,
+    "team2": "MICDS",
     "score2": null
   },
   {
@@ -8124,6 +8187,13 @@
     "team1": "North Platte",
     "score1": null,
     "team2": "Lawson",
+    "score2": null
+  },
+  {
+    "date": "2026-10-23",
+    "team1": "Staley",
+    "score1": null,
+    "team2": "Lee's Summit",
     "score2": null
   },
   {
