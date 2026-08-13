@@ -582,6 +582,13 @@
   },
   {
     "date": "2026-08-28",
+    "team1": "Liberty North",
+    "score1": null,
+    "team2": "Park Hill",
+    "score2": null
+  },
+  {
+    "date": "2026-08-28",
     "team1": "Reeds Spring",
     "score1": null,
     "team2": "Parkview",
@@ -949,13 +956,6 @@
     "team1": "Hazelwood East",
     "score1": null,
     "team2": "Hazelwood West",
-    "score2": null
-  },
-  {
-    "date": "2026-08-31",
-    "team1": "Ft. Zumwalt North",
-    "score1": null,
-    "team2": "Pattonville",
     "score2": null
   },
   {
@@ -2549,6 +2549,13 @@
   },
   {
     "date": "2026-09-11",
+    "team1": "Park Hill South",
+    "score1": null,
+    "team2": "Park Hill",
+    "score2": null
+  },
+  {
+    "date": "2026-09-11",
     "team1": "St. Vincent",
     "score1": null,
     "team2": "Perryville",
@@ -3511,6 +3518,13 @@
     "team1": "Union",
     "score1": null,
     "team2": "Pacific",
+    "score2": null
+  },
+  {
+    "date": "2026-09-18",
+    "team1": "Liberty",
+    "score1": null,
+    "team2": "Park Hill South",
     "score2": null
   },
   {
@@ -4544,6 +4558,13 @@
   },
   {
     "date": "2026-09-25",
+    "team1": "Moberly",
+    "score1": null,
+    "team2": "Rolla",
+    "score2": null
+  },
+  {
+    "date": "2026-09-25",
     "team1": "Fayette",
     "score1": null,
     "team2": "Sarcoxie",
@@ -5223,6 +5244,13 @@
   },
   {
     "date": "2026-10-02",
+    "team1": "Park Hill",
+    "score1": null,
+    "team2": "Liberty",
+    "score2": null
+  },
+  {
+    "date": "2026-10-02",
     "team1": "Mountain Grove",
     "score1": null,
     "team2": "Liberty (Mountain View)",
@@ -5387,6 +5415,13 @@
     "team1": "Owensville",
     "score1": null,
     "team2": "Pacific",
+    "score2": null
+  },
+  {
+    "date": "2026-10-02",
+    "team1": "Oak Park",
+    "score1": null,
+    "team2": "Park Hill South",
     "score2": null
   },
   {
@@ -6448,6 +6483,13 @@
   },
   {
     "date": "2026-10-09",
+    "team1": "Park Hill South",
+    "score1": null,
+    "team2": "Raytown",
+    "score2": null
+  },
+  {
+    "date": "2026-10-09",
     "team1": "Kearney",
     "score1": null,
     "team2": "Raytown South",
@@ -7281,6 +7323,13 @@
   },
   {
     "date": "2026-10-16",
+    "team1": "Park Hill",
+    "score1": null,
+    "team2": "Oak Park",
+    "score2": null
+  },
+  {
+    "date": "2026-10-16",
     "team1": "Pleasant Hill",
     "score1": null,
     "team2": "Odessa",
@@ -7714,6 +7763,13 @@
     "score2": null
   },
   {
+    "date": "2026-10-18",
+    "team1": "Riverview Gardens",
+    "score1": null,
+    "team2": "Fox",
+    "score2": null
+  },
+  {
     "date": "2026-10-22",
     "team1": "Portageville",
     "score1": null,
@@ -8019,6 +8075,13 @@
     "team1": "Hollister",
     "score1": null,
     "team2": "Forsyth",
+    "score2": null
+  },
+  {
+    "date": "2026-10-23",
+    "team1": "Park Hill South",
+    "score1": null,
+    "team2": "Fort Osage",
     "score2": null
   },
   {
@@ -8563,6 +8626,13 @@
   {
     "date": "2026-10-23",
     "team1": "Hogan Prep Academy Charter",
+    "score1": null,
+    "team2": "Summit Christian Academy",
+    "score2": null
+  },
+  {
+    "date": "2026-10-23",
+    "team1": "Mt. Vernon",
     "score1": null,
     "team2": "Summit Christian Academy",
     "score2": null
