@@ -722,7 +722,7 @@
   },
   {
     "date": "2026-08-28",
-    "team1": "Veritas Christian Academy",
+    "team1": "Central (New Madrid County)",
     "score1": null,
     "team2": "Saxony Lutheran",
     "score2": null
@@ -2612,16 +2612,16 @@
   },
   {
     "date": "2026-09-11",
-    "team1": "Jefferson City",
+    "team1": "Marquette",
     "score1": null,
-    "team2": "Rock Bridge",
+    "team2": "Ritenour",
     "score2": null
   },
   {
     "date": "2026-09-11",
-    "team1": "Moberly",
+    "team1": "Jefferson City",
     "score1": null,
-    "team2": "Rolla",
+    "team2": "Rock Bridge",
     "score2": null
   },
   {
@@ -5111,6 +5111,13 @@
   },
   {
     "date": "2026-10-02",
+    "team1": "Parkway West",
+    "score1": null,
+    "team2": "Fox",
+    "score2": null
+  },
+  {
+    "date": "2026-10-02",
     "team1": "Francis Howell",
     "score1": null,
     "team2": "Francis Howell Central",
@@ -7039,6 +7046,13 @@
     "team1": "Belton",
     "score1": null,
     "team2": "Fort Osage",
+    "score2": null
+  },
+  {
+    "date": "2026-10-16",
+    "team1": "Riverview Gardens",
+    "score1": null,
+    "team2": "Fox",
     "score2": null
   },
   {
