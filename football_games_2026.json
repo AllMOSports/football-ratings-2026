@@ -2843,6 +2843,13 @@
   },
   {
     "date": "2026-09-11",
+    "team1": "Festus",
+    "score1": null,
+    "team2": "Windsor (Imperial)",
+    "score2": null
+  },
+  {
+    "date": "2026-09-11",
     "team1": "Mark Twain",
     "score1": null,
     "team2": "Winfield",
@@ -2874,13 +2881,6 @@
     "team1": "Father Tolton with Calvary Lutheran",
     "score1": null,
     "team2": "University Academy Charter",
-    "score2": null
-  },
-  {
-    "date": "2026-09-17",
-    "team1": "Hogan Prep Academy Charter",
-    "score1": null,
-    "team2": "Central (Kansas City)",
     "score2": null
   },
   {
@@ -4859,6 +4859,13 @@
   },
   {
     "date": "2026-10-01",
+    "team1": "Ft. Zumwalt West",
+    "score1": null,
+    "team2": "Liberty (Wentzville)",
+    "score2": null
+  },
+  {
+    "date": "2026-10-01",
     "team1": "Kickapoo",
     "score1": null,
     "team2": "Nixa",
@@ -5828,6 +5835,13 @@
     "team1": "Priory",
     "score1": null,
     "team2": "MICDS",
+    "score2": null
+  },
+  {
+    "date": "2026-10-03",
+    "team1": "Jennings",
+    "score1": null,
+    "team2": "Normandy Collaborative",
     "score2": null
   },
   {
