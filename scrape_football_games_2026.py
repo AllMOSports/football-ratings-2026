@@ -80,6 +80,8 @@ BASE_URL      = "https://www.mshsaa.org/activities/scoreboard.aspx?alg=19&date={
 MAX_POINTS    = 100
 OUTPUT_JSON   = f"football_games_{SEASON_YEAR}.json"
 OUTPUT_CSV    = f"football_games_{SEASON_YEAR}.csv"
+OUTPUT_JSON_ALL = f"football_games_{SEASON_YEAR}_all.json"
+OUTPUT_CSV_ALL  = f"football_games_{SEASON_YEAR}_all.csv"
 CLASSIFICATIONS_PATH = "classifications.json"
 SCHOOLS_CSV           = "mshsaa_schools.csv"
  
@@ -223,6 +225,24 @@ def resolve_name(cell, id_to_classname, known_teams):
 # SCRAPING
 # ---------------------------------------------------------------------------
  
+def resolve_name_or_raw(cell, id_to_classname, known_teams):
+    """
+    Like resolve_name(), but never returns None for a cell that has an
+    MSHSAA schedule link -- if the school ID/display text doesn't match
+    classifications.json (an unclassified or missing school), this falls
+    back to whatever display text the scoreboard link shows, and reports
+    that the team is unclassified via the second return value.
+    Returns (name, classified: bool).
+    """
+    name = resolve_name(cell, id_to_classname, known_teams)
+    if name is not None:
+        return name, True
+ 
+    a = cell.find("a", href=lambda h: h and "/MySchool/Schedule.aspx" in h)
+    raw = a.get_text(strip=True) if a else None
+    return raw, False
+ 
+ 
 def is_mshsaa_team(cell):
     return cell.find(
         "a", href=lambda h: h and "/MySchool/Schedule.aspx" in h
@@ -284,7 +304,7 @@ def scrape_date(target_date, id_to_classname, known_teams, session):
         if len(rows) < 2:
             continue
  
-        team_rows = []  # list of (name, score, row) for rows that contain a team link
+        team_rows = []  # list of (name, classified, score, row) for rows with a team link
         for row in rows:
             cells = row.find_all("td")
             if not cells:
@@ -293,8 +313,10 @@ def scrape_date(target_date, id_to_classname, known_teams, session):
             if team_cell is None:
                 continue
  
-            name = resolve_name(team_cell, id_to_classname, known_teams)
+            name, classified = resolve_name_or_raw(team_cell, id_to_classname, known_teams)
             if name is None:
+                # Has the schedule link but somehow no display text either --
+                # too broken to use, skip just this row.
                 continue
  
             score = None
@@ -304,20 +326,22 @@ def scrape_date(target_date, id_to_classname, known_teams, session):
                     score = s
                     break
  
-            team_rows.append((name, score, row))
+            team_rows.append((name, classified, score, row))
  
         if len(team_rows) != 2:
             continue  # not a clean 2-team game table -- skip
  
-        (name1, s1, row1), (name2, s2, row2) = team_rows
+        (name1, classified1, s1, row1), (name2, classified2, s2, row2) = team_rows
         if name1 == name2:
             continue
  
         games.append({
             "date": target_date.strftime("%Y-%m-%d"),
             "team1": name1,
+            "team1_classified": classified1,
             "score1": s1,
             "team2": name2,
+            "team2_classified": classified2,
             "score2": s2,
             "forfeit": is_forfeit(row1, row2),
             "overtime": is_overtime(row1, row2),
@@ -387,6 +411,29 @@ def deduplicate_games(all_games):
     return unique_games
  
  
+def strict_games_from_all(all_games):
+    """
+    Filters the full (>=1 classified team) game list down to games where
+    BOTH teams are in classifications.json, and reshapes each record back
+    to the original schema (no *_classified fields) so this stays a
+    drop-in replacement for whatever already consumes football_games_2026.json.
+    """
+    strict = []
+    for g in all_games:
+        if not (g["team1_classified"] and g["team2_classified"]):
+            continue
+        strict.append({
+            "date": g["date"],
+            "team1": g["team1"],
+            "score1": g["score1"],
+            "team2": g["team2"],
+            "score2": g["score2"],
+            "forfeit": g["forfeit"],
+            "overtime": g["overtime"],
+        })
+    return strict
+ 
+ 
 def save_json(all_games, path=OUTPUT_JSON):
     with open(path, "w") as f:
         json.dump(all_games, f, indent=2)
@@ -399,6 +446,19 @@ def save_csv(all_games, path=OUTPUT_CSV):
         writer.writerow(["date", "team1", "score1", "team2", "score2", "forfeit", "overtime"])
         for g in all_games:
             writer.writerow([g["date"], g["team1"], g["score1"], g["team2"], g["score2"],
+                              g["forfeit"], g["overtime"]])
+    print(f"Saved {len(all_games)} games to {path}")
+ 
+ 
+def save_csv_all(all_games, path=OUTPUT_CSV_ALL):
+    with open(path, "w", newline="") as f:
+        writer = csv.writer(f)
+        writer.writerow(["date", "team1", "team1_classified", "score1",
+                          "team2", "team2_classified", "score2",
+                          "forfeit", "overtime"])
+        for g in all_games:
+            writer.writerow([g["date"], g["team1"], g["team1_classified"], g["score1"],
+                              g["team2"], g["team2_classified"], g["score2"],
                               g["forfeit"], g["overtime"]])
     print(f"Saved {len(all_games)} games to {path}")
  
@@ -420,7 +480,7 @@ if __name__ == "__main__":
  
     print(f"\nScraping {SEASON_START} to {SEASON_END}...")
     all_games = scrape_full_season(id_to_classname, known_teams)
-    print(f"\nTotal games found (before dedup): {len(all_games)}")
+    print(f"\nTotal games found (before dedup, >=1 classified team): {len(all_games)}")
  
     if not all_games:
         print("No games found. This is expected if the 2026 schedule "
@@ -430,8 +490,14 @@ if __name__ == "__main__":
     print("\nDeduplicating...")
     all_games = deduplicate_games(all_games)
  
+    strict_games = strict_games_from_all(all_games)
+    print(f"Of those, {len(strict_games)} have both teams classified "
+          f"({len(all_games) - len(strict_games)} have exactly one classified side).")
+ 
     print("\nSaving output...")
-    save_json(all_games)
-    save_csv(all_games)
+    save_json(strict_games, OUTPUT_JSON)
+    save_csv(strict_games, OUTPUT_CSV)
+    save_json(all_games, OUTPUT_JSON_ALL)
+    save_csv_all(all_games, OUTPUT_CSV_ALL)
  
     print("\n=== Done ===")
