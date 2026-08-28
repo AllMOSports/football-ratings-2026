@@ -1,37 +1,44 @@
 [
   {
     "date": "2026-08-27",
-    "team1": "Diamond",
-    "score1": null,
-    "team2": "Buffalo",
-    "score2": null
-  },
-  {
-    "date": "2026-08-27",
     "team1": "Orchard Farm",
-    "score1": null,
+    "score1": 22,
     "team2": "Ft. Zumwalt South",
-    "score2": null
+    "score2": 14
   },
   {
     "date": "2026-08-27",
     "team1": "Vianney",
-    "score1": null,
+    "score1": 35,
     "team2": "Lindbergh",
-    "score2": null
+    "score2": 23
+  },
+  {
+    "date": "2026-08-27",
+    "team1": "Confluence Prep Academy Charter",
+    "score1": 0,
+    "team2": "Normandy Collaborative",
+    "score2": 49
   },
   {
     "date": "2026-08-27",
     "team1": "Hogan Prep Academy Charter",
-    "score1": null,
+    "score1": 48,
     "team2": "Northeast (Kansas City)",
-    "score2": null
+    "score2": 8
   },
   {
     "date": "2026-08-27",
     "team1": "Parkway North",
-    "score1": null,
+    "score1": 21,
     "team2": "Parkway West",
+    "score2": 24
+  },
+  {
+    "date": "2026-08-27",
+    "team1": "Diamond",
+    "score1": null,
+    "team2": "Buffalo",
     "score2": null
   },
   {
@@ -169,6 +176,13 @@
   },
   {
     "date": "2026-08-28",
+    "team1": "Marshall",
+    "score1": null,
+    "team2": "East (Kansas City)",
+    "score2": null
+  },
+  {
+    "date": "2026-08-28",
     "team1": "Marceline",
     "score1": null,
     "team2": "Father Tolton with Calvary Lutheran",
@@ -288,6 +302,13 @@
   },
   {
     "date": "2026-08-28",
+    "team1": "Tipton with Bunceton",
+    "score1": null,
+    "team2": "Holden",
+    "score2": null
+  },
+  {
+    "date": "2026-08-28",
     "team1": "Windsor (Imperial)",
     "score1": null,
     "team2": "Jefferson (Festus)",
@@ -332,7 +353,7 @@
     "date": "2026-08-28",
     "team1": "Clinton",
     "score1": null,
-    "team2": "Knob Noster",
+    "team2": "Knob Noster with Leeton",
     "score2": null
   },
   {
@@ -407,7 +428,7 @@
   },
   {
     "date": "2026-08-28",
-    "team1": "Cuba",
+    "team1": "Cuba with Steelville",
     "score1": null,
     "team2": "Linn",
     "score2": null
@@ -473,6 +494,13 @@
     "team1": "Centralia",
     "score1": null,
     "team2": "Mexico",
+    "score2": null
+  },
+  {
+    "date": "2026-08-28",
+    "team1": "West Plains",
+    "score1": null,
+    "team2": "Miller Career Academy with Sumner",
     "score2": null
   },
   {
@@ -792,13 +820,6 @@
   },
   {
     "date": "2026-08-28",
-    "team1": "Pembroke Hill",
-    "score1": null,
-    "team2": "Southeast",
-    "score2": null
-  },
-  {
-    "date": "2026-08-28",
     "team1": "McCluer North",
     "score1": null,
     "team2": "St. Charles",
@@ -918,6 +939,13 @@
   },
   {
     "date": "2026-08-28",
+    "team1": "Maysville",
+    "score1": null,
+    "team2": "West Platte",
+    "score2": null
+  },
+  {
+    "date": "2026-08-28",
     "team1": "Holt",
     "score1": null,
     "team2": "Westminster Christian Academy",
@@ -956,6 +984,13 @@
     "team1": "Hazelwood East",
     "score1": null,
     "team2": "Hazelwood West",
+    "score2": null
+  },
+  {
+    "date": "2026-08-29",
+    "team1": "Principia",
+    "score1": null,
+    "team2": "Riverview Gardens",
     "score2": null
   },
   {
@@ -1215,6 +1250,13 @@
     "team1": "Cabool",
     "score1": null,
     "team2": "Doniphan",
+    "score2": null
+  },
+  {
+    "date": "2026-09-04",
+    "team1": "KIPP KC Legacy",
+    "score1": null,
+    "team2": "East (Kansas City)",
     "score2": null
   },
   {
@@ -1506,6 +1548,13 @@
   },
   {
     "date": "2026-09-04",
+    "team1": "North Platte",
+    "score1": null,
+    "team2": "Maysville",
+    "score2": null
+  },
+  {
+    "date": "2026-09-04",
     "team1": "St. Pius X (Festus)",
     "score1": null,
     "team2": "Mehlville",
@@ -1576,7 +1625,7 @@
   },
   {
     "date": "2026-09-04",
-    "team1": "Knob Noster",
+    "team1": "Knob Noster with Leeton",
     "score1": null,
     "team2": "Oak Grove",
     "score2": null
@@ -1765,7 +1814,7 @@
   },
   {
     "date": "2026-09-04",
-    "team1": "Cuba",
+    "team1": "Cuba with Steelville",
     "score1": null,
     "team2": "St. James",
     "score2": null
@@ -1810,6 +1859,13 @@
     "team1": "Francis Howell North",
     "score1": null,
     "team2": "Timberland",
+    "score2": null
+  },
+  {
+    "date": "2026-09-04",
+    "team1": "Pierce City",
+    "score1": null,
+    "team2": "Tipton with Bunceton",
     "score2": null
   },
   {
@@ -1891,16 +1947,16 @@
   },
   {
     "date": "2026-09-05",
-    "team1": "Southeast",
+    "team1": "McCluer",
     "score1": null,
-    "team2": "Hogan Prep Academy Charter",
+    "team2": "McCluer North",
     "score2": null
   },
   {
     "date": "2026-09-05",
-    "team1": "McCluer",
+    "team1": "Gateway with Soldan International Studies",
     "score1": null,
-    "team2": "McCluer North",
+    "team2": "Miller Career Academy with Sumner",
     "score2": null
   },
   {
@@ -1971,6 +2027,13 @@
     "team1": "Lutheran South",
     "score1": null,
     "team2": "MICDS",
+    "score2": null
+  },
+  {
+    "date": "2026-09-10",
+    "team1": "Ste. Genevieve",
+    "score1": null,
+    "team2": "Miller Career Academy with Sumner",
     "score2": null
   },
   {
@@ -2131,7 +2194,7 @@
     "date": "2026-09-11",
     "team1": "Grandview (Hillsboro)",
     "score1": null,
-    "team2": "Cuba",
+    "team2": "Cuba with Steelville",
     "score2": null
   },
   {
@@ -2230,13 +2293,6 @@
     "team1": "Willard",
     "score1": null,
     "team2": "Glendale",
-    "score2": null
-  },
-  {
-    "date": "2026-09-11",
-    "team1": "Southeast",
-    "score1": null,
-    "team2": "Grandview",
     "score2": null
   },
   {
@@ -2447,6 +2503,13 @@
     "team1": "Chillicothe",
     "score1": null,
     "team2": "Maryville",
+    "score2": null
+  },
+  {
+    "date": "2026-09-11",
+    "team1": "Brookfield",
+    "score1": null,
+    "team2": "Maysville",
     "score2": null
   },
   {
@@ -2738,6 +2801,13 @@
   },
   {
     "date": "2026-09-11",
+    "team1": "East Newton",
+    "score1": null,
+    "team2": "Tipton with Bunceton",
+    "score2": null
+  },
+  {
+    "date": "2026-09-11",
     "team1": "Marceline",
     "score1": null,
     "team2": "Trenton",
@@ -2801,7 +2871,7 @@
   },
   {
     "date": "2026-09-11",
-    "team1": "Knob Noster",
+    "team1": "Knob Noster with Leeton",
     "score1": null,
     "team2": "Warsaw",
     "score2": null
@@ -2867,6 +2937,13 @@
     "team1": "St. Michael the Archangel",
     "score1": null,
     "team2": "KIPP KC Legacy",
+    "score2": null
+  },
+  {
+    "date": "2026-09-12",
+    "team1": "Confluence Prep Academy Charter",
+    "score1": null,
+    "team2": "Principia",
     "score2": null
   },
   {
@@ -3088,6 +3165,13 @@
   },
   {
     "date": "2026-09-18",
+    "team1": "Confluence Prep Academy Charter",
+    "score1": null,
+    "team2": "Crystal City",
+    "score2": null
+  },
+  {
+    "date": "2026-09-18",
     "team1": "Chaminade College Prep",
     "score1": null,
     "team2": "De Smet Jesuit",
@@ -3277,7 +3361,7 @@
   },
   {
     "date": "2026-09-18",
-    "team1": "Cuba",
+    "team1": "Cuba with Steelville",
     "score1": null,
     "team2": "Jefferson (Festus)",
     "score2": null
@@ -3321,7 +3405,7 @@
     "date": "2026-09-18",
     "team1": "Monett",
     "score1": null,
-    "team2": "Knob Noster",
+    "team2": "Knob Noster with Leeton",
     "score2": null
   },
   {
@@ -3403,6 +3487,13 @@
   },
   {
     "date": "2026-09-18",
+    "team1": "Maysville",
+    "score1": null,
+    "team2": "Marceline",
+    "score2": null
+  },
+  {
+    "date": "2026-09-18",
     "team1": "Van-Far with Community",
     "score1": null,
     "team2": "Mark Twain",
@@ -3434,6 +3525,13 @@
     "team1": "Plattsburg",
     "score1": null,
     "team2": "Mid-Buchanan",
+    "score2": null
+  },
+  {
+    "date": "2026-09-18",
+    "team1": "Linn",
+    "score1": null,
+    "team2": "Miller Career Academy with Sumner",
     "score2": null
   },
   {
@@ -3683,6 +3781,13 @@
   },
   {
     "date": "2026-09-18",
+    "team1": "East (Kansas City)",
+    "score1": null,
+    "team2": "Sherwood",
+    "score2": null
+  },
+  {
+    "date": "2026-09-18",
     "team1": "Montgomery County",
     "score1": null,
     "team2": "South Callaway",
@@ -3788,6 +3893,13 @@
   },
   {
     "date": "2026-09-18",
+    "team1": "Tipton with Bunceton",
+    "score1": null,
+    "team2": "Versailles",
+    "score2": null
+  },
+  {
+    "date": "2026-09-18",
     "team1": "Christian Brothers College",
     "score1": null,
     "team2": "Vianney",
@@ -3833,6 +3945,13 @@
     "team1": "Oakville",
     "score1": null,
     "team2": "McCluer North",
+    "score2": null
+  },
+  {
+    "date": "2026-09-19",
+    "team1": "Linn",
+    "score1": null,
+    "team2": "Miller Career Academy with Sumner",
     "score2": null
   },
   {
@@ -3956,13 +4075,6 @@
   },
   {
     "date": "2026-09-25",
-    "team1": "Lafayette (St. Joseph)",
-    "score1": null,
-    "team2": "Butler",
-    "score2": null
-  },
-  {
-    "date": "2026-09-25",
     "team1": "Mountain Grove",
     "score1": null,
     "team2": "Cabool",
@@ -3998,7 +4110,7 @@
   },
   {
     "date": "2026-09-25",
-    "team1": "Knob Noster",
+    "team1": "Knob Noster with Leeton",
     "score1": null,
     "team2": "Carrollton",
     "score2": null
@@ -4015,13 +4127,6 @@
     "team1": "St. Pius X (Festus)",
     "score1": null,
     "team2": "Caruthersville",
-    "score2": null
-  },
-  {
-    "date": "2026-09-25",
-    "team1": "Southeast",
-    "score1": null,
-    "team2": "Center",
     "score2": null
   },
   {
@@ -4056,7 +4161,7 @@
     "date": "2026-09-25",
     "team1": "Herculaneum",
     "score1": null,
-    "team2": "Cuba",
+    "team2": "Cuba with Steelville",
     "score2": null
   },
   {
@@ -4369,6 +4474,13 @@
   },
   {
     "date": "2026-09-25",
+    "team1": "Maysville",
+    "score1": null,
+    "team2": "Milan",
+    "score2": null
+  },
+  {
+    "date": "2026-09-25",
     "team1": "Pierce City",
     "score1": null,
     "team2": "Miller",
@@ -4600,9 +4712,23 @@
   },
   {
     "date": "2026-09-25",
+    "team1": "Principia",
+    "score1": null,
+    "team2": "Salisbury",
+    "score2": null
+  },
+  {
+    "date": "2026-09-25",
     "team1": "Fox",
     "score1": null,
     "team2": "Seckman",
+    "score2": null
+  },
+  {
+    "date": "2026-09-25",
+    "team1": "Miller Career Academy with Sumner",
+    "score1": null,
+    "team2": "Sikeston",
     "score2": null
   },
   {
@@ -4694,6 +4820,13 @@
     "team1": "Pacific",
     "score1": null,
     "team2": "Sullivan",
+    "score2": null
+  },
+  {
+    "date": "2026-09-25",
+    "team1": "South Callaway",
+    "score1": null,
+    "team2": "Tipton with Bunceton",
     "score2": null
   },
   {
@@ -4820,6 +4953,20 @@
     "team1": "Mark Twain",
     "score1": null,
     "team2": "Wright City",
+    "score2": null
+  },
+  {
+    "date": "2026-09-26",
+    "team1": "Confluence Prep Academy Charter",
+    "score1": null,
+    "team2": "Gateway with Soldan International Studies",
+    "score2": null
+  },
+  {
+    "date": "2026-09-26",
+    "team1": "East (Kansas City)",
+    "score1": null,
+    "team2": "Hogan Prep Academy Charter",
     "score2": null
   },
   {
@@ -5260,7 +5407,7 @@
     "date": "2026-10-02",
     "team1": "Lexington",
     "score1": null,
-    "team2": "Knob Noster",
+    "team2": "Knob Noster with Leeton",
     "score2": null
   },
   {
@@ -5310,13 +5457,6 @@
     "team1": "Mountain Grove",
     "score1": null,
     "team2": "Liberty (Mountain View)",
-    "score2": null
-  },
-  {
-    "date": "2026-10-02",
-    "team1": "Ft. Zumwalt West",
-    "score1": null,
-    "team2": "Liberty (Wentzville)",
     "score2": null
   },
   {
@@ -5380,6 +5520,13 @@
     "team1": "Benton",
     "score1": null,
     "team2": "Maryville",
+    "score2": null
+  },
+  {
+    "date": "2026-10-02",
+    "team1": "Putnam County",
+    "score1": null,
+    "team2": "Maysville",
     "score2": null
   },
   {
@@ -5513,6 +5660,13 @@
     "team1": "Valle Catholic",
     "score1": null,
     "team2": "Potosi",
+    "score2": null
+  },
+  {
+    "date": "2026-10-02",
+    "team1": "Hayti",
+    "score1": null,
+    "team2": "Principia",
     "score2": null
   },
   {
@@ -5695,6 +5849,13 @@
     "team1": "Cabool",
     "score1": null,
     "team2": "Thayer",
+    "score2": null
+  },
+  {
+    "date": "2026-10-02",
+    "team1": "Harrisburg",
+    "score1": null,
+    "team2": "Tipton with Bunceton",
     "score2": null
   },
   {
@@ -5986,6 +6147,13 @@
   },
   {
     "date": "2026-10-09",
+    "team1": "Miller Career Academy with Sumner",
+    "score1": null,
+    "team2": "Cassville",
+    "score2": null
+  },
+  {
+    "date": "2026-10-09",
     "team1": "Jackson",
     "score1": null,
     "team2": "Central (Cape Girardeau)",
@@ -6024,6 +6192,13 @@
     "team1": "Centralia",
     "score1": null,
     "team2": "Clark County",
+    "score2": null
+  },
+  {
+    "date": "2026-10-09",
+    "team1": "Lutheran St. Charles",
+    "score1": null,
+    "team2": "Confluence Prep Academy Charter",
     "score2": null
   },
   {
@@ -6077,6 +6252,13 @@
   },
   {
     "date": "2026-10-09",
+    "team1": "Tipton with Bunceton",
+    "score1": null,
+    "team2": "Fayette",
+    "score2": null
+  },
+  {
+    "date": "2026-10-09",
     "team1": "Hannibal",
     "score1": null,
     "team2": "Festus",
@@ -6122,6 +6304,13 @@
     "team1": "Blair Oaks",
     "score1": null,
     "team2": "Fulton",
+    "score2": null
+  },
+  {
+    "date": "2026-10-09",
+    "team1": "Maysville",
+    "score1": null,
+    "team2": "Gallatin with Tri-County",
     "score2": null
   },
   {
@@ -6217,7 +6406,7 @@
   },
   {
     "date": "2026-10-09",
-    "team1": "Knob Noster",
+    "team1": "Knob Noster with Leeton",
     "score1": null,
     "team2": "Lafayette County",
     "score2": null
@@ -6581,6 +6770,13 @@
   },
   {
     "date": "2026-10-09",
+    "team1": "East (Kansas City)",
+    "score1": null,
+    "team2": "Ruskin",
+    "score2": null
+  },
+  {
+    "date": "2026-10-09",
     "team1": "Linn",
     "score1": null,
     "team2": "Sarcoxie",
@@ -6644,13 +6840,6 @@
   },
   {
     "date": "2026-10-09",
-    "team1": "Northeast (Kansas City)",
-    "score1": null,
-    "team2": "Southeast",
-    "score2": null
-  },
-  {
-    "date": "2026-10-09",
     "team1": "Eldon",
     "score1": null,
     "team2": "Southern Boone",
@@ -6693,7 +6882,7 @@
   },
   {
     "date": "2026-10-09",
-    "team1": "Cuba",
+    "team1": "Cuba with Steelville",
     "score1": null,
     "team2": "St. Vincent",
     "score2": null
@@ -6766,6 +6955,13 @@
     "team1": "Summit Christian Academy",
     "score1": null,
     "team2": "Van Horn",
+    "score2": null
+  },
+  {
+    "date": "2026-10-09",
+    "team1": "Principia",
+    "score1": null,
+    "team2": "Veritas Christian Academy",
     "score2": null
   },
   {
@@ -6882,7 +7078,7 @@
   },
   {
     "date": "2026-10-16",
-    "team1": "Cuba",
+    "team1": "Cuba with Steelville",
     "score1": null,
     "team2": "Bayless with Hancock",
     "score2": null
@@ -6959,13 +7155,6 @@
   },
   {
     "date": "2026-10-16",
-    "team1": "Southeast",
-    "score1": null,
-    "team2": "Central (Kansas City)",
-    "score2": null
-  },
-  {
-    "date": "2026-10-16",
     "team1": "Grain Valley",
     "score1": null,
     "team2": "Central (St. Joseph)",
@@ -7008,6 +7197,13 @@
   },
   {
     "date": "2026-10-16",
+    "team1": "Northeast (Kansas City)",
+    "score1": null,
+    "team2": "East (Kansas City)",
+    "score2": null
+  },
+  {
+    "date": "2026-10-16",
     "team1": "West Platte",
     "score1": null,
     "team2": "East Buchanan",
@@ -7039,6 +7235,13 @@
     "team1": "Blair Oaks",
     "score1": null,
     "team2": "Eldon",
+    "score2": null
+  },
+  {
+    "date": "2026-10-16",
+    "team1": "Miller Career Academy with Sumner",
+    "score1": null,
+    "team2": "Excelsior Springs",
     "score2": null
   },
   {
@@ -7234,7 +7437,7 @@
     "date": "2026-10-16",
     "team1": "Richmond",
     "score1": null,
-    "team2": "Knob Noster",
+    "team2": "Knob Noster with Leeton",
     "score2": null
   },
   {
@@ -7295,6 +7498,13 @@
   },
   {
     "date": "2026-10-16",
+    "team1": "Tipton with Bunceton",
+    "score1": null,
+    "team2": "Linn",
+    "score2": null
+  },
+  {
+    "date": "2026-10-16",
     "team1": "Kirksville",
     "score1": null,
     "team2": "Macon",
@@ -7326,6 +7536,13 @@
     "team1": "Logan-Rogersville",
     "score1": null,
     "team2": "Marshfield",
+    "score2": null
+  },
+  {
+    "date": "2026-10-16",
+    "team1": "Trenton",
+    "score1": null,
+    "team2": "Maysville",
     "score2": null
   },
   {
@@ -7813,13 +8030,6 @@
   },
   {
     "date": "2026-10-17",
-    "team1": "Southeast",
-    "score1": null,
-    "team2": "Central (Kansas City)",
-    "score2": null
-  },
-  {
-    "date": "2026-10-17",
     "team1": "Normandy Collaborative",
     "score1": null,
     "team2": "Clayton with Brentwood",
@@ -7851,6 +8061,20 @@
     "team1": "Herculaneum",
     "score1": null,
     "team2": "Perryville",
+    "score2": null
+  },
+  {
+    "date": "2026-10-17",
+    "team1": "Kelly",
+    "score1": null,
+    "team2": "Principia",
+    "score2": null
+  },
+  {
+    "date": "2026-10-17",
+    "team1": "Confluence Prep Academy Charter",
+    "score1": null,
+    "team2": "Priory",
     "score2": null
   },
   {
@@ -8037,6 +8261,13 @@
   },
   {
     "date": "2026-10-23",
+    "team1": "Miller Career Academy with Sumner",
+    "score1": null,
+    "team2": "Capital City",
+    "score2": null
+  },
+  {
+    "date": "2026-10-23",
     "team1": "Hillcrest",
     "score1": null,
     "team2": "Carl Junction",
@@ -8109,7 +8340,7 @@
     "date": "2026-10-23",
     "team1": "Perryville",
     "score1": null,
-    "team2": "Cuba",
+    "team2": "Cuba with Steelville",
     "score2": null
   },
   {
@@ -8138,6 +8369,13 @@
     "team1": "Malden",
     "score1": null,
     "team2": "Doniphan",
+    "score2": null
+  },
+  {
+    "date": "2026-10-23",
+    "team1": "Central (Kansas City)",
+    "score1": null,
+    "team2": "East (Kansas City)",
     "score2": null
   },
   {
@@ -8319,7 +8557,7 @@
     "date": "2026-10-23",
     "team1": "Holden",
     "score1": null,
-    "team2": "Knob Noster",
+    "team2": "Knob Noster with Leeton",
     "score2": null
   },
   {
@@ -8667,6 +8905,13 @@
   },
   {
     "date": "2026-10-23",
+    "team1": "Maysville",
+    "score1": null,
+    "team2": "South Harrison",
+    "score2": null
+  },
+  {
+    "date": "2026-10-23",
     "team1": "Strafford",
     "score1": null,
     "team2": "Springfield Catholic",
@@ -8744,6 +8989,13 @@
   },
   {
     "date": "2026-10-23",
+    "team1": "Sarcoxie",
+    "score1": null,
+    "team2": "Tipton with Bunceton",
+    "score2": null
+  },
+  {
+    "date": "2026-10-23",
     "team1": "Gallatin with Tri-County",
     "score1": null,
     "team2": "Trenton",
@@ -8807,6 +9059,13 @@
   },
   {
     "date": "2026-10-23",
+    "team1": "Confluence Prep Academy Charter",
+    "score1": null,
+    "team2": "Windsor (Imperial)",
+    "score2": null
+  },
+  {
+    "date": "2026-10-23",
     "team1": "Smithville",
     "score1": null,
     "team2": "Winnetonka",
@@ -8824,6 +9083,13 @@
     "team1": "Lone Jack with Kingsville",
     "score1": null,
     "team2": "Hogan Prep Academy Charter",
+    "score2": null
+  },
+  {
+    "date": "2026-10-24",
+    "team1": "Principia",
+    "score1": null,
+    "team2": "John Burroughs",
     "score2": null
   },
   {
