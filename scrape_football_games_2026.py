@@ -32,6 +32,25 @@ This version:
      a schedule that's mostly in the future. Dates with nothing posted
      yet just return 0 games, same as any other empty day.
  
+DISTRICT POINTS CALCULATOR SUPPORT (new)
+-----------------------------------------
+The District Points Calculator page needs to know, per game, whether it
+went to overtime and whether it was decided by forfeit -- both feed
+directly into the scoring formula. Two changes support that:
+  5. Forfeited games are no longer dropped. is_forfeit() still detects
+     them the same way as before; the result is now stored as a
+     "forfeit" boolean on the game instead of being used to discard it.
+  6. A new is_overtime() check looks for "overtime"/"OT" in the game's
+     row text and stores it as an "overtime" boolean.
+  NOTE: is_overtime()'s text match is a first pass, unverified against
+  a real OT game on the live scoreboard (this environment can't reach
+  mshsaa.org to check). Also note neither flag says WHICH team forfeited
+  or lost in OT -- that's derived downstream by comparing score1/score2
+  once known. Spot-check the first few forfeit/OT games each week against
+  the live scoreboard and tell me if the wording differs from what
+  is_overtime() looks for, or if a forfeit's score pattern needs
+  special-casing (e.g. a 1-0 placeholder score).
+ 
 REQUIRES (same as your existing pipeline, must be in the same directory
 or update the paths below):
   - classifications.json  (2026-27 projected classifications)
@@ -225,6 +244,18 @@ def is_forfeit(row1, row2):
     return "forfeit" in (row1.get_text() + row2.get_text()).lower()
  
  
+def is_overtime(row1, row2):
+    """
+    First-pass OT detection: looks for "overtime" or a standalone "OT"
+    token in the game's row text (e.g. a "Final/OT" status flag some
+    scoreboards use). UNVERIFIED against a real MSHSAA OT game -- confirm
+    the actual wording once a live OT game shows up and adjust the regex
+    if needed.
+    """
+    text = row1.get_text() + " " + row2.get_text()
+    return bool(re.search(r"overtime|\bOT\b", text, re.IGNORECASE))
+ 
+ 
 def scrape_date(target_date, id_to_classname, known_teams, session):
     """
     Generalized version of football_ratings_2025.py's scrape_date():
@@ -281,8 +312,6 @@ def scrape_date(target_date, id_to_classname, known_teams, session):
         (name1, s1, row1), (name2, s2, row2) = team_rows
         if name1 == name2:
             continue
-        if is_forfeit(row1, row2):
-            continue
  
         games.append({
             "date": target_date.strftime("%Y-%m-%d"),
@@ -290,6 +319,8 @@ def scrape_date(target_date, id_to_classname, known_teams, session):
             "score1": s1,
             "team2": name2,
             "score2": s2,
+            "forfeit": is_forfeit(row1, row2),
+            "overtime": is_overtime(row1, row2),
         })
  
     return games, None
@@ -365,9 +396,10 @@ def save_json(all_games, path=OUTPUT_JSON):
 def save_csv(all_games, path=OUTPUT_CSV):
     with open(path, "w", newline="") as f:
         writer = csv.writer(f)
-        writer.writerow(["date", "team1", "score1", "team2", "score2"])
+        writer.writerow(["date", "team1", "score1", "team2", "score2", "forfeit", "overtime"])
         for g in all_games:
-            writer.writerow([g["date"], g["team1"], g["score1"], g["team2"], g["score2"]])
+            writer.writerow([g["date"], g["team1"], g["score1"], g["team2"], g["score2"],
+                              g["forfeit"], g["overtime"]])
     print(f"Saved {len(all_games)} games to {path}")
  
  
