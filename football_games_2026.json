@@ -1,6 +1,15 @@
 [
   {
     "date": "2026-08-27",
+    "team1": "Diamond",
+    "score1": 14,
+    "team2": "Buffalo",
+    "score2": 55,
+    "forfeit": false,
+    "overtime": false
+  },
+  {
+    "date": "2026-08-27",
     "team1": "Orchard Farm",
     "score1": 22,
     "team2": "Ft. Zumwalt South",
@@ -41,15 +50,6 @@
     "score1": 21,
     "team2": "Parkway West",
     "score2": 24,
-    "forfeit": false,
-    "overtime": false
-  },
-  {
-    "date": "2026-08-27",
-    "team1": "Diamond",
-    "score1": null,
-    "team2": "Buffalo",
-    "score2": null,
     "forfeit": false,
     "overtime": false
   },
@@ -122,6 +122,15 @@
     "score1": 66,
     "team2": "Cabool",
     "score2": 0,
+    "forfeit": false,
+    "overtime": false
+  },
+  {
+    "date": "2026-08-28",
+    "team1": "Lutheran North",
+    "score1": 18,
+    "team2": "Cardinal Ritter",
+    "score2": 30,
     "forfeit": false,
     "overtime": false
   },
@@ -694,6 +703,15 @@
   },
   {
     "date": "2026-08-28",
+    "team1": "Bolivar",
+    "score1": 41,
+    "team2": "Osage",
+    "score2": 6,
+    "forfeit": false,
+    "overtime": false
+  },
+  {
+    "date": "2026-08-28",
     "team1": "Eldon",
     "score1": 27,
     "team2": "Owensville",
@@ -1162,15 +1180,6 @@
   },
   {
     "date": "2026-08-28",
-    "team1": "Lutheran North",
-    "score1": null,
-    "team2": "Cardinal Ritter",
-    "score2": null,
-    "forfeit": false,
-    "overtime": false
-  },
-  {
-    "date": "2026-08-28",
     "team1": "St. Charles West",
     "score1": null,
     "team2": "Clayton with Brentwood",
@@ -1210,15 +1219,6 @@
     "team1": "West Plains",
     "score1": null,
     "team2": "Miller Career Academy with Sumner",
-    "score2": null,
-    "forfeit": false,
-    "overtime": false
-  },
-  {
-    "date": "2026-08-28",
-    "team1": "Bolivar",
-    "score1": null,
-    "team2": "Osage",
     "score2": null,
     "forfeit": false,
     "overtime": false

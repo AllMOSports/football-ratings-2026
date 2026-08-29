@@ -1,6 +1,17 @@
 [
   {
     "date": "2026-08-27",
+    "team1": "Diamond",
+    "team1_classified": true,
+    "score1": 14,
+    "team2": "Buffalo",
+    "team2_classified": true,
+    "score2": 55,
+    "forfeit": false,
+    "overtime": false
+  },
+  {
+    "date": "2026-08-27",
     "team1": "Orchard Farm",
     "team1_classified": true,
     "score1": 22,
@@ -51,17 +62,6 @@
     "team2": "Parkway West",
     "team2_classified": true,
     "score2": 24,
-    "forfeit": false,
-    "overtime": false
-  },
-  {
-    "date": "2026-08-27",
-    "team1": "Diamond",
-    "team1_classified": true,
-    "score1": null,
-    "team2": "Buffalo",
-    "team2_classified": true,
-    "score2": null,
     "forfeit": false,
     "overtime": false
   },
@@ -150,6 +150,17 @@
     "team2": "Cabool",
     "team2_classified": true,
     "score2": 0,
+    "forfeit": false,
+    "overtime": false
+  },
+  {
+    "date": "2026-08-28",
+    "team1": "Lutheran North",
+    "team1_classified": true,
+    "score1": 18,
+    "team2": "Cardinal Ritter",
+    "team2_classified": true,
+    "score2": 30,
     "forfeit": false,
     "overtime": false
   },
@@ -848,6 +859,17 @@
   },
   {
     "date": "2026-08-28",
+    "team1": "Bolivar",
+    "team1_classified": true,
+    "score1": 41,
+    "team2": "Osage",
+    "team2_classified": true,
+    "score2": 6,
+    "forfeit": false,
+    "overtime": false
+  },
+  {
+    "date": "2026-08-28",
     "team1": "Eldon",
     "team1_classified": true,
     "score1": 27,
@@ -1431,17 +1453,6 @@
   },
   {
     "date": "2026-08-28",
-    "team1": "Lutheran North",
-    "team1_classified": true,
-    "score1": null,
-    "team2": "Cardinal Ritter",
-    "team2_classified": true,
-    "score2": null,
-    "forfeit": false,
-    "overtime": false
-  },
-  {
-    "date": "2026-08-28",
     "team1": "St. Charles West",
     "team1_classified": true,
     "score1": null,
@@ -1490,17 +1501,6 @@
     "team1_classified": true,
     "score1": null,
     "team2": "Miller Career Academy with Sumner",
-    "team2_classified": true,
-    "score2": null,
-    "forfeit": false,
-    "overtime": false
-  },
-  {
-    "date": "2026-08-28",
-    "team1": "Bolivar",
-    "team1_classified": true,
-    "score1": null,
-    "team2": "Osage",
     "team2_classified": true,
     "score2": null,
     "forfeit": false,

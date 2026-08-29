@@ -1,10 +1,10 @@
 date,team1,team1_classified,score1,team2,team2_classified,score2,forfeit,overtime
+2026-08-27,Diamond,True,14,Buffalo,True,55,False,False
 2026-08-27,Orchard Farm,True,22,Ft. Zumwalt South,True,14,False,False
 2026-08-27,Vianney,True,35,Lindbergh,True,23,False,False
 2026-08-27,Confluence Prep Academy Charter,True,0,Normandy Collaborative,True,49,False,False
 2026-08-27,Hogan Prep Academy Charter,True,48,Northeast (Kansas City),True,8,False,False
 2026-08-27,Parkway North,True,21,Parkway West,True,24,False,False
-2026-08-27,Diamond,True,,Buffalo,True,,False,False
 2026-08-28,Willow Springs,True,22,Ash Grove,True,24,False,False
 2026-08-28,Lamar,True,49,Aurora,True,13,False,False
 2026-08-28,Grandview,True,41,Battle,True,6,False,False
@@ -13,6 +13,7 @@ date,team1,team1_classified,score1,team2,team2_classified,score2,forfeit,overtim
 2026-08-28,Excelsior Springs,True,22,Boonville,True,54,False,False
 2026-08-28,Adrian,True,27,Butler,True,26,False,False
 2026-08-28,Miller,True,66,Cabool,True,0,False,False
+2026-08-28,Lutheran North,True,18,Cardinal Ritter,True,30,False,False
 2026-08-28,Fayette,True,0,Carrollton,True,42,False,False
 2026-08-28,Monett,True,18,Cassville,True,47,False,False
 2026-08-28,Liberty (Wentzville),True,3,Central (Cape Girardeau),True,17,False,False
@@ -76,6 +77,7 @@ date,team1,team1_classified,score1,team2,team2_classified,score2,forfeit,overtim
 2026-08-28,Hogan Prep Academy Charter,True,48,Northeast (Kansas City),True,8,False,False
 2026-08-28,Fort Osage,True,34,Oak Park,True,44,False,False
 2026-08-28,Cameron,True,12,Odessa,True,58,False,False
+2026-08-28,Bolivar,True,41,Osage,True,6,False,False
 2026-08-28,Eldon,True,27,Owensville,True,23,False,False
 2026-08-28,Neosho,True,49,Ozark,True,23,False,False
 2026-08-28,St. Francis Borgia,True,41,Pacific,True,14,False,False
@@ -129,13 +131,11 @@ date,team1,team1_classified,score1,team2,team2_classified,score2,forfeit,overtim
 2026-08-28,Maysville,True,6,West Platte,True,35,False,False
 2026-08-28,Holt,True,21,Westminster Christian Academy,True,37,False,False
 2026-08-28,Crystal City,True,12,Winfield,True,49,False,False
-2026-08-28,Lutheran North,True,,Cardinal Ritter,True,,False,False
 2026-08-28,St. Charles West,True,,Clayton with Brentwood,True,,False,False
 2026-08-28,Orchard Farm,True,,Ft. Zumwalt South,True,,False,False
 2026-08-28,John Burroughs,True,,Jennings,True,,False,False
 2026-08-28,University Academy Charter,True,,Lincoln College Prep,True,,False,False
 2026-08-28,West Plains,True,,Miller Career Academy with Sumner,True,,False,False
-2026-08-28,Bolivar,True,,Osage,True,,False,False
 2026-08-28,Raytown South,True,,William Chrisman,True,,False,False
 2026-08-29,Lathrop,True,,Central (Kansas City),True,,False,False
 2026-08-29,McCluer,True,,Gateway with Soldan International Studies,True,,False,False
