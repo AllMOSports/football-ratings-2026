@@ -21,6 +21,7 @@ date,team1,score1,team2,score2,forfeit,overtime
 2026-08-28,Staley,31,Central (St. Joseph),12,False,False
 2026-08-28,Palmyra,13,Chillicothe,18,False,False
 2026-08-28,Bowling Green,47,Clark County,12,False,False
+2026-08-28,St. Charles West,62,Clayton with Brentwood,16,False,False
 2026-08-28,Lift for Life Academy Charter,0,De Smet Jesuit,20,False,False
 2026-08-28,St. Vincent,14,DeSoto with Kingston,7,False,False
 2026-08-28,Marshall,43,East (Kansas City),0,False,False
@@ -130,7 +131,6 @@ date,team1,score1,team2,score2,forfeit,overtime
 2026-08-28,Maysville,6,West Platte,35,False,False
 2026-08-28,Holt,21,Westminster Christian Academy,37,False,False
 2026-08-28,Crystal City,12,Winfield,49,False,False
-2026-08-28,St. Charles West,,Clayton with Brentwood,,False,False
 2026-08-28,Orchard Farm,,Ft. Zumwalt South,,False,False
 2026-08-28,John Burroughs,,Jennings,,False,False
 2026-08-28,University Academy Charter,,Lincoln College Prep,,False,False

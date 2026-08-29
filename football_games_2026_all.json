@@ -243,6 +243,17 @@
   },
   {
     "date": "2026-08-28",
+    "team1": "St. Charles West",
+    "team1_classified": true,
+    "score1": 62,
+    "team2": "Clayton with Brentwood",
+    "team2_classified": true,
+    "score2": 16,
+    "forfeit": false,
+    "overtime": false
+  },
+  {
+    "date": "2026-08-28",
     "team1": "Lift for Life Academy Charter",
     "team1_classified": true,
     "score1": 0,
@@ -1448,17 +1459,6 @@
     "team2": "Winfield",
     "team2_classified": true,
     "score2": 49,
-    "forfeit": false,
-    "overtime": false
-  },
-  {
-    "date": "2026-08-28",
-    "team1": "St. Charles West",
-    "team1_classified": true,
-    "score1": null,
-    "team2": "Clayton with Brentwood",
-    "team2_classified": true,
-    "score2": null,
     "forfeit": false,
     "overtime": false
   },

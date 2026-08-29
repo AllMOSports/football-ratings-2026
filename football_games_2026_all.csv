@@ -21,6 +21,7 @@ date,team1,team1_classified,score1,team2,team2_classified,score2,forfeit,overtim
 2026-08-28,Staley,True,31,Central (St. Joseph),True,12,False,False
 2026-08-28,Palmyra,True,13,Chillicothe,True,18,False,False
 2026-08-28,Bowling Green,True,47,Clark County,True,12,False,False
+2026-08-28,St. Charles West,True,62,Clayton with Brentwood,True,16,False,False
 2026-08-28,Lift for Life Academy Charter,True,0,De Smet Jesuit,True,20,False,False
 2026-08-28,St. Vincent,True,14,DeSoto with Kingston,True,7,False,False
 2026-08-28,Marshall,True,43,East (Kansas City),True,0,False,False
@@ -131,7 +132,6 @@ date,team1,team1_classified,score1,team2,team2_classified,score2,forfeit,overtim
 2026-08-28,Maysville,True,6,West Platte,True,35,False,False
 2026-08-28,Holt,True,21,Westminster Christian Academy,True,37,False,False
 2026-08-28,Crystal City,True,12,Winfield,True,49,False,False
-2026-08-28,St. Charles West,True,,Clayton with Brentwood,True,,False,False
 2026-08-28,Orchard Farm,True,,Ft. Zumwalt South,True,,False,False
 2026-08-28,John Burroughs,True,,Jennings,True,,False,False
 2026-08-28,University Academy Charter,True,,Lincoln College Prep,True,,False,False
