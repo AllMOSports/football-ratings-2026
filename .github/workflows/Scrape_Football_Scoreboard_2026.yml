@@ -40,10 +40,21 @@ jobs:
       - name: Run scraper
         run: python scrape_football_games_2026.py
  
+      # Rebuilds football_schedule_2026.json (the per-team keyed format
+      # the Sport Detail snippet's SCHEDULE_URLS reads) from whatever
+      # scrape_football_games_2026.py just wrote to
+      # football_games_2026_all.json. Runs every time this job runs --
+      # cheap, and keeps the two files from ever drifting out of sync.
+      # See build_football_schedule_2026.py's own docstring for what it
+      # does and doesn't populate (no predicted scores/deltas until
+      # football_ratings_2026.json exists after Week 3).
+      - name: Rebuild per-team schedule file
+        run: python build_football_schedule_2026.py football_games_2026_all.json football_schedule_2026.json
+ 
       - name: Commit and push results
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add football_games_2026.json football_games_2026.csv football_games_2026_all.json football_games_2026_all.csv
+          git add football_games_2026.json football_games_2026.csv football_games_2026_all.json football_games_2026_all.csv football_schedule_2026.json
           git diff --cached --quiet && echo "No changes to commit" || git commit -m "Update 2026 football games [automated]"
           git push
