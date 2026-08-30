@@ -1,0 +1,45 @@
+name: Build District Points (2026)
+ 
+# Runs automatically whenever football_games_2026_all.json or
+# classifications.json change in this repo -- which happens right after
+# the local scraper (Task Scheduler) pushes new results. No MSHSAA
+# access here, so this is safe to run on GitHub-hosted runners even
+# though the scraper itself had to move local.
+ 
+on:
+  push:
+    paths:
+      - 'football_games_2026_all.json'
+      - 'classifications.json'
+  workflow_dispatch:   # manual trigger from the Actions tab, for testing
+ 
+permissions:
+  contents: write
+ 
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5   # pure local computation, should finish in seconds
+ 
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+ 
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+ 
+      # No pip install step needed -- build_district_points.py only
+      # uses the standard library (json, collections).
+ 
+      - name: Run aggregation script
+        run: python build_district_points.py
+ 
+      - name: Commit and push results
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add district_points_2026.json
+          git diff --cached --quiet && echo "No changes to commit" || git commit -m "Update district points [automated]"
+          git push
