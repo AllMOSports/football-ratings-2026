@@ -82,7 +82,7 @@
   },
   {
     "date": "2026-08-28",
-    "team1": "Versailles",
+    "team1": "Van Horn",
     "score1": 14,
     "team2": "Benton",
     "score2": 30,
@@ -219,7 +219,7 @@
     "date": "2026-08-28",
     "team1": "St. Vincent",
     "score1": 14,
-    "team2": "DeSoto",
+    "team2": "DeSoto with Kingston",
     "score2": 7,
     "forfeit": false,
     "overtime": false
@@ -237,7 +237,7 @@
     "date": "2026-08-28",
     "team1": "Marceline",
     "score1": 13,
-    "team2": "Father Tolton",
+    "team2": "Father Tolton with Calvary Lutheran",
     "score2": 42,
     "forfeit": false,
     "overtime": false
@@ -523,7 +523,7 @@
   },
   {
     "date": "2026-08-28",
-    "team1": "Seneca",
+    "team1": "Scott City",
     "score1": 15,
     "team2": "Liberty (Mountain View)",
     "score2": 50,
@@ -532,7 +532,7 @@
   },
   {
     "date": "2026-08-28",
-    "team1": "University Academy Charter with Ewing Marion Kauffman",
+    "team1": "University Academy Charter",
     "score1": 7,
     "team2": "Lincoln College Prep",
     "score2": 10,
@@ -883,7 +883,7 @@
   },
   {
     "date": "2026-08-28",
-    "team1": "St. Charles",
+    "team1": "Truman",
     "score1": 0,
     "team2": "Raytown",
     "score2": 71,
@@ -993,7 +993,7 @@
     "date": "2026-08-28",
     "team1": "Versailles",
     "score1": 0,
-    "team2": "South Shelby",
+    "team2": "Skyline",
     "score2": 37,
     "forfeit": false,
     "overtime": false
@@ -1083,7 +1083,7 @@
     "date": "2026-08-28",
     "team1": "El Dorado Springs",
     "score1": 2,
-    "team2": "Stockton with Sheldon",
+    "team2": "Stockton",
     "score2": 38,
     "forfeit": false,
     "overtime": false
@@ -1101,7 +1101,7 @@
     "date": "2026-08-28",
     "team1": "Rolla",
     "score1": 20,
-    "team2": "Webb City",
+    "team2": "Sullivan",
     "score2": 50,
     "forfeit": false,
     "overtime": false
@@ -1146,14 +1146,14 @@
     "date": "2026-08-28",
     "team1": "Westran",
     "score1": 32,
-    "team2": "Van-Far",
+    "team2": "Van-Far with Community",
     "score2": 14,
     "forfeit": false,
     "overtime": false
   },
   {
     "date": "2026-08-28",
-    "team1": "Savannah",
+    "team1": "Smith-Cotton",
     "score1": 21,
     "team2": "Warrensburg",
     "score2": 32,
@@ -1272,7 +1272,7 @@
     "date": "2026-09-03",
     "team1": "Perryville",
     "score1": null,
-    "team2": "DeSoto",
+    "team2": "DeSoto with Kingston",
     "score2": null,
     "forfeit": false,
     "overtime": false
@@ -1495,7 +1495,7 @@
   },
   {
     "date": "2026-09-04",
-    "team1": "Versailles",
+    "team1": "Van Horn",
     "score1": null,
     "team2": "Center",
     "score2": null,
@@ -1540,7 +1540,7 @@
   },
   {
     "date": "2026-09-04",
-    "team1": "Stockton with Sheldon",
+    "team1": "Stockton",
     "score1": null,
     "team2": "Clever",
     "score2": null,
@@ -1578,7 +1578,7 @@
     "date": "2026-09-04",
     "team1": "Perryville",
     "score1": null,
-    "team2": "DeSoto",
+    "team2": "DeSoto with Kingston",
     "score2": null,
     "forfeit": false,
     "overtime": false
@@ -1675,7 +1675,7 @@
   },
   {
     "date": "2026-09-04",
-    "team1": "Webb City",
+    "team1": "Sullivan",
     "score1": null,
     "team2": "Farmington",
     "score2": null,
@@ -1686,7 +1686,7 @@
     "date": "2026-09-04",
     "team1": "St. Clair",
     "score1": null,
-    "team2": "Father Tolton",
+    "team2": "Father Tolton with Calvary Lutheran",
     "score2": null,
     "forfeit": false,
     "overtime": false
@@ -1909,7 +1909,7 @@
   },
   {
     "date": "2026-09-04",
-    "team1": "University Academy Charter with Ewing Marion Kauffman",
+    "team1": "University Academy Charter",
     "score1": null,
     "team2": "Lone Jack with Kingsville",
     "score2": null,
@@ -2224,7 +2224,7 @@
   },
   {
     "date": "2026-09-04",
-    "team1": "Van-Far",
+    "team1": "Van-Far with Community",
     "score1": null,
     "team2": "Sarcoxie",
     "score2": null,
@@ -2262,7 +2262,7 @@
     "date": "2026-09-04",
     "team1": "Kelly",
     "score1": null,
-    "team2": "Seneca",
+    "team2": "Scott City",
     "score2": null,
     "forfeit": false,
     "overtime": false
@@ -2280,7 +2280,7 @@
     "date": "2026-09-04",
     "team1": "Rock Bridge",
     "score1": null,
-    "team2": "Savannah",
+    "team2": "Smith-Cotton",
     "score2": null,
     "forfeit": false,
     "overtime": false
@@ -2334,7 +2334,7 @@
     "date": "2026-09-04",
     "team1": "Festus",
     "score1": null,
-    "team2": "Webster Groves",
+    "team2": "St. Mary's South Side",
     "score2": null,
     "forfeit": false,
     "overtime": false
@@ -2397,7 +2397,7 @@
     "date": "2026-09-04",
     "team1": "William Chrisman",
     "score1": null,
-    "team2": "St. Charles",
+    "team2": "Truman",
     "score2": null,
     "forfeit": false,
     "overtime": false
@@ -2449,7 +2449,7 @@
   },
   {
     "date": "2026-09-04",
-    "team1": "South Shelby",
+    "team1": "Skyline",
     "score1": null,
     "team2": "Willow Springs",
     "score2": null,
@@ -2638,7 +2638,7 @@
   },
   {
     "date": "2026-09-11",
-    "team1": "Stockton with Sheldon",
+    "team1": "Stockton",
     "score1": null,
     "team2": "Ash Grove",
     "score2": null,
@@ -2728,7 +2728,7 @@
   },
   {
     "date": "2026-09-11",
-    "team1": "Savannah",
+    "team1": "Smith-Cotton",
     "score1": null,
     "team2": "Camdenton",
     "score2": null,
@@ -3295,7 +3295,7 @@
   },
   {
     "date": "2026-09-11",
-    "team1": "DeSoto",
+    "team1": "DeSoto with Kingston",
     "score1": null,
     "team2": "North County",
     "score2": null,
@@ -3459,7 +3459,7 @@
     "date": "2026-09-11",
     "team1": "Caruthersville",
     "score1": null,
-    "team2": "Seneca",
+    "team2": "Scott City",
     "score2": null,
     "forfeit": false,
     "overtime": false
@@ -3486,7 +3486,7 @@
     "date": "2026-09-11",
     "team1": "Marionville",
     "score1": null,
-    "team2": "South Shelby",
+    "team2": "Skyline",
     "score2": null,
     "forfeit": false,
     "overtime": false
@@ -3576,7 +3576,7 @@
     "date": "2026-09-11",
     "team1": "St. James",
     "score1": null,
-    "team2": "Webb City",
+    "team2": "Sullivan",
     "score2": null,
     "forfeit": false,
     "overtime": false
@@ -3637,9 +3637,9 @@
   },
   {
     "date": "2026-09-11",
-    "team1": "St. Charles",
+    "team1": "Truman",
     "score1": null,
-    "team2": "Versailles",
+    "team2": "Van Horn",
     "score2": null,
     "forfeit": false,
     "overtime": false
@@ -3648,7 +3648,7 @@
     "date": "2026-09-11",
     "team1": "Louisiana",
     "score1": null,
-    "team2": "Van-Far",
+    "team2": "Van-Far with Community",
     "score2": null,
     "forfeit": false,
     "overtime": false
@@ -3790,9 +3790,9 @@
   },
   {
     "date": "2026-09-12",
-    "team1": "Father Tolton",
+    "team1": "Father Tolton with Calvary Lutheran",
     "score1": null,
-    "team2": "University Academy Charter with Ewing Marion Kauffman",
+    "team2": "University Academy Charter",
     "score2": null,
     "forfeit": false,
     "overtime": false
@@ -4006,7 +4006,7 @@
   },
   {
     "date": "2026-09-18",
-    "team1": "Seneca",
+    "team1": "Scott City",
     "score1": null,
     "team2": "Charleston",
     "score2": null,
@@ -4114,7 +4114,7 @@
   },
   {
     "date": "2026-09-18",
-    "team1": "DeSoto",
+    "team1": "DeSoto with Kingston",
     "score1": null,
     "team2": "Festus",
     "score2": null,
@@ -4303,7 +4303,7 @@
   },
   {
     "date": "2026-09-18",
-    "team1": "Webster Groves",
+    "team1": "St. Mary's South Side",
     "score1": null,
     "team2": "Jackson",
     "score2": null,
@@ -4321,7 +4321,7 @@
   },
   {
     "date": "2026-09-18",
-    "team1": "Savannah",
+    "team1": "Smith-Cotton",
     "score1": null,
     "team2": "Jefferson City",
     "score2": null,
@@ -4483,7 +4483,7 @@
   },
   {
     "date": "2026-09-18",
-    "team1": "Van-Far",
+    "team1": "Van-Far with Community",
     "score1": null,
     "team2": "Mark Twain",
     "score2": null,
@@ -4627,7 +4627,7 @@
   },
   {
     "date": "2026-09-18",
-    "team1": "Webb City",
+    "team1": "Sullivan",
     "score1": null,
     "team2": "Owensville",
     "score2": null,
@@ -4717,7 +4717,7 @@
   },
   {
     "date": "2026-09-18",
-    "team1": "South Shelby",
+    "team1": "Skyline",
     "score1": null,
     "team2": "Pierce City",
     "score2": null,
@@ -4953,14 +4953,14 @@
     "date": "2026-09-18",
     "team1": "Marionville",
     "score1": null,
-    "team2": "Stockton with Sheldon",
+    "team2": "Stockton",
     "score2": null,
     "forfeit": false,
     "overtime": false
   },
   {
     "date": "2026-09-18",
-    "team1": "Father Tolton",
+    "team1": "Father Tolton with Calvary Lutheran",
     "score1": null,
     "team2": "Summit Christian Academy",
     "score2": null,
@@ -4980,7 +4980,7 @@
     "date": "2026-09-18",
     "team1": "Ruskin",
     "score1": null,
-    "team2": "St. Charles",
+    "team2": "Truman",
     "score2": null,
     "forfeit": false,
     "overtime": false
@@ -4989,7 +4989,7 @@
     "date": "2026-09-18",
     "team1": "Lincoln College Prep",
     "score1": null,
-    "team2": "Versailles",
+    "team2": "Van Horn",
     "score2": null,
     "forfeit": false,
     "overtime": false
@@ -5097,7 +5097,7 @@
     "date": "2026-09-19",
     "team1": "Benton",
     "score1": null,
-    "team2": "University Academy Charter with Ewing Marion Kauffman",
+    "team2": "University Academy Charter",
     "score2": null,
     "forfeit": false,
     "overtime": false
@@ -5358,7 +5358,7 @@
     "date": "2026-09-25",
     "team1": "Windsor (Imperial)",
     "score1": null,
-    "team2": "DeSoto",
+    "team2": "DeSoto with Kingston",
     "score2": null,
     "forfeit": false,
     "overtime": false
@@ -5527,7 +5527,7 @@
   },
   {
     "date": "2026-09-25",
-    "team1": "Seneca",
+    "team1": "Scott City",
     "score1": null,
     "team2": "Hayti",
     "score2": null,
@@ -6076,9 +6076,9 @@
   },
   {
     "date": "2026-09-25",
-    "team1": "Stockton with Sheldon",
+    "team1": "Stockton",
     "score1": null,
-    "team2": "South Shelby",
+    "team2": "Skyline",
     "score2": null,
     "forfeit": false,
     "overtime": false
@@ -6096,7 +6096,7 @@
     "date": "2026-09-25",
     "team1": "Hickman",
     "score1": null,
-    "team2": "Savannah",
+    "team2": "Smith-Cotton",
     "score2": null,
     "forfeit": false,
     "overtime": false
@@ -6139,7 +6139,7 @@
   },
   {
     "date": "2026-09-25",
-    "team1": "Father Tolton",
+    "team1": "Father Tolton with Calvary Lutheran",
     "score1": null,
     "team2": "St. Francis Borgia",
     "score2": null,
@@ -6186,7 +6186,7 @@
     "date": "2026-09-25",
     "team1": "Pacific",
     "score1": null,
-    "team2": "Webb City",
+    "team2": "Sullivan",
     "score2": null,
     "forfeit": false,
     "overtime": false
@@ -6222,7 +6222,7 @@
     "date": "2026-09-25",
     "team1": "Belton",
     "score1": null,
-    "team2": "St. Charles",
+    "team2": "Truman",
     "score2": null,
     "forfeit": false,
     "overtime": false
@@ -6258,7 +6258,7 @@
     "date": "2026-09-25",
     "team1": "Montgomery County",
     "score1": null,
-    "team2": "Van-Far",
+    "team2": "Van-Far with Community",
     "score2": null,
     "forfeit": false,
     "overtime": false
@@ -6328,7 +6328,7 @@
   },
   {
     "date": "2026-09-25",
-    "team1": "Versailles",
+    "team1": "Van Horn",
     "score1": null,
     "team2": "William Chrisman",
     "score2": null,
@@ -6402,7 +6402,7 @@
     "date": "2026-09-26",
     "team1": "Pembroke Hill",
     "score1": null,
-    "team2": "University Academy Charter with Ewing Marion Kauffman",
+    "team2": "University Academy Charter",
     "score2": null,
     "forfeit": false,
     "overtime": false
@@ -6472,7 +6472,7 @@
   },
   {
     "date": "2026-10-02",
-    "team1": "Savannah",
+    "team1": "Smith-Cotton",
     "score1": null,
     "team2": "Battle",
     "score2": null,
@@ -6652,7 +6652,7 @@
   },
   {
     "date": "2026-10-02",
-    "team1": "Stockton with Sheldon",
+    "team1": "Stockton",
     "score1": null,
     "team2": "Diamond",
     "score2": null,
@@ -6726,7 +6726,7 @@
     "date": "2026-10-02",
     "team1": "Chillicothe",
     "score1": null,
-    "team2": "Father Tolton",
+    "team2": "Father Tolton with Calvary Lutheran",
     "score2": null,
     "forfeit": false,
     "overtime": false
@@ -6751,7 +6751,7 @@
   },
   {
     "date": "2026-10-02",
-    "team1": "St. Charles",
+    "team1": "Truman",
     "score1": null,
     "team2": "Fort Osage",
     "score2": null,
@@ -6778,7 +6778,7 @@
   },
   {
     "date": "2026-10-02",
-    "team1": "DeSoto",
+    "team1": "DeSoto with Kingston",
     "score1": null,
     "team2": "Fredericktown",
     "score2": null,
@@ -7012,7 +7012,7 @@
   },
   {
     "date": "2026-10-02",
-    "team1": "Webster Groves",
+    "team1": "St. Mary's South Side",
     "score1": null,
     "team2": "Lift for Life Academy Charter",
     "score2": null,
@@ -7345,7 +7345,7 @@
   },
   {
     "date": "2026-10-02",
-    "team1": "South Shelby",
+    "team1": "Skyline",
     "score1": null,
     "team2": "Sarcoxie",
     "score2": null,
@@ -7365,7 +7365,7 @@
     "date": "2026-10-02",
     "team1": "Malden",
     "score1": null,
-    "team2": "Seneca",
+    "team2": "Scott City",
     "score2": null,
     "forfeit": false,
     "overtime": false
@@ -7444,7 +7444,7 @@
   },
   {
     "date": "2026-10-02",
-    "team1": "Webb City",
+    "team1": "Sullivan",
     "score1": null,
     "team2": "St. Clair",
     "score2": null,
@@ -7462,7 +7462,7 @@
   },
   {
     "date": "2026-10-02",
-    "team1": "Versailles",
+    "team1": "Van Horn",
     "score1": null,
     "team2": "St. Michael the Archangel",
     "score2": null,
@@ -7498,7 +7498,7 @@
   },
   {
     "date": "2026-10-02",
-    "team1": "University Academy Charter with Ewing Marion Kauffman",
+    "team1": "University Academy Charter",
     "score1": null,
     "team2": "Summit Christian Academy",
     "score2": null,
@@ -7545,7 +7545,7 @@
     "date": "2026-10-02",
     "team1": "Bowling Green",
     "score1": null,
-    "team2": "Van-Far",
+    "team2": "Van-Far with Community",
     "score2": null,
     "forfeit": false,
     "overtime": false
@@ -7977,7 +7977,7 @@
     "date": "2026-10-09",
     "team1": "Hillsboro",
     "score1": null,
-    "team2": "DeSoto",
+    "team2": "DeSoto with Kingston",
     "score2": null,
     "forfeit": false,
     "overtime": false
@@ -8110,7 +8110,7 @@
   },
   {
     "date": "2026-10-09",
-    "team1": "St. Charles",
+    "team1": "Truman",
     "score1": null,
     "team2": "Grain Valley",
     "score2": null,
@@ -8371,7 +8371,7 @@
   },
   {
     "date": "2026-10-09",
-    "team1": "Father Tolton",
+    "team1": "Father Tolton with Calvary Lutheran",
     "score1": null,
     "team2": "Marshall",
     "score2": null,
@@ -8724,7 +8724,7 @@
     "date": "2026-10-09",
     "team1": "Portageville",
     "score1": null,
-    "team2": "Seneca",
+    "team2": "Scott City",
     "score2": null,
     "forfeit": false,
     "overtime": false
@@ -8751,7 +8751,7 @@
     "date": "2026-10-09",
     "team1": "Ash Grove",
     "score1": null,
-    "team2": "South Shelby",
+    "team2": "Skyline",
     "score2": null,
     "forfeit": false,
     "overtime": false
@@ -8769,7 +8769,7 @@
     "date": "2026-10-09",
     "team1": "Capital City",
     "score1": null,
-    "team2": "Savannah",
+    "team2": "Smith-Cotton",
     "score2": null,
     "forfeit": false,
     "overtime": false
@@ -8823,7 +8823,7 @@
     "date": "2026-10-09",
     "team1": "Pacific",
     "score1": null,
-    "team2": "Webster Groves",
+    "team2": "St. Mary's South Side",
     "score2": null,
     "forfeit": false,
     "overtime": false
@@ -8859,7 +8859,7 @@
     "date": "2026-10-09",
     "team1": "Pierce City",
     "score1": null,
-    "team2": "Stockton with Sheldon",
+    "team2": "Stockton",
     "score2": null,
     "forfeit": false,
     "overtime": false
@@ -8877,7 +8877,7 @@
     "date": "2026-10-09",
     "team1": "Hermann",
     "score1": null,
-    "team2": "Webb City",
+    "team2": "Sullivan",
     "score2": null,
     "forfeit": false,
     "overtime": false
@@ -8931,7 +8931,7 @@
     "date": "2026-10-09",
     "team1": "Summit Christian Academy",
     "score1": null,
-    "team2": "Versailles",
+    "team2": "Van Horn",
     "score2": null,
     "forfeit": false,
     "overtime": false
@@ -8983,7 +8983,7 @@
   },
   {
     "date": "2026-10-09",
-    "team1": "Van-Far",
+    "team1": "Van-Far with Community",
     "score1": null,
     "team2": "Wright City",
     "score2": null,
@@ -9048,7 +9048,7 @@
     "date": "2026-10-10",
     "team1": "St. Michael the Archangel",
     "score1": null,
-    "team2": "University Academy Charter with Ewing Marion Kauffman",
+    "team2": "University Academy Charter",
     "score2": null,
     "forfeit": false,
     "overtime": false
@@ -9433,7 +9433,7 @@
   },
   {
     "date": "2026-10-16",
-    "team1": "Father Tolton",
+    "team1": "Father Tolton with Calvary Lutheran",
     "score1": null,
     "team2": "Hayti",
     "score2": null,
@@ -9730,7 +9730,7 @@
   },
   {
     "date": "2026-10-16",
-    "team1": "Van-Far",
+    "team1": "Van-Far with Community",
     "score1": null,
     "team2": "North Callaway",
     "score2": null,
@@ -9919,7 +9919,7 @@
   },
   {
     "date": "2026-10-16",
-    "team1": "DeSoto",
+    "team1": "DeSoto with Kingston",
     "score1": null,
     "team2": "Potosi",
     "score2": null,
@@ -9991,7 +9991,7 @@
   },
   {
     "date": "2026-10-16",
-    "team1": "Stockton with Sheldon",
+    "team1": "Stockton",
     "score1": null,
     "team2": "Sarcoxie",
     "score2": null,
@@ -10011,7 +10011,7 @@
     "date": "2026-10-16",
     "team1": "Kennett",
     "score1": null,
-    "team2": "Seneca",
+    "team2": "Scott City",
     "score2": null,
     "forfeit": false,
     "overtime": false
@@ -10038,7 +10038,7 @@
     "date": "2026-10-16",
     "team1": "Miller",
     "score1": null,
-    "team2": "South Shelby",
+    "team2": "Skyline",
     "score2": null,
     "forfeit": false,
     "overtime": false
@@ -10110,7 +10110,7 @@
     "date": "2026-10-16",
     "team1": "De Smet Jesuit",
     "score1": null,
-    "team2": "Webster Groves",
+    "team2": "St. Mary's South Side",
     "score2": null,
     "forfeit": false,
     "overtime": false
@@ -10155,14 +10155,14 @@
     "date": "2026-10-16",
     "team1": "Platte County",
     "score1": null,
-    "team2": "St. Charles",
+    "team2": "Truman",
     "score2": null,
     "forfeit": false,
     "overtime": false
   },
   {
     "date": "2026-10-16",
-    "team1": "Webb City",
+    "team1": "Sullivan",
     "score1": null,
     "team2": "Union",
     "score2": null,
@@ -10189,9 +10189,9 @@
   },
   {
     "date": "2026-10-16",
-    "team1": "University Academy Charter with Ewing Marion Kauffman",
+    "team1": "University Academy Charter",
     "score1": null,
-    "team2": "Versailles",
+    "team2": "Van Horn",
     "score2": null,
     "forfeit": false,
     "overtime": false
@@ -10324,7 +10324,7 @@
   },
   {
     "date": "2026-10-17",
-    "team1": "Savannah",
+    "team1": "Smith-Cotton",
     "score1": null,
     "team2": "Helias Catholic",
     "score2": null,
@@ -10479,7 +10479,7 @@
     "date": "2026-10-22",
     "team1": "Vianney",
     "score1": null,
-    "team2": "Webb City",
+    "team2": "Sullivan",
     "score2": null,
     "forfeit": false,
     "overtime": false
@@ -10603,7 +10603,7 @@
   },
   {
     "date": "2026-10-23",
-    "team1": "University Academy Charter with Ewing Marion Kauffman",
+    "team1": "University Academy Charter",
     "score1": null,
     "team2": "Cameron",
     "score2": null,
@@ -10731,14 +10731,14 @@
     "date": "2026-10-23",
     "team1": "Herculaneum",
     "score1": null,
-    "team2": "DeSoto",
+    "team2": "DeSoto with Kingston",
     "score2": null,
     "forfeit": false,
     "overtime": false
   },
   {
     "date": "2026-10-23",
-    "team1": "South Shelby",
+    "team1": "Skyline",
     "score1": null,
     "team2": "Diamond",
     "score2": null,
@@ -10765,7 +10765,7 @@
   },
   {
     "date": "2026-10-23",
-    "team1": "Seneca",
+    "team1": "Scott City",
     "score1": null,
     "team2": "East Prairie",
     "score2": null,
@@ -10785,7 +10785,7 @@
     "date": "2026-10-23",
     "team1": "St. Michael the Archangel",
     "score1": null,
-    "team2": "Father Tolton",
+    "team2": "Father Tolton with Calvary Lutheran",
     "score2": null,
     "forfeit": false,
     "overtime": false
@@ -10855,7 +10855,7 @@
   },
   {
     "date": "2026-10-23",
-    "team1": "St. Charles",
+    "team1": "Truman",
     "score1": null,
     "team2": "Grandview",
     "score2": null,
@@ -11278,7 +11278,7 @@
   },
   {
     "date": "2026-10-23",
-    "team1": "Versailles",
+    "team1": "Van Horn",
     "score1": null,
     "team2": "Pembroke Hill",
     "score2": null,
@@ -11433,7 +11433,7 @@
     "date": "2026-10-23",
     "team1": "Marshall",
     "score1": null,
-    "team2": "Savannah",
+    "team2": "Smith-Cotton",
     "score2": null,
     "forfeit": false,
     "overtime": false
@@ -11478,7 +11478,7 @@
     "date": "2026-10-23",
     "team1": "Rock Bridge",
     "score1": null,
-    "team2": "Webster Groves",
+    "team2": "St. Mary's South Side",
     "score2": null,
     "forfeit": false,
     "overtime": false
@@ -11514,7 +11514,7 @@
     "date": "2026-10-23",
     "team1": "Miller",
     "score1": null,
-    "team2": "Stockton with Sheldon",
+    "team2": "Stockton",
     "score2": null,
     "forfeit": false,
     "overtime": false
@@ -11568,7 +11568,7 @@
     "date": "2026-10-23",
     "team1": "Winfield",
     "score1": null,
-    "team2": "Van-Far",
+    "team2": "Van-Far with Community",
     "score2": null,
     "forfeit": false,
     "overtime": false
