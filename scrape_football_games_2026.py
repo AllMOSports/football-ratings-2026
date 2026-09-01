@@ -216,6 +216,22 @@ def resolve_name_or_raw(row, school_cell, id_to_classname, known_teams):
  
     name_span = school_cell.find("span", class_="name")
     raw = name_span.get_text(strip=True) if name_span else None
+    # MSHSAA renders a still-TBD opponent slot's name as the literal
+    # template text "(, )" (an empty "Name (City, ST)" pattern) rather
+    # than leaving it blank -- normalize that to "" (NOT None) so it
+    # reads as "no usable name" without being mistaken for an actual
+    # (garbled) team name downstream. Important: this must stay a
+    # non-None value. scrape_date() drops the row entirely when this
+    # returns None (correctly so, for a cell with no name_span at all --
+    # that row is genuinely unusable), but "(, )" is a normal, EXPECTED
+    # placeholder for a not-yet-determined opponent, and dropping that
+    # row silently drops the whole game before it ever reaches the
+    # corrections/exclusions step in apply_manual_overrides(). That
+    # exact regression happened once already -- see the Edwardsville
+    # case this same "row invisible -> game vanishes" pattern caused
+    # earlier, and don't reintroduce it here.
+    if raw is not None and re.fullmatch(r"\(\s*,\s*\)", raw):
+        raw = ""
     if raw and raw in known_teams:
         return raw, True
     return raw, False
@@ -380,6 +396,117 @@ def deduplicate_games(all_games):
     return unique_games
  
  
+MANUAL_OVERRIDES_PATH = "manual_name_overrides.json"
+ 
+ 
+def load_manual_overrides(path=MANUAL_OVERRIDES_PATH):
+    """
+    Loads the hand-maintained corrections/exclusions file for games that
+    come back with one side unclassified (see strict_games_from_all --
+    these never make football_games_2026.json, but they DO show up in
+    the _all files with a blank/garbled name for the non-MSHSAA side).
+ 
+    corrections: keyed by (date, the ALREADY-classified team's name) so a
+    fix holds true regardless of whether a score has been filled in yet --
+    score is never part of the match key, and the classified side's name
+    is never touched. Maps to the corrected name for the OTHER side.
+ 
+    exclusions: exact (date, team1, team2) triples (as originally scraped,
+    pre-correction) for specific bad/duplicate games that should be
+    dropped outright rather than corrected. Most one-sided-unclassified
+    junk doesn't need an entry here at all -- see the both-sides-
+    unclassified drop rule in apply_manual_overrides() below, which
+    handles that category structurally so it doesn't need weekly upkeep.
+    """
+    try:
+        with open(path) as f:
+            data = json.load(f)
+    except FileNotFoundError:
+        print(f"  [overrides] {path} not found -- skipping corrections/exclusions.")
+        return {}, set()
+ 
+    corrections = {
+        (c["date"], c["known_team"]): c["corrected_opponent"]
+        for c in data.get("corrections", [])
+    }
+    exclusions = {
+        (e["date"], e.get("team1"), e.get("team2"))
+        for e in data.get("exclusions", [])
+    }
+    print(f"  [overrides] Loaded {len(corrections)} correction(s) and "
+          f"{len(exclusions)} exclusion(s) from {path}")
+    return corrections, exclusions
+ 
+ 
+def apply_manual_overrides(all_games, corrections, exclusions):
+    """
+    Three passes over the >=0-classified game list, in order:
+ 
+    1. Drop any game where NEITHER side resolved to a classifications.json
+       team. These have no MSHSAA relevance at all (they come from some
+       other section of the scoreboard page, not an actual Missouri
+       school's game) and this rule keeps catching new ones automatically
+       every week with no maintenance -- this is the fix for the "at
+       least one side must be classified" requirement.
+    2. Drop anything in the manual exclusion list (matched on the exact
+       raw date/team1/team2 as scraped -- these are specific one-off bad
+       or duplicate games that don't fit a general rule).
+    3. Apply a manual correction to the unclassified side's name, if one
+       is on file for (date, classified side's name). Applied
+       unconditionally when matched -- if MSHSAA's site later fills in
+       its own name for that slot, this will still overwrite it with the
+       name you confirmed, which is the point (holds true across score
+       updates by design). If that's ever NOT what you want for a given
+       game, that's what the exclusion list is for instead.
+    """
+    def _norm(name):
+        # Defensive: treats "" (what resolve_name_or_raw() now returns
+        # for a still-TBD opponent slot) and the legacy literal "(, )"
+        # text (from data scraped before that fix) the same way -- both
+        # mean "no usable name" -- so exclusion keys match consistently
+        # regardless of which era a given row was scraped in.
+        if name is not None and (name == "" or re.fullmatch(r"\(\s*,\s*\)", name)):
+            return None
+        return name
+ 
+    kept = []
+    dropped_both_unclassified = 0
+    dropped_excluded = 0
+    corrected = 0
+ 
+    for g in all_games:
+        g["team1"] = _norm(g["team1"])
+        g["team2"] = _norm(g["team2"])
+        c1, c2 = g["team1_classified"], g["team2_classified"]
+ 
+        if not c1 and not c2:
+            dropped_both_unclassified += 1
+            continue
+ 
+        raw_key = (g["date"], g["team1"], g["team2"])
+        if raw_key in exclusions:
+            dropped_excluded += 1
+            continue
+ 
+        if c1 and not c2:
+            fix = corrections.get((g["date"], g["team1"]))
+            if fix is not None and fix != g["team2"]:
+                g["team2"] = fix
+                corrected += 1
+        elif c2 and not c1:
+            fix = corrections.get((g["date"], g["team2"]))
+            if fix is not None and fix != g["team1"]:
+                g["team1"] = fix
+                corrected += 1
+ 
+        kept.append(g)
+ 
+    print(f"  [overrides] Dropped {dropped_both_unclassified} game(s) with no classified "
+          f"side, {dropped_excluded} manually-excluded game(s); "
+          f"applied {corrected} name correction(s). {len(kept)} games remain.")
+    return kept
+ 
+ 
 def strict_games_from_all(all_games):
     """
     Filters the full (>=1 classified team) game list down to games where
@@ -480,12 +607,27 @@ if __name__ == "__main__":
  
     print(f"\nScraping {SEASON_START} to {SEASON_END}...")
     all_games = scrape_full_season(id_to_classname, known_teams)
-    print(f"\nTotal games found (before dedup, >=1 classified team): {len(all_games)}")
+    print(f"\nTotal games found (before overrides/dedup, >=1 classified team): {len(all_games)}")
  
     if not all_games:
         print("No games found. This is expected if the 2026 schedule "
               "hasn't been posted to MSHSAA yet -- try again closer to "
               "the season, or check a known date manually in a browser.")
+ 
+    # Overrides run BEFORE dedup, on the full un-deduplicated list. MSHSAA
+    # sometimes lists the same game twice with team1/team2 swapped (once
+    # under each school's own schedule table); if dedup ran first, its
+    # (date, frozenset(team1, team2)) key can't tell those two raw copies
+    # apart and keeps whichever one happened to scrape first -- which
+    # might be the copy that matches an exclusion entry, silently
+    # discarding the correctable copy before it ever reached
+    # apply_manual_overrides(). Running overrides first lets each raw
+    # copy get matched against corrections/exclusions independently; the
+    # dedup pass below then cleans up any true duplicates left over
+    # (e.g. two copies that both got corrected to the identical names).
+    print("\nApplying manual name corrections/exclusions...")
+    corrections, exclusions = load_manual_overrides()
+    all_games = apply_manual_overrides(all_games, corrections, exclusions)
  
     print("\nDeduplicating...")
     all_games = deduplicate_games(all_games)

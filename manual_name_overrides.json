@@ -1,0 +1,372 @@
+{
+  "_comment": "Manual overrides for football_games_2026_all.json non-classification games. Matched by date + the ALREADY-classified team's name, so these hold even after a score is filled in later (score is never part of the match key). corrections: fixes a blank/garbled name on the unclassified side. exclusions: drops a specific bad/duplicate game outright (exact date+team1+team2 match).",
+  "corrections": [
+    {
+      "date": "2026-08-28",
+      "known_team": "Branson",
+      "corrected_opponent": "Harrison (AR.)"
+    },
+    {
+      "date": "2026-08-28",
+      "known_team": "Caruthersville",
+      "corrected_opponent": "Gosnell (AR.)"
+    },
+    {
+      "date": "2026-08-28",
+      "known_team": "Christian Brothers College",
+      "corrected_opponent": "Trinity Catholic (KY.)"
+    },
+    {
+      "date": "2026-08-28",
+      "known_team": "Francis Howell",
+      "corrected_opponent": "O'Fallon (IL.)"
+    },
+    {
+      "date": "2026-08-28",
+      "known_team": "Jackson",
+      "corrected_opponent": "Edwardsville (IL.)"
+    },
+    {
+      "date": "2026-08-28",
+      "known_team": "Sarcoxie",
+      "corrected_opponent": "Commerce (OK.)"
+    },
+    {
+      "date": "2026-08-28",
+      "known_team": "St. Mary's South Side",
+      "corrected_opponent": "Elmhurst-IC Catholic (IL.)"
+    },
+    {
+      "date": "2026-08-28",
+      "known_team": "Summit Christian Academy",
+      "corrected_opponent": "St. Mary's (KS) Academy"
+    },
+    {
+      "date": "2026-08-28",
+      "known_team": "Thayer",
+      "corrected_opponent": "Pocahontas (AR.)"
+    },
+    {
+      "date": "2026-09-04",
+      "known_team": "Confluence Prep Academy Charter",
+      "corrected_opponent": "Sparta (IL.)"
+    },
+    {
+      "date": "2026-09-04",
+      "known_team": "Lift for Life Academy Charter",
+      "corrected_opponent": "Christ Preparatory (KS.)"
+    },
+    {
+      "date": "2026-09-11",
+      "known_team": "Lincoln College Prep",
+      "corrected_opponent": "Shawnee Mission South (KS.)"
+    },
+    {
+      "date": "2026-09-11",
+      "known_team": "Northeast (Kansas City)",
+      "corrected_opponent": "JC Harmon (KS.)"
+    },
+    {
+      "date": "2026-09-11",
+      "known_team": "Raymore-Peculiar",
+      "corrected_opponent": "Shawnee Mission Northwest (KS.)"
+    },
+    {
+      "date": "2026-09-11",
+      "known_team": "St. Mary's South Side",
+      "corrected_opponent": "Cahokia (IL.)"
+    },
+    {
+      "date": "2026-09-18",
+      "known_team": "Cardinal Ritter",
+      "corrected_opponent": "Millard South (NE.)"
+    },
+    {
+      "date": "2026-09-18",
+      "known_team": "Savannah",
+      "corrected_opponent": "Christ Preparatory (KS.)"
+    },
+    {
+      "date": "2026-09-18",
+      "known_team": "St. Pius X (Kansas City)",
+      "corrected_opponent": "Hayden Catholic (KS.)"
+    },
+    {
+      "date": "2026-09-25",
+      "known_team": "Lamar",
+      "corrected_opponent": "Christ Preparatory (KS.)"
+    },
+    {
+      "date": "2026-09-25",
+      "known_team": "Rockhurst",
+      "corrected_opponent": "St. Thomas Aquinas (KS.)"
+    },
+    {
+      "date": "2026-10-01",
+      "known_team": "Miller Career Academy with Sumner",
+      "corrected_opponent": "Carbondale (IL.)"
+    },
+    {
+      "date": "2026-10-02",
+      "known_team": "Cardinal Ritter",
+      "corrected_opponent": "Naperville Central (IL.)"
+    },
+    {
+      "date": "2026-10-02",
+      "known_team": "Christian Brothers College",
+      "corrected_opponent": "Rabun Gap-Nacoochee (GA.)"
+    },
+    {
+      "date": "2026-10-02",
+      "known_team": "Harrisonville",
+      "corrected_opponent": "Louisburg (KS.)"
+    },
+    {
+      "date": "2026-10-03",
+      "known_team": "KIPP KC Legacy",
+      "corrected_opponent": "Washington (KS.)"
+    },
+    {
+      "date": "2026-10-09",
+      "known_team": "Pembroke Hill",
+      "corrected_opponent": "Washington (KS.)"
+    },
+    {
+      "date": "2026-10-09",
+      "known_team": "Saxony Lutheran",
+      "corrected_opponent": "Vienna-Goreville (IL.)"
+    },
+    {
+      "date": "2026-10-23",
+      "known_team": "Warsaw",
+      "corrected_opponent": "Louisburg (KS.)"
+    },
+    {
+      "date": "2026-08-28",
+      "known_team": "Bayless with Hancock",
+      "corrected_opponent": "Dupo (IL.)"
+    },
+    {
+      "date": "2026-08-28",
+      "known_team": "Ft. Zumwalt East",
+      "corrected_opponent": "Jacksonville (IL.)"
+    },
+    {
+      "date": "2026-08-28",
+      "known_team": "Hollister",
+      "corrected_opponent": "Berryville (AR.)"
+    },
+    {
+      "date": "2026-08-28",
+      "known_team": "Capital City",
+      "corrected_opponent": "Conway (AR.)"
+    },
+    {
+      "date": "2026-08-28",
+      "known_team": "Camdenton",
+      "corrected_opponent": "Heritage (AR.)"
+    },
+    {
+      "date": "2026-08-28",
+      "known_team": "Doniphan",
+      "corrected_opponent": "Piggott (AR.)"
+    },
+    {
+      "date": "2026-08-29",
+      "known_team": "St. Pius X (Festus)",
+      "corrected_opponent": "Gibson Southern"
+    },
+    {
+      "date": "2026-09-04",
+      "known_team": "Rockhurst",
+      "corrected_opponent": "Manhattan (KS.)"
+    },
+    {
+      "date": "2026-09-04",
+      "known_team": "Hayti",
+      "corrected_opponent": "Madison (IL.)"
+    },
+    {
+      "date": "2026-09-04",
+      "known_team": "Troy Buchanan",
+      "corrected_opponent": "O'Fallon (IL.)"
+    },
+    {
+      "date": "2026-09-04",
+      "known_team": "Principia",
+      "corrected_opponent": "Marquette Catholic (IL.)"
+    },
+    {
+      "date": "2026-09-04",
+      "known_team": "Thayer",
+      "corrected_opponent": "Gravette (AR.)"
+    },
+    {
+      "date": "2026-09-04",
+      "known_team": "Jackson",
+      "corrected_opponent": "Louisville-Ballard (KY.)"
+    },
+    {
+      "date": "2026-09-04",
+      "known_team": "Lee's Summit North",
+      "corrected_opponent": "Millard South (NE.)"
+    },
+    {
+      "date": "2026-09-04",
+      "known_team": "University City",
+      "corrected_opponent": "Lawton (OK.)"
+    },
+    {
+      "date": "2026-09-10",
+      "known_team": "Rockhurst",
+      "corrected_opponent": "Shawnee Mission East (KS.)"
+    },
+    {
+      "date": "2026-09-11",
+      "known_team": "Summit Christian Academy",
+      "corrected_opponent": "Christ Preparatory (KS.)"
+    },
+    {
+      "date": "2026-09-11",
+      "known_team": "East (Kansas City)",
+      "corrected_opponent": "FL Schlagle (KS.)"
+    },
+    {
+      "date": "2026-09-11",
+      "known_team": "Staley",
+      "corrected_opponent": "Olathe East (KS.)"
+    },
+    {
+      "date": "2026-09-11",
+      "known_team": "Rolla",
+      "corrected_opponent": "Mountain Home (AR.)"
+    },
+    {
+      "date": "2026-09-11",
+      "known_team": "Cardinal Ritter",
+      "corrected_opponent": "Knoxville Catholic (TN.)"
+    },
+    {
+      "date": "2026-09-11",
+      "known_team": "Hogan Prep Academy Charter",
+      "corrected_opponent": "St. Mary's (KS) Academy"
+    },
+    {
+      "date": "2026-09-12",
+      "known_team": "Lift for Life Academy Charter",
+      "corrected_opponent": "Brentwood (TN.)"
+    },
+    {
+      "date": "2026-09-18",
+      "known_team": "Northeast (Kansas City)",
+      "corrected_opponent": "FL Schlagle (KS.)"
+    },
+    {
+      "date": "2026-09-18",
+      "known_team": "Gateway with Soldan International Studies",
+      "corrected_opponent": "Tremont (IL.)"
+    },
+    {
+      "date": "2026-09-25",
+      "known_team": "St. Mary's South Side",
+      "corrected_opponent": "Hayden Catholic (KS.)"
+    },
+    {
+      "date": "2026-09-25",
+      "known_team": "St. Pius X (Kansas City)",
+      "corrected_opponent": "St. James (KS.)"
+    },
+    {
+      "date": "2026-09-25",
+      "known_team": "KIPP KC Legacy",
+      "corrected_opponent": "JC Harmon (KS.)"
+    },
+    {
+      "date": "2026-09-25",
+      "known_team": "Saxony Lutheran",
+      "corrected_opponent": "Mater Dei (IL.)"
+    },
+    {
+      "date": "2026-09-25",
+      "known_team": "Scotland County",
+      "corrected_opponent": "Hamilton (IL.)"
+    },
+    {
+      "date": "2026-09-25",
+      "known_team": "Cardinal Ritter",
+      "corrected_opponent": "St. James Performance (VA.)"
+    },
+    {
+      "date": "2026-09-25",
+      "known_team": "Christian Brothers College",
+      "corrected_opponent": "Lipscomb Academy (TN.)"
+    },
+    {
+      "date": "2026-09-25",
+      "known_team": "Lincoln College Prep",
+      "corrected_opponent": "St. Mary's (KS) Academy"
+    },
+    {
+      "date": "2026-10-02",
+      "known_team": "Rockhurst",
+      "corrected_opponent": "Bishop Miege (KS.)"
+    },
+    {
+      "date": "2026-10-09",
+      "known_team": "Hogan Prep Academy Charter",
+      "corrected_opponent": "Bishop Ward (KS.)"
+    },
+    {
+      "date": "2026-10-09",
+      "known_team": "Smithville",
+      "corrected_opponent": "Pittsburg (KS.)"
+    },
+    {
+      "date": "2026-10-09",
+      "known_team": "KIPP KC Legacy",
+      "corrected_opponent": "St. Mary's (KS) Academy"
+    },
+    {
+      "date": "2026-10-16",
+      "known_team": "KIPP KC Legacy",
+      "corrected_opponent": "Sumner (KS.)"
+    },
+    {
+      "date": "2026-10-23",
+      "known_team": "Hayti",
+      "corrected_opponent": "Middle Tennessee Christian (TN.)"
+    }
+  ],
+  "exclusions": [
+    {
+      "date": "2026-08-28",
+      "team1": null,
+      "team2": "Duchesne"
+    },
+    {
+      "date": "2026-09-05",
+      "team1": "Southeast",
+      "team2": "Hogan Prep Academy Charter"
+    },
+    {
+      "date": "2026-09-25",
+      "team1": "Lafayette (St. Joseph)",
+      "team2": "Butler"
+    },
+    {
+      "date": "2026-08-28",
+      "team1": "St. Mary's South Side",
+      "team2": null
+    },
+    {
+      "date": "2026-09-11",
+      "team1": "Saxony Lutheran",
+      "team2": null
+    },
+    {
+      "date": "2026-10-16",
+      "team1": "Seneca",
+      "team2": "Central (Springfield)"
+    }
+  ]
+}
