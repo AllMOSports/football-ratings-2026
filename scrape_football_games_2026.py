@@ -149,6 +149,35 @@ def build_id_to_classname(team_to_class, schools_csv=SCHOOLS_CSV):
     whatever produced football_ratings_2025's overrides originally.
     """
     MANUAL_OVERRIDES = {
+        "271": "Clopton with Elsberry",
+        "331": "King City with Pattonsburg",
+        "126": "Lockwood with Golden City",
+        "421": "Princeton with Mercer",
+        "424": "Rich Hill with Hume",
+        "431": "Salisbury",
+        "435": "Scott City",
+        "443": "Skyline",
+        "193": "Slater",
+        "194": "Smith-Cotton",
+        "197": "South Callaway",
+        "549": "St. Mary's South Side",
+        "463": "Stockton",
+        "207": "Sullivan",
+        "208": "Sumner",
+        "469": "Sweet Springs with Malta Bend",
+        "198": "Truman",
+        "479": "University Academy Charter",
+        "204": "Van Horn",
+        "206": "Vashon",
+        "20": "Appleton City with Montrose",
+        "275": "Drexel with Miami (Amoret)",
+        "575": "Renaissance Academy Charter",
+        "172": "St. James",
+        "35": "DeSoto with Kingston",
+        "917": "Father Tolton with Calvary Lutheran",
+        "342": "Liberal with Bronaugh",
+        "776": "Transportation and Law with Beaumont",
+        "483": "Van-Far with Community",
     }
  
     df = pd.read_csv(schools_csv)
@@ -172,52 +201,37 @@ def build_id_to_classname(team_to_class, schools_csv=SCHOOLS_CSV):
     return id_to_classname
  
  
-def resolve_name(cell, id_to_classname, known_teams):
-    """Identical logic to football_ratings_2025.py."""
-    a = cell.find("a", href=lambda h: h and "/MySchool/Schedule.aspx" in h)
-    if not a:
-        return None
- 
-    href  = a.get("href", "")
-    match = re.search(r"[?&]s=(\d+)", href, re.IGNORECASE)
-    if match:
-        sid = match.group(1)
-        if sid in id_to_classname:
-            return id_to_classname[sid]
- 
-    display_text = a.get_text(strip=True)
-    if display_text in known_teams:
-        return display_text
- 
-    return None
- 
- 
-# ---------------------------------------------------------------------------
-# SCRAPING
-# ---------------------------------------------------------------------------
- 
-def resolve_name_or_raw(cell, id_to_classname, known_teams):
+def resolve_name_or_raw(row, school_cell, id_to_classname, known_teams):
     """
-    Like resolve_name(), but never returns None for a cell that has an
-    MSHSAA schedule link -- if the school ID/display text doesn't match
-    classifications.json (an unclassified or missing school), this falls
-    back to whatever display text the scoreboard link shows, and reports
-    that the team is unclassified via the second return value.
-    Returns (name, classified: bool).
-    """
-    name = resolve_name(cell, id_to_classname, known_teams)
-    if name is not None:
-        return name, True
+    Resolve a team row to (name, classified: bool).
  
-    a = cell.find("a", href=lambda h: h and "/MySchool/Schedule.aspx" in h)
-    raw = a.get_text(strip=True) if a else None
+    Primary signal: the <tr>'s data-school attribute, which MSHSAA
+    populates for EVERY team row -- Missouri member schools AND
+    out-of-state/non-member opponents alike. Confirmed against a live
+    scoreboard page: an Edwardsville (Ill.) row has data-school='929'
+    even though it has no /MySchool/Schedule.aspx link anywhere in it.
+    If that ID matches a known Missouri school ID, use
+    classifications.json's canonical name and mark classified=True.
+ 
+    Fallback: if data-school is blank/unknown (a non-member opponent,
+    or any row missing the attribute for some other reason), fall back
+    to the visible name in td.school > span.name and mark
+    classified=False. This replaces the old href-only detection, which
+    depended on an <a href="/MySchool/Schedule.aspx..."> being present
+    inside the cell -- that link is only rendered for MSHSAA member
+    schools, so any row for a non-member opponent (e.g. an out-of-state
+    team) was previously invisible to the scraper and the ENTIRE game
+    got dropped, not just that side.
+    """
+    sid = (row.get("data-school") or "").strip()
+    if sid and sid in id_to_classname:
+        return id_to_classname[sid], True
+ 
+    name_span = school_cell.find("span", class_="name")
+    raw = name_span.get_text(strip=True) if name_span else None
+    if raw and raw in known_teams:
+        return raw, True
     return raw, False
- 
- 
-def is_mshsaa_team(cell):
-    return cell.find(
-        "a", href=lambda h: h and "/MySchool/Schedule.aspx" in h
-    ) is not None
  
  
 def parse_score(text):
@@ -275,27 +289,24 @@ def scrape_date(target_date, id_to_classname, known_teams, session):
         if len(rows) < 2:
             continue
  
-        team_rows = []  # list of (name, classified, score, row) for rows with a team link
+        team_rows = []  # list of (name, classified, score, row) for team rows
         for row in rows:
-            cells = row.find_all("td")
-            if not cells:
-                continue
-            team_cell = next((c for c in cells if is_mshsaa_team(c)), None)
-            if team_cell is None:
+            # td.school + span.name is present for EVERY team row, member
+            # or not -- unlike the old <a href="/MySchool/Schedule.aspx">
+            # check, which only matches MSHSAA member schools and silently
+            # skipped rows for out-of-state/non-member opponents.
+            school_cell = row.find("td", class_="school")
+            if school_cell is None:
                 continue
  
-            name, classified = resolve_name_or_raw(team_cell, id_to_classname, known_teams)
+            name, classified = resolve_name_or_raw(row, school_cell, id_to_classname, known_teams)
             if name is None:
-                # Has the schedule link but somehow no display text either --
+                # Has a td.school cell but no usable name text either --
                 # too broken to use, skip just this row.
                 continue
  
-            score = None
-            for c in cells:
-                s = parse_score(c.get_text())
-                if s is not None:
-                    score = s
-                    break
+            score_cell = row.find("td", class_="score")
+            score = parse_score(score_cell.get_text()) if score_cell else None
  
             team_rows.append((name, classified, score, row))
  
