@@ -1,6 +1,6 @@
 {
   "season": 2026,
-  "generated": "2026-09-01T14:12:26.265230+00:00",
+  "generated": "2026-09-01T14:25:40.066915+00:00",
   "teams": {
     "Diamond": [
       {
@@ -65,7 +65,7 @@
       },
       {
         "date": "2026-10-02",
-        "opponent": "Stockton",
+        "opponent": "Stockton with Sheldon",
         "home_away": null,
         "team_score": null,
         "opp_score": null,
@@ -110,7 +110,7 @@
       },
       {
         "date": "2026-10-23",
-        "opponent": "Skyline",
+        "opponent": "South Shelby",
         "home_away": null,
         "team_score": null,
         "opp_score": null,
@@ -688,7 +688,7 @@
       },
       {
         "date": "2026-10-22",
-        "opponent": "Sullivan",
+        "opponent": "Webb City",
         "home_away": null,
         "team_score": null,
         "opp_score": null,
@@ -1724,7 +1724,7 @@
       },
       {
         "date": "2026-09-04",
-        "opponent": "Skyline",
+        "opponent": "South Shelby",
         "home_away": null,
         "team_score": null,
         "opp_score": null,
@@ -1876,7 +1876,7 @@
       },
       {
         "date": "2026-09-11",
-        "opponent": "Stockton",
+        "opponent": "Stockton with Sheldon",
         "home_away": null,
         "team_score": null,
         "opp_score": null,
@@ -1936,7 +1936,7 @@
       },
       {
         "date": "2026-10-09",
-        "opponent": "Skyline",
+        "opponent": "South Shelby",
         "home_away": null,
         "team_score": null,
         "opp_score": null,
@@ -2392,7 +2392,7 @@
       },
       {
         "date": "2026-10-23",
-        "opponent": "Truman",
+        "opponent": "St. Charles",
         "home_away": null,
         "team_score": null,
         "opp_score": null,
@@ -2484,7 +2484,7 @@
       },
       {
         "date": "2026-10-02",
-        "opponent": "Smith-Cotton",
+        "opponent": "Savannah",
         "home_away": null,
         "team_score": null,
         "opp_score": null,
@@ -2543,13 +2543,28 @@
         "overtime": false
       }
     ],
-    "Van Horn": [
+    "Versailles": [
       {
         "date": "2026-08-28",
         "opponent": "Benton",
         "home_away": null,
         "team_score": 14,
         "opp_score": 30,
+        "result": "L",
+        "predicted_team_score": null,
+        "predicted_opp_score": null,
+        "off_delta": null,
+        "def_delta": null,
+        "ovr_delta": null,
+        "forfeit": false,
+        "overtime": false
+      },
+      {
+        "date": "2026-08-28",
+        "opponent": "South Shelby",
+        "home_away": null,
+        "team_score": 0,
+        "opp_score": 37,
         "result": "L",
         "predicted_team_score": null,
         "predicted_opp_score": null,
@@ -2575,8 +2590,38 @@
         "overtime": false
       },
       {
+        "date": "2026-09-04",
+        "opponent": "Eldon",
+        "home_away": null,
+        "team_score": null,
+        "opp_score": null,
+        "result": null,
+        "predicted_team_score": null,
+        "predicted_opp_score": null,
+        "off_delta": null,
+        "def_delta": null,
+        "ovr_delta": null,
+        "forfeit": false,
+        "overtime": false
+      },
+      {
         "date": "2026-09-11",
-        "opponent": "Truman",
+        "opponent": "St. Charles",
+        "home_away": null,
+        "team_score": null,
+        "opp_score": null,
+        "result": null,
+        "predicted_team_score": null,
+        "predicted_opp_score": null,
+        "off_delta": null,
+        "def_delta": null,
+        "ovr_delta": null,
+        "forfeit": false,
+        "overtime": false
+      },
+      {
+        "date": "2026-09-11",
+        "opponent": "Lexington",
         "home_away": null,
         "team_score": null,
         "opp_score": null,
@@ -2592,6 +2637,36 @@
       {
         "date": "2026-09-18",
         "opponent": "Lincoln College Prep",
+        "home_away": null,
+        "team_score": null,
+        "opp_score": null,
+        "result": null,
+        "predicted_team_score": null,
+        "predicted_opp_score": null,
+        "off_delta": null,
+        "def_delta": null,
+        "ovr_delta": null,
+        "forfeit": false,
+        "overtime": false
+      },
+      {
+        "date": "2026-09-18",
+        "opponent": "Tipton with Bunceton",
+        "home_away": null,
+        "team_score": null,
+        "opp_score": null,
+        "result": null,
+        "predicted_team_score": null,
+        "predicted_opp_score": null,
+        "off_delta": null,
+        "def_delta": null,
+        "ovr_delta": null,
+        "forfeit": false,
+        "overtime": false
+      },
+      {
+        "date": "2026-09-25",
+        "opponent": "Warsaw",
         "home_away": null,
         "team_score": null,
         "opp_score": null,
@@ -2621,7 +2696,37 @@
       },
       {
         "date": "2026-10-02",
+        "opponent": "Adrian",
+        "home_away": null,
+        "team_score": null,
+        "opp_score": null,
+        "result": null,
+        "predicted_team_score": null,
+        "predicted_opp_score": null,
+        "off_delta": null,
+        "def_delta": null,
+        "ovr_delta": null,
+        "forfeit": false,
+        "overtime": false
+      },
+      {
+        "date": "2026-10-02",
         "opponent": "St. Michael the Archangel",
+        "home_away": null,
+        "team_score": null,
+        "opp_score": null,
+        "result": null,
+        "predicted_team_score": null,
+        "predicted_opp_score": null,
+        "off_delta": null,
+        "def_delta": null,
+        "ovr_delta": null,
+        "forfeit": false,
+        "overtime": false
+      },
+      {
+        "date": "2026-10-09",
+        "opponent": "El Dorado Springs",
         "home_away": null,
         "team_score": null,
         "opp_score": null,
@@ -2651,7 +2756,22 @@
       },
       {
         "date": "2026-10-16",
-        "opponent": "University Academy Charter",
+        "opponent": "University Academy Charter with Ewing Marion Kauffman",
+        "home_away": null,
+        "team_score": null,
+        "opp_score": null,
+        "result": null,
+        "predicted_team_score": null,
+        "predicted_opp_score": null,
+        "off_delta": null,
+        "def_delta": null,
+        "ovr_delta": null,
+        "forfeit": false,
+        "overtime": false
+      },
+      {
+        "date": "2026-10-16",
+        "opponent": "Butler",
         "home_away": null,
         "team_score": null,
         "opp_score": null,
@@ -2678,12 +2798,27 @@
         "ovr_delta": null,
         "forfeit": false,
         "overtime": false
+      },
+      {
+        "date": "2026-10-23",
+        "opponent": "Sherwood",
+        "home_away": null,
+        "team_score": null,
+        "opp_score": null,
+        "result": null,
+        "predicted_team_score": null,
+        "predicted_opp_score": null,
+        "off_delta": null,
+        "def_delta": null,
+        "ovr_delta": null,
+        "forfeit": false,
+        "overtime": false
       }
     ],
     "Benton": [
       {
         "date": "2026-08-28",
-        "opponent": "Van Horn",
+        "opponent": "Versailles",
         "home_away": null,
         "team_score": 30,
         "opp_score": 14,
@@ -2728,7 +2863,7 @@
       },
       {
         "date": "2026-09-19",
-        "opponent": "University Academy Charter",
+        "opponent": "University Academy Charter with Ewing Marion Kauffman",
         "home_away": null,
         "team_score": null,
         "opp_score": null,
@@ -3458,7 +3593,7 @@
       },
       {
         "date": "2026-08-28",
-        "opponent": "St. Mary's South Side",
+        "opponent": "Webster Groves",
         "home_away": null,
         "team_score": 42,
         "opp_score": 14,
@@ -3608,7 +3743,7 @@
       },
       {
         "date": "2026-09-11",
-        "opponent": "St. Mary's South Side",
+        "opponent": "Webster Groves",
         "home_away": null,
         "team_score": null,
         "opp_score": null,
@@ -4381,7 +4516,7 @@
       },
       {
         "date": "2026-10-16",
-        "opponent": "Skyline",
+        "opponent": "South Shelby",
         "home_away": null,
         "team_score": null,
         "opp_score": null,
@@ -4396,7 +4531,7 @@
       },
       {
         "date": "2026-10-23",
-        "opponent": "Stockton",
+        "opponent": "Stockton with Sheldon",
         "home_away": null,
         "team_score": null,
         "opp_score": null,
@@ -4824,7 +4959,7 @@
       },
       {
         "date": "2026-09-25",
-        "opponent": "Sarcoxie",
+        "opponent": "Russellville",
         "home_away": null,
         "team_score": null,
         "opp_score": null,
@@ -5068,7 +5203,7 @@
       },
       {
         "date": "2026-09-11",
-        "opponent": "Scott City",
+        "opponent": "Scott City with Chaffee",
         "home_away": null,
         "team_score": null,
         "opp_score": null,
@@ -6468,7 +6603,7 @@
       },
       {
         "date": "2026-10-02",
-        "opponent": "Father Tolton with Calvary Lutheran",
+        "opponent": "Father Tolton",
         "home_away": null,
         "team_score": null,
         "opp_score": null,
@@ -6712,7 +6847,7 @@
       },
       {
         "date": "2026-10-02",
-        "opponent": "Van-Far with Community",
+        "opponent": "Van-Far",
         "home_away": null,
         "team_score": null,
         "opp_score": null,
@@ -7245,7 +7380,7 @@
       },
       {
         "date": "2026-10-02",
-        "opponent": "St. Mary's South Side",
+        "opponent": "Webster Groves",
         "home_away": null,
         "team_score": null,
         "opp_score": null,
@@ -7412,7 +7547,7 @@
       },
       {
         "date": "2026-10-16",
-        "opponent": "St. Mary's South Side",
+        "opponent": "Webster Groves",
         "home_away": null,
         "team_score": null,
         "opp_score": null,
@@ -7444,7 +7579,7 @@
     "St. Vincent": [
       {
         "date": "2026-08-28",
-        "opponent": "DeSoto with Kingston",
+        "opponent": "DeSoto",
         "home_away": null,
         "team_score": 14,
         "opp_score": 7,
@@ -7578,7 +7713,7 @@
         "overtime": false
       }
     ],
-    "DeSoto with Kingston": [
+    "DeSoto": [
       {
         "date": "2026-08-28",
         "opponent": "St. Vincent",
@@ -7823,7 +7958,7 @@
       },
       {
         "date": "2026-10-09",
-        "opponent": "Father Tolton with Calvary Lutheran",
+        "opponent": "Father Tolton",
         "home_away": null,
         "team_score": null,
         "opp_score": null,
@@ -7853,7 +7988,7 @@
       },
       {
         "date": "2026-10-23",
-        "opponent": "Smith-Cotton",
+        "opponent": "Savannah",
         "home_away": null,
         "team_score": null,
         "opp_score": null,
@@ -7992,7 +8127,7 @@
     "Marceline": [
       {
         "date": "2026-08-28",
-        "opponent": "Father Tolton with Calvary Lutheran",
+        "opponent": "Father Tolton",
         "home_away": null,
         "team_score": 13,
         "opp_score": 42,
@@ -8126,7 +8261,7 @@
         "overtime": false
       }
     ],
-    "Father Tolton with Calvary Lutheran": [
+    "Father Tolton": [
       {
         "date": "2026-08-28",
         "opponent": "Marceline",
@@ -8159,7 +8294,7 @@
       },
       {
         "date": "2026-09-12",
-        "opponent": "University Academy Charter",
+        "opponent": "University Academy Charter with Ewing Marion Kauffman",
         "home_away": null,
         "team_score": null,
         "opp_score": null,
@@ -8418,7 +8553,7 @@
       },
       {
         "date": "2026-09-04",
-        "opponent": "St. Mary's South Side",
+        "opponent": "Webster Groves",
         "home_away": null,
         "team_score": null,
         "opp_score": null,
@@ -8448,7 +8583,7 @@
       },
       {
         "date": "2026-09-18",
-        "opponent": "DeSoto with Kingston",
+        "opponent": "DeSoto",
         "home_away": null,
         "team_score": null,
         "opp_score": null,
@@ -10091,6 +10226,36 @@
         "overtime": false
       },
       {
+        "date": "2026-08-28",
+        "opponent": "Rolla",
+        "home_away": null,
+        "team_score": 50,
+        "opp_score": 20,
+        "result": "W",
+        "predicted_team_score": null,
+        "predicted_opp_score": null,
+        "off_delta": null,
+        "def_delta": null,
+        "ovr_delta": null,
+        "forfeit": false,
+        "overtime": false
+      },
+      {
+        "date": "2026-09-04",
+        "opponent": "Farmington",
+        "home_away": null,
+        "team_score": null,
+        "opp_score": null,
+        "result": null,
+        "predicted_team_score": null,
+        "predicted_opp_score": null,
+        "off_delta": null,
+        "def_delta": null,
+        "ovr_delta": null,
+        "forfeit": false,
+        "overtime": false
+      },
+      {
         "date": "2026-09-04",
         "opponent": "Waynesville",
         "home_away": null,
@@ -10121,6 +10286,36 @@
         "overtime": false
       },
       {
+        "date": "2026-09-11",
+        "opponent": "St. James",
+        "home_away": null,
+        "team_score": null,
+        "opp_score": null,
+        "result": null,
+        "predicted_team_score": null,
+        "predicted_opp_score": null,
+        "off_delta": null,
+        "def_delta": null,
+        "ovr_delta": null,
+        "forfeit": false,
+        "overtime": false
+      },
+      {
+        "date": "2026-09-18",
+        "opponent": "Owensville",
+        "home_away": null,
+        "team_score": null,
+        "opp_score": null,
+        "result": null,
+        "predicted_team_score": null,
+        "predicted_opp_score": null,
+        "off_delta": null,
+        "def_delta": null,
+        "ovr_delta": null,
+        "forfeit": false,
+        "overtime": false
+      },
+      {
         "date": "2026-09-18",
         "opponent": "Nixa",
         "home_away": null,
@@ -10137,7 +10332,37 @@
       },
       {
         "date": "2026-09-25",
+        "opponent": "Pacific",
+        "home_away": null,
+        "team_score": null,
+        "opp_score": null,
+        "result": null,
+        "predicted_team_score": null,
+        "predicted_opp_score": null,
+        "off_delta": null,
+        "def_delta": null,
+        "ovr_delta": null,
+        "forfeit": false,
+        "overtime": false
+      },
+      {
+        "date": "2026-09-25",
         "opponent": "Willard",
+        "home_away": null,
+        "team_score": null,
+        "opp_score": null,
+        "result": null,
+        "predicted_team_score": null,
+        "predicted_opp_score": null,
+        "off_delta": null,
+        "def_delta": null,
+        "ovr_delta": null,
+        "forfeit": false,
+        "overtime": false
+      },
+      {
+        "date": "2026-10-02",
+        "opponent": "St. Clair",
         "home_away": null,
         "team_score": null,
         "opp_score": null,
@@ -10181,8 +10406,53 @@
         "overtime": false
       },
       {
+        "date": "2026-10-09",
+        "opponent": "Hermann",
+        "home_away": null,
+        "team_score": null,
+        "opp_score": null,
+        "result": null,
+        "predicted_team_score": null,
+        "predicted_opp_score": null,
+        "off_delta": null,
+        "def_delta": null,
+        "ovr_delta": null,
+        "forfeit": false,
+        "overtime": false
+      },
+      {
+        "date": "2026-10-16",
+        "opponent": "Union",
+        "home_away": null,
+        "team_score": null,
+        "opp_score": null,
+        "result": null,
+        "predicted_team_score": null,
+        "predicted_opp_score": null,
+        "off_delta": null,
+        "def_delta": null,
+        "ovr_delta": null,
+        "forfeit": false,
+        "overtime": false
+      },
+      {
         "date": "2026-10-16",
         "opponent": "Neosho",
+        "home_away": null,
+        "team_score": null,
+        "opp_score": null,
+        "result": null,
+        "predicted_team_score": null,
+        "predicted_opp_score": null,
+        "off_delta": null,
+        "def_delta": null,
+        "ovr_delta": null,
+        "forfeit": false,
+        "overtime": false
+      },
+      {
+        "date": "2026-10-22",
+        "opponent": "Vianney",
         "home_away": null,
         "team_score": null,
         "opp_score": null,
@@ -10396,7 +10666,7 @@
       },
       {
         "date": "2026-09-18",
-        "opponent": "Truman",
+        "opponent": "St. Charles",
         "home_away": null,
         "team_score": null,
         "opp_score": null,
@@ -10578,7 +10848,7 @@
       },
       {
         "date": "2026-10-09",
-        "opponent": "Truman",
+        "opponent": "St. Charles",
         "home_away": null,
         "team_score": null,
         "opp_score": null,
@@ -11004,7 +11274,7 @@
       },
       {
         "date": "2026-10-17",
-        "opponent": "Smith-Cotton",
+        "opponent": "Savannah",
         "home_away": null,
         "team_score": null,
         "opp_score": null,
@@ -11187,8 +11457,53 @@
         "overtime": false
       },
       {
+        "date": "2026-08-28",
+        "opponent": "Versailles",
+        "home_away": null,
+        "team_score": 37,
+        "opp_score": 0,
+        "result": "W",
+        "predicted_team_score": null,
+        "predicted_opp_score": null,
+        "off_delta": null,
+        "def_delta": null,
+        "ovr_delta": null,
+        "forfeit": false,
+        "overtime": false
+      },
+      {
         "date": "2026-09-04",
         "opponent": "Westran",
+        "home_away": null,
+        "team_score": null,
+        "opp_score": null,
+        "result": null,
+        "predicted_team_score": null,
+        "predicted_opp_score": null,
+        "off_delta": null,
+        "def_delta": null,
+        "ovr_delta": null,
+        "forfeit": false,
+        "overtime": false
+      },
+      {
+        "date": "2026-09-04",
+        "opponent": "Willow Springs",
+        "home_away": null,
+        "team_score": null,
+        "opp_score": null,
+        "result": null,
+        "predicted_team_score": null,
+        "predicted_opp_score": null,
+        "off_delta": null,
+        "def_delta": null,
+        "ovr_delta": null,
+        "forfeit": false,
+        "overtime": false
+      },
+      {
+        "date": "2026-09-11",
+        "opponent": "Marionville",
         "home_away": null,
         "team_score": null,
         "opp_score": null,
@@ -11232,8 +11547,53 @@
         "overtime": false
       },
       {
+        "date": "2026-09-18",
+        "opponent": "Pierce City",
+        "home_away": null,
+        "team_score": null,
+        "opp_score": null,
+        "result": null,
+        "predicted_team_score": null,
+        "predicted_opp_score": null,
+        "off_delta": null,
+        "def_delta": null,
+        "ovr_delta": null,
+        "forfeit": false,
+        "overtime": false
+      },
+      {
+        "date": "2026-09-25",
+        "opponent": "Stockton with Sheldon",
+        "home_away": null,
+        "team_score": null,
+        "opp_score": null,
+        "result": null,
+        "predicted_team_score": null,
+        "predicted_opp_score": null,
+        "off_delta": null,
+        "def_delta": null,
+        "ovr_delta": null,
+        "forfeit": false,
+        "overtime": false
+      },
+      {
         "date": "2026-09-25",
         "opponent": "Clark County",
+        "home_away": null,
+        "team_score": null,
+        "opp_score": null,
+        "result": null,
+        "predicted_team_score": null,
+        "predicted_opp_score": null,
+        "off_delta": null,
+        "def_delta": null,
+        "ovr_delta": null,
+        "forfeit": false,
+        "overtime": false
+      },
+      {
+        "date": "2026-10-02",
+        "opponent": "Sarcoxie",
         "home_away": null,
         "team_score": null,
         "opp_score": null,
@@ -11277,6 +11637,36 @@
         "overtime": false
       },
       {
+        "date": "2026-10-09",
+        "opponent": "Ash Grove",
+        "home_away": null,
+        "team_score": null,
+        "opp_score": null,
+        "result": null,
+        "predicted_team_score": null,
+        "predicted_opp_score": null,
+        "off_delta": null,
+        "def_delta": null,
+        "ovr_delta": null,
+        "forfeit": false,
+        "overtime": false
+      },
+      {
+        "date": "2026-10-16",
+        "opponent": "Miller",
+        "home_away": null,
+        "team_score": null,
+        "opp_score": null,
+        "result": null,
+        "predicted_team_score": null,
+        "predicted_opp_score": null,
+        "off_delta": null,
+        "def_delta": null,
+        "ovr_delta": null,
+        "forfeit": false,
+        "overtime": false
+      },
+      {
         "date": "2026-10-16",
         "opponent": "Monroe City",
         "home_away": null,
@@ -11294,6 +11684,21 @@
       {
         "date": "2026-10-23",
         "opponent": "Centralia",
+        "home_away": null,
+        "team_score": null,
+        "opp_score": null,
+        "result": null,
+        "predicted_team_score": null,
+        "predicted_opp_score": null,
+        "off_delta": null,
+        "def_delta": null,
+        "ovr_delta": null,
+        "forfeit": false,
+        "overtime": false
+      },
+      {
+        "date": "2026-10-23",
+        "opponent": "Diamond",
         "home_away": null,
         "team_score": null,
         "opp_score": null,
@@ -11415,7 +11820,7 @@
       },
       {
         "date": "2026-10-16",
-        "opponent": "Sarcoxie",
+        "opponent": "Russellville",
         "home_away": null,
         "team_score": null,
         "opp_score": null,
@@ -11704,7 +12109,7 @@
       },
       {
         "date": "2026-10-23",
-        "opponent": "DeSoto with Kingston",
+        "opponent": "DeSoto",
         "home_away": null,
         "team_score": null,
         "opp_score": null,
@@ -11918,7 +12323,7 @@
       },
       {
         "date": "2026-09-25",
-        "opponent": "Smith-Cotton",
+        "opponent": "Savannah",
         "home_away": null,
         "team_score": null,
         "opp_score": null,
@@ -12040,7 +12445,7 @@
       },
       {
         "date": "2026-09-18",
-        "opponent": "Van-Far with Community",
+        "opponent": "Van-Far",
         "home_away": null,
         "team_score": null,
         "opp_score": null,
@@ -12374,7 +12779,7 @@
       },
       {
         "date": "2026-10-16",
-        "opponent": "Scott City",
+        "opponent": "Scott City with Chaffee",
         "home_away": null,
         "team_score": null,
         "opp_score": null,
@@ -12496,7 +12901,7 @@
       },
       {
         "date": "2026-10-09",
-        "opponent": "DeSoto with Kingston",
+        "opponent": "DeSoto",
         "home_away": null,
         "team_score": null,
         "opp_score": null,
@@ -12663,7 +13068,7 @@
       },
       {
         "date": "2026-10-23",
-        "opponent": "Sarcoxie",
+        "opponent": "Russellville",
         "home_away": null,
         "team_score": null,
         "opp_score": null,
@@ -12847,7 +13252,7 @@
       },
       {
         "date": "2026-09-18",
-        "opponent": "St. Mary's South Side",
+        "opponent": "Webster Groves",
         "home_away": null,
         "team_score": null,
         "opp_score": null,
@@ -12999,7 +13404,7 @@
       },
       {
         "date": "2026-09-25",
-        "opponent": "DeSoto with Kingston",
+        "opponent": "DeSoto",
         "home_away": null,
         "team_score": null,
         "opp_score": null,
@@ -13532,7 +13937,7 @@
       },
       {
         "date": "2026-09-25",
-        "opponent": "Truman",
+        "opponent": "St. Charles",
         "home_away": null,
         "team_score": null,
         "opp_score": null,
@@ -13791,7 +14196,7 @@
       },
       {
         "date": "2026-09-18",
-        "opponent": "Scott City",
+        "opponent": "Scott City with Chaffee",
         "home_away": null,
         "team_score": null,
         "opp_score": null,
@@ -13913,7 +14318,7 @@
       },
       {
         "date": "2026-09-04",
-        "opponent": "Scott City",
+        "opponent": "Scott City with Chaffee",
         "home_away": null,
         "team_score": null,
         "opp_score": null,
@@ -14673,7 +15078,7 @@
       },
       {
         "date": "2026-10-09",
-        "opponent": "Pleasant Hope with Marion C. Early, Halfway",
+        "opponent": "Pleasant Hope with Halfway, Marion C. Early",
         "home_away": null,
         "team_score": null,
         "opp_score": null,
@@ -16486,7 +16891,7 @@
       },
       {
         "date": "2026-09-04",
-        "opponent": "University Academy Charter",
+        "opponent": "University Academy Charter with Ewing Marion Kauffman",
         "home_away": null,
         "team_score": null,
         "opp_score": null,
@@ -16576,7 +16981,7 @@
       },
       {
         "date": "2026-10-16",
-        "opponent": "Pleasant Hope with Marion C. Early, Halfway",
+        "opponent": "Pleasant Hope with Halfway, Marion C. Early",
         "home_away": null,
         "team_score": null,
         "opp_score": null,
@@ -17016,7 +17421,7 @@
         "overtime": false
       }
     ],
-    "Scott City": [
+    "Scott City with Chaffee": [
       {
         "date": "2026-08-28",
         "opponent": "Liberty (Mountain View)",
@@ -17156,7 +17561,7 @@
     "Liberty (Mountain View)": [
       {
         "date": "2026-08-28",
-        "opponent": "Scott City",
+        "opponent": "Scott City with Chaffee",
         "home_away": null,
         "team_score": 50,
         "opp_score": 15,
@@ -17290,7 +17695,7 @@
         "overtime": false
       }
     ],
-    "University Academy Charter": [
+    "University Academy Charter with Ewing Marion Kauffman": [
       {
         "date": "2026-08-28",
         "opponent": "Lincoln College Prep",
@@ -17323,7 +17728,7 @@
       },
       {
         "date": "2026-09-12",
-        "opponent": "Father Tolton with Calvary Lutheran",
+        "opponent": "Father Tolton",
         "home_away": null,
         "team_score": null,
         "opp_score": null,
@@ -17398,7 +17803,7 @@
       },
       {
         "date": "2026-10-16",
-        "opponent": "Van Horn",
+        "opponent": "Versailles",
         "home_away": null,
         "team_score": null,
         "opp_score": null,
@@ -17430,7 +17835,7 @@
     "Lincoln College Prep": [
       {
         "date": "2026-08-28",
-        "opponent": "University Academy Charter",
+        "opponent": "University Academy Charter with Ewing Marion Kauffman",
         "home_away": null,
         "team_score": 10,
         "opp_score": 7,
@@ -17475,7 +17880,7 @@
       },
       {
         "date": "2026-09-18",
-        "opponent": "Van Horn",
+        "opponent": "Versailles",
         "home_away": null,
         "team_score": null,
         "opp_score": null,
@@ -17642,7 +18047,7 @@
       },
       {
         "date": "2026-10-02",
-        "opponent": "Pleasant Hope with Marion C. Early, Halfway",
+        "opponent": "Pleasant Hope with Halfway, Marion C. Early",
         "home_away": null,
         "team_score": null,
         "opp_score": null,
@@ -17809,7 +18214,7 @@
       },
       {
         "date": "2026-10-09",
-        "opponent": "Sarcoxie",
+        "opponent": "Russellville",
         "home_away": null,
         "team_score": null,
         "opp_score": null,
@@ -18312,7 +18717,7 @@
       },
       {
         "date": "2026-09-11",
-        "opponent": "Van-Far with Community",
+        "opponent": "Van-Far",
         "home_away": null,
         "team_score": null,
         "opp_score": null,
@@ -19194,7 +19599,7 @@
       },
       {
         "date": "2026-10-02",
-        "opponent": "Scott City",
+        "opponent": "Scott City with Chaffee",
         "home_away": null,
         "team_score": null,
         "opp_score": null,
@@ -19271,7 +19676,7 @@
       },
       {
         "date": "2026-09-04",
-        "opponent": "Stockton",
+        "opponent": "Stockton with Sheldon",
         "home_away": null,
         "team_score": null,
         "opp_score": null,
@@ -19423,7 +19828,7 @@
       },
       {
         "date": "2026-09-11",
-        "opponent": "Skyline",
+        "opponent": "South Shelby",
         "home_away": null,
         "team_score": null,
         "opp_score": null,
@@ -19438,7 +19843,7 @@
       },
       {
         "date": "2026-09-18",
-        "opponent": "Stockton",
+        "opponent": "Stockton with Sheldon",
         "home_away": null,
         "team_score": null,
         "opp_score": null,
@@ -21005,7 +21410,7 @@
       },
       {
         "date": "2026-10-09",
-        "opponent": "Sullivan",
+        "opponent": "Webb City",
         "home_away": null,
         "team_score": null,
         "opp_score": null,
@@ -21112,7 +21517,7 @@
       },
       {
         "date": "2026-09-25",
-        "opponent": "Van-Far with Community",
+        "opponent": "Van-Far",
         "home_away": null,
         "team_score": null,
         "opp_score": null,
@@ -22026,7 +22431,7 @@
       },
       {
         "date": "2026-09-04",
-        "opponent": "Sullivan",
+        "opponent": "Webb City",
         "home_away": null,
         "team_score": null,
         "opp_score": null,
@@ -22178,7 +22583,7 @@
       },
       {
         "date": "2026-09-11",
-        "opponent": "DeSoto with Kingston",
+        "opponent": "DeSoto",
         "home_away": null,
         "team_score": null,
         "opp_score": null,
@@ -22908,7 +23313,7 @@
       },
       {
         "date": "2026-10-02",
-        "opponent": "Truman",
+        "opponent": "St. Charles",
         "home_away": null,
         "team_score": null,
         "opp_score": null,
@@ -23212,7 +23617,7 @@
       },
       {
         "date": "2026-10-23",
-        "opponent": "University Academy Charter",
+        "opponent": "University Academy Charter with Ewing Marion Kauffman",
         "home_away": null,
         "team_score": null,
         "opp_score": null,
@@ -23807,7 +24212,7 @@
       },
       {
         "date": "2026-09-11",
-        "opponent": "Sarcoxie",
+        "opponent": "Russellville",
         "home_away": null,
         "team_score": null,
         "opp_score": null,
@@ -23822,7 +24227,7 @@
       },
       {
         "date": "2026-09-18",
-        "opponent": "Sullivan",
+        "opponent": "Webb City",
         "home_away": null,
         "team_score": null,
         "opp_score": null,
@@ -24248,7 +24653,7 @@
       },
       {
         "date": "2026-09-25",
-        "opponent": "Father Tolton with Calvary Lutheran",
+        "opponent": "Father Tolton",
         "home_away": null,
         "team_score": null,
         "opp_score": null,
@@ -24385,7 +24790,7 @@
       },
       {
         "date": "2026-09-25",
-        "opponent": "Sullivan",
+        "opponent": "Webb City",
         "home_away": null,
         "team_score": null,
         "opp_score": null,
@@ -24415,7 +24820,7 @@
       },
       {
         "date": "2026-10-09",
-        "opponent": "St. Mary's South Side",
+        "opponent": "Webster Groves",
         "home_away": null,
         "team_score": null,
         "opp_score": null,
@@ -25648,7 +26053,7 @@
       },
       {
         "date": "2026-10-02",
-        "opponent": "DeSoto with Kingston",
+        "opponent": "DeSoto",
         "home_away": null,
         "team_score": null,
         "opp_score": null,
@@ -25725,7 +26130,7 @@
       },
       {
         "date": "2026-09-03",
-        "opponent": "DeSoto with Kingston",
+        "opponent": "DeSoto",
         "home_away": null,
         "team_score": null,
         "opp_score": null,
@@ -25740,7 +26145,7 @@
       },
       {
         "date": "2026-09-04",
-        "opponent": "DeSoto with Kingston",
+        "opponent": "DeSoto",
         "home_away": null,
         "team_score": null,
         "opp_score": null,
@@ -26059,7 +26464,7 @@
       },
       {
         "date": "2026-09-18",
-        "opponent": "Skyline",
+        "opponent": "South Shelby",
         "home_away": null,
         "team_score": null,
         "opp_score": null,
@@ -26104,7 +26509,7 @@
       },
       {
         "date": "2026-10-09",
-        "opponent": "Stockton",
+        "opponent": "Stockton with Sheldon",
         "home_away": null,
         "team_score": null,
         "opp_score": null,
@@ -26393,7 +26798,7 @@
       },
       {
         "date": "2026-10-16",
-        "opponent": "Truman",
+        "opponent": "St. Charles",
         "home_away": null,
         "team_score": null,
         "opp_score": null,
@@ -26713,6 +27118,21 @@
         "overtime": false
       },
       {
+        "date": "2026-08-28",
+        "opponent": "Warrensburg",
+        "home_away": null,
+        "team_score": 21,
+        "opp_score": 32,
+        "result": "L",
+        "predicted_team_score": null,
+        "predicted_opp_score": null,
+        "off_delta": null,
+        "def_delta": null,
+        "ovr_delta": null,
+        "forfeit": false,
+        "overtime": false
+      },
+      {
         "date": "2026-09-04",
         "opponent": "Smithville",
         "home_away": null,
@@ -26728,8 +27148,53 @@
         "overtime": false
       },
       {
+        "date": "2026-09-04",
+        "opponent": "Rock Bridge",
+        "home_away": null,
+        "team_score": null,
+        "opp_score": null,
+        "result": null,
+        "predicted_team_score": null,
+        "predicted_opp_score": null,
+        "off_delta": null,
+        "def_delta": null,
+        "ovr_delta": null,
+        "forfeit": false,
+        "overtime": false
+      },
+      {
+        "date": "2026-09-11",
+        "opponent": "Camdenton",
+        "home_away": null,
+        "team_score": null,
+        "opp_score": null,
+        "result": null,
+        "predicted_team_score": null,
+        "predicted_opp_score": null,
+        "off_delta": null,
+        "def_delta": null,
+        "ovr_delta": null,
+        "forfeit": false,
+        "overtime": false
+      },
+      {
         "date": "2026-09-11",
         "opponent": "Kirksville",
+        "home_away": null,
+        "team_score": null,
+        "opp_score": null,
+        "result": null,
+        "predicted_team_score": null,
+        "predicted_opp_score": null,
+        "off_delta": null,
+        "def_delta": null,
+        "ovr_delta": null,
+        "forfeit": false,
+        "overtime": false
+      },
+      {
+        "date": "2026-09-18",
+        "opponent": "Jefferson City",
         "home_away": null,
         "team_score": null,
         "opp_score": null,
@@ -26773,6 +27238,36 @@
         "overtime": false
       },
       {
+        "date": "2026-09-25",
+        "opponent": "Hickman",
+        "home_away": null,
+        "team_score": null,
+        "opp_score": null,
+        "result": null,
+        "predicted_team_score": null,
+        "predicted_opp_score": null,
+        "off_delta": null,
+        "def_delta": null,
+        "ovr_delta": null,
+        "forfeit": false,
+        "overtime": false
+      },
+      {
+        "date": "2026-10-02",
+        "opponent": "Battle",
+        "home_away": null,
+        "team_score": null,
+        "opp_score": null,
+        "result": null,
+        "predicted_team_score": null,
+        "predicted_opp_score": null,
+        "off_delta": null,
+        "def_delta": null,
+        "ovr_delta": null,
+        "forfeit": false,
+        "overtime": false
+      },
+      {
         "date": "2026-10-02",
         "opponent": "Cameron",
         "home_away": null,
@@ -26803,6 +27298,21 @@
         "overtime": false
       },
       {
+        "date": "2026-10-09",
+        "opponent": "Capital City",
+        "home_away": null,
+        "team_score": null,
+        "opp_score": null,
+        "result": null,
+        "predicted_team_score": null,
+        "predicted_opp_score": null,
+        "off_delta": null,
+        "def_delta": null,
+        "ovr_delta": null,
+        "forfeit": false,
+        "overtime": false
+      },
+      {
         "date": "2026-10-16",
         "opponent": "Maryville",
         "home_away": null,
@@ -26818,8 +27328,38 @@
         "overtime": false
       },
       {
+        "date": "2026-10-17",
+        "opponent": "Helias Catholic",
+        "home_away": null,
+        "team_score": null,
+        "opp_score": null,
+        "result": null,
+        "predicted_team_score": null,
+        "predicted_opp_score": null,
+        "off_delta": null,
+        "def_delta": null,
+        "ovr_delta": null,
+        "forfeit": false,
+        "overtime": false
+      },
+      {
         "date": "2026-10-23",
         "opponent": "Excelsior Springs",
+        "home_away": null,
+        "team_score": null,
+        "opp_score": null,
+        "result": null,
+        "predicted_team_score": null,
+        "predicted_opp_score": null,
+        "off_delta": null,
+        "def_delta": null,
+        "ovr_delta": null,
+        "forfeit": false,
+        "overtime": false
+      },
+      {
+        "date": "2026-10-23",
+        "opponent": "Marshall",
         "home_away": null,
         "team_score": null,
         "opp_score": null,
@@ -27018,7 +27558,7 @@
       },
       {
         "date": "2026-09-18",
-        "opponent": "Smith-Cotton",
+        "opponent": "Savannah",
         "home_away": null,
         "team_score": null,
         "opp_score": null,
@@ -27367,7 +27907,7 @@
       },
       {
         "date": "2026-10-23",
-        "opponent": "Scott City",
+        "opponent": "Scott City with Chaffee",
         "home_away": null,
         "team_score": null,
         "opp_score": null,
@@ -27474,7 +28014,7 @@
       },
       {
         "date": "2026-10-09",
-        "opponent": "Scott City",
+        "opponent": "Scott City with Chaffee",
         "home_away": null,
         "team_score": null,
         "opp_score": null,
@@ -27536,7 +28076,7 @@
       },
       {
         "date": "2026-09-04",
-        "opponent": "Father Tolton with Calvary Lutheran",
+        "opponent": "Father Tolton",
         "home_away": null,
         "team_score": null,
         "opp_score": null,
@@ -27596,7 +28136,7 @@
       },
       {
         "date": "2026-10-02",
-        "opponent": "Sullivan",
+        "opponent": "Webb City",
         "home_away": null,
         "team_score": null,
         "opp_score": null,
@@ -27763,7 +28303,7 @@
       },
       {
         "date": "2026-10-16",
-        "opponent": "DeSoto with Kingston",
+        "opponent": "DeSoto",
         "home_away": null,
         "team_score": null,
         "opp_score": null,
@@ -27792,7 +28332,7 @@
         "overtime": false
       }
     ],
-    "Truman": [
+    "St. Charles": [
       {
         "date": "2026-08-28",
         "opponent": "Raytown",
@@ -27800,6 +28340,36 @@
         "team_score": 0,
         "opp_score": 71,
         "result": "L",
+        "predicted_team_score": null,
+        "predicted_opp_score": null,
+        "off_delta": null,
+        "def_delta": null,
+        "ovr_delta": null,
+        "forfeit": false,
+        "overtime": false
+      },
+      {
+        "date": "2026-08-28",
+        "opponent": "McCluer North",
+        "home_away": null,
+        "team_score": 6,
+        "opp_score": 43,
+        "result": "L",
+        "predicted_team_score": null,
+        "predicted_opp_score": null,
+        "off_delta": null,
+        "def_delta": null,
+        "ovr_delta": null,
+        "forfeit": false,
+        "overtime": false
+      },
+      {
+        "date": "2026-09-03",
+        "opponent": "Clayton with Brentwood",
+        "home_away": null,
+        "team_score": null,
+        "opp_score": null,
+        "result": null,
         "predicted_team_score": null,
         "predicted_opp_score": null,
         "off_delta": null,
@@ -27825,7 +28395,37 @@
       },
       {
         "date": "2026-09-11",
-        "opponent": "Van Horn",
+        "opponent": "Duchesne",
+        "home_away": null,
+        "team_score": null,
+        "opp_score": null,
+        "result": null,
+        "predicted_team_score": null,
+        "predicted_opp_score": null,
+        "off_delta": null,
+        "def_delta": null,
+        "ovr_delta": null,
+        "forfeit": false,
+        "overtime": false
+      },
+      {
+        "date": "2026-09-11",
+        "opponent": "Versailles",
+        "home_away": null,
+        "team_score": null,
+        "opp_score": null,
+        "result": null,
+        "predicted_team_score": null,
+        "predicted_opp_score": null,
+        "off_delta": null,
+        "def_delta": null,
+        "ovr_delta": null,
+        "forfeit": false,
+        "overtime": false
+      },
+      {
+        "date": "2026-09-17",
+        "opponent": "Holt",
         "home_away": null,
         "team_score": null,
         "opp_score": null,
@@ -27869,8 +28469,38 @@
         "overtime": false
       },
       {
+        "date": "2026-09-25",
+        "opponent": "Winfield",
+        "home_away": null,
+        "team_score": null,
+        "opp_score": null,
+        "result": null,
+        "predicted_team_score": null,
+        "predicted_opp_score": null,
+        "off_delta": null,
+        "def_delta": null,
+        "ovr_delta": null,
+        "forfeit": false,
+        "overtime": false
+      },
+      {
         "date": "2026-10-02",
         "opponent": "Fort Osage",
+        "home_away": null,
+        "team_score": null,
+        "opp_score": null,
+        "result": null,
+        "predicted_team_score": null,
+        "predicted_opp_score": null,
+        "off_delta": null,
+        "def_delta": null,
+        "ovr_delta": null,
+        "forfeit": false,
+        "overtime": false
+      },
+      {
+        "date": "2026-10-02",
+        "opponent": "St. Charles West",
         "home_away": null,
         "team_score": null,
         "opp_score": null,
@@ -27899,8 +28529,53 @@
         "overtime": false
       },
       {
+        "date": "2026-10-09",
+        "opponent": "Orchard Farm",
+        "home_away": null,
+        "team_score": null,
+        "opp_score": null,
+        "result": null,
+        "predicted_team_score": null,
+        "predicted_opp_score": null,
+        "off_delta": null,
+        "def_delta": null,
+        "ovr_delta": null,
+        "forfeit": false,
+        "overtime": false
+      },
+      {
+        "date": "2026-10-16",
+        "opponent": "Warrenton",
+        "home_away": null,
+        "team_score": null,
+        "opp_score": null,
+        "result": null,
+        "predicted_team_score": null,
+        "predicted_opp_score": null,
+        "off_delta": null,
+        "def_delta": null,
+        "ovr_delta": null,
+        "forfeit": false,
+        "overtime": false
+      },
+      {
         "date": "2026-10-16",
         "opponent": "Platte County",
+        "home_away": null,
+        "team_score": null,
+        "opp_score": null,
+        "result": null,
+        "predicted_team_score": null,
+        "predicted_opp_score": null,
+        "off_delta": null,
+        "def_delta": null,
+        "ovr_delta": null,
+        "forfeit": false,
+        "overtime": false
+      },
+      {
+        "date": "2026-10-23",
+        "opponent": "Francis Howell North",
         "home_away": null,
         "team_score": null,
         "opp_score": null,
@@ -27932,7 +28607,7 @@
     "Raytown": [
       {
         "date": "2026-08-28",
-        "opponent": "Truman",
+        "opponent": "St. Charles",
         "home_away": null,
         "team_score": 71,
         "opp_score": 0,
@@ -28769,7 +29444,7 @@
       },
       {
         "date": "2026-09-04",
-        "opponent": "Smith-Cotton",
+        "opponent": "Savannah",
         "home_away": null,
         "team_score": null,
         "opp_score": null,
@@ -28874,7 +29549,7 @@
       },
       {
         "date": "2026-10-23",
-        "opponent": "St. Mary's South Side",
+        "opponent": "Webster Groves",
         "home_away": null,
         "team_score": null,
         "opp_score": null,
@@ -29105,7 +29780,7 @@
     "Cole Camp": [
       {
         "date": "2026-08-28",
-        "opponent": "Sarcoxie",
+        "opponent": "Russellville",
         "home_away": null,
         "team_score": 7,
         "opp_score": 42,
@@ -29150,7 +29825,7 @@
       },
       {
         "date": "2026-09-18",
-        "opponent": "Pleasant Hope with Marion C. Early, Halfway",
+        "opponent": "Pleasant Hope with Halfway, Marion C. Early",
         "home_away": null,
         "team_score": null,
         "opp_score": null,
@@ -29239,7 +29914,7 @@
         "overtime": false
       }
     ],
-    "Sarcoxie": [
+    "Russellville": [
       {
         "date": "2026-08-28",
         "opponent": "Cole Camp",
@@ -29256,38 +29931,8 @@
         "overtime": false
       },
       {
-        "date": "2026-08-28",
-        "opponent": "(, )",
-        "home_away": null,
-        "team_score": 35,
-        "opp_score": 0,
-        "result": "W",
-        "predicted_team_score": null,
-        "predicted_opp_score": null,
-        "off_delta": null,
-        "def_delta": null,
-        "ovr_delta": null,
-        "forfeit": false,
-        "overtime": false
-      },
-      {
         "date": "2026-09-04",
-        "opponent": "Hollister",
-        "home_away": null,
-        "team_score": null,
-        "opp_score": null,
-        "result": null,
-        "predicted_team_score": null,
-        "predicted_opp_score": null,
-        "off_delta": null,
-        "def_delta": null,
-        "ovr_delta": null,
-        "forfeit": false,
-        "overtime": false
-      },
-      {
-        "date": "2026-09-04",
-        "opponent": "Van-Far with Community",
+        "opponent": "Van-Far",
         "home_away": null,
         "team_score": null,
         "opp_score": null,
@@ -29316,53 +29961,8 @@
         "overtime": false
       },
       {
-        "date": "2026-09-11",
-        "opponent": "Pierce City",
-        "home_away": null,
-        "team_score": null,
-        "opp_score": null,
-        "result": null,
-        "predicted_team_score": null,
-        "predicted_opp_score": null,
-        "off_delta": null,
-        "def_delta": null,
-        "ovr_delta": null,
-        "forfeit": false,
-        "overtime": false
-      },
-      {
         "date": "2026-09-18",
         "opponent": "Missouri Military Academy",
-        "home_away": null,
-        "team_score": null,
-        "opp_score": null,
-        "result": null,
-        "predicted_team_score": null,
-        "predicted_opp_score": null,
-        "off_delta": null,
-        "def_delta": null,
-        "ovr_delta": null,
-        "forfeit": false,
-        "overtime": false
-      },
-      {
-        "date": "2026-09-18",
-        "opponent": "Diamond",
-        "home_away": null,
-        "team_score": null,
-        "opp_score": null,
-        "result": null,
-        "predicted_team_score": null,
-        "predicted_opp_score": null,
-        "off_delta": null,
-        "def_delta": null,
-        "ovr_delta": null,
-        "forfeit": false,
-        "overtime": false
-      },
-      {
-        "date": "2026-09-25",
-        "opponent": "Marionville",
         "home_away": null,
         "team_score": null,
         "opp_score": null,
@@ -29406,36 +30006,6 @@
         "overtime": false
       },
       {
-        "date": "2026-10-02",
-        "opponent": "Skyline",
-        "home_away": null,
-        "team_score": null,
-        "opp_score": null,
-        "result": null,
-        "predicted_team_score": null,
-        "predicted_opp_score": null,
-        "off_delta": null,
-        "def_delta": null,
-        "ovr_delta": null,
-        "forfeit": false,
-        "overtime": false
-      },
-      {
-        "date": "2026-10-09",
-        "opponent": "Miller",
-        "home_away": null,
-        "team_score": null,
-        "opp_score": null,
-        "result": null,
-        "predicted_team_score": null,
-        "predicted_opp_score": null,
-        "off_delta": null,
-        "def_delta": null,
-        "ovr_delta": null,
-        "forfeit": false,
-        "overtime": false
-      },
-      {
         "date": "2026-10-09",
         "opponent": "Linn",
         "home_away": null,
@@ -29453,36 +30023,6 @@
       {
         "date": "2026-10-16",
         "opponent": "Harrisburg",
-        "home_away": null,
-        "team_score": null,
-        "opp_score": null,
-        "result": null,
-        "predicted_team_score": null,
-        "predicted_opp_score": null,
-        "off_delta": null,
-        "def_delta": null,
-        "ovr_delta": null,
-        "forfeit": false,
-        "overtime": false
-      },
-      {
-        "date": "2026-10-16",
-        "opponent": "Stockton",
-        "home_away": null,
-        "team_score": null,
-        "opp_score": null,
-        "result": null,
-        "predicted_team_score": null,
-        "predicted_opp_score": null,
-        "off_delta": null,
-        "def_delta": null,
-        "ovr_delta": null,
-        "forfeit": false,
-        "overtime": false
-      },
-      {
-        "date": "2026-10-23",
-        "opponent": "Ash Grove",
         "home_away": null,
         "team_score": null,
         "opp_score": null,
@@ -29757,6 +30297,143 @@
       {
         "date": "2026-10-23",
         "opponent": "Westran",
+        "home_away": null,
+        "team_score": null,
+        "opp_score": null,
+        "result": null,
+        "predicted_team_score": null,
+        "predicted_opp_score": null,
+        "off_delta": null,
+        "def_delta": null,
+        "ovr_delta": null,
+        "forfeit": false,
+        "overtime": false
+      }
+    ],
+    "Sarcoxie": [
+      {
+        "date": "2026-08-28",
+        "opponent": "(, )",
+        "home_away": null,
+        "team_score": 35,
+        "opp_score": 0,
+        "result": "W",
+        "predicted_team_score": null,
+        "predicted_opp_score": null,
+        "off_delta": null,
+        "def_delta": null,
+        "ovr_delta": null,
+        "forfeit": false,
+        "overtime": false
+      },
+      {
+        "date": "2026-09-04",
+        "opponent": "Hollister",
+        "home_away": null,
+        "team_score": null,
+        "opp_score": null,
+        "result": null,
+        "predicted_team_score": null,
+        "predicted_opp_score": null,
+        "off_delta": null,
+        "def_delta": null,
+        "ovr_delta": null,
+        "forfeit": false,
+        "overtime": false
+      },
+      {
+        "date": "2026-09-11",
+        "opponent": "Pierce City",
+        "home_away": null,
+        "team_score": null,
+        "opp_score": null,
+        "result": null,
+        "predicted_team_score": null,
+        "predicted_opp_score": null,
+        "off_delta": null,
+        "def_delta": null,
+        "ovr_delta": null,
+        "forfeit": false,
+        "overtime": false
+      },
+      {
+        "date": "2026-09-18",
+        "opponent": "Diamond",
+        "home_away": null,
+        "team_score": null,
+        "opp_score": null,
+        "result": null,
+        "predicted_team_score": null,
+        "predicted_opp_score": null,
+        "off_delta": null,
+        "def_delta": null,
+        "ovr_delta": null,
+        "forfeit": false,
+        "overtime": false
+      },
+      {
+        "date": "2026-09-25",
+        "opponent": "Marionville",
+        "home_away": null,
+        "team_score": null,
+        "opp_score": null,
+        "result": null,
+        "predicted_team_score": null,
+        "predicted_opp_score": null,
+        "off_delta": null,
+        "def_delta": null,
+        "ovr_delta": null,
+        "forfeit": false,
+        "overtime": false
+      },
+      {
+        "date": "2026-10-02",
+        "opponent": "South Shelby",
+        "home_away": null,
+        "team_score": null,
+        "opp_score": null,
+        "result": null,
+        "predicted_team_score": null,
+        "predicted_opp_score": null,
+        "off_delta": null,
+        "def_delta": null,
+        "ovr_delta": null,
+        "forfeit": false,
+        "overtime": false
+      },
+      {
+        "date": "2026-10-09",
+        "opponent": "Miller",
+        "home_away": null,
+        "team_score": null,
+        "opp_score": null,
+        "result": null,
+        "predicted_team_score": null,
+        "predicted_opp_score": null,
+        "off_delta": null,
+        "def_delta": null,
+        "ovr_delta": null,
+        "forfeit": false,
+        "overtime": false
+      },
+      {
+        "date": "2026-10-16",
+        "opponent": "Stockton with Sheldon",
+        "home_away": null,
+        "team_score": null,
+        "opp_score": null,
+        "result": null,
+        "predicted_team_score": null,
+        "predicted_opp_score": null,
+        "off_delta": null,
+        "def_delta": null,
+        "ovr_delta": null,
+        "forfeit": false,
+        "overtime": false
+      },
+      {
+        "date": "2026-10-23",
+        "opponent": "Ash Grove",
         "home_away": null,
         "team_score": null,
         "opp_score": null,
@@ -30884,7 +31561,7 @@
       },
       {
         "date": "2026-09-25",
-        "opponent": "Pleasant Hope with Marion C. Early, Halfway",
+        "opponent": "Pleasant Hope with Halfway, Marion C. Early",
         "home_away": null,
         "team_score": null,
         "opp_score": null,
@@ -31082,280 +31759,6 @@
       {
         "date": "2026-10-23",
         "opponent": "Versailles",
-        "home_away": null,
-        "team_score": null,
-        "opp_score": null,
-        "result": null,
-        "predicted_team_score": null,
-        "predicted_opp_score": null,
-        "off_delta": null,
-        "def_delta": null,
-        "ovr_delta": null,
-        "forfeit": false,
-        "overtime": false
-      }
-    ],
-    "Versailles": [
-      {
-        "date": "2026-08-28",
-        "opponent": "Skyline",
-        "home_away": null,
-        "team_score": 0,
-        "opp_score": 37,
-        "result": "L",
-        "predicted_team_score": null,
-        "predicted_opp_score": null,
-        "off_delta": null,
-        "def_delta": null,
-        "ovr_delta": null,
-        "forfeit": false,
-        "overtime": false
-      },
-      {
-        "date": "2026-09-04",
-        "opponent": "Eldon",
-        "home_away": null,
-        "team_score": null,
-        "opp_score": null,
-        "result": null,
-        "predicted_team_score": null,
-        "predicted_opp_score": null,
-        "off_delta": null,
-        "def_delta": null,
-        "ovr_delta": null,
-        "forfeit": false,
-        "overtime": false
-      },
-      {
-        "date": "2026-09-11",
-        "opponent": "Lexington",
-        "home_away": null,
-        "team_score": null,
-        "opp_score": null,
-        "result": null,
-        "predicted_team_score": null,
-        "predicted_opp_score": null,
-        "off_delta": null,
-        "def_delta": null,
-        "ovr_delta": null,
-        "forfeit": false,
-        "overtime": false
-      },
-      {
-        "date": "2026-09-18",
-        "opponent": "Tipton with Bunceton",
-        "home_away": null,
-        "team_score": null,
-        "opp_score": null,
-        "result": null,
-        "predicted_team_score": null,
-        "predicted_opp_score": null,
-        "off_delta": null,
-        "def_delta": null,
-        "ovr_delta": null,
-        "forfeit": false,
-        "overtime": false
-      },
-      {
-        "date": "2026-09-25",
-        "opponent": "Warsaw",
-        "home_away": null,
-        "team_score": null,
-        "opp_score": null,
-        "result": null,
-        "predicted_team_score": null,
-        "predicted_opp_score": null,
-        "off_delta": null,
-        "def_delta": null,
-        "ovr_delta": null,
-        "forfeit": false,
-        "overtime": false
-      },
-      {
-        "date": "2026-10-02",
-        "opponent": "Adrian",
-        "home_away": null,
-        "team_score": null,
-        "opp_score": null,
-        "result": null,
-        "predicted_team_score": null,
-        "predicted_opp_score": null,
-        "off_delta": null,
-        "def_delta": null,
-        "ovr_delta": null,
-        "forfeit": false,
-        "overtime": false
-      },
-      {
-        "date": "2026-10-09",
-        "opponent": "El Dorado Springs",
-        "home_away": null,
-        "team_score": null,
-        "opp_score": null,
-        "result": null,
-        "predicted_team_score": null,
-        "predicted_opp_score": null,
-        "off_delta": null,
-        "def_delta": null,
-        "ovr_delta": null,
-        "forfeit": false,
-        "overtime": false
-      },
-      {
-        "date": "2026-10-16",
-        "opponent": "Butler",
-        "home_away": null,
-        "team_score": null,
-        "opp_score": null,
-        "result": null,
-        "predicted_team_score": null,
-        "predicted_opp_score": null,
-        "off_delta": null,
-        "def_delta": null,
-        "ovr_delta": null,
-        "forfeit": false,
-        "overtime": false
-      },
-      {
-        "date": "2026-10-23",
-        "opponent": "Sherwood",
-        "home_away": null,
-        "team_score": null,
-        "opp_score": null,
-        "result": null,
-        "predicted_team_score": null,
-        "predicted_opp_score": null,
-        "off_delta": null,
-        "def_delta": null,
-        "ovr_delta": null,
-        "forfeit": false,
-        "overtime": false
-      }
-    ],
-    "Skyline": [
-      {
-        "date": "2026-08-28",
-        "opponent": "Versailles",
-        "home_away": null,
-        "team_score": 37,
-        "opp_score": 0,
-        "result": "W",
-        "predicted_team_score": null,
-        "predicted_opp_score": null,
-        "off_delta": null,
-        "def_delta": null,
-        "ovr_delta": null,
-        "forfeit": false,
-        "overtime": false
-      },
-      {
-        "date": "2026-09-04",
-        "opponent": "Willow Springs",
-        "home_away": null,
-        "team_score": null,
-        "opp_score": null,
-        "result": null,
-        "predicted_team_score": null,
-        "predicted_opp_score": null,
-        "off_delta": null,
-        "def_delta": null,
-        "ovr_delta": null,
-        "forfeit": false,
-        "overtime": false
-      },
-      {
-        "date": "2026-09-11",
-        "opponent": "Marionville",
-        "home_away": null,
-        "team_score": null,
-        "opp_score": null,
-        "result": null,
-        "predicted_team_score": null,
-        "predicted_opp_score": null,
-        "off_delta": null,
-        "def_delta": null,
-        "ovr_delta": null,
-        "forfeit": false,
-        "overtime": false
-      },
-      {
-        "date": "2026-09-18",
-        "opponent": "Pierce City",
-        "home_away": null,
-        "team_score": null,
-        "opp_score": null,
-        "result": null,
-        "predicted_team_score": null,
-        "predicted_opp_score": null,
-        "off_delta": null,
-        "def_delta": null,
-        "ovr_delta": null,
-        "forfeit": false,
-        "overtime": false
-      },
-      {
-        "date": "2026-09-25",
-        "opponent": "Stockton",
-        "home_away": null,
-        "team_score": null,
-        "opp_score": null,
-        "result": null,
-        "predicted_team_score": null,
-        "predicted_opp_score": null,
-        "off_delta": null,
-        "def_delta": null,
-        "ovr_delta": null,
-        "forfeit": false,
-        "overtime": false
-      },
-      {
-        "date": "2026-10-02",
-        "opponent": "Sarcoxie",
-        "home_away": null,
-        "team_score": null,
-        "opp_score": null,
-        "result": null,
-        "predicted_team_score": null,
-        "predicted_opp_score": null,
-        "off_delta": null,
-        "def_delta": null,
-        "ovr_delta": null,
-        "forfeit": false,
-        "overtime": false
-      },
-      {
-        "date": "2026-10-09",
-        "opponent": "Ash Grove",
-        "home_away": null,
-        "team_score": null,
-        "opp_score": null,
-        "result": null,
-        "predicted_team_score": null,
-        "predicted_opp_score": null,
-        "off_delta": null,
-        "def_delta": null,
-        "ovr_delta": null,
-        "forfeit": false,
-        "overtime": false
-      },
-      {
-        "date": "2026-10-16",
-        "opponent": "Miller",
-        "home_away": null,
-        "team_score": null,
-        "opp_score": null,
-        "result": null,
-        "predicted_team_score": null,
-        "predicted_opp_score": null,
-        "off_delta": null,
-        "def_delta": null,
-        "ovr_delta": null,
-        "forfeit": false,
-        "overtime": false
-      },
-      {
-        "date": "2026-10-23",
-        "opponent": "Diamond",
         "home_away": null,
         "team_score": null,
         "opp_score": null,
@@ -32010,7 +32413,7 @@
       },
       {
         "date": "2026-10-16",
-        "opponent": "Van-Far with Community",
+        "opponent": "Van-Far",
         "home_away": null,
         "team_score": null,
         "opp_score": null,
@@ -32117,7 +32520,7 @@
       },
       {
         "date": "2026-10-02",
-        "opponent": "Sarcoxie",
+        "opponent": "Russellville",
         "home_away": null,
         "team_score": null,
         "opp_score": null,
@@ -32513,7 +32916,7 @@
       },
       {
         "date": "2026-09-26",
-        "opponent": "University Academy Charter",
+        "opponent": "University Academy Charter with Ewing Marion Kauffman",
         "home_away": null,
         "team_score": null,
         "opp_score": null,
@@ -32573,7 +32976,7 @@
       },
       {
         "date": "2026-10-23",
-        "opponent": "Van Horn",
+        "opponent": "Versailles",
         "home_away": null,
         "team_score": null,
         "opp_score": null,
@@ -33045,143 +33448,6 @@
         "overtime": false
       }
     ],
-    "St. Charles": [
-      {
-        "date": "2026-08-28",
-        "opponent": "McCluer North",
-        "home_away": null,
-        "team_score": 6,
-        "opp_score": 43,
-        "result": "L",
-        "predicted_team_score": null,
-        "predicted_opp_score": null,
-        "off_delta": null,
-        "def_delta": null,
-        "ovr_delta": null,
-        "forfeit": false,
-        "overtime": false
-      },
-      {
-        "date": "2026-09-03",
-        "opponent": "Clayton with Brentwood",
-        "home_away": null,
-        "team_score": null,
-        "opp_score": null,
-        "result": null,
-        "predicted_team_score": null,
-        "predicted_opp_score": null,
-        "off_delta": null,
-        "def_delta": null,
-        "ovr_delta": null,
-        "forfeit": false,
-        "overtime": false
-      },
-      {
-        "date": "2026-09-11",
-        "opponent": "Duchesne",
-        "home_away": null,
-        "team_score": null,
-        "opp_score": null,
-        "result": null,
-        "predicted_team_score": null,
-        "predicted_opp_score": null,
-        "off_delta": null,
-        "def_delta": null,
-        "ovr_delta": null,
-        "forfeit": false,
-        "overtime": false
-      },
-      {
-        "date": "2026-09-17",
-        "opponent": "Holt",
-        "home_away": null,
-        "team_score": null,
-        "opp_score": null,
-        "result": null,
-        "predicted_team_score": null,
-        "predicted_opp_score": null,
-        "off_delta": null,
-        "def_delta": null,
-        "ovr_delta": null,
-        "forfeit": false,
-        "overtime": false
-      },
-      {
-        "date": "2026-09-25",
-        "opponent": "Winfield",
-        "home_away": null,
-        "team_score": null,
-        "opp_score": null,
-        "result": null,
-        "predicted_team_score": null,
-        "predicted_opp_score": null,
-        "off_delta": null,
-        "def_delta": null,
-        "ovr_delta": null,
-        "forfeit": false,
-        "overtime": false
-      },
-      {
-        "date": "2026-10-02",
-        "opponent": "St. Charles West",
-        "home_away": null,
-        "team_score": null,
-        "opp_score": null,
-        "result": null,
-        "predicted_team_score": null,
-        "predicted_opp_score": null,
-        "off_delta": null,
-        "def_delta": null,
-        "ovr_delta": null,
-        "forfeit": false,
-        "overtime": false
-      },
-      {
-        "date": "2026-10-09",
-        "opponent": "Orchard Farm",
-        "home_away": null,
-        "team_score": null,
-        "opp_score": null,
-        "result": null,
-        "predicted_team_score": null,
-        "predicted_opp_score": null,
-        "off_delta": null,
-        "def_delta": null,
-        "ovr_delta": null,
-        "forfeit": false,
-        "overtime": false
-      },
-      {
-        "date": "2026-10-16",
-        "opponent": "Warrenton",
-        "home_away": null,
-        "team_score": null,
-        "opp_score": null,
-        "result": null,
-        "predicted_team_score": null,
-        "predicted_opp_score": null,
-        "off_delta": null,
-        "def_delta": null,
-        "ovr_delta": null,
-        "forfeit": false,
-        "overtime": false
-      },
-      {
-        "date": "2026-10-23",
-        "opponent": "Francis Howell North",
-        "home_away": null,
-        "team_score": null,
-        "opp_score": null,
-        "result": null,
-        "predicted_team_score": null,
-        "predicted_opp_score": null,
-        "off_delta": null,
-        "def_delta": null,
-        "ovr_delta": null,
-        "forfeit": false,
-        "overtime": false
-      }
-    ],
     "North Point": [
       {
         "date": "2026-08-28",
@@ -33626,7 +33892,7 @@
       },
       {
         "date": "2026-09-11",
-        "opponent": "Sullivan",
+        "opponent": "Webb City",
         "home_away": null,
         "team_score": null,
         "opp_score": null,
@@ -33730,7 +33996,7 @@
         "overtime": false
       }
     ],
-    "St. Mary's South Side": [
+    "Webster Groves": [
       {
         "date": "2026-08-28",
         "opponent": "(, )",
@@ -33747,8 +34013,38 @@
         "overtime": false
       },
       {
+        "date": "2026-08-28",
+        "opponent": "Francis Howell North",
+        "home_away": null,
+        "team_score": 22,
+        "opp_score": 8,
+        "result": "W",
+        "predicted_team_score": null,
+        "predicted_opp_score": null,
+        "off_delta": null,
+        "def_delta": null,
+        "ovr_delta": null,
+        "forfeit": false,
+        "overtime": false
+      },
+      {
         "date": "2026-09-04",
         "opponent": "Festus",
+        "home_away": null,
+        "team_score": null,
+        "opp_score": null,
+        "result": null,
+        "predicted_team_score": null,
+        "predicted_opp_score": null,
+        "off_delta": null,
+        "def_delta": null,
+        "ovr_delta": null,
+        "forfeit": false,
+        "overtime": false
+      },
+      {
+        "date": "2026-09-11",
+        "opponent": "Affton",
         "home_away": null,
         "team_score": null,
         "opp_score": null,
@@ -33792,6 +34088,36 @@
         "overtime": false
       },
       {
+        "date": "2026-09-18",
+        "opponent": "Parkway South",
+        "home_away": null,
+        "team_score": null,
+        "opp_score": null,
+        "result": null,
+        "predicted_team_score": null,
+        "predicted_opp_score": null,
+        "off_delta": null,
+        "def_delta": null,
+        "ovr_delta": null,
+        "forfeit": false,
+        "overtime": false
+      },
+      {
+        "date": "2026-09-25",
+        "opponent": "Mehlville",
+        "home_away": null,
+        "team_score": null,
+        "opp_score": null,
+        "result": null,
+        "predicted_team_score": null,
+        "predicted_opp_score": null,
+        "off_delta": null,
+        "def_delta": null,
+        "ovr_delta": null,
+        "forfeit": false,
+        "overtime": false
+      },
+      {
         "date": "2026-10-02",
         "opponent": "Lift for Life Academy Charter",
         "home_away": null,
@@ -33807,8 +34133,53 @@
         "overtime": false
       },
       {
+        "date": "2026-10-02",
+        "opponent": "Oakville",
+        "home_away": null,
+        "team_score": null,
+        "opp_score": null,
+        "result": null,
+        "predicted_team_score": null,
+        "predicted_opp_score": null,
+        "off_delta": null,
+        "def_delta": null,
+        "ovr_delta": null,
+        "forfeit": false,
+        "overtime": false
+      },
+      {
         "date": "2026-10-09",
         "opponent": "Pacific",
+        "home_away": null,
+        "team_score": null,
+        "opp_score": null,
+        "result": null,
+        "predicted_team_score": null,
+        "predicted_opp_score": null,
+        "off_delta": null,
+        "def_delta": null,
+        "ovr_delta": null,
+        "forfeit": false,
+        "overtime": false
+      },
+      {
+        "date": "2026-10-09",
+        "opponent": "Normandy Collaborative",
+        "home_away": null,
+        "team_score": null,
+        "opp_score": null,
+        "result": null,
+        "predicted_team_score": null,
+        "predicted_opp_score": null,
+        "off_delta": null,
+        "def_delta": null,
+        "ovr_delta": null,
+        "forfeit": false,
+        "overtime": false
+      },
+      {
+        "date": "2026-10-16",
+        "opponent": "Northwest (Cedar Hill)",
         "home_away": null,
         "team_score": null,
         "opp_score": null,
@@ -33850,6 +34221,36 @@
         "ovr_delta": null,
         "forfeit": false,
         "overtime": false
+      },
+      {
+        "date": "2026-10-23",
+        "opponent": "McCluer North",
+        "home_away": null,
+        "team_score": null,
+        "opp_score": null,
+        "result": null,
+        "predicted_team_score": null,
+        "predicted_opp_score": null,
+        "off_delta": null,
+        "def_delta": null,
+        "ovr_delta": null,
+        "forfeit": false,
+        "overtime": false
+      },
+      {
+        "date": "2026-11-26",
+        "opponent": "Kirkwood",
+        "home_away": null,
+        "team_score": null,
+        "opp_score": null,
+        "result": null,
+        "predicted_team_score": null,
+        "predicted_opp_score": null,
+        "off_delta": null,
+        "def_delta": null,
+        "ovr_delta": null,
+        "forfeit": false,
+        "overtime": false
       }
     ],
     "Center": [
@@ -33870,7 +34271,7 @@
       },
       {
         "date": "2026-09-04",
-        "opponent": "Van Horn",
+        "opponent": "Versailles",
         "home_away": null,
         "team_score": null,
         "opp_score": null,
@@ -34067,7 +34468,7 @@
       },
       {
         "date": "2026-10-02",
-        "opponent": "Van Horn",
+        "opponent": "Versailles",
         "home_away": null,
         "team_score": null,
         "opp_score": null,
@@ -34082,7 +34483,7 @@
       },
       {
         "date": "2026-10-10",
-        "opponent": "University Academy Charter",
+        "opponent": "University Academy Charter with Ewing Marion Kauffman",
         "home_away": null,
         "team_score": null,
         "opp_score": null,
@@ -34112,7 +34513,7 @@
       },
       {
         "date": "2026-10-23",
-        "opponent": "Father Tolton with Calvary Lutheran",
+        "opponent": "Father Tolton",
         "home_away": null,
         "team_score": null,
         "opp_score": null,
@@ -34403,7 +34804,7 @@
     "El Dorado Springs": [
       {
         "date": "2026-08-28",
-        "opponent": "Stockton",
+        "opponent": "Stockton with Sheldon",
         "home_away": null,
         "team_score": 2,
         "opp_score": 38,
@@ -34433,7 +34834,7 @@
       },
       {
         "date": "2026-09-11",
-        "opponent": "Pleasant Hope with Marion C. Early, Halfway",
+        "opponent": "Pleasant Hope with Halfway, Marion C. Early",
         "home_away": null,
         "team_score": null,
         "opp_score": null,
@@ -34537,7 +34938,7 @@
         "overtime": false
       }
     ],
-    "Stockton": [
+    "Stockton with Sheldon": [
       {
         "date": "2026-08-28",
         "opponent": "El Dorado Springs",
@@ -34600,7 +35001,7 @@
       },
       {
         "date": "2026-09-25",
-        "opponent": "Skyline",
+        "opponent": "South Shelby",
         "home_away": null,
         "team_score": null,
         "opp_score": null,
@@ -34951,7 +35352,7 @@
     "Rolla": [
       {
         "date": "2026-08-28",
-        "opponent": "Sullivan",
+        "opponent": "Webb City",
         "home_away": null,
         "team_score": 20,
         "opp_score": 50,
@@ -35070,143 +35471,6 @@
         "overtime": false
       }
     ],
-    "Sullivan": [
-      {
-        "date": "2026-08-28",
-        "opponent": "Rolla",
-        "home_away": null,
-        "team_score": 50,
-        "opp_score": 20,
-        "result": "W",
-        "predicted_team_score": null,
-        "predicted_opp_score": null,
-        "off_delta": null,
-        "def_delta": null,
-        "ovr_delta": null,
-        "forfeit": false,
-        "overtime": false
-      },
-      {
-        "date": "2026-09-04",
-        "opponent": "Farmington",
-        "home_away": null,
-        "team_score": null,
-        "opp_score": null,
-        "result": null,
-        "predicted_team_score": null,
-        "predicted_opp_score": null,
-        "off_delta": null,
-        "def_delta": null,
-        "ovr_delta": null,
-        "forfeit": false,
-        "overtime": false
-      },
-      {
-        "date": "2026-09-11",
-        "opponent": "St. James",
-        "home_away": null,
-        "team_score": null,
-        "opp_score": null,
-        "result": null,
-        "predicted_team_score": null,
-        "predicted_opp_score": null,
-        "off_delta": null,
-        "def_delta": null,
-        "ovr_delta": null,
-        "forfeit": false,
-        "overtime": false
-      },
-      {
-        "date": "2026-09-18",
-        "opponent": "Owensville",
-        "home_away": null,
-        "team_score": null,
-        "opp_score": null,
-        "result": null,
-        "predicted_team_score": null,
-        "predicted_opp_score": null,
-        "off_delta": null,
-        "def_delta": null,
-        "ovr_delta": null,
-        "forfeit": false,
-        "overtime": false
-      },
-      {
-        "date": "2026-09-25",
-        "opponent": "Pacific",
-        "home_away": null,
-        "team_score": null,
-        "opp_score": null,
-        "result": null,
-        "predicted_team_score": null,
-        "predicted_opp_score": null,
-        "off_delta": null,
-        "def_delta": null,
-        "ovr_delta": null,
-        "forfeit": false,
-        "overtime": false
-      },
-      {
-        "date": "2026-10-02",
-        "opponent": "St. Clair",
-        "home_away": null,
-        "team_score": null,
-        "opp_score": null,
-        "result": null,
-        "predicted_team_score": null,
-        "predicted_opp_score": null,
-        "off_delta": null,
-        "def_delta": null,
-        "ovr_delta": null,
-        "forfeit": false,
-        "overtime": false
-      },
-      {
-        "date": "2026-10-09",
-        "opponent": "Hermann",
-        "home_away": null,
-        "team_score": null,
-        "opp_score": null,
-        "result": null,
-        "predicted_team_score": null,
-        "predicted_opp_score": null,
-        "off_delta": null,
-        "def_delta": null,
-        "ovr_delta": null,
-        "forfeit": false,
-        "overtime": false
-      },
-      {
-        "date": "2026-10-16",
-        "opponent": "Union",
-        "home_away": null,
-        "team_score": null,
-        "opp_score": null,
-        "result": null,
-        "predicted_team_score": null,
-        "predicted_opp_score": null,
-        "off_delta": null,
-        "def_delta": null,
-        "ovr_delta": null,
-        "forfeit": false,
-        "overtime": false
-      },
-      {
-        "date": "2026-10-22",
-        "opponent": "Vianney",
-        "home_away": null,
-        "team_score": null,
-        "opp_score": null,
-        "result": null,
-        "predicted_team_score": null,
-        "predicted_opp_score": null,
-        "off_delta": null,
-        "def_delta": null,
-        "ovr_delta": null,
-        "forfeit": false,
-        "overtime": false
-      }
-    ],
     "Summit Christian Academy": [
       {
         "date": "2026-08-28",
@@ -35240,7 +35504,7 @@
       },
       {
         "date": "2026-09-18",
-        "opponent": "Father Tolton with Calvary Lutheran",
+        "opponent": "Father Tolton",
         "home_away": null,
         "team_score": null,
         "opp_score": null,
@@ -35270,7 +35534,7 @@
       },
       {
         "date": "2026-10-02",
-        "opponent": "University Academy Charter",
+        "opponent": "University Academy Charter with Ewing Marion Kauffman",
         "home_away": null,
         "team_score": null,
         "opp_score": null,
@@ -35285,7 +35549,7 @@
       },
       {
         "date": "2026-10-09",
-        "opponent": "Van Horn",
+        "opponent": "Versailles",
         "home_away": null,
         "team_score": null,
         "opp_score": null,
@@ -36229,7 +36493,7 @@
       },
       {
         "date": "2026-10-16",
-        "opponent": "Sullivan",
+        "opponent": "Webb City",
         "home_away": null,
         "team_score": null,
         "opp_score": null,
@@ -36306,7 +36570,7 @@
       },
       {
         "date": "2026-09-25",
-        "opponent": "Scott City",
+        "opponent": "Scott City with Chaffee",
         "home_away": null,
         "team_score": null,
         "opp_score": null,
@@ -36351,7 +36615,7 @@
       },
       {
         "date": "2026-10-16",
-        "opponent": "Father Tolton with Calvary Lutheran",
+        "opponent": "Father Tolton",
         "home_away": null,
         "team_score": null,
         "opp_score": null,
@@ -36505,7 +36769,7 @@
     "Westran": [
       {
         "date": "2026-08-28",
-        "opponent": "Van-Far with Community",
+        "opponent": "Van-Far",
         "home_away": null,
         "team_score": 32,
         "opp_score": 14,
@@ -36654,7 +36918,7 @@
         "overtime": false
       }
     ],
-    "Van-Far with Community": [
+    "Van-Far": [
       {
         "date": "2026-08-28",
         "opponent": "Westran",
@@ -36672,7 +36936,7 @@
       },
       {
         "date": "2026-09-04",
-        "opponent": "Sarcoxie",
+        "opponent": "Russellville",
         "home_away": null,
         "team_score": null,
         "opp_score": null,
@@ -36791,147 +37055,10 @@
         "overtime": false
       }
     ],
-    "Smith-Cotton": [
-      {
-        "date": "2026-08-28",
-        "opponent": "Warrensburg",
-        "home_away": null,
-        "team_score": 21,
-        "opp_score": 32,
-        "result": "L",
-        "predicted_team_score": null,
-        "predicted_opp_score": null,
-        "off_delta": null,
-        "def_delta": null,
-        "ovr_delta": null,
-        "forfeit": false,
-        "overtime": false
-      },
-      {
-        "date": "2026-09-04",
-        "opponent": "Rock Bridge",
-        "home_away": null,
-        "team_score": null,
-        "opp_score": null,
-        "result": null,
-        "predicted_team_score": null,
-        "predicted_opp_score": null,
-        "off_delta": null,
-        "def_delta": null,
-        "ovr_delta": null,
-        "forfeit": false,
-        "overtime": false
-      },
-      {
-        "date": "2026-09-11",
-        "opponent": "Camdenton",
-        "home_away": null,
-        "team_score": null,
-        "opp_score": null,
-        "result": null,
-        "predicted_team_score": null,
-        "predicted_opp_score": null,
-        "off_delta": null,
-        "def_delta": null,
-        "ovr_delta": null,
-        "forfeit": false,
-        "overtime": false
-      },
-      {
-        "date": "2026-09-18",
-        "opponent": "Jefferson City",
-        "home_away": null,
-        "team_score": null,
-        "opp_score": null,
-        "result": null,
-        "predicted_team_score": null,
-        "predicted_opp_score": null,
-        "off_delta": null,
-        "def_delta": null,
-        "ovr_delta": null,
-        "forfeit": false,
-        "overtime": false
-      },
-      {
-        "date": "2026-09-25",
-        "opponent": "Hickman",
-        "home_away": null,
-        "team_score": null,
-        "opp_score": null,
-        "result": null,
-        "predicted_team_score": null,
-        "predicted_opp_score": null,
-        "off_delta": null,
-        "def_delta": null,
-        "ovr_delta": null,
-        "forfeit": false,
-        "overtime": false
-      },
-      {
-        "date": "2026-10-02",
-        "opponent": "Battle",
-        "home_away": null,
-        "team_score": null,
-        "opp_score": null,
-        "result": null,
-        "predicted_team_score": null,
-        "predicted_opp_score": null,
-        "off_delta": null,
-        "def_delta": null,
-        "ovr_delta": null,
-        "forfeit": false,
-        "overtime": false
-      },
-      {
-        "date": "2026-10-09",
-        "opponent": "Capital City",
-        "home_away": null,
-        "team_score": null,
-        "opp_score": null,
-        "result": null,
-        "predicted_team_score": null,
-        "predicted_opp_score": null,
-        "off_delta": null,
-        "def_delta": null,
-        "ovr_delta": null,
-        "forfeit": false,
-        "overtime": false
-      },
-      {
-        "date": "2026-10-17",
-        "opponent": "Helias Catholic",
-        "home_away": null,
-        "team_score": null,
-        "opp_score": null,
-        "result": null,
-        "predicted_team_score": null,
-        "predicted_opp_score": null,
-        "off_delta": null,
-        "def_delta": null,
-        "ovr_delta": null,
-        "forfeit": false,
-        "overtime": false
-      },
-      {
-        "date": "2026-10-23",
-        "opponent": "Marshall",
-        "home_away": null,
-        "team_score": null,
-        "opp_score": null,
-        "result": null,
-        "predicted_team_score": null,
-        "predicted_opp_score": null,
-        "off_delta": null,
-        "def_delta": null,
-        "ovr_delta": null,
-        "forfeit": false,
-        "overtime": false
-      }
-    ],
     "Warrensburg": [
       {
         "date": "2026-08-28",
-        "opponent": "Smith-Cotton",
+        "opponent": "Savannah",
         "home_away": null,
         "team_score": 32,
         "opp_score": 21,
@@ -37158,7 +37285,7 @@
       },
       {
         "date": "2026-10-09",
-        "opponent": "Van-Far with Community",
+        "opponent": "Van-Far",
         "home_away": null,
         "team_score": null,
         "opp_score": null,
@@ -37737,143 +37864,6 @@
       {
         "date": "2026-10-23",
         "opponent": "St. Charles",
-        "home_away": null,
-        "team_score": null,
-        "opp_score": null,
-        "result": null,
-        "predicted_team_score": null,
-        "predicted_opp_score": null,
-        "off_delta": null,
-        "def_delta": null,
-        "ovr_delta": null,
-        "forfeit": false,
-        "overtime": false
-      }
-    ],
-    "Webster Groves": [
-      {
-        "date": "2026-08-28",
-        "opponent": "Francis Howell North",
-        "home_away": null,
-        "team_score": 22,
-        "opp_score": 8,
-        "result": "W",
-        "predicted_team_score": null,
-        "predicted_opp_score": null,
-        "off_delta": null,
-        "def_delta": null,
-        "ovr_delta": null,
-        "forfeit": false,
-        "overtime": false
-      },
-      {
-        "date": "2026-09-11",
-        "opponent": "Affton",
-        "home_away": null,
-        "team_score": null,
-        "opp_score": null,
-        "result": null,
-        "predicted_team_score": null,
-        "predicted_opp_score": null,
-        "off_delta": null,
-        "def_delta": null,
-        "ovr_delta": null,
-        "forfeit": false,
-        "overtime": false
-      },
-      {
-        "date": "2026-09-18",
-        "opponent": "Parkway South",
-        "home_away": null,
-        "team_score": null,
-        "opp_score": null,
-        "result": null,
-        "predicted_team_score": null,
-        "predicted_opp_score": null,
-        "off_delta": null,
-        "def_delta": null,
-        "ovr_delta": null,
-        "forfeit": false,
-        "overtime": false
-      },
-      {
-        "date": "2026-09-25",
-        "opponent": "Mehlville",
-        "home_away": null,
-        "team_score": null,
-        "opp_score": null,
-        "result": null,
-        "predicted_team_score": null,
-        "predicted_opp_score": null,
-        "off_delta": null,
-        "def_delta": null,
-        "ovr_delta": null,
-        "forfeit": false,
-        "overtime": false
-      },
-      {
-        "date": "2026-10-02",
-        "opponent": "Oakville",
-        "home_away": null,
-        "team_score": null,
-        "opp_score": null,
-        "result": null,
-        "predicted_team_score": null,
-        "predicted_opp_score": null,
-        "off_delta": null,
-        "def_delta": null,
-        "ovr_delta": null,
-        "forfeit": false,
-        "overtime": false
-      },
-      {
-        "date": "2026-10-09",
-        "opponent": "Normandy Collaborative",
-        "home_away": null,
-        "team_score": null,
-        "opp_score": null,
-        "result": null,
-        "predicted_team_score": null,
-        "predicted_opp_score": null,
-        "off_delta": null,
-        "def_delta": null,
-        "ovr_delta": null,
-        "forfeit": false,
-        "overtime": false
-      },
-      {
-        "date": "2026-10-16",
-        "opponent": "Northwest (Cedar Hill)",
-        "home_away": null,
-        "team_score": null,
-        "opp_score": null,
-        "result": null,
-        "predicted_team_score": null,
-        "predicted_opp_score": null,
-        "off_delta": null,
-        "def_delta": null,
-        "ovr_delta": null,
-        "forfeit": false,
-        "overtime": false
-      },
-      {
-        "date": "2026-10-23",
-        "opponent": "McCluer North",
-        "home_away": null,
-        "team_score": null,
-        "opp_score": null,
-        "result": null,
-        "predicted_team_score": null,
-        "predicted_opp_score": null,
-        "off_delta": null,
-        "def_delta": null,
-        "ovr_delta": null,
-        "forfeit": false,
-        "overtime": false
-      },
-      {
-        "date": "2026-11-26",
-        "opponent": "Kirkwood",
         "home_away": null,
         "team_score": null,
         "opp_score": null,
@@ -38590,7 +38580,7 @@
       },
       {
         "date": "2026-09-04",
-        "opponent": "Truman",
+        "opponent": "St. Charles",
         "home_away": null,
         "team_score": null,
         "opp_score": null,
@@ -38635,7 +38625,7 @@
       },
       {
         "date": "2026-09-25",
-        "opponent": "Van Horn",
+        "opponent": "Versailles",
         "home_away": null,
         "team_score": null,
         "opp_score": null,
@@ -38969,7 +38959,7 @@
       },
       {
         "date": "2026-10-23",
-        "opponent": "Van-Far with Community",
+        "opponent": "Van-Far",
         "home_away": null,
         "team_score": null,
         "opp_score": null,
@@ -39138,7 +39128,7 @@
       },
       {
         "date": "2026-09-04",
-        "opponent": "Pleasant Hope with Marion C. Early, Halfway",
+        "opponent": "Pleasant Hope with Halfway, Marion C. Early",
         "home_away": null,
         "team_score": null,
         "opp_score": null,
@@ -39805,7 +39795,7 @@
         "overtime": false
       }
     ],
-    "Pleasant Hope with Marion C. Early, Halfway": [
+    "Pleasant Hope with Halfway, Marion C. Early": [
       {
         "date": "2026-08-29",
         "opponent": "KIPP KC Legacy",
@@ -39945,7 +39935,7 @@
     "KIPP KC Legacy": [
       {
         "date": "2026-08-29",
-        "opponent": "Pleasant Hope with Marion C. Early, Halfway",
+        "opponent": "Pleasant Hope with Halfway, Marion C. Early",
         "home_away": null,
         "team_score": 38,
         "opp_score": 32,
@@ -40386,7 +40376,7 @@
       },
       {
         "date": "2026-10-09",
-        "opponent": "Smith-Cotton",
+        "opponent": "Savannah",
         "home_away": null,
         "team_score": null,
         "opp_score": null,
@@ -41073,7 +41063,7 @@
       },
       {
         "date": "2026-09-11",
-        "opponent": "Smith-Cotton",
+        "opponent": "Savannah",
         "home_away": null,
         "team_score": null,
         "opp_score": null,
@@ -41424,7 +41414,7 @@
       },
       {
         "date": "2026-09-18",
-        "opponent": "Sarcoxie",
+        "opponent": "Russellville",
         "home_away": null,
         "team_score": null,
         "opp_score": null,
@@ -41484,7 +41474,7 @@
       },
       {
         "date": "2026-10-23",
-        "opponent": "Pleasant Hope with Marion C. Early, Halfway",
+        "opponent": "Pleasant Hope with Halfway, Marion C. Early",
         "home_away": null,
         "team_score": null,
         "opp_score": null,
