@@ -149,35 +149,6 @@ def build_id_to_classname(team_to_class, schools_csv=SCHOOLS_CSV):
     whatever produced football_ratings_2025's overrides originally.
     """
     MANUAL_OVERRIDES = {
-        "271": "Clopton with Elsberry",
-        "331": "King City with Pattonsburg",
-        "126": "Lockwood with Golden City",
-        "421": "Princeton with Mercer",
-        "424": "Rich Hill with Hume",
-        "431": "Salisbury",
-        "435": "Scott City",
-        "443": "Skyline",
-        "193": "Slater",
-        "194": "Smith-Cotton",
-        "197": "South Callaway",
-        "549": "St. Mary's South Side",
-        "463": "Stockton",
-        "207": "Sullivan",
-        "208": "Sumner",
-        "469": "Sweet Springs with Malta Bend",
-        "198": "Truman",
-        "479": "University Academy Charter",
-        "204": "Van Horn",
-        "206": "Vashon",
-        "20": "Appleton City with Montrose",
-        "275": "Drexel with Miami (Amoret)",
-        "575": "Renaissance Academy Charter",
-        "172": "St. James",
-        "35": "DeSoto with Kingston",
-        "917": "Father Tolton with Calvary Lutheran",
-        "342": "Liberal with Bronaugh",
-        "776": "Transportation and Law with Beaumont",
-        "483": "Van-Far with Community",
     }
  
     df = pd.read_csv(schools_csv)
