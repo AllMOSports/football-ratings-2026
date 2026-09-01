@@ -159,6 +159,12 @@ def build_id_to_classname(team_to_class, schools_csv=SCHOOLS_CSV):
         "479": "University Academy Charter with Ewing Marion Kauffman",
         "483": "Van-Far",
         "812": "Veritas Christian Academy",
+        "443": "Skyline",
+        "194": "Smith-Cotton",
+        "549": "St. Mary's South Side",
+        "207": "Sullivan",
+        "198": "Truman",
+        "204": "Van Horn",
     }
  
     df = pd.read_csv(schools_csv)
