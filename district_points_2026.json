@@ -243,6 +243,46 @@
       "rank": 1
     },
     {
+      "team": "Principia",
+      "class": 1,
+      "district": 2,
+      "total_points": 27.0,
+      "components": {
+        "avg_win_loss": 10.0,
+        "avg_class_bonus": 30.0,
+        "avg_differential": -13.0,
+        "sos_term": 0.0
+      },
+      "games_played": 1,
+      "record": {
+        "wins": 0,
+        "losses": 1
+      },
+      "games": [
+        {
+          "date": "2026-08-29",
+          "opponent": "Riverview Gardens",
+          "opponent_class": 4,
+          "opponent_record": {
+            "wins": 1,
+            "losses": 0,
+            "ot_losses": 0
+          },
+          "my_score": 28,
+          "opp_score": 66,
+          "won": false,
+          "overtime": false,
+          "forfeit": false,
+          "points": {
+            "win_loss": 10,
+            "class_bonus": 30,
+            "differential": -13
+          }
+        }
+      ],
+      "rank": 2
+    },
+    {
       "team": "Crystal City",
       "class": 1,
       "district": 2,
@@ -280,7 +320,7 @@
           }
         }
       ],
-      "rank": 2
+      "rank": 3
     },
     {
       "team": "Grandview (Hillsboro)",
@@ -320,7 +360,7 @@
           }
         }
       ],
-      "rank": 3
+      "rank": 4
     }
   ],
   "class1_district3": [
@@ -527,6 +567,46 @@
   ],
   "class1_district4": [
     {
+      "team": "Russellville",
+      "class": 1,
+      "district": 4,
+      "total_points": 43.0,
+      "components": {
+        "avg_win_loss": 20.0,
+        "avg_class_bonus": 10.0,
+        "avg_differential": 13.0,
+        "sos_term": 0.0
+      },
+      "games_played": 1,
+      "record": {
+        "wins": 1,
+        "losses": 0
+      },
+      "games": [
+        {
+          "date": "2026-08-28",
+          "opponent": "Cole Camp",
+          "opponent_class": 2,
+          "opponent_record": {
+            "wins": 0,
+            "losses": 1,
+            "ot_losses": 0
+          },
+          "my_score": 42,
+          "opp_score": 7,
+          "won": true,
+          "overtime": false,
+          "forfeit": false,
+          "points": {
+            "win_loss": 20,
+            "class_bonus": 10,
+            "differential": 13
+          }
+        }
+      ],
+      "rank": 1
+    },
+    {
       "team": "Skyline",
       "class": 1,
       "district": 4,
@@ -564,7 +644,7 @@
           }
         }
       ],
-      "rank": 1
+      "rank": 2
     },
     {
       "team": "Tipton with Bunceton",
@@ -604,7 +684,7 @@
           }
         }
       ],
-      "rank": 2
+      "rank": 3
     },
     {
       "team": "Linn",
@@ -644,7 +724,7 @@
           }
         }
       ],
-      "rank": 3
+      "rank": 4
     },
     {
       "team": "Windsor",
@@ -684,7 +764,7 @@
           }
         }
       ],
-      "rank": 4
+      "rank": 5
     }
   ],
   "class1_district5": [
@@ -1191,8 +1271,8 @@
       "games": [
         {
           "date": "2026-08-28",
-          "opponent": "Van-Far with Community",
-          "opponent_class": null,
+          "opponent": "Van-Far",
+          "opponent_class": 1,
           "opponent_record": {
             "wins": 0,
             "losses": 1,
@@ -1291,6 +1371,46 @@
         }
       ],
       "rank": 4
+    },
+    {
+      "team": "Van-Far",
+      "class": 1,
+      "district": 7,
+      "total_points": -3.0,
+      "components": {
+        "avg_win_loss": 10.0,
+        "avg_class_bonus": 0.0,
+        "avg_differential": -13.0,
+        "sos_term": 0.0
+      },
+      "games_played": 1,
+      "record": {
+        "wins": 0,
+        "losses": 1
+      },
+      "games": [
+        {
+          "date": "2026-08-28",
+          "opponent": "Westran",
+          "opponent_class": 1,
+          "opponent_record": {
+            "wins": 1,
+            "losses": 0,
+            "ot_losses": 0
+          },
+          "my_score": 14,
+          "opp_score": 32,
+          "won": false,
+          "overtime": false,
+          "forfeit": false,
+          "points": {
+            "win_loss": 10,
+            "class_bonus": 0,
+            "differential": -13
+          }
+        }
+      ],
+      "rank": 5
     }
   ],
   "class1_district8": [
@@ -1375,6 +1495,46 @@
       "rank": 2
     },
     {
+      "team": "Marceline",
+      "class": 1,
+      "district": 8,
+      "total_points": 7.0,
+      "components": {
+        "avg_win_loss": 10.0,
+        "avg_class_bonus": 10.0,
+        "avg_differential": -13.0,
+        "sos_term": 0.0
+      },
+      "games_played": 1,
+      "record": {
+        "wins": 0,
+        "losses": 1
+      },
+      "games": [
+        {
+          "date": "2026-08-28",
+          "opponent": "Father Tolton",
+          "opponent_class": 2,
+          "opponent_record": {
+            "wins": 1,
+            "losses": 0,
+            "ot_losses": 0
+          },
+          "my_score": 13,
+          "opp_score": 42,
+          "won": false,
+          "overtime": false,
+          "forfeit": false,
+          "points": {
+            "win_loss": 10,
+            "class_bonus": 10,
+            "differential": -13
+          }
+        }
+      ],
+      "rank": 3
+    },
+    {
       "team": "Putnam County",
       "class": 1,
       "district": 8,
@@ -1409,46 +1569,6 @@
             "win_loss": 10,
             "class_bonus": 0,
             "differential": -6
-          }
-        }
-      ],
-      "rank": 3
-    },
-    {
-      "team": "Marceline",
-      "class": 1,
-      "district": 8,
-      "total_points": -3.0,
-      "components": {
-        "avg_win_loss": 10.0,
-        "avg_class_bonus": 0.0,
-        "avg_differential": -13.0,
-        "sos_term": 0.0
-      },
-      "games_played": 1,
-      "record": {
-        "wins": 0,
-        "losses": 1
-      },
-      "games": [
-        {
-          "date": "2026-08-28",
-          "opponent": "Father Tolton with Calvary Lutheran",
-          "opponent_class": null,
-          "opponent_record": {
-            "wins": 1,
-            "losses": 0,
-            "ot_losses": 0
-          },
-          "my_score": 13,
-          "opp_score": 42,
-          "won": false,
-          "overtime": false,
-          "forfeit": false,
-          "points": {
-            "win_loss": 10,
-            "class_bonus": 0,
-            "differential": -13
           }
         }
       ],
@@ -1497,6 +1617,46 @@
   ],
   "class2_district1": [
     {
+      "team": "St. Vincent",
+      "class": 2,
+      "district": 1,
+      "total_points": 47.0,
+      "components": {
+        "avg_win_loss": 20.0,
+        "avg_class_bonus": 20.0,
+        "avg_differential": 7.0,
+        "sos_term": 0.0
+      },
+      "games_played": 1,
+      "record": {
+        "wins": 1,
+        "losses": 0
+      },
+      "games": [
+        {
+          "date": "2026-08-28",
+          "opponent": "DeSoto",
+          "opponent_class": 4,
+          "opponent_record": {
+            "wins": 0,
+            "losses": 1,
+            "ot_losses": 0
+          },
+          "my_score": 14,
+          "opp_score": 7,
+          "won": true,
+          "overtime": false,
+          "forfeit": false,
+          "points": {
+            "win_loss": 20,
+            "class_bonus": 20,
+            "differential": 7
+          }
+        }
+      ],
+      "rank": 1
+    },
+    {
       "team": "Saxony Lutheran",
       "class": 2,
       "district": 1,
@@ -1531,46 +1691,6 @@
             "win_loss": 20,
             "class_bonus": 0,
             "differential": 12
-          }
-        }
-      ],
-      "rank": 1
-    },
-    {
-      "team": "St. Vincent",
-      "class": 2,
-      "district": 1,
-      "total_points": 27.0,
-      "components": {
-        "avg_win_loss": 20.0,
-        "avg_class_bonus": 0.0,
-        "avg_differential": 7.0,
-        "sos_term": 0.0
-      },
-      "games_played": 1,
-      "record": {
-        "wins": 1,
-        "losses": 0
-      },
-      "games": [
-        {
-          "date": "2026-08-28",
-          "opponent": "DeSoto with Kingston",
-          "opponent_class": null,
-          "opponent_record": {
-            "wins": 0,
-            "losses": 1,
-            "ot_losses": 0
-          },
-          "my_score": 14,
-          "opp_score": 7,
-          "won": true,
-          "overtime": false,
-          "forfeit": false,
-          "points": {
-            "win_loss": 20,
-            "class_bonus": 0,
-            "differential": 7
           }
         }
       ],
@@ -1779,6 +1899,46 @@
       "rank": 2
     },
     {
+      "team": "Miller Career Academy with Sumner",
+      "class": 2,
+      "district": 2,
+      "total_points": 27.0,
+      "components": {
+        "avg_win_loss": 10.0,
+        "avg_class_bonus": 30.0,
+        "avg_differential": -13.0,
+        "sos_term": 0.0
+      },
+      "games_played": 1,
+      "record": {
+        "wins": 0,
+        "losses": 1
+      },
+      "games": [
+        {
+          "date": "2026-08-28",
+          "opponent": "West Plains",
+          "opponent_class": 5,
+          "opponent_record": {
+            "wins": 1,
+            "losses": 0,
+            "ot_losses": 0
+          },
+          "my_score": 6,
+          "opp_score": 43,
+          "won": false,
+          "overtime": false,
+          "forfeit": false,
+          "points": {
+            "win_loss": 10,
+            "class_bonus": 30,
+            "differential": -13
+          }
+        }
+      ],
+      "rank": 3
+    },
+    {
       "team": "Jefferson (Festus)",
       "class": 2,
       "district": 2,
@@ -1816,7 +1976,7 @@
           }
         }
       ],
-      "rank": 3
+      "rank": 4
     },
     {
       "team": "Confluence Prep Academy Charter",
@@ -1856,7 +2016,7 @@
           }
         }
       ],
-      "rank": 4
+      "rank": 5
     },
     {
       "team": "Duchesne",
@@ -1896,7 +2056,7 @@
           }
         }
       ],
-      "rank": 5
+      "rank": 6
     },
     {
       "team": "Hermann",
@@ -1936,10 +2096,50 @@
           }
         }
       ],
-      "rank": 6
+      "rank": 7
     }
   ],
   "class2_district3": [
+    {
+      "team": "Liberty (Mountain View)",
+      "class": 2,
+      "district": 3,
+      "total_points": 43.0,
+      "components": {
+        "avg_win_loss": 20.0,
+        "avg_class_bonus": 10.0,
+        "avg_differential": 13.0,
+        "sos_term": 0.0
+      },
+      "games_played": 1,
+      "record": {
+        "wins": 1,
+        "losses": 0
+      },
+      "games": [
+        {
+          "date": "2026-08-28",
+          "opponent": "Scott City with Chaffee",
+          "opponent_class": 3,
+          "opponent_record": {
+            "wins": 0,
+            "losses": 1,
+            "ot_losses": 0
+          },
+          "my_score": 50,
+          "opp_score": 15,
+          "won": true,
+          "overtime": false,
+          "forfeit": false,
+          "points": {
+            "win_loss": 20,
+            "class_bonus": 10,
+            "differential": 13
+          }
+        }
+      ],
+      "rank": 1
+    },
     {
       "team": "Fair Grove",
       "class": 2,
@@ -1975,46 +2175,6 @@
             "win_loss": 20,
             "class_bonus": 10,
             "differential": 12
-          }
-        }
-      ],
-      "rank": 1
-    },
-    {
-      "team": "Liberty (Mountain View)",
-      "class": 2,
-      "district": 3,
-      "total_points": 33.0,
-      "components": {
-        "avg_win_loss": 20.0,
-        "avg_class_bonus": 0.0,
-        "avg_differential": 13.0,
-        "sos_term": 0.0
-      },
-      "games_played": 1,
-      "record": {
-        "wins": 1,
-        "losses": 0
-      },
-      "games": [
-        {
-          "date": "2026-08-28",
-          "opponent": "Scott City",
-          "opponent_class": null,
-          "opponent_record": {
-            "wins": 0,
-            "losses": 1,
-            "ot_losses": 0
-          },
-          "my_score": 50,
-          "opp_score": 15,
-          "won": true,
-          "overtime": false,
-          "forfeit": false,
-          "points": {
-            "win_loss": 20,
-            "class_bonus": 0,
-            "differential": 13
           }
         }
       ],
@@ -2223,7 +2383,7 @@
       "rank": 1
     },
     {
-      "team": "Sarcoxie",
+      "team": "Stockton with Sheldon",
       "class": 2,
       "district": 4,
       "total_points": 33.0,
@@ -2241,15 +2401,15 @@
       "games": [
         {
           "date": "2026-08-28",
-          "opponent": "Cole Camp",
+          "opponent": "El Dorado Springs",
           "opponent_class": 2,
           "opponent_record": {
             "wins": 0,
             "losses": 1,
             "ot_losses": 0
           },
-          "my_score": 42,
-          "opp_score": 7,
+          "my_score": 38,
+          "opp_score": 2,
           "won": true,
           "overtime": false,
           "forfeit": false,
@@ -2401,8 +2561,8 @@
       "games": [
         {
           "date": "2026-08-28",
-          "opponent": "Stockton",
-          "opponent_class": null,
+          "opponent": "Stockton with Sheldon",
+          "opponent_class": 2,
           "opponent_record": {
             "wins": 1,
             "losses": 0,
@@ -2424,6 +2584,46 @@
     }
   ],
   "class2_district5": [
+    {
+      "team": "Father Tolton",
+      "class": 2,
+      "district": 5,
+      "total_points": 33.0,
+      "components": {
+        "avg_win_loss": 20.0,
+        "avg_class_bonus": 0.0,
+        "avg_differential": 13.0,
+        "sos_term": 0.0
+      },
+      "games_played": 1,
+      "record": {
+        "wins": 1,
+        "losses": 0
+      },
+      "games": [
+        {
+          "date": "2026-08-28",
+          "opponent": "Marceline",
+          "opponent_class": 1,
+          "opponent_record": {
+            "wins": 0,
+            "losses": 1,
+            "ot_losses": 0
+          },
+          "my_score": 42,
+          "opp_score": 13,
+          "won": true,
+          "overtime": false,
+          "forfeit": false,
+          "points": {
+            "win_loss": 20,
+            "class_bonus": 0,
+            "differential": 13
+          }
+        }
+      ],
+      "rank": 1
+    },
     {
       "team": "North Callaway",
       "class": 2,
@@ -2462,7 +2662,7 @@
           }
         }
       ],
-      "rank": 1
+      "rank": 2
     },
     {
       "team": "California",
@@ -2502,7 +2702,7 @@
           }
         }
       ],
-      "rank": 2
+      "rank": 3
     },
     {
       "team": "Blair Oaks",
@@ -2542,7 +2742,7 @@
           }
         }
       ],
-      "rank": 3
+      "rank": 4
     },
     {
       "team": "Cole Camp",
@@ -2563,8 +2763,8 @@
       "games": [
         {
           "date": "2026-08-28",
-          "opponent": "Sarcoxie",
-          "opponent_class": 2,
+          "opponent": "Russellville",
+          "opponent_class": 1,
           "opponent_record": {
             "wins": 1,
             "losses": 0,
@@ -2582,7 +2782,7 @@
           }
         }
       ],
-      "rank": 4
+      "rank": 5
     },
     {
       "team": "South Callaway",
@@ -2622,7 +2822,7 @@
           }
         }
       ],
-      "rank": 5
+      "rank": 6
     },
     {
       "team": "Versailles",
@@ -2662,7 +2862,7 @@
           }
         }
       ],
-      "rank": 6
+      "rank": 7
     }
   ],
   "class2_district6": [
@@ -2727,6 +2927,46 @@
       "rank": 1
     },
     {
+      "team": "KIPP KC Legacy",
+      "class": 2,
+      "district": 6,
+      "total_points": 36.0,
+      "components": {
+        "avg_win_loss": 20.0,
+        "avg_class_bonus": 10.0,
+        "avg_differential": 6.0,
+        "sos_term": 0.0
+      },
+      "games_played": 1,
+      "record": {
+        "wins": 1,
+        "losses": 0
+      },
+      "games": [
+        {
+          "date": "2026-08-29",
+          "opponent": "Pleasant Hope with Halfway, Marion C. Early",
+          "opponent_class": 3,
+          "opponent_record": {
+            "wins": 0,
+            "losses": 1,
+            "ot_losses": 0
+          },
+          "my_score": 38,
+          "opp_score": 32,
+          "won": true,
+          "overtime": false,
+          "forfeit": false,
+          "points": {
+            "win_loss": 20,
+            "class_bonus": 10,
+            "differential": 6
+          }
+        }
+      ],
+      "rank": 2
+    },
+    {
       "team": "Lone Jack with Kingsville",
       "class": 2,
       "district": 6,
@@ -2764,7 +3004,7 @@
           }
         }
       ],
-      "rank": 2
+      "rank": 3
     },
     {
       "team": "Butler",
@@ -2804,7 +3044,7 @@
           }
         }
       ],
-      "rank": 3
+      "rank": 4
     },
     {
       "team": "Lafayette County",
@@ -2844,7 +3084,7 @@
           }
         }
       ],
-      "rank": 4
+      "rank": 5
     },
     {
       "team": "Holden",
@@ -2884,7 +3124,7 @@
           }
         }
       ],
-      "rank": 5
+      "rank": 6
     },
     {
       "team": "Lexington",
@@ -2924,7 +3164,7 @@
           }
         }
       ],
-      "rank": 6
+      "rank": 7
     }
   ],
   "class2_district7": [
@@ -3211,6 +3451,46 @@
   ],
   "class2_district8": [
     {
+      "team": "Lathrop",
+      "class": 2,
+      "district": 8,
+      "total_points": 53.0,
+      "components": {
+        "avg_win_loss": 20.0,
+        "avg_class_bonus": 20.0,
+        "avg_differential": 13.0,
+        "sos_term": 0.0
+      },
+      "games_played": 1,
+      "record": {
+        "wins": 1,
+        "losses": 0
+      },
+      "games": [
+        {
+          "date": "2026-08-29",
+          "opponent": "Central (Kansas City)",
+          "opponent_class": 4,
+          "opponent_record": {
+            "wins": 0,
+            "losses": 1,
+            "ot_losses": 0
+          },
+          "my_score": 16,
+          "opp_score": 0,
+          "won": true,
+          "overtime": false,
+          "forfeit": false,
+          "points": {
+            "win_loss": 20,
+            "class_bonus": 20,
+            "differential": 13
+          }
+        }
+      ],
+      "rank": 1
+    },
+    {
       "team": "Brookfield",
       "class": 2,
       "district": 8,
@@ -3248,7 +3528,7 @@
           }
         }
       ],
-      "rank": 1
+      "rank": 2
     },
     {
       "team": "Mid-Buchanan",
@@ -3288,7 +3568,7 @@
           }
         }
       ],
-      "rank": 2
+      "rank": 3
     },
     {
       "team": "West Platte",
@@ -3328,7 +3608,7 @@
           }
         }
       ],
-      "rank": 3
+      "rank": 4
     },
     {
       "team": "Lawson",
@@ -3368,7 +3648,7 @@
           }
         }
       ],
-      "rank": 4
+      "rank": 5
     },
     {
       "team": "Trenton",
@@ -3408,7 +3688,7 @@
           }
         }
       ],
-      "rank": 5
+      "rank": 6
     }
   ],
   "class3_district1": [
@@ -3518,7 +3798,7 @@
             "losses": 0,
             "ot_losses": 0
           },
-          "my_score": 0,
+          "my_score": 6,
           "opp_score": 48,
           "won": false,
           "overtime": false,
@@ -3611,6 +3891,46 @@
         }
       ],
       "rank": 5
+    },
+    {
+      "team": "Scott City with Chaffee",
+      "class": 3,
+      "district": 1,
+      "total_points": -3.0,
+      "components": {
+        "avg_win_loss": 10.0,
+        "avg_class_bonus": 0.0,
+        "avg_differential": -13.0,
+        "sos_term": 0.0
+      },
+      "games_played": 1,
+      "record": {
+        "wins": 0,
+        "losses": 1
+      },
+      "games": [
+        {
+          "date": "2026-08-28",
+          "opponent": "Liberty (Mountain View)",
+          "opponent_class": 2,
+          "opponent_record": {
+            "wins": 1,
+            "losses": 0,
+            "ot_losses": 0
+          },
+          "my_score": 15,
+          "opp_score": 50,
+          "won": false,
+          "overtime": false,
+          "forfeit": false,
+          "points": {
+            "win_loss": 10,
+            "class_bonus": 0,
+            "differential": -13
+          }
+        }
+      ],
+      "rank": 6
     }
   ],
   "class3_district2": [
@@ -4017,6 +4337,46 @@
       "rank": 5
     },
     {
+      "team": "John Burroughs",
+      "class": 3,
+      "district": 3,
+      "total_points": 14.0,
+      "components": {
+        "avg_win_loss": 10.0,
+        "avg_class_bonus": 10.0,
+        "avg_differential": -6.0,
+        "sos_term": 0.0
+      },
+      "games_played": 1,
+      "record": {
+        "wins": 0,
+        "losses": 1
+      },
+      "games": [
+        {
+          "date": "2026-08-28",
+          "opponent": "Jennings",
+          "opponent_class": 4,
+          "opponent_record": {
+            "wins": 1,
+            "losses": 0,
+            "ot_losses": 0
+          },
+          "my_score": 14,
+          "opp_score": 20,
+          "won": false,
+          "overtime": false,
+          "forfeit": false,
+          "points": {
+            "win_loss": 10,
+            "class_bonus": 10,
+            "differential": -6
+          }
+        }
+      ],
+      "rank": 6
+    },
+    {
       "team": "Lutheran St. Charles",
       "class": 3,
       "district": 3,
@@ -4054,7 +4414,7 @@
           }
         }
       ],
-      "rank": 6
+      "rank": 7
     }
   ],
   "class3_district4": [
@@ -4446,8 +4806,8 @@
             "losses": 1,
             "ot_losses": 0
           },
-          "my_score": 28,
-          "opp_score": 3,
+          "my_score": 23,
+          "opp_score": 8,
           "won": true,
           "overtime": false,
           "forfeit": false,
@@ -4501,6 +4861,46 @@
       "rank": 4
     },
     {
+      "team": "Pleasant Hope with Halfway, Marion C. Early",
+      "class": 3,
+      "district": 5,
+      "total_points": 4.0,
+      "components": {
+        "avg_win_loss": 10.0,
+        "avg_class_bonus": 0.0,
+        "avg_differential": -6.0,
+        "sos_term": 0.0
+      },
+      "games_played": 1,
+      "record": {
+        "wins": 0,
+        "losses": 1
+      },
+      "games": [
+        {
+          "date": "2026-08-29",
+          "opponent": "KIPP KC Legacy",
+          "opponent_class": 2,
+          "opponent_record": {
+            "wins": 1,
+            "losses": 0,
+            "ot_losses": 0
+          },
+          "my_score": 32,
+          "opp_score": 38,
+          "won": false,
+          "overtime": false,
+          "forfeit": false,
+          "points": {
+            "win_loss": 10,
+            "class_bonus": 0,
+            "differential": -6
+          }
+        }
+      ],
+      "rank": 5
+    },
+    {
       "team": "Mountain Grove",
       "class": 3,
       "district": 5,
@@ -4538,7 +4938,7 @@
           }
         }
       ],
-      "rank": 5
+      "rank": 6
     },
     {
       "team": "Salem",
@@ -4566,8 +4966,8 @@
             "losses": 0,
             "ot_losses": 0
           },
-          "my_score": 3,
-          "opp_score": 28,
+          "my_score": 8,
+          "opp_score": 23,
           "won": false,
           "overtime": false,
           "forfeit": false,
@@ -4578,7 +4978,7 @@
           }
         }
       ],
-      "rank": 6
+      "rank": 7
     }
   ],
   "class3_district6": [
@@ -5295,7 +5695,7 @@
             "ot_losses": 0
           },
           "my_score": 48,
-          "opp_score": 0,
+          "opp_score": 6,
           "won": true,
           "overtime": false,
           "forfeit": false,
@@ -5467,6 +5867,46 @@
         }
       ],
       "rank": 5
+    },
+    {
+      "team": "DeSoto",
+      "class": 4,
+      "district": 1,
+      "total_points": 3.0,
+      "components": {
+        "avg_win_loss": 10.0,
+        "avg_class_bonus": 0.0,
+        "avg_differential": -7.0,
+        "sos_term": 0.0
+      },
+      "games_played": 1,
+      "record": {
+        "wins": 0,
+        "losses": 1
+      },
+      "games": [
+        {
+          "date": "2026-08-28",
+          "opponent": "St. Vincent",
+          "opponent_class": 2,
+          "opponent_record": {
+            "wins": 1,
+            "losses": 0,
+            "ot_losses": 0
+          },
+          "my_score": 7,
+          "opp_score": 14,
+          "won": false,
+          "overtime": false,
+          "forfeit": false,
+          "points": {
+            "win_loss": 10,
+            "class_bonus": 0,
+            "differential": -7
+          }
+        }
+      ],
+      "rank": 6
     }
   ],
   "class4_district2": [
@@ -5713,6 +6153,86 @@
   ],
   "class4_district3": [
     {
+      "team": "Gateway with Soldan International Studies",
+      "class": 4,
+      "district": 3,
+      "total_points": 43.0,
+      "components": {
+        "avg_win_loss": 20.0,
+        "avg_class_bonus": 10.0,
+        "avg_differential": 13.0,
+        "sos_term": 0.0
+      },
+      "games_played": 1,
+      "record": {
+        "wins": 1,
+        "losses": 0
+      },
+      "games": [
+        {
+          "date": "2026-08-29",
+          "opponent": "McCluer",
+          "opponent_class": 5,
+          "opponent_record": {
+            "wins": 0,
+            "losses": 1,
+            "ot_losses": 0
+          },
+          "my_score": 30,
+          "opp_score": 8,
+          "won": true,
+          "overtime": false,
+          "forfeit": false,
+          "points": {
+            "win_loss": 20,
+            "class_bonus": 10,
+            "differential": 13
+          }
+        }
+      ],
+      "rank": 1
+    },
+    {
+      "team": "Riverview Gardens",
+      "class": 4,
+      "district": 3,
+      "total_points": 33.0,
+      "components": {
+        "avg_win_loss": 20.0,
+        "avg_class_bonus": 0.0,
+        "avg_differential": 13.0,
+        "sos_term": 0.0
+      },
+      "games_played": 1,
+      "record": {
+        "wins": 1,
+        "losses": 0
+      },
+      "games": [
+        {
+          "date": "2026-08-29",
+          "opponent": "Principia",
+          "opponent_class": 1,
+          "opponent_record": {
+            "wins": 0,
+            "losses": 1,
+            "ot_losses": 0
+          },
+          "my_score": 66,
+          "opp_score": 28,
+          "won": true,
+          "overtime": false,
+          "forfeit": false,
+          "points": {
+            "win_loss": 20,
+            "class_bonus": 0,
+            "differential": 13
+          }
+        }
+      ],
+      "rank": 2
+    },
+    {
       "team": "University City",
       "class": 4,
       "district": 3,
@@ -5750,7 +6270,47 @@
           }
         }
       ],
-      "rank": 1
+      "rank": 3
+    },
+    {
+      "team": "Jennings",
+      "class": 4,
+      "district": 3,
+      "total_points": 26.0,
+      "components": {
+        "avg_win_loss": 20.0,
+        "avg_class_bonus": 0.0,
+        "avg_differential": 6.0,
+        "sos_term": 0.0
+      },
+      "games_played": 1,
+      "record": {
+        "wins": 1,
+        "losses": 0
+      },
+      "games": [
+        {
+          "date": "2026-08-28",
+          "opponent": "John Burroughs",
+          "opponent_class": 3,
+          "opponent_record": {
+            "wins": 0,
+            "losses": 1,
+            "ot_losses": 0
+          },
+          "my_score": 20,
+          "opp_score": 14,
+          "won": true,
+          "overtime": false,
+          "forfeit": false,
+          "points": {
+            "win_loss": 20,
+            "class_bonus": 0,
+            "differential": 6
+          }
+        }
+      ],
+      "rank": 4
     },
     {
       "team": "Lift for Life Academy Charter",
@@ -5790,7 +6350,7 @@
           }
         }
       ],
-      "rank": 2
+      "rank": 5
     },
     {
       "team": "Clayton with Brentwood",
@@ -5830,7 +6390,7 @@
           }
         }
       ],
-      "rank": 3
+      "rank": 6
     }
   ],
   "class4_district4": [
@@ -6681,6 +7241,126 @@
       "rank": 1
     },
     {
+      "team": "Raytown South",
+      "class": 4,
+      "district": 7,
+      "total_points": 19.0,
+      "components": {
+        "avg_win_loss": 10.0,
+        "avg_class_bonus": 10.0,
+        "avg_differential": -1.0,
+        "sos_term": 0.0
+      },
+      "games_played": 1,
+      "record": {
+        "wins": 0,
+        "losses": 1
+      },
+      "games": [
+        {
+          "date": "2026-08-28",
+          "opponent": "William Chrisman",
+          "opponent_class": 5,
+          "opponent_record": {
+            "wins": 1,
+            "losses": 0,
+            "ot_losses": 0
+          },
+          "my_score": 20,
+          "opp_score": 21,
+          "won": false,
+          "overtime": false,
+          "forfeit": false,
+          "points": {
+            "win_loss": 10,
+            "class_bonus": 10,
+            "differential": -1
+          }
+        }
+      ],
+      "rank": 2
+    },
+    {
+      "team": "University Academy Charter with Ewing Marion Kauffman",
+      "class": 4,
+      "district": 7,
+      "total_points": 17.0,
+      "components": {
+        "avg_win_loss": 10.0,
+        "avg_class_bonus": 10.0,
+        "avg_differential": -3.0,
+        "sos_term": 0.0
+      },
+      "games_played": 1,
+      "record": {
+        "wins": 0,
+        "losses": 1
+      },
+      "games": [
+        {
+          "date": "2026-08-28",
+          "opponent": "Lincoln College Prep",
+          "opponent_class": 5,
+          "opponent_record": {
+            "wins": 1,
+            "losses": 0,
+            "ot_losses": 0
+          },
+          "my_score": 7,
+          "opp_score": 10,
+          "won": false,
+          "overtime": false,
+          "forfeit": false,
+          "points": {
+            "win_loss": 10,
+            "class_bonus": 10,
+            "differential": -3
+          }
+        }
+      ],
+      "rank": 3
+    },
+    {
+      "team": "Central (Kansas City)",
+      "class": 4,
+      "district": 7,
+      "total_points": -3.0,
+      "components": {
+        "avg_win_loss": 10.0,
+        "avg_class_bonus": 0.0,
+        "avg_differential": -13.0,
+        "sos_term": 0.0
+      },
+      "games_played": 1,
+      "record": {
+        "wins": 0,
+        "losses": 1
+      },
+      "games": [
+        {
+          "date": "2026-08-29",
+          "opponent": "Lathrop",
+          "opponent_class": 2,
+          "opponent_record": {
+            "wins": 1,
+            "losses": 0,
+            "ot_losses": 0
+          },
+          "my_score": 0,
+          "opp_score": 16,
+          "won": false,
+          "overtime": false,
+          "forfeit": false,
+          "points": {
+            "win_loss": 10,
+            "class_bonus": 0,
+            "differential": -13
+          }
+        }
+      ],
+      "rank": 4
+    },
+    {
       "team": "East (Kansas City)",
       "class": 4,
       "district": 7,
@@ -6718,7 +7398,7 @@
           }
         }
       ],
-      "rank": 2
+      "rank": 5
     },
     {
       "team": "Harrisonville",
@@ -6758,7 +7438,7 @@
           }
         }
       ],
-      "rank": 3
+      "rank": 6
     },
     {
       "team": "Pleasant Hill",
@@ -6798,7 +7478,7 @@
           }
         }
       ],
-      "rank": 4
+      "rank": 7
     }
   ],
   "class4_district8": [
@@ -7749,6 +8429,46 @@
       "rank": 4
     },
     {
+      "team": "Hazelwood East",
+      "class": 5,
+      "district": 3,
+      "total_points": 12.0,
+      "components": {
+        "avg_win_loss": 10.0,
+        "avg_class_bonus": 10.0,
+        "avg_differential": -8.0,
+        "sos_term": 0.0
+      },
+      "games_played": 1,
+      "record": {
+        "wins": 0,
+        "losses": 1
+      },
+      "games": [
+        {
+          "date": "2026-08-29",
+          "opponent": "Hazelwood West",
+          "opponent_class": 6,
+          "opponent_record": {
+            "wins": 1,
+            "losses": 0,
+            "ot_losses": 0
+          },
+          "my_score": 13,
+          "opp_score": 21,
+          "won": false,
+          "overtime": false,
+          "forfeit": false,
+          "points": {
+            "win_loss": 10,
+            "class_bonus": 10,
+            "differential": -8
+          }
+        }
+      ],
+      "rank": 5
+    },
+    {
       "team": "Hazelwood Central",
       "class": 5,
       "district": 3,
@@ -7786,7 +8506,47 @@
           }
         }
       ],
-      "rank": 5
+      "rank": 6
+    },
+    {
+      "team": "McCluer",
+      "class": 5,
+      "district": 3,
+      "total_points": -3.0,
+      "components": {
+        "avg_win_loss": 10.0,
+        "avg_class_bonus": 0.0,
+        "avg_differential": -13.0,
+        "sos_term": 0.0
+      },
+      "games_played": 1,
+      "record": {
+        "wins": 0,
+        "losses": 1
+      },
+      "games": [
+        {
+          "date": "2026-08-29",
+          "opponent": "Gateway with Soldan International Studies",
+          "opponent_class": 4,
+          "opponent_record": {
+            "wins": 1,
+            "losses": 0,
+            "ot_losses": 0
+          },
+          "my_score": 8,
+          "opp_score": 30,
+          "won": false,
+          "overtime": false,
+          "forfeit": false,
+          "points": {
+            "win_loss": 10,
+            "class_bonus": 0,
+            "differential": -13
+          }
+        }
+      ],
+      "rank": 7
     }
   ],
   "class5_district4": [
@@ -8033,6 +8793,46 @@
       "rank": 1
     },
     {
+      "team": "West Plains",
+      "class": 5,
+      "district": 5,
+      "total_points": 33.0,
+      "components": {
+        "avg_win_loss": 20.0,
+        "avg_class_bonus": 0.0,
+        "avg_differential": 13.0,
+        "sos_term": 0.0
+      },
+      "games_played": 1,
+      "record": {
+        "wins": 1,
+        "losses": 0
+      },
+      "games": [
+        {
+          "date": "2026-08-28",
+          "opponent": "Miller Career Academy with Sumner",
+          "opponent_class": 2,
+          "opponent_record": {
+            "wins": 0,
+            "losses": 1,
+            "ot_losses": 0
+          },
+          "my_score": 43,
+          "opp_score": 6,
+          "won": true,
+          "overtime": false,
+          "forfeit": false,
+          "points": {
+            "win_loss": 20,
+            "class_bonus": 0,
+            "differential": 13
+          }
+        }
+      ],
+      "rank": 2
+    },
+    {
       "team": "Jefferson City",
       "class": 5,
       "district": 5,
@@ -8070,7 +8870,7 @@
           }
         }
       ],
-      "rank": 2
+      "rank": 3
     },
     {
       "team": "Glendale",
@@ -8110,7 +8910,7 @@
           }
         }
       ],
-      "rank": 3
+      "rank": 4
     },
     {
       "team": "Lebanon",
@@ -8150,7 +8950,7 @@
           }
         }
       ],
-      "rank": 4
+      "rank": 5
     },
     {
       "team": "Rolla",
@@ -8190,7 +8990,7 @@
           }
         }
       ],
-      "rank": 5
+      "rank": 6
     }
   ],
   "class5_district6": [
@@ -8759,6 +9559,86 @@
       "rank": 2
     },
     {
+      "team": "Lincoln College Prep",
+      "class": 5,
+      "district": 8,
+      "total_points": 23.0,
+      "components": {
+        "avg_win_loss": 20.0,
+        "avg_class_bonus": 0.0,
+        "avg_differential": 3.0,
+        "sos_term": 0.0
+      },
+      "games_played": 1,
+      "record": {
+        "wins": 1,
+        "losses": 0
+      },
+      "games": [
+        {
+          "date": "2026-08-28",
+          "opponent": "University Academy Charter with Ewing Marion Kauffman",
+          "opponent_class": 4,
+          "opponent_record": {
+            "wins": 0,
+            "losses": 1,
+            "ot_losses": 0
+          },
+          "my_score": 10,
+          "opp_score": 7,
+          "won": true,
+          "overtime": false,
+          "forfeit": false,
+          "points": {
+            "win_loss": 20,
+            "class_bonus": 0,
+            "differential": 3
+          }
+        }
+      ],
+      "rank": 3
+    },
+    {
+      "team": "William Chrisman",
+      "class": 5,
+      "district": 8,
+      "total_points": 21.0,
+      "components": {
+        "avg_win_loss": 20.0,
+        "avg_class_bonus": 0.0,
+        "avg_differential": 1.0,
+        "sos_term": 0.0
+      },
+      "games_played": 1,
+      "record": {
+        "wins": 1,
+        "losses": 0
+      },
+      "games": [
+        {
+          "date": "2026-08-28",
+          "opponent": "Raytown South",
+          "opponent_class": 4,
+          "opponent_record": {
+            "wins": 0,
+            "losses": 1,
+            "ot_losses": 0
+          },
+          "my_score": 21,
+          "opp_score": 20,
+          "won": true,
+          "overtime": false,
+          "forfeit": false,
+          "points": {
+            "win_loss": 20,
+            "class_bonus": 0,
+            "differential": 1
+          }
+        }
+      ],
+      "rank": 4
+    },
+    {
       "team": "Fort Osage",
       "class": 5,
       "district": 8,
@@ -8796,7 +9676,7 @@
           }
         }
       ],
-      "rank": 3
+      "rank": 5
     },
     {
       "team": "Truman",
@@ -8836,7 +9716,7 @@
           }
         }
       ],
-      "rank": 4
+      "rank": 6
     },
     {
       "team": "Winnetonka",
@@ -8876,7 +9756,7 @@
           }
         }
       ],
-      "rank": 5
+      "rank": 7
     }
   ],
   "class6_district1": [
@@ -9285,6 +10165,46 @@
       "rank": 2
     },
     {
+      "team": "Hazelwood West",
+      "class": 6,
+      "district": 3,
+      "total_points": 28.0,
+      "components": {
+        "avg_win_loss": 20.0,
+        "avg_class_bonus": 0.0,
+        "avg_differential": 8.0,
+        "sos_term": 0.0
+      },
+      "games_played": 1,
+      "record": {
+        "wins": 1,
+        "losses": 0
+      },
+      "games": [
+        {
+          "date": "2026-08-29",
+          "opponent": "Hazelwood East",
+          "opponent_class": 5,
+          "opponent_record": {
+            "wins": 0,
+            "losses": 1,
+            "ot_losses": 0
+          },
+          "my_score": 21,
+          "opp_score": 13,
+          "won": true,
+          "overtime": false,
+          "forfeit": false,
+          "points": {
+            "win_loss": 20,
+            "class_bonus": 0,
+            "differential": 8
+          }
+        }
+      ],
+      "rank": 3
+    },
+    {
       "team": "Francis Howell North",
       "class": 6,
       "district": 3,
@@ -9322,7 +10242,7 @@
           }
         }
       ],
-      "rank": 3
+      "rank": 4
     },
     {
       "team": "Ritenour",
@@ -9362,7 +10282,7 @@
           }
         }
       ],
-      "rank": 4
+      "rank": 5
     }
   ],
   "class6_district4": [
