@@ -434,6 +434,37 @@ def strict_games_from_all(all_games):
     return strict
  
  
+def teams_missing_final_scores(all_games, known_teams):
+    """
+    Compares the full universe of known teams (from classifications.json)
+    against the set of teams that show up in at least one scraped game
+    where BOTH score1 and score2 parsed to a real value (i.e. an actual
+    final score, not just a scheduled/unscored matchup).
+ 
+    Returns a sorted list of team names with zero games that have a
+    final score on record.
+    """
+    teams_with_final_score = set()
+    for g in all_games:
+        if g["score1"] is not None and g["score2"] is not None:
+            teams_with_final_score.add(g["team1"])
+            teams_with_final_score.add(g["team2"])
+ 
+    missing = sorted(known_teams - teams_with_final_score)
+    return missing
+ 
+ 
+def report_missing_final_scores(all_games, known_teams):
+    missing = teams_missing_final_scores(all_games, known_teams)
+    print(f"\n=== Teams with NO final-score game on record: {len(missing)} of {len(known_teams)} ===")
+    if missing:
+        for team in missing:
+            print(f"  - {team}")
+    else:
+        print("  None -- every known team has at least one final score.")
+    return missing
+ 
+ 
 def save_json(all_games, path=OUTPUT_JSON):
     with open(path, "w") as f:
         json.dump(all_games, f, indent=2)
@@ -499,5 +530,7 @@ if __name__ == "__main__":
     save_csv(strict_games, OUTPUT_CSV)
     save_json(all_games, OUTPUT_JSON_ALL)
     save_csv_all(all_games, OUTPUT_CSV_ALL)
+ 
+    report_missing_final_scores(all_games, known_teams)
  
     print("\n=== Done ===")
