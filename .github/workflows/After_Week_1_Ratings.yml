@@ -30,7 +30,7 @@ jobs:
             "https://raw.githubusercontent.com/AllMOSports/All_MO_Sports-Data/main/output/mshsaa_historical_records/football/Football_Ratings_History_2010-2025.json"
  
       - name: Run After Week 1 Ratings script
-        run: python "After Week 1 Ratings.py"
+        run: python "After_Week1_Ratings.py"
         # Assumes the script and football_games_2026.json are both at the
         # repo root. Add `working-directory:` here if that's not the case.
  
