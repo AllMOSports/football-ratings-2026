@@ -10,82 +10,101 @@ Computes "After Week 1" Off/Def/Ovr ratings for AllMOSports football teams by:
   5. Blending Starting + New into a Final rating (default: 80% Starting / 20% New)
  
 -----------------------------------------------------------------------------
+INPUT FILES (matched to AllMOSports' actual schemas)
+-----------------------------------------------------------------------------
+HISTORICAL_RATINGS_PATH — a local copy of:
+  AllMOSports/All_MO_Sports-Data:
+  output/mshsaa_historical_records/football/Football_Ratings_History_2010-2025.json
+  Shape: {"seasons": [{"year": 2010, "league_average": 24.73,
+           "teams": [{"school": "Rockhurst", "off_rating": ..., "def_rating": ...,
+                       "ovr_rating": ...}, ...]}, ...]}
+ 
+WEEK1_GAMES_PATH — a local copy of:
+  AllMOSports/football-ratings-2026: football_games_2026.json
+  Shape: a flat list of ALL games in the 2026 season (not just Week 1):
+  [{"date": "2026-08-27", "team1": "Diamond", "score1": 14,
+    "team2": "Buffalo", "score2": 55, "forfeit": false, "overtime": false}, ...]
+  This script filters that full-season list down to Week 1 games itself —
+  see WEEK1_DATES below.
+ 
+-----------------------------------------------------------------------------
 HOW TO USE
 -----------------------------------------------------------------------------
-1. Edit the CONFIG section below (file paths, weights, league average PPG).
-2. Provide two input JSON files (see REQUIRED INPUT FORMATS below).
-3. Run: python "After Week 1 Ratings.py"
-4. Output is written to after_week1_ratings.json and printed as a table.
- 
------------------------------------------------------------------------------
-REQUIRED INPUT FORMATS
------------------------------------------------------------------------------
-historical_ratings.json — a flat list of one record per team per season:
-[
-  {"season": 2010, "team": "Rockhurst", "off": 30.1, "def": 25.4, "ovr": 12.3},
-  {"season": 2011, "team": "Rockhurst", "off": 31.0, "def": 24.9, "ovr": 13.1},
-  ...
-]
- 
-week1_games.json — a flat list of one record per Week 1 game:
-[
-  {"team_a": "Rockhurst", "team_b": "Some Opponent", "score_a": 42, "score_b": 14},
-  ...
-]
-Only list each game ONCE (not once per team) — the script updates both teams
-from a single game record.
- 
-If your actual JSON files use different key names (e.g. "school" instead of
-"team", or nested structures), adjust the KEY NAMES in the CONFIG section
-or the small parsing functions marked "ADAPT ME" below — you don't need to
-rewrite the rating math to do that.
+1. Edit the CONFIG section below if your file paths, dates, or weights differ.
+2. Run: python "After Week 1 Ratings.py"
+3. Output: Ratings_After_Week1.json and Ratings_After_Week1.csv
 """
  
 import csv
 import json
 import sys
 from collections import defaultdict
+from datetime import date as _date
 from pathlib import Path
  
 # =============================================================================
-# CONFIG — edit these to match your setup
+# CONFIG
 # =============================================================================
  
-HISTORICAL_RATINGS_PATH = "historical_ratings.json"   # input: all seasons, all teams
-WEEK1_GAMES_PATH = "week1_games.json"                  # input: this week's games
-OUTPUT_JSON_PATH = "Ratings_After_Week1.json"          # output file (JSON)
-OUTPUT_CSV_PATH = "Ratings_After_Week1.csv"            # output file (CSV)
+HISTORICAL_RATINGS_PATH = "Football_Ratings_History_2010-2025.json"
+WEEK1_GAMES_PATH = "football_games_2026.json"
+OUTPUT_JSON_PATH = "Ratings_After_Week1.json"
+OUTPUT_CSV_PATH = "Ratings_After_Week1.csv"
  
 YEARS_ALL = range(2010, 2026)      # 2010-2025 inclusive, for the 16-year average
 YEARS_RECENT = range(2023, 2026)   # 2023-2025 inclusive, for the 3-year average
  
-WEIGHT_3YR = 0.65     # weight on the 3-year average when building the Starting rating
-WEIGHT_16YR = 0.35    # weight on the 16-year average when building the Starting rating
+WEIGHT_3YR = 0.65
+WEIGHT_16YR = 0.35
 # WEIGHT_3YR + WEIGHT_16YR should equal 1.0
  
-WEIGHT_NEW = 0.20      # weight on the Week 1 "New" rating in the final blend
-WEIGHT_STARTING = 0.80 # weight on the "Starting" rating in the final blend
+WEIGHT_NEW = 0.20
+WEIGHT_STARTING = 0.80
 # WEIGHT_NEW + WEIGHT_STARTING should equal 1.0
  
-LEAGUE_AVG_PPG = 24.0   # set this to your actual statewide/classification average PPG
+# Set to an explicit list of ISO date strings (e.g. ["2026-08-27","2026-08-28"])
+# to hard-code which dates count as "Week 1". Leave as None to auto-detect:
+# the script takes the earliest date in the games file, then keeps adding
+# consecutive game dates until it hits a gap of more than WEEK1_MAX_GAP_DAYS
+# (this naturally separates "Week 1" from "Week 2" since MSHSAA weeks cluster
+# on Thu/Fri/Sat then jump ~5 days to the next week).
+WEEK1_DATES = None
+WEEK1_MAX_GAP_DAYS = 3
+ 
+# Forfeits produce rule-based scores (e.g. 1-0, 8-0), not real performance —
+# excluded from the Week 1 adjustment by default.
+EXCLUDE_FORFEITS = True
+ 
+# League average PPG used in the Off/Def prediction formula for Week 1.
+# Set to a number to hard-code it. Leave as None to auto-compute it as the
+# average of the historical file's per-season league_average over YEARS_RECENT
+# (2023-2025) — a reasonable proxy until the 2026 season has its own number.
+LEAGUE_AVG_PPG = None
  
 # =============================================================================
 # STEP 1-2: load historical ratings and compute the two averages
 # =============================================================================
  
 def load_historical_ratings(path):
-    """ADAPT ME if your JSON schema differs from {"season","team","off","def","ovr"}."""
     with open(path, "r", encoding="utf-8") as f:
-        records = json.load(f)
+        data = json.load(f)
  
     by_team = defaultdict(list)
-    for r in records:
-        by_team[r["team"]].append(r)
-    return by_team
+    league_averages_by_year = {}
+    for season in data["seasons"]:
+        year = season["year"]
+        league_averages_by_year[year] = season.get("league_average")
+        for team in season["teams"]:
+            by_team[team["school"]].append({
+                "season": year,
+                "off": team["off_rating"],
+                "def": team["def_rating"],
+                "ovr": team["ovr_rating"],
+            })
+    return by_team, league_averages_by_year
  
  
 def average_ratings(records, years):
-    """Average off/def/ovr across the given set of seasons for one team's records."""
     filtered = [r for r in records if r["season"] in years]
     if not filtered:
         return None
@@ -99,18 +118,14 @@ def average_ratings(records, years):
  
  
 def build_starting_ratings(by_team):
-    """Steps 1-3: 16yr avg, 3yr avg, blended into a Starting rating per team."""
     starting = {}
     for team, records in by_team.items():
         avg_16yr = average_ratings(records, YEARS_ALL)
         avg_3yr = average_ratings(records, YEARS_RECENT)
  
         if avg_16yr is None and avg_3yr is None:
-            continue  # no data at all for this team, skip
+            continue
  
-        # Fall back gracefully if a team is missing one window (e.g. new program
-        # with < 16 years of history, or a program that didn't field a team
-        # 2023-2025) — just use whichever average is available.
         if avg_16yr is None:
             blended = avg_3yr
         elif avg_3yr is None:
@@ -126,8 +141,6 @@ def build_starting_ratings(by_team):
             "starting_off": blended["off"],
             "starting_def": blended["def"],
             "starting_ovr": blended["ovr"],
-            "avg_16yr": avg_16yr,
-            "avg_3yr": avg_3yr,
         }
     return starting
  
@@ -136,21 +149,52 @@ def build_starting_ratings(by_team):
 # STEP 4: one-shot "New" rating from the Week 1 result
 # =============================================================================
  
+def auto_detect_week1_dates(games, max_gap_days):
+    dates = sorted(set(g["date"] for g in games))
+    if not dates:
+        return set()
+    selected = [dates[0]]
+    prev = _date.fromisoformat(dates[0])
+    for d in dates[1:]:
+        cur = _date.fromisoformat(d)
+        if (cur - prev).days > max_gap_days:
+            break
+        selected.append(d)
+        prev = cur
+    return set(selected)
+ 
+ 
 def load_week1_games(path):
-    """ADAPT ME if your schema differs from {"team_a","team_b","score_a","score_b"}."""
     with open(path, "r", encoding="utf-8") as f:
-        return json.load(f)
+        all_games = json.load(f)
+ 
+    week1_dates = set(WEEK1_DATES) if WEEK1_DATES else auto_detect_week1_dates(
+        all_games, WEEK1_MAX_GAP_DAYS
+    )
+    print(f"  Week 1 dates: {sorted(week1_dates)}")
+ 
+    filtered = []
+    skipped_forfeits = 0
+    for g in all_games:
+        if g["date"] not in week1_dates:
+            continue
+        if EXCLUDE_FORFEITS and g.get("forfeit"):
+            skipped_forfeits += 1
+            continue
+        if g.get("score1") is None or g.get("score2") is None:
+            continue  # game not yet played / no score reported
+        filtered.append({
+            "team_a": g["team1"],
+            "team_b": g["team2"],
+            "score_a": g["score1"],
+            "score_b": g["score2"],
+        })
+    if skipped_forfeits:
+        print(f"  Excluded {skipped_forfeits} forfeit game(s) from Week 1.")
+    return filtered
  
  
-def compute_new_ratings_for_game(game, starting):
-    """
-    Given one Week 1 game and the Starting ratings dict, return the one-shot
-    'New' off/def/ovr rating for BOTH teams in the game.
- 
-    Returns None (and prints a warning) if either team is missing a Starting
-    rating (e.g. a new/unrated program) — you'll need to handle that team
-    manually, since there's no baseline to adjust from.
-    """
+def compute_new_ratings_for_game(game, starting, league_avg_ppg):
     team_a, team_b = game["team_a"], game["team_b"]
     score_a, score_b = game["score_a"], game["score_b"]
  
@@ -164,25 +208,21 @@ def compute_new_ratings_for_game(game, starting):
     b = starting[team_b]
  
     results = {}
-    for (team, off_a, def_a, ovr_a, off_b, def_b, ovr_b, pts_for, pts_against) in [
+    for (team, off_x, def_x, ovr_x, off_y, def_y, ovr_y, pts_for, pts_against) in [
         (team_a, a["starting_off"], a["starting_def"], a["starting_ovr"],
          b["starting_off"], b["starting_def"], b["starting_ovr"], score_a, score_b),
         (team_b, b["starting_off"], b["starting_def"], b["starting_ovr"],
          a["starting_off"], a["starting_def"], a["starting_ovr"], score_b, score_a),
     ]:
-        # Ovr: predicted margin vs. actual margin
-        predicted_margin = ovr_a - ovr_b
+        predicted_margin = ovr_x - ovr_y
         actual_margin = pts_for - pts_against
-        new_ovr = ovr_a + (actual_margin - predicted_margin)
+        new_ovr = ovr_x + (actual_margin - predicted_margin)
  
-        # Off: predicted score vs. actual points scored
-        predicted_score = off_a - def_b + LEAGUE_AVG_PPG
-        new_off = off_a + (pts_for - predicted_score)
+        predicted_score = off_x - def_y + league_avg_ppg
+        new_off = off_x + (pts_for - predicted_score)
  
-        # Def: predicted points allowed vs. actual points allowed
-        # (sign flipped: allowing FEWER than predicted = defense improved)
-        predicted_points_allowed = off_b - def_a + LEAGUE_AVG_PPG
-        new_def = def_a + (predicted_points_allowed - pts_against)
+        predicted_points_allowed = off_y - def_x + league_avg_ppg
+        new_def = def_x + (predicted_points_allowed - pts_against)
  
         results[team] = {"new_off": new_off, "new_def": new_def, "new_ovr": new_ovr}
  
@@ -209,42 +249,45 @@ def main():
     if not Path(HISTORICAL_RATINGS_PATH).exists():
         sys.exit(f"ERROR: historical ratings file not found: {HISTORICAL_RATINGS_PATH}")
     if not Path(WEEK1_GAMES_PATH).exists():
-        sys.exit(f"ERROR: week 1 games file not found: {WEEK1_GAMES_PATH}")
+        sys.exit(f"ERROR: games file not found: {WEEK1_GAMES_PATH}")
  
     print("Loading historical ratings...")
-    by_team = load_historical_ratings(HISTORICAL_RATINGS_PATH)
+    by_team, league_averages_by_year = load_historical_ratings(HISTORICAL_RATINGS_PATH)
+ 
+    league_avg_ppg = LEAGUE_AVG_PPG
+    if league_avg_ppg is None:
+        recent_vals = [v for y, v in league_averages_by_year.items()
+                        if y in YEARS_RECENT and v is not None]
+        league_avg_ppg = sum(recent_vals) / len(recent_vals)
+        print(f"  Auto-computed LEAGUE_AVG_PPG = {league_avg_ppg:.2f} "
+              f"(avg of {sorted(YEARS_RECENT)} league_average values)")
  
     print("Building Starting ratings (16yr + 3yr blend)...")
     starting = build_starting_ratings(by_team)
     print(f"  Starting ratings built for {len(starting)} teams.")
  
-    print("Loading Week 1 games...")
+    print("Loading and filtering Week 1 games...")
     games = load_week1_games(WEEK1_GAMES_PATH)
-    print(f"  {len(games)} games loaded.")
+    print(f"  {len(games)} Week 1 games loaded.")
  
     print("Computing Week 1 one-shot adjustments and final blend...")
     output = {}
     for game in games:
-        new_ratings = compute_new_ratings_for_game(game, starting)
+        new_ratings = compute_new_ratings_for_game(game, starting, league_avg_ppg)
         if new_ratings is None:
             continue
         for team, new_entry in new_ratings.items():
             final = blend_final(starting[team], new_entry)
-            output[team] = {
-                **{k: v for k, v in starting[team].items() if k.startswith("starting_")},
-                **new_entry,
-                **final,
-            }
+            output[team] = {**starting[team], **new_entry, **final}
  
-    teams_played = set(output.keys())
-    teams_no_game = set(starting.keys()) - teams_played
+    teams_no_game = set(starting.keys()) - set(output.keys())
     if teams_no_game:
         print(f"  Note: {len(teams_no_game)} teams had a Starting rating but no "
-              f"Week 1 game in {WEEK1_GAMES_PATH} (bye week / not yet played / "
-              f"not in the games file) — their Final rating is just their Starting rating.")
+              f"Week 1 game found (bye/out-of-state opponent/not in file) — "
+              f"their Final rating is just their Starting rating.")
         for team in teams_no_game:
             output[team] = {
-                **{k: v for k, v in starting[team].items() if k.startswith("starting_")},
+                **starting[team],
                 "new_off": None, "new_def": None, "new_ovr": None,
                 "final_off": starting[team]["starting_off"],
                 "final_def": starting[team]["starting_def"],
@@ -268,10 +311,9 @@ def main():
  
     print(f"\nDone. Wrote {len(output)} teams to {OUTPUT_JSON_PATH} and {OUTPUT_CSV_PATH}")
  
-    # quick console table, sorted by Final Ovr descending
     print(f"\n{'Team':<30}{'Start Ovr':>10}{'New Ovr':>10}{'Final Ovr':>10}")
     print("-" * 60)
-    for team, r in sorted(output.items(), key=lambda kv: kv[1]["final_ovr"], reverse=True):
+    for team, r in sorted(output.items(), key=lambda kv: kv[1]["final_ovr"], reverse=True)[:20]:
         new_ovr_display = f"{r['new_ovr']:.1f}" if r["new_ovr"] is not None else "—"
         print(f"{team:<30}{r['starting_ovr']:>10.1f}{new_ovr_display:>10}{r['final_ovr']:>10.1f}")
  
