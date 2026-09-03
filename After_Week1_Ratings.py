@@ -41,6 +41,7 @@ or the small parsing functions marked "ADAPT ME" below — you don't need to
 rewrite the rating math to do that.
 """
  
+import csv
 import json
 import sys
 from collections import defaultdict
@@ -52,7 +53,8 @@ from pathlib import Path
  
 HISTORICAL_RATINGS_PATH = "historical_ratings.json"   # input: all seasons, all teams
 WEEK1_GAMES_PATH = "week1_games.json"                  # input: this week's games
-OUTPUT_PATH = "after_week1_ratings.json"               # output file
+OUTPUT_JSON_PATH = "Ratings_After_Week1.json"          # output file (JSON)
+OUTPUT_CSV_PATH = "Ratings_After_Week1.csv"            # output file (CSV)
  
 YEARS_ALL = range(2010, 2026)      # 2010-2025 inclusive, for the 16-year average
 YEARS_RECENT = range(2023, 2026)   # 2023-2025 inclusive, for the 3-year average
@@ -249,9 +251,22 @@ def main():
                 "final_ovr": starting[team]["starting_ovr"],
             }
  
-    with open(OUTPUT_PATH, "w", encoding="utf-8") as f:
+    with open(OUTPUT_JSON_PATH, "w", encoding="utf-8") as f:
         json.dump(output, f, indent=2, sort_keys=True)
-    print(f"\nDone. Wrote {len(output)} teams to {OUTPUT_PATH}")
+ 
+    csv_columns = [
+        "team", "starting_off", "starting_def", "starting_ovr",
+        "new_off", "new_def", "new_ovr",
+        "final_off", "final_def", "final_ovr",
+    ]
+    with open(OUTPUT_CSV_PATH, "w", encoding="utf-8", newline="") as f:
+        writer = csv.DictWriter(f, fieldnames=csv_columns)
+        writer.writeheader()
+        for team in sorted(output, key=lambda t: output[t]["final_ovr"], reverse=True):
+            row = {"team": team, **output[team]}
+            writer.writerow({k: row.get(k, "") for k in csv_columns})
+ 
+    print(f"\nDone. Wrote {len(output)} teams to {OUTPUT_JSON_PATH} and {OUTPUT_CSV_PATH}")
  
     # quick console table, sorted by Final Ovr descending
     print(f"\n{'Team':<30}{'Start Ovr':>10}{'New Ovr':>10}{'Final Ovr':>10}")
