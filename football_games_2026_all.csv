@@ -178,6 +178,7 @@ date,team1,team1_classified,score1,team2,team2_classified,score2,forfeit,overtim
 2026-09-04,Jackson,True,,Louisville-Ballard (KY.),False,,False,False
 2026-09-04,Lee's Summit North,True,,Millard South (NE.),False,,False,False
 2026-09-04,University City,True,,Lawton (OK.),False,,False,False
+2026-09-04,Lee's Summit,True,,,False,,False,False
 2026-09-04,Strafford,True,,Adrian,True,,False,False
 2026-09-04,Crystal City,True,,Affton,True,,False,False
 2026-09-04,Cassville,True,,Aurora,True,,False,False
@@ -269,6 +270,7 @@ date,team1,team1_classified,score1,team2,team2_classified,score2,forfeit,overtim
 2026-09-04,Central (Kansas City),True,,"Pleasant Hope with Halfway, Marion C. Early",True,,False,False
 2026-09-04,Saxony Lutheran,True,,Portageville,True,,False,False
 2026-09-04,Charleston,True,,Potosi,True,,False,False
+2026-09-04,Kennett,True,,Priory,True,,False,False
 2026-09-04,Belton,True,,Raytown,True,,False,False
 2026-09-04,Lincoln College Prep,True,,Raytown South,True,,False,False
 2026-09-04,Marshfield,True,,Reeds Spring,True,,False,False

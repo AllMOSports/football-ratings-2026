@@ -1970,6 +1970,17 @@
   },
   {
     "date": "2026-09-04",
+    "team1": "Lee's Summit",
+    "team1_classified": true,
+    "score1": null,
+    "team2": null,
+    "team2_classified": false,
+    "score2": null,
+    "forfeit": false,
+    "overtime": false
+  },
+  {
+    "date": "2026-09-04",
     "team1": "Strafford",
     "team1_classified": true,
     "score1": null,
@@ -2964,6 +2975,17 @@
     "team1_classified": true,
     "score1": null,
     "team2": "Potosi",
+    "team2_classified": true,
+    "score2": null,
+    "forfeit": false,
+    "overtime": false
+  },
+  {
+    "date": "2026-09-04",
+    "team1": "Kennett",
+    "team1_classified": true,
+    "score1": null,
+    "team2": "Priory",
     "team2_classified": true,
     "score2": null,
     "forfeit": false,

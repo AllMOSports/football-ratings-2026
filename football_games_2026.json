@@ -2170,6 +2170,15 @@
   },
   {
     "date": "2026-09-04",
+    "team1": "Kennett",
+    "score1": null,
+    "team2": "Priory",
+    "score2": null,
+    "forfeit": false,
+    "overtime": false
+  },
+  {
+    "date": "2026-09-04",
     "team1": "Belton",
     "score1": null,
     "team2": "Raytown",

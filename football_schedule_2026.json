@@ -1,6 +1,6 @@
 {
   "season": 2026,
-  "generated": "2026-09-02T14:37:36.007938+00:00",
+  "generated": "2026-09-03T09:56:55.526124+00:00",
   "teams": {
     "Diamond": [
       {
@@ -12913,6 +12913,21 @@
         "overtime": false
       },
       {
+        "date": "2026-09-04",
+        "opponent": "Priory",
+        "home_away": null,
+        "team_score": null,
+        "opp_score": null,
+        "result": null,
+        "predicted_team_score": null,
+        "predicted_opp_score": null,
+        "off_delta": null,
+        "def_delta": null,
+        "ovr_delta": null,
+        "forfeit": false,
+        "overtime": false
+      },
+      {
         "date": "2026-09-05",
         "opponent": "Priory",
         "home_away": null,
@@ -19664,6 +19679,21 @@
         "team_score": 38,
         "opp_score": 24,
         "result": "W",
+        "predicted_team_score": null,
+        "predicted_opp_score": null,
+        "off_delta": null,
+        "def_delta": null,
+        "ovr_delta": null,
+        "forfeit": false,
+        "overtime": false
+      },
+      {
+        "date": "2026-09-04",
+        "opponent": "Kennett",
+        "home_away": null,
+        "team_score": null,
+        "opp_score": null,
+        "result": null,
         "predicted_team_score": null,
         "predicted_opp_score": null,
         "off_delta": null,
