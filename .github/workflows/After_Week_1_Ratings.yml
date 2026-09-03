@@ -1,22 +1,22 @@
 name: After Week 1 Ratings
  
-# Adjust these triggers to fit your season:
-# - workflow_dispatch lets you click "Run workflow" manually in the GitHub UI
-#   any time (e.g. right after your Week 1 games scraper has finished).
-# - The schedule below is commented out by default. Uncomment and set a cron
-#   time (UTC) once you know when your Week 1 games file is reliably populated,
-#   e.g. Saturday morning after Friday night games have all scraped in.
+# This workflow is meant to live in the football-ratings-2026 repo, since
+# that's where football_games_2026.json (the Week 1 games source) lives.
+# It pulls the historical ratings file fresh from All_MO_Sports-Data on
+# every run, so you don't need to duplicate/sync that file between repos.
 on:
   workflow_dispatch: {}
   # schedule:
   #   - cron: "0 12 * * 6"   # 12:00 UTC Saturday = 7:00 AM CDT
+  #   Uncomment once you're confident Week 1 scores are fully scraped in by
+  #   this time. Adjust day/time as needed - MSHSAA weeks run Thu-Sat.
  
 jobs:
   build-ratings:
     runs-on: ubuntu-latest
  
     steps:
-      - name: Check out repo
+      - name: Check out this repo (football-ratings-2026)
         uses: actions/checkout@v4
  
       - name: Set up Python
@@ -24,14 +24,15 @@ jobs:
         with:
           python-version: "3.12"
  
-      # No third-party packages are required by the script (stdlib only),
-      # so no pip install step is needed. If you later add dependencies,
-      # add a `pip install -r requirements.txt` step here.
+      - name: Fetch historical ratings from All_MO_Sports-Data
+        run: |
+          curl -sSL -o "Football_Ratings_History_2010-2025.json" \
+            "https://raw.githubusercontent.com/AllMOSports/All_MO_Sports-Data/main/output/mshsaa_historical_records/football/Football_Ratings_History_2010-2025.json"
  
       - name: Run After Week 1 Ratings script
         run: python "After Week 1 Ratings.py"
-        # If your script or input JSON files live in a subfolder rather than
-        # the repo root, add:  working-directory: path/to/folder
+        # Assumes the script and football_games_2026.json are both at the
+        # repo root. Add `working-directory:` here if that's not the case.
  
       - name: Commit and push output files
         run: |
