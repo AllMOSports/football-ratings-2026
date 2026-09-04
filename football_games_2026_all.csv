@@ -159,15 +159,39 @@ date,team1,team1_classified,score1,team2,team2_classified,score2,forfeit,overtim
 2026-08-29,Hazelwood East,True,13,Hazelwood West,True,21,False,False
 2026-08-29,"Pleasant Hope with Halfway, Marion C. Early",True,32,KIPP KC Legacy,True,38,False,False
 2026-08-29,Principia,True,28,Riverview Gardens,True,66,False,False
-2026-09-03,Perryville,True,,DeSoto,True,,False,False
-2026-09-03,Francis Howell,True,,Ft. Zumwalt North,True,,False,False
+2026-08-30,St. Pius X (Festus),True,21,,False,37,False,False
+2026-08-30,Lathrop,True,16,Central (Kansas City),True,0,False,False
+2026-08-30,McCluer,True,8,Gateway with Soldan International Studies,True,30,False,False
+2026-08-30,Hazelwood East,True,13,Hazelwood West,True,21,False,False
+2026-08-30,"Pleasant Hope with Halfway, Marion C. Early",True,32,KIPP KC Legacy,True,38,False,False
+2026-08-30,Principia,True,28,Riverview Gardens,True,66,False,False
+2026-08-31,St. Pius X (Festus),True,21,,False,37,False,False
+2026-08-31,Lathrop,True,16,Central (Kansas City),True,0,False,False
+2026-08-31,McCluer,True,8,Gateway with Soldan International Studies,True,30,False,False
+2026-08-31,Hazelwood East,True,13,Hazelwood West,True,21,False,False
+2026-08-31,"Pleasant Hope with Halfway, Marion C. Early",True,32,KIPP KC Legacy,True,38,False,False
+2026-08-31,Principia,True,28,Riverview Gardens,True,66,False,False
+2026-09-01,St. Pius X (Festus),True,21,,False,37,False,False
+2026-09-01,Lathrop,True,16,Central (Kansas City),True,0,False,False
+2026-09-01,McCluer,True,8,Gateway with Soldan International Studies,True,30,False,False
+2026-09-01,Hazelwood East,True,13,Hazelwood West,True,21,False,False
+2026-09-01,"Pleasant Hope with Halfway, Marion C. Early",True,32,KIPP KC Legacy,True,38,False,False
+2026-09-01,Principia,True,28,Riverview Gardens,True,66,False,False
+2026-09-02,St. Pius X (Festus),True,21,,False,37,False,False
+2026-09-02,Lathrop,True,16,Central (Kansas City),True,0,False,False
+2026-09-02,McCluer,True,8,Gateway with Soldan International Studies,True,30,False,False
+2026-09-02,Hazelwood East,True,13,Hazelwood West,True,21,False,False
+2026-09-02,"Pleasant Hope with Halfway, Marion C. Early",True,32,KIPP KC Legacy,True,38,False,False
+2026-09-02,Principia,True,28,Riverview Gardens,True,66,False,False
+2026-09-03,Perryville,True,32,DeSoto,True,54,False,False
+2026-09-03,Francis Howell,True,48,Ft. Zumwalt North,True,20,False,False
+2026-09-03,Hillsboro,True,28,Hazelwood East,True,0,False,False
+2026-09-03,Lindbergh,True,7,Oakville,True,14,False,False
+2026-09-03,Parkway Central,True,6,Parkway North,True,42,False,False
+2026-09-03,Hazelwood West,True,0,Pattonville,True,43,False,False
+2026-09-03,Ladue Horton Watkins,True,50,Vianney,True,27,False,False
 2026-09-03,Francis Howell Central,True,,Hazelwood Central,True,,False,False
-2026-09-03,Hillsboro,True,,Hazelwood East,True,,False,False
-2026-09-03,Lindbergh,True,,Oakville,True,,False,False
-2026-09-03,Parkway Central,True,,Parkway North,True,,False,False
-2026-09-03,Hazelwood West,True,,Pattonville,True,,False,False
 2026-09-03,Clayton with Brentwood,True,,St. Charles,True,,False,False
-2026-09-03,Ladue Horton Watkins,True,,Vianney,True,,False,False
 2026-09-03,Warrenton,True,,Washington,True,,False,False
 2026-09-04,Lift for Life Academy Charter,True,,Christ Preparatory (KS.),False,,False,False
 2026-09-04,Rockhurst,True,,Manhattan (KS.),False,,False,False
@@ -430,6 +454,7 @@ date,team1,team1_classified,score1,team2,team2_classified,score2,forfeit,overtim
 2026-09-11,Marquette,True,,Ritenour,True,,False,False
 2026-09-11,Jefferson City,True,,Rock Bridge,True,,False,False
 2026-09-11,Fayette,True,,Salisbury,True,,False,False
+2026-09-11,,False,,Saxony Lutheran,True,,False,False
 2026-09-11,Caruthersville,True,,Scott City with Chaffee,True,,False,False
 2026-09-11,Cole Camp,True,,Sherwood,True,,False,False
 2026-09-11,Jackson,True,,Sikeston,True,,False,False
@@ -466,6 +491,7 @@ date,team1,team1_classified,score1,team2,team2_classified,score2,forfeit,overtim
 2026-09-11,Mark Twain,True,,Winfield,True,,False,False
 2026-09-11,Raytown,True,,Winnetonka,True,,False,False
 2026-09-12,Lift for Life Academy Charter,True,,Brentwood (TN.),False,,False,False
+2026-09-12,Lutheran North,True,,,False,,False,False
 2026-09-12,St. Michael the Archangel,True,,KIPP KC Legacy,True,,False,False
 2026-09-12,Confluence Prep Academy Charter,True,,Principia,True,,False,False
 2026-09-12,Houston,True,,Salem,True,,False,False
