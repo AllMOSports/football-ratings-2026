@@ -1,5 +1,5 @@
 {
-  "_comment": "Manual overrides for football_games_2026_all.json non-classification games. Matched by date + the ALREADY-classified team's name, so these hold even after a score is filled in later (score is never part of the match key). corrections: fixes a blank/garbled name on the unclassified side. exclusions: drops a specific bad/duplicate game outright (exact date+team1+team2 match).",
+  "_comment": "Manual overrides for football_games_2026_all.json. Matched by date + the ALREADY-classified team's name (corrections) or exact date+team1+team2 (exclusions, score_corrections), so these hold even after a score is filled in later -- except score_corrections, which is the one category that INTENTIONALLY stops applying once MSHSAA posts its own score for that game (see apply_score_corrections() in the script). corrections: fixes a blank/garbled name on the unclassified side. exclusions: drops a specific bad/duplicate game outright. score_corrections: fills in a still-missing score you already know, matched by team NAME (order-independent) so it's safe even if team1/team2 end up swapped between scrape runs; once the site posts a real score for that game, the live value always wins instead.",
   "corrections": [
     {
       "date": "2026-08-28",
@@ -335,6 +335,21 @@
       "date": "2026-10-23",
       "known_team": "Hayti",
       "corrected_opponent": "Middle Tennessee Christian (TN.)"
+    },
+    {
+      "date": "2026-10-10",
+      "known_team": "KIPP KC Legacy",
+      "corrected_opponent": "St. Mary's (KS) Academy"
+    },
+    {
+      "date": "2026-09-04",
+      "known_team": "Lee's Summit",
+      "corrected_opponent": "Omaha Westside (NE.)"
+    },
+    {
+      "date": "2026-09-12",
+      "known_team": "Lutheran North",
+      "corrected_opponent": "Lincoln-Way Central (IL.)"
     }
   ],
   "exclusions": [
@@ -367,6 +382,27 @@
       "date": "2026-10-16",
       "team1": "Seneca",
       "team2": "Central (Springfield)"
+    },
+    {
+      "date": "2026-09-03",
+      "team1": "Clayton with Brentwood",
+      "team2": "St. Charles"
+    },
+    {
+      "date": "2026-09-04",
+      "team1": "Lighthouse Sr. High",
+      "team2": "Parkview"
+    },
+    {
+      "date": "2026-09-05",
+      "team1": "Duchesne",
+      "team2": "Veritas Christian Academy"
+    },
+    {
+      "date": "2026-08-28",
+      "team1": "Orchard Farm",
+      "team2": "Ft. Zumwalt South"
     }
-  ]
+  ],
+  "score_corrections": []
 }

@@ -424,6 +424,18 @@ def load_manual_overrides(path=MANUAL_OVERRIDES_PATH):
     except FileNotFoundError:
         print(f"  [overrides] {path} not found -- skipping corrections/exclusions.")
         return {}, set()
+    except json.JSONDecodeError as e:
+        # A hand-edited overrides file with a stray comma/brace should
+        # never cost you the whole scrape (this used to crash main()
+        # right after scraping, before any output files got written --
+        # see the [TIMING] line in the traceback that caused this fix).
+        # Skip corrections/exclusions for this run instead and say
+        # exactly where to look, rather than losing everything.
+        print(f"  [overrides] WARNING: {path} is not valid JSON ({e}). "
+              f"Skipping corrections/exclusions for this run -- fix the "
+              f"file (check for a stray comma or brace near that line) "
+              f"and re-run to pick them back up.")
+        return {}, set()
  
     corrections = {
         (c["date"], c["known_team"]): c["corrected_opponent"]
@@ -505,6 +517,74 @@ def apply_manual_overrides(all_games, corrections, exclusions):
           f"side, {dropped_excluded} manually-excluded game(s); "
           f"applied {corrected} name correction(s). {len(kept)} games remain.")
     return kept
+ 
+ 
+def load_score_corrections(path=MANUAL_OVERRIDES_PATH):
+    """
+    Loads the score_corrections list from the same overrides file used for
+    name corrections/exclusions. Each entry fills in a still-missing score
+    for one specific game (exact date + the two team names, order doesn't
+    matter) that you already know the result of ahead of MSHSAA posting
+    it themselves.
+ 
+    Unlike name corrections (which apply forever, since an out-of-state
+    opponent's real name will never come from classifications.json on its
+    own), a score_corrections entry is intentionally NOT permanent: see
+    apply_score_corrections() below -- it only fires while the scraped
+    score is still null. Once MSHSAA posts their own score for that game,
+    the live scraped value takes over automatically and the entry just
+    sits there harmlessly (no need to remove it after the fact).
+    """
+    try:
+        with open(path) as f:
+            data = json.load(f)
+    except FileNotFoundError:
+        return []
+    except json.JSONDecodeError:
+        # Same reasoning as load_manual_overrides() above -- a broken
+        # overrides file shouldn't take the whole run down with it.
+        # load_manual_overrides() already prints the warning for this
+        # file, so this just quietly degrades rather than warning twice.
+        return []
+    return data.get("score_corrections", [])
+ 
+ 
+def apply_score_corrections(all_games, score_corrections):
+    """
+    For every game whose score1 AND score2 are both still None, checks it
+    against the manual score_corrections list on (date, the unordered
+    pair of team names) -- matched by NAME rather than team1/team2
+    position, so this stays correct even if team1/team2 end up swapped
+    between scrape runs (the same swap issue apply_manual_overrides()
+    already has to account for). If a game already has a score from the
+    site, it's left alone -- the live scraped score always wins over a
+    manual one, by design.
+    """
+    if not score_corrections:
+        return all_games
+ 
+    index = {}
+    for sc in score_corrections:
+        key = (sc["date"], frozenset([sc["team1"], sc["team2"]]))
+        index[key] = sc
+ 
+    applied = 0
+    for g in all_games:
+        if g["score1"] is not None or g["score2"] is not None:
+            continue  # site already has a score for this game -- it wins
+        key = (g["date"], frozenset([g["team1"], g["team2"]]))
+        sc = index.get(key)
+        if sc is None:
+            continue
+        if g["team1"] == sc["team1"]:
+            g["score1"], g["score2"] = sc["score1"], sc["score2"]
+        else:
+            g["score1"], g["score2"] = sc["score2"], sc["score1"]
+        applied += 1
+ 
+    print(f"  [overrides] Filled in {applied} manually-provided score(s) "
+          f"for game(s) MSHSAA hasn't posted a result for yet.")
+    return all_games
  
  
 def strict_games_from_all(all_games):
@@ -628,6 +708,10 @@ if __name__ == "__main__":
     print("\nApplying manual name corrections/exclusions...")
     corrections, exclusions = load_manual_overrides()
     all_games = apply_manual_overrides(all_games, corrections, exclusions)
+ 
+    print("\nApplying manual score corrections...")
+    score_corrections = load_score_corrections()
+    all_games = apply_score_corrections(all_games, score_corrections)
  
     print("\nDeduplicating...")
     all_games = deduplicate_games(all_games)
