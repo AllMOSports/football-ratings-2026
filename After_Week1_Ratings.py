@@ -1,13 +1,33 @@
 """
 After Week 1 Ratings.py
  
-Computes "After Week 1" Off/Def/Ovr ratings for AllMOSports football teams by:
+Computes updated Off/Def/Ovr ratings for AllMOSports football teams from
+any number of played weeks, by:
   1. Averaging each team's Off/Def/Ovr ratings over the last 16 seasons (2010-2025)
   2. Averaging each team's Off/Def/Ovr ratings over the last 3 seasons (2023-2025)
   3. Blending #1 and #2 into a "Starting Rating" (default: 35% 16yr / 65% 3yr)
-  4. Computing a one-shot "New Rating" from each team's actual Week 1 game result,
-     using the standard prediction formula (Off_A - Def_B + League Avg PPG)
-  5. Blending Starting + New into a Final rating (default: 80% Starting / 20% New)
+  4. For every IN-STATE game a team has actually played (any score present,
+     not a forfeit), computing a one-shot "game estimate" of that team's
+     Off/Def/Ovr using the standard prediction formula
+     (Off_A - Def_B + League Avg PPG), based on the team's Starting rating
+  5. Blending the Starting rating with the AVERAGE of however many game
+     estimates a team has, using a shrinkage formula so the blend adapts
+     automatically to how many in-state games a team has on record:
+ 
+        Final = (K * Starting + sum(game estimates)) / (K + n)
+ 
+     where n = number of in-state games played and K = PRIOR_GAMES_EQUIVALENT,
+     a constant representing how many games' worth of trust the Starting
+     rating gets. K=4 reproduces the original 80/20 Week-1-only blend exactly
+     when n=1 (4*Starting + 1*game) / (4+1) = 0.8*Starting + 0.2*game.
+     At n=0 (no in-state games at all — e.g. a team that has only played
+     out-of-state opponents so far, like Jackson), Final = Starting exactly.
+     At n=2, each game individually counts for less than it did at n=1, but
+     the two games TOGETHER carry more total weight than one game alone —
+     this is standard shrinkage/regression-to-the-mean behavior, not a bug.
+ 
+This script does NOT scrape MSHSAA — it only reads two local JSON files you
+already have (see INPUT FILES below) and does arithmetic on them.
  
 -----------------------------------------------------------------------------
 INPUT FILES (matched to AllMOSports' actual schemas)
@@ -19,27 +39,31 @@ HISTORICAL_RATINGS_PATH — a local copy of:
            "teams": [{"school": "Rockhurst", "off_rating": ..., "def_rating": ...,
                        "ovr_rating": ...}, ...]}, ...]}
  
-WEEK1_GAMES_PATH — a local copy of:
+GAMES_PATH — a local copy of:
   AllMOSports/football-ratings-2026: football_games_2026.json
-  Shape: a flat list of ALL games in the 2026 season (not just Week 1):
+  Shape: a flat list of ALL games in the 2026 season (played and unplayed):
   [{"date": "2026-08-27", "team1": "Diamond", "score1": 14,
     "team2": "Buffalo", "score2": 55, "forfeit": false, "overtime": false}, ...]
-  This script filters that full-season list down to Week 1 games itself —
-  see WEEK1_DATES below.
+  This script automatically uses every game that HAS scores (score1 and
+  score2 are not null) and isn't a forfeit — no matter how many weeks that
+  spans. Future/unplayed games (null scores) are ignored automatically, so
+  you don't need to update a date range each week; just re-run it against
+  the latest games file.
  
 -----------------------------------------------------------------------------
 HOW TO USE
 -----------------------------------------------------------------------------
-1. Edit the CONFIG section below if your file paths, dates, or weights differ.
+1. Edit the CONFIG section below if your file paths or weights differ.
 2. Run: python "After Week 1 Ratings.py"
 3. Output: Ratings_After_Week1.json and Ratings_After_Week1.csv
+   (filenames kept as-is so the existing GitHub Actions workflow needs no
+   changes — the content now reflects ALL played weeks, not just Week 1)
 """
  
 import csv
 import json
 import sys
 from collections import defaultdict
-from datetime import date as _date
 from pathlib import Path
  
 # =============================================================================
@@ -47,7 +71,7 @@ from pathlib import Path
 # =============================================================================
  
 HISTORICAL_RATINGS_PATH = "Football_Ratings_History_2010-2025.json"
-WEEK1_GAMES_PATH = "football_games_2026.json"
+GAMES_PATH = "football_games_2026.json"
 OUTPUT_JSON_PATH = "Ratings_After_Week1.json"
 OUTPUT_CSV_PATH = "Ratings_After_Week1.csv"
  
@@ -58,24 +82,24 @@ WEIGHT_3YR = 0.65
 WEIGHT_16YR = 0.35
 # WEIGHT_3YR + WEIGHT_16YR should equal 1.0
  
-WEIGHT_NEW = 0.20
-WEIGHT_STARTING = 0.80
-# WEIGHT_NEW + WEIGHT_STARTING should equal 1.0
+# How many "virtual games" the Starting rating is worth when blending against
+# actual in-state game results. Higher = trust the multi-year prior more /
+# move ratings more slowly as games accumulate. K=4 matches the original
+# Week-1-only 80/20 split exactly at n=1 game played. Tune this once you can
+# backtest against a full season.
+PRIOR_GAMES_EQUIVALENT = 4.0
  
-# Set to an explicit list of ISO date strings (e.g. ["2026-08-27","2026-08-28"])
-# to hard-code which dates count as "Week 1". Leave as None to auto-detect:
-# the script takes the earliest date in the games file, then keeps adding
-# consecutive game dates until it hits a gap of more than WEEK1_MAX_GAP_DAYS
-# (this naturally separates "Week 1" from "Week 2" since MSHSAA weeks cluster
-# on Thu/Fri/Sat then jump ~5 days to the next week).
-WEEK1_DATES = None
-WEEK1_MAX_GAP_DAYS = 3
+# Only include games on/before this date (inclusive), as an ISO string
+# e.g. "2026-09-05". Leave as None to include every played game in the file
+# (recommended — unplayed games are automatically excluded via null scores,
+# so this is only useful if you want to reproduce an earlier point in time).
+THROUGH_DATE = None
  
 # Forfeits produce rule-based scores (e.g. 1-0, 8-0), not real performance —
-# excluded from the Week 1 adjustment by default.
+# excluded by default.
 EXCLUDE_FORFEITS = True
  
-# League average PPG used in the Off/Def prediction formula for Week 1.
+# League average PPG used in the Off/Def prediction formula.
 # Set to a number to hard-code it. Leave as None to auto-compute it as the
 # average of the historical file's per-season league_average over YEARS_RECENT
 # (2023-2025) — a reasonable proxy until the 2026 season has its own number.
@@ -113,7 +137,6 @@ def average_ratings(records, years):
         "off": sum(r["off"] for r in filtered) / n,
         "def": sum(r["def"] for r in filtered) / n,
         "ovr": sum(r["ovr"] for r in filtered) / n,
-        "seasons_used": n,
     }
  
  
@@ -146,55 +169,49 @@ def build_starting_ratings(by_team):
  
  
 # =============================================================================
-# STEP 4: one-shot "New" rating from the Week 1 result
+# STEP 4: per-game "game estimate" of each team's Off/Def/Ovr, from the
+# STARTING ratings basis (kept non-circular — see module docstring)
 # =============================================================================
  
-def auto_detect_week1_dates(games, max_gap_days):
-    dates = sorted(set(g["date"] for g in games))
-    if not dates:
-        return set()
-    selected = [dates[0]]
-    prev = _date.fromisoformat(dates[0])
-    for d in dates[1:]:
-        cur = _date.fromisoformat(d)
-        if (cur - prev).days > max_gap_days:
-            break
-        selected.append(d)
-        prev = cur
-    return set(selected)
- 
- 
-def load_week1_games(path):
+def load_played_games(path):
     with open(path, "r", encoding="utf-8") as f:
         all_games = json.load(f)
  
-    week1_dates = set(WEEK1_DATES) if WEEK1_DATES else auto_detect_week1_dates(
-        all_games, WEEK1_MAX_GAP_DAYS
-    )
-    print(f"  Week 1 dates: {sorted(week1_dates)}")
- 
-    filtered = []
+    played = []
     skipped_forfeits = 0
+    skipped_unplayed = 0
+    skipped_after_cutoff = 0
     for g in all_games:
-        if g["date"] not in week1_dates:
+        if THROUGH_DATE is not None and g["date"] > THROUGH_DATE:
+            skipped_after_cutoff += 1
             continue
         if EXCLUDE_FORFEITS and g.get("forfeit"):
             skipped_forfeits += 1
             continue
         if g.get("score1") is None or g.get("score2") is None:
-            continue  # game not yet played / no score reported
-        filtered.append({
+            skipped_unplayed += 1
+            continue
+        played.append({
+            "date": g["date"],
             "team_a": g["team1"],
             "team_b": g["team2"],
             "score_a": g["score1"],
             "score_b": g["score2"],
         })
-    if skipped_forfeits:
-        print(f"  Excluded {skipped_forfeits} forfeit game(s) from Week 1.")
-    return filtered
+ 
+    print(f"  {len(played)} played in-state games found "
+          f"({skipped_unplayed} unplayed/no-score, {skipped_forfeits} forfeits excluded"
+          + (f", {skipped_after_cutoff} after THROUGH_DATE" if THROUGH_DATE else "")
+          + ")")
+    if played:
+        weeks = sorted(set(g["date"] for g in played))
+        print(f"  Dates covered: {weeks[0]} through {weeks[-1]} ({len(weeks)} distinct dates)")
+    return played
  
  
-def compute_new_ratings_for_game(game, starting, league_avg_ppg):
+def compute_game_estimate(game, starting, league_avg_ppg):
+    """One-shot Off/Def/Ovr estimate for BOTH teams in a single game, based on
+    each team's Starting rating (not their evolving in-season rating)."""
     team_a, team_b = game["team_a"], game["team_b"]
     score_a, score_b = game["score_a"], game["score_b"]
  
@@ -216,28 +233,66 @@ def compute_new_ratings_for_game(game, starting, league_avg_ppg):
     ]:
         predicted_margin = ovr_x - ovr_y
         actual_margin = pts_for - pts_against
-        new_ovr = ovr_x + (actual_margin - predicted_margin)
+        game_ovr = ovr_x + (actual_margin - predicted_margin)
  
         predicted_score = off_x - def_y + league_avg_ppg
-        new_off = off_x + (pts_for - predicted_score)
+        game_off = off_x + (pts_for - predicted_score)
  
         predicted_points_allowed = off_y - def_x + league_avg_ppg
-        new_def = def_x + (predicted_points_allowed - pts_against)
+        game_def = def_x + (predicted_points_allowed - pts_against)
  
-        results[team] = {"new_off": new_off, "new_def": new_def, "new_ovr": new_ovr}
+        results[team] = {"game_off": game_off, "game_def": game_def, "game_ovr": game_ovr}
  
     return results
  
  
+def accumulate_game_estimates(games, starting, league_avg_ppg):
+    """Sum each team's per-game estimates so the shrinkage blend can average
+    them against however many games (n) each team actually has."""
+    accum = defaultdict(lambda: {"off_sum": 0.0, "def_sum": 0.0, "ovr_sum": 0.0, "n": 0})
+    for game in games:
+        result = compute_game_estimate(game, starting, league_avg_ppg)
+        if result is None:
+            continue
+        for team, vals in result.items():
+            entry = accum[team]
+            entry["off_sum"] += vals["game_off"]
+            entry["def_sum"] += vals["game_def"]
+            entry["ovr_sum"] += vals["game_ovr"]
+            entry["n"] += 1
+    return accum
+ 
+ 
 # =============================================================================
-# STEP 5: final blend
+# STEP 5: shrinkage blend — Starting vs. average of that team's game estimates
 # =============================================================================
  
-def blend_final(starting_entry, new_entry):
+def blend_final(starting_entry, accum_entry, k):
+    n = accum_entry["n"] if accum_entry else 0
+    if n == 0:
+        # No in-state games on record for this team (e.g. Jackson early
+        # season) — Final rating is just the Starting rating, unchanged.
+        return {
+            "final_off": starting_entry["starting_off"],
+            "final_def": starting_entry["starting_def"],
+            "final_ovr": starting_entry["starting_ovr"],
+            "games_played": 0,
+            "avg_game_off": None,
+            "avg_game_def": None,
+            "avg_game_ovr": None,
+        }
+ 
+    final_off = (k * starting_entry["starting_off"] + accum_entry["off_sum"]) / (k + n)
+    final_def = (k * starting_entry["starting_def"] + accum_entry["def_sum"]) / (k + n)
+    final_ovr = (k * starting_entry["starting_ovr"] + accum_entry["ovr_sum"]) / (k + n)
     return {
-        "final_off": WEIGHT_STARTING * starting_entry["starting_off"] + WEIGHT_NEW * new_entry["new_off"],
-        "final_def": WEIGHT_STARTING * starting_entry["starting_def"] + WEIGHT_NEW * new_entry["new_def"],
-        "final_ovr": WEIGHT_STARTING * starting_entry["starting_ovr"] + WEIGHT_NEW * new_entry["new_ovr"],
+        "final_off": final_off,
+        "final_def": final_def,
+        "final_ovr": final_ovr,
+        "games_played": n,
+        "avg_game_off": accum_entry["off_sum"] / n,
+        "avg_game_def": accum_entry["def_sum"] / n,
+        "avg_game_ovr": accum_entry["ovr_sum"] / n,
     }
  
  
@@ -248,8 +303,8 @@ def blend_final(starting_entry, new_entry):
 def main():
     if not Path(HISTORICAL_RATINGS_PATH).exists():
         sys.exit(f"ERROR: historical ratings file not found: {HISTORICAL_RATINGS_PATH}")
-    if not Path(WEEK1_GAMES_PATH).exists():
-        sys.exit(f"ERROR: games file not found: {WEEK1_GAMES_PATH}")
+    if not Path(GAMES_PATH).exists():
+        sys.exit(f"ERROR: games file not found: {GAMES_PATH}")
  
     print("Loading historical ratings...")
     by_team, league_averages_by_year = load_historical_ratings(HISTORICAL_RATINGS_PATH)
@@ -266,40 +321,30 @@ def main():
     starting = build_starting_ratings(by_team)
     print(f"  Starting ratings built for {len(starting)} teams.")
  
-    print("Loading and filtering Week 1 games...")
-    games = load_week1_games(WEEK1_GAMES_PATH)
-    print(f"  {len(games)} Week 1 games loaded.")
+    print("Loading played games (all weeks with scores)...")
+    games = load_played_games(GAMES_PATH)
  
-    print("Computing Week 1 one-shot adjustments and final blend...")
+    print(f"Computing per-game estimates and shrinkage blend (K={PRIOR_GAMES_EQUIVALENT})...")
+    accum = accumulate_game_estimates(games, starting, league_avg_ppg)
+ 
     output = {}
-    for game in games:
-        new_ratings = compute_new_ratings_for_game(game, starting, league_avg_ppg)
-        if new_ratings is None:
-            continue
-        for team, new_entry in new_ratings.items():
-            final = blend_final(starting[team], new_entry)
-            output[team] = {**starting[team], **new_entry, **final}
+    for team, starting_entry in starting.items():
+        blended = blend_final(starting_entry, accum.get(team), PRIOR_GAMES_EQUIVALENT)
+        output[team] = {**starting_entry, **blended}
  
-    teams_no_game = set(starting.keys()) - set(output.keys())
-    if teams_no_game:
-        print(f"  Note: {len(teams_no_game)} teams had a Starting rating but no "
-              f"Week 1 game found (bye/out-of-state opponent/not in file) — "
-              f"their Final rating is just their Starting rating.")
-        for team in teams_no_game:
-            output[team] = {
-                **starting[team],
-                "new_off": None, "new_def": None, "new_ovr": None,
-                "final_off": starting[team]["starting_off"],
-                "final_def": starting[team]["starting_def"],
-                "final_ovr": starting[team]["starting_ovr"],
-            }
+    games_played_counts = [v["games_played"] for v in output.values()]
+    zero_game_teams = sum(1 for n in games_played_counts if n == 0)
+    print(f"  {zero_game_teams} teams have 0 in-state games on record "
+          f"(kept at their Starting rating — e.g. teams that have only "
+          f"played out-of-state opponents so far)")
  
     with open(OUTPUT_JSON_PATH, "w", encoding="utf-8") as f:
         json.dump(output, f, indent=2, sort_keys=True)
  
     csv_columns = [
-        "team", "starting_off", "starting_def", "starting_ovr",
-        "new_off", "new_def", "new_ovr",
+        "team", "games_played",
+        "starting_off", "starting_def", "starting_ovr",
+        "avg_game_off", "avg_game_def", "avg_game_ovr",
         "final_off", "final_def", "final_ovr",
     ]
     with open(OUTPUT_CSV_PATH, "w", encoding="utf-8", newline="") as f:
@@ -311,11 +356,11 @@ def main():
  
     print(f"\nDone. Wrote {len(output)} teams to {OUTPUT_JSON_PATH} and {OUTPUT_CSV_PATH}")
  
-    print(f"\n{'Team':<30}{'Start Ovr':>10}{'New Ovr':>10}{'Final Ovr':>10}")
-    print("-" * 60)
+    print(f"\n{'Team':<30}{'GP':>4}{'Start Ovr':>10}{'Avg Game':>10}{'Final Ovr':>10}")
+    print("-" * 64)
     for team, r in sorted(output.items(), key=lambda kv: kv[1]["final_ovr"], reverse=True)[:20]:
-        new_ovr_display = f"{r['new_ovr']:.1f}" if r["new_ovr"] is not None else "—"
-        print(f"{team:<30}{r['starting_ovr']:>10.1f}{new_ovr_display:>10}{r['final_ovr']:>10.1f}")
+        avg_display = f"{r['avg_game_ovr']:.1f}" if r["avg_game_ovr"] is not None else "—"
+        print(f"{team:<30}{r['games_played']:>4}{r['starting_ovr']:>10.1f}{avg_display:>10}{r['final_ovr']:>10.1f}")
  
  
 if __name__ == "__main__":
