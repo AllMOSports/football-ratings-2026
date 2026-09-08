@@ -175,7 +175,51 @@ def build_starting_ratings(by_team):
  
 def load_played_games(path):
     with open(path, "r", encoding="utf-8") as f:
-        all_games = json.load(f)
+        raw = json.load(f)
+ 
+    # The games file's format has changed over the course of the season —
+    # this loader supports both so it keeps working either way:
+    #   (a) OLD flat-list format: [{"date","team1","team2","score1","score2","forfeit"}, ...]
+    #   (b) NEW team-keyed format: {"season","generated","teams": {
+    #         "Diamond": [{"date","opponent","team_score","opp_score","forfeit"}, ...], ...}}
+    #       Each real game appears TWICE in (b) — once under each team's own
+    #       list — so it's deduplicated below by (date, the pair of teams).
+    if isinstance(raw, list):
+        all_games = [
+            {
+                "date": g["date"],
+                "team_a": g["team1"],
+                "team_b": g["team2"],
+                "score_a": g.get("score1"),
+                "score_b": g.get("score2"),
+                "forfeit": g.get("forfeit", False),
+            }
+            for g in raw
+        ]
+    elif isinstance(raw, dict) and "teams" in raw:
+        seen_games = set()
+        all_games = []
+        for team, schedule in raw["teams"].items():
+            for g in schedule:
+                opponent = g.get("opponent")
+                date = g.get("date")
+                if opponent is None or date is None:
+                    continue
+                dedup_key = (date, frozenset((team, opponent)))
+                if dedup_key in seen_games:
+                    continue
+                seen_games.add(dedup_key)
+                all_games.append({
+                    "date": date,
+                    "team_a": team,
+                    "team_b": opponent,
+                    "score_a": g.get("team_score"),
+                    "score_b": g.get("opp_score"),
+                    "forfeit": g.get("forfeit", False),
+                })
+    else:
+        sys.exit(f"ERROR: unrecognized games file format in {path} — expected either a "
+                  f"flat list of games, or a dict with a top-level 'teams' key.")
  
     played = []
     skipped_forfeits = 0
@@ -188,15 +232,15 @@ def load_played_games(path):
         if EXCLUDE_FORFEITS and g.get("forfeit"):
             skipped_forfeits += 1
             continue
-        if g.get("score1") is None or g.get("score2") is None:
+        if g["score_a"] is None or g["score_b"] is None:
             skipped_unplayed += 1
             continue
         played.append({
             "date": g["date"],
-            "team_a": g["team1"],
-            "team_b": g["team2"],
-            "score_a": g["score1"],
-            "score_b": g["score2"],
+            "team_a": g["team_a"],
+            "team_b": g["team_b"],
+            "score_a": g["score_a"],
+            "score_b": g["score_b"],
         })
  
     print(f"  {len(played)} played in-state games found "
@@ -365,3 +409,4 @@ def main():
  
 if __name__ == "__main__":
     main()
+ 
