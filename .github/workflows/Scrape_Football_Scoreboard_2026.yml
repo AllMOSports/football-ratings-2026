@@ -4,11 +4,15 @@ on:
   # Manual trigger from the Actions tab
   workflow_dispatch:
  
+  # PAUSED as of 2026-09: MSHSAA is blocking these GitHub Actions
+  # requests, causing the scraper to come back with blank/empty
+  # schedules that then get committed over good data. Auto-run disabled
+  # until that's resolved -- uncomment the block below to re-enable.
   # Auto-run every Thu/Fri/Sat night during the 2026 season (Aug-Dec).
   # Times are UTC. Odd/off-peak minute (17) to avoid GitHub's top-of-hour
   # scheduler congestion.
-  schedule:
-    - cron: '17 5 * 8,9,10,11,12 4,5,6'
+  # schedule:
+  #   - cron: '17 5 * 8,9,10,11,12 4,5,6'
  
 permissions:
   contents: write
