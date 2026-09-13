@@ -142,12 +142,35 @@ ITERATIONS            = 1000 # same as football_ratings_2025.py -- cheap even wi
 # How many "games' worth" of trust the Starting rating gets, persistently,
 # every iteration (same mechanism as football_ratings_2025.py's
 # REGULARIZATION_K, generalized to anchor toward Starting instead of 0).
-# NOTE: Starting is now a single season's rating instead of a multi-year
-# blend, which is inherently noisier (one bad/lucky year, a coaching
-# change, a graduated senior class can swing it) -- worth reconsidering
-# this value once you can backtest, since a noisier anchor may deserve
-# less trust than a blended one did.
-PRIOR_ANCHOR_K = 3.0
+# Lowered from 3.0 to 1.5 after a real case (Blue Springs South, elite 2025
+# rating but a rough 1-2 start including a 21-point loss) barely moved at
+# 3.0 -- lower K means real in-season results carry more weight relative to
+# last season's rating. Don't push this much lower without checking teams
+# with only 1 game played: a single-game blowout has MORE leverage on the
+# final rating as K drops, so going too low re-introduces the instability
+# problem this anchor exists to prevent (see the module docstring's
+# "WHY THIS REPLACED THE OLDER VERSION" section) -- just in fewer-games form.
+PRIOR_ANCHOR_K = 1.5
+ 
+# RATING DIFFERENTIAL GUIDE: a game is only counted toward the fit at all if
+# the two teams' STARTING rating gap is <= this value. Added after a real
+# case (Jackson 41, Sikeston 7 -- Jackson pulled starters in the 3rd
+# quarter) where the formula PREDICTED Jackson would score 74 points
+# against Sikeston's weak defense, read the actual 41 as a 33-point
+# underperformance (capped to -28 by MOV_CAP), and dragged Jackson's rating
+# DOWN after a dominant win, simply because no real scoreline could ever
+# satisfy what the formula expected from that big a mismatch. competitive-
+# ness_weight() already soft-discounts this game (to ~24.5% weight in
+# Jackson's case), but 24.5% of a -28-point capped error was still enough
+# to move the rating the wrong direction -- soft discounting alone wasn't
+# enough. This hard cutoff removes such games from the fit ENTIRELY rather
+# than just discounting them, and is checked ONCE against each team's fixed
+# Starting rating (not the evolving in-iteration rating), so which games
+# get excluded is decided up front and doesn't shift mid-fit. Default of 60
+# excludes about 3% of a typical week's games (the genuine blowout
+# mismatches) while leaving the vast majority -- competitive games between
+# similarly-rated teams -- untouched.
+RATING_GAP_CUTOFF = 60
  
 # Only include games on/before this date (inclusive), as an ISO string
 # e.g. "2026-09-05". Leave as None to include every played game in the file.
@@ -383,7 +406,9 @@ def fit_in_season_ratings(games, starting, league_avg_ppg, team_to_class, team_t
     def_rating = {t: starting[t]["starting_def"] for t in teams}
  
     games_used = []
-    games_per_team = defaultdict(int)
+    games_per_team = defaultdict(int)       # games that actually count toward the fit
+    total_games_played = defaultdict(int)   # all real games, including excluded mismatches
+    excluded_mismatches = []
     for g in games:
         t1, t2 = g["team_a"], g["team_b"]
         if t1 not in starting or t2 not in starting:
@@ -391,13 +416,27 @@ def fit_in_season_ratings(games, starting, league_avg_ppg, team_to_class, team_t
             print(f"  WARNING: skipping game {t1} vs {t2} — "
                   f"no starting rating for: {', '.join(missing)}")
             continue
+        total_games_played[t1] += 1
+        total_games_played[t2] += 1
+        starting_gap = abs(starting[t1]["starting_ovr"] - starting[t2]["starting_ovr"])
+        if starting_gap > RATING_GAP_CUTOFF:
+            excluded_mismatches.append((t1, t2, starting_gap, g["score_a"], g["score_b"]))
+            continue
         games_used.append((t1, t2, g["score_a"], g["score_b"]))
         games_per_team[t1] += 1
         games_per_team[t2] += 1
  
+    if excluded_mismatches:
+        print(f"  RATING_GAP_CUTOFF ({RATING_GAP_CUTOFF}): excluded {len(excluded_mismatches)} "
+              f"game(s) entirely as blowout mismatches (Starting rating gap too large to be "
+              f"informative -- these do NOT count toward either team's rating):")
+        for t1, t2, gap, s1, s2 in sorted(excluded_mismatches, key=lambda x: -x[2]):
+            print(f"    {t1} {s1} - {s2} {t2} (Starting gap: {gap:.1f})")
+ 
     print(f"  Running anchored fit: {len(teams)} teams, {len(games_used)} games, "
           f"{ITERATIONS} iterations (PRIOR_ANCHOR_K={PRIOR_ANCHOR_K}, "
-          f"MOV_CAP={MOV_CAP}, competitiveness scale={COMPETITIVE_THRESHOLD})...")
+          f"MOV_CAP={MOV_CAP}, competitiveness scale={COMPETITIVE_THRESHOLD}, "
+          f"RATING_GAP_CUTOFF={RATING_GAP_CUTOFF})...")
     run_iterations(games_used, teams, off_rating, def_rating, starting, league_avg_ppg,
                    iterations=ITERATIONS, prior_anchor_k=PRIOR_ANCHOR_K,
                    mov_cap=MOV_CAP, learning_rate=LEARNING_RATE)
@@ -408,7 +447,8 @@ def fit_in_season_ratings(games, starting, league_avg_ppg, team_to_class, team_t
             **starting[t],
             "classification": team_to_class.get(t),
             "district": team_to_district.get(t),
-            "games_played": games_per_team[t],
+            "games_played": total_games_played.get(t, 0),
+            "games_used_in_rating": games_per_team.get(t, 0),
             "final_off": off_rating[t],
             "final_def": def_rating[t],
             "final_ovr": off_rating[t] + def_rating[t],
@@ -464,15 +504,16 @@ def main():
     print("Fitting anchored in-season ratings...")
     output = fit_in_season_ratings(games, starting, league_avg_ppg, team_to_class, team_to_district)
  
-    zero_game_teams = sum(1 for v in output.values() if v["games_played"] == 0)
-    print(f"  {zero_game_teams} teams have 0 in-state games on record "
-          f"(converged back to their Starting rating exactly)")
+    zero_game_teams = sum(1 for v in output.values() if v["games_used_in_rating"] == 0)
+    print(f"  {zero_game_teams} teams have 0 games counting toward their rating "
+          f"(no in-state games played, or their only game(s) were excluded by "
+          f"RATING_GAP_CUTOFF) -- converged back to their Starting rating exactly")
  
     with open(OUTPUT_JSON_PATH, "w", encoding="utf-8") as f:
         json.dump(output, f, indent=2, sort_keys=True)
  
     csv_columns = [
-        "team", "classification", "district", "games_played", "starting_year",
+        "team", "classification", "district", "games_played", "games_used_in_rating", "starting_year",
         "starting_off", "starting_def", "starting_ovr",
         "final_off", "final_def", "final_ovr",
     ]
@@ -485,10 +526,10 @@ def main():
  
     print(f"\nDone. Wrote {len(output)} teams to {OUTPUT_JSON_PATH} and {OUTPUT_CSV_PATH}")
  
-    print(f"\n{'Team':<30}{'GP':>4}{'Start Ovr':>10}{'Final Ovr':>10}")
-    print("-" * 54)
+    print(f"\n{'Team':<30}{'GP':>4}{'Used':>6}{'Start Ovr':>10}{'Final Ovr':>10}")
+    print("-" * 60)
     for team, r in sorted(output.items(), key=lambda kv: kv[1]["final_ovr"], reverse=True)[:20]:
-        print(f"{team:<30}{r['games_played']:>4}{r['starting_ovr']:>10.1f}{r['final_ovr']:>10.1f}")
+        print(f"{team:<30}{r['games_played']:>4}{r['games_used_in_rating']:>6}{r['starting_ovr']:>10.1f}{r['final_ovr']:>10.1f}")
  
  
 if __name__ == "__main__":
