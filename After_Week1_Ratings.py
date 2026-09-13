@@ -1,63 +1,118 @@
 """
-After Week 1 Ratings.py
+After Week 1 Ratings.py  (v2 -- anchored iterative engine)
  
-Computes updated Off/Def/Ovr ratings for AllMOSports football teams from
-any number of played weeks, by:
-  1. Averaging each team's Off/Def/Ovr ratings over the last 16 seasons (2010-2025)
-  2. Averaging each team's Off/Def/Ovr ratings over the last 3 seasons (2023-2025)
-  3. Blending #1 and #2 into a "Starting Rating" (default: 35% 16yr / 65% 3yr)
-  4. For every IN-STATE game a team has actually played (any score present,
-     not a forfeit), computing a one-shot "game estimate" of that team's
-     Off/Def/Ovr using the standard prediction formula
-     (Off_A - Def_B + League Avg PPG), based on the team's Starting rating
-  5. Blending the Starting rating with the AVERAGE of however many game
-     estimates a team has, using a shrinkage formula so the blend adapts
-     automatically to how many in-state games a team has on record:
+Computes in-season Off/Def/Ovr ratings for AllMOSports football teams from
+any number of played weeks. This version REPLACES the earlier one-shot/
+shrinkage-average approach with an iterative gradient-descent fit that
+reuses your football_ratings_2025.py engine's own machinery
+(competitiveness_weight, MOV_CAP, REGULARIZATION_K) -- the exact
+safeguards your full-season engine already uses to keep blowouts and
+mismatched-prior games from dominating a rating -- and adds the one thing
+that engine doesn't need for a full season but an early-season snapshot
+does: a historical PRIOR ANCHOR, so a team with 1-3 games doesn't get a
+rating decided almost entirely by those 1-3 games.
  
-        Final = (K * Starting + sum(game estimates)) / (K + n)
+WHY THIS REPLACED THE OLDER VERSION
+-----------------------------------------------------------------------------
+The old version computed each game's implied rating in isolation (a
+"one-shot" estimate against each team's STATIC Starting rating), with no
+cap on how large that estimate could be, then averaged those one-shot
+estimates with a simple shrinkage blend. That has two real problems, both
+confirmed on 2026 Week 3 data:
+  1. NO MOV CAP: a single blowout (or an upset over a team whose Starting
+     rating turned out to be wrong) could imply a +40, +50-point single-game
+     rating swing, with nothing to bound it -- e.g. Raymore-Peculiar's 35-3
+     win over Liberty (Starting Ovr 46.98) implied a single-game Ovr
+     estimate of ~79, which then dominated their Final rating even after
+     shrinkage.
+  2. STATIC, NON-ITERATIVE: every game estimate used each team's ORIGINAL
+     Starting rating for both teams, never letting opponents' in-season
+     performance adjust the picture -- so if an opponent's Starting rating
+     was stale, every game against them inherited that error individually
+     instead of the whole system converging together.
  
-     where n = number of in-state games played and K = PRIOR_GAMES_EQUIVALENT,
-     a constant representing how many games' worth of trust the Starting
-     rating gets. K=4 reproduces the original 80/20 Week-1-only blend exactly
-     when n=1 (4*Starting + 1*game) / (4+1) = 0.8*Starting + 0.2*game.
-     At n=0 (no in-state games at all — e.g. a team that has only played
-     out-of-state opponents so far, like Jackson), Final = Starting exactly.
-     At n=2, each game individually counts for less than it did at n=1, but
-     the two games TOGETHER carry more total weight than one game alone —
-     this is standard shrinkage/regression-to-the-mean behavior, not a bug.
+This version fixes both, using the same techniques your 2025 full-season
+engine already uses:
+  - competitiveness_weight(gap): a smooth (not hard-cutoff) weight based on
+    the CURRENT rating gap between the two teams. A blowout between two
+    teams already known to be mismatched barely moves anything; a blowout
+    between two teams rated close to each other counts fully. This weight
+    is recomputed every iteration as ratings evolve, so it naturally
+    adjusts as the system converges.
+  - MOV_CAP: the raw scoring error (actual - predicted) is capped (default
+    28, taken directly from your 2025 engine) BEFORE it's weighted and
+    accumulated, so no single game -- however lopsided -- can contribute
+    more than a bounded amount of "error" to a team's rating in one pass.
+  - Iterative, simultaneous fitting: instead of computing each game against
+    a frozen Starting rating, ALL teams' ratings are solved together via
+    gradient descent (same architecture as calculate_ratings() /
+    run_iterations() in football_ratings_2025.py), so a team's rating is
+    influenced by its opponents' CURRENT (evolving) rating, not their
+    stale preseason number.
  
-This script does NOT scrape MSHSAA — it only reads two local JSON files you
-already have (see INPUT FILES below) and does arithmetic on them.
+WHAT'S NEW vs. football_ratings_2025.py: THE PRIOR ANCHOR
+-----------------------------------------------------------------------------
+Your full-season engine starts every team's off/def rating at 0.0 and lets
+~1000 iterations of real games pull it to wherever the data says -- that's
+correct for a full season with hundreds of games, but with only 1-3 games
+per team in September, that same approach would be wildly underdetermined
+(exactly the plain-iterative-fit problem this script needs to avoid).
+ 
+Instead:
+  1. Off/def ratings are INITIALIZED at each team's Starting rating (the
+     16yr/3yr historical blend -- same as the old version's Step 1-3),
+     instead of 0.0.
+  2. Every iteration, EVERY team (even one with zero games so far) gets a
+     persistent "pull" term back toward its Starting rating, with strength
+     PRIOR_ANCHOR_K (in the same units as REGULARIZATION_K -- think of it
+     as "this many games' worth of trust in the historical prior"). This
+     is what makes the anchor a true equilibrium point rather than just a
+     slower starting position -- without it, 1000 iterations would
+     eventually erase the prior's influence entirely, same as it does in
+     the full-season engine (where that's desired; here it isn't).
+  3. A team with ZERO in-state games on record therefore converges exactly
+     back to its Starting rating (the games-error term is always zero for
+     them, so the only remaining force is the anchor pulling them to
+     Starting) -- e.g. Jackson, when it's only played out-of-state games.
+  4. A team with a FEW games gets pulled toward what those games imply,
+     but capped (MOV_CAP), softly weighted (competitiveness_weight), and
+     balanced against PRIOR_ANCHOR_K "games" of trust in its multi-year
+     history -- so one blowout or one upset against a mis-rated opponent
+     can meaningfully move the rating, but can no longer single-handedly
+     dominate it the way it did in the old version.
+ 
+This script does NOT scrape MSHSAA -- it only reads two local JSON files
+(see INPUT FILES below) and does arithmetic on them.
  
 -----------------------------------------------------------------------------
 INPUT FILES (matched to AllMOSports' actual schemas)
 -----------------------------------------------------------------------------
-HISTORICAL_RATINGS_PATH — a local copy of:
+HISTORICAL_RATINGS_PATH -- a local copy of:
   AllMOSports/All_MO_Sports-Data:
   output/mshsaa_historical_records/football/Football_Ratings_History_2010-2025.json
   Shape: {"seasons": [{"year": 2010, "league_average": 24.73,
            "teams": [{"school": "Rockhurst", "off_rating": ..., "def_rating": ...,
                        "ovr_rating": ...}, ...]}, ...]}
  
-GAMES_PATH — a local copy of:
-  AllMOSports/football-ratings-2026: football_games_2026.json
-  Shape: a flat list of ALL games in the 2026 season (played and unplayed):
-  [{"date": "2026-08-27", "team1": "Diamond", "score1": 14,
-    "team2": "Buffalo", "score2": 55, "forfeit": false, "overtime": false}, ...]
-  This script automatically uses every game that HAS scores (score1 and
-  score2 are not null) and isn't a forfeit — no matter how many weeks that
-  spans. Future/unplayed games (null scores) are ignored automatically, so
-  you don't need to update a date range each week; just re-run it against
-  the latest games file.
+GAMES_PATH -- a local copy of football_games_2026.json. Supports BOTH
+formats seen this season:
+  (a) flat list: [{"date","team1","score1","team2","score2","forfeit"}, ...]
+  (b) team-keyed: {"season","generated","teams": {"TeamName": [{"date",
+      "opponent","team_score","opp_score","forfeit"}, ...], ...}}
+  Every game with real scores (not a forfeit) is used, regardless of how
+  many weeks that spans -- unplayed games (null scores) are skipped
+  automatically.
  
 -----------------------------------------------------------------------------
 HOW TO USE
 -----------------------------------------------------------------------------
-1. Edit the CONFIG section below if your file paths or weights differ.
+1. Edit the CONFIG section below if your file paths, weights, or engine
+   constants (MOV_CAP, COMPETITIVE_THRESHOLD, PRIOR_ANCHOR_K) differ from
+   what you want.
 2. Run: python "After Week 1 Ratings.py"
 3. Output: Ratings_After_Week1.json and Ratings_After_Week1.csv
    (filenames kept as-is so the existing GitHub Actions workflow needs no
-   changes — the content now reflects ALL played weeks, not just Week 1)
+   changes)
 """
  
 import csv
@@ -82,31 +137,38 @@ WEIGHT_3YR = 0.65
 WEIGHT_16YR = 0.35
 # WEIGHT_3YR + WEIGHT_16YR should equal 1.0
  
-# How many "virtual games" the Starting rating is worth when blending against
-# actual in-state game results. Higher = trust the multi-year prior more /
-# move ratings more slowly as games accumulate. K=4 matches the original
-# Week-1-only 80/20 split exactly at n=1 game played. Tune this once you can
-# backtest against a full season.
-PRIOR_GAMES_EQUIVALENT = 4.0
+# --- v2 engine settings -- taken directly from football_ratings_2025.py,
+#     plus PRIOR_ANCHOR_K which is new for this in-season, prior-anchored
+#     version (see module docstring's "THE PRIOR ANCHOR" section). ---
+COMPETITIVE_THRESHOLD = 40   # same "half-weight" scale as football_ratings_2025.py
+MOV_CAP               = 28   # same cap as football_ratings_2025.py
+LEARNING_RATE         = 0.1  # same as football_ratings_2025.py
+ITERATIONS            = 1000 # same as football_ratings_2025.py -- cheap even with few games
+ 
+# How many "games' worth" of trust the historical Starting rating gets,
+# persistently, every iteration (this is what REGULARIZATION_K does in
+# football_ratings_2025.py, generalized here to anchor toward Starting
+# instead of toward 0). Reused at the same value (3.0) as your full-season
+# engine's REGULARIZATION_K for consistency -- tune independently once you
+# can backtest against a full season's worth of in-season snapshots.
+PRIOR_ANCHOR_K = 3.0
  
 # Only include games on/before this date (inclusive), as an ISO string
-# e.g. "2026-09-05". Leave as None to include every played game in the file
-# (recommended — unplayed games are automatically excluded via null scores,
-# so this is only useful if you want to reproduce an earlier point in time).
+# e.g. "2026-09-05". Leave as None to include every played game in the file.
 THROUGH_DATE = None
  
-# Forfeits produce rule-based scores (e.g. 1-0, 8-0), not real performance —
+# Forfeits produce rule-based scores (e.g. 1-0, 8-0), not real performance --
 # excluded by default.
 EXCLUDE_FORFEITS = True
  
 # League average PPG used in the Off/Def prediction formula.
 # Set to a number to hard-code it. Leave as None to auto-compute it as the
 # average of the historical file's per-season league_average over YEARS_RECENT
-# (2023-2025) — a reasonable proxy until the 2026 season has its own number.
+# (2023-2025) -- a reasonable proxy until the 2026 season has its own number.
 LEAGUE_AVG_PPG = None
  
 # =============================================================================
-# STEP 1-2: load historical ratings and compute the two averages
+# STEP 1-2: load historical ratings and compute the two averages (unchanged)
 # =============================================================================
  
 def load_historical_ratings(path):
@@ -169,21 +231,14 @@ def build_starting_ratings(by_team):
  
  
 # =============================================================================
-# STEP 4: per-game "game estimate" of each team's Off/Def/Ovr, from the
-# STARTING ratings basis (kept non-circular — see module docstring)
+# GAMES LOADING (unchanged from the previous version -- supports both the
+# flat-list and team-keyed football_games_2026.json formats)
 # =============================================================================
  
 def load_played_games(path):
     with open(path, "r", encoding="utf-8") as f:
         raw = json.load(f)
  
-    # The games file's format has changed over the course of the season —
-    # this loader supports both so it keeps working either way:
-    #   (a) OLD flat-list format: [{"date","team1","team2","score1","score2","forfeit"}, ...]
-    #   (b) NEW team-keyed format: {"season","generated","teams": {
-    #         "Diamond": [{"date","opponent","team_score","opp_score","forfeit"}, ...], ...}}
-    #       Each real game appears TWICE in (b) — once under each team's own
-    #       list — so it's deduplicated below by (date, the pair of teams).
     if isinstance(raw, list):
         all_games = [
             {
@@ -218,7 +273,7 @@ def load_played_games(path):
                     "forfeit": g.get("forfeit", False),
                 })
     else:
-        sys.exit(f"ERROR: unrecognized games file format in {path} — expected either a "
+        sys.exit(f"ERROR: unrecognized games file format in {path} -- expected either a "
                   f"flat list of games, or a dict with a top-level 'teams' key.")
  
     played = []
@@ -253,91 +308,103 @@ def load_played_games(path):
     return played
  
  
-def compute_game_estimate(game, starting, league_avg_ppg):
-    """One-shot Off/Def/Ovr estimate for BOTH teams in a single game, based on
-    each team's Starting rating (not their evolving in-season rating)."""
-    team_a, team_b = game["team_a"], game["team_b"]
-    score_a, score_b = game["score_a"], game["score_b"]
+# =============================================================================
+# v2 ITERATIVE ENGINE -- ported from football_ratings_2025.py, with a
+# persistent prior anchor added (see module docstring)
+# =============================================================================
  
-    if team_a not in starting or team_b not in starting:
-        missing = [t for t in (team_a, team_b) if t not in starting]
-        print(f"  WARNING: skipping game {team_a} vs {team_b} — "
-              f"no starting rating for: {', '.join(missing)}")
-        return None
- 
-    a = starting[team_a]
-    b = starting[team_b]
- 
-    results = {}
-    for (team, off_x, def_x, ovr_x, off_y, def_y, ovr_y, pts_for, pts_against) in [
-        (team_a, a["starting_off"], a["starting_def"], a["starting_ovr"],
-         b["starting_off"], b["starting_def"], b["starting_ovr"], score_a, score_b),
-        (team_b, b["starting_off"], b["starting_def"], b["starting_ovr"],
-         a["starting_off"], a["starting_def"], a["starting_ovr"], score_b, score_a),
-    ]:
-        predicted_margin = ovr_x - ovr_y
-        actual_margin = pts_for - pts_against
-        game_ovr = ovr_x + (actual_margin - predicted_margin)
- 
-        predicted_score = off_x - def_y + league_avg_ppg
-        game_off = off_x + (pts_for - predicted_score)
- 
-        predicted_points_allowed = off_y - def_x + league_avg_ppg
-        game_def = def_x + (predicted_points_allowed - pts_against)
- 
-        results[team] = {"game_off": game_off, "game_def": game_def, "game_ovr": game_ovr}
- 
-    return results
+def competitiveness_weight(gap, scale=COMPETITIVE_THRESHOLD):
+    """Identical to football_ratings_2025.py's competitiveness_weight()."""
+    return 1.0 / (1.0 + (gap / scale) ** 2)
  
  
-def accumulate_game_estimates(games, starting, league_avg_ppg):
-    """Sum each team's per-game estimates so the shrinkage blend can average
-    them against however many games (n) each team actually has."""
-    accum = defaultdict(lambda: {"off_sum": 0.0, "def_sum": 0.0, "ovr_sum": 0.0, "n": 0})
-    for game in games:
-        result = compute_game_estimate(game, starting, league_avg_ppg)
-        if result is None:
+def run_iterations(games, teams, off_rating, def_rating, starting, league_avg,
+                    iterations, prior_anchor_k, mov_cap, learning_rate):
+    for _ in range(iterations):
+        # Seed every team's error/weight with the persistent prior-anchor
+        # pull term BEFORE any games are folded in. This is the piece that
+        # doesn't exist in football_ratings_2025.py -- there, off_error/
+        # weight_sum start at 0 for every team each iteration, so a team
+        # with no games has no gradient at all and just sits at its 0.0
+        # init forever. Here, a team with no games still gets pulled
+        # exactly to its Starting rating every iteration, which is what
+        # makes Starting a true equilibrium instead of just an initial
+        # value that erodes over iterations.
+        off_error = {t: prior_anchor_k * (starting[t]["starting_off"] - off_rating[t]) for t in teams}
+        def_error = {t: prior_anchor_k * (starting[t]["starting_def"] - def_rating[t]) for t in teams}
+        weight_sum = {t: prior_anchor_k for t in teams}
+ 
+        for t1, t2, actual_s1, actual_s2 in games:
+            gap = abs((off_rating[t1] + def_rating[t1]) -
+                      (off_rating[t2] + def_rating[t2]))
+            w = competitiveness_weight(gap)
+ 
+            predicted_s1 = off_rating[t1] - def_rating[t2] + league_avg
+            predicted_s2 = off_rating[t2] - def_rating[t1] + league_avg
+ 
+            error_s1 = actual_s1 - predicted_s1
+            error_s2 = actual_s2 - predicted_s2
+ 
+            # MOV cap: bound the raw error before it's weighted/accumulated
+            error_s1 = max(-mov_cap, min(mov_cap, error_s1))
+            error_s2 = max(-mov_cap, min(mov_cap, error_s2))
+ 
+            off_error[t1] += w * error_s1
+            off_error[t2] += w * error_s2
+            def_error[t1] += -w * error_s2
+            def_error[t2] += -w * error_s1
+ 
+            weight_sum[t1] += w
+            weight_sum[t2] += w
+ 
+        for team in teams:
+            denom = weight_sum[team]  # always >= prior_anchor_k, never zero
+            off_rating[team] += (off_error[team] / denom) * learning_rate
+            def_rating[team] += (def_error[team] / denom) * learning_rate
+ 
+ 
+def fit_in_season_ratings(games, starting, league_avg_ppg):
+    """
+    Runs the anchored iterative fit for every team that has a Starting
+    rating (teams with no historical data at all are still excluded here,
+    same as the old version -- there's no prior to anchor them to).
+    Games where either team is missing from `starting` are skipped with a
+    warning, same behavior as before.
+    """
+    teams = list(starting.keys())
+    off_rating = {t: starting[t]["starting_off"] for t in teams}
+    def_rating = {t: starting[t]["starting_def"] for t in teams}
+ 
+    games_used = []
+    games_per_team = defaultdict(int)
+    for g in games:
+        t1, t2 = g["team_a"], g["team_b"]
+        if t1 not in starting or t2 not in starting:
+            missing = [t for t in (t1, t2) if t not in starting]
+            print(f"  WARNING: skipping game {t1} vs {t2} — "
+                  f"no starting rating for: {', '.join(missing)}")
             continue
-        for team, vals in result.items():
-            entry = accum[team]
-            entry["off_sum"] += vals["game_off"]
-            entry["def_sum"] += vals["game_def"]
-            entry["ovr_sum"] += vals["game_ovr"]
-            entry["n"] += 1
-    return accum
+        games_used.append((t1, t2, g["score_a"], g["score_b"]))
+        games_per_team[t1] += 1
+        games_per_team[t2] += 1
  
+    print(f"  Running anchored fit: {len(teams)} teams, {len(games_used)} games, "
+          f"{ITERATIONS} iterations (PRIOR_ANCHOR_K={PRIOR_ANCHOR_K}, "
+          f"MOV_CAP={MOV_CAP}, competitiveness scale={COMPETITIVE_THRESHOLD})...")
+    run_iterations(games_used, teams, off_rating, def_rating, starting, league_avg_ppg,
+                   iterations=ITERATIONS, prior_anchor_k=PRIOR_ANCHOR_K,
+                   mov_cap=MOV_CAP, learning_rate=LEARNING_RATE)
  
-# =============================================================================
-# STEP 5: shrinkage blend — Starting vs. average of that team's game estimates
-# =============================================================================
- 
-def blend_final(starting_entry, accum_entry, k):
-    n = accum_entry["n"] if accum_entry else 0
-    if n == 0:
-        # No in-state games on record for this team (e.g. Jackson early
-        # season) — Final rating is just the Starting rating, unchanged.
-        return {
-            "final_off": starting_entry["starting_off"],
-            "final_def": starting_entry["starting_def"],
-            "final_ovr": starting_entry["starting_ovr"],
-            "games_played": 0,
-            "avg_game_off": None,
-            "avg_game_def": None,
-            "avg_game_ovr": None,
+    output = {}
+    for t in teams:
+        output[t] = {
+            **starting[t],
+            "games_played": games_per_team[t],
+            "final_off": off_rating[t],
+            "final_def": def_rating[t],
+            "final_ovr": off_rating[t] + def_rating[t],
         }
- 
-    final_off = (k * starting_entry["starting_off"] + accum_entry["off_sum"]) / (k + n)
-    final_def = (k * starting_entry["starting_def"] + accum_entry["def_sum"]) / (k + n)
-    final_ovr = (k * starting_entry["starting_ovr"] + accum_entry["ovr_sum"]) / (k + n)
-    return {
-        "final_off": final_off,
-        "final_def": final_def,
-        "final_ovr": final_ovr,
-        "games_played": n,
-        "avg_game_off": accum_entry["off_sum"] / n,
-        "avg_game_def": accum_entry["def_sum"] / n,
-        "avg_game_ovr": accum_entry["ovr_sum"] / n,
-    }
+    return output
  
  
 # =============================================================================
@@ -368,19 +435,12 @@ def main():
     print("Loading played games (all weeks with scores)...")
     games = load_played_games(GAMES_PATH)
  
-    print(f"Computing per-game estimates and shrinkage blend (K={PRIOR_GAMES_EQUIVALENT})...")
-    accum = accumulate_game_estimates(games, starting, league_avg_ppg)
+    print("Fitting anchored in-season ratings...")
+    output = fit_in_season_ratings(games, starting, league_avg_ppg)
  
-    output = {}
-    for team, starting_entry in starting.items():
-        blended = blend_final(starting_entry, accum.get(team), PRIOR_GAMES_EQUIVALENT)
-        output[team] = {**starting_entry, **blended}
- 
-    games_played_counts = [v["games_played"] for v in output.values()]
-    zero_game_teams = sum(1 for n in games_played_counts if n == 0)
+    zero_game_teams = sum(1 for v in output.values() if v["games_played"] == 0)
     print(f"  {zero_game_teams} teams have 0 in-state games on record "
-          f"(kept at their Starting rating — e.g. teams that have only "
-          f"played out-of-state opponents so far)")
+          f"(converged back to their Starting rating exactly)")
  
     with open(OUTPUT_JSON_PATH, "w", encoding="utf-8") as f:
         json.dump(output, f, indent=2, sort_keys=True)
@@ -388,7 +448,6 @@ def main():
     csv_columns = [
         "team", "games_played",
         "starting_off", "starting_def", "starting_ovr",
-        "avg_game_off", "avg_game_def", "avg_game_ovr",
         "final_off", "final_def", "final_ovr",
     ]
     with open(OUTPUT_CSV_PATH, "w", encoding="utf-8", newline="") as f:
@@ -400,13 +459,11 @@ def main():
  
     print(f"\nDone. Wrote {len(output)} teams to {OUTPUT_JSON_PATH} and {OUTPUT_CSV_PATH}")
  
-    print(f"\n{'Team':<30}{'GP':>4}{'Start Ovr':>10}{'Avg Game':>10}{'Final Ovr':>10}")
-    print("-" * 64)
+    print(f"\n{'Team':<30}{'GP':>4}{'Start Ovr':>10}{'Final Ovr':>10}")
+    print("-" * 54)
     for team, r in sorted(output.items(), key=lambda kv: kv[1]["final_ovr"], reverse=True)[:20]:
-        avg_display = f"{r['avg_game_ovr']:.1f}" if r["avg_game_ovr"] is not None else "—"
-        print(f"{team:<30}{r['games_played']:>4}{r['starting_ovr']:>10.1f}{avg_display:>10}{r['final_ovr']:>10.1f}")
+        print(f"{team:<30}{r['games_played']:>4}{r['starting_ovr']:>10.1f}{r['final_ovr']:>10.1f}")
  
  
 if __name__ == "__main__":
     main()
- 
