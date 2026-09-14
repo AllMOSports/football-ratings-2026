@@ -1,5 +1,5 @@
 """
-After Week 1 Ratings.py  (v4 -- restricted to classifications.json's team list)
+After Week 1 Ratings.py  (v5 -- co-op proxy ratings for unresolvable teams)
  
 Computes in-season Off/Def/Ovr ratings for AllMOSports football teams from
 any number of played weeks, using the same anchored iterative engine as
@@ -31,36 +31,41 @@ all. Starting rating is now simply:
 LEAGUE_AVG_PPG is similarly now sourced from 2025's own league_average
 value (not an average across recent years) by default.
  
-WHAT'S NEW IN v4: RESTRICTED TO classifications.json
------------------------------------------------------------------------------
 Only teams that appear in CLASSIFICATIONS_PATH (the 2026-27 projected
-classifications file) are rated at all now. Previously the script rated
-every team it found anywhere in the historical ratings file -- 362 of
-them -- even though only 300 are actually current programs per
-classifications.json. The other 62 were old/discontinued/renamed programs
-that have no business being in a current-season ratings output.
+classifications file) are rated at all -- 300 teams, not the 362 the
+historical ratings file itself contains (the other 62 are old/discontinued/
+renamed programs with no business in a current-season output).
  
-One thing this does NOT fix on its own: 14 teams in classifications.json
-are co-op configurations (e.g. "Cuba with Steelville", "Tipton with
-Bunceton") that have ZERO historical rating under that exact combined
-name -- they're brand new names for 2026-27, not typos, so there's
-nothing in Football_Ratings_History_2010-2025.json to filter down to for
-them. These are the same 14 teams that have shown up as "no starting
-rating" warnings on every game involving them throughout this season's
-testing. They are printed out explicitly below (MISSING_FROM_HISTORY) so
-you can see the full list in one place. Two ways to actually give them a
-starting rating instead of leaving them unrated:
-  1. Parse each co-op name into its member schools (e.g. "Cuba with
-     Steelville" -> "Cuba" + "Steelville"), look up each member's most
-     recent individual rating, and combine them (e.g. an average, or
-     enrollment-weighted if you have enrollment figures) into a proxy
-     Starting rating for the co-op.
-  2. Manually assign a reasonable Starting rating to each of the 14 by
-     hand, the same way you've built manual override lists elsewhere.
-  Neither is implemented here -- say the word if you want option 1 built
-  (it's a name-parsing exercise, "X with Y" / "X with Y, Z" patterns,
-  same shape as the MANUAL_OVERRIDES co-op names already in your scraper
-  scripts) and I'll add it.
+WHAT'S NEW IN v5: CO-OP PROXY RATINGS
+-----------------------------------------------------------------------------
+14 teams in classifications.json are co-op configurations (e.g. "Cuba with
+Steelville", "Tipton with Bunceton") with ZERO historical rating under that
+exact combined name -- they're brand new names for 2026-27, so there's
+nothing in Football_Ratings_History_2010-2025.json to fall back to for
+them under their own name. Previously these were simply excluded from the
+output entirely.
+ 
+Now, for any team whose name still has no Starting rating after the normal
+STARTING_YEAR/fallback lookup AND matches the "X with Y[, Z...]" co-op
+pattern, the script parses out the individual member schools (e.g. "Cuba
+with Steelville" -> "Cuba" + "Steelville"; "Pleasant Hope with Halfway,
+Marion C. Early" -> three separate names), looks up each member's OWN
+Starting rating independently (same STARTING_YEAR/fallback rule as
+everyone else), and averages whichever members have a usable rating into
+a proxy Starting rating for the co-op. Members with no rating of their
+own are simply excluded from the average rather than blocking the whole
+team -- a co-op where only one member has ever had a rating just uses
+that member's number outright. In a spot-check, all 14 co-ops had at
+least one resolvable member (4 had both), so this fully replaces the old
+MISSING_FROM_HISTORY exclusion list for football -- though the print
+output still reports MISSING_FROM_HISTORY for the (currently empty, but
+possible in future seasons) case where NONE of a co-op's members have
+ever had a rating.
+ 
+This is a simple equal-weight average across whichever members resolve --
+NOT enrollment-weighted, since no enrollment data is available here. If
+you have enrollment figures and want a weighted version instead, this is
+a one-function change (build_coop_proxy_ratings).
  
 Everything else -- the anchored iterative engine, MOV_CAP, competitiveness
 weighting, PRIOR_ANCHOR_K -- is unchanged from the previous version. See
@@ -246,6 +251,83 @@ def load_historical_ratings(path):
     return by_team, league_averages_by_year
  
  
+def _single_team_starting(records):
+    """Exact STARTING_YEAR match, else (if allowed) the most recent earlier
+    season. Returns {"off","def","ovr","year"} or None if nothing usable.
+    Shared by build_starting_ratings() for classified teams directly, and
+    by build_coop_proxy_ratings() for each individual member of a co-op
+    name that has no rating under its own combined name."""
+    exact = next((r for r in records if r["season"] == STARTING_YEAR), None)
+    if exact is not None:
+        return {"off": exact["off"], "def": exact["def"], "ovr": exact["ovr"], "year": STARTING_YEAR}
+    if not ALLOW_PRE_2025_FALLBACK:
+        return None
+    earlier = [r for r in records if r["season"] < STARTING_YEAR]
+    if not earlier:
+        return None
+    most_recent = max(earlier, key=lambda r: r["season"])
+    return {"off": most_recent["off"], "def": most_recent["def"], "ovr": most_recent["ovr"], "year": most_recent["season"]}
+ 
+ 
+def parse_coop_members(name):
+    """'Cuba with Steelville' -> ['Cuba', 'Steelville'].
+    'Pleasant Hope with Halfway, Marion C. Early' ->
+      ['Pleasant Hope', 'Halfway', 'Marion C. Early'].
+    Returns [name] unchanged if it doesn't match the 'X with Y[, Z...]'
+    pattern at all."""
+    if " with " not in name:
+        return [name]
+    first, rest = name.split(" with ", 1)
+    return [first.strip()] + [m.strip() for m in rest.split(",")]
+ 
+ 
+def build_coop_proxy_ratings(by_team, missing_teams):
+    """For each team name that still has no Starting rating (checked by the
+    caller) and contains ' with ', parse it into member schools, look up
+    each member's OWN Starting rating independently (same exact-year-then-
+    fallback rule as everyone else), and average whichever members are
+    found into a proxy rating for the co-op. A co-op with only one
+    resolvable member just uses that member's rating outright (an average
+    of one). Returns {team: {"starting_off","starting_def","starting_ovr",
+    "starting_year","coop_members_used","coop_members_missing"}}."""
+    proxies = {}
+    for team in sorted(missing_teams):
+        members = parse_coop_members(team)
+        if len(members) == 1:
+            continue  # not a co-op name at all -- nothing to build a proxy from
+ 
+        found = []
+        missing_members = []
+        for m in members:
+            single = _single_team_starting(by_team.get(m, []))
+            if single is not None:
+                found.append((m, single))
+            else:
+                missing_members.append(m)
+ 
+        if not found:
+            continue  # no member has any usable rating -- can't build a proxy
+ 
+        n = len(found)
+        avg_off = sum(s["off"] for _, s in found) / n
+        avg_def = sum(s["def"] for _, s in found) / n
+        avg_ovr = sum(s["ovr"] for _, s in found) / n
+        # Report the most recent year used among the contributing members,
+        # since they may not all be the same year (e.g. one member's 2025
+        # rating averaged with another member's fallback 2022 rating).
+        newest_year = max(s["year"] for _, s in found)
+ 
+        proxies[team] = {
+            "starting_off": avg_off,
+            "starting_def": avg_def,
+            "starting_ovr": avg_ovr,
+            "starting_year": newest_year,
+            "coop_members_used": [m for m, _ in found],
+            "coop_members_missing": missing_members,
+        }
+    return proxies
+ 
+ 
 def build_starting_ratings(by_team, classified_teams):
     """Only teams in classified_teams (from classifications.json) get a
     Starting rating at all -- everything else is out of scope, however
@@ -254,31 +336,17 @@ def build_starting_ratings(by_team, classified_teams):
     fallback_used = {}  # team -> year actually used, for teams missing STARTING_YEAR
  
     for team in sorted(classified_teams):
-        records = by_team.get(team, [])
-        exact = next((r for r in records if r["season"] == STARTING_YEAR), None)
-        if exact is not None:
-            starting[team] = {
-                "starting_off": exact["off"],
-                "starting_def": exact["def"],
-                "starting_ovr": exact["ovr"],
-                "starting_year": STARTING_YEAR,
-            }
-            continue
- 
-        if not ALLOW_PRE_2025_FALLBACK:
-            continue  # no STARTING_YEAR record and fallback disabled -- excluded
- 
-        earlier = [r for r in records if r["season"] < STARTING_YEAR]
-        if not earlier:
-            continue  # no usable record at all -- excluded
-        most_recent = max(earlier, key=lambda r: r["season"])
+        single = _single_team_starting(by_team.get(team, []))
+        if single is None:
+            continue  # no usable record under this exact name at all
         starting[team] = {
-            "starting_off": most_recent["off"],
-            "starting_def": most_recent["def"],
-            "starting_ovr": most_recent["ovr"],
-            "starting_year": most_recent["season"],
+            "starting_off": single["off"],
+            "starting_def": single["def"],
+            "starting_ovr": single["ovr"],
+            "starting_year": single["year"],
         }
-        fallback_used[team] = most_recent["season"]
+        if single["year"] != STARTING_YEAR:
+            fallback_used[team] = single["year"]
  
     if fallback_used:
         print(f"  {len(fallback_used)} team(s) had no {STARTING_YEAR} record -- "
@@ -286,14 +354,31 @@ def build_starting_ratings(by_team, classified_teams):
         for team, year in sorted(fallback_used.items()):
             print(f"    {team}: using {year}")
  
+    still_missing = classified_teams - set(starting.keys())
+    if still_missing:
+        proxies = build_coop_proxy_ratings(by_team, still_missing)
+        if proxies:
+            print(f"  CO-OP PROXY: {len(proxies)} team(s) had no rating under their own "
+                  f"combined name -- built a proxy Starting rating by averaging their "
+                  f"individual member schools' own ratings instead:")
+            for team, p in sorted(proxies.items()):
+                used_str = ", ".join(p["coop_members_used"])
+                note = f" (member(s) with no data of their own, excluded from the average: {', '.join(p['coop_members_missing'])})" if p["coop_members_missing"] else ""
+                print(f"    {team}: averaged [{used_str}]{note}")
+                starting[team] = {
+                    "starting_off": p["starting_off"],
+                    "starting_def": p["starting_def"],
+                    "starting_ovr": p["starting_ovr"],
+                    "starting_year": p["starting_year"],
+                }
+ 
     missing_entirely = sorted(classified_teams - set(starting.keys()))
     if missing_entirely:
         print(f"  MISSING_FROM_HISTORY: {len(missing_entirely)} team(s) in "
-              f"{CLASSIFICATIONS_PATH} have NO historical rating at all (not even "
-              f"a pre-{STARTING_YEAR} one to fall back to) -- almost certainly new "
-              f"co-op names for {STARTING_YEAR + 1} that don't exist under that "
-              f"exact combined name in the historical file. These teams will NOT "
-              f"appear in the output, and any game involving them will be skipped:")
+              f"{CLASSIFICATIONS_PATH} still have NO Starting rating at all -- not even "
+              f"a co-op proxy was possible, meaning NONE of their member schools have "
+              f"ever had a rating on record. These teams will NOT appear in the output, "
+              f"and any game involving them will be skipped:")
         for team in missing_entirely:
             print(f"    {team}")
  
