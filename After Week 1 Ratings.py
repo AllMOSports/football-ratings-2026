@@ -168,7 +168,7 @@ ITERATIONS            = 1000 # same as football_ratings_2025.py -- cheap even wi
 # final rating as K drops, so going too low re-introduces the instability
 # problem this anchor exists to prevent (see the module docstring's
 # "WHY THIS REPLACED THE OLDER VERSION" section) -- just in fewer-games form.
-PRIOR_ANCHOR_K = 1.5
+PRIOR_ANCHOR_K = 0.75
 
 # RATING DIFFERENTIAL GUIDE: a game is only counted toward the fit at all if
 # the two teams' STARTING rating gap is <= this value. Added after a real
