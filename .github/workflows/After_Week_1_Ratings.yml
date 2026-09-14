@@ -1,5 +1,5 @@
 name: After Week 1 Ratings
- 
+
 # This workflow is meant to live in the football-ratings-2026 repo, since
 # that's where football_games_2026.json (the Week 1 games source) lives.
 # It pulls the historical ratings file fresh from All_MO_Sports-Data on
@@ -10,35 +10,38 @@ on:
   #   - cron: "0 12 * * 6"   # 12:00 UTC Saturday = 7:00 AM CDT
   #   Uncomment once you're confident Week 1 scores are fully scraped in by
   #   this time. Adjust day/time as needed - MSHSAA weeks run Thu-Sat.
- 
+
 jobs:
   build-ratings:
     runs-on: ubuntu-latest
- 
+
     steps:
       - name: Check out this repo (football-ratings-2026)
         uses: actions/checkout@v4
- 
+
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
           python-version: "3.12"
- 
+
       - name: Fetch historical ratings from All_MO_Sports-Data
         run: |
           curl -sSL -o "Football_Ratings_History_2010-2025.json" \
             "https://raw.githubusercontent.com/AllMOSports/All_MO_Sports-Data/main/output/mshsaa_historical_records/football/Football_Ratings_History_2010-2025.json"
- 
+
       - name: Run After Week 1 Ratings script
-        run: python "After_Week1_Ratings.py"
-        # Assumes the script and football_games_2026.json are both at the
-        # repo root. Add `working-directory:` here if that's not the case.
- 
+        run: python "After Week 1 Ratings.py"
+        # Assumes the script, football_games_2026.json, and classifications.json
+        # are all at the repo root (classifications.json isn't fetched here --
+        # it's expected to already be committed in this repo, same as your
+        # scrape_football_games_2026.py script assumes). Add `working-directory:`
+        # here if any of those live in a subfolder instead.
+
       - name: Commit and push output files
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add Ratings_After_Week1.json Ratings_After_Week1.csv
+          git add Ratings_After_Week1.json Ratings_After_Week1.csv football_ratings_2026.json
           git diff --cached --quiet && echo "No changes to commit" && exit 0
           git commit -m "Update After Week 1 ratings"
           git push
