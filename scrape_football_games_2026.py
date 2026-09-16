@@ -94,6 +94,27 @@ import re
 import pandas as pd
 from datetime import date, datetime
 import time
+import socket
+import urllib3.util.connection as urllib3_cn
+ 
+# Added after a real run hit "Network is unreachable" (errno 101) on BOTH
+# the old daily URL and this script's new weekly URL, identically -- that
+# points away from an MSHSAA-side block (a block wouldn't care which
+# endpoint gets hit) and toward a local IPv6 routing problem, which is
+# the single most common real-world cause of exactly this error: if
+# mshsaa.org resolves to both an IPv4 and IPv6 address and this network
+# advertises IPv6 without actually routing it, Python tries the IPv6
+# address first, gets "network unreachable," and fails -- even though a
+# browser on the same machine might work fine by falling back to IPv4
+# automatically. This forces urllib3 (which requests uses under the
+# hood) to only ever resolve IPv4 addresses, sidestepping the problem
+# entirely if that's really what's going on. Harmless if it isn't --
+# this network clearly still has working IPv4 (this whole pipeline
+# worked over IPv4 for months before this started).
+def _force_ipv4_only():
+    return socket.AF_INET
+ 
+urllib3_cn.allowed_gai_family = _force_ipv4_only
  
 # ---------------------------------------------------------------------------
 # CONFIGURATION
