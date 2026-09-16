@@ -8,6 +8,31 @@ correctly against the live MSHSAA scoreboard. Same request approach
 rendered HTML, no JS execution needed), same session/retry logic, same
 name-resolution via school ID in the team link href.
  
+WEEK-BASED URL, NOT DAILY (changed 2026-09)
+-----------------------------------------------------------------------------
+Earlier versions of this script hit the general scoreboard.aspx page once
+per calendar day across the whole season (~137 requests, Aug 1-Dec 15).
+MSHSAA's John Pasquet flagged this directly (email, 2026-09): football has
+its own dedicated week-based scoreboard --
+FootballScoreboard.aspx?alg=19&year=2026&week=N, weeks 1-15 -- and the
+daily approach was very plausibly part of why football's traffic got
+flagged as bot-like in the first place (137 requests/season vs. 15).
+ 
+This version scrapes that week-based page instead: one request per week,
+15 total for the season, looping FIRST_WEEK..LAST_WEEK. Everything about
+HOW an individual game gets parsed off the page (team detection, score
+parsing, forfeit/OT detection) is UNCHANGED. What's new is
+extract_game_date(): since a single week's page covers multiple days
+(Thu/Fri/Sat games are common), the date can no longer be assumed from
+the URL the way it could when each request was for exactly one day --
+each game's date now has to come from the page content itself. That
+function's docstring explains the fallback strategies it tries and, more
+importantly, that its approach is UNVERIFIED against the real page (no
+network access to mshsaa.org from this environment) -- check the "no
+parseable date" count the first real run prints, and if it's nonzero,
+save that week's raw HTML and share it so the extraction can be fixed
+precisely instead of guessed at again.
+ 
 WHAT'S DIFFERENT FROM THE 2025 RATINGS SCRIPT
 -----------------------------------------------
 2025's scrape_date() only kept a game if the table's last row said
@@ -66,7 +91,7 @@ import json
 import csv
 import re
 import pandas as pd
-from datetime import date, timedelta
+from datetime import date
 import time
  
 # ---------------------------------------------------------------------------
@@ -74,9 +99,9 @@ import time
 # ---------------------------------------------------------------------------
  
 SEASON_YEAR   = 2026
-SEASON_START  = date(2026, 8, 1)
-SEASON_END    = date(2026, 12, 15)   # matches 2025 script's default; adjust if MSHSAA's championship date differs
-BASE_URL      = "https://www.mshsaa.org/activities/scoreboard.aspx?alg=19&date={}"
+FIRST_WEEK    = 1
+LAST_WEEK     = 15   # per MSHSAA's John Pasquet (email, 2026-09): "You can specify parameters to get weeks 1-15 if you like."
+WEEK_URL      = "https://www.mshsaa.org/Activities/FootballScoreboard.aspx?alg=19&year={year}&week={week}"
 MAX_POINTS    = 100
 OUTPUT_JSON   = f"football_games_{SEASON_YEAR}.json"
 OUTPUT_CSV    = f"football_games_{SEASON_YEAR}.csv"
@@ -85,7 +110,12 @@ OUTPUT_CSV_ALL  = f"football_games_{SEASON_YEAR}_all.csv"
 CLASSIFICATIONS_PATH = "classifications.json"
 SCHOOLS_CSV           = "mshsaa_schools.csv"
  
-REQUEST_DELAY = 0.5  # seconds between requests, matches 2025 script
+# Bumped from the daily-scrape script's 0.5s -- with only 15 requests
+# total for the whole season (vs ~137 for the old daily approach), a
+# slightly longer delay costs almost nothing in total runtime and reads
+# as more clearly non-aggressive traffic, which matters given MSHSAA's
+# team is now actively looking at this.
+REQUEST_DELAY = 1.5  # seconds between requests
  
 HEADERS = {
     "User-Agent": (
@@ -264,28 +294,116 @@ def is_overtime(row1, row2):
     return bool(re.search(r"overtime|\bOT\b", text, re.IGNORECASE))
  
  
-def scrape_date(target_date, id_to_classname, known_teams, session):
+# Matches a date like "8/21/2026", "8/21", "Aug 21, 2026", "August 21" --
+# broad on purpose since the week-view page's exact date format is
+# unverified (see extract_game_date()'s docstring below).
+DATE_PATTERN = re.compile(
+    r"(?P<month_num>\d{1,2})[/\-](?P<day_num>\d{1,2})(?:[/\-](?P<year_num>\d{2,4}))?"
+    r"|(?P<month_name>Jan|Feb|Mar|Apr|May|Jun|Jul|Aug|Sep|Oct|Nov|Dec)[a-z]*\.?\s+"
+    r"(?P<day_name>\d{1,2})(?:,?\s*(?P<year_name>\d{4}))?",
+    re.IGNORECASE,
+)
+ 
+MONTH_NAME_TO_NUM = {
+    "jan": 1, "feb": 2, "mar": 3, "apr": 4, "may": 5, "jun": 6,
+    "jul": 7, "aug": 8, "sep": 9, "oct": 10, "nov": 11, "dec": 12,
+}
+ 
+ 
+def _date_from_match(m, default_year):
+    if m.group("month_num"):
+        month, day = int(m.group("month_num")), int(m.group("day_num"))
+        year = int(m.group("year_num")) if m.group("year_num") else default_year
+    else:
+        month = MONTH_NAME_TO_NUM[m.group("month_name")[:3].lower()]
+        day = int(m.group("day_name"))
+        year = int(m.group("year_name")) if m.group("year_name") else default_year
+    if year < 100:
+        year += 2000
+    try:
+        return date(year, month, day)
+    except ValueError:
+        return None
+ 
+ 
+def extract_game_date(row1, row2, table, default_year):
     """
-    Generalized version of football_ratings_2025.py's scrape_date():
-    scans every row in every table for a cell containing an MSHSAA team
-    link (rather than assuming team names always sit at a fixed row/column
-    index), so it works whether the table has a score column (completed
-    games) or not (scheduled games). Pairs up tables with exactly 2
-    team-rows as a single game. Score is captured if present, else None.
+    UNVERIFIED against the live week-view page (this environment can't
+    reach mshsaa.org) -- a week spans multiple days (Thu/Fri/Sat games
+    are common), so unlike the old daily scrape, the date can no longer
+    just be "whatever date we requested." This tries a few strategies,
+    in order, and returns the first date it can parse:
+ 
+      1. A cell in either team row whose class name contains "date"
+         (the most likely place MSHSAA would put it, going by the same
+         td.school/td.score class-name convention the rest of this page
+         already uses).
+      2. Any text in the two team rows themselves that looks like a date
+         (covers the date being embedded in a cell without a dedicated
+         "date" class).
+      3. The nearest heading/caption/row ABOVE this table that looks like
+         a date (covers the page grouping games under a per-day heading,
+         with the date not repeated in every individual game's table).
+ 
+    Returns a date object, or None if nothing matched -- callers should
+    treat None as "needs a human to look at the raw HTML," not silently
+    drop the game. If this comes back None often on a real run, save the
+    page's HTML (view-source or resp.text) for the first week and share
+    it so this can be corrected precisely instead of guessed at again.
     """
-    url = BASE_URL.format(target_date.strftime("%m%d%Y"))
+    for row in (row1, row2):
+        date_cell = row.find(
+            lambda tag: tag.name == "td" and tag.get("class")
+            and any("date" in c.lower() for c in tag.get("class"))
+        )
+        if date_cell:
+            m = DATE_PATTERN.search(date_cell.get_text())
+            if m:
+                d = _date_from_match(m, default_year)
+                if d:
+                    return d
+ 
+    for row in (row1, row2):
+        m = DATE_PATTERN.search(row.get_text())
+        if m:
+            d = _date_from_match(m, default_year)
+            if d:
+                return d
+ 
+    heading = table.find_previous(["h1", "h2", "h3", "h4", "caption", "th"])
+    if heading:
+        m = DATE_PATTERN.search(heading.get_text())
+        if m:
+            d = _date_from_match(m, default_year)
+            if d:
+                return d
+ 
+    return None
+ 
+ 
+def scrape_week(week, id_to_classname, known_teams, session):
+    """
+    Week-view version of the old scrape_date(): same per-table,
+    scan-every-row team detection (unchanged -- that logic doesn't care
+    whether the page covers one day or a whole week), but now also
+    extracts each individual game's date via extract_game_date() instead
+    of assuming a single date for every game on the page, since a week
+    spans multiple days.
+    """
+    url = WEEK_URL.format(year=SEASON_YEAR, week=week)
     try:
         resp = session.get(url, timeout=(10, 25), headers=HEADERS)
         resp.raise_for_status()
     except requests.exceptions.Timeout as e:
-        print(f"  TIMEOUT {target_date}: {e}")
+        print(f"  TIMEOUT week {week}: {e}")
         return [], "timeout"
     except requests.RequestException as e:
-        print(f"  Failed {target_date}: {e}")
+        print(f"  Failed week {week}: {e}")
         return [], "error"
  
     soup  = BeautifulSoup(resp.text, "html.parser")
     games = []
+    undated_count = 0
  
     for table in soup.find_all("table"):
         rows = table.find_all("tr")
@@ -320,8 +438,13 @@ def scrape_date(target_date, id_to_classname, known_teams, session):
         if name1 == name2:
             continue
  
+        game_date = extract_game_date(row1, row2, table, SEASON_YEAR)
+        if game_date is None:
+            undated_count += 1
+ 
         games.append({
-            "date": target_date.strftime("%Y-%m-%d"),
+            "date": game_date.strftime("%Y-%m-%d") if game_date else None,
+            "week": week,
             "team1": name1,
             "team1_classified": classified1,
             "score1": s1,
@@ -332,46 +455,54 @@ def scrape_date(target_date, id_to_classname, known_teams, session):
             "overtime": is_overtime(row1, row2),
         })
  
+    if undated_count:
+        print(f"[{undated_count} of {len(games)} game(s) had no parseable date] ", end="")
+ 
     return games, None
  
  
 def scrape_full_season(id_to_classname, known_teams):
-    all_games   = []
-    current     = SEASON_START
-    scrape_t0   = time.perf_counter()
-    slow_days   = []
-    failed_days = []
-    session     = build_session()
+    all_games    = []
+    scrape_t0    = time.perf_counter()
+    slow_weeks   = []
+    failed_weeks = []
+    session      = build_session()
  
-    while current <= SEASON_END:
-        day_t0 = time.perf_counter()
-        print(f"  Scraping {current}...", end=" ", flush=True)
-        day_games, fail_reason = scrape_date(current, id_to_classname, known_teams, session)
-        all_games.extend(day_games)
-        day_elapsed = time.perf_counter() - day_t0
-        print(f"{len(day_games)} games ({day_elapsed:.1f}s)")
-        if day_elapsed > 3.0:
-            slow_days.append((current, day_elapsed))
+    for week in range(FIRST_WEEK, LAST_WEEK + 1):
+        week_t0 = time.perf_counter()
+        print(f"  Scraping week {week}...", end=" ", flush=True)
+        week_games, fail_reason = scrape_week(week, id_to_classname, known_teams, session)
+        all_games.extend(week_games)
+        week_elapsed = time.perf_counter() - week_t0
+        print(f"{len(week_games)} games ({week_elapsed:.1f}s)")
+        if week_elapsed > 3.0:
+            slow_weeks.append((week, week_elapsed))
         if fail_reason is not None:
-            failed_days.append((current, fail_reason))
-        current += timedelta(days=1)
+            failed_weeks.append((week, fail_reason))
         time.sleep(REQUEST_DELAY)
  
     scrape_elapsed = time.perf_counter() - scrape_t0
     print(f"\n  [TIMING] Scraping took {scrape_elapsed:.1f}s total "
           f"for {len(all_games)} games.")
-    if slow_days:
-        print(f"  [TIMING] {len(slow_days)} slow day(s) (>3s each):")
-        for d, secs in slow_days:
-            print(f"    {d}: {secs:.1f}s")
-    if failed_days:
-        print(f"\n  *** {len(failed_days)} date(s) NEVER returned data, "
+    if slow_weeks:
+        print(f"  [TIMING] {len(slow_weeks)} slow week(s) (>3s each):")
+        for w, secs in slow_weeks:
+            print(f"    week {w}: {secs:.1f}s")
+    if failed_weeks:
+        print(f"\n  *** {len(failed_weeks)} week(s) NEVER returned data, "
               f"even after retry: ***")
-        for d, reason in failed_days:
-            print(f"    {d} ({reason})")
+        for w, reason in failed_weeks:
+            print(f"    week {w} ({reason})")
     else:
-        print("  All dates returned successfully -- no known data gaps "
+        print("  All weeks returned successfully -- no known data gaps "
               "from scraping failures.")
+ 
+    undated = [g for g in all_games if g["date"] is None]
+    if undated:
+        print(f"\n  *** {len(undated)} game(s) scraped with NO parseable date "
+              f"-- see extract_game_date()'s docstring; this needs a look "
+              f"at the raw HTML to fix properly. ***")
+ 
     return all_games
  
  
@@ -685,7 +816,7 @@ if __name__ == "__main__":
     print("\nBuilding school ID -> classification name lookup...")
     id_to_classname = build_id_to_classname(team_to_class, SCHOOLS_CSV)
  
-    print(f"\nScraping {SEASON_START} to {SEASON_END}...")
+    print(f"\nScraping weeks {FIRST_WEEK} to {LAST_WEEK} of {SEASON_YEAR}...")
     all_games = scrape_full_season(id_to_classname, known_teams)
     print(f"\nTotal games found (before overrides/dedup, >=1 classified team): {len(all_games)}")
  
