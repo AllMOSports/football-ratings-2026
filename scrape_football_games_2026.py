@@ -24,14 +24,15 @@ HOW an individual game gets parsed off the page (team detection, score
 parsing, forfeit/OT detection) is UNCHANGED. What's new is
 extract_game_date(): since a single week's page covers multiple days
 (Thu/Fri/Sat games are common), the date can no longer be assumed from
-the URL the way it could when each request was for exactly one day --
-each game's date now has to come from the page content itself. That
-function's docstring explains the fallback strategies it tries and, more
-importantly, that its approach is UNVERIFIED against the real page (no
-network access to mshsaa.org from this environment) -- check the "no
-parseable date" count the first real run prints, and if it's nonzero,
-save that week's raw HTML and share it so the extraction can be fixed
-precisely instead of guessed at again.
+the URL the way it could when each request was for exactly one day.
+A first attempt guessed at where the date might live via regex and got
+it wrong (produced bogus 1/2/2026-style dates from misread page chrome).
+A real week-2 2026 page was then checked directly (View_Page_Source.txt,
+2026-09): every game sits inside a wrapping
+<div class="scoreboardGame" data-date="MMDDYYYY" ...>, confirmed present
+on all 176 games on that page. extract_game_date() now reads that
+attribute directly rather than guessing -- see its docstring for the
+confirmed markup and the (now-unlikely-to-be-needed) fallback.
  
 WHAT'S DIFFERENT FROM THE 2025 RATINGS SCRIPT
 -----------------------------------------------
@@ -91,7 +92,7 @@ import json
 import csv
 import re
 import pandas as pd
-from datetime import date
+from datetime import date, datetime
 import time
  
 # ---------------------------------------------------------------------------
@@ -296,7 +297,7 @@ def is_overtime(row1, row2):
  
 # Matches a date like "8/21/2026", "8/21", "Aug 21, 2026", "August 21" --
 # broad on purpose since the week-view page's exact date format is
-# unverified (see extract_game_date()'s docstring below).
+# confirmed against a real week-2 2026 page (see extract_game_date()'s docstring below).
 DATE_PATTERN = re.compile(
     r"(?P<month_num>\d{1,2})[/\-](?P<day_num>\d{1,2})(?:[/\-](?P<year_num>\d{2,4}))?"
     r"|(?P<month_name>Jan|Feb|Mar|Apr|May|Jun|Jul|Aug|Sep|Oct|Nov|Dec)[a-z]*\.?\s+"
@@ -326,53 +327,46 @@ def _date_from_match(m, default_year):
         return None
  
  
-def extract_game_date(row1, row2, table, default_year):
+def extract_game_date(table, row1, row2, default_year):
     """
-    UNVERIFIED against the live week-view page (this environment can't
-    reach mshsaa.org) -- a week spans multiple days (Thu/Fri/Sat games
-    are common), so unlike the old daily scrape, the date can no longer
-    just be "whatever date we requested." This tries a few strategies,
-    in order, and returns the first date it can parse:
+    CONFIRMED against real MSHSAA HTML (View_Page_Source.txt, a live
+    week-2 2026 page, checked 2026-09): every game's <table> sits inside
+    a wrapping
+      <div class="scoreboardGame ..." data-date="09042026"
+           data-datestring="Sep 4, 2026" data-day="fri" ...>
+    with data-date zero-padded MMDDYYYY. Checked against all 176 games
+    on that page -- every single one had a well-formed data-date, so
+    this is treated as authoritative, not a best guess. Earlier
+    approaches (a heading/caption search, then a same-row text search)
+    are gone: the heading search was actively wrong (it read page chrome
+    like "Week 1 / 2026" as a 1/2/2026 date), and the row-text search
+    never found anything on the real page because the date genuinely
+    isn't in the team rows at all -- it's a data attribute one level up.
  
-      1. A cell in either team row whose class name contains "date"
-         (the most likely place MSHSAA would put it, going by the same
-         td.school/td.score class-name convention the rest of this page
-         already uses).
-      2. Any text in the two team rows themselves that looks like a date
-         (covers the date being embedded in a cell without a dedicated
-         "date" class).
-      3. The nearest heading/caption/row ABOVE this table that looks like
-         a date (covers the page grouping games under a per-day heading,
-         with the date not repeated in every individual game's table).
+    data-datestring ("Sep 4, 2026") is used as a fallback only if
+    data-date is somehow missing or malformed, since it's less
+    machine-friendly but was present on every game alongside data-date
+    in the confirmed sample.
  
-    Returns a date object, or None if nothing matched -- callers should
-    treat None as "needs a human to look at the raw HTML," not silently
-    drop the game. If this comes back None often on a real run, save the
-    page's HTML (view-source or resp.text) for the first week and share
-    it so this can be corrected precisely instead of guessed at again.
+    Returns a date object, or None if the wrapping div or both date
+    attributes are missing/unparseable -- which would mean MSHSAA's
+    markup differs from the confirmed sample for that particular game
+    and is worth a second look, not silently trusting a guess.
     """
-    for row in (row1, row2):
-        date_cell = row.find(
-            lambda tag: tag.name == "td" and tag.get("class")
-            and any("date" in c.lower() for c in tag.get("class"))
-        )
-        if date_cell:
-            m = DATE_PATTERN.search(date_cell.get_text())
-            if m:
-                d = _date_from_match(m, default_year)
-                if d:
-                    return d
+    container = table.find_parent("div", class_="scoreboardGame")
+    if container is None:
+        return None
  
-    for row in (row1, row2):
-        m = DATE_PATTERN.search(row.get_text())
-        if m:
-            d = _date_from_match(m, default_year)
-            if d:
-                return d
+    raw_date = (container.get("data-date") or "").strip()
+    if raw_date:
+        try:
+            return datetime.strptime(raw_date, "%m%d%Y").date()
+        except ValueError:
+            pass
  
-    heading = table.find_previous(["h1", "h2", "h3", "h4", "caption", "th"])
-    if heading:
-        m = DATE_PATTERN.search(heading.get_text())
+    raw_datestring = (container.get("data-datestring") or "").strip()
+    if raw_datestring:
+        m = DATE_PATTERN.search(raw_datestring)
         if m:
             d = _date_from_match(m, default_year)
             if d:
@@ -438,7 +432,7 @@ def scrape_week(week, id_to_classname, known_teams, session):
         if name1 == name2:
             continue
  
-        game_date = extract_game_date(row1, row2, table, SEASON_YEAR)
+        game_date = extract_game_date(table, row1, row2, SEASON_YEAR)
         if game_date is None:
             undated_count += 1
  
