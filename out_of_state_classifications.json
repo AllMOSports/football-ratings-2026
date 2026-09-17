@@ -1,0 +1,297 @@
+{
+  "Harrison (AR.)": {
+    "enrollment": 613,
+    "class": 4,
+    "note": null
+  },
+  "Gosnell (AR.)": {
+    "enrollment": 277,
+    "class": 2,
+    "note": null
+  },
+  "Trinity Catholic (KY.)": {
+    "enrollment": 1796,
+    "class": 6,
+    "note": null
+  },
+  "O'Fallon (IL.)": {
+    "enrollment": 1800,
+    "class": 6,
+    "note": null
+  },
+  "Edwardsville (IL.)": {
+    "enrollment": 1723,
+    "class": 6,
+    "note": null
+  },
+  "Commerce (OK.)": {
+    "enrollment": 159,
+    "class": 2,
+    "note": null
+  },
+  "Lighthouse Sr. High": {
+    "enrollment": 50,
+    "class": 1,
+    "note": "automatic - Home School Assn."
+  },
+  "Elmhurst-IC Catholic (IL.)": {
+    "enrollment": 350,
+    "class": 2,
+    "note": null
+  },
+  "St. Mary's (KS) Academy": {
+    "enrollment": 138,
+    "class": 2,
+    "note": null
+  },
+  "Pocahontas (AR.)": {
+    "enrollment": 410,
+    "class": 3,
+    "note": null
+  },
+  "Sparta (IL.)": {
+    "enrollment": 230,
+    "class": 2,
+    "note": null
+  },
+  "Southeast": {
+    "enrollment": 381,
+    "class": 2,
+    "note": null
+  },
+  "Shawnee Mission South (KS.)": {
+    "enrollment": 1187,
+    "class": 5,
+    "note": null
+  },
+  "JC Harmon (KS.)": {
+    "enrollment": 965,
+    "class": 5,
+    "note": null
+  },
+  "Shawnee Mission Northwest (KS.)": {
+    "enrollment": 1193,
+    "class": 5,
+    "note": null
+  },
+  "Cahokia (IL.)": {
+    "enrollment": 526,
+    "class": 4,
+    "note": null
+  },
+  "Millard South (NE.)": {
+    "enrollment": 1938,
+    "class": 6,
+    "note": null
+  },
+  "Christ Preparatory (KS.)": {
+    "enrollment": 50,
+    "class": 1,
+    "note": null
+  },
+  "Hayden Catholic (KS.)": {
+    "enrollment": 246,
+    "class": 2,
+    "note": null
+  },
+  "Missouri Military Academy": {
+    "enrollment": 244,
+    "class": 2,
+    "note": null
+  },
+  "St. Thomas Aquinas (KS.)": {
+    "enrollment": 681,
+    "class": 4,
+    "note": null
+  },
+  "Carbondale (IL.)": {
+    "enrollment": 738,
+    "class": 4,
+    "note": null
+  },
+  "Naperville Central (IL.)": {
+    "enrollment": 1947,
+    "class": 6,
+    "note": null
+  },
+  "Rabun Gap-Nacoochee (GA.)": {
+    "enrollment": 319,
+    "class": 2,
+    "note": null
+  },
+  "Louisburg (KS.)": {
+    "enrollment": 401,
+    "class": 3,
+    "note": null
+  },
+  "Washington (KS.)": {
+    "enrollment": 873,
+    "class": 5,
+    "note": null
+  },
+  "Vienna-Goreville (IL.)": {
+    "enrollment": 735,
+    "class": 4,
+    "note": null
+  },
+  "Dupo (IL.)": {
+    "enrollment": 195,
+    "class": 2,
+    "note": null
+  },
+  "Jacksonville (IL.)": {
+    "enrollment": 638,
+    "class": 4,
+    "note": null
+  },
+  "Berryville (AR.)": {
+    "enrollment": 397,
+    "class": 3,
+    "note": null
+  },
+  "Conway (AR.)": {
+    "enrollment": 2350,
+    "class": 6,
+    "note": null
+  },
+  "Heritage (AR.)": {
+    "enrollment": 1550,
+    "class": 6,
+    "note": null
+  },
+  "Piggott (AR.)": {
+    "enrollment": 140,
+    "class": 2,
+    "note": null
+  },
+  "Gibson Southern": {
+    "enrollment": 560,
+    "class": 4,
+    "note": null
+  },
+  "Manhattan (KS.)": {
+    "enrollment": 1550,
+    "class": 6,
+    "note": null
+  },
+  "Madison (IL.)": {
+    "enrollment": 107,
+    "class": 1,
+    "note": null
+  },
+  "Marquette Catholic (IL.)": {
+    "enrollment": 269,
+    "class": 2,
+    "note": null
+  },
+  "Gravette (AR.)": {
+    "enrollment": 460,
+    "class": 3,
+    "note": null
+  },
+  "Louisville-Ballard (KY.)": {
+    "enrollment": 1518,
+    "class": 6,
+    "note": null
+  },
+  "Lawton (OK.)": {
+    "enrollment": 934,
+    "class": 5,
+    "note": null
+  },
+  "Omaha Westside (NE.)": {
+    "enrollment": 1631,
+    "class": 6,
+    "note": null
+  },
+  "Shawnee Mission East (KS.)": {
+    "enrollment": 1296,
+    "class": 5,
+    "note": null
+  },
+  "FL Schlagle (KS.)": {
+    "enrollment": 603,
+    "class": 4,
+    "note": null
+  },
+  "Olathe East (KS.)": {
+    "enrollment": 1414,
+    "class": 6,
+    "note": null
+  },
+  "Mountain Home (AR.)": {
+    "enrollment": 875,
+    "class": 5,
+    "note": null
+  },
+  "Knoxville Catholic (TN.)": {
+    "enrollment": 556,
+    "class": 4,
+    "note": null
+  },
+  "Brentwood (TN.)": {
+    "enrollment": 1197,
+    "class": 5,
+    "note": null
+  },
+  "Lincoln-Way Central (IL.)": {
+    "enrollment": 1528,
+    "class": 6,
+    "note": null
+  },
+  "Tremont (IL.)": {
+    "enrollment": 216,
+    "class": 2,
+    "note": null
+  },
+  "St. James (KS.)": {
+    "enrollment": 713,
+    "class": 4,
+    "note": null
+  },
+  "Mater Dei (IL.)": {
+    "enrollment": 270,
+    "class": 2,
+    "note": null
+  },
+  "Hamilton (IL.)": {
+    "enrollment": 132,
+    "class": 2,
+    "note": "manual override (bracket alone would give a different class)"
+  },
+  "St. James Performance (VA.)": {
+    "enrollment": 200,
+    "class": 2,
+    "note": null
+  },
+  "Lipscomb Academy (TN.)": {
+    "enrollment": 374,
+    "class": 2,
+    "note": null
+  },
+  "Bishop Miege (KS.)": {
+    "enrollment": 482,
+    "class": 4,
+    "note": null
+  },
+  "Bishop Ward (KS.)": {
+    "enrollment": 315,
+    "class": 2,
+    "note": null
+  },
+  "Pittsburg (KS.)": {
+    "enrollment": 756,
+    "class": 4,
+    "note": null
+  },
+  "Sumner (KS.)": {
+    "enrollment": 633,
+    "class": 4,
+    "note": null
+  },
+  "Middle Tennessee Christian (TN.)": {
+    "enrollment": 171,
+    "class": 2,
+    "note": null
+  }
+}
