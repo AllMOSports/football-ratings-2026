@@ -3,7 +3,6 @@ date,team1,team1_classified,score1,team2,team2_classified,score2,forfeit,overtim
 8/27/2026,Orchard Farm,TRUE,22,Ft. Zumwalt South,TRUE,14,FALSE,FALSE
 8/27/2026,Vianney,TRUE,35,Lindbergh,TRUE,23,FALSE,FALSE
 8/27/2026,Confluence Prep Academy Charter,TRUE,0,Normandy Collaborative,TRUE,49,FALSE,FALSE
-8/27/2026,Hogan Prep Academy Charter,TRUE,48,Northeast (Kansas City),TRUE,8,FALSE,FALSE
 8/27/2026,Parkway North,TRUE,21,Parkway West,TRUE,24,FALSE,FALSE
 8/28/2026,Bayless with Hancock,TRUE,14,Dupo (IL.),FALSE,26,FALSE,FALSE
 8/28/2026,Ft. Zumwalt East,TRUE,24,Jacksonville (IL.),FALSE,48,FALSE,FALSE
@@ -202,7 +201,6 @@ date,team1,team1_classified,score1,team2,team2_classified,score2,forfeit,overtim
 9/4/2026,Carrollton,TRUE,48,Cole Camp,TRUE,8,FALSE,FALSE
 9/4/2026,Sparta (IL.),FALSE,74,Confluence Prep Academy Charter,TRUE,28,FALSE,FALSE
 9/4/2026,West Platte,TRUE,52,Crest Ridge with Chilhowee,TRUE,24,FALSE,FALSE
-9/4/2026,Perryville,TRUE,34,DeSoto,TRUE,52,FALSE,FALSE
 9/4/2026,Sikeston,TRUE,20,Dexter,TRUE,14,FALSE,FALSE
 9/4/2026,Cabool,TRUE,26,Doniphan,TRUE,21,FALSE,FALSE
 9/4/2026,KIPP KC Legacy,TRUE,40,East (Kansas City),TRUE,10,FALSE,FALSE
@@ -308,7 +306,6 @@ date,team1,team1_classified,score1,team2,team2_classified,score2,forfeit,overtim
 9/4/2026,Westminster Christian Academy,TRUE,34,Wright City,TRUE,7,FALSE,FALSE
 9/5/2026,McCluer,TRUE,0,McCluer North,TRUE,12,FALSE,FALSE
 9/5/2026,Gateway with Soldan International Studies,TRUE,38,Miller Career Academy with Sumner,TRUE,14,FALSE,FALSE
-9/5/2026,Kennett,TRUE,54,Priory,TRUE,15,FALSE,FALSE
 9/5/2026,Normandy Collaborative,TRUE,12,Riverview Gardens,TRUE,20,FALSE,FALSE
 9/10/2026,Rockhurst,TRUE,34,Shawnee Mission East (KS.),FALSE,0,FALSE,FALSE
 9/10/2026,Ruskin,TRUE,17,Central (Kansas City),TRUE,40,FALSE,FALSE
@@ -461,15 +458,15 @@ date,team1,team1_classified,score1,team2,team2_classified,score2,forfeit,overtim
 9/11/2026,Festus,TRUE,47,Windsor (Imperial),TRUE,6,FALSE,FALSE
 9/11/2026,Mark Twain,TRUE,6,Winfield,TRUE,14,FALSE,FALSE
 9/11/2026,Raytown,TRUE,27,Winnetonka,TRUE,19,FALSE,FALSE
-9/12/2026,Lift for Life Academy Charter,TRUE,,Brentwood (TN.),FALSE,,FALSE,FALSE
-9/12/2026,Lutheran North,TRUE,,Lincoln-Way Central (IL.),FALSE,,FALSE,FALSE
-9/12/2026,St. Michael the Archangel,TRUE,,KIPP KC Legacy,TRUE,,FALSE,FALSE
-9/12/2026,Confluence Prep Academy Charter,TRUE,,Principia,TRUE,,FALSE,FALSE
-9/12/2026,Houston,TRUE,,Salem,TRUE,,FALSE,FALSE
-9/12/2026,Father Tolton,TRUE,,University Academy Charter with Ewing Marion Kauffman,TRUE,,FALSE,FALSE
-9/17/2026,Troy Buchanan,TRUE,,Francis Howell Central,TRUE,,FALSE,FALSE
-9/17/2026,Parkway Central,TRUE,,Hazelwood West,TRUE,,FALSE,FALSE
-9/17/2026,Holt,TRUE,,St. Charles,TRUE,,FALSE,FALSE
+9/12/2026,Lift for Life Academy Charter,TRUE,6,Brentwood (TN.),FALSE,45,FALSE,FALSE
+9/12/2026,Lutheran North,TRUE,13,Lincoln-Way Central (IL.),FALSE,21,FALSE,FALSE
+9/12/2026,St. Michael the Archangel,TRUE,51,KIPP KC Legacy,TRUE,0,FALSE,FALSE
+9/12/2026,Confluence Prep Academy Charter,TRUE,6,Principia,TRUE,66,FALSE,FALSE
+9/12/2026,Houston,TRUE,35,Salem,TRUE,22,FALSE,FALSE
+9/12/2026,Father Tolton,TRUE,49,University Academy Charter with Ewing Marion Kauffman,TRUE,26,FALSE,FALSE
+9/17/2026,Troy Buchanan,TRUE,42,Francis Howell Central,TRUE,2,FALSE,FALSE
+9/17/2026,Parkway Central,TRUE,14,Hazelwood West,TRUE,57,FALSE,FALSE
+9/17/2026,Holt,TRUE,49,St. Charles,TRUE,6,FALSE,FALSE
 9/18/2026,Northeast (Kansas City),TRUE,,FL Schlagle (KS.),FALSE,,FALSE,FALSE
 9/18/2026,Gateway with Soldan International Studies,TRUE,,Tremont (IL.),FALSE,,FALSE,FALSE
 9/18/2026,Warsaw,TRUE,,Adrian,TRUE,,FALSE,FALSE
@@ -616,7 +613,6 @@ date,team1,team1_classified,score1,team2,team2_classified,score2,forfeit,overtim
 9/18/2026,Butler,TRUE,,Windsor,TRUE,,FALSE,FALSE
 9/19/2026,Oakville,TRUE,,McCluer North,TRUE,,FALSE,FALSE
 9/19/2026,Linn,TRUE,,Miller Career Academy with Sumner,TRUE,,FALSE,FALSE
-9/19/2026,McCluer,TRUE,,Normandy Collaborative,TRUE,,FALSE,FALSE
 9/19/2026,Lutheran South,TRUE,,Priory,TRUE,,FALSE,FALSE
 9/19/2026,Benton,TRUE,,University Academy Charter with Ewing Marion Kauffman,TRUE,,FALSE,FALSE
 9/19/2026,MICDS,TRUE,,Westminster Christian Academy,TRUE,,FALSE,FALSE
@@ -721,7 +717,6 @@ date,team1,team1_classified,score1,team2,team2_classified,score2,forfeit,overtim
 9/25/2026,Hazelwood East,TRUE,,Parkway West,TRUE,,FALSE,FALSE
 9/25/2026,Parkway Central,TRUE,,Pattonville,TRUE,,FALSE,FALSE
 9/25/2026,Lawson,TRUE,,Penney,TRUE,,FALSE,FALSE
-9/25/2026,Grandview (Hillsboro),TRUE,,Perryville,TRUE,,FALSE,FALSE
 9/25/2026,Lathrop,TRUE,,Plattsburg,TRUE,,FALSE,FALSE
 9/25/2026,Clinton,TRUE,,Pleasant Hill,TRUE,,FALSE,FALSE
 9/25/2026,Crest Ridge with Chilhowee,TRUE,,"Pleasant Hope with Halfway, Marion C. Early",TRUE,,FALSE,FALSE
@@ -758,7 +753,6 @@ date,team1,team1_classified,score1,team2,team2_classified,score2,forfeit,overtim
 9/25/2026,Ft. Zumwalt West,TRUE,,Troy Buchanan,TRUE,,FALSE,FALSE
 9/25/2026,Belton,TRUE,,Truman,TRUE,,FALSE,FALSE
 9/25/2026,Owensville,TRUE,,Union,TRUE,,FALSE,FALSE
-9/25/2026,Normandy Collaborative,TRUE,,University City,TRUE,,FALSE,FALSE
 9/25/2026,St. Vincent,TRUE,,Valle Catholic,TRUE,,FALSE,FALSE
 9/25/2026,Montgomery County,TRUE,,Van-Far,TRUE,,FALSE,FALSE
 9/25/2026,Crystal City,TRUE,,Veritas Christian Academy,TRUE,,FALSE,FALSE
@@ -864,7 +858,6 @@ date,team1,team1_classified,score1,team2,team2_classified,score2,forfeit,overtim
 10/2/2026,Marshall,TRUE,,Moberly,TRUE,,FALSE,FALSE
 10/2/2026,Mark Twain,TRUE,,Montgomery County,TRUE,,FALSE,FALSE
 10/2/2026,Willard,TRUE,,Neosho,TRUE,,FALSE,FALSE
-10/2/2026,Jennings,TRUE,,Normandy Collaborative,TRUE,,FALSE,FALSE
 10/2/2026,Louisiana,TRUE,,North Callaway,TRUE,,FALSE,FALSE
 10/2/2026,Penney,TRUE,,North Platte,TRUE,,FALSE,FALSE
 10/2/2026,Ft. Zumwalt North,TRUE,,North Point,TRUE,,FALSE,FALSE
@@ -938,7 +931,6 @@ date,team1,team1_classified,score1,team2,team2_classified,score2,forfeit,overtim
 10/8/2026,Carl Junction,TRUE,,Parkview,TRUE,,FALSE,FALSE
 10/9/2026,Hogan Prep Academy Charter,TRUE,,Bishop Ward (KS.),FALSE,,FALSE,FALSE
 10/9/2026,Smithville,TRUE,,Pittsburg (KS.),FALSE,,FALSE,FALSE
-10/9/2026,Seneca,TRUE,,Aurora,TRUE,,FALSE,FALSE
 10/9/2026,Rock Bridge,TRUE,,Battle,TRUE,,FALSE,FALSE
 10/9/2026,William Chrisman,TRUE,,Belton,TRUE,,FALSE,FALSE
 10/9/2026,Rockhurst,TRUE,,Blue Springs,TRUE,,FALSE,FALSE
@@ -970,7 +962,6 @@ date,team1,team1_classified,score1,team2,team2_classified,score2,forfeit,overtim
 10/9/2026,Tipton with Bunceton,TRUE,,Fayette,TRUE,,FALSE,FALSE
 10/9/2026,Hannibal,TRUE,,Festus,TRUE,,FALSE,FALSE
 10/9/2026,Fair Grove,TRUE,,Forsyth,TRUE,,FALSE,FALSE
-10/9/2026,Parkway West,TRUE,,Fox,TRUE,,FALSE,FALSE
 10/9/2026,Troy Buchanan,TRUE,,Francis Howell,TRUE,,FALSE,FALSE
 10/9/2026,Central (Park Hills),TRUE,,Fredericktown,TRUE,,FALSE,FALSE
 10/9/2026,Ft. Zumwalt East,TRUE,,Ft. Zumwalt North,TRUE,,FALSE,FALSE
@@ -1136,7 +1127,6 @@ date,team1,team1_classified,score1,team2,team2_classified,score2,forfeit,overtim
 10/16/2026,Pacific,TRUE,,Hermann,TRUE,,FALSE,FALSE
 10/16/2026,Clark County,TRUE,,Highland,TRUE,,FALSE,FALSE
 10/16/2026,Carrollton,TRUE,,Holden,TRUE,,FALSE,FALSE
-10/16/2026,Reeds Spring,TRUE,,Hollister,TRUE,,FALSE,FALSE
 10/16/2026,Orchard Farm,TRUE,,Holt,TRUE,,FALSE,FALSE
 10/16/2026,Ste. Genevieve,TRUE,,Jefferson (Festus),TRUE,,FALSE,FALSE
 10/16/2026,Battle,TRUE,,Jefferson City,TRUE,,FALSE,FALSE
@@ -1230,7 +1220,6 @@ date,team1,team1_classified,score1,team2,team2_classified,score2,forfeit,overtim
 10/16/2026,Cole Camp,TRUE,,Windsor,TRUE,,FALSE,FALSE
 10/16/2026,Fredericktown,TRUE,,Windsor (Imperial),TRUE,,FALSE,FALSE
 10/16/2026,Raytown South,TRUE,,Winnetonka,TRUE,,FALSE,FALSE
-10/17/2026,Southeast,FALSE,,Central (Kansas City),TRUE,,FALSE,FALSE
 10/17/2026,Normandy Collaborative,TRUE,,Clayton with Brentwood,TRUE,,FALSE,FALSE
 10/17/2026,Smith-Cotton,TRUE,,Helias Catholic,TRUE,,FALSE,FALSE
 10/17/2026,Reeds Spring,TRUE,,Hollister,TRUE,,FALSE,FALSE
@@ -1239,7 +1228,6 @@ date,team1,team1_classified,score1,team2,team2_classified,score2,forfeit,overtim
 10/17/2026,Kelly,TRUE,,Principia,TRUE,,FALSE,FALSE
 10/17/2026,Confluence Prep Academy Charter,TRUE,,Priory,TRUE,,FALSE,FALSE
 10/17/2026,Duchesne,TRUE,,Westminster Christian Academy,TRUE,,FALSE,FALSE
-10/18/2026,Riverview Gardens,TRUE,,Fox,TRUE,,FALSE,FALSE
 10/22/2026,Portageville,TRUE,,Central (New Madrid County),TRUE,,FALSE,FALSE
 10/22/2026,Nixa,TRUE,,Glendale,TRUE,,FALSE,FALSE
 10/22/2026,Riverview Gardens,TRUE,,Hazelwood West,TRUE,,FALSE,FALSE
