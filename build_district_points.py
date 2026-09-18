@@ -77,6 +77,7 @@ Usage:
 """
  
 import csv
+import datetime
 import json
 from collections import defaultdict
  
@@ -84,6 +85,7 @@ GAMES_PATH = "football_games_2026_all_district_points.csv"
 CLASS_PATH = "classifications.json"
 OOS_CLASS_PATH = "out_of_state_classifications.json"
 OOS_RECORDS_PATH = "out_of_state_records.json"
+MANUAL_OVERRIDES_PATH = "manual_overrides.json"
 OUTPUT_PATH = "district_points_2026.json"
  
 POINTS = {
@@ -138,6 +140,71 @@ def load_out_of_state_records(path):
               f"class bonus but no SOS contribution until it's generated.")
         return {}
     return {name: {"wins": info["wins"], "losses": info["losses"]} for name, info in data.items()}
+ 
+ 
+def _normalize_date(date_str):
+    """
+    Games CSV uses M/D/YYYY (no leading zeros, e.g. "8/28/2026"); the
+    manual overrides file uses ISO YYYY-MM-DD (e.g. "2026-08-28"). Both
+    get normalized to the same "YYYY-MM-DD" string so overrides can be
+    matched against CSV rows regardless of which format either side uses.
+    """
+    date_str = date_str.strip()
+    for fmt in ("%m/%d/%Y", "%Y-%m-%d"):
+        try:
+            return datetime.datetime.strptime(date_str, fmt).strftime("%Y-%m-%d")
+        except ValueError:
+            continue
+    return date_str  # unrecognized format -- leave as-is, won't match, will surface in the "not applied" count
+ 
+ 
+def load_manual_overrides(path):
+    """
+    Hand-curated corrections layered on top of the scraped/automated data --
+    currently just confirmed overtime games (the scraper's OT detection was
+    never verified against a real live game before MSHSAA access broke, so
+    this is a manual stand-in/supplement until that's confirmed). Returns a
+    set of (normalized_date, frozenset({team1, team2})) keys; matching is
+    order-independent since a game's two teams can appear as team1/team2 in
+    either order in the CSV.
+    Tolerant of the file not existing -- no overrides just means nothing to
+    apply, not an error.
+    """
+    try:
+        data = json.load(open(path))
+    except FileNotFoundError:
+        print(f"NOTE: {path} not found -- no manual overtime overrides applied.")
+        return set()
+ 
+    overrides = set()
+    for g in data.get("overtime_games", []):
+        key = (_normalize_date(g["date"]), frozenset({g["team1"], g["team2"]}))
+        overrides.add(key)
+    return overrides
+ 
+ 
+def apply_overtime_overrides(games, overrides):
+    """
+    Forces overtime=True on any game matching a manual override entry,
+    regardless of what the scraper's automated detection set it to. This
+    only ever turns a game's overtime flag ON -- it's meant to backfill
+    confirmed OT games the automated regex may have missed, not to
+    second-guess games it already correctly flagged. Returns the applied
+    count and the set of override keys that matched nothing (worth
+    surfacing -- likely a date/team-name mismatch against the real CSV).
+    """
+    applied = 0
+    matched_keys = set()
+    for g in games:
+        key = (_normalize_date(g["date"]), frozenset({g["team1"], g["team2"]}))
+        if key in overrides:
+            if not g["overtime"]:
+                applied += 1
+            g["overtime"] = True
+            matched_keys.add(key)
+    unmatched = overrides - matched_keys
+    return applied, unmatched
+ 
  
  
 def load_games(path):
@@ -335,6 +402,17 @@ def main():
     oos_class = load_out_of_state_classifications(OOS_CLASS_PATH)
     oos_records = load_out_of_state_records(OOS_RECORDS_PATH)
     games = load_games(GAMES_PATH)
+ 
+    overtime_overrides = load_manual_overrides(MANUAL_OVERRIDES_PATH)
+    ot_applied, ot_unmatched = apply_overtime_overrides(games, overtime_overrides)
+    print(f"Manual overtime overrides: {ot_applied} game(s) newly marked overtime=True "
+          f"({len(overtime_overrides) - len(ot_unmatched)} of {len(overtime_overrides)} override entries matched a real game).")
+    if ot_unmatched:
+        print(f"  {len(ot_unmatched)} override entry(ies) matched NO game in the CSV -- "
+              f"check date/team-name spelling against {GAMES_PATH}:")
+        for norm_date, teams in ot_unmatched:
+            print(f"    {norm_date}: {' vs '.join(sorted(teams))}")
+ 
     schedule, record = build_schedules_and_records(games)
  
     districts = defaultdict(list)
