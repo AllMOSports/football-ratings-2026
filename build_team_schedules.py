@@ -55,12 +55,14 @@ Usage:
 """
  
 import csv
+import datetime
 import json
  
 GAMES_PATH = "football_games_2026_all_district_points.csv"
 CLASS_PATH = "classifications.json"
 OOS_CLASS_PATH = "out_of_state_classifications.json"
 DISTRICT_POINTS_PATH = "district_points_2026.json"
+MANUAL_OVERRIDES_PATH = "manual_overrides.json"
 OUTPUT_PATH = "team_schedules_2026.json"
  
  
@@ -105,6 +107,47 @@ def load_games(path):
     return games
  
  
+def _normalize_date(date_str):
+    """Same normalization as build_district_points.py -- M/D/YYYY or YYYY-MM-DD, both -> YYYY-MM-DD."""
+    date_str = date_str.strip()
+    for fmt in ("%m/%d/%Y", "%Y-%m-%d"):
+        try:
+            return datetime.datetime.strptime(date_str, fmt).strftime("%Y-%m-%d")
+        except ValueError:
+            continue
+    return date_str
+ 
+ 
+def load_manual_overrides(path):
+    """Identical to build_district_points.py's version -- see that file for the full rationale."""
+    try:
+        data = json.load(open(path))
+    except FileNotFoundError:
+        print(f"NOTE: {path} not found -- no manual overtime overrides applied.")
+        return set()
+ 
+    overrides = set()
+    for g in data.get("overtime_games", []):
+        key = (_normalize_date(g["date"]), frozenset({g["team1"], g["team2"]}))
+        overrides.add(key)
+    return overrides
+ 
+ 
+def apply_overtime_overrides(games, overrides):
+    """Identical to build_district_points.py's version -- only ever turns overtime ON."""
+    applied = 0
+    matched_keys = set()
+    for g in games:
+        key = (_normalize_date(g["date"]), frozenset({g["team1"], g["team2"]}))
+        if key in overrides:
+            if not g["overtime"]:
+                applied += 1
+            g["overtime"] = True
+            matched_keys.add(key)
+    unmatched = overrides - matched_keys
+    return applied, unmatched
+ 
+ 
 def load_current_points(path):
     """
     {team_name: {"total_points": float, "rank": int}} flattened out of
@@ -136,6 +179,9 @@ def main():
     team_class, team_district = load_classifications(CLASS_PATH)
     oos_class = load_out_of_state_classifications(OOS_CLASS_PATH)
     games = load_games(GAMES_PATH)
+    overrides = load_manual_overrides(MANUAL_OVERRIDES_PATH)
+    ot_applied, ot_unmatched = apply_overtime_overrides(games, overrides)
+    print(f"Manual overtime overrides applied: {ot_applied}")
     current_points = load_current_points(DISTRICT_POINTS_PATH)
  
     schedules = {}
