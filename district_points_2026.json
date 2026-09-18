@@ -88,15 +88,15 @@
       "team": "Thayer",
       "class": 1,
       "district": 1,
-      "total_points": 49.3333,
+      "total_points": 47.3333,
       "components": {
         "avg_win_loss": 13.3333,
         "avg_class_bonus": 16.6667,
         "avg_differential": -0.6667,
-        "sos_term": 20.0
+        "sos_term": 18.0
       },
       "games_played": 3,
-      "games_counted_in_sos": 1,
+      "games_counted_in_sos": 3,
       "record": {
         "wins": 1,
         "losses": 2
@@ -105,9 +105,13 @@
         {
           "date": "8/28/2026",
           "opponent": "Pocahontas (AR.)",
-          "opponent_classification_source": "out_of_state_no_record",
+          "opponent_classification_source": "out_of_state",
           "opponent_class": 3,
-          "opponent_record": null,
+          "opponent_record": {
+            "wins": 1,
+            "losses": 2,
+            "ot_losses": 0
+          },
           "my_score": 38,
           "opp_score": 20,
           "won": true,
@@ -122,9 +126,13 @@
         {
           "date": "9/4/2026",
           "opponent": "Gravette (AR.)",
-          "opponent_classification_source": "out_of_state_no_record",
+          "opponent_classification_source": "out_of_state",
           "opponent_class": 3,
-          "opponent_record": null,
+          "opponent_record": {
+            "wins": 2,
+            "losses": 0,
+            "ot_losses": 0
+          },
           "my_score": 8,
           "opp_score": 45,
           "won": false,
@@ -164,15 +172,15 @@
       "team": "Hayti",
       "class": 1,
       "district": 1,
-      "total_points": 41.8333,
+      "total_points": 38.619,
       "components": {
         "avg_win_loss": 16.6667,
         "avg_class_bonus": 3.3333,
         "avg_differential": 4.3333,
-        "sos_term": 17.5
+        "sos_term": 14.2857
       },
       "games_played": 3,
-      "games_counted_in_sos": 2,
+      "games_counted_in_sos": 3,
       "record": {
         "wins": 2,
         "losses": 1
@@ -202,9 +210,13 @@
         {
           "date": "9/4/2026",
           "opponent": "Madison (IL.)",
-          "opponent_classification_source": "out_of_state_no_record",
+          "opponent_classification_source": "out_of_state",
           "opponent_class": 1,
-          "opponent_record": null,
+          "opponent_record": {
+            "wins": 0,
+            "losses": 4,
+            "ot_losses": 0
+          },
           "my_score": 56,
           "opp_score": 0,
           "won": true,
@@ -590,7 +602,7 @@
         "sos_term": 0.0
       },
       "games_played": 1,
-      "games_counted_in_sos": 0,
+      "games_counted_in_sos": 1,
       "record": {
         "wins": 1,
         "losses": 0
@@ -599,9 +611,13 @@
         {
           "date": "9/11/2026",
           "opponent": "Missouri Military Academy",
-          "opponent_classification_source": "out_of_state_no_record",
+          "opponent_classification_source": "out_of_state",
           "opponent_class": 2,
-          "opponent_record": null,
+          "opponent_record": {
+            "wins": 0,
+            "losses": 1,
+            "ot_losses": 0
+          },
           "my_score": 55,
           "opp_score": 0,
           "won": true,
@@ -704,15 +720,15 @@
       "team": "Principia",
       "class": 1,
       "district": 2,
-      "total_points": 32.0,
+      "total_points": 33.0,
       "components": {
         "avg_win_loss": 10.0,
         "avg_class_bonus": 20.0,
         "avg_differential": -13.0,
-        "sos_term": 15.0
+        "sos_term": 16.0
       },
       "games_played": 2,
-      "games_counted_in_sos": 1,
+      "games_counted_in_sos": 2,
       "record": {
         "wins": 0,
         "losses": 2
@@ -742,9 +758,13 @@
         {
           "date": "9/4/2026",
           "opponent": "Marquette Catholic (IL.)",
-          "opponent_classification_source": "out_of_state_no_record",
+          "opponent_classification_source": "out_of_state",
           "opponent_class": 2,
-          "opponent_record": null,
+          "opponent_record": {
+            "wins": 3,
+            "losses": 1,
+            "ot_losses": 0
+          },
           "my_score": 22,
           "opp_score": 68,
           "won": false,
@@ -3504,6 +3524,90 @@
       "rank": 1
     },
     {
+      "team": "Caruthersville",
+      "class": 2,
+      "district": 1,
+      "total_points": 37.6667,
+      "components": {
+        "avg_win_loss": 16.6667,
+        "avg_class_bonus": 3.3333,
+        "avg_differential": 4.3333,
+        "sos_term": 13.3333
+      },
+      "games_played": 3,
+      "games_counted_in_sos": 3,
+      "record": {
+        "wins": 2,
+        "losses": 1
+      },
+      "games": [
+        {
+          "date": "8/28/2026",
+          "opponent": "Gosnell (AR.)",
+          "opponent_classification_source": "out_of_state",
+          "opponent_class": 2,
+          "opponent_record": {
+            "wins": 3,
+            "losses": 0,
+            "ot_losses": 0
+          },
+          "my_score": 14,
+          "opp_score": 41,
+          "won": false,
+          "overtime": false,
+          "forfeit": false,
+          "points": {
+            "win_loss": 10,
+            "class_bonus": 0,
+            "differential": -13
+          }
+        },
+        {
+          "date": "9/4/2026",
+          "opponent": "Central (New Madrid County)",
+          "opponent_classification_source": "in_state",
+          "opponent_class": 2,
+          "opponent_record": {
+            "wins": 0,
+            "losses": 3,
+            "ot_losses": 0
+          },
+          "my_score": 68,
+          "opp_score": 24,
+          "won": true,
+          "overtime": false,
+          "forfeit": false,
+          "points": {
+            "win_loss": 20,
+            "class_bonus": 0,
+            "differential": 13
+          }
+        },
+        {
+          "date": "9/11/2026",
+          "opponent": "Scott City with Chaffee",
+          "opponent_classification_source": "in_state",
+          "opponent_class": 3,
+          "opponent_record": {
+            "wins": 0,
+            "losses": 3,
+            "ot_losses": 0
+          },
+          "my_score": 34,
+          "opp_score": 21,
+          "won": true,
+          "overtime": false,
+          "forfeit": false,
+          "points": {
+            "win_loss": 20,
+            "class_bonus": 10,
+            "differential": 13
+          }
+        }
+      ],
+      "rank": 2
+    },
+    {
       "team": "Kelly",
       "class": 2,
       "district": 1,
@@ -3581,86 +3685,6 @@
           "points": {
             "win_loss": 20,
             "class_bonus": 0,
-            "differential": 13
-          }
-        }
-      ],
-      "rank": 2
-    },
-    {
-      "team": "Caruthersville",
-      "class": 2,
-      "district": 1,
-      "total_points": 34.3333,
-      "components": {
-        "avg_win_loss": 16.6667,
-        "avg_class_bonus": 3.3333,
-        "avg_differential": 4.3333,
-        "sos_term": 10.0
-      },
-      "games_played": 3,
-      "games_counted_in_sos": 2,
-      "record": {
-        "wins": 2,
-        "losses": 1
-      },
-      "games": [
-        {
-          "date": "8/28/2026",
-          "opponent": "Gosnell (AR.)",
-          "opponent_classification_source": "out_of_state_no_record",
-          "opponent_class": 2,
-          "opponent_record": null,
-          "my_score": 14,
-          "opp_score": 41,
-          "won": false,
-          "overtime": false,
-          "forfeit": false,
-          "points": {
-            "win_loss": 10,
-            "class_bonus": 0,
-            "differential": -13
-          }
-        },
-        {
-          "date": "9/4/2026",
-          "opponent": "Central (New Madrid County)",
-          "opponent_classification_source": "in_state",
-          "opponent_class": 2,
-          "opponent_record": {
-            "wins": 0,
-            "losses": 3,
-            "ot_losses": 0
-          },
-          "my_score": 68,
-          "opp_score": 24,
-          "won": true,
-          "overtime": false,
-          "forfeit": false,
-          "points": {
-            "win_loss": 20,
-            "class_bonus": 0,
-            "differential": 13
-          }
-        },
-        {
-          "date": "9/11/2026",
-          "opponent": "Scott City with Chaffee",
-          "opponent_classification_source": "in_state",
-          "opponent_class": 3,
-          "opponent_record": {
-            "wins": 0,
-            "losses": 3,
-            "ot_losses": 0
-          },
-          "my_score": 34,
-          "opp_score": 21,
-          "won": true,
-          "overtime": false,
-          "forfeit": false,
-          "points": {
-            "win_loss": 20,
-            "class_bonus": 10,
             "differential": 13
           }
         }
@@ -4300,6 +4324,69 @@
       "rank": 5
     },
     {
+      "team": "Confluence Prep Academy Charter",
+      "class": 2,
+      "district": 2,
+      "total_points": 17.0,
+      "components": {
+        "avg_win_loss": 10.0,
+        "avg_class_bonus": 5.0,
+        "avg_differential": -13.0,
+        "sos_term": 15.0
+      },
+      "games_played": 2,
+      "games_counted_in_sos": 2,
+      "record": {
+        "wins": 0,
+        "losses": 2
+      },
+      "games": [
+        {
+          "date": "8/27/2026",
+          "opponent": "Normandy Collaborative",
+          "opponent_classification_source": "in_state",
+          "opponent_class": 3,
+          "opponent_record": {
+            "wins": 1,
+            "losses": 2,
+            "ot_losses": 0
+          },
+          "my_score": 0,
+          "opp_score": 49,
+          "won": false,
+          "overtime": false,
+          "forfeit": false,
+          "points": {
+            "win_loss": 10,
+            "class_bonus": 10,
+            "differential": -13
+          }
+        },
+        {
+          "date": "9/4/2026",
+          "opponent": "Sparta (IL.)",
+          "opponent_classification_source": "out_of_state",
+          "opponent_class": 2,
+          "opponent_record": {
+            "wins": 3,
+            "losses": 0,
+            "ot_losses": 0
+          },
+          "my_score": 28,
+          "opp_score": 74,
+          "won": false,
+          "overtime": false,
+          "forfeit": false,
+          "points": {
+            "win_loss": 10,
+            "class_bonus": 0,
+            "differential": -13
+          }
+        }
+      ],
+      "rank": 6
+    },
+    {
       "team": "Hermann",
       "class": 2,
       "district": 2,
@@ -4377,65 +4464,6 @@
           "points": {
             "win_loss": 10,
             "class_bonus": 20,
-            "differential": -13
-          }
-        }
-      ],
-      "rank": 6
-    },
-    {
-      "team": "Confluence Prep Academy Charter",
-      "class": 2,
-      "district": 2,
-      "total_points": 12.0,
-      "components": {
-        "avg_win_loss": 10.0,
-        "avg_class_bonus": 5.0,
-        "avg_differential": -13.0,
-        "sos_term": 10.0
-      },
-      "games_played": 2,
-      "games_counted_in_sos": 1,
-      "record": {
-        "wins": 0,
-        "losses": 2
-      },
-      "games": [
-        {
-          "date": "8/27/2026",
-          "opponent": "Normandy Collaborative",
-          "opponent_classification_source": "in_state",
-          "opponent_class": 3,
-          "opponent_record": {
-            "wins": 1,
-            "losses": 2,
-            "ot_losses": 0
-          },
-          "my_score": 0,
-          "opp_score": 49,
-          "won": false,
-          "overtime": false,
-          "forfeit": false,
-          "points": {
-            "win_loss": 10,
-            "class_bonus": 10,
-            "differential": -13
-          }
-        },
-        {
-          "date": "9/4/2026",
-          "opponent": "Sparta (IL.)",
-          "opponent_classification_source": "out_of_state_no_record",
-          "opponent_class": 2,
-          "opponent_record": null,
-          "my_score": 28,
-          "opp_score": 74,
-          "won": false,
-          "overtime": false,
-          "forfeit": false,
-          "points": {
-            "win_loss": 10,
-            "class_bonus": 0,
             "differential": -13
           }
         }
@@ -4532,15 +4560,15 @@
       "team": "Springfield Catholic",
       "class": 2,
       "district": 3,
-      "total_points": 47.6667,
+      "total_points": 48.3333,
       "components": {
         "avg_win_loss": 20.0,
         "avg_class_bonus": 3.3333,
         "avg_differential": 11.0,
-        "sos_term": 13.3333
+        "sos_term": 14.0
       },
       "games_played": 3,
-      "games_counted_in_sos": 2,
+      "games_counted_in_sos": 3,
       "record": {
         "wins": 3,
         "losses": 0
@@ -4549,9 +4577,13 @@
         {
           "date": "8/28/2026",
           "opponent": "Lighthouse Sr. High",
-          "opponent_classification_source": "out_of_state_no_record",
+          "opponent_classification_source": "out_of_state",
           "opponent_class": 1,
-          "opponent_record": null,
+          "opponent_record": {
+            "wins": 1,
+            "losses": 2,
+            "ot_losses": 0
+          },
           "my_score": 42,
           "opp_score": 21,
           "won": true,
@@ -5181,15 +5213,15 @@
       "team": "Sarcoxie",
       "class": 2,
       "district": 4,
-      "total_points": 36.8333,
+      "total_points": 39.3333,
       "components": {
         "avg_win_loss": 16.6667,
         "avg_class_bonus": 3.3333,
         "avg_differential": 4.3333,
-        "sos_term": 12.5
+        "sos_term": 15.0
       },
       "games_played": 3,
-      "games_counted_in_sos": 2,
+      "games_counted_in_sos": 3,
       "record": {
         "wins": 2,
         "losses": 1
@@ -5198,9 +5230,13 @@
         {
           "date": "8/28/2026",
           "opponent": "Commerce (OK.)",
-          "opponent_classification_source": "out_of_state_no_record",
+          "opponent_classification_source": "out_of_state",
           "opponent_class": 2,
-          "opponent_record": null,
+          "opponent_record": {
+            "wins": 2,
+            "losses": 1,
+            "ot_losses": 0
+          },
           "my_score": 35,
           "opp_score": 0,
           "won": true,
@@ -6231,15 +6267,15 @@
       "team": "Hogan Prep Academy Charter",
       "class": 2,
       "district": 6,
-      "total_points": 45.6667,
+      "total_points": 46.9167,
       "components": {
         "avg_win_loss": 16.6667,
         "avg_class_bonus": 13.3333,
         "avg_differential": 5.6667,
-        "sos_term": 10.0
+        "sos_term": 11.25
       },
       "games_played": 3,
-      "games_counted_in_sos": 2,
+      "games_counted_in_sos": 3,
       "record": {
         "wins": 2,
         "losses": 1
@@ -6290,9 +6326,13 @@
         {
           "date": "9/11/2026",
           "opponent": "St. Mary's (KS) Academy",
-          "opponent_classification_source": "out_of_state_no_record",
+          "opponent_classification_source": "out_of_state",
           "opponent_class": 2,
-          "opponent_record": null,
+          "opponent_record": {
+            "wins": 2,
+            "losses": 1,
+            "ot_losses": 0
+          },
           "my_score": 0,
           "opp_score": 9,
           "won": false,
@@ -8215,7 +8255,7 @@
         "sos_term": 10.0
       },
       "games_played": 3,
-      "games_counted_in_sos": 2,
+      "games_counted_in_sos": 3,
       "record": {
         "wins": 1,
         "losses": 2
@@ -8224,9 +8264,13 @@
         {
           "date": "8/28/2026",
           "opponent": "Piggott (AR.)",
-          "opponent_classification_source": "out_of_state_no_record",
+          "opponent_classification_source": "out_of_state",
           "opponent_class": 2,
-          "opponent_record": null,
+          "opponent_record": {
+            "wins": 0,
+            "losses": 3,
+            "ot_losses": 0
+          },
           "my_score": 40,
           "opp_score": 14,
           "won": true,
@@ -8457,15 +8501,15 @@
       "team": "St. Pius X (Festus)",
       "class": 3,
       "district": 2,
-      "total_points": 43.0,
+      "total_points": 44.75,
       "components": {
         "avg_win_loss": 16.6667,
         "avg_class_bonus": 10.0,
         "avg_differential": 4.3333,
-        "sos_term": 12.0
+        "sos_term": 13.75
       },
       "games_played": 3,
-      "games_counted_in_sos": 2,
+      "games_counted_in_sos": 3,
       "record": {
         "wins": 2,
         "losses": 1
@@ -8474,9 +8518,13 @@
         {
           "date": "8/29/2026",
           "opponent": "Gibson Southern",
-          "opponent_classification_source": "out_of_state_no_record",
+          "opponent_classification_source": "out_of_state",
           "opponent_class": 4,
-          "opponent_record": null,
+          "opponent_record": {
+            "wins": 3,
+            "losses": 1,
+            "ot_losses": 0
+          },
           "my_score": 21,
           "opp_score": 37,
           "won": false,
@@ -11104,86 +11152,6 @@
       "rank": 5
     },
     {
-      "team": "Hollister",
-      "class": 3,
-      "district": 6,
-      "total_points": 14.5,
-      "components": {
-        "avg_win_loss": 10.0,
-        "avg_class_bonus": 0.0,
-        "avg_differential": -13.0,
-        "sos_term": 17.5
-      },
-      "games_played": 3,
-      "games_counted_in_sos": 2,
-      "record": {
-        "wins": 0,
-        "losses": 3
-      },
-      "games": [
-        {
-          "date": "8/28/2026",
-          "opponent": "Berryville (AR.)",
-          "opponent_classification_source": "out_of_state_no_record",
-          "opponent_class": 3,
-          "opponent_record": null,
-          "my_score": 24,
-          "opp_score": 40,
-          "won": false,
-          "overtime": false,
-          "forfeit": false,
-          "points": {
-            "win_loss": 10,
-            "class_bonus": 0,
-            "differential": -13
-          }
-        },
-        {
-          "date": "9/4/2026",
-          "opponent": "Sarcoxie",
-          "opponent_classification_source": "in_state",
-          "opponent_class": 2,
-          "opponent_record": {
-            "wins": 2,
-            "losses": 1,
-            "ot_losses": 0
-          },
-          "my_score": 0,
-          "opp_score": 43,
-          "won": false,
-          "overtime": false,
-          "forfeit": false,
-          "points": {
-            "win_loss": 10,
-            "class_bonus": 0,
-            "differential": -13
-          }
-        },
-        {
-          "date": "9/11/2026",
-          "opponent": "Fair Grove",
-          "opponent_classification_source": "in_state",
-          "opponent_class": 2,
-          "opponent_record": {
-            "wins": 3,
-            "losses": 0,
-            "ot_losses": 0
-          },
-          "my_score": 13,
-          "opp_score": 64,
-          "won": false,
-          "overtime": false,
-          "forfeit": false,
-          "points": {
-            "win_loss": 10,
-            "class_bonus": 0,
-            "differential": -13
-          }
-        }
-      ],
-      "rank": 6
-    },
-    {
       "team": "Aurora",
       "class": 3,
       "district": 6,
@@ -11255,6 +11223,90 @@
           },
           "my_score": 0,
           "opp_score": 26,
+          "won": false,
+          "overtime": false,
+          "forfeit": false,
+          "points": {
+            "win_loss": 10,
+            "class_bonus": 0,
+            "differential": -13
+          }
+        }
+      ],
+      "rank": 6
+    },
+    {
+      "team": "Hollister",
+      "class": 3,
+      "district": 6,
+      "total_points": 13.0,
+      "components": {
+        "avg_win_loss": 10.0,
+        "avg_class_bonus": 0.0,
+        "avg_differential": -13.0,
+        "sos_term": 16.0
+      },
+      "games_played": 3,
+      "games_counted_in_sos": 3,
+      "record": {
+        "wins": 0,
+        "losses": 3
+      },
+      "games": [
+        {
+          "date": "8/28/2026",
+          "opponent": "Berryville (AR.)",
+          "opponent_classification_source": "out_of_state",
+          "opponent_class": 3,
+          "opponent_record": {
+            "wins": 1,
+            "losses": 1,
+            "ot_losses": 0
+          },
+          "my_score": 24,
+          "opp_score": 40,
+          "won": false,
+          "overtime": false,
+          "forfeit": false,
+          "points": {
+            "win_loss": 10,
+            "class_bonus": 0,
+            "differential": -13
+          }
+        },
+        {
+          "date": "9/4/2026",
+          "opponent": "Sarcoxie",
+          "opponent_classification_source": "in_state",
+          "opponent_class": 2,
+          "opponent_record": {
+            "wins": 2,
+            "losses": 1,
+            "ot_losses": 0
+          },
+          "my_score": 0,
+          "opp_score": 43,
+          "won": false,
+          "overtime": false,
+          "forfeit": false,
+          "points": {
+            "win_loss": 10,
+            "class_bonus": 0,
+            "differential": -13
+          }
+        },
+        {
+          "date": "9/11/2026",
+          "opponent": "Fair Grove",
+          "opponent_classification_source": "in_state",
+          "opponent_class": 2,
+          "opponent_record": {
+            "wins": 3,
+            "losses": 0,
+            "ot_losses": 0
+          },
+          "my_score": 13,
+          "opp_score": 64,
           "won": false,
           "overtime": false,
           "forfeit": false,
@@ -11441,15 +11493,15 @@
       "team": "Pembroke Hill",
       "class": 3,
       "district": 7,
-      "total_points": 45.5,
+      "total_points": 44.6667,
       "components": {
         "avg_win_loss": 20.0,
         "avg_class_bonus": 0.0,
         "avg_differential": 13.0,
-        "sos_term": 12.5
+        "sos_term": 11.6667
       },
       "games_played": 3,
-      "games_counted_in_sos": 2,
+      "games_counted_in_sos": 3,
       "record": {
         "wins": 3,
         "losses": 0
@@ -11458,9 +11510,13 @@
         {
           "date": "8/28/2026",
           "opponent": "Southeast",
-          "opponent_classification_source": "out_of_state_no_record",
+          "opponent_classification_source": "out_of_state",
           "opponent_class": 2,
-          "opponent_record": null,
+          "opponent_record": {
+            "wins": 0,
+            "losses": 3,
+            "ot_losses": 0
+          },
           "my_score": 55,
           "opp_score": 0,
           "won": true,
@@ -11521,15 +11577,15 @@
       "team": "Summit Christian Academy",
       "class": 3,
       "district": 7,
-      "total_points": 36.0,
+      "total_points": 37.0,
       "components": {
         "avg_win_loss": 16.6667,
         "avg_class_bonus": 0.0,
         "avg_differential": 4.3333,
-        "sos_term": 15.0
+        "sos_term": 16.0
       },
       "games_played": 3,
-      "games_counted_in_sos": 1,
+      "games_counted_in_sos": 3,
       "record": {
         "wins": 2,
         "losses": 1
@@ -11538,9 +11594,13 @@
         {
           "date": "8/28/2026",
           "opponent": "St. Mary's (KS) Academy",
-          "opponent_classification_source": "out_of_state_no_record",
+          "opponent_classification_source": "out_of_state",
           "opponent_class": 2,
-          "opponent_record": null,
+          "opponent_record": {
+            "wins": 2,
+            "losses": 1,
+            "ot_losses": 0
+          },
           "my_score": 41,
           "opp_score": 13,
           "won": true,
@@ -11576,9 +11636,13 @@
         {
           "date": "9/11/2026",
           "opponent": "Christ Preparatory (KS.)",
-          "opponent_classification_source": "out_of_state_no_record",
+          "opponent_classification_source": "out_of_state",
           "opponent_class": 1,
-          "opponent_record": null,
+          "opponent_record": {
+            "wins": 1,
+            "losses": 1,
+            "ot_losses": 0
+          },
           "my_score": 14,
           "opp_score": 28,
           "won": false,
@@ -13199,15 +13263,15 @@
       "team": "Bayless with Hancock",
       "class": 4,
       "district": 2,
-      "total_points": 31.3333,
+      "total_points": 32.7619,
       "components": {
         "avg_win_loss": 16.6667,
         "avg_class_bonus": 0.0,
         "avg_differential": 4.6667,
-        "sos_term": 10.0
+        "sos_term": 11.4286
       },
       "games_played": 3,
-      "games_counted_in_sos": 2,
+      "games_counted_in_sos": 3,
       "record": {
         "wins": 2,
         "losses": 1
@@ -13216,9 +13280,13 @@
         {
           "date": "8/28/2026",
           "opponent": "Dupo (IL.)",
-          "opponent_classification_source": "out_of_state_no_record",
+          "opponent_classification_source": "out_of_state",
           "opponent_class": 2,
-          "opponent_record": null,
+          "opponent_record": {
+            "wins": 2,
+            "losses": 2,
+            "ot_losses": 0
+          },
           "my_score": 14,
           "opp_score": 26,
           "won": false,
@@ -13449,15 +13517,15 @@
       "team": "University City",
       "class": 4,
       "district": 3,
-      "total_points": 55.6667,
+      "total_points": 57.3333,
       "components": {
         "avg_win_loss": 20.0,
         "avg_class_bonus": 10.0,
         "avg_differential": 10.6667,
-        "sos_term": 15.0
+        "sos_term": 16.6667
       },
       "games_played": 3,
-      "games_counted_in_sos": 2,
+      "games_counted_in_sos": 3,
       "record": {
         "wins": 3,
         "losses": 0
@@ -13487,9 +13555,13 @@
         {
           "date": "9/4/2026",
           "opponent": "Lawton (OK.)",
-          "opponent_classification_source": "out_of_state_no_record",
+          "opponent_classification_source": "out_of_state",
           "opponent_class": 5,
-          "opponent_record": null,
+          "opponent_record": {
+            "wins": 2,
+            "losses": 1,
+            "ot_losses": 0
+          },
           "my_score": 47,
           "opp_score": 12,
           "won": true,
@@ -13592,15 +13664,15 @@
       "team": "Lift for Life Academy Charter",
       "class": 4,
       "district": 3,
-      "total_points": 40.0,
+      "total_points": 41.6667,
       "components": {
         "avg_win_loss": 15.0,
         "avg_class_bonus": 10.0,
         "avg_differential": 0.0,
-        "sos_term": 15.0
+        "sos_term": 16.6667
       },
       "games_played": 2,
-      "games_counted_in_sos": 1,
+      "games_counted_in_sos": 2,
       "record": {
         "wins": 1,
         "losses": 1
@@ -13630,9 +13702,13 @@
         {
           "date": "9/4/2026",
           "opponent": "Christ Preparatory (KS.)",
-          "opponent_classification_source": "out_of_state_no_record",
+          "opponent_classification_source": "out_of_state",
           "opponent_class": 1,
-          "opponent_record": null,
+          "opponent_record": {
+            "wins": 1,
+            "losses": 1,
+            "ot_losses": 0
+          },
           "my_score": 16,
           "opp_score": 0,
           "won": true,
@@ -14450,6 +14526,90 @@
   ],
   "class4_district5": [
     {
+      "team": "Moberly",
+      "class": 4,
+      "district": 5,
+      "total_points": 46.3333,
+      "components": {
+        "avg_win_loss": 20.0,
+        "avg_class_bonus": 0.0,
+        "avg_differential": 13.0,
+        "sos_term": 13.3333
+      },
+      "games_played": 3,
+      "games_counted_in_sos": 3,
+      "record": {
+        "wins": 3,
+        "losses": 0
+      },
+      "games": [
+        {
+          "date": "8/28/2026",
+          "opponent": "Fulton",
+          "opponent_classification_source": "in_state",
+          "opponent_class": 3,
+          "opponent_record": {
+            "wins": 0,
+            "losses": 3,
+            "ot_losses": 0
+          },
+          "my_score": 41,
+          "opp_score": 0,
+          "won": true,
+          "overtime": false,
+          "forfeit": false,
+          "points": {
+            "win_loss": 20,
+            "class_bonus": 0,
+            "differential": 13
+          }
+        },
+        {
+          "date": "9/4/2026",
+          "opponent": "Osage",
+          "opponent_classification_source": "in_state",
+          "opponent_class": 4,
+          "opponent_record": {
+            "wins": 1,
+            "losses": 2,
+            "ot_losses": 0
+          },
+          "my_score": 55,
+          "opp_score": 21,
+          "won": true,
+          "overtime": false,
+          "forfeit": false,
+          "points": {
+            "win_loss": 20,
+            "class_bonus": 0,
+            "differential": 13
+          }
+        },
+        {
+          "date": "9/11/2026",
+          "opponent": "Lighthouse Sr. High",
+          "opponent_classification_source": "out_of_state",
+          "opponent_class": 1,
+          "opponent_record": {
+            "wins": 1,
+            "losses": 2,
+            "ot_losses": 0
+          },
+          "my_score": 20,
+          "opp_score": 0,
+          "won": true,
+          "overtime": false,
+          "forfeit": false,
+          "points": {
+            "win_loss": 20,
+            "class_bonus": 0,
+            "differential": 13
+          }
+        }
+      ],
+      "rank": 1
+    },
+    {
       "team": "Warrensburg",
       "class": 4,
       "district": 5,
@@ -14528,86 +14688,6 @@
             "win_loss": 20,
             "class_bonus": 0,
             "differential": 8
-          }
-        }
-      ],
-      "rank": 1
-    },
-    {
-      "team": "Moberly",
-      "class": 4,
-      "district": 5,
-      "total_points": 45.5,
-      "components": {
-        "avg_win_loss": 20.0,
-        "avg_class_bonus": 0.0,
-        "avg_differential": 13.0,
-        "sos_term": 12.5
-      },
-      "games_played": 3,
-      "games_counted_in_sos": 2,
-      "record": {
-        "wins": 3,
-        "losses": 0
-      },
-      "games": [
-        {
-          "date": "8/28/2026",
-          "opponent": "Fulton",
-          "opponent_classification_source": "in_state",
-          "opponent_class": 3,
-          "opponent_record": {
-            "wins": 0,
-            "losses": 3,
-            "ot_losses": 0
-          },
-          "my_score": 41,
-          "opp_score": 0,
-          "won": true,
-          "overtime": false,
-          "forfeit": false,
-          "points": {
-            "win_loss": 20,
-            "class_bonus": 0,
-            "differential": 13
-          }
-        },
-        {
-          "date": "9/4/2026",
-          "opponent": "Osage",
-          "opponent_classification_source": "in_state",
-          "opponent_class": 4,
-          "opponent_record": {
-            "wins": 1,
-            "losses": 2,
-            "ot_losses": 0
-          },
-          "my_score": 55,
-          "opp_score": 21,
-          "won": true,
-          "overtime": false,
-          "forfeit": false,
-          "points": {
-            "win_loss": 20,
-            "class_bonus": 0,
-            "differential": 13
-          }
-        },
-        {
-          "date": "9/11/2026",
-          "opponent": "Lighthouse Sr. High",
-          "opponent_classification_source": "out_of_state_no_record",
-          "opponent_class": 1,
-          "opponent_record": null,
-          "my_score": 20,
-          "opp_score": 0,
-          "won": true,
-          "overtime": false,
-          "forfeit": false,
-          "points": {
-            "win_loss": 20,
-            "class_bonus": 0,
-            "differential": 13
           }
         }
       ],
@@ -16091,15 +16171,15 @@
       "team": "East (Kansas City)",
       "class": 4,
       "district": 7,
-      "total_points": 10.3333,
+      "total_points": 9.5,
       "components": {
         "avg_win_loss": 10.0,
         "avg_class_bonus": 0.0,
         "avg_differential": -13.0,
-        "sos_term": 13.3333
+        "sos_term": 12.5
       },
       "games_played": 3,
-      "games_counted_in_sos": 2,
+      "games_counted_in_sos": 3,
       "record": {
         "wins": 0,
         "losses": 3
@@ -16150,9 +16230,13 @@
         {
           "date": "9/11/2026",
           "opponent": "FL Schlagle (KS.)",
-          "opponent_classification_source": "out_of_state_no_record",
+          "opponent_classification_source": "out_of_state",
           "opponent_class": 4,
-          "opponent_record": null,
+          "opponent_record": {
+            "wins": 1,
+            "losses": 1,
+            "ot_losses": 0
+          },
           "my_score": 12,
           "opp_score": 34,
           "won": false,
@@ -16593,15 +16677,15 @@
       "team": "Northeast (Kansas City)",
       "class": 4,
       "district": 8,
-      "total_points": 19.1667,
+      "total_points": 18.2143,
       "components": {
         "avg_win_loss": 10.0,
         "avg_class_bonus": 2.5,
         "avg_differential": -10.0,
-        "sos_term": 16.6667
+        "sos_term": 15.7143
       },
       "games_played": 4,
-      "games_counted_in_sos": 3,
+      "games_counted_in_sos": 4,
       "record": {
         "wins": 0,
         "losses": 4
@@ -16673,9 +16757,13 @@
         {
           "date": "9/11/2026",
           "opponent": "JC Harmon (KS.)",
-          "opponent_classification_source": "out_of_state_no_record",
+          "opponent_classification_source": "out_of_state",
           "opponent_class": 5,
-          "opponent_record": null,
+          "opponent_record": {
+            "wins": 1,
+            "losses": 1,
+            "ot_losses": 0
+          },
           "my_score": 23,
           "opp_score": 24,
           "won": false,
@@ -17032,15 +17120,15 @@
       "team": "St. Mary's South Side",
       "class": 5,
       "district": 1,
-      "total_points": 29.0,
+      "total_points": 31.5,
       "components": {
         "avg_win_loss": 16.6667,
         "avg_class_bonus": 0.0,
         "avg_differential": -2.6667,
-        "sos_term": 15.0
+        "sos_term": 17.5
       },
       "games_played": 3,
-      "games_counted_in_sos": 1,
+      "games_counted_in_sos": 3,
       "record": {
         "wins": 2,
         "losses": 1
@@ -17049,9 +17137,13 @@
         {
           "date": "8/28/2026",
           "opponent": "Elmhurst-IC Catholic (IL.)",
-          "opponent_classification_source": "out_of_state_no_record",
+          "opponent_classification_source": "out_of_state",
           "opponent_class": 2,
-          "opponent_record": null,
+          "opponent_record": {
+            "wins": 4,
+            "losses": 0,
+            "ot_losses": 0
+          },
           "my_score": 14,
           "opp_score": 42,
           "won": false,
@@ -17087,9 +17179,13 @@
         {
           "date": "9/11/2026",
           "opponent": "Cahokia (IL.)",
-          "opponent_classification_source": "out_of_state_no_record",
+          "opponent_classification_source": "out_of_state",
           "opponent_class": 4,
-          "opponent_record": null,
+          "opponent_record": {
+            "wins": 2,
+            "losses": 2,
+            "ot_losses": 0
+          },
           "my_score": 25,
           "opp_score": 22,
           "won": true,
@@ -18099,15 +18195,15 @@
       "team": "Cardinal Ritter",
       "class": 5,
       "district": 3,
-      "total_points": 31.6667,
+      "total_points": 35.0,
       "components": {
         "avg_win_loss": 13.3333,
         "avg_class_bonus": 3.3333,
         "avg_differential": 1.6667,
-        "sos_term": 13.3333
+        "sos_term": 16.6667
       },
       "games_played": 3,
-      "games_counted_in_sos": 2,
+      "games_counted_in_sos": 3,
       "record": {
         "wins": 1,
         "losses": 2
@@ -18158,9 +18254,13 @@
         {
           "date": "9/11/2026",
           "opponent": "Knoxville Catholic (TN.)",
-          "opponent_classification_source": "out_of_state_no_record",
+          "opponent_classification_source": "out_of_state",
           "opponent_class": 4,
-          "opponent_record": null,
+          "opponent_record": {
+            "wins": 4,
+            "losses": 0,
+            "ot_losses": 0
+          },
           "my_score": 22,
           "opp_score": 28,
           "won": false,
@@ -18601,15 +18701,15 @@
       "team": "Ft. Zumwalt East",
       "class": 5,
       "district": 4,
-      "total_points": 33.3333,
+      "total_points": 35.4762,
       "components": {
         "avg_win_loss": 16.6667,
         "avg_class_bonus": 0.0,
         "avg_differential": 1.6667,
-        "sos_term": 15.0
+        "sos_term": 17.1429
       },
       "games_played": 3,
-      "games_counted_in_sos": 2,
+      "games_counted_in_sos": 3,
       "record": {
         "wins": 2,
         "losses": 1
@@ -18618,9 +18718,13 @@
         {
           "date": "8/28/2026",
           "opponent": "Jacksonville (IL.)",
-          "opponent_classification_source": "out_of_state_no_record",
+          "opponent_classification_source": "out_of_state",
           "opponent_class": 4,
-          "opponent_record": null,
+          "opponent_record": {
+            "wins": 4,
+            "losses": 0,
+            "ot_losses": 0
+          },
           "my_score": 24,
           "opp_score": 48,
           "won": false,
@@ -19019,15 +19123,15 @@
       "team": "Camdenton",
       "class": 5,
       "district": 5,
-      "total_points": 46.8333,
+      "total_points": 46.0,
       "components": {
         "avg_win_loss": 20.0,
         "avg_class_bonus": 3.3333,
         "avg_differential": 11.0,
-        "sos_term": 12.5
+        "sos_term": 11.6667
       },
       "games_played": 3,
-      "games_counted_in_sos": 2,
+      "games_counted_in_sos": 3,
       "record": {
         "wins": 3,
         "losses": 0
@@ -19036,9 +19140,13 @@
         {
           "date": "8/28/2026",
           "opponent": "Heritage (AR.)",
-          "opponent_classification_source": "out_of_state_no_record",
+          "opponent_classification_source": "out_of_state",
           "opponent_class": 6,
-          "opponent_record": null,
+          "opponent_record": {
+            "wins": 0,
+            "losses": 3,
+            "ot_losses": 0
+          },
           "my_score": 47,
           "opp_score": 40,
           "won": true,
@@ -19443,7 +19551,7 @@
         "sos_term": 15.0
       },
       "games_played": 3,
-      "games_counted_in_sos": 2,
+      "games_counted_in_sos": 3,
       "record": {
         "wins": 0,
         "losses": 3
@@ -19494,9 +19602,13 @@
         {
           "date": "9/11/2026",
           "opponent": "Mountain Home (AR.)",
-          "opponent_classification_source": "out_of_state_no_record",
+          "opponent_classification_source": "out_of_state",
           "opponent_class": 5,
-          "opponent_record": null,
+          "opponent_record": {
+            "wins": 2,
+            "losses": 1,
+            "ot_losses": 0
+          },
           "my_score": 21,
           "opp_score": 44,
           "won": false,
@@ -19853,15 +19965,15 @@
       "team": "Branson",
       "class": 5,
       "district": 6,
-      "total_points": 33.8333,
+      "total_points": 33.3333,
       "components": {
         "avg_win_loss": 16.6667,
         "avg_class_bonus": 0.0,
         "avg_differential": 4.6667,
-        "sos_term": 12.5
+        "sos_term": 12.0
       },
       "games_played": 3,
-      "games_counted_in_sos": 2,
+      "games_counted_in_sos": 3,
       "record": {
         "wins": 2,
         "losses": 1
@@ -19870,9 +19982,13 @@
         {
           "date": "8/28/2026",
           "opponent": "Harrison (AR.)",
-          "opponent_classification_source": "out_of_state_no_record",
+          "opponent_classification_source": "out_of_state",
           "opponent_class": 4,
-          "opponent_record": null,
+          "opponent_record": {
+            "wins": 1,
+            "losses": 1,
+            "ot_losses": 0
+          },
           "my_score": 16,
           "opp_score": 28,
           "won": false,
@@ -20090,7 +20206,7 @@
         "sos_term": 10.0
       },
       "games_played": 3,
-      "games_counted_in_sos": 2,
+      "games_counted_in_sos": 3,
       "record": {
         "wins": 2,
         "losses": 1
@@ -20141,9 +20257,13 @@
         {
           "date": "9/11/2026",
           "opponent": "Southeast",
-          "opponent_classification_source": "out_of_state_no_record",
+          "opponent_classification_source": "out_of_state",
           "opponent_class": 2,
-          "opponent_record": null,
+          "opponent_record": {
+            "wins": 0,
+            "losses": 3,
+            "ot_losses": 0
+          },
           "my_score": 63,
           "opp_score": 0,
           "won": true,
@@ -20162,15 +20282,15 @@
       "team": "Capital City",
       "class": 5,
       "district": 7,
-      "total_points": 32.1667,
+      "total_points": 33.0,
       "components": {
         "avg_win_loss": 13.3333,
         "avg_class_bonus": 6.6667,
         "avg_differential": -0.3333,
-        "sos_term": 12.5
+        "sos_term": 13.3333
       },
       "games_played": 3,
-      "games_counted_in_sos": 2,
+      "games_counted_in_sos": 3,
       "record": {
         "wins": 1,
         "losses": 2
@@ -20179,9 +20299,13 @@
         {
           "date": "8/28/2026",
           "opponent": "Conway (AR.)",
-          "opponent_classification_source": "out_of_state_no_record",
+          "opponent_classification_source": "out_of_state",
           "opponent_class": 6,
-          "opponent_record": null,
+          "opponent_record": {
+            "wins": 2,
+            "losses": 1,
+            "ot_losses": 0
+          },
           "my_score": 7,
           "opp_score": 45,
           "won": false,
@@ -21084,15 +21208,15 @@
       "team": "Lincoln College Prep",
       "class": 5,
       "district": 8,
-      "total_points": 22.6667,
+      "total_points": 21.8333,
       "components": {
         "avg_win_loss": 13.3333,
         "avg_class_bonus": 0.0,
         "avg_differential": -4.0,
-        "sos_term": 13.3333
+        "sos_term": 12.5
       },
       "games_played": 3,
-      "games_counted_in_sos": 2,
+      "games_counted_in_sos": 3,
       "record": {
         "wins": 1,
         "losses": 2
@@ -21143,9 +21267,13 @@
         {
           "date": "9/11/2026",
           "opponent": "Shawnee Mission South (KS.)",
-          "opponent_classification_source": "out_of_state_no_record",
+          "opponent_classification_source": "out_of_state",
           "opponent_class": 5,
-          "opponent_record": null,
+          "opponent_record": {
+            "wins": 1,
+            "losses": 1,
+            "ot_losses": 0
+          },
           "my_score": 7,
           "opp_score": 9,
           "won": false,
@@ -21250,15 +21378,15 @@
       "team": "Jackson",
       "class": 6,
       "district": 1,
-      "total_points": 53.0,
+      "total_points": 46.75,
       "components": {
         "avg_win_loss": 20.0,
         "avg_class_bonus": 0.0,
         "avg_differential": 13.0,
-        "sos_term": 20.0
+        "sos_term": 13.75
       },
       "games_played": 3,
-      "games_counted_in_sos": 1,
+      "games_counted_in_sos": 3,
       "record": {
         "wins": 3,
         "losses": 0
@@ -21267,9 +21395,13 @@
         {
           "date": "8/28/2026",
           "opponent": "Edwardsville (IL.)",
-          "opponent_classification_source": "out_of_state_no_record",
+          "opponent_classification_source": "out_of_state",
           "opponent_class": 6,
-          "opponent_record": null,
+          "opponent_record": {
+            "wins": 1,
+            "losses": 3,
+            "ot_losses": 0
+          },
           "my_score": 55,
           "opp_score": 7,
           "won": true,
@@ -21284,9 +21416,13 @@
         {
           "date": "9/4/2026",
           "opponent": "Louisville-Ballard (KY.)",
-          "opponent_classification_source": "out_of_state_no_record",
+          "opponent_classification_source": "out_of_state",
           "opponent_class": 6,
-          "opponent_record": null,
+          "opponent_record": {
+            "wins": 0,
+            "losses": 4,
+            "ot_losses": 0
+          },
           "my_score": 42,
           "opp_score": 6,
           "won": true,
@@ -21727,15 +21863,15 @@
       "team": "Christian Brothers College",
       "class": 6,
       "district": 2,
-      "total_points": 39.3333,
+      "total_points": 37.9048,
       "components": {
         "avg_win_loss": 16.6667,
         "avg_class_bonus": 0.0,
         "avg_differential": 2.6667,
-        "sos_term": 20.0
+        "sos_term": 18.5714
       },
       "games_played": 3,
-      "games_counted_in_sos": 2,
+      "games_counted_in_sos": 3,
       "record": {
         "wins": 2,
         "losses": 1
@@ -21744,9 +21880,13 @@
         {
           "date": "8/28/2026",
           "opponent": "Trinity Catholic (KY.)",
-          "opponent_classification_source": "out_of_state_no_record",
+          "opponent_classification_source": "out_of_state",
           "opponent_class": 6,
-          "opponent_record": null,
+          "opponent_record": {
+            "wins": 3,
+            "losses": 1,
+            "ot_losses": 0
+          },
           "my_score": 21,
           "opp_score": 52,
           "won": false,
@@ -22483,15 +22623,15 @@
       "team": "Troy Buchanan",
       "class": 6,
       "district": 4,
-      "total_points": 41.6667,
+      "total_points": 40.9524,
       "components": {
         "avg_win_loss": 18.3333,
         "avg_class_bonus": 0.0,
         "avg_differential": 8.3333,
-        "sos_term": 15.0
+        "sos_term": 14.2857
       },
       "games_played": 3,
-      "games_counted_in_sos": 2,
+      "games_counted_in_sos": 3,
       "record": {
         "wins": 2,
         "losses": 1
@@ -22521,9 +22661,13 @@
         {
           "date": "9/4/2026",
           "opponent": "O'Fallon (IL.)",
-          "opponent_classification_source": "out_of_state_no_record",
+          "opponent_classification_source": "out_of_state",
           "opponent_class": 6,
-          "opponent_record": null,
+          "opponent_record": {
+            "wins": 1,
+            "losses": 3,
+            "ot_losses": 0
+          },
           "my_score": 21,
           "opp_score": 0,
           "won": true,
@@ -22647,15 +22791,15 @@
       "team": "Francis Howell",
       "class": 6,
       "district": 4,
-      "total_points": 30.5,
+      "total_points": 27.2857,
       "components": {
         "avg_win_loss": 13.3333,
         "avg_class_bonus": 0.0,
         "avg_differential": -0.3333,
-        "sos_term": 17.5
+        "sos_term": 14.2857
       },
       "games_played": 3,
-      "games_counted_in_sos": 2,
+      "games_counted_in_sos": 3,
       "record": {
         "wins": 1,
         "losses": 2
@@ -22664,9 +22808,13 @@
         {
           "date": "8/28/2026",
           "opponent": "O'Fallon (IL.)",
-          "opponent_classification_source": "out_of_state_no_record",
+          "opponent_classification_source": "out_of_state",
           "opponent_class": 6,
-          "opponent_record": null,
+          "opponent_record": {
+            "wins": 1,
+            "losses": 3,
+            "ot_losses": 0
+          },
           "my_score": 26,
           "opp_score": 27,
           "won": false,
@@ -23403,15 +23551,15 @@
       "team": "Lee's Summit North",
       "class": 6,
       "district": 6,
-      "total_points": 39.5,
+      "total_points": 40.3333,
       "components": {
         "avg_win_loss": 16.6667,
         "avg_class_bonus": 0.0,
         "avg_differential": 5.3333,
-        "sos_term": 17.5
+        "sos_term": 18.3333
       },
       "games_played": 3,
-      "games_counted_in_sos": 2,
+      "games_counted_in_sos": 3,
       "record": {
         "wins": 2,
         "losses": 1
@@ -23441,9 +23589,13 @@
         {
           "date": "9/4/2026",
           "opponent": "Millard South (NE.)",
-          "opponent_classification_source": "out_of_state_no_record",
+          "opponent_classification_source": "out_of_state",
           "opponent_class": 6,
-          "opponent_record": null,
+          "opponent_record": {
+            "wins": 3,
+            "losses": 0,
+            "ot_losses": 0
+          },
           "my_score": 14,
           "opp_score": 24,
           "won": false,
@@ -23651,15 +23803,15 @@
       "team": "Lee's Summit",
       "class": 6,
       "district": 6,
-      "total_points": 30.3333,
+      "total_points": 32.0,
       "components": {
         "avg_win_loss": 16.6667,
         "avg_class_bonus": 0.0,
         "avg_differential": -1.3333,
-        "sos_term": 15.0
+        "sos_term": 16.6667
       },
       "games_played": 3,
-      "games_counted_in_sos": 2,
+      "games_counted_in_sos": 3,
       "record": {
         "wins": 2,
         "losses": 1
@@ -23689,9 +23841,13 @@
         {
           "date": "9/4/2026",
           "opponent": "Omaha Westside (NE.)",
-          "opponent_classification_source": "out_of_state_no_record",
+          "opponent_classification_source": "out_of_state",
           "opponent_class": 6,
-          "opponent_record": null,
+          "opponent_record": {
+            "wins": 3,
+            "losses": 0,
+            "ot_losses": 0
+          },
           "my_score": 14,
           "opp_score": 35,
           "won": false,
@@ -23817,15 +23973,15 @@
       "team": "Raymore-Peculiar",
       "class": 6,
       "district": 7,
-      "total_points": 44.6667,
+      "total_points": 43.6667,
       "components": {
         "avg_win_loss": 20.0,
         "avg_class_bonus": 0.0,
         "avg_differential": 9.6667,
-        "sos_term": 15.0
+        "sos_term": 14.0
       },
       "games_played": 3,
-      "games_counted_in_sos": 2,
+      "games_counted_in_sos": 3,
       "record": {
         "wins": 3,
         "losses": 0
@@ -23876,9 +24032,13 @@
         {
           "date": "9/11/2026",
           "opponent": "Shawnee Mission Northwest (KS.)",
-          "opponent_classification_source": "out_of_state_no_record",
+          "opponent_classification_source": "out_of_state",
           "opponent_class": 5,
-          "opponent_record": null,
+          "opponent_record": {
+            "wins": 0,
+            "losses": 2,
+            "ot_losses": 0
+          },
           "my_score": 42,
           "opp_score": 12,
           "won": true,
@@ -23897,15 +24057,15 @@
       "team": "Rockhurst",
       "class": 6,
       "district": 7,
-      "total_points": 40.3333,
+      "total_points": 37.8333,
       "components": {
         "avg_win_loss": 16.6667,
         "avg_class_bonus": 0.0,
         "avg_differential": 3.6667,
-        "sos_term": 20.0
+        "sos_term": 17.5
       },
       "games_played": 3,
-      "games_counted_in_sos": 1,
+      "games_counted_in_sos": 3,
       "record": {
         "wins": 2,
         "losses": 1
@@ -23935,9 +24095,13 @@
         {
           "date": "9/4/2026",
           "opponent": "Manhattan (KS.)",
-          "opponent_classification_source": "out_of_state_no_record",
+          "opponent_classification_source": "out_of_state",
           "opponent_class": 6,
-          "opponent_record": null,
+          "opponent_record": {
+            "wins": 0,
+            "losses": 2,
+            "ot_losses": 0
+          },
           "my_score": 32,
           "opp_score": 28,
           "won": true,
@@ -23952,9 +24116,13 @@
         {
           "date": "9/10/2026",
           "opponent": "Shawnee Mission East (KS.)",
-          "opponent_classification_source": "out_of_state_no_record",
+          "opponent_classification_source": "out_of_state",
           "opponent_class": 5,
-          "opponent_record": null,
+          "opponent_record": {
+            "wins": 1,
+            "losses": 1,
+            "ot_losses": 0
+          },
           "my_score": 34,
           "opp_score": 0,
           "won": true,
@@ -24227,15 +24395,15 @@
       "team": "Staley",
       "class": 6,
       "district": 8,
-      "total_points": 45.3333,
+      "total_points": 44.3333,
       "components": {
         "avg_win_loss": 20.0,
         "avg_class_bonus": 0.0,
         "avg_differential": 10.3333,
-        "sos_term": 15.0
+        "sos_term": 14.0
       },
       "games_played": 3,
-      "games_counted_in_sos": 2,
+      "games_counted_in_sos": 3,
       "record": {
         "wins": 3,
         "losses": 0
@@ -24286,9 +24454,13 @@
         {
           "date": "9/11/2026",
           "opponent": "Olathe East (KS.)",
-          "opponent_classification_source": "out_of_state_no_record",
+          "opponent_classification_source": "out_of_state",
           "opponent_class": 6,
-          "opponent_record": null,
+          "opponent_record": {
+            "wins": 0,
+            "losses": 2,
+            "ot_losses": 0
+          },
           "my_score": 21,
           "opp_score": 8,
           "won": true,
