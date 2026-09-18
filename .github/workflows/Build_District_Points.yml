@@ -1,16 +1,18 @@
 name: Build District Points (2026)
  
-# Runs automatically whenever football_games_2026_all.json or
-# classifications.json change in this repo -- which happens right after
-# the local scraper (Task Scheduler) pushes new results. No MSHSAA
-# access here, so this is safe to run on GitHub-hosted runners even
-# though the scraper itself had to move local.
+# Runs automatically whenever football_games_2026_all_district_points.csv,
+# classifications.json, out_of_state_classifications.json, or
+# out_of_state_records.json change in this repo. No MSHSAA access here,
+# so this is safe to run on GitHub-hosted runners even though the
+# scrapers that PRODUCE these files had to move off GitHub Actions.
  
 on:
   push:
     paths:
-      - 'football_games_2026_all.json'
+      - 'football_games_2026_all_district_points.csv'
       - 'classifications.json'
+      - 'out_of_state_classifications.json'
+      - 'out_of_state_records.json'
   workflow_dispatch:   # manual trigger from the Actions tab, for testing
  
 permissions:
@@ -31,7 +33,7 @@ jobs:
           python-version: '3.11'
  
       # No pip install step needed -- build_district_points.py only
-      # uses the standard library (json, collections).
+      # uses the standard library (json, csv, collections).
  
       - name: Run aggregation script
         run: python build_district_points.py
