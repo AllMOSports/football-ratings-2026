@@ -33,7 +33,7 @@ jobs:
           python-version: '3.11'
  
       # No pip install step needed -- build_district_points.py only
-      # uses the standard library (json, csv, collections).
+      # uses the standard library (json, csv, collections, datetime).
  
       - name: Run aggregation script
         run: python build_district_points.py
@@ -42,6 +42,6 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add district_points_2026.json
+          git add district_points_2026.json district_points_2026.csv
           git diff --cached --quiet && echo "No changes to commit" || git commit -m "Update district points [automated]"
           git push
