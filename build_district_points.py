@@ -83,6 +83,7 @@ from collections import defaultdict
 GAMES_PATH = "football_games_2026_all_district_points.csv"
 CLASS_PATH = "classifications.json"
 OOS_CLASS_PATH = "out_of_state_classifications.json"
+OOS_RECORDS_PATH = "out_of_state_records.json"
 OUTPUT_PATH = "district_points_2026.json"
  
 POINTS = {
@@ -121,6 +122,22 @@ def load_out_of_state_classifications(path):
     """{team_name: class_int} -- flattens the richer {enrollment, class, note} records."""
     data = json.load(open(path))
     return {name: info["class"] for name, info in data.items()}
+ 
+ 
+def load_out_of_state_records(path):
+    """
+    {team_name: {"wins": int, "losses": int}} from scrape_out_of_state_records.py.
+    Tolerant of the file not existing yet (e.g. first run, before that
+    scraper has ever been executed) -- out-of-state opponents just fall
+    back to contributing no SOS value, same as before this was added.
+    """
+    try:
+        data = json.load(open(path))
+    except FileNotFoundError:
+        print(f"NOTE: {path} not found -- out-of-state opponents will get a "
+              f"class bonus but no SOS contribution until it's generated.")
+        return {}
+    return {name: {"wins": info["wins"], "losses": info["losses"]} for name, info in data.items()}
  
  
 def load_games(path):
@@ -187,7 +204,7 @@ def build_schedules_and_records(games):
     return schedule, record
  
  
-def compute_team_points(team, schedule, record, team_class, oos_class):
+def compute_team_points(team, schedule, record, team_class, oos_class, oos_records):
     games = schedule.get(team, [])
     n_total = len(games)
     if n_total == 0:
@@ -204,13 +221,14 @@ def compute_team_points(team, schedule, record, team_class, oos_class):
     for g in games:
         opp = g["opponent"]
         opp_in_state = opp in team_class
+        opp_oos_record = oos_records.get(opp) if not opp_in_state else None
  
         if opp_in_state:
             opp_class = team_class.get(opp)
             source = "in_state"
         elif opp in oos_class:
             opp_class = oos_class.get(opp)
-            source = "out_of_state"
+            source = "out_of_state" if opp_oos_record else "out_of_state_no_record"
         else:
             opp_class = None
             source = "unknown"
@@ -224,7 +242,7 @@ def compute_team_points(team, schedule, record, team_class, oos_class):
             t_pts = POINTS["win"] if g["won"] else POINTS["loss"]
         sum_T += t_pts
  
-        # U: playing-up-in-class bonus -- now works for out-of-state opponents too
+        # U: playing-up-in-class bonus -- works for out-of-state opponents too
         if my_class is not None and opp_class is not None and opp_class > my_class:
             u_pts = (opp_class - my_class) * POINTS["class_step"]
         else:
@@ -236,16 +254,27 @@ def compute_team_points(team, schedule, record, team_class, oos_class):
         x_pts = max(-POINTS["diff_cap"], min(POINTS["diff_cap"], diff))
         sum_X += x_pts
  
-        # V/W/Y: opponent quality (SOS term) -- ONLY for in-state opponents,
-        # whose full-season record we actually have. Out-of-state/unknown
-        # opponents are skipped here AND excluded from n_sos, together.
+        # V/W/Y: opponent quality (SOS term) -- needs a real win/loss record.
+        # In-state opponents always have one (their full schedule is scraped
+        # directly). Out-of-state opponents only have one once
+        # scrape_out_of_state_records.py has found them; per Tyler's call,
+        # their OT-loss count is always treated as 0 (not scraped, and not
+        # worth the added complexity for how few of these games there are).
+        # Anyone else (out-of-state with no record yet, or fully unknown)
+        # is skipped here AND excluded from n_sos, together, so the SOS
+        # term stays mathematically consistent rather than penalizing a
+        # team for playing a game we can't fully price yet.
         opp_w = opp_l = opp_ot = 0
-        v_pts = w_pts = y_pts = None
+        has_record = False
         if opp_in_state:
             opp_rec = record.get(opp, {"wins": 0, "losses": 0, "ot_losses": 0})
-            opp_w = opp_rec["wins"]
-            opp_l = opp_rec["losses"]
-            opp_ot = opp_rec["ot_losses"]
+            opp_w, opp_l, opp_ot = opp_rec["wins"], opp_rec["losses"], opp_rec["ot_losses"]
+            has_record = True
+        elif opp_oos_record:
+            opp_w, opp_l, opp_ot = opp_oos_record["wins"], opp_oos_record["losses"], 0
+            has_record = True
+ 
+        if has_record:
             v_pts = opp_w * POINTS["opp_win"]
             w_pts = (opp_ot * POINTS["opp_ot_loss"]) + ((opp_l - opp_ot) * POINTS["opp_loss"])
             y_pts = POINTS["loss"] if g["won"] else POINTS["win"]
@@ -263,7 +292,7 @@ def compute_team_points(team, schedule, record, team_class, oos_class):
             "opponent_classification_source": source,
             "opponent_class": opp_class,
             "opponent_record": (
-                {"wins": opp_w, "losses": opp_l, "ot_losses": opp_ot} if opp_in_state else None
+                {"wins": opp_w, "losses": opp_l, "ot_losses": opp_ot} if has_record else None
             ),
             "my_score": g["my_score"],
             "opp_score": g["opp_score"],
@@ -304,17 +333,19 @@ def compute_team_points(team, schedule, record, team_class, oos_class):
 def main():
     team_class, team_district = load_classifications(CLASS_PATH)
     oos_class = load_out_of_state_classifications(OOS_CLASS_PATH)
+    oos_records = load_out_of_state_records(OOS_RECORDS_PATH)
     games = load_games(GAMES_PATH)
     schedule, record = build_schedules_and_records(games)
  
     districts = defaultdict(list)
     teams_with_no_games = []
     total_oos_games_scored = 0
+    total_oos_games_no_record = 0
     total_unknown_games = 0
  
     for team, cls in team_class.items():
         district = team_district.get(team)
-        result = compute_team_points(team, schedule, record, team_class, oos_class)
+        result = compute_team_points(team, schedule, record, team_class, oos_class, oos_records)
         if result is None:
             teams_with_no_games.append(team)
             continue
@@ -322,6 +353,8 @@ def main():
         for g in result["games"]:
             if g["opponent_classification_source"] == "out_of_state":
                 total_oos_games_scored += 1
+            elif g["opponent_classification_source"] == "out_of_state_no_record":
+                total_oos_games_no_record += 1
             elif g["opponent_classification_source"] == "unknown":
                 total_unknown_games += 1
  
@@ -349,7 +382,8 @@ def main():
     print(f"Districts: {len(output)}")
     print(f"Teams with points computed: {sum(len(v) for v in output.values())}")
     print(f"Teams with no played games yet (excluded): {len(teams_with_no_games)}")
-    print(f"Games scored with an out-of-state opponent (class bonus only, no SOS contribution): {total_oos_games_scored}")
+    print(f"Games scored with an out-of-state opponent, WITH a record (full SOS contribution): {total_oos_games_scored}")
+    print(f"Games scored with an out-of-state opponent, NO record yet (class bonus only): {total_oos_games_no_record}")
     print(f"Games with a fully unknown opponent (no class, no SOS contribution): {total_unknown_games}")
  
  
