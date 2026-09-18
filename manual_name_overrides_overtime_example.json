@@ -1,5 +1,29 @@
 {
   "overtime_games": [
-    { "date": "2026-08-28", "team1": "Eureka", "team2": "Troy Buchanan" }
+    {
+      "date": "2026-08-28",
+      "team1": "Eureka",
+      "team2": "Troy Buchanan"
+    },
+    {
+      "date": "2026-09-04",
+      "team1": "Sikeston",
+      "team2": "Dexter"
+    },
+    {
+      "date": "2026-09-11",
+      "team1": "Washington",
+      "team2": "St. Francis Borgia"
+    },
+    {
+      "date": "2026-09-04",
+      "team1": "Cameron",
+      "team2": "Lawson"
+    },
+    {
+      "date": "2026-09-11",
+      "team1": "Ft. Zumwalt West",
+      "team2": "Ft. Zumwalt North"
+    }
   ]
 }
