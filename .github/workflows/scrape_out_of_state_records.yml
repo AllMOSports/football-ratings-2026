@@ -1,0 +1,46 @@
+name: Scrape Out-of-State Opponent Records (2026)
+ 
+# MANUAL TRIGGER ONLY -- no schedule, no push-based auto-trigger. Run this
+# from the Actions tab whenever you want a fresh pull. This script hits
+# mshsaa.org directly (same as the main scoreboard scraper originally did),
+# so there's a real chance GitHub's runner IPs are blocked or get blocked
+# by running this -- that's exactly why this isn't automatic. Watch the
+# run's log for request failures if it doesn't behave as expected.
+ 
+on:
+  workflow_dispatch:
+ 
+permissions:
+  contents: write
+ 
+jobs:
+  scrape:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15   # 57 team pages with a courtesy delay between each;
+                           # see timing discussion -- normally under 2 min,
+                           # longer if requests are slow/retrying
+ 
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+ 
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+ 
+      - name: Install Python dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install requests beautifulsoup4
+ 
+      - name: Run out-of-state records scraper
+        run: python scrape_out_of_state_records.py
+ 
+      - name: Commit and push results
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add out_of_state_records.json
+          git diff --cached --quiet && echo "No changes to commit" || git commit -m "Update out-of-state opponent records [manual run]"
+          git push
