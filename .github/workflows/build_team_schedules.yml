@@ -1,0 +1,61 @@
+name: Build Team Schedules (2026)
+ 
+# Runs automatically after "Build District Points (2026)" finishes
+# successfully -- NOT on a push trigger watching district_points_2026.json,
+# because that file only ever changes via that other workflow's own
+# github-actions[bot] commit, and GitHub Actions deliberately does not let
+# a default-GITHUB_TOKEN commit trigger other push-based workflows (a
+# loop-prevention safeguard). workflow_run is the correct way to chain two
+# workflows together instead.
+#
+# No MSHSAA access here either -- pure local computation reading the games
+# CSV, classifications, and the already-computed district_points_2026.json
+# -- so this is safe on GitHub-hosted runners.
+ 
+on:
+  workflow_run:
+    workflows: ["Build District Points (2026)"]
+    types:
+      - completed
+  workflow_dispatch:   # manual trigger from the Actions tab, for testing
+ 
+permissions:
+  contents: write
+ 
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    # Only proceed if triggered manually, or if the upstream workflow
+    # actually succeeded (skip if IT failed -- no point building schedules
+    # off a district_points_2026.json that didn't get updated).
+    if: >
+      github.event_name == 'workflow_dispatch' ||
+      github.event.workflow_run.conclusion == 'success'
+    timeout-minutes: 5   # pure local computation, should finish in seconds
+ 
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+        with:
+          # Pull the exact commit the upstream run completed on, not just
+          # whatever the default branch happens to be at trigger time.
+          ref: ${{ github.event.workflow_run.head_sha || github.ref }}
+ 
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+ 
+      # No pip install step needed -- build_team_schedules.py only uses
+      # the standard library (json, csv).
+ 
+      - name: Run team schedules builder
+        run: python build_team_schedules.py
+ 
+      - name: Commit and push results
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add team_schedules_2026.json
+          git diff --cached --quiet && echo "No changes to commit" || git commit -m "Update team schedules [automated]"
+          git push
