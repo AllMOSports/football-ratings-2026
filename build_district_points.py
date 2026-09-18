@@ -87,6 +87,7 @@ OOS_CLASS_PATH = "out_of_state_classifications.json"
 OOS_RECORDS_PATH = "out_of_state_records.json"
 MANUAL_OVERRIDES_PATH = "manual_overrides.json"
 OUTPUT_PATH = "district_points_2026.json"
+OUTPUT_CSV_PATH = "district_points_2026.csv"
  
 POINTS = {
     "win": 20,
@@ -397,6 +398,45 @@ def compute_team_points(team, schedule, record, team_class, oos_class, oos_recor
     }
  
  
+def write_csv(output, path):
+    """
+    One row per team, standings-style -- district, rank, total points and
+    its components, record. This is a summary view for eyeballing results
+    quickly; per-game detail (opponent-by-opponent breakdown) stays in the
+    JSON only, since that level of detail doesn't flatten cleanly into one
+    row per team. Districts are written in class/district order, teams
+    within a district in rank order, matching how the JSON is already sorted.
+    """
+    fieldnames = [
+        "class", "district", "rank", "team", "total_points",
+        "wins", "losses", "games_played", "games_counted_in_sos",
+        "avg_win_loss", "avg_class_bonus", "avg_differential", "sos_term",
+    ]
+    with open(path, "w", newline="") as f:
+        writer = csv.DictWriter(f, fieldnames=fieldnames)
+        writer.writeheader()
+        for key in sorted(output.keys(), key=lambda k: (
+            int(k.split("_")[0].replace("class", "")),
+            int(k.split("_")[1].replace("district", "")),
+        )):
+            for t in output[key]:
+                writer.writerow({
+                    "class": t["class"],
+                    "district": t["district"],
+                    "rank": t["rank"],
+                    "team": t["team"],
+                    "total_points": t["total_points"],
+                    "wins": t["record"]["wins"],
+                    "losses": t["record"]["losses"],
+                    "games_played": t["games_played"],
+                    "games_counted_in_sos": t["games_counted_in_sos"],
+                    "avg_win_loss": t["components"]["avg_win_loss"],
+                    "avg_class_bonus": t["components"]["avg_class_bonus"],
+                    "avg_differential": t["components"]["avg_differential"],
+                    "sos_term": t["components"]["sos_term"],
+                })
+ 
+ 
 def main():
     team_class, team_district = load_classifications(CLASS_PATH)
     oos_class = load_out_of_state_classifications(OOS_CLASS_PATH)
@@ -455,8 +495,10 @@ def main():
  
     with open(OUTPUT_PATH, "w") as f:
         json.dump(output, f, indent=2)
+    write_csv(output, OUTPUT_CSV_PATH)
  
     print(f"Wrote {OUTPUT_PATH}")
+    print(f"Wrote {OUTPUT_CSV_PATH}")
     print(f"Districts: {len(output)}")
     print(f"Teams with points computed: {sum(len(v) for v in output.values())}")
     print(f"Teams with no played games yet (excluded): {len(teams_with_no_games)}")
