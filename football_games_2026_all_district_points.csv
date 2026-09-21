@@ -472,7 +472,7 @@ date,team1,team1_classified,score1,team2,team2_classified,score2,forfeit,overtim
 9/18/2026,Warsaw,TRUE,28,Adrian,TRUE,12,FALSE,FALSE
 9/18/2026,Clayton with Brentwood,TRUE,19,Affton,TRUE,48,FALSE,FALSE
 9/18/2026,Miller,TRUE,40,Ash Grove,TRUE,0,FALSE,FALSE
-9/18/2026,Nevada,TRUE,13,Aurora,TRUE,0,FALSE,FALSE
+9/18/2026,Nevada,TRUE,13,Aurora,TRUE,0,TRUE,FALSE
 9/18/2026,Liberty (Mountain View),TRUE,14,Ava,TRUE,17,FALSE,FALSE
 9/18/2026,Perryville,TRUE,35,Bayless with Hancock,TRUE,14,FALSE,FALSE
 9/18/2026,Winnetonka,TRUE,34,Belton,TRUE,46,FALSE,FALSE
