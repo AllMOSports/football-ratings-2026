@@ -24,6 +24,16 @@
       "date": "2026-09-11",
       "team1": "Ft. Zumwalt West",
       "team2": "Ft. Zumwalt North"
+    },
+    {
+      "date": "2026-09-18",
+      "team1": "Lexington",
+      "team2": "Crest Ridge"
+    },
+    {
+      "date": "2026-09-18",
+      "team1": "Washington",
+      "team2": "Ft. Zumwalt South"
     }
   ]
 }
