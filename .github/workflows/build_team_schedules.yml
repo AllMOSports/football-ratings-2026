@@ -36,10 +36,13 @@ jobs:
     steps:
       - name: Checkout repo
         uses: actions/checkout@v4
-        with:
-          # Pull the exact commit the upstream run completed on, not just
-          # whatever the default branch happens to be at trigger time.
-          ref: ${{ github.event.workflow_run.head_sha || github.ref }}
+        # No custom `ref:` here -- checking out a specific commit SHA
+        # (what this used to do) puts git in detached HEAD state, which
+        # is exactly what caused "fatal: You are not currently on a
+        # branch" on push. The default checkout behavior for workflow_run
+        # already resolves to the repo's default branch as a real branch,
+        # which is what we actually want (the upstream workflow's commit
+        # is already on that branch by the time this one runs).
  
       - name: Set up Python
         uses: actions/setup-python@v5
