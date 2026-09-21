@@ -13885,12 +13885,12 @@
       "team": "Reeds Spring",
       "class": 3,
       "district": 6,
-      "total_points": 25.0455,
+      "total_points": 24.6667,
       "components": {
         "avg_win_loss": 12.5,
         "avg_class_bonus": 7.5,
         "avg_differential": -9.5,
-        "sos_term": 14.5455
+        "sos_term": 14.1667
       },
       "games_played": 4,
       "games_counted_in_sos": 4,
@@ -13906,7 +13906,7 @@
           "opponent_class": 5,
           "opponent_record": {
             "wins": 0,
-            "losses": 3,
+            "losses": 4,
             "ot_losses": 0
           },
           "my_score": 7,
@@ -18983,12 +18983,12 @@
       "team": "Logan-Rogersville",
       "class": 4,
       "district": 6,
-      "total_points": 50.0455,
+      "total_points": 49.6667,
       "components": {
         "avg_win_loss": 20.0,
         "avg_class_bonus": 2.5,
         "avg_differential": 13.0,
-        "sos_term": 14.5455
+        "sos_term": 14.1667
       },
       "games_played": 4,
       "games_counted_in_sos": 4,
@@ -19067,7 +19067,7 @@
           "opponent_class": 5,
           "opponent_record": {
             "wins": 0,
-            "losses": 3,
+            "losses": 4,
             "ot_losses": 0
           },
           "my_score": 58,
@@ -19403,12 +19403,12 @@
       "team": "Hillcrest",
       "class": 4,
       "district": 6,
-      "total_points": 28.5833,
+      "total_points": 27.8889,
       "components": {
         "avg_win_loss": 13.3333,
         "avg_class_bonus": 3.3333,
         "avg_differential": -4.3333,
-        "sos_term": 16.25
+        "sos_term": 15.5556
       },
       "games_played": 3,
       "games_counted_in_sos": 3,
@@ -19445,7 +19445,7 @@
           "opponent_class": 5,
           "opponent_record": {
             "wins": 0,
-            "losses": 3,
+            "losses": 4,
             "ot_losses": 0
           },
           "my_score": 41,
@@ -25257,18 +25257,18 @@
       "team": "Parkview",
       "class": 5,
       "district": 6,
-      "total_points": 14.75,
+      "total_points": 13.0,
       "components": {
         "avg_win_loss": 10.0,
         "avg_class_bonus": 0.0,
-        "avg_differential": -9.0,
-        "sos_term": 13.75
+        "avg_differential": -10.0,
+        "sos_term": 13.0
       },
-      "games_played": 3,
-      "games_counted_in_sos": 3,
+      "games_played": 4,
+      "games_counted_in_sos": 4,
       "record": {
         "wins": 0,
-        "losses": 3
+        "losses": 4
       },
       "games": [
         {
@@ -25290,6 +25290,27 @@
             "win_loss": 10,
             "class_bonus": 0,
             "differential": -1
+          }
+        },
+        {
+          "date": "9/4/2026",
+          "opponent": "Lighthouse Sr. High",
+          "opponent_classification_source": "out_of_state",
+          "opponent_class": 1,
+          "opponent_record": {
+            "wins": 1,
+            "losses": 2,
+            "ot_losses": 0
+          },
+          "my_score": 14,
+          "opp_score": 42,
+          "won": false,
+          "overtime": false,
+          "forfeit": false,
+          "points": {
+            "win_loss": 10,
+            "class_bonus": 0,
+            "differential": -13
           }
         },
         {
