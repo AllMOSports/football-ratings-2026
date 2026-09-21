@@ -177,7 +177,7 @@ ITERATIONS            = 1000 # same as football_ratings_2025.py -- cheap even wi
 # final rating as K drops, so going too low re-introduces the instability
 # problem this anchor exists to prevent (see the module docstring's
 # "WHY THIS REPLACED THE OLDER VERSION" section) -- just in fewer-games form.
-PRIOR_ANCHOR_K = 0.435
+PRIOR_ANCHOR_K = 0.75
  
 # RATING DIFFERENTIAL GUIDE: a game is only counted toward the fit at all if
 # the two teams' STARTING rating gap is <= this value. Added after a real
@@ -435,7 +435,11 @@ def load_played_games(path):
     skipped_unplayed = 0
     skipped_after_cutoff = 0
     for g in all_games:
-        if THROUGH_DATE is not None and g["date"] > THROUGH_DATE:
+        # A None date can't be compared to THROUGH_DATE at all -- treat it
+        # as "unknown, don't exclude" rather than crash (see the None-date
+        # handling note in the dates-covered summary below for the same
+        # underlying data-quality issue).
+        if THROUGH_DATE is not None and g["date"] is not None and g["date"] > THROUGH_DATE:
             skipped_after_cutoff += 1
             continue
         if EXCLUDE_FORFEITS and g.get("forfeit"):
@@ -457,8 +461,22 @@ def load_played_games(path):
           + (f", {skipped_after_cutoff} after THROUGH_DATE" if THROUGH_DATE else "")
           + ")")
     if played:
-        weeks = sorted(set(g["date"] for g in played))
-        print(f"  Dates covered: {weeks[0]} through {weeks[-1]} ({len(weeks)} distinct dates)")
+        # Some games in the source file have date: null even when scored
+        # (a known upstream data-quality issue -- see the games-file date
+        # note elsewhere). Filter those out before sorting, since sorting
+        # a mix of strings and None crashes outright, and just report how
+        # many games had no date on record alongside whatever range the
+        # dated games do cover.
+        dated = sorted(g["date"] for g in played if g["date"] is not None)
+        undated_count = len(played) - len(dated)
+        if dated:
+            weeks = sorted(set(dated))
+            msg = f"  Dates covered: {weeks[0]} through {weeks[-1]} ({len(weeks)} distinct dates)"
+            if undated_count:
+                msg += f", plus {undated_count} game(s) with no date on record"
+            print(msg)
+        else:
+            print(f"  {undated_count} game(s) have no date on record (no dates available for any played game)")
     return played
  
  
