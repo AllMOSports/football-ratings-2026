@@ -15494,7 +15494,7 @@
   "Reeds Spring": {
     "class": 3,
     "district": 6,
-    "current_total_points": 25.0455,
+    "current_total_points": 24.6667,
     "current_rank": 5,
     "games": [
       {
@@ -21234,7 +21234,7 @@
   "Hillcrest": {
     "class": 4,
     "district": 6,
-    "current_total_points": 28.5833,
+    "current_total_points": 27.8889,
     "current_rank": 5,
     "games": [
       {
@@ -21338,7 +21338,7 @@
   "Logan-Rogersville": {
     "class": 4,
     "district": 6,
-    "current_total_points": 50.0455,
+    "current_total_points": 49.6667,
     "current_rank": 1,
     "games": [
       {
@@ -27602,7 +27602,7 @@
   "Parkview": {
     "class": 5,
     "district": 6,
-    "current_total_points": 14.75,
+    "current_total_points": 13.0,
     "current_rank": 7,
     "games": [
       {
@@ -27613,6 +27613,18 @@
         "played": true,
         "my_score": 6,
         "opp_score": 7,
+        "won": false,
+        "overtime": false,
+        "forfeit": false
+      },
+      {
+        "date": "9/4/2026",
+        "opponent": "Lighthouse Sr. High",
+        "opponent_type": "out_of_state",
+        "opponent_class": 1,
+        "played": true,
+        "my_score": 14,
+        "opp_score": 42,
         "won": false,
         "overtime": false,
         "forfeit": false
