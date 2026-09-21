@@ -13570,9 +13570,9 @@
       "team": "Nevada",
       "class": 3,
       "district": 6,
-      "total_points": 45.9167,
+      "total_points": 42.1667,
       "components": {
-        "avg_win_loss": 20.0,
+        "avg_win_loss": 16.25,
         "avg_class_bonus": 5.0,
         "avg_differential": 6.75,
         "sos_term": 14.1667
@@ -13661,9 +13661,9 @@
           "opp_score": 0,
           "won": true,
           "overtime": false,
-          "forfeit": false,
+          "forfeit": true,
           "points": {
-            "win_loss": 20,
+            "win_loss": 5,
             "class_bonus": 0,
             "differential": 13
           }
@@ -13987,111 +13987,6 @@
       "rank": 5
     },
     {
-      "team": "Aurora",
-      "class": 3,
-      "district": 6,
-      "total_points": 14.5,
-      "components": {
-        "avg_win_loss": 10.0,
-        "avg_class_bonus": 0.0,
-        "avg_differential": -13.0,
-        "sos_term": 17.5
-      },
-      "games_played": 4,
-      "games_counted_in_sos": 4,
-      "record": {
-        "wins": 0,
-        "losses": 4
-      },
-      "games": [
-        {
-          "date": "8/28/2026",
-          "opponent": "Lamar",
-          "opponent_classification_source": "in_state",
-          "opponent_class": 2,
-          "opponent_record": {
-            "wins": 4,
-            "losses": 0,
-            "ot_losses": 0
-          },
-          "my_score": 13,
-          "opp_score": 49,
-          "won": false,
-          "overtime": false,
-          "forfeit": false,
-          "points": {
-            "win_loss": 10,
-            "class_bonus": 0,
-            "differential": -13
-          }
-        },
-        {
-          "date": "9/4/2026",
-          "opponent": "Cassville",
-          "opponent_classification_source": "in_state",
-          "opponent_class": 3,
-          "opponent_record": {
-            "wins": 4,
-            "losses": 0,
-            "ot_losses": 0
-          },
-          "my_score": 0,
-          "opp_score": 44,
-          "won": false,
-          "overtime": false,
-          "forfeit": false,
-          "points": {
-            "win_loss": 10,
-            "class_bonus": 0,
-            "differential": -13
-          }
-        },
-        {
-          "date": "9/11/2026",
-          "opponent": "Mt. Vernon",
-          "opponent_classification_source": "in_state",
-          "opponent_class": 3,
-          "opponent_record": {
-            "wins": 1,
-            "losses": 3,
-            "ot_losses": 0
-          },
-          "my_score": 0,
-          "opp_score": 26,
-          "won": false,
-          "overtime": false,
-          "forfeit": false,
-          "points": {
-            "win_loss": 10,
-            "class_bonus": 0,
-            "differential": -13
-          }
-        },
-        {
-          "date": "9/18/2026",
-          "opponent": "Nevada",
-          "opponent_classification_source": "in_state",
-          "opponent_class": 3,
-          "opponent_record": {
-            "wins": 4,
-            "losses": 0,
-            "ot_losses": 0
-          },
-          "my_score": 0,
-          "opp_score": 13,
-          "won": false,
-          "overtime": false,
-          "forfeit": false,
-          "points": {
-            "win_loss": 10,
-            "class_bonus": 0,
-            "differential": -13
-          }
-        }
-      ],
-      "rank": 6
-    },
-    {
       "team": "Hollister",
       "class": 3,
       "district": 6,
@@ -14189,6 +14084,111 @@
           "forfeit": false,
           "points": {
             "win_loss": 10,
+            "class_bonus": 0,
+            "differential": -13
+          }
+        }
+      ],
+      "rank": 6
+    },
+    {
+      "team": "Aurora",
+      "class": 3,
+      "district": 6,
+      "total_points": 13.25,
+      "components": {
+        "avg_win_loss": 8.75,
+        "avg_class_bonus": 0.0,
+        "avg_differential": -13.0,
+        "sos_term": 17.5
+      },
+      "games_played": 4,
+      "games_counted_in_sos": 4,
+      "record": {
+        "wins": 0,
+        "losses": 4
+      },
+      "games": [
+        {
+          "date": "8/28/2026",
+          "opponent": "Lamar",
+          "opponent_classification_source": "in_state",
+          "opponent_class": 2,
+          "opponent_record": {
+            "wins": 4,
+            "losses": 0,
+            "ot_losses": 0
+          },
+          "my_score": 13,
+          "opp_score": 49,
+          "won": false,
+          "overtime": false,
+          "forfeit": false,
+          "points": {
+            "win_loss": 10,
+            "class_bonus": 0,
+            "differential": -13
+          }
+        },
+        {
+          "date": "9/4/2026",
+          "opponent": "Cassville",
+          "opponent_classification_source": "in_state",
+          "opponent_class": 3,
+          "opponent_record": {
+            "wins": 4,
+            "losses": 0,
+            "ot_losses": 0
+          },
+          "my_score": 0,
+          "opp_score": 44,
+          "won": false,
+          "overtime": false,
+          "forfeit": false,
+          "points": {
+            "win_loss": 10,
+            "class_bonus": 0,
+            "differential": -13
+          }
+        },
+        {
+          "date": "9/11/2026",
+          "opponent": "Mt. Vernon",
+          "opponent_classification_source": "in_state",
+          "opponent_class": 3,
+          "opponent_record": {
+            "wins": 1,
+            "losses": 3,
+            "ot_losses": 0
+          },
+          "my_score": 0,
+          "opp_score": 26,
+          "won": false,
+          "overtime": false,
+          "forfeit": false,
+          "points": {
+            "win_loss": 10,
+            "class_bonus": 0,
+            "differential": -13
+          }
+        },
+        {
+          "date": "9/18/2026",
+          "opponent": "Nevada",
+          "opponent_classification_source": "in_state",
+          "opponent_class": 3,
+          "opponent_record": {
+            "wins": 4,
+            "losses": 0,
+            "ot_losses": 0
+          },
+          "my_score": 0,
+          "opp_score": 13,
+          "won": false,
+          "overtime": false,
+          "forfeit": true,
+          "points": {
+            "win_loss": 5,
             "class_bonus": 0,
             "differential": -13
           }
