@@ -143,7 +143,7 @@ HEADERS = {
     "User-Agent": (
         "Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
         "AppleWebKit/537.36 (KHTML, like Gecko) "
-        "Chrome/120.0.0.0 Safari/537.36"
+        "Chrome/152.0.0.0 Safari/537.36"
     ),
     "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
     "Accept-Language": "en-US,en;q=0.5",
@@ -300,52 +300,19 @@ def parse_score(text):
     return score if 0 <= score <= MAX_POINTS else None
  
  
-def is_forfeit(row1, row2, gamedetails_row=None):
+def is_forfeit(row1, row2):
+    return "forfeit" in (row1.get_text() + row2.get_text()).lower()
+ 
+ 
+def is_overtime(row1, row2):
     """
-    Scans the two team rows AND the <tr class="gamedetails"> status row
-    (e.g. the one holding "Final") for the word "forfeit". The
-    gamedetails row is where MSHSAA's own status text actually lives --
-    scanning only row1/row2 (the old behavior) misses it entirely if a
-    forfeit is ever flagged there instead of in the team rows.
-    gamedetails_row is optional so this still works if a table has no
-    such row.
-    """
-    text = row1.get_text() + row2.get_text()
-    if gamedetails_row is not None:
-        text += gamedetails_row.get_text()
-    return "forfeit" in text.lower()
- 
- 
-def is_overtime(row1, row2, gamedetails_row=None):
-    """
-    Text-based OT detection: looks for "overtime" or a standalone "OT"
-    token across the team rows and the <tr class="gamedetails"> status
-    row (e.g. a "Final/OT" flag, if MSHSAA ever adds one there).
- 
-    CONFIRMED NOT TO WORK on MSHSAA's week-view scoreboard, checked
-    2026-09 against Football_Week_1_View_Page_Source.txt: the
-    Eureka/Troy Buchanan game (Eureka won 49-48, a real OT game per
-    the user) has a gamedetails "outcome" span that reads only "Final"
-    -- no OT indicator anywhere in its markup. Checked EVERY game on
-    that page (182 total): every single outcome span says exactly
-    "Final", and there is no data-overtime or similar attribute on any
-    scoreboardGame div either. MSHSAA's week-view markup does not
-    expose OT status anywhere, for any game -- this function will
-    therefore always return False here, no matter how the regex is
-    tuned; the earlier "unverified, confirm once an OT game shows up"
-    note in this docstring turned out to have a definite answer, and
-    the answer is "the data just isn't on this page."
- 
-    Left in place as a harmless fallback in case MSHSAA's markup ever
-    changes, but OVERTIME STATUS SHOULD COME FROM THE MANUAL
-    overtime_games LIST IN manual_name_overrides.json INSTEAD -- see
-    apply_overtime_corrections(). If this function ever does fire,
-    treat it as a signal to go double-check the live page by hand
-    rather than as ground truth on its own.
+    First-pass OT detection: looks for "overtime" or a standalone "OT"
+    token in the game's row text (e.g. a "Final/OT" status flag some
+    scoreboards use). UNVERIFIED against a real MSHSAA OT game -- confirm
+    the actual wording once a live OT game shows up and adjust the regex
+    if needed.
     """
     text = row1.get_text() + " " + row2.get_text()
-    if gamedetails_row is not None:
-        text += " " + gamedetails_row.get_text()
     return bool(re.search(r"overtime|\bOT\b", text, re.IGNORECASE))
  
  
@@ -486,15 +453,6 @@ def scrape_week(week, id_to_classname, known_teams, session):
         if name1 == name2:
             continue
  
-        # The <tr class="gamedetails"> row holds MSHSAA's own status
-        # text (e.g. "Final") -- pass it to is_forfeit()/is_overtime()
-        # so they scan it too, not just the two team rows. See
-        # is_overtime()'s docstring: on the current week-view markup
-        # this row never actually contains OT info, but keeping this
-        # wired up costs nothing and means a future markup change gets
-        # picked up automatically instead of silently missed again.
-        gamedetails_row = table.find("tr", class_="gamedetails")
- 
         game_date = extract_game_date(table, row1, row2, SEASON_YEAR)
         if game_date is None:
             undated_count += 1
@@ -508,8 +466,8 @@ def scrape_week(week, id_to_classname, known_teams, session):
             "team2": name2,
             "team2_classified": classified2,
             "score2": s2,
-            "forfeit": is_forfeit(row1, row2, gamedetails_row),
-            "overtime": is_overtime(row1, row2, gamedetails_row),
+            "forfeit": is_forfeit(row1, row2),
+            "overtime": is_overtime(row1, row2),
         })
  
     if undated_count:
@@ -775,64 +733,6 @@ def apply_score_corrections(all_games, score_corrections):
     return all_games
  
  
-def load_overtime_corrections(path=MANUAL_OVERRIDES_PATH):
-    """
-    Loads the overtime_games list from the same overrides file used for
-    name/score corrections. Each entry is just {"date", "team1",
-    "team2"} -- unlike score_corrections there's no result to fill in,
-    just a flag, and team order doesn't matter (matched as an unordered
-    pair, same as everything else in this file).
- 
-    This exists because MSHSAA's week-view scoreboard markup never
-    exposes OT status for any game (confirmed against
-    Football_Week_1_View_Page_Source.txt -- see is_overtime()'s
-    docstring), so there's no live source to scrape it from at all.
-    Add an entry here by hand whenever you know a game went to OT.
-    """
-    try:
-        with open(path) as f:
-            data = json.load(f)
-    except FileNotFoundError:
-        return []
-    except json.JSONDecodeError:
-        # Same reasoning as load_manual_overrides()/load_score_corrections()
-        # -- a broken overrides file shouldn't take the whole run down.
-        # The warning already prints once, from load_manual_overrides().
-        return []
-    return data.get("overtime_games", [])
- 
- 
-def apply_overtime_corrections(all_games, overtime_games):
-    """
-    Marks each game matching an entry in overtime_games (by date + the
-    unordered pair of team names) as overtime=True.
- 
-    Unlike apply_score_corrections(), this is NOT conditional on the
-    site's own value -- there's no live "site wins" case to defer to,
-    since MSHSAA's markup never populates this field on its own (see
-    is_overtime()'s docstring). This function unconditionally sets True
-    for matches, but never sets False for non-matches -- so a
-    same-page text hit from is_overtime()'s fallback isn't silently
-    clobbered back to False by an empty/non-matching overtime_games
-    list.
-    """
-    if not overtime_games:
-        return all_games
- 
-    keys = {(og["date"], frozenset([og["team1"], og["team2"]])) for og in overtime_games}
- 
-    applied = 0
-    for g in all_games:
-        key = (g["date"], frozenset([g["team1"], g["team2"]]))
-        if key in keys and not g["overtime"]:
-            g["overtime"] = True
-            applied += 1
- 
-    print(f"  [overrides] Flagged {applied} game(s) as overtime from the "
-          f"manual overtime_games list.")
-    return all_games
- 
- 
 def strict_games_from_all(all_games):
     """
     Filters the full (>=1 classified team) game list down to games where
@@ -958,10 +858,6 @@ if __name__ == "__main__":
     print("\nApplying manual score corrections...")
     score_corrections = load_score_corrections()
     all_games = apply_score_corrections(all_games, score_corrections)
- 
-    print("\nApplying manual overtime flags...")
-    overtime_games = load_overtime_corrections()
-    all_games = apply_overtime_corrections(all_games, overtime_games)
  
     print("\nDeduplicating...")
     all_games = deduplicate_games(all_games)
