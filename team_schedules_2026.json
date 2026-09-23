@@ -10542,7 +10542,7 @@
   "Lawson": {
     "class": 2,
     "district": 8,
-    "current_total_points": 31.1667,
+    "current_total_points": 30.3333,
     "current_rank": 5,
     "games": [
       {
@@ -15714,7 +15714,7 @@
   "Boonville": {
     "class": 3,
     "district": 7,
-    "current_total_points": 42.3333,
+    "current_total_points": 43.1667,
     "current_rank": 3,
     "games": [
       {
@@ -16526,7 +16526,7 @@
   "Cameron": {
     "class": 3,
     "district": 8,
-    "current_total_points": 26.9167,
+    "current_total_points": 16.6667,
     "current_rank": 6,
     "games": [
       {
@@ -16559,11 +16559,11 @@
         "opponent_type": "in_state",
         "opponent_class": 4,
         "played": true,
-        "my_score": 34,
-        "opp_score": 21,
-        "won": true,
+        "my_score": 0,
+        "opp_score": 13,
+        "won": false,
         "overtime": false,
-        "forfeit": false
+        "forfeit": true
       },
       {
         "date": "9/18/2026",
@@ -16630,7 +16630,7 @@
   "Chillicothe": {
     "class": 3,
     "district": 8,
-    "current_total_points": 37.0,
+    "current_total_points": 36.1667,
     "current_rank": 4,
     "games": [
       {
@@ -16862,7 +16862,7 @@
   "Maryville": {
     "class": 3,
     "district": 8,
-    "current_total_points": 54.6667,
+    "current_total_points": 55.5,
     "current_rank": 2,
     "games": [
       {
@@ -20886,7 +20886,7 @@
   "Warrensburg": {
     "class": 4,
     "district": 5,
-    "current_total_points": 41.6667,
+    "current_total_points": 42.5,
     "current_rank": 2,
     "games": [
       {
@@ -22150,7 +22150,7 @@
   "Odessa": {
     "class": 4,
     "district": 7,
-    "current_total_points": 41.5,
+    "current_total_points": 40.6667,
     "current_rank": 2,
     "games": [
       {
@@ -22730,7 +22730,7 @@
   "Excelsior Springs": {
     "class": 4,
     "district": 8,
-    "current_total_points": 12.8333,
+    "current_total_points": 18.0833,
     "current_rank": 7,
     "games": [
       {
@@ -22763,11 +22763,11 @@
         "opponent_type": "in_state",
         "opponent_class": 3,
         "played": true,
-        "my_score": 21,
-        "opp_score": 34,
-        "won": false,
+        "my_score": 13,
+        "opp_score": 0,
+        "won": true,
         "overtime": false,
-        "forfeit": false
+        "forfeit": true
       },
       {
         "date": "9/18/2026",
