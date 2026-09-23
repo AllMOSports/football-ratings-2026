@@ -337,7 +337,7 @@ date,team1,team1_classified,score1,team2,team2_classified,score2,forfeit,overtim
 9/11/2026,Willow Springs,TRUE,42,Cabool,TRUE,0,FALSE,FALSE
 9/11/2026,Hallsville,TRUE,55,California,TRUE,26,FALSE,FALSE
 9/11/2026,Smith-Cotton,TRUE,18,Camdenton,TRUE,55,FALSE,FALSE
-9/11/2026,Excelsior Springs,TRUE,21,Cameron,TRUE,34,FALSE,FALSE
+9/11/2026,Excelsior Springs,TRUE,13,Cameron,TRUE,0,TRUE,FALSE
 9/11/2026,Hickman,TRUE,15,Capital City,TRUE,14,FALSE,FALSE
 9/11/2026,Seneca,TRUE,25,Cassville,TRUE,28,FALSE,FALSE
 9/11/2026,Highland,TRUE,20,Centralia,TRUE,64,FALSE,FALSE
