@@ -9736,12 +9736,12 @@
       "team": "Lawson",
       "class": 2,
       "district": 8,
-      "total_points": 31.1667,
+      "total_points": 30.3333,
       "components": {
         "avg_win_loss": 15.0,
         "avg_class_bonus": 2.5,
         "avg_differential": -3.0,
-        "sos_term": 16.6667
+        "sos_term": 15.8333
       },
       "games_played": 4,
       "games_counted_in_sos": 4,
@@ -9777,8 +9777,8 @@
           "opponent_classification_source": "in_state",
           "opponent_class": 3,
           "opponent_record": {
-            "wins": 1,
-            "losses": 3,
+            "wins": 0,
+            "losses": 4,
             "ot_losses": 0
           },
           "my_score": 34,
@@ -14412,12 +14412,12 @@
       "team": "Boonville",
       "class": 3,
       "district": 7,
-      "total_points": 42.3333,
+      "total_points": 43.1667,
       "components": {
         "avg_win_loss": 17.5,
         "avg_class_bonus": 5.0,
         "avg_differential": 6.5,
-        "sos_term": 13.3333
+        "sos_term": 14.1667
       },
       "games_played": 4,
       "games_counted_in_sos": 4,
@@ -14432,8 +14432,8 @@
           "opponent_classification_source": "in_state",
           "opponent_class": 4,
           "opponent_record": {
-            "wins": 0,
-            "losses": 4,
+            "wins": 1,
+            "losses": 3,
             "ot_losses": 0
           },
           "my_score": 54,
@@ -15044,12 +15044,12 @@
       "team": "Maryville",
       "class": 3,
       "district": 8,
-      "total_points": 54.6667,
+      "total_points": 55.5,
       "components": {
         "avg_win_loss": 20.0,
         "avg_class_bonus": 5.0,
         "avg_differential": 13.0,
-        "sos_term": 16.6667
+        "sos_term": 17.5
       },
       "games_played": 4,
       "games_counted_in_sos": 4,
@@ -15127,8 +15127,8 @@
           "opponent_classification_source": "in_state",
           "opponent_class": 4,
           "opponent_record": {
-            "wins": 0,
-            "losses": 4,
+            "wins": 1,
+            "losses": 3,
             "ot_losses": 0
           },
           "my_score": 46,
@@ -15254,12 +15254,12 @@
       "team": "Chillicothe",
       "class": 3,
       "district": 8,
-      "total_points": 37.0,
+      "total_points": 36.1667,
       "components": {
         "avg_win_loss": 17.5,
         "avg_class_bonus": 2.5,
         "avg_differential": 2.0,
-        "sos_term": 15.0
+        "sos_term": 14.1667
       },
       "games_played": 4,
       "games_counted_in_sos": 4,
@@ -15337,8 +15337,8 @@
           "opponent_classification_source": "in_state",
           "opponent_class": 3,
           "opponent_record": {
-            "wins": 1,
-            "losses": 3,
+            "wins": 0,
+            "losses": 4,
             "ot_losses": 0
           },
           "my_score": 34,
@@ -15464,18 +15464,18 @@
       "team": "Cameron",
       "class": 3,
       "district": 8,
-      "total_points": 26.9167,
+      "total_points": 16.6667,
       "components": {
-        "avg_win_loss": 12.5,
+        "avg_win_loss": 8.75,
         "avg_class_bonus": 5.0,
-        "avg_differential": -4.75,
+        "avg_differential": -11.25,
         "sos_term": 14.1667
       },
       "games_played": 4,
       "games_counted_in_sos": 4,
       "record": {
-        "wins": 1,
-        "losses": 3
+        "wins": 0,
+        "losses": 4
       },
       "games": [
         {
@@ -15526,19 +15526,19 @@
           "opponent_classification_source": "in_state",
           "opponent_class": 4,
           "opponent_record": {
-            "wins": 0,
-            "losses": 4,
+            "wins": 1,
+            "losses": 3,
             "ot_losses": 0
           },
-          "my_score": 34,
-          "opp_score": 21,
-          "won": true,
+          "my_score": 0,
+          "opp_score": 13,
+          "won": false,
           "overtime": false,
-          "forfeit": false,
+          "forfeit": true,
           "points": {
-            "win_loss": 20,
+            "win_loss": 5,
             "class_bonus": 10,
-            "differential": 13
+            "differential": -13
           }
         },
         {
@@ -18351,12 +18351,12 @@
       "team": "Warrensburg",
       "class": 4,
       "district": 5,
-      "total_points": 41.6667,
+      "total_points": 42.5,
       "components": {
         "avg_win_loss": 17.5,
         "avg_class_bonus": 2.5,
         "avg_differential": 7.5,
-        "sos_term": 14.1667
+        "sos_term": 15.0
       },
       "games_played": 4,
       "games_counted_in_sos": 4,
@@ -18392,8 +18392,8 @@
           "opponent_classification_source": "in_state",
           "opponent_class": 4,
           "opponent_record": {
-            "wins": 0,
-            "losses": 4,
+            "wins": 1,
+            "losses": 3,
             "ot_losses": 0
           },
           "my_score": 34,
@@ -19804,12 +19804,12 @@
       "team": "Odessa",
       "class": 4,
       "district": 7,
-      "total_points": 41.5,
+      "total_points": 40.6667,
       "components": {
         "avg_win_loss": 17.5,
         "avg_class_bonus": 0.0,
         "avg_differential": 9.0,
-        "sos_term": 15.0
+        "sos_term": 14.1667
       },
       "games_played": 4,
       "games_counted_in_sos": 4,
@@ -19824,8 +19824,8 @@
           "opponent_classification_source": "in_state",
           "opponent_class": 3,
           "opponent_record": {
-            "wins": 1,
-            "losses": 3,
+            "wins": 0,
+            "losses": 4,
             "ot_losses": 0
           },
           "my_score": 58,
@@ -21066,18 +21066,18 @@
       "team": "Excelsior Springs",
       "class": 4,
       "district": 8,
-      "total_points": 12.8333,
+      "total_points": 18.0833,
       "components": {
-        "avg_win_loss": 10.0,
+        "avg_win_loss": 8.75,
         "avg_class_bonus": 0.0,
-        "avg_differential": -13.0,
+        "avg_differential": -6.5,
         "sos_term": 15.8333
       },
       "games_played": 4,
       "games_counted_in_sos": 4,
       "record": {
-        "wins": 0,
-        "losses": 4
+        "wins": 1,
+        "losses": 3
       },
       "games": [
         {
@@ -21128,19 +21128,19 @@
           "opponent_classification_source": "in_state",
           "opponent_class": 3,
           "opponent_record": {
-            "wins": 1,
-            "losses": 3,
+            "wins": 0,
+            "losses": 4,
             "ot_losses": 0
           },
-          "my_score": 21,
-          "opp_score": 34,
-          "won": false,
+          "my_score": 13,
+          "opp_score": 0,
+          "won": true,
           "overtime": false,
-          "forfeit": false,
+          "forfeit": true,
           "points": {
-            "win_loss": 10,
+            "win_loss": 5,
             "class_bonus": 0,
-            "differential": -13
+            "differential": 13
           }
         },
         {
