@@ -888,20 +888,41 @@
       "team": "Veritas Christian Academy",
       "class": 1,
       "district": 2,
-      "total_points": 43.4444,
+      "total_points": 39.0385,
       "components": {
-        "avg_win_loss": 20.0,
-        "avg_class_bonus": 3.3333,
-        "avg_differential": 9.0,
-        "sos_term": 11.1111
+        "avg_win_loss": 17.5,
+        "avg_class_bonus": 5.0,
+        "avg_differential": 5.0,
+        "sos_term": 11.5385
       },
-      "games_played": 3,
-      "games_counted_in_sos": 3,
+      "games_played": 4,
+      "games_counted_in_sos": 4,
       "record": {
         "wins": 3,
-        "losses": 0
+        "losses": 1
       },
       "games": [
+        {
+          "date": "9/5/2026",
+          "opponent": "Duchesne",
+          "opponent_classification_source": "in_state",
+          "opponent_class": 2,
+          "opponent_record": {
+            "wins": 2,
+            "losses": 3,
+            "ot_losses": 0
+          },
+          "my_score": 0,
+          "opp_score": 7,
+          "won": false,
+          "overtime": false,
+          "forfeit": false,
+          "points": {
+            "win_loss": 10,
+            "class_bonus": 10,
+            "differential": -7
+          }
+        },
         {
           "date": "9/11/2026",
           "opponent": "Missouri Military Academy",
@@ -972,12 +993,12 @@
       "team": "Crystal City",
       "class": 1,
       "district": 2,
-      "total_points": 38.4889,
+      "total_points": 38.2842,
       "components": {
         "avg_win_loss": 12.0,
         "avg_class_bonus": 18.0,
         "avg_differential": -5.4,
-        "sos_term": 13.8889
+        "sos_term": 13.6842
       },
       "games_played": 5,
       "games_counted_in_sos": 5,
@@ -1077,7 +1098,7 @@
           "opponent_class": 1,
           "opponent_record": {
             "wins": 3,
-            "losses": 0,
+            "losses": 1,
             "ot_losses": 0
           },
           "my_score": 26,
@@ -1203,12 +1224,12 @@
       "team": "Grandview (Hillsboro)",
       "class": 1,
       "district": 2,
-      "total_points": 26.0,
+      "total_points": 25.7368,
       "components": {
         "avg_win_loss": 10.0,
         "avg_class_bonus": 14.0,
         "avg_differential": -13.0,
-        "sos_term": 15.0
+        "sos_term": 14.7368
       },
       "games_played": 5,
       "games_counted_in_sos": 5,
@@ -1287,7 +1308,7 @@
           "opponent_class": 1,
           "opponent_record": {
             "wins": 3,
-            "losses": 0,
+            "losses": 1,
             "ot_losses": 0
           },
           "my_score": 22,
@@ -4596,12 +4617,12 @@
       "team": "Scotland County",
       "class": 1,
       "district": 8,
-      "total_points": 46.0842,
+      "total_points": 46.4,
       "components": {
         "avg_win_loss": 18.0,
         "avg_class_bonus": 8.0,
         "avg_differential": 6.4,
-        "sos_term": 13.6842
+        "sos_term": 14.0
       },
       "games_played": 5,
       "games_counted_in_sos": 5,
@@ -4679,7 +4700,7 @@
           "opponent_classification_source": "in_state",
           "opponent_class": 2,
           "opponent_record": {
-            "wins": 1,
+            "wins": 2,
             "losses": 3,
             "ot_losses": 0
           },
@@ -6319,6 +6340,132 @@
       "rank": 3
     },
     {
+      "team": "Duchesne",
+      "class": 2,
+      "district": 2,
+      "total_points": 30.2,
+      "components": {
+        "avg_win_loss": 14.0,
+        "avg_class_bonus": 6.0,
+        "avg_differential": -3.8,
+        "sos_term": 14.0
+      },
+      "games_played": 5,
+      "games_counted_in_sos": 5,
+      "record": {
+        "wins": 2,
+        "losses": 3
+      },
+      "games": [
+        {
+          "date": "8/28/2026",
+          "opponent": "Lutheran South",
+          "opponent_classification_source": "in_state",
+          "opponent_class": 3,
+          "opponent_record": {
+            "wins": 1,
+            "losses": 4,
+            "ot_losses": 0
+          },
+          "my_score": 7,
+          "opp_score": 42,
+          "won": false,
+          "overtime": false,
+          "forfeit": false,
+          "points": {
+            "win_loss": 10,
+            "class_bonus": 10,
+            "differential": -13
+          }
+        },
+        {
+          "date": "9/5/2026",
+          "opponent": "Veritas Christian Academy",
+          "opponent_classification_source": "in_state",
+          "opponent_class": 1,
+          "opponent_record": {
+            "wins": 3,
+            "losses": 1,
+            "ot_losses": 0
+          },
+          "my_score": 7,
+          "opp_score": 0,
+          "won": true,
+          "overtime": false,
+          "forfeit": false,
+          "points": {
+            "win_loss": 20,
+            "class_bonus": 0,
+            "differential": 7
+          }
+        },
+        {
+          "date": "9/11/2026",
+          "opponent": "St. Charles",
+          "opponent_classification_source": "in_state",
+          "opponent_class": 4,
+          "opponent_record": {
+            "wins": 1,
+            "losses": 3,
+            "ot_losses": 0
+          },
+          "my_score": 12,
+          "opp_score": 34,
+          "won": false,
+          "overtime": false,
+          "forfeit": false,
+          "points": {
+            "win_loss": 10,
+            "class_bonus": 20,
+            "differential": -13
+          }
+        },
+        {
+          "date": "9/18/2026",
+          "opponent": "Scotland County",
+          "opponent_classification_source": "in_state",
+          "opponent_class": 1,
+          "opponent_record": {
+            "wins": 4,
+            "losses": 1,
+            "ot_losses": 0
+          },
+          "my_score": 0,
+          "opp_score": 56,
+          "won": false,
+          "overtime": false,
+          "forfeit": false,
+          "points": {
+            "win_loss": 10,
+            "class_bonus": 0,
+            "differential": -13
+          }
+        },
+        {
+          "date": "9/25/2026",
+          "opponent": "Missouri Military Academy",
+          "opponent_classification_source": "out_of_state",
+          "opponent_class": 2,
+          "opponent_record": {
+            "wins": 0,
+            "losses": 2,
+            "ot_losses": 0
+          },
+          "my_score": 64,
+          "opp_score": 8,
+          "won": true,
+          "overtime": false,
+          "forfeit": false,
+          "points": {
+            "win_loss": 20,
+            "class_bonus": 0,
+            "differential": 13
+          }
+        }
+      ],
+      "rank": 4
+    },
+    {
       "team": "Montgomery County",
       "class": 2,
       "district": 2,
@@ -6432,111 +6579,6 @@
           },
           "my_score": 62,
           "opp_score": 30,
-          "won": true,
-          "overtime": false,
-          "forfeit": false,
-          "points": {
-            "win_loss": 20,
-            "class_bonus": 0,
-            "differential": 13
-          }
-        }
-      ],
-      "rank": 4
-    },
-    {
-      "team": "Duchesne",
-      "class": 2,
-      "district": 2,
-      "total_points": 26.0,
-      "components": {
-        "avg_win_loss": 12.5,
-        "avg_class_bonus": 7.5,
-        "avg_differential": -6.5,
-        "sos_term": 12.5
-      },
-      "games_played": 4,
-      "games_counted_in_sos": 4,
-      "record": {
-        "wins": 1,
-        "losses": 3
-      },
-      "games": [
-        {
-          "date": "8/28/2026",
-          "opponent": "Lutheran South",
-          "opponent_classification_source": "in_state",
-          "opponent_class": 3,
-          "opponent_record": {
-            "wins": 1,
-            "losses": 4,
-            "ot_losses": 0
-          },
-          "my_score": 7,
-          "opp_score": 42,
-          "won": false,
-          "overtime": false,
-          "forfeit": false,
-          "points": {
-            "win_loss": 10,
-            "class_bonus": 10,
-            "differential": -13
-          }
-        },
-        {
-          "date": "9/11/2026",
-          "opponent": "St. Charles",
-          "opponent_classification_source": "in_state",
-          "opponent_class": 4,
-          "opponent_record": {
-            "wins": 1,
-            "losses": 3,
-            "ot_losses": 0
-          },
-          "my_score": 12,
-          "opp_score": 34,
-          "won": false,
-          "overtime": false,
-          "forfeit": false,
-          "points": {
-            "win_loss": 10,
-            "class_bonus": 20,
-            "differential": -13
-          }
-        },
-        {
-          "date": "9/18/2026",
-          "opponent": "Scotland County",
-          "opponent_classification_source": "in_state",
-          "opponent_class": 1,
-          "opponent_record": {
-            "wins": 4,
-            "losses": 1,
-            "ot_losses": 0
-          },
-          "my_score": 0,
-          "opp_score": 56,
-          "won": false,
-          "overtime": false,
-          "forfeit": false,
-          "points": {
-            "win_loss": 10,
-            "class_bonus": 0,
-            "differential": -13
-          }
-        },
-        {
-          "date": "9/25/2026",
-          "opponent": "Missouri Military Academy",
-          "opponent_classification_source": "out_of_state",
-          "opponent_class": 2,
-          "opponent_record": {
-            "wins": 0,
-            "losses": 2,
-            "ot_losses": 0
-          },
-          "my_score": 64,
-          "opp_score": 8,
           "won": true,
           "overtime": false,
           "forfeit": false,
@@ -13478,12 +13520,12 @@
       "team": "Lutheran South",
       "class": 3,
       "district": 2,
-      "total_points": 19.5333,
+      "total_points": 19.8842,
       "components": {
         "avg_win_loss": 12.0,
         "avg_class_bonus": 2.0,
         "avg_differential": -7.8,
-        "sos_term": 13.3333
+        "sos_term": 13.6842
       },
       "games_played": 5,
       "games_counted_in_sos": 5,
@@ -13498,7 +13540,7 @@
           "opponent_classification_source": "in_state",
           "opponent_class": 2,
           "opponent_record": {
-            "wins": 1,
+            "wins": 2,
             "losses": 3,
             "ot_losses": 0
           },
@@ -21835,12 +21877,12 @@
       "team": "St. Charles",
       "class": 4,
       "district": 4,
-      "total_points": 22.5,
+      "total_points": 22.875,
       "components": {
         "avg_win_loss": 12.5,
         "avg_class_bonus": 2.5,
         "avg_differential": -6.5,
-        "sos_term": 14.0
+        "sos_term": 14.375
       },
       "games_played": 4,
       "games_counted_in_sos": 4,
@@ -21876,7 +21918,7 @@
           "opponent_classification_source": "in_state",
           "opponent_class": 2,
           "opponent_record": {
-            "wins": 1,
+            "wins": 2,
             "losses": 3,
             "ot_losses": 0
           },
