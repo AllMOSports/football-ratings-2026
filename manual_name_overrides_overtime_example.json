@@ -28,12 +28,22 @@
     {
       "date": "2026-09-18",
       "team1": "Lexington",
-      "team2": "Crest Ridge"
+      "team2": "Crest Ridge with Chilhowee"
     },
     {
       "date": "2026-09-18",
       "team1": "Washington",
       "team2": "Ft. Zumwalt South"
+    },
+    {
+      "date": "2026-09-25",
+      "team1": "Crystal City",
+      "team2": "Veritas Christian Academy"
+    },
+    {
+      "date": "2026-09-25",
+      "team1": "Fox",
+      "team2": "Seckman"
     }
   ]
 }
