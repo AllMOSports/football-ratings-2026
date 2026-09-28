@@ -6343,12 +6343,12 @@
       "team": "Duchesne",
       "class": 2,
       "district": 2,
-      "total_points": 29.95,
+      "total_points": 30.3176,
       "components": {
         "avg_win_loss": 14.0,
         "avg_class_bonus": 6.0,
         "avg_differential": -3.8,
-        "sos_term": 13.75
+        "sos_term": 14.1176
       },
       "games_played": 5,
       "games_counted_in_sos": 5,
@@ -6405,7 +6405,7 @@
           "opponent_classification_source": "in_state",
           "opponent_class": 4,
           "opponent_record": {
-            "wins": 1,
+            "wins": 2,
             "losses": 3,
             "ot_losses": 0
           },
@@ -13774,12 +13774,12 @@
       "team": "Winfield",
       "class": 3,
       "district": 3,
-      "total_points": 36.2105,
+      "total_points": 36.5,
       "components": {
         "avg_win_loss": 16.0,
         "avg_class_bonus": 4.0,
         "avg_differential": 2.0,
-        "sos_term": 14.2105
+        "sos_term": 14.5
       },
       "games_played": 5,
       "games_counted_in_sos": 5,
@@ -13878,7 +13878,7 @@
           "opponent_classification_source": "in_state",
           "opponent_class": 4,
           "opponent_record": {
-            "wins": 1,
+            "wins": 2,
             "losses": 3,
             "ot_losses": 0
           },
@@ -20025,12 +20025,12 @@
       "team": "Affton",
       "class": 4,
       "district": 2,
-      "total_points": 30.9333,
+      "total_points": 30.7579,
       "components": {
         "avg_win_loss": 13.0,
         "avg_class_bonus": 2.0,
         "avg_differential": 2.6,
-        "sos_term": 13.3333
+        "sos_term": 13.1579
       },
       "games_played": 5,
       "games_counted_in_sos": 5,
@@ -20109,7 +20109,7 @@
           "opponent_class": 4,
           "opponent_record": {
             "wins": 0,
-            "losses": 4,
+            "losses": 5,
             "ot_losses": 0
           },
           "my_score": 48,
@@ -21014,18 +21014,18 @@
       "team": "Clayton with Brentwood",
       "class": 4,
       "district": 3,
-      "total_points": 17.625,
+      "total_points": 16.0,
       "components": {
         "avg_win_loss": 10.0,
-        "avg_class_bonus": 5.0,
+        "avg_class_bonus": 4.0,
         "avg_differential": -13.0,
-        "sos_term": 15.625
+        "sos_term": 15.0
       },
-      "games_played": 4,
-      "games_counted_in_sos": 4,
+      "games_played": 5,
+      "games_counted_in_sos": 5,
       "record": {
         "wins": 0,
-        "losses": 4
+        "losses": 5
       },
       "games": [
         {
@@ -21040,6 +21040,27 @@
           },
           "my_score": 16,
           "opp_score": 62,
+          "won": false,
+          "overtime": false,
+          "forfeit": false,
+          "points": {
+            "win_loss": 10,
+            "class_bonus": 0,
+            "differential": -13
+          }
+        },
+        {
+          "date": "9/3/2026",
+          "opponent": "St. Charles",
+          "opponent_classification_source": "in_state",
+          "opponent_class": 4,
+          "opponent_record": {
+            "wins": 2,
+            "losses": 3,
+            "ot_losses": 0
+          },
+          "my_score": 20,
+          "opp_score": 48,
           "won": false,
           "overtime": false,
           "forfeit": false,
@@ -21121,12 +21142,12 @@
       "team": "St. Charles West",
       "class": 4,
       "district": 4,
-      "total_points": 51.2105,
+      "total_points": 51.0,
       "components": {
         "avg_win_loss": 20.0,
         "avg_class_bonus": 6.0,
         "avg_differential": 11.0,
-        "sos_term": 14.2105
+        "sos_term": 14.0
       },
       "games_played": 5,
       "games_counted_in_sos": 5,
@@ -21142,7 +21163,7 @@
           "opponent_class": 4,
           "opponent_record": {
             "wins": 0,
-            "losses": 4,
+            "losses": 5,
             "ot_losses": 0
           },
           "my_score": 62,
@@ -21751,12 +21772,12 @@
       "team": "Holt",
       "class": 4,
       "district": 4,
-      "total_points": 28.6632,
+      "total_points": 28.9,
       "components": {
         "avg_win_loss": 14.0,
         "avg_class_bonus": 2.0,
         "avg_differential": -2.6,
-        "sos_term": 15.2632
+        "sos_term": 15.5
       },
       "games_played": 5,
       "games_counted_in_sos": 5,
@@ -21834,7 +21855,7 @@
           "opponent_classification_source": "in_state",
           "opponent_class": 4,
           "opponent_record": {
-            "wins": 1,
+            "wins": 2,
             "losses": 3,
             "ot_losses": 0
           },
@@ -21877,17 +21898,17 @@
       "team": "St. Charles",
       "class": 4,
       "district": 4,
-      "total_points": 22.875,
+      "total_points": 26.9,
       "components": {
-        "avg_win_loss": 12.5,
-        "avg_class_bonus": 2.5,
-        "avg_differential": -6.5,
-        "sos_term": 14.375
+        "avg_win_loss": 14.0,
+        "avg_class_bonus": 2.0,
+        "avg_differential": -2.6,
+        "sos_term": 13.5
       },
-      "games_played": 4,
-      "games_counted_in_sos": 4,
+      "games_played": 5,
+      "games_counted_in_sos": 5,
       "record": {
-        "wins": 1,
+        "wins": 2,
         "losses": 3
       },
       "games": [
@@ -21910,6 +21931,27 @@
             "win_loss": 10,
             "class_bonus": 10,
             "differential": -13
+          }
+        },
+        {
+          "date": "9/3/2026",
+          "opponent": "Clayton with Brentwood",
+          "opponent_classification_source": "in_state",
+          "opponent_class": 4,
+          "opponent_record": {
+            "wins": 0,
+            "losses": 5,
+            "ot_losses": 0
+          },
+          "my_score": 48,
+          "opp_score": 20,
+          "won": true,
+          "overtime": false,
+          "forfeit": false,
+          "points": {
+            "win_loss": 20,
+            "class_bonus": 0,
+            "differential": 13
           }
         },
         {
@@ -26614,12 +26656,12 @@
       "team": "Parkway South",
       "class": 5,
       "district": 2,
-      "total_points": 36.1556,
+      "total_points": 35.8632,
       "components": {
         "avg_win_loss": 16.0,
         "avg_class_bonus": 2.0,
         "avg_differential": 2.6,
-        "sos_term": 15.5556
+        "sos_term": 15.2632
       },
       "games_played": 5,
       "games_counted_in_sos": 5,
@@ -26677,7 +26719,7 @@
           "opponent_class": 4,
           "opponent_record": {
             "wins": 0,
-            "losses": 4,
+            "losses": 5,
             "ot_losses": 0
           },
           "my_score": 54,
@@ -27372,12 +27414,12 @@
       "team": "McCluer North",
       "class": 5,
       "district": 3,
-      "total_points": 37.6632,
+      "total_points": 37.9,
       "components": {
         "avg_win_loss": 16.0,
         "avg_class_bonus": 4.0,
         "avg_differential": 2.4,
-        "sos_term": 15.2632
+        "sos_term": 15.5
       },
       "games_played": 5,
       "games_counted_in_sos": 5,
@@ -27392,7 +27434,7 @@
           "opponent_classification_source": "in_state",
           "opponent_class": 4,
           "opponent_record": {
-            "wins": 1,
+            "wins": 2,
             "losses": 3,
             "ot_losses": 0
           },
@@ -27624,12 +27666,12 @@
       "team": "McCluer",
       "class": 5,
       "district": 3,
-      "total_points": 28.0444,
+      "total_points": 27.8105,
       "components": {
         "avg_win_loss": 14.0,
         "avg_class_bonus": 2.0,
         "avg_differential": -2.4,
-        "sos_term": 14.4444
+        "sos_term": 14.2105
       },
       "games_played": 5,
       "games_counted_in_sos": 5,
@@ -27729,7 +27771,7 @@
           "opponent_class": 4,
           "opponent_record": {
             "wins": 0,
-            "losses": 4,
+            "losses": 5,
             "ot_losses": 0
           },
           "my_score": 32,
