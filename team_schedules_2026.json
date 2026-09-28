@@ -5590,7 +5590,7 @@
   "Duchesne": {
     "class": 2,
     "district": 2,
-    "current_total_points": 29.95,
+    "current_total_points": 30.3176,
     "current_rank": 4,
     "games": [
       {
@@ -13198,7 +13198,7 @@
   "Winfield": {
     "class": 3,
     "district": 3,
-    "current_total_points": 36.2105,
+    "current_total_points": 36.5,
     "current_rank": 2,
     "games": [
       {
@@ -17930,7 +17930,7 @@
   "Affton": {
     "class": 4,
     "district": 2,
-    "current_total_points": 30.9333,
+    "current_total_points": 30.7579,
     "current_rank": 5,
     "games": [
       {
@@ -18742,7 +18742,7 @@
   "Clayton with Brentwood": {
     "class": 4,
     "district": 3,
-    "current_total_points": 17.625,
+    "current_total_points": 16.0,
     "current_rank": 6,
     "games": [
       {
@@ -18753,6 +18753,18 @@
         "played": true,
         "my_score": 16,
         "opp_score": 62,
+        "won": false,
+        "overtime": false,
+        "forfeit": false
+      },
+      {
+        "date": "9/3/2026",
+        "opponent": "St. Charles",
+        "opponent_type": "in_state",
+        "opponent_class": 4,
+        "played": true,
+        "my_score": 20,
+        "opp_score": 48,
         "won": false,
         "overtime": false,
         "forfeit": false
@@ -19530,7 +19542,7 @@
   "Holt": {
     "class": 4,
     "district": 4,
-    "current_total_points": 28.6632,
+    "current_total_points": 28.9,
     "current_rank": 6,
     "games": [
       {
@@ -19878,7 +19890,7 @@
   "St. Charles": {
     "class": 4,
     "district": 4,
-    "current_total_points": 22.875,
+    "current_total_points": 26.9,
     "current_rank": 7,
     "games": [
       {
@@ -19890,6 +19902,18 @@
         "my_score": 6,
         "opp_score": 43,
         "won": false,
+        "overtime": false,
+        "forfeit": false
+      },
+      {
+        "date": "9/3/2026",
+        "opponent": "Clayton with Brentwood",
+        "opponent_type": "in_state",
+        "opponent_class": 4,
+        "played": true,
+        "my_score": 48,
+        "opp_score": 20,
+        "won": true,
         "overtime": false,
         "forfeit": false
       },
@@ -19982,7 +20006,7 @@
   "St. Charles West": {
     "class": 4,
     "district": 4,
-    "current_total_points": 51.2105,
+    "current_total_points": 51.0,
     "current_rank": 1,
     "games": [
       {
@@ -24378,7 +24402,7 @@
   "Parkway South": {
     "class": 5,
     "district": 2,
-    "current_total_points": 36.1556,
+    "current_total_points": 35.8632,
     "current_rank": 4,
     "games": [
       {
@@ -25538,7 +25562,7 @@
   "McCluer": {
     "class": 5,
     "district": 3,
-    "current_total_points": 28.0444,
+    "current_total_points": 27.8105,
     "current_rank": 5,
     "games": [
       {
@@ -25654,7 +25678,7 @@
   "McCluer North": {
     "class": 5,
     "district": 3,
-    "current_total_points": 37.6632,
+    "current_total_points": 37.9,
     "current_rank": 3,
     "games": [
       {
