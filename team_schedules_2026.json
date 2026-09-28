@@ -234,7 +234,7 @@
   "Hayti": {
     "class": 1,
     "district": 1,
-    "current_total_points": 44.3368,
+    "current_total_points": 44.1,
     "current_rank": 3,
     "games": [
       {
@@ -1046,7 +1046,7 @@
   "Principia": {
     "class": 1,
     "district": 2,
-    "current_total_points": 32.875,
+    "current_total_points": 32.6176,
     "current_rank": 4,
     "games": [
       {
@@ -1150,7 +1150,7 @@
   "Veritas Christian Academy": {
     "class": 1,
     "district": 2,
-    "current_total_points": 39.0385,
+    "current_total_points": 38.9286,
     "current_rank": 2,
     "games": [
       {
@@ -1926,7 +1926,7 @@
   "Russellville": {
     "class": 1,
     "district": 4,
-    "current_total_points": 53.3529,
+    "current_total_points": 53.2222,
     "current_rank": 2,
     "games": [
       {
@@ -4582,7 +4582,7 @@
   "Scotland County": {
     "class": 1,
     "district": 8,
-    "current_total_points": 46.4,
+    "current_total_points": 46.2095,
     "current_rank": 1,
     "games": [
       {
@@ -4802,7 +4802,7 @@
   "Caruthersville": {
     "class": 2,
     "district": 1,
-    "current_total_points": 36.4889,
+    "current_total_points": 36.8105,
     "current_rank": 3,
     "games": [
       {
@@ -5266,7 +5266,7 @@
   "Saxony Lutheran": {
     "class": 2,
     "district": 1,
-    "current_total_points": 34.75,
+    "current_total_points": 35.0441,
     "current_rank": 4,
     "games": [
       {
@@ -5486,7 +5486,7 @@
   "Confluence Prep Academy Charter": {
     "class": 2,
     "district": 2,
-    "current_total_points": 15.9412,
+    "current_total_points": 16.3333,
     "current_rank": 7,
     "games": [
       {
@@ -5590,7 +5590,7 @@
   "Duchesne": {
     "class": 2,
     "district": 2,
-    "current_total_points": 30.2,
+    "current_total_points": 29.95,
     "current_rank": 4,
     "games": [
       {
@@ -7446,7 +7446,7 @@
   "Lamar": {
     "class": 2,
     "district": 4,
-    "current_total_points": 53.3333,
+    "current_total_points": 53.1579,
     "current_rank": 1,
     "games": [
       {
@@ -7562,8 +7562,8 @@
   "Sarcoxie": {
     "class": 2,
     "district": 4,
-    "current_total_points": 35.3294,
-    "current_rank": 3,
+    "current_total_points": 35.1333,
+    "current_rank": 4,
     "games": [
       {
         "date": "8/28/2026",
@@ -7795,7 +7795,7 @@
     "class": 2,
     "district": 4,
     "current_total_points": 35.2,
-    "current_rank": 4,
+    "current_rank": 3,
     "games": [
       {
         "date": "8/28/2026",
@@ -8838,7 +8838,7 @@
   "Hogan Prep Academy Charter": {
     "class": 2,
     "district": 6,
-    "current_total_points": 45.8333,
+    "current_total_points": 46.25,
     "current_rank": 1,
     "games": [
       {
@@ -9058,7 +9058,7 @@
   "KIPP KC Legacy": {
     "class": 2,
     "district": 6,
-    "current_total_points": 44.5333,
+    "current_total_points": 44.3579,
     "current_rank": 2,
     "games": [
       {
@@ -11146,7 +11146,7 @@
   "Doniphan": {
     "class": 3,
     "district": 1,
-    "current_total_points": 19.8667,
+    "current_total_points": 19.7789,
     "current_rank": 6,
     "games": [
       {
@@ -12422,7 +12422,7 @@
   "St. Pius X (Festus)": {
     "class": 3,
     "district": 2,
-    "current_total_points": 46.8,
+    "current_total_points": 47.0381,
     "current_rank": 1,
     "games": [
       {
@@ -12630,7 +12630,7 @@
   "Lutheran North": {
     "class": 3,
     "district": 3,
-    "current_total_points": 34.375,
+    "current_total_points": 34.1176,
     "current_rank": 3,
     "games": [
       {
@@ -15170,7 +15170,7 @@
   "Hollister": {
     "class": 3,
     "district": 6,
-    "current_total_points": 13.1111,
+    "current_total_points": 13.3158,
     "current_rank": 7,
     "games": [
       {
@@ -15854,7 +15854,7 @@
   "Center": {
     "class": 3,
     "district": 7,
-    "current_total_points": 43.4842,
+    "current_total_points": 43.3,
     "current_rank": 2,
     "games": [
       {
@@ -16202,7 +16202,7 @@
   "Pembroke Hill": {
     "class": 3,
     "district": 7,
-    "current_total_points": 47.6316,
+    "current_total_points": 47.5,
     "current_rank": 1,
     "games": [
       {
@@ -16434,7 +16434,7 @@
   "Summit Christian Academy": {
     "class": 3,
     "district": 7,
-    "current_total_points": 36.4941,
+    "current_total_points": 36.4632,
     "current_rank": 4,
     "games": [
       {
@@ -17118,7 +17118,7 @@
   "St. Pius X (Kansas City)": {
     "class": 3,
     "district": 8,
-    "current_total_points": 61.225,
+    "current_total_points": 60.6,
     "current_rank": 1,
     "games": [
       {
@@ -18046,7 +18046,7 @@
   "Bayless with Hancock": {
     "class": 4,
     "district": 2,
-    "current_total_points": 24.6,
+    "current_total_points": 24.4571,
     "current_rank": 6,
     "games": [
       {
@@ -18846,7 +18846,7 @@
   "Gateway with Soldan International Studies": {
     "class": 4,
     "district": 3,
-    "current_total_points": 39.0,
+    "current_total_points": 39.4412,
     "current_rank": 2,
     "games": [
       {
@@ -19298,7 +19298,7 @@
   "University City": {
     "class": 4,
     "district": 3,
-    "current_total_points": 52.3368,
+    "current_total_points": 52.6,
     "current_rank": 1,
     "games": [
       {
@@ -21942,7 +21942,7 @@
   "East (Kansas City)": {
     "class": 4,
     "district": 7,
-    "current_total_points": 10.5294,
+    "current_total_points": 10.3333,
     "current_rank": 7,
     "games": [
       {
@@ -22986,7 +22986,7 @@
   "Northeast (Kansas City)": {
     "class": 4,
     "district": 8,
-    "current_total_points": 19.6667,
+    "current_total_points": 18.8824,
     "current_rank": 6,
     "games": [
       {
@@ -23102,7 +23102,7 @@
   "Savannah": {
     "class": 4,
     "district": 8,
-    "current_total_points": 48.0,
+    "current_total_points": 47.7368,
     "current_rank": 2,
     "games": [
       {
@@ -24030,7 +24030,7 @@
   "St. Mary's South Side": {
     "class": 5,
     "district": 1,
-    "current_total_points": 34.1778,
+    "current_total_points": 34.019,
     "current_rank": 3,
     "games": [
       {
@@ -24958,7 +24958,7 @@
   "Cardinal Ritter": {
     "class": 5,
     "district": 3,
-    "current_total_points": 29.3,
+    "current_total_points": 29.6947,
     "current_rank": 4,
     "games": [
       {
@@ -25770,7 +25770,7 @@
   "Ft. Zumwalt East": {
     "class": 5,
     "district": 4,
-    "current_total_points": 22.8,
+    "current_total_points": 23.1333,
     "current_rank": 4,
     "games": [
       {
@@ -26466,7 +26466,7 @@
   "Camdenton": {
     "class": 5,
     "district": 5,
-    "current_total_points": 40.4889,
+    "current_total_points": 40.2842,
     "current_rank": 2,
     "games": [
       {
@@ -27046,7 +27046,7 @@
   "Rolla": {
     "class": 5,
     "district": 5,
-    "current_total_points": 29.7333,
+    "current_total_points": 29.8211,
     "current_rank": 4,
     "games": [
       {
@@ -27278,7 +27278,7 @@
   "Branson": {
     "class": 5,
     "district": 6,
-    "current_total_points": 40.9111,
+    "current_total_points": 40.5895,
     "current_rank": 5,
     "games": [
       {
@@ -28322,7 +28322,7 @@
   "Capital City": {
     "class": 5,
     "district": 7,
-    "current_total_points": 27.6889,
+    "current_total_points": 28.0105,
     "current_rank": 3,
     "games": [
       {
@@ -28554,7 +28554,7 @@
   "Grandview": {
     "class": 5,
     "district": 7,
-    "current_total_points": 24.9789,
+    "current_total_points": 24.9,
     "current_rank": 4,
     "games": [
       {
@@ -29018,7 +29018,7 @@
   "Lincoln College Prep": {
     "class": 5,
     "district": 8,
-    "current_total_points": 22.3176,
+    "current_total_points": 22.4105,
     "current_rank": 5,
     "games": [
       {
@@ -29714,7 +29714,7 @@
   "Jackson": {
     "class": 6,
     "district": 1,
-    "current_total_points": 50.0,
+    "current_total_points": 49.3636,
     "current_rank": 1,
     "games": [
       {
@@ -30294,7 +30294,7 @@
   "Christian Brothers College": {
     "class": 6,
     "district": 2,
-    "current_total_points": 37.5,
+    "current_total_points": 37.7273,
     "current_rank": 3,
     "games": [
       {
@@ -31442,7 +31442,7 @@
   "Francis Howell": {
     "class": 6,
     "district": 4,
-    "current_total_points": 35.5,
+    "current_total_points": 35.7619,
     "current_rank": 2,
     "games": [
       {
@@ -31906,7 +31906,7 @@
   "Troy Buchanan": {
     "class": 6,
     "district": 4,
-    "current_total_points": 45.2,
+    "current_total_points": 45.3905,
     "current_rank": 1,
     "games": [
       {
@@ -32950,7 +32950,7 @@
   "Lee's Summit": {
     "class": 6,
     "district": 6,
-    "current_total_points": 33.0947,
+    "current_total_points": 33.2,
     "current_rank": 6,
     "games": [
       {
@@ -33066,7 +33066,7 @@
   "Lee's Summit North": {
     "class": 6,
     "district": 6,
-    "current_total_points": 40.9895,
+    "current_total_points": 41.2,
     "current_rank": 2,
     "games": [
       {
@@ -33646,7 +33646,7 @@
   "Raymore-Peculiar": {
     "class": 6,
     "district": 7,
-    "current_total_points": 39.1556,
+    "current_total_points": 39.3895,
     "current_rank": 2,
     "games": [
       {
@@ -33762,7 +33762,7 @@
   "Rockhurst": {
     "class": 6,
     "district": 7,
-    "current_total_points": 30.5429,
+    "current_total_points": 31.0471,
     "current_rank": 3,
     "games": [
       {
@@ -34458,7 +34458,7 @@
   "Staley": {
     "class": 6,
     "district": 8,
-    "current_total_points": 32.0,
+    "current_total_points": 31.7368,
     "current_rank": 2,
     "games": [
       {
