@@ -301,17 +301,28 @@ def compute_team_points(team, schedule, record, team_class, oos_class, oos_recor
             opp_class = None
             source = "unknown"
  
-        # T: win/loss/OT-loss/forfeit points -- doesn't need opp info at all
+        # T: win/loss/OT-loss/forfeit points -- doesn't need opp info at all.
+        # Forfeit rule, confirmed against MSHSAA's own published totals
+        # (Week 5 reconciliation fixed Cameron, Riverview Gardens,
+        # Excelsior Springs, Nevada, Affton exactly with this rule): the
+        # team that WINS a forfeit gets a normal win (20), not the flat 5
+        # -- only the forfeiting team gets the flat 5. This also means the
+        # winner's class bonus (U, below) applies normally, while the
+        # forfeiting team's does not, for this game specifically.
         if g["forfeit"]:
-            t_pts = POINTS["forfeit"]
+            t_pts = POINTS["win"] if g["won"] else POINTS["forfeit"]
         elif (not g["won"]) and g["overtime"]:
             t_pts = POINTS["ot_loss"]
         else:
             t_pts = POINTS["win"] if g["won"] else POINTS["loss"]
         sum_T += t_pts
  
-        # U: playing-up-in-class bonus -- works for out-of-state opponents too
-        if my_class is not None and opp_class is not None and opp_class > my_class:
+        # U: playing-up-in-class bonus -- works for out-of-state opponents
+        # too. A team that forfeited gets no class bonus for that game,
+        # confirmed against MSHSAA the same way as the T rule above.
+        if g["forfeit"] and not g["won"]:
+            u_pts = 0
+        elif my_class is not None and opp_class is not None and opp_class > my_class:
             u_pts = (opp_class - my_class) * POINTS["class_step"]
         else:
             u_pts = 0
