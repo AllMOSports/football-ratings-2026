@@ -582,7 +582,7 @@
   "Thayer": {
     "class": 1,
     "district": 1,
-    "current_total_points": 51.8,
+    "current_total_points": 53.8,
     "current_rank": 1,
     "games": [
       {
@@ -601,7 +601,7 @@
         "date": "9/4/2026",
         "opponent": "Gravette (AR.)",
         "opponent_type": "out_of_state",
-        "opponent_class": 3,
+        "opponent_class": 4,
         "played": true,
         "my_score": 8,
         "opp_score": 45,
@@ -699,7 +699,7 @@
     "class": 1,
     "district": 2,
     "current_total_points": 38.2842,
-    "current_rank": 3,
+    "current_rank": 2,
     "games": [
       {
         "date": "8/28/2026",
@@ -1150,8 +1150,8 @@
   "Veritas Christian Academy": {
     "class": 1,
     "district": 2,
-    "current_total_points": 38.9286,
-    "current_rank": 2,
+    "current_total_points": 36.4286,
+    "current_rank": 3,
     "games": [
       {
         "date": "9/5/2026",
@@ -1169,7 +1169,7 @@
         "date": "9/11/2026",
         "opponent": "Missouri Military Academy",
         "opponent_type": "out_of_state",
-        "opponent_class": 2,
+        "opponent_class": 1,
         "played": true,
         "my_score": 55,
         "opp_score": 0,
@@ -1926,7 +1926,7 @@
   "Russellville": {
     "class": 1,
     "district": 4,
-    "current_total_points": 53.2222,
+    "current_total_points": 51.2222,
     "current_rank": 2,
     "games": [
       {
@@ -1969,7 +1969,7 @@
         "date": "9/18/2026",
         "opponent": "Missouri Military Academy",
         "opponent_type": "out_of_state",
-        "opponent_class": 2,
+        "opponent_class": 1,
         "played": true,
         "my_score": 54,
         "opp_score": 0,
@@ -5486,7 +5486,7 @@
   "Confluence Prep Academy Charter": {
     "class": 2,
     "district": 2,
-    "current_total_points": 16.3333,
+    "current_total_points": 18.3333,
     "current_rank": 7,
     "games": [
       {
@@ -5505,7 +5505,7 @@
         "date": "9/4/2026",
         "opponent": "Sparta (IL.)",
         "opponent_type": "out_of_state",
-        "opponent_class": 2,
+        "opponent_class": 3,
         "played": true,
         "my_score": 28,
         "opp_score": 74,
@@ -5645,7 +5645,7 @@
         "date": "9/25/2026",
         "opponent": "Missouri Military Academy",
         "opponent_type": "out_of_state",
-        "opponent_class": 2,
+        "opponent_class": 1,
         "played": true,
         "my_score": 64,
         "opp_score": 8,
@@ -8221,7 +8221,7 @@
         "date": "10/9/2026",
         "opponent": "Missouri Military Academy",
         "opponent_type": "out_of_state",
-        "opponent_class": 2,
+        "opponent_class": 1,
         "played": false,
         "my_score": null,
         "opp_score": null,
@@ -11237,7 +11237,7 @@
         "date": "10/16/2026",
         "opponent": "Missouri Military Academy",
         "opponent_type": "out_of_state",
-        "opponent_class": 2,
+        "opponent_class": 1,
         "played": false,
         "my_score": null,
         "opp_score": null,
@@ -14577,7 +14577,7 @@
         "date": "10/23/2026",
         "opponent": "Missouri Military Academy",
         "opponent_type": "out_of_state",
-        "opponent_class": 2,
+        "opponent_class": 1,
         "played": false,
         "my_score": null,
         "opp_score": null,
@@ -15402,8 +15402,8 @@
   "Nevada": {
     "class": 3,
     "district": 6,
-    "current_total_points": 36.3,
-    "current_rank": 3,
+    "current_total_points": 39.3,
+    "current_rank": 2,
     "games": [
       {
         "date": "8/28/2026",
@@ -15635,7 +15635,7 @@
     "class": 3,
     "district": 6,
     "current_total_points": 39.1,
-    "current_rank": 2,
+    "current_rank": 3,
     "games": [
       {
         "date": "8/28/2026",
@@ -16550,7 +16550,7 @@
   "Cameron": {
     "class": 3,
     "district": 8,
-    "current_total_points": 17.4,
+    "current_total_points": 15.4,
     "current_rank": 6,
     "games": [
       {
@@ -17930,7 +17930,7 @@
   "Affton": {
     "class": 4,
     "district": 2,
-    "current_total_points": 30.7579,
+    "current_total_points": 33.7579,
     "current_rank": 5,
     "games": [
       {
@@ -18963,7 +18963,7 @@
     "class": 4,
     "district": 3,
     "current_total_points": 29.4444,
-    "current_rank": 5,
+    "current_rank": 4,
     "games": [
       {
         "date": "8/28/2026",
@@ -19078,7 +19078,7 @@
   "Lift for Life Academy Charter": {
     "class": 4,
     "district": 3,
-    "current_total_points": 36.4,
+    "current_total_points": 38.4,
     "current_rank": 3,
     "games": [
       {
@@ -19109,7 +19109,7 @@
         "date": "9/12/2026",
         "opponent": "Brentwood (TN.)",
         "opponent_type": "out_of_state",
-        "opponent_class": 5,
+        "opponent_class": 6,
         "played": true,
         "my_score": 6,
         "opp_score": 45,
@@ -19194,8 +19194,8 @@
   "Riverview Gardens": {
     "class": 4,
     "district": 3,
-    "current_total_points": 30.6632,
-    "current_rank": 4,
+    "current_total_points": 28.6632,
+    "current_rank": 5,
     "games": [
       {
         "date": "8/29/2026",
@@ -22778,8 +22778,8 @@
   "Excelsior Springs": {
     "class": 4,
     "district": 8,
-    "current_total_points": 18.2,
-    "current_rank": 7,
+    "current_total_points": 21.2,
+    "current_rank": 6,
     "games": [
       {
         "date": "8/28/2026",
@@ -23011,7 +23011,7 @@
     "class": 4,
     "district": 8,
     "current_total_points": 18.8824,
-    "current_rank": 6,
+    "current_rank": 7,
     "games": [
       {
         "date": "8/28/2026",
@@ -25214,8 +25214,8 @@
   "Hazelwood Central": {
     "class": 5,
     "district": 3,
-    "current_total_points": 19.7,
-    "current_rank": 7,
+    "current_total_points": 22.7,
+    "current_rank": 6,
     "games": [
       {
         "date": "8/28/2026",
@@ -25331,7 +25331,7 @@
     "class": 5,
     "district": 3,
     "current_total_points": 21.3158,
-    "current_rank": 6,
+    "current_rank": 7,
     "games": [
       {
         "date": "8/29/2026",
