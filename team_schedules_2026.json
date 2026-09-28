@@ -698,7 +698,7 @@
   "Crystal City": {
     "class": 1,
     "district": 2,
-    "current_total_points": 38.4889,
+    "current_total_points": 38.2842,
     "current_rank": 3,
     "games": [
       {
@@ -814,7 +814,7 @@
   "Grandview (Hillsboro)": {
     "class": 1,
     "district": 2,
-    "current_total_points": 26.0,
+    "current_total_points": 25.7368,
     "current_rank": 5,
     "games": [
       {
@@ -1150,9 +1150,21 @@
   "Veritas Christian Academy": {
     "class": 1,
     "district": 2,
-    "current_total_points": 43.4444,
+    "current_total_points": 39.0385,
     "current_rank": 2,
     "games": [
+      {
+        "date": "9/5/2026",
+        "opponent": "Duchesne",
+        "opponent_type": "in_state",
+        "opponent_class": 2,
+        "played": true,
+        "my_score": 0,
+        "opp_score": 7,
+        "won": false,
+        "overtime": false,
+        "forfeit": false
+      },
       {
         "date": "9/11/2026",
         "opponent": "Missouri Military Academy",
@@ -4570,7 +4582,7 @@
   "Scotland County": {
     "class": 1,
     "district": 8,
-    "current_total_points": 46.0842,
+    "current_total_points": 46.4,
     "current_rank": 1,
     "games": [
       {
@@ -5578,8 +5590,8 @@
   "Duchesne": {
     "class": 2,
     "district": 2,
-    "current_total_points": 26.0,
-    "current_rank": 5,
+    "current_total_points": 30.2,
+    "current_rank": 4,
     "games": [
       {
         "date": "8/28/2026",
@@ -5590,6 +5602,18 @@
         "my_score": 7,
         "opp_score": 42,
         "won": false,
+        "overtime": false,
+        "forfeit": false
+      },
+      {
+        "date": "9/5/2026",
+        "opponent": "Veritas Christian Academy",
+        "opponent_type": "in_state",
+        "opponent_class": 1,
+        "played": true,
+        "my_score": 7,
+        "opp_score": 0,
+        "won": true,
         "overtime": false,
         "forfeit": false
       },
@@ -6031,7 +6055,7 @@
     "class": 2,
     "district": 2,
     "current_total_points": 28.9,
-    "current_rank": 4,
+    "current_rank": 5,
     "games": [
       {
         "date": "8/28/2026",
@@ -12050,7 +12074,7 @@
   "Lutheran South": {
     "class": 3,
     "district": 2,
-    "current_total_points": 19.5333,
+    "current_total_points": 19.8842,
     "current_rank": 6,
     "games": [
       {
@@ -19854,7 +19878,7 @@
   "St. Charles": {
     "class": 4,
     "district": 4,
-    "current_total_points": 22.5,
+    "current_total_points": 22.875,
     "current_rank": 7,
     "games": [
       {
