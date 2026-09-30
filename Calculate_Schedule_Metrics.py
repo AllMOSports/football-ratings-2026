@@ -39,15 +39,30 @@ import json
 import csv
 from collections import defaultdict
 from datetime import datetime
+from pathlib import Path
  
 # =========================================================================
 # CONFIG - this is the only section you should need to edit per repo/season
 # =========================================================================
 SEASON_YEAR = 2026
  
-RATINGS_FILE = f"football_ratings_{SEASON_YEAR}.json"
-SCOREBOARD_FILE = f"football_scoreboard_{SEASON_YEAR}.csv"
+# Tried in order; first one found (repo root or any subfolder) is used.
+# 2026 games come from the scraper's JSON; older seasons may still use CSV.
+RATINGS_FILE_CANDIDATES = [
+    f"football_ratings_{SEASON_YEAR}.json",
+    f"ratings_{SEASON_YEAR}.json",
+    "ratings.json",
+]
+GAMES_FILE_CANDIDATES = [
+    f"football_games_{SEASON_YEAR}_all.json",
+    f"football_scoreboard_{SEASON_YEAR}.csv",
+]
 OUTPUT_FILE = f"schedule_metrics_{SEASON_YEAR}.json"
+ 
+# The games JSON is a flat team1/team2 list with no home/away info, so
+# team1 is NOT assumed to be the home team. Home/away records come out null
+# for JSON sources. Flip to True only if you confirm team1 is always home.
+JSON_TEAM1_IS_HOME = False
  
 # A "quality win" is a win over a team ranked this high or better (by ovr_rank)
 QUALITY_WIN_RANK_THRESHOLD = 50
@@ -56,23 +71,125 @@ DATE_FORMAT = "%Y-%m-%d"
 # =========================================================================
  
  
+def find_file(candidates, label):
+    for name in candidates:
+        if Path(name).exists():
+            return name
+    for name in candidates:
+        hits = sorted(Path(".").rglob(name))
+        if hits:
+            return str(hits[0])
+    available = sorted(str(p) for p in Path(".").rglob("*") if p.suffix in (".json", ".csv")
+                       and ".git" not in p.parts)
+    raise SystemExit(
+        f"ERROR: couldn't find the {label} file. Tried: {candidates}\n"
+        f"JSON/CSV files in this repo: {available}\n"
+        f"Add the right name to the candidate list in CONFIG."
+    )
+ 
+ 
+def _first(d, keys):
+    """First key present in dict d with a non-empty value (0 counts as a value)."""
+    for k in keys:
+        if k in d and d[k] is not None and d[k] != "":
+            return d[k]
+    return None
+ 
+ 
+def _to_int(v):
+    try:
+        return int(str(v).strip())
+    except (TypeError, ValueError):
+        return None
+ 
+ 
+def _to_float(v):
+    try:
+        return float(str(v).strip())
+    except (TypeError, ValueError):
+        return None
+ 
+ 
 def load_ratings(path):
-    """Returns dict: school_name -> {ovr_rating, ovr_rank, classification, district}"""
+    """Returns dict: school_name -> {ovr_rating, ovr_rank, classification, district}.
+    Tolerates a few layouts: {"teams": [...]}, a bare list, or {school: {...}}."""
     with open(path, "r", encoding="utf-8") as f:
         data = json.load(f)
  
+    teams = data
+    if isinstance(data, dict):
+        teams = _first(data, ["teams", "ratings", "data"])
+        if teams is None:
+            teams = data  # maybe {school: {...}}
+    if isinstance(teams, dict):
+        teams = [{"school": k, **v} for k, v in teams.items() if isinstance(v, dict)]
+ 
     ratings = {}
-    for team in data["teams"]:
-        ratings[team["school"]] = {
-            "ovr_rating": team["ovr_rating"],
-            "ovr_rank": team["ovr_rank"],
+    for team in teams:
+        school = _first(team, ["school", "team", "name", "School", "Team"])
+        ovr = _to_float(_first(team, ["ovr_rating", "ovr", "overall", "rating", "OVR"]))
+        if school is None or ovr is None:
+            continue
+        ratings[str(school).strip()] = {
+            "ovr_rating": ovr,
+            "ovr_rank": _to_int(_first(team, ["ovr_rank", "rank", "overall_rank"])),
             "classification": team.get("classification"),
             "district": team.get("district"),
         }
-    return ratings, data.get("league_average")
+ 
+    if not ratings:
+        sample = list(teams[0].keys()) if teams else "file is empty"
+        raise SystemExit(f"ERROR: no teams parsed from {path}. First entry's keys: {sample}")
+ 
+    # Fill in ranks if the file doesn't carry them
+    if any(r["ovr_rank"] is None for r in ratings.values()):
+        ordered = sorted(ratings, key=lambda s: ratings[s]["ovr_rating"], reverse=True)
+        for i, s in enumerate(ordered, start=1):
+            ratings[s]["ovr_rank"] = i
+ 
+    league_average = data.get("league_average") if isinstance(data, dict) else None
+    return ratings, league_average
  
  
 def load_games(path):
+    if path.endswith(".json"):
+        return load_games_json(path)
+    return load_games_csv(path)
+ 
+ 
+def load_games_json(path):
+    """Flat team1/team2/score1/score2 list. Unplayed games (no scores) are skipped."""
+    with open(path, "r", encoding="utf-8") as f:
+        data = json.load(f)
+    rows = data if isinstance(data, list) else (_first(data, ["games", "data", "results"]) or [])
+ 
+    games, skipped = [], 0
+    for r in rows:
+        t1 = _first(r, ["team1", "home_team", "Home Team"])
+        t2 = _first(r, ["team2", "away_team", "Away Team"])
+        s1 = _to_int(_first(r, ["score1", "home_score", "Home Score"]))
+        s2 = _to_int(_first(r, ["score2", "away_score", "Away Score"]))
+        if not t1 or not t2 or s1 is None or s2 is None:
+            skipped += 1
+            continue
+        games.append({
+            "date": str(_first(r, ["date", "Date", "game_date"]) or ""),
+            "home_team": str(t1).strip(),
+            "home_score": s1,
+            "away_team": str(t2).strip(),
+            "away_score": s2,
+            "location_known": JSON_TEAM1_IS_HOME or "home_team" in r,
+        })
+    if skipped:
+        print(f"Skipped {skipped} unplayed/incomplete game(s) in {path}")
+    if not games and rows:
+        print(f"WARNING: 0 games parsed. First entry's keys: {list(rows[0].keys())}")
+ 
+    games.sort(key=lambda g: g["date"])  # stable: undated games keep file order
+    return games
+ 
+ 
+def load_games_csv(path):
     """Returns list of game dicts with parsed scores/date, in chronological order."""
     games = []
     with open(path, "r", encoding="utf-8") as f:
@@ -89,6 +206,7 @@ def load_games(path):
                 "home_score": int(home_score),
                 "away_team": row["Away Team"].strip(),
                 "away_score": int(away_score),
+                "location_known": True,
             })
  
     games.sort(key=lambda g: g["date"])
@@ -167,6 +285,7 @@ def process_team(school, games, ratings, records):
         if not (is_home or is_away):
             continue
  
+        loc_known = g.get("location_known", True)
         opponent = g["away_team"] if is_home else g["home_team"]
         team_score = g["home_score"] if is_home else g["away_score"]
         opp_score = g["away_score"] if is_home else g["home_score"]
@@ -183,24 +302,18 @@ def process_team(school, games, ratings, records):
  
         if result == "W":
             wins += 1
-            if is_home:
-                home_record["w"] += 1
-            else:
-                away_record["w"] += 1
+            if loc_known:
+                (home_record if is_home else away_record)["w"] += 1
             if opp_rank is not None and opp_rank <= QUALITY_WIN_RANK_THRESHOLD:
                 quality_wins += 1
         elif result == "L":
             losses += 1
-            if is_home:
-                home_record["l"] += 1
-            else:
-                away_record["l"] += 1
+            if loc_known:
+                (home_record if is_home else away_record)["l"] += 1
         else:
             ties += 1
-            if is_home:
-                home_record["t"] += 1
-            else:
-                away_record["t"] += 1
+            if loc_known:
+                (home_record if is_home else away_record)["t"] += 1
  
         points_for += team_score
         points_against += opp_score
@@ -208,7 +321,7 @@ def process_team(school, games, ratings, records):
         game_log.append({
             "date": g["date"],
             "opponent": opponent,
-            "home_away": "Home" if is_home else "Away",
+            "home_away": ("Home" if is_home else "Away") if loc_known else None,
             "team_score": team_score,
             "opponent_score": opp_score,
             "result": result,
@@ -258,8 +371,8 @@ def process_team(school, games, ratings, records):
         "points_for": points_for,
         "points_against": points_against,
         "avg_margin": round((points_for - points_against) / games_played, 2) if games_played else None,
-        "home_record": home_record,
-        "away_record": away_record,
+        "home_record": home_record if any(gl["home_away"] for gl in game_log) else None,
+        "away_record": away_record if any(gl["home_away"] for gl in game_log) else None,
         "longest_win_streak": longest_streak(game_log),
         "biggest_win": biggest_win,
         "closest_game": closest_game,
@@ -268,8 +381,11 @@ def process_team(school, games, ratings, records):
  
  
 def main():
-    ratings, league_average = load_ratings(RATINGS_FILE)
-    games = load_games(SCOREBOARD_FILE)
+    ratings_file = find_file(RATINGS_FILE_CANDIDATES, "ratings")
+    games_file = find_file(GAMES_FILE_CANDIDATES, "games")
+    print(f"Ratings: {ratings_file}\nGames:   {games_file}")
+    ratings, league_average = load_ratings(ratings_file)
+    games = load_games(games_file)
     records = build_team_records(games, ratings)
  
     # Warn (don't crash) on any team appearing in the scoreboard but missing
@@ -313,6 +429,17 @@ def main():
         json.dump(output, f, indent=2)
  
     print(f"Wrote {OUTPUT_FILE}: {len(results)} teams, {len(games)} games processed.")
+ 
+    no_games = [s for s in results if results[s]["games_played"] == 0]
+    if no_games:
+        print(f"NOTE: {len(no_games)} rated team(s) matched 0 games (likely name mismatch "
+              f"between files): {no_games[:15]}{' ...' if len(no_games) > 15 else ''}")
+ 
+    print("\nTop 10 SOS:")
+    for school in ranked[:10]:
+        r = results[school]
+        print(f"  {r['sos_rank']:>3}. {school:<32} SOS {r['sos']:>7}  SOV {r['sov']}  "
+              f"({r['wins']}-{r['losses']}{'-' + str(r['ties']) if r['ties'] else ''})")
  
  
 if __name__ == "__main__":
