@@ -1,0 +1,44 @@
+name: 2026 Football Ratings (No Past)
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  update-ratings:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      # No "Install dependencies" step: football_ratings_no_past_2026.py uses
+      # only the Python standard library (no requests / beautifulsoup4 /
+      # pandas / numpy), since it no longer scrapes MSHSAA.
+
+      # The script reads football_games_2026.json and classifications.json
+      # from the repo root, so both must be committed there.
+      - name: Run ratings script
+        run: python football_ratings_no_past_2026.py
+
+      # The 2025 workflow also ran compute_sor.py (Strength of Record) here.
+      # It is intentionally NOT included: that script was not part of this
+      # update, and it likely depends on the 2025 scoreboard CSV that the
+      # new script no longer produces. Re-add it once it has been checked
+      # against the 2026 output files.
+      # - name: Run Strength of Record script
+      #   run: python compute_sor.py
+
+      - name: Commit and push updated files
+        run: |
+          git config user.name "GitHub Actions"
+          git config user.email "actions@github.com"
+          git add football_ratings_no_past_2026*.json football_ratings_no_past_2026*.csv
+          git diff --staged --quiet || git commit -m "Update no-past 2026 ratings $(date +'%Y-%m-%d')"
+          git push
