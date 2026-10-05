@@ -177,7 +177,7 @@ ITERATIONS            = 1000 # same as football_ratings_2025.py -- cheap even wi
 # final rating as K drops, so going too low re-introduces the instability
 # problem this anchor exists to prevent (see the module docstring's
 # "WHY THIS REPLACED THE OLDER VERSION" section) -- just in fewer-games form.
-PRIOR_ANCHOR_K = 0.20
+PRIOR_ANCHOR_K = 0.50
  
 # RATING DIFFERENTIAL GUIDE: a game is only counted toward the fit at all if
 # the two teams' STARTING rating gap is <= this value. Added after a real
@@ -197,7 +197,7 @@ PRIOR_ANCHOR_K = 0.20
 # excludes about 3% of a typical week's games (the genuine blowout
 # mismatches) while leaving the vast majority -- competitive games between
 # similarly-rated teams -- untouched.
-RATING_GAP_CUTOFF = 45
+RATING_GAP_CUTOFF = 60
  
 # Only include games on/before this date (inclusive), as an ISO string
 # e.g. "2026-09-05". Leave as None to include every played game in the file.
