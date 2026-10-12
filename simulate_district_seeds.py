@@ -25,7 +25,7 @@ GAME MODEL
   side the unrounded draw favored, final margin = 3, overtime=True (so the
   loser gets the 15-point OT-loss value, same as a real OT loss)
 
-  SIGMA defaults to 15 (this season's in-sample residual SD is ~14.6). Calibrate it (see --sigma) from historical
+  SIGMA defaults to 16 (this season's in-sample residual SD is ~14.6). Calibrate it (see --sigma) from historical
   end-of-season ratings vs. actual margins; the in-season residual this
   script prints is only a lower bound because the ratings were fit to those
   same games.
@@ -70,7 +70,7 @@ OUTPUT_CSV_PATH = "district_seed_projections_2026.csv"
 
 REGULAR_SEASON_END = datetime.date(2026, 10, 24)
 DEFAULT_SIMS = 10000
-DEFAULT_SIGMA = 15.0
+DEFAULT_SIGMA = 16.0
 OT_MARGIN = 3
 SHRINK_GAMES = 2.0
 CHUNK = 1000          # sims processed per batch (memory control)
