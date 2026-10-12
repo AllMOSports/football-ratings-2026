@@ -1,179 +1,179 @@
 {
   "Berryville (AR.)": {
-    "losses": 2,
-    "record_text": "3-2",
-    "scraped_date": "2026-10-05",
+    "losses": 3,
+    "record_text": "3-3",
+    "scraped_date": "2026-10-12",
     "source": "manual",
     "source_team": "Hollister",
     "wins": 3
   },
   "Bishop Miege (KS.)": {
     "losses": 1,
-    "record_text": "4-1",
-    "scraped_date": "2026-10-05",
+    "record_text": "5-1",
+    "scraped_date": "2026-10-12",
     "source": "manual",
     "source_team": "Rockhurst",
-    "wins": 4
+    "wins": 5
   },
   "Bishop Ward (KS.)": {
-    "losses": 3,
-    "record_text": "2-3",
-    "scraped_date": "2026-10-05",
+    "losses": 4,
+    "record_text": "2-4",
+    "scraped_date": "2026-10-12",
     "source": "manual",
     "source_team": "Hogan Prep Academy Charter",
     "wins": 2
   },
   "Brentwood (TN.)": {
     "losses": 2,
-    "record_text": "5-2",
-    "scraped_date": "2026-10-05",
+    "record_text": "6-2",
+    "scraped_date": "2026-10-12",
     "source": "manual",
     "source_team": "Lift for Life Academy Charter",
-    "wins": 5
+    "wins": 6
   },
   "Cahokia (IL.)": {
     "losses": 2,
-    "record_text": "5-2",
-    "scraped_date": "2026-10-05",
+    "record_text": "6-2",
+    "scraped_date": "2026-10-12",
     "source": "manual",
     "source_team": "St. Mary's South Side",
-    "wins": 5
+    "wins": 6
   },
   "Carbondale (IL.)": {
     "losses": 2,
-    "record_text": "5-2",
-    "scraped_date": "2026-10-05",
+    "record_text": "6-2",
+    "scraped_date": "2026-10-12",
     "source": "manual",
     "source_team": "Miller Career Academy with Sumner",
-    "wins": 5
+    "wins": 6
   },
   "Christ Preparatory (KS.)": {
     "losses": 3,
-    "record_text": "3-3",
-    "scraped_date": "2026-10-05",
+    "record_text": "4-3",
+    "scraped_date": "2026-10-12",
     "source": "manual",
     "source_team": "Savannah",
-    "wins": 3
+    "wins": 4
   },
   "Commerce (OK.)": {
     "losses": 3,
-    "record_text": "2-3",
-    "scraped_date": "2026-10-05",
+    "record_text": "3-3",
+    "scraped_date": "2026-10-12",
     "source": "manual",
     "source_team": "Sarcoxie",
-    "wins": 2
+    "wins": 3
   },
   "Conway (AR.)": {
     "losses": 1,
-    "record_text": "4-1",
-    "scraped_date": "2026-10-05",
+    "record_text": "5-1",
+    "scraped_date": "2026-10-12",
     "source": "manual",
     "source_team": "Capital City",
-    "wins": 4
+    "wins": 5
   },
   "Dupo (IL.)": {
-    "losses": 5,
-    "record_text": "2-5",
-    "scraped_date": "2026-10-05",
+    "losses": 6,
+    "record_text": "2-6",
+    "scraped_date": "2026-10-12",
     "source": "manual",
     "source_team": "Bayless with Hancock",
     "wins": 2
   },
   "Edwardsville (IL.)": {
     "losses": 5,
-    "record_text": "2-5",
-    "scraped_date": "2026-10-05",
+    "record_text": "3-5",
+    "scraped_date": "2026-10-12",
     "source": "manual",
     "source_team": "Jackson",
-    "wins": 2
+    "wins": 3
   },
   "Elmhurst-IC Catholic (IL.)": {
-    "losses": 0,
-    "record_text": "7-0",
-    "scraped_date": "2026-10-05",
+    "losses": 1,
+    "record_text": "7-1",
+    "scraped_date": "2026-10-12",
     "source": "manual",
     "source_team": "St. Mary's South Side",
     "wins": 7
   },
   "FL Schlagle (KS.)": {
-    "losses": 3,
-    "record_text": "2-3",
-    "scraped_date": "2026-10-05",
+    "losses": 4,
+    "record_text": "2-4",
+    "scraped_date": "2026-10-12",
     "source": "manual",
     "source_team": "East (Kansas City)",
     "wins": 2
   },
   "Gibson Southern": {
     "losses": 1,
-    "record_text": "6-1",
-    "scraped_date": "2026-10-05",
+    "record_text": "7-1",
+    "scraped_date": "2026-10-12",
     "source": "manual",
     "source_team": "St. Pius X (Festus)",
-    "wins": 6
+    "wins": 7
   },
   "Gosnell (AR.)": {
     "losses": 0,
-    "record_text": "5-0",
-    "scraped_date": "2026-10-05",
+    "record_text": "6-0",
+    "scraped_date": "2026-10-12",
     "source": "manual",
     "source_team": "Caruthersville",
-    "wins": 5
+    "wins": 6
   },
   "Gravette (AR.)": {
     "losses": 1,
-    "record_text": "4-1",
-    "scraped_date": "2026-10-05",
+    "record_text": "5-1",
+    "scraped_date": "2026-10-12",
     "source": "manual",
     "source_team": "Thayer",
-    "wins": 4
+    "wins": 5
   },
   "Hamilton (IL.)": {
-    "losses": 5,
-    "record_text": "2-5",
-    "scraped_date": "2026-10-05",
+    "losses": 6,
+    "record_text": "2-6",
+    "scraped_date": "2026-10-12",
     "source": "manual",
     "source_team": "Scotland County",
     "wins": 2
   },
   "Harrison (AR.)": {
     "losses": 3,
-    "record_text": "2-3",
-    "scraped_date": "2026-10-05",
+    "record_text": "3-3",
+    "scraped_date": "2026-10-12",
     "source": "manual",
     "source_team": "Branson",
-    "wins": 2
+    "wins": 3
   },
   "Hayden Catholic (KS.)": {
     "losses": 4,
-    "record_text": "1-4",
-    "scraped_date": "2026-10-05",
+    "record_text": "2-4",
+    "scraped_date": "2026-10-12",
     "source": "manual",
     "source_team": "St. Pius X (Kansas City)",
-    "wins": 1
+    "wins": 2
   },
   "Heritage (AR.)": {
-    "losses": 5,
-    "record_text": "0-5",
-    "scraped_date": "2026-10-05",
+    "losses": 6,
+    "record_text": "0-6",
+    "scraped_date": "2026-10-12",
     "source": "manual",
     "source_team": "Camdenton",
     "wins": 0
   },
   "JC Harmon (KS.)": {
-    "losses": 2,
-    "record_text": "3-2",
-    "scraped_date": "2026-10-05",
+    "losses": 3,
+    "record_text": "3-3",
+    "scraped_date": "2026-10-12",
     "source": "manual",
     "source_team": "Northeast (Kansas City)",
     "wins": 3
   },
   "Jacksonville (IL.)": {
     "losses": 1,
-    "record_text": "6-1",
-    "scraped_date": "2026-10-05",
+    "record_text": "7-1",
+    "scraped_date": "2026-10-12",
     "source": "manual",
     "source_team": "Ft. Zumwalt East",
-    "wins": 6
+    "wins": 7
   },
   "Knoxville Catholic (TN.)": {
     "losses": 1,
@@ -184,25 +184,25 @@
     "wins": 6
   },
   "Lawton (OK.)": {
-    "losses": 2,
-    "record_text": "3-2",
-    "scraped_date": "2026-10-05",
+    "losses": 3,
+    "record_text": "3-3",
+    "scraped_date": "2026-10-12",
     "source": "manual",
     "source_team": "University City",
     "wins": 3
   },
   "Lighthouse Sr. High": {
     "losses": 2,
-    "record_text": "2-2",
-    "scraped_date": "2026-10-05",
+    "record_text": "4-2",
+    "scraped_date": "2026-10-12",
     "source": "manual",
     "source_team": "Springfield Catholic",
-    "wins": 2
+    "wins": 4
   },
   "Lincoln-Way Central (IL.)": {
-    "losses": 3,
-    "record_text": "4-3",
-    "scraped_date": "2026-10-05",
+    "losses": 4,
+    "record_text": "4-4",
+    "scraped_date": "2026-10-12",
     "source": "manual",
     "source_team": "Lutheran North",
     "wins": 4
@@ -216,52 +216,52 @@
     "wins": 5
   },
   "Louisburg (KS.)": {
-    "losses": 0,
-    "record_text": "5-0",
-    "scraped_date": "2026-10-05",
+    "losses": 1,
+    "record_text": "5-1",
+    "scraped_date": "2026-10-12",
     "source": "manual",
     "source_team": "Harrisonville",
     "wins": 5
   },
   "Louisville-Ballard (KY.)": {
-    "losses": 5,
-    "record_text": "2-5",
-    "scraped_date": "2026-10-05",
+    "losses": 6,
+    "record_text": "2-6",
+    "scraped_date": "2026-10-12",
     "source": "manual",
     "source_team": "Jackson",
     "wins": 2
   },
   "Madison (IL.)": {
-    "losses": 6,
-    "record_text": "0-6",
-    "scraped_date": "2026-10-05",
+    "losses": 7,
+    "record_text": "0-7",
+    "scraped_date": "2026-10-12",
     "source": "manual",
     "source_team": "Hayti",
     "wins": 0
   },
   "Manhattan (KS.)": {
     "losses": 2,
-    "record_text": "3-2",
-    "scraped_date": "2026-10-05",
+    "record_text": "4-2",
+    "scraped_date": "2026-10-12",
     "source": "manual",
     "source_team": "Rockhurst",
-    "wins": 3
+    "wins": 4
   },
   "Marquette Catholic (IL.)": {
-    "losses": 3,
-    "record_text": "4-3",
-    "scraped_date": "2026-10-05",
+    "losses": 4,
+    "record_text": "4-4",
+    "scraped_date": "2026-10-12",
     "source": "manual",
     "source_team": "Principia",
     "wins": 4
   },
   "Mater Dei (IL.)": {
     "losses": 3,
-    "record_text": "4-3",
-    "scraped_date": "2026-10-05",
+    "record_text": "5-3",
+    "scraped_date": "2026-10-12",
     "source": "manual",
     "source_team": "Saxony Lutheran",
-    "wins": 4
+    "wins": 5
   },
   "Middle Tennessee Christian (TN.)": {
     "losses": 1,
@@ -273,80 +273,80 @@
   },
   "Millard South (NE.)": {
     "losses": 0,
-    "record_text": "6-0",
-    "scraped_date": "2026-10-05",
+    "record_text": "7-0",
+    "scraped_date": "2026-10-12",
     "source": "manual",
     "source_team": "Cardinal Ritter",
-    "wins": 6
+    "wins": 7
   },
   "Missouri Military Academy": {
-    "losses": 3,
-    "record_text": "0-3",
-    "scraped_date": "2026-10-05",
+    "losses": 4,
+    "record_text": "0-4",
+    "scraped_date": "2026-10-12",
     "source": "manual",
     "source_team": "Duchesne",
     "wins": 0
   },
   "Mountain Home (AR.)": {
     "losses": 1,
-    "record_text": "4-1",
-    "scraped_date": "2026-10-05",
+    "record_text": "5-1",
+    "scraped_date": "2026-10-12",
     "source": "manual",
     "source_team": "Rolla",
-    "wins": 4
+    "wins": 5
   },
   "Naperville Central (IL.)": {
     "losses": 4,
-    "record_text": "3-4",
-    "scraped_date": "2026-10-05",
+    "record_text": "4-4",
+    "scraped_date": "2026-10-12",
     "source": "manual",
     "source_team": "Cardinal Ritter",
-    "wins": 3
+    "wins": 4
   },
   "O'Fallon (IL.)": {
-    "losses": 3,
-    "record_text": "4-3",
-    "scraped_date": "2026-10-05",
+    "losses": 4,
+    "record_text": "4-4",
+    "scraped_date": "2026-10-12",
     "source": "manual",
     "source_team": "Francis Howell",
     "wins": 4
   },
   "Olathe East (KS.)": {
-    "losses": 5,
-    "record_text": "0-5",
-    "scraped_date": "2026-10-05",
+    "losses": 6,
+    "record_text": "0-6",
+    "scraped_date": "2026-10-12",
     "source": "manual",
     "source_team": "Staley",
     "wins": 0
   },
   "Omaha Westside (NE.)": {
     "losses": 0,
-    "record_text": "6-0",
-    "scraped_date": "2026-10-05",
+    "record_text": "7-0",
+    "scraped_date": "2026-10-12",
     "source": "manual",
     "source_team": "Lee's Summit",
-    "wins": 6
+    "wins": 7
   },
   "Piggott (AR.)": {
-    "losses": 5,
-    "record_text": "0-5",
-    "scraped_date": "2026-10-05",
+    "losses": 6,
+    "record_text": "0-6",
+    "scraped_date": "2026-10-12",
     "source": "manual",
     "source_team": "Doniphan",
     "wins": 0
   },
   "Pittsburg (KS.)": {
-    "losses": 2,
-    "record_text": "3-2",
-    "scraped_date": "2026-10-05",
+    "losses": 3,
+    "record_text": "3-3",
+    "scraped_date": "2026-10-12",
     "source": "manual",
     "source_team": "Smithville",
     "wins": 3
   },
   "Pocahontas (AR.)": {
-    "losses": 3,
-    "record_text": "2-3",
-    "scraped_date": "2026-10-05",
+    "losses": 4,
+    "record_text": "2-4",
+    "scraped_date": "2026-10-12",
     "source": "manual",
     "source_team": "Thayer",
     "wins": 2
@@ -361,112 +361,112 @@
   },
   "Shawnee Mission East (KS.)": {
     "losses": 3,
-    "record_text": "2-3",
-    "scraped_date": "2026-10-05",
+    "record_text": "3-3",
+    "scraped_date": "2026-10-12",
     "source": "manual",
     "source_team": "Rockhurst",
-    "wins": 2
+    "wins": 3
   },
   "Shawnee Mission Northwest (KS.)": {
-    "losses": 2,
-    "record_text": "3-2",
-    "scraped_date": "2026-10-05",
+    "losses": 3,
+    "record_text": "3-3",
+    "scraped_date": "2026-10-12",
     "source": "manual",
     "source_team": "Raymore-Peculiar",
     "wins": 3
   },
   "Shawnee Mission South (KS.)": {
-    "losses": 4,
-    "record_text": "1-4",
-    "scraped_date": "2026-10-05",
+    "losses": 5,
+    "record_text": "1-5",
+    "scraped_date": "2026-10-12",
     "source": "manual",
     "source_team": "Lincoln College Prep",
     "wins": 1
   },
   "Southeast": {
-    "losses": 6,
-    "record_text": "0-6",
-    "scraped_date": "2026-10-05",
+    "losses": 7,
+    "record_text": "0-7",
+    "scraped_date": "2026-10-12",
     "source": "manual",
     "source_team": "Grandview",
     "wins": 0
   },
   "Sparta (IL.)": {
     "losses": 0,
-    "record_text": "6-0",
-    "scraped_date": "2026-10-05",
+    "record_text": "7-0",
+    "scraped_date": "2026-10-12",
     "source": "manual",
     "source_team": "Confluence Prep Academy Charter",
-    "wins": 6
+    "wins": 7
   },
   "St. James (KS.)": {
-    "losses": 1,
-    "record_text": "4-1",
-    "scraped_date": "2026-10-05",
+    "losses": 2,
+    "record_text": "4-2",
+    "scraped_date": "2026-10-12",
     "source": "manual",
     "source_team": "St. Pius X (Kansas City)",
     "wins": 4
   },
   "St. James Performance (VA.)": {
     "losses": 1,
-    "record_text": "4-1",
-    "scraped_date": "2026-10-05",
+    "record_text": "5-1",
+    "scraped_date": "2026-10-12",
     "source": "manual",
     "source_team": "Cardinal Ritter",
-    "wins": 4
+    "wins": 5
   },
   "St. Mary's (KS) Academy": {
     "losses": 2,
-    "record_text": "4-2",
-    "scraped_date": "2026-10-05",
+    "record_text": "5-2",
+    "scraped_date": "2026-10-12",
     "source": "manual",
     "source_team": "Summit Christian Academy",
-    "wins": 4
+    "wins": 5
   },
   "St. Thomas Aquinas (KS.)": {
-    "losses": 2,
-    "record_text": "3-2",
-    "scraped_date": "2026-10-05",
+    "losses": 3,
+    "record_text": "3-3",
+    "scraped_date": "2026-10-12",
     "source": "manual",
     "source_team": "Rockhurst",
     "wins": 3
   },
   "Sumner (KS.)": {
     "losses": 3,
-    "record_text": "2-3",
-    "scraped_date": "2026-10-05",
+    "record_text": "3-3",
+    "scraped_date": "2026-10-12",
     "source": "manual",
     "source_team": "KIPP KC Legacy",
-    "wins": 2
+    "wins": 3
   },
   "Tremont (IL.)": {
-    "losses": 4,
-    "record_text": "3-4",
-    "scraped_date": "2026-10-05",
+    "losses": 5,
+    "record_text": "3-5",
+    "scraped_date": "2026-10-12",
     "source": "manual",
     "source_team": "Gateway with Soldan International Studies",
     "wins": 3
   },
   "Trinity Catholic (KY.)": {
     "losses": 1,
-    "record_text": "6-1",
-    "scraped_date": "2026-10-05",
+    "record_text": "7-1",
+    "scraped_date": "2026-10-12",
     "source": "manual",
     "source_team": "Christian Brothers College",
-    "wins": 6
+    "wins": 7
   },
   "Vienna-Goreville (IL.)": {
-    "losses": 3,
-    "record_text": "0-3",
-    "scraped_date": "2026-10-05",
+    "losses": 4,
+    "record_text": "0-4",
+    "scraped_date": "2026-10-12",
     "source": "manual",
     "source_team": "Saxony Lutheran",
     "wins": 0
   },
   "Washington (KS.)": {
-    "losses": 1,
-    "record_text": "4-1",
-    "scraped_date": "2026-10-05",
+    "losses": 2,
+    "record_text": "4-2",
+    "scraped_date": "2026-10-12",
     "source": "manual",
     "source_team": "KIPP KC Legacy",
     "wins": 4
