@@ -5938,7 +5938,7 @@
   "Miller Career Academy with Sumner": {
     "class": 2,
     "district": 2,
-    "current_total_points": 33.5714,
+    "current_total_points": 31.4286,
     "current_rank": 3,
     "games": [
       {
@@ -6023,7 +6023,7 @@
         "opp_score": 13,
         "won": false,
         "overtime": false,
-        "forfeit": false
+        "forfeit": true
       },
       {
         "date": "10/16/2026",
@@ -15139,7 +15139,7 @@
         "opp_score": 0,
         "won": true,
         "overtime": false,
-        "forfeit": false
+        "forfeit": true
       },
       {
         "date": "10/17/2026",
@@ -19395,7 +19395,7 @@
         "opp_score": 0,
         "won": true,
         "overtime": false,
-        "forfeit": false
+        "forfeit": true
       },
       {
         "date": "10/16/2026",
@@ -23822,7 +23822,7 @@
   "Mehlville": {
     "class": 5,
     "district": 1,
-    "current_total_points": 14.4042,
+    "current_total_points": 13.6899,
     "current_rank": 6,
     "games": [
       {
@@ -23907,7 +23907,7 @@
         "opp_score": 13,
         "won": false,
         "overtime": false,
-        "forfeit": false
+        "forfeit": true
       },
       {
         "date": "10/16/2026",
