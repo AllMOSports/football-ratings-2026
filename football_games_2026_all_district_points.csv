@@ -947,7 +947,7 @@ date,team1,team1_classified,score1,team2,team2_classified,score2,forfeit,overtim
 10/9/2026,Lexington,TRUE,14,Carrollton,TRUE,37,FALSE,FALSE
 10/9/2026,Willard,TRUE,0,Carthage,TRUE,63,FALSE,FALSE
 10/9/2026,Hayti,TRUE,18,Caruthersville,TRUE,56,FALSE,FALSE
-10/9/2026,Miller Career Academy with Sumner,TRUE,0,Cassville,TRUE,13,FALSE,FALSE
+10/9/2026,Miller Career Academy with Sumner,TRUE,0,Cassville,TRUE,13,TRUE,FALSE
 10/9/2026,Jackson,TRUE,44,Central (Cape Girardeau),TRUE,3,FALSE,FALSE
 10/9/2026,Doniphan,TRUE,6,Central (New Madrid County),TRUE,38,FALSE,FALSE
 10/9/2026,Malden,TRUE,0,Charleston,TRUE,42,FALSE,FALSE
@@ -1064,7 +1064,7 @@ date,team1,team1_classified,score1,team2,team2_classified,score2,forfeit,overtim
 10/9/2026,Ava,TRUE,13,Thayer,TRUE,22,FALSE,FALSE
 10/9/2026,Ft. Zumwalt South,TRUE,39,Timberland,TRUE,47,FALSE,FALSE
 10/9/2026,Putnam County,TRUE,40,Trenton,TRUE,6,FALSE,FALSE
-10/9/2026,Mehlville,TRUE,0,University City,TRUE,13,FALSE,FALSE
+10/9/2026,Mehlville,TRUE,0,University City,TRUE,13,TRUE,FALSE
 10/9/2026,Ste. Genevieve,TRUE,7,Valle Catholic,TRUE,55,FALSE,FALSE
 10/9/2026,Summit Christian Academy,TRUE,34,Van Horn,TRUE,14,FALSE,FALSE
 10/9/2026,Principia,TRUE,70,Veritas Christian Academy,TRUE,35,FALSE,FALSE
