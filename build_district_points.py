@@ -318,9 +318,10 @@ def compute_team_points(team, schedule, record, team_class, oos_class, oos_recor
         sum_T += t_pts
  
         # U: playing-up-in-class bonus -- works for out-of-state opponents
-        # too. A team that forfeited gets no class bonus for that game,
-        # confirmed against MSHSAA the same way as the T rule above.
-        if g["forfeit"] and not g["won"]:
+        # too. NO class bonus on ANY forfeit game, winner or loser
+        # (confirmed against MSHSAA: University City's forfeit win over
+        # higher-class Mehlville earned no bonus).
+        if g["forfeit"]:
             u_pts = 0
         elif my_class is not None and opp_class is not None and opp_class > my_class:
             u_pts = (opp_class - my_class) * POINTS["class_step"]
@@ -356,7 +357,23 @@ def compute_team_points(team, schedule, record, team_class, oos_class, oos_recor
         if has_record:
             v_pts = opp_w * POINTS["opp_win"]
             w_pts = (opp_ot * POINTS["opp_ot_loss"]) + ((opp_l - opp_ot) * POINTS["opp_loss"])
-            y_pts = POINTS["loss"] if g["won"] else POINTS["win"]
+            # Self-correction, with an overtime-aware refinement confirmed
+            # against MSHSAA's real published totals: normally this
+            # subtracts what YOUR result contributed to the opponent's
+            # V/W value (a loss you handed them = 10, a win they handed
+            # you = 20). But if you WON in overtime, what you actually
+            # contributed to their record was an OVERTIME loss (worth 15
+            # in the V/W scheme above, not a plain 10) -- so the
+            # correction needs to match that. Verified: fixed 8 teams
+            # exactly (Eureka, Ft. Zumwalt North/South, Crest Ridge,
+            # Lawson, Sikeston, St. Francis Borgia, Veritas Christian
+            # Academy) with zero regressions elsewhere. The losing side
+            # of an OT game needs no equivalent adjustment -- a win is
+            # just a win (20) whether or not it went to overtime.
+            if g["won"] and g["overtime"]:
+                y_pts = POINTS["opp_ot_loss"]
+            else:
+                y_pts = POINTS["loss"] if g["won"] else POINTS["win"]
  
             sum_V += v_pts
             sum_W += w_pts
