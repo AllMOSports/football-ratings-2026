@@ -8275,10 +8275,10 @@
       "team": "Miller Career Academy with Sumner",
       "class": 2,
       "district": 2,
-      "total_points": 33.5714,
+      "total_points": 31.4286,
       "components": {
-        "avg_win_loss": 11.4286,
-        "avg_class_bonus": 15.7143,
+        "avg_win_loss": 10.7143,
+        "avg_class_bonus": 14.2857,
         "avg_differential": -9.2857,
         "sos_term": 15.7143
       },
@@ -8429,10 +8429,10 @@
           "opp_score": 13,
           "won": false,
           "overtime": false,
-          "forfeit": false,
+          "forfeit": true,
           "points": {
-            "win_loss": 10,
-            "class_bonus": 10,
+            "win_loss": 5,
+            "class_bonus": 0,
             "differential": -13
           }
         }
@@ -21788,7 +21788,7 @@
           "opp_score": 0,
           "won": true,
           "overtime": false,
-          "forfeit": false,
+          "forfeit": true,
           "points": {
             "win_loss": 20,
             "class_bonus": 0,
@@ -27321,7 +27321,7 @@
           "opp_score": 0,
           "won": true,
           "overtime": false,
-          "forfeit": false,
+          "forfeit": true,
           "points": {
             "win_loss": 20,
             "class_bonus": 10,
@@ -34865,9 +34865,9 @@
       "team": "Mehlville",
       "class": 5,
       "district": 1,
-      "total_points": 14.4042,
+      "total_points": 13.6899,
       "components": {
-        "avg_win_loss": 10.0,
+        "avg_win_loss": 9.2857,
         "avg_class_bonus": 1.4286,
         "avg_differential": -13.0,
         "sos_term": 15.9756
@@ -35019,9 +35019,9 @@
           "opp_score": 13,
           "won": false,
           "overtime": false,
-          "forfeit": false,
+          "forfeit": true,
           "points": {
-            "win_loss": 10,
+            "win_loss": 5,
             "class_bonus": 0,
             "differential": -13
           }
