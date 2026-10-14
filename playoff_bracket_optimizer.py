@@ -1,6 +1,6 @@
 """
 All MO Sports - travel-limited football playoff bracket optimizer.
-
+ 
 For each class it:
   1. Geocodes every school (U.S. Census batch geocoder; ZIP-center fallback).
   2. Pulls a full drive-time table from OSRM in one request per class.
@@ -10,68 +10,68 @@ For each class it:
      limits as possible and reports each one.
   5. Places teams on a 64-line bracket: top seeds get byes, the rest play
      best-vs-worst.
-
+ 
 Rules
   * Rounds: District QF, District SF, District Championship, Quarterfinal,
     Semifinal, Championship.
-  * Travel limits: any two teams in the same district <= 3.0 h; any two teams
+  * Travel limits: any two teams in the same district <= 4.0 h; any two teams
     in districts that meet in the Quarterfinal <= 4 h; no limit after that.
   * Seeds: sort by ovr_rating. Then, working from the top seed down, a team
     within 5 spots below that beat a team head-to-head jumps directly above
-    it. A team can jump at most once.
+    it. A team can jump at most once. (--no-jumps turns this off.)
   * Byes: seeds 1..(64 - number of teams) get a first-round bye.
-
+ 
 Inputs (repo root)
   football_ratings_2026.json, football_games_2026_all.json,
   football_school_addresses.csv  (team,class,district,street,city,state,zip,zip_lat,zip_lon)
   coord_overrides.json (optional) {"Team": [lat, lon]}
-
+ 
 Outputs
   school_coords.json            geocode cache (delete a team's entry to redo it)
   drive_times/class_N.json      drive-time cache (seconds)
   playoff_brackets/class_N.json and class_N.md, playoff_brackets/README.md
-
+ 
 Usage
   python playoff_bracket_optimizer.py --classes 1,2,3,4,5,6 --factor 1.0 --time-limit 60
   --factor scales OSRM drive times before checking limits (e.g. 0.85 if OSRM
   runs slow vs. real-world times). Set OSRM_URL to use your own OSRM server.
 """
 import argparse, csv, io, itertools, json, math, os, sys, time
-
+ 
 import requests
 from ortools.sat.python import cp_model
-
-DIST_LIM_H, QF_LIM_H = 3.0, 4.0
+ 
+DIST_LIM_H, QF_LIM_H = 4.0, 4.0
 OSRM_URL = os.environ.get('OSRM_URL', 'https://router.project-osrm.org').rstrip('/')
 CENSUS_BATCH = 'https://geocoding.geo.census.gov/geocoder/locations/addressbatch'
 QF_PAIRS = [(0, 1), (2, 3), (4, 5), (6, 7)]
 ROUND_NAMES = ['District Quarterfinal', 'District Semifinal', 'District Championship',
                'Quarterfinal', 'Semifinal', 'Championship']
-
-
+ 
+ 
 def log(*a):
     print(*a, flush=True)
-
-
+ 
+ 
 # --------------------------------------------------------------------------- data
 def load_json(p, default=None):
     if os.path.exists(p):
         with open(p) as f:
             return json.load(f)
     return default
-
-
+ 
+ 
 def save_json(p, obj):
     os.makedirs(os.path.dirname(p) or '.', exist_ok=True)
     with open(p, 'w') as f:
         json.dump(obj, f, indent=1)
-
-
+ 
+ 
 def load_addresses(path):
     with open(path, newline='') as f:
         return {r['team']: r for r in csv.DictReader(f)}
-
-
+ 
+ 
 # --------------------------------------------------------------------------- geocoding
 def geocode(teams, addresses, cache_path='school_coords.json'):
     cache = load_json(cache_path, {})
@@ -110,11 +110,12 @@ def geocode(teams, addresses, cache_path='school_coords.json'):
                 log(f'  {t}: no street match, using ZIP {a["zip"]} center')
         save_json(cache_path, cache)
     return {t: cache[t] for t in teams}
-
-
+ 
+ 
 # --------------------------------------------------------------------------- drive times
 def drive_matrix(cls, teams, coords):
     path = f'drive_times/class_{cls}.json'
+    teams = sorted(teams)  # cache key independent of seed order
     key = [[t, round(coords[t]['lat'], 5), round(coords[t]['lon'], 5)] for t in teams]
     cached = load_json(path)
     if cached and cached.get('key') == key:
@@ -149,10 +150,10 @@ def drive_matrix(cls, teams, coords):
     save_json(path, {'key': key, 'seconds': sec})
     time.sleep(2)  # be polite to the public server
     return sec
-
-
+ 
+ 
 # --------------------------------------------------------------------------- seeding
-def make_seeds(cls, ratings, games):
+def make_seeds(cls, ratings, games, use_jumps=True):
     teams = sorted([t for t in ratings if t['classification'] == cls], key=lambda t: -t['ovr_rating'])
     order = [t['school'] for t in teams]
     wins, h2h = {}, {}
@@ -165,7 +166,7 @@ def make_seeds(cls, ratings, games):
             f"{g['date']}: {g['team1']} {g['score1']}, {g['team2']} {g['score2']}" + (' (forfeit)' if g.get('forfeit') else ''))
     beat = lambda a, b: wins.get((a, b), 0) > wins.get((b, a), 0)
     seeds, moved, jumps, p = order[:], set(), [], 0
-    while p < len(seeds):
+    while use_jumps and p < len(seeds):
         top = seeds[p]
         cand = [q for q in range(p + 1, min(p + 6, len(seeds))) if seeds[q] not in moved and beat(seeds[q], top)]
         if cand:
@@ -178,8 +179,8 @@ def make_seeds(cls, ratings, games):
         p += 1
     rating = {t['school']: t['ovr_rating'] for t in teams}
     return seeds, order, rating, jumps
-
-
+ 
+ 
 # --------------------------------------------------------------------------- bracket
 def order64(n=64):
     o = [1]
@@ -187,11 +188,11 @@ def order64(n=64):
         m = len(o) * 2 + 1
         o = [x for s in o for x in (s, m - s)]
     return o
-
-
+ 
+ 
 SLOT = order64()  # SLOT[line] = ideal seed on that bracket line
-
-
+ 
+ 
 def optimize_districts(seeds, tt, time_limit, bye_rule='statewide'):
     """Assign teams to 8 districts in two stages:
        Stage 1: fewest travel violations (each over-limit pair that could meet counts once).
@@ -201,7 +202,7 @@ def optimize_districts(seeds, tt, time_limit, bye_rule='statewide'):
     byes = 64 - N
     seed = {t: i + 1 for i, t in enumerate(seeds)}
     wt = {t: 1 + (N - seed[t]) / N for t in seeds}
-
+ 
     def build():
         m = cp_model.CpModel()
         y = {(t, d): m.NewBoolVar(f'y{i}_{d}') for i, t in enumerate(seeds) for d in range(8)}
@@ -231,7 +232,7 @@ def optimize_districts(seeds, tt, time_limit, bye_rule='statewide'):
         proxy = sum(int(round(100 * wt[t])) * min(abs(seed[t] - SLOT[k]) for k in range(8 * d, 8 * d + 8)) * y[t, d]
                     for t in seeds for d in range(8))
         return m, y, viol, proxy
-
+ 
     def run(m, secs):
         s = cp_model.CpSolver()
         s.parameters.max_time_in_seconds = secs
@@ -241,7 +242,7 @@ def optimize_districts(seeds, tt, time_limit, bye_rule='statewide'):
         if st not in (cp_model.OPTIMAL, cp_model.FEASIBLE):
             sys.exit('Solver found no bracket at all')
         return s, st
-
+ 
     # Stage 1
     m, y, viol, proxy = build()
     m.Minimize(sum(v for v, *_ in viol))
@@ -263,8 +264,8 @@ def optimize_districts(seeds, tt, time_limit, bye_rule='statewide'):
             'violations_proven_minimum': proven,
             'solve_seconds': round(s1.WallTime() + s.WallTime(), 1)}
     return districts, violations, info
-
-
+ 
+ 
 def place_lines(districts, seed, byes, bye_rule='statewide'):
     """Within each district: bye teams take the best seed lines; remaining
     teams play best-vs-worst in the District Quarterfinal.
@@ -285,14 +286,14 @@ def place_lines(districts, seed, byes, bye_rule='statewide'):
             line[p[0]] = play[i]
             line[p[1]] = play[-1 - i]
     return line
-
-
+ 
+ 
 # --------------------------------------------------------------------------- reporting
 def fmt_h(h):
     mins = int(round(h * 60))
     return f'{mins // 60}h {mins % 60:02d}m'
-
-
+ 
+ 
 def write_outputs(cls, seeds, order, rating, jumps, districts, line, violations, info, tt, factor, bye_rule):
     seed = {t: i + 1 for i, t in enumerate(seeds)}
     N = len(seeds)
@@ -353,8 +354,8 @@ def write_outputs(cls, seeds, order, rating, jumps, districts, line, violations,
     with open(f'playoff_brackets/class_{cls}.md', 'w') as f:
         f.write('\n'.join(md) + '\n')
     return out
-
-
+ 
+ 
 # --------------------------------------------------------------------------- main
 def main():
     ap = argparse.ArgumentParser()
@@ -365,18 +366,20 @@ def main():
     ap.add_argument('--bye-rule', choices=['statewide', 'district'], default='statewide',
                     help="statewide: seeds 1..(64-N) get byes. district: each district's top seeds get its byes "
                          "(far fewer travel violations)")
+    ap.add_argument('--no-jumps', action='store_true',
+                    help='Seed purely by Overall Rating (skip the head-to-head jump rule)')
     args = ap.parse_args()
-
+ 
     ratings = load_json('football_ratings_2026.json')['teams']
     games = load_json('football_games_2026_all.json')
     addresses = load_addresses(args.addresses)
     classes = [int(c) for c in args.classes.split(',') if c.strip()]
-
+ 
     summary = ['# Travel-limited playoff brackets', '',
                f'Bye rule: {args.bye_rule}. Drive-time factor {args.factor}; limits: district rounds {DIST_LIM_H} h, quarterfinal {QF_LIM_H} h.', '',
                '| Class | Teams | Byes | Violations | Proven minimum? |', '|---|---|---|---|---|']
     for cls in classes:
-        seeds, order, rating, jumps = make_seeds(cls, ratings, games)
+        seeds, order, rating, jumps = make_seeds(cls, ratings, games, use_jumps=not args.no_jumps)
         missing = [t for t in seeds if t not in addresses]
         if missing:
             sys.exit(f'Class {cls}: no address for {missing}; add them to {args.addresses}')
@@ -394,7 +397,7 @@ def main():
     with open('playoff_brackets/README.md', 'w') as f:
         f.write('\n'.join(summary) + '\n')
     log('Done. See playoff_brackets/.')
-
-
+ 
+ 
 if __name__ == '__main__':
     main()
