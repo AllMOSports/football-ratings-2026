@@ -11,14 +11,18 @@ on:
         description: "statewide = seeds 1..N get byes; district = each district's top seeds get its byes"
         type: choice
         options: [statewide, district]
-        default: statewide
+        default: district
+      h2h_jumps:
+        description: "Apply the head-to-head jump rule to seeds"
+        type: boolean
+        default: true
       drive_factor:
         description: "Multiply OSRM drive times by this before checking limits (1.0 = raw OSRM)"
         default: "1.0"
         required: true
       time_limit:
         description: "Solver seconds per class"
-        default: "120"
+        default: "600"
         required: true
  
 permissions:
@@ -49,6 +53,7 @@ jobs:
           --bye-rule "${{ inputs.bye_rule }}"
           --factor "${{ inputs.drive_factor }}"
           --time-limit "${{ inputs.time_limit }}"
+          ${{ inputs.h2h_jumps == false && '--no-jumps' || '' }}
  
       - name: Commit results
         run: |
