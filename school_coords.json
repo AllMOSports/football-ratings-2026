@@ -565,5 +565,318 @@
   "lat": 38.9296,
   "lon": -94.5009,
   "source": "zip_center"
+ },
+ "Cole Camp": {
+  "lat": 38.456730787794,
+  "lon": -93.209177632927,
+  "source": "census",
+  "matched": "500 S KEENEY ST, COLE CAMP, MO, 65325"
+ },
+ "Miller Career Academy with Sumner": {
+  "lat": 38.642890131098,
+  "lon": -90.228928182684,
+  "source": "census",
+  "matched": "1000 N GRAND BLVD, SAINT LOUIS, MO, 63106"
+ },
+ "Lone Jack with Kingsville": {
+  "lat": 38.866079080071,
+  "lon": -94.173421753352,
+  "source": "census",
+  "matched": "313 S BYNUM RD, LONE JACK, MO, 64070"
+ },
+ "Lexington": {
+  "lat": 39.174968389068,
+  "lon": -93.866699760935,
+  "source": "census",
+  "matched": "2309 AULL LN, LEXINGTON, MO, 64067"
+ },
+ "KIPP KC Legacy": {
+  "lat": 39.090842029485,
+  "lon": -94.551210760494,
+  "source": "census",
+  "matched": "2700 E 18TH ST, KANSAS CITY, MO, 64127"
+ },
+ "East Prairie": {
+  "lat": 36.777229720321,
+  "lon": -89.379945989328,
+  "source": "census",
+  "matched": "210 E WASHINGTON ST, EAST PRAIRIE, MO, 63845"
+ },
+ "Duchesne": {
+  "lat": 38.797831724506,
+  "lon": -90.50168787098,
+  "source": "census",
+  "matched": "2550 ELM ST, SAINT CHARLES, MO, 63301"
+ },
+ "Confluence Prep Academy Charter": {
+  "lat": 38.6306890947,
+  "lon": -90.201542948279,
+  "source": "census",
+  "matched": "310 N 15TH ST, SAINT LOUIS, MO, 63103"
+ },
+ "Caruthersville": {
+  "lat": 36.179405910717,
+  "lon": -89.663965435705,
+  "source": "census",
+  "matched": "1708 S WARD AVE, CARUTHERSVILLE, MO, 63830"
+ },
+ "Father Tolton": {
+  "lat": 38.891112638173,
+  "lon": -92.287373685618,
+  "source": "census",
+  "matched": "3351 E GANS RD, COLUMBIA, MO, 65201"
+ },
+ "Ava": {
+  "lat": 36.953713320196,
+  "lon": -92.657081045929,
+  "source": "census",
+  "matched": "507 VALLEY AVE, AVA, MO, 65608"
+ },
+ "Liberty (Mountain View)": {
+  "lat": 36.991295641485,
+  "lon": -91.701052208113,
+  "source": "census",
+  "matched": "502 S ELM ST, MOUNTAIN VIEW, MO, 65548"
+ },
+ "East Newton": {
+  "lat": 36.877506894543,
+  "lon": -94.230468569742,
+  "source": "census",
+  "matched": "22876 STATE HWY 86, GRANBY, MO, 64844"
+ },
+ "Brookfield": {
+  "lat": 39.785235866443,
+  "lon": -93.098675098468,
+  "source": "census",
+  "matched": "124 S PERSHING RD, BROOKFIELD, MO, 64628"
+ },
+ "Bowling Green": {
+  "lat": 39.337016136774,
+  "lon": -91.200545609592,
+  "source": "census",
+  "matched": "700 W ADAMS ST, BOWLING GREEN, MO, 63334"
+ },
+ "Forsyth": {
+  "lat": 36.695379102146,
+  "lon": -93.116539003337,
+  "source": "census",
+  "matched": "178 PANTHER ST, FORSYTH, MO, 65653"
+ },
+ "Valle Catholic": {
+  "lat": 37.979883238371,
+  "lon": -90.047743705644,
+  "source": "census",
+  "matched": "40 N 4TH ST, STE GENEVIEVE, MO, 63670"
+ },
+ "Blair Oaks": {
+  "lat": 38.492706892151,
+  "lon": -92.173432885607,
+  "source": "census",
+  "matched": "6124 FALCON LN, JEFFERSON CITY, MO, 65101"
+ },
+ "Lamar": {
+  "lat": 37.499490394444,
+  "lon": -94.277559660657,
+  "source": "census",
+  "matched": "202 W 7TH ST, LAMAR, MO, 64759"
+ },
+ "Centralia": {
+  "lat": 39.201114512346,
+  "lon": -92.13420560511,
+  "source": "census",
+  "matched": "849 S JEFFERSON ST, CENTRALIA, MO, 65240"
+ },
+ "Mid-Buchanan": {
+  "lat": 39.631955016257,
+  "lon": -94.812181133335,
+  "source": "census",
+  "matched": "3221 SE STATE RTE H, FAUCETT, MO, 64448"
+ },
+ "Springfield Catholic": {
+  "lat": 37.169649919196,
+  "lon": -93.223765175829,
+  "source": "census",
+  "matched": "2340 S EASTGATE AVE, SPRINGFIELD, MO, 65809"
+ },
+ "Fair Grove": {
+  "lat": 37.384720593905,
+  "lon": -93.151247905274,
+  "source": "census",
+  "matched": "40 N MAIN ST, FAIR GROVE, MO, 65648"
+ },
+ "St. Vincent": {
+  "lat": 37.723913575973,
+  "lon": -89.874147974482,
+  "source": "census",
+  "matched": "210 S WATERS ST, PERRYVILLE, MO, 63775"
+ },
+ "Clever": {
+  "lat": 37.030270744626,
+  "lon": -93.473214738847,
+  "source": "census",
+  "matched": "103 S PUBLIC AVE, CLEVER, MO, 65631"
+ },
+ "Palmyra": {
+  "lat": 39.785268942292,
+  "lon": -91.523287398134,
+  "source": "census",
+  "matched": "1703 S MAIN ST, PALMYRA, MO, 63461"
+ },
+ "Lawson": {
+  "lat": 39.440269051286,
+  "lon": -94.200284481096,
+  "source": "census",
+  "matched": "600 BOB GILL RD, LAWSON, MO, 64062"
+ },
+ "West Platte": {
+  "lat": 39.417955991577,
+  "lon": -94.900712267029,
+  "source": "census",
+  "matched": "935 WASHINGTON ST, WESTON, MO, 64098"
+ },
+ "California": {
+  "lat": 38.635518046226,
+  "lon": -92.591338360476,
+  "source": "census",
+  "matched": "1501 W BUCHANAN ST, CALIFORNIA, MO, 65018"
+ },
+ "Lafayette County": {
+  "lat": 39.064493721458,
+  "lon": -93.728978058872,
+  "source": "census",
+  "matched": "807A W 31ST ST, HIGGINSVILLE, MO, 64037"
+ },
+ "Butler": {
+  "lat": 38.252267731459,
+  "lon": -94.336048539225,
+  "source": "census",
+  "matched": "420 S FULTON ST, BUTLER, MO, 64730"
+ },
+ "Willow Springs": {
+  "lat": 36.994781475566,
+  "lon": -91.969745438825,
+  "source": "census",
+  "matched": "215 W 4TH ST, WILLOW SPRINGS, MO, 65793"
+ },
+ "Houston": {
+  "lat": 37.329420725082,
+  "lon": -91.957594634909,
+  "source": "census",
+  "matched": "206 W SPRUCE ST, HOUSTON, MO, 65483"
+ },
+ "Sarcoxie": {
+  "lat": 37.06932944547,
+  "lon": -94.130826946669,
+  "source": "census",
+  "matched": "101 S 17TH ST, SARCOXIE, MO, 64862"
+ },
+ "Montgomery County": {
+  "lat": 38.945687037561,
+  "lon": -91.478573990641,
+  "source": "census",
+  "matched": "394 STATE HWY 19, MONTGOMERY CITY, MO, 63361"
+ },
+ "Kelly": {
+  "lat": 37.0424444427,
+  "lon": -89.470203629675,
+  "source": "census",
+  "matched": "4035 STATE HWY 77, BENTON, MO, 63736"
+ },
+ "Versailles": {
+  "lat": 38.431710439493,
+  "lon": -92.851546989845,
+  "source": "census",
+  "matched": "913 W NEWTON ST, VERSAILLES, MO, 65084"
+ },
+ "Holden": {
+  "lat": 38.703484514281,
+  "lon": -93.990525415395,
+  "source": "census",
+  "matched": "1901 S MAIN ST, HOLDEN, MO, 64040"
+ },
+ "Hogan Prep Academy Charter": {
+  "lat": 39.011505347603,
+  "lon": -94.571685132331,
+  "source": "census",
+  "matched": "1331 E MEYER BLVD, KANSAS CITY, MO, 64131"
+ },
+ "Clark County": {
+  "lat": 40.420580895423,
+  "lon": -91.728441142275,
+  "source": "census",
+  "matched": "680 W MAIN ST, KAHOKA, MO, 63445"
+ },
+ "Central (New Madrid County)": {
+  "lat": 36.581258252813,
+  "lon": -89.555827942475,
+  "source": "census",
+  "matched": "310 US HWY 61, NEW MADRID, MO, 63869"
+ },
+ "El Dorado Springs": {
+  "lat": 37.868622735885,
+  "lon": -94.019261272605,
+  "source": "census",
+  "matched": "901 S GRAND AVE, EL DORADO SPRINGS, MO, 64744"
+ },
+ "Trenton": {
+  "lat": 40.081121338526,
+  "lon": -93.600804578539,
+  "source": "census",
+  "matched": "1415 OKLAHOMA AVE, TRENTON, MO, 64683"
+ },
+ "North Callaway": {
+  "lat": 38.9551,
+  "lon": -91.952,
+  "source": "zip_center"
+ },
+ "Lathrop": {
+  "lat": 39.5177,
+  "lon": -94.3093,
+  "source": "zip_center"
+ },
+ "Monroe City": {
+  "lat": 39.6546,
+  "lon": -91.723,
+  "source": "zip_center"
+ },
+ "South Callaway": {
+  "lat": 38.6998,
+  "lon": -91.8868,
+  "source": "zip_center"
+ },
+ "Stockton with Sheldon": {
+  "lat": 37.7241,
+  "lon": -93.796,
+  "source": "zip_center"
+ },
+ "Warsaw": {
+  "lat": 38.2431,
+  "lon": -93.3819,
+  "source": "zip_center"
+ },
+ "Saxony Lutheran": {
+  "lat": 37.3879,
+  "lon": -89.6519,
+  "source": "zip_center"
+ },
+ "Jefferson (Festus)": {
+  "lat": 38.1879,
+  "lon": -90.4286,
+  "source": "zip_center"
+ },
+ "Hermann": {
+  "lat": 38.5876,
+  "lon": -91.4991,
+  "source": "zip_center"
+ },
+ "Mark Twain": {
+  "lat": 39.5154,
+  "lon": -91.5398,
+  "source": "zip_center"
+ },
+ "Highland": {
+  "lat": 40.0867,
+  "lon": -91.8157,
+  "source": "zip_center"
  }
 }

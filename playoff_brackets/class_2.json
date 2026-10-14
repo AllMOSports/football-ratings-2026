@@ -1,0 +1,1318 @@
+{
+ "class": 2,
+ "teams": 54,
+ "byes": 10,
+ "bye_rule": "statewide",
+ "drive_time_factor": 1.0,
+ "limits_hours": {
+  "district_rounds": 2.5,
+  "quarterfinal": 4.0
+ },
+ "solver_status": "stage1 FEASIBLE, stage2 FEASIBLE",
+ "violations": [
+  {
+   "team_a": "Blair Oaks",
+   "team_b": "Caruthersville",
+   "round": "District rounds",
+   "hours": 5.85
+  },
+  {
+   "team_a": "Blair Oaks",
+   "team_b": "Saxony Lutheran",
+   "round": "District rounds",
+   "hours": 4.32
+  },
+  {
+   "team_a": "Blair Oaks",
+   "team_b": "Kelly",
+   "round": "District rounds",
+   "hours": 4.73
+  },
+  {
+   "team_a": "Blair Oaks",
+   "team_b": "Central (New Madrid County)",
+   "round": "District rounds",
+   "hours": 5.25
+  },
+  {
+   "team_a": "Blair Oaks",
+   "team_b": "East Prairie",
+   "round": "District rounds",
+   "hours": 5.28
+  },
+  {
+   "team_a": "Caruthersville",
+   "team_b": "South Callaway",
+   "round": "District rounds",
+   "hours": 5.73
+  },
+  {
+   "team_a": "Brookfield",
+   "team_b": "Bowling Green",
+   "round": "District rounds",
+   "hours": 2.52
+  },
+  {
+   "team_a": "Brookfield",
+   "team_b": "Clark County",
+   "round": "District rounds",
+   "hours": 2.97
+  },
+  {
+   "team_a": "South Callaway",
+   "team_b": "Saxony Lutheran",
+   "round": "District rounds",
+   "hours": 4.2
+  },
+  {
+   "team_a": "South Callaway",
+   "team_b": "Kelly",
+   "round": "District rounds",
+   "hours": 4.61
+  },
+  {
+   "team_a": "South Callaway",
+   "team_b": "Central (New Madrid County)",
+   "round": "District rounds",
+   "hours": 5.13
+  },
+  {
+   "team_a": "South Callaway",
+   "team_b": "East Prairie",
+   "round": "District rounds",
+   "hours": 5.16
+  },
+  {
+   "team_a": "Versailles",
+   "team_b": "Clark County",
+   "round": "Quarterfinal",
+   "hours": 4.26
+  }
+ ],
+ "violations_proven_minimum": false,
+ "solve_seconds": 240.0,
+ "seeds": [
+  {
+   "seed": 1,
+   "team": "Valle Catholic",
+   "ovr_rating": 47.43,
+   "rating_rank": 1
+  },
+  {
+   "seed": 2,
+   "team": "Blair Oaks",
+   "ovr_rating": 37.61,
+   "rating_rank": 2
+  },
+  {
+   "seed": 3,
+   "team": "Lamar",
+   "ovr_rating": 37.49,
+   "rating_rank": 3
+  },
+  {
+   "seed": 4,
+   "team": "Centralia",
+   "ovr_rating": 25.75,
+   "rating_rank": 4
+  },
+  {
+   "seed": 5,
+   "team": "Mid-Buchanan",
+   "ovr_rating": 20.55,
+   "rating_rank": 5
+  },
+  {
+   "seed": 6,
+   "team": "Springfield Catholic",
+   "ovr_rating": 5.86,
+   "rating_rank": 11
+  },
+  {
+   "seed": 7,
+   "team": "Fair Grove",
+   "ovr_rating": 19.98,
+   "rating_rank": 6
+  },
+  {
+   "seed": 8,
+   "team": "St. Vincent",
+   "ovr_rating": 12.58,
+   "rating_rank": 7
+  },
+  {
+   "seed": 9,
+   "team": "Clever",
+   "ovr_rating": 8.86,
+   "rating_rank": 8
+  },
+  {
+   "seed": 10,
+   "team": "Palmyra",
+   "ovr_rating": 8.56,
+   "rating_rank": 9
+  },
+  {
+   "seed": 11,
+   "team": "North Callaway",
+   "ovr_rating": 6.68,
+   "rating_rank": 10
+  },
+  {
+   "seed": 12,
+   "team": "Caruthersville",
+   "ovr_rating": 5.58,
+   "rating_rank": 12
+  },
+  {
+   "seed": 13,
+   "team": "Father Tolton",
+   "ovr_rating": 3.02,
+   "rating_rank": 13
+  },
+  {
+   "seed": 14,
+   "team": "Ava",
+   "ovr_rating": -4.48,
+   "rating_rank": 17
+  },
+  {
+   "seed": 15,
+   "team": "Liberty (Mountain View)",
+   "ovr_rating": 0.11,
+   "rating_rank": 14
+  },
+  {
+   "seed": 16,
+   "team": "East Newton",
+   "ovr_rating": -0.86,
+   "rating_rank": 15
+  },
+  {
+   "seed": 17,
+   "team": "Brookfield",
+   "ovr_rating": -1.51,
+   "rating_rank": 16
+  },
+  {
+   "seed": 18,
+   "team": "Bowling Green",
+   "ovr_rating": -6.31,
+   "rating_rank": 18
+  },
+  {
+   "seed": 19,
+   "team": "Forsyth",
+   "ovr_rating": -6.59,
+   "rating_rank": 19
+  },
+  {
+   "seed": 20,
+   "team": "Lathrop",
+   "ovr_rating": -11.89,
+   "rating_rank": 24
+  },
+  {
+   "seed": 21,
+   "team": "Lawson",
+   "ovr_rating": -11.34,
+   "rating_rank": 23
+  },
+  {
+   "seed": 22,
+   "team": "West Platte",
+   "ovr_rating": -9.31,
+   "rating_rank": 20
+  },
+  {
+   "seed": 23,
+   "team": "Monroe City",
+   "ovr_rating": -9.55,
+   "rating_rank": 21
+  },
+  {
+   "seed": 24,
+   "team": "South Callaway",
+   "ovr_rating": -11.21,
+   "rating_rank": 22
+  },
+  {
+   "seed": 25,
+   "team": "Stockton with Sheldon",
+   "ovr_rating": -13.72,
+   "rating_rank": 25
+  },
+  {
+   "seed": 26,
+   "team": "California",
+   "ovr_rating": -15.16,
+   "rating_rank": 26
+  },
+  {
+   "seed": 27,
+   "team": "Lafayette County",
+   "ovr_rating": -15.94,
+   "rating_rank": 27
+  },
+  {
+   "seed": 28,
+   "team": "Butler",
+   "ovr_rating": -17.35,
+   "rating_rank": 30
+  },
+  {
+   "seed": 29,
+   "team": "Warsaw",
+   "ovr_rating": -16.52,
+   "rating_rank": 28
+  },
+  {
+   "seed": 30,
+   "team": "Saxony Lutheran",
+   "ovr_rating": -17.26,
+   "rating_rank": 29
+  },
+  {
+   "seed": 31,
+   "team": "Jefferson (Festus)",
+   "ovr_rating": -17.59,
+   "rating_rank": 31
+  },
+  {
+   "seed": 32,
+   "team": "Willow Springs",
+   "ovr_rating": -21.89,
+   "rating_rank": 34
+  },
+  {
+   "seed": 33,
+   "team": "Houston",
+   "ovr_rating": -18.4,
+   "rating_rank": 32
+  },
+  {
+   "seed": 34,
+   "team": "Sarcoxie",
+   "ovr_rating": -21.16,
+   "rating_rank": 33
+  },
+  {
+   "seed": 35,
+   "team": "Montgomery County",
+   "ovr_rating": -22.2,
+   "rating_rank": 35
+  },
+  {
+   "seed": 36,
+   "team": "Kelly",
+   "ovr_rating": -24.23,
+   "rating_rank": 36
+  },
+  {
+   "seed": 37,
+   "team": "Versailles",
+   "ovr_rating": -28.37,
+   "rating_rank": 37
+  },
+  {
+   "seed": 38,
+   "team": "Holden",
+   "ovr_rating": -28.61,
+   "rating_rank": 38
+  },
+  {
+   "seed": 39,
+   "team": "Hogan Prep Academy Charter",
+   "ovr_rating": -32.33,
+   "rating_rank": 39
+  },
+  {
+   "seed": 40,
+   "team": "Clark County",
+   "ovr_rating": -34.97,
+   "rating_rank": 40
+  },
+  {
+   "seed": 41,
+   "team": "Central (New Madrid County)",
+   "ovr_rating": -34.98,
+   "rating_rank": 41
+  },
+  {
+   "seed": 42,
+   "team": "El Dorado Springs",
+   "ovr_rating": -37.04,
+   "rating_rank": 42
+  },
+  {
+   "seed": 43,
+   "team": "Hermann",
+   "ovr_rating": -39.48,
+   "rating_rank": 43
+  },
+  {
+   "seed": 44,
+   "team": "Trenton",
+   "ovr_rating": -40.36,
+   "rating_rank": 44
+  },
+  {
+   "seed": 45,
+   "team": "Cole Camp",
+   "ovr_rating": -42.18,
+   "rating_rank": 45
+  },
+  {
+   "seed": 46,
+   "team": "Miller Career Academy with Sumner",
+   "ovr_rating": -42.85,
+   "rating_rank": 46
+  },
+  {
+   "seed": 47,
+   "team": "Lone Jack with Kingsville",
+   "ovr_rating": -58.4,
+   "rating_rank": 49
+  },
+  {
+   "seed": 48,
+   "team": "Lexington",
+   "ovr_rating": -54.57,
+   "rating_rank": 47
+  },
+  {
+   "seed": 49,
+   "team": "Mark Twain",
+   "ovr_rating": -55.11,
+   "rating_rank": 48
+  },
+  {
+   "seed": 50,
+   "team": "KIPP KC Legacy",
+   "ovr_rating": -59.73,
+   "rating_rank": 50
+  },
+  {
+   "seed": 51,
+   "team": "East Prairie",
+   "ovr_rating": -69.38,
+   "rating_rank": 51
+  },
+  {
+   "seed": 52,
+   "team": "Highland",
+   "ovr_rating": -71.02,
+   "rating_rank": 52
+  },
+  {
+   "seed": 53,
+   "team": "Duchesne",
+   "ovr_rating": -73.66,
+   "rating_rank": 53
+  },
+  {
+   "seed": 54,
+   "team": "Confluence Prep Academy Charter",
+   "ovr_rating": -86.96,
+   "rating_rank": 54
+  }
+ ],
+ "jumps": [
+  {
+   "team": "Springfield Catholic",
+   "jumped": "Fair Grove",
+   "from_seed": 11,
+   "to_seed": 6,
+   "result": [
+    "2026-09-25: Fair Grove 22, Springfield Catholic 27"
+   ]
+  },
+  {
+   "team": "Ava",
+   "jumped": "Liberty (Mountain View)",
+   "from_seed": 17,
+   "to_seed": 14,
+   "result": [
+    "2026-09-18: Liberty (Mountain View) 14, Ava 17"
+   ]
+  },
+  {
+   "team": "Lawson",
+   "jumped": "West Platte",
+   "from_seed": 23,
+   "to_seed": 20,
+   "result": [
+    "2026-10-09: Lawson 34, West Platte 20"
+   ]
+  },
+  {
+   "team": "Lathrop",
+   "jumped": "Lawson",
+   "from_seed": 24,
+   "to_seed": 20,
+   "result": [
+    "2026-09-11: Lawson 13, Lathrop 30"
+   ]
+  },
+  {
+   "team": "Butler",
+   "jumped": "Warsaw",
+   "from_seed": 30,
+   "to_seed": 28,
+   "result": [
+    "2026-10-09: Warsaw 27, Butler 34"
+   ]
+  },
+  {
+   "team": "Willow Springs",
+   "jumped": "Houston",
+   "from_seed": 34,
+   "to_seed": 32,
+   "result": [
+    "2026-10-09: Willow Springs 14, Houston 13"
+   ]
+  },
+  {
+   "team": "Lone Jack with Kingsville",
+   "jumped": "Lexington",
+   "from_seed": 49,
+   "to_seed": 47,
+   "result": [
+    "2026-08-28: Lone Jack with Kingsville 27, Lexington 6"
+   ]
+  }
+ ],
+ "districts": [
+  {
+   "district": 1,
+   "teams": [
+    {
+     "seed": 1,
+     "team": "Valle Catholic"
+    },
+    {
+     "seed": 8,
+     "team": "St. Vincent"
+    },
+    {
+     "seed": 31,
+     "team": "Jefferson (Festus)"
+    },
+    {
+     "seed": 46,
+     "team": "Miller Career Academy with Sumner"
+    },
+    {
+     "seed": 53,
+     "team": "Duchesne"
+    },
+    {
+     "seed": 54,
+     "team": "Confluence Prep Academy Charter"
+    }
+   ],
+   "byes": [
+    "Valle Catholic",
+    "St. Vincent"
+   ],
+   "dqf_games": [
+    {
+     "home": "Miller Career Academy with Sumner",
+     "away": "Duchesne",
+     "drive_h": 0.58
+    },
+    {
+     "home": "Jefferson (Festus)",
+     "away": "Confluence Prep Academy Charter",
+     "drive_h": 0.78
+    }
+   ],
+   "max_drive_h": 1.9
+  },
+  {
+   "district": 2,
+   "teams": [
+    {
+     "seed": 2,
+     "team": "Blair Oaks"
+    },
+    {
+     "seed": 12,
+     "team": "Caruthersville"
+    },
+    {
+     "seed": 24,
+     "team": "South Callaway"
+    },
+    {
+     "seed": 30,
+     "team": "Saxony Lutheran"
+    },
+    {
+     "seed": 36,
+     "team": "Kelly"
+    },
+    {
+     "seed": 41,
+     "team": "Central (New Madrid County)"
+    },
+    {
+     "seed": 51,
+     "team": "East Prairie"
+    }
+   ],
+   "byes": [
+    "Blair Oaks"
+   ],
+   "dqf_games": [
+    {
+     "home": "Saxony Lutheran",
+     "away": "Kelly",
+     "drive_h": 0.64
+    },
+    {
+     "home": "Caruthersville",
+     "away": "East Prairie",
+     "drive_h": 1.17
+    },
+    {
+     "home": "South Callaway",
+     "away": "Central (New Madrid County)",
+     "drive_h": 5.13
+    }
+   ],
+   "max_drive_h": 5.85
+  },
+  {
+   "district": 3,
+   "teams": [
+    {
+     "seed": 28,
+     "team": "Butler"
+    },
+    {
+     "seed": 29,
+     "team": "Warsaw"
+    },
+    {
+     "seed": 38,
+     "team": "Holden"
+    },
+    {
+     "seed": 39,
+     "team": "Hogan Prep Academy Charter"
+    },
+    {
+     "seed": 42,
+     "team": "El Dorado Springs"
+    },
+    {
+     "seed": 45,
+     "team": "Cole Camp"
+    },
+    {
+     "seed": 47,
+     "team": "Lone Jack with Kingsville"
+    },
+    {
+     "seed": 50,
+     "team": "KIPP KC Legacy"
+    }
+   ],
+   "byes": [],
+   "dqf_games": [
+    {
+     "home": "Butler",
+     "away": "KIPP KC Legacy",
+     "drive_h": 1.3
+    },
+    {
+     "home": "Hogan Prep Academy Charter",
+     "away": "El Dorado Springs",
+     "drive_h": 2.01
+    },
+    {
+     "home": "Warsaw",
+     "away": "Lone Jack with Kingsville",
+     "drive_h": 1.81
+    },
+    {
+     "home": "Holden",
+     "away": "Cole Camp",
+     "drive_h": 1.56
+    }
+   ],
+   "max_drive_h": 2.21
+  },
+  {
+   "district": 4,
+   "teams": [
+    {
+     "seed": 5,
+     "team": "Mid-Buchanan"
+    },
+    {
+     "seed": 20,
+     "team": "Lathrop"
+    },
+    {
+     "seed": 21,
+     "team": "Lawson"
+    },
+    {
+     "seed": 22,
+     "team": "West Platte"
+    },
+    {
+     "seed": 27,
+     "team": "Lafayette County"
+    },
+    {
+     "seed": 44,
+     "team": "Trenton"
+    },
+    {
+     "seed": 48,
+     "team": "Lexington"
+    }
+   ],
+   "byes": [
+    "Mid-Buchanan"
+   ],
+   "dqf_games": [
+    {
+     "home": "West Platte",
+     "away": "Lafayette County",
+     "drive_h": 1.74
+    },
+    {
+     "home": "Lathrop",
+     "away": "Lexington",
+     "drive_h": 1.2
+    },
+    {
+     "home": "Lawson",
+     "away": "Trenton",
+     "drive_h": 1.45
+    }
+   ],
+   "max_drive_h": 2.22
+  },
+  {
+   "district": 5,
+   "teams": [
+    {
+     "seed": 6,
+     "team": "Springfield Catholic"
+    },
+    {
+     "seed": 9,
+     "team": "Clever"
+    },
+    {
+     "seed": 14,
+     "team": "Ava"
+    },
+    {
+     "seed": 15,
+     "team": "Liberty (Mountain View)"
+    },
+    {
+     "seed": 32,
+     "team": "Willow Springs"
+    },
+    {
+     "seed": 33,
+     "team": "Houston"
+    }
+   ],
+   "byes": [
+    "Springfield Catholic",
+    "Clever"
+   ],
+   "dqf_games": [
+    {
+     "home": "Liberty (Mountain View)",
+     "away": "Willow Springs",
+     "drive_h": 0.4
+    },
+    {
+     "home": "Ava",
+     "away": "Houston",
+     "drive_h": 1.34
+    }
+   ],
+   "max_drive_h": 2.42
+  },
+  {
+   "district": 6,
+   "teams": [
+    {
+     "seed": 3,
+     "team": "Lamar"
+    },
+    {
+     "seed": 7,
+     "team": "Fair Grove"
+    },
+    {
+     "seed": 16,
+     "team": "East Newton"
+    },
+    {
+     "seed": 19,
+     "team": "Forsyth"
+    },
+    {
+     "seed": 25,
+     "team": "Stockton with Sheldon"
+    },
+    {
+     "seed": 34,
+     "team": "Sarcoxie"
+    }
+   ],
+   "byes": [
+    "Lamar",
+    "Fair Grove"
+   ],
+   "dqf_games": [
+    {
+     "home": "Forsyth",
+     "away": "Stockton with Sheldon",
+     "drive_h": 2.25
+    },
+    {
+     "home": "East Newton",
+     "away": "Sarcoxie",
+     "drive_h": 0.75
+    }
+   ],
+   "max_drive_h": 2.45
+  },
+  {
+   "district": 7,
+   "teams": [
+    {
+     "seed": 10,
+     "team": "Palmyra"
+    },
+    {
+     "seed": 17,
+     "team": "Brookfield"
+    },
+    {
+     "seed": 18,
+     "team": "Bowling Green"
+    },
+    {
+     "seed": 23,
+     "team": "Monroe City"
+    },
+    {
+     "seed": 40,
+     "team": "Clark County"
+    },
+    {
+     "seed": 49,
+     "team": "Mark Twain"
+    },
+    {
+     "seed": 52,
+     "team": "Highland"
+    }
+   ],
+   "byes": [
+    "Palmyra"
+   ],
+   "dqf_games": [
+    {
+     "home": "Monroe City",
+     "away": "Clark County",
+     "drive_h": 1.52
+    },
+    {
+     "home": "Brookfield",
+     "away": "Highland",
+     "drive_h": 2.28
+    },
+    {
+     "home": "Bowling Green",
+     "away": "Mark Twain",
+     "drive_h": 0.66
+    }
+   ],
+   "max_drive_h": 2.97
+  },
+  {
+   "district": 8,
+   "teams": [
+    {
+     "seed": 4,
+     "team": "Centralia"
+    },
+    {
+     "seed": 11,
+     "team": "North Callaway"
+    },
+    {
+     "seed": 13,
+     "team": "Father Tolton"
+    },
+    {
+     "seed": 26,
+     "team": "California"
+    },
+    {
+     "seed": 35,
+     "team": "Montgomery County"
+    },
+    {
+     "seed": 37,
+     "team": "Versailles"
+    },
+    {
+     "seed": 43,
+     "team": "Hermann"
+    }
+   ],
+   "byes": [
+    "Centralia"
+   ],
+   "dqf_games": [
+    {
+     "home": "California",
+     "away": "Montgomery County",
+     "drive_h": 1.65
+    },
+    {
+     "home": "North Callaway",
+     "away": "Hermann",
+     "drive_h": 1.37
+    },
+    {
+     "home": "Father Tolton",
+     "away": "Versailles",
+     "drive_h": 1.43
+    }
+   ],
+   "max_drive_h": 2.3
+  }
+ ],
+ "quarterfinals": [
+  {
+   "districts": [
+    1,
+    2
+   ],
+   "max_drive_h": 3.97
+  },
+  {
+   "districts": [
+    3,
+    4
+   ],
+   "max_drive_h": 3.95
+  },
+  {
+   "districts": [
+    5,
+    6
+   ],
+   "max_drive_h": 3.55
+  },
+  {
+   "districts": [
+    7,
+    8
+   ],
+   "max_drive_h": 4.26
+  }
+ ],
+ "lines": [
+  {
+   "line": 1,
+   "ideal_seed": 1,
+   "team": "Valle Catholic",
+   "seed": 1
+  },
+  {
+   "line": 2,
+   "ideal_seed": 64,
+   "team": null,
+   "seed": null
+  },
+  {
+   "line": 3,
+   "ideal_seed": 32,
+   "team": "Miller Career Academy with Sumner",
+   "seed": 46
+  },
+  {
+   "line": 4,
+   "ideal_seed": 33,
+   "team": "Duchesne",
+   "seed": 53
+  },
+  {
+   "line": 5,
+   "ideal_seed": 16,
+   "team": "St. Vincent",
+   "seed": 8
+  },
+  {
+   "line": 6,
+   "ideal_seed": 49,
+   "team": null,
+   "seed": null
+  },
+  {
+   "line": 7,
+   "ideal_seed": 17,
+   "team": "Jefferson (Festus)",
+   "seed": 31
+  },
+  {
+   "line": 8,
+   "ideal_seed": 48,
+   "team": "Confluence Prep Academy Charter",
+   "seed": 54
+  },
+  {
+   "line": 9,
+   "ideal_seed": 8,
+   "team": "Blair Oaks",
+   "seed": 2
+  },
+  {
+   "line": 10,
+   "ideal_seed": 57,
+   "team": null,
+   "seed": null
+  },
+  {
+   "line": 11,
+   "ideal_seed": 25,
+   "team": "Saxony Lutheran",
+   "seed": 30
+  },
+  {
+   "line": 12,
+   "ideal_seed": 40,
+   "team": "Kelly",
+   "seed": 36
+  },
+  {
+   "line": 13,
+   "ideal_seed": 9,
+   "team": "Caruthersville",
+   "seed": 12
+  },
+  {
+   "line": 14,
+   "ideal_seed": 56,
+   "team": "East Prairie",
+   "seed": 51
+  },
+  {
+   "line": 15,
+   "ideal_seed": 24,
+   "team": "South Callaway",
+   "seed": 24
+  },
+  {
+   "line": 16,
+   "ideal_seed": 41,
+   "team": "Central (New Madrid County)",
+   "seed": 41
+  },
+  {
+   "line": 17,
+   "ideal_seed": 4,
+   "team": "Butler",
+   "seed": 28
+  },
+  {
+   "line": 18,
+   "ideal_seed": 61,
+   "team": "KIPP KC Legacy",
+   "seed": 50
+  },
+  {
+   "line": 19,
+   "ideal_seed": 29,
+   "team": "Hogan Prep Academy Charter",
+   "seed": 39
+  },
+  {
+   "line": 20,
+   "ideal_seed": 36,
+   "team": "El Dorado Springs",
+   "seed": 42
+  },
+  {
+   "line": 21,
+   "ideal_seed": 13,
+   "team": "Warsaw",
+   "seed": 29
+  },
+  {
+   "line": 22,
+   "ideal_seed": 52,
+   "team": "Lone Jack with Kingsville",
+   "seed": 47
+  },
+  {
+   "line": 23,
+   "ideal_seed": 20,
+   "team": "Holden",
+   "seed": 38
+  },
+  {
+   "line": 24,
+   "ideal_seed": 45,
+   "team": "Cole Camp",
+   "seed": 45
+  },
+  {
+   "line": 25,
+   "ideal_seed": 5,
+   "team": "Mid-Buchanan",
+   "seed": 5
+  },
+  {
+   "line": 26,
+   "ideal_seed": 60,
+   "team": null,
+   "seed": null
+  },
+  {
+   "line": 27,
+   "ideal_seed": 28,
+   "team": "West Platte",
+   "seed": 22
+  },
+  {
+   "line": 28,
+   "ideal_seed": 37,
+   "team": "Lafayette County",
+   "seed": 27
+  },
+  {
+   "line": 29,
+   "ideal_seed": 12,
+   "team": "Lathrop",
+   "seed": 20
+  },
+  {
+   "line": 30,
+   "ideal_seed": 53,
+   "team": "Lexington",
+   "seed": 48
+  },
+  {
+   "line": 31,
+   "ideal_seed": 21,
+   "team": "Lawson",
+   "seed": 21
+  },
+  {
+   "line": 32,
+   "ideal_seed": 44,
+   "team": "Trenton",
+   "seed": 44
+  },
+  {
+   "line": 33,
+   "ideal_seed": 2,
+   "team": "Springfield Catholic",
+   "seed": 6
+  },
+  {
+   "line": 34,
+   "ideal_seed": 63,
+   "team": null,
+   "seed": null
+  },
+  {
+   "line": 35,
+   "ideal_seed": 31,
+   "team": "Liberty (Mountain View)",
+   "seed": 15
+  },
+  {
+   "line": 36,
+   "ideal_seed": 34,
+   "team": "Willow Springs",
+   "seed": 32
+  },
+  {
+   "line": 37,
+   "ideal_seed": 15,
+   "team": "Clever",
+   "seed": 9
+  },
+  {
+   "line": 38,
+   "ideal_seed": 50,
+   "team": null,
+   "seed": null
+  },
+  {
+   "line": 39,
+   "ideal_seed": 18,
+   "team": "Ava",
+   "seed": 14
+  },
+  {
+   "line": 40,
+   "ideal_seed": 47,
+   "team": "Houston",
+   "seed": 33
+  },
+  {
+   "line": 41,
+   "ideal_seed": 7,
+   "team": "Lamar",
+   "seed": 3
+  },
+  {
+   "line": 42,
+   "ideal_seed": 58,
+   "team": null,
+   "seed": null
+  },
+  {
+   "line": 43,
+   "ideal_seed": 26,
+   "team": "Forsyth",
+   "seed": 19
+  },
+  {
+   "line": 44,
+   "ideal_seed": 39,
+   "team": "Stockton with Sheldon",
+   "seed": 25
+  },
+  {
+   "line": 45,
+   "ideal_seed": 10,
+   "team": "Fair Grove",
+   "seed": 7
+  },
+  {
+   "line": 46,
+   "ideal_seed": 55,
+   "team": null,
+   "seed": null
+  },
+  {
+   "line": 47,
+   "ideal_seed": 23,
+   "team": "East Newton",
+   "seed": 16
+  },
+  {
+   "line": 48,
+   "ideal_seed": 42,
+   "team": "Sarcoxie",
+   "seed": 34
+  },
+  {
+   "line": 49,
+   "ideal_seed": 3,
+   "team": "Palmyra",
+   "seed": 10
+  },
+  {
+   "line": 50,
+   "ideal_seed": 62,
+   "team": null,
+   "seed": null
+  },
+  {
+   "line": 51,
+   "ideal_seed": 30,
+   "team": "Monroe City",
+   "seed": 23
+  },
+  {
+   "line": 52,
+   "ideal_seed": 35,
+   "team": "Clark County",
+   "seed": 40
+  },
+  {
+   "line": 53,
+   "ideal_seed": 14,
+   "team": "Brookfield",
+   "seed": 17
+  },
+  {
+   "line": 54,
+   "ideal_seed": 51,
+   "team": "Highland",
+   "seed": 52
+  },
+  {
+   "line": 55,
+   "ideal_seed": 19,
+   "team": "Bowling Green",
+   "seed": 18
+  },
+  {
+   "line": 56,
+   "ideal_seed": 46,
+   "team": "Mark Twain",
+   "seed": 49
+  },
+  {
+   "line": 57,
+   "ideal_seed": 6,
+   "team": "Centralia",
+   "seed": 4
+  },
+  {
+   "line": 58,
+   "ideal_seed": 59,
+   "team": null,
+   "seed": null
+  },
+  {
+   "line": 59,
+   "ideal_seed": 27,
+   "team": "California",
+   "seed": 26
+  },
+  {
+   "line": 60,
+   "ideal_seed": 38,
+   "team": "Montgomery County",
+   "seed": 35
+  },
+  {
+   "line": 61,
+   "ideal_seed": 11,
+   "team": "North Callaway",
+   "seed": 11
+  },
+  {
+   "line": 62,
+   "ideal_seed": 54,
+   "team": "Hermann",
+   "seed": 43
+  },
+  {
+   "line": 63,
+   "ideal_seed": 22,
+   "team": "Father Tolton",
+   "seed": 13
+  },
+  {
+   "line": 64,
+   "ideal_seed": 43,
+   "team": "Versailles",
+   "seed": 37
+  }
+ ]
+}
