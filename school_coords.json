@@ -1,0 +1,252 @@
+{
+ "Pattonville": {
+  "lat": 38.740044997108,
+  "lon": -90.453852296826,
+  "source": "census",
+  "matched": "2497 CREVE COEUR MILL RD, MARYLAND HEIGHTS, MO, 63043"
+ },
+ "Liberty": {
+  "lat": 39.241652968516,
+  "lon": -94.448973997228,
+  "source": "census",
+  "matched": "200 W BLUE JAY DR, LIBERTY, MO, 64068"
+ },
+ "Joplin": {
+  "lat": 37.09089135372,
+  "lon": -94.476918842974,
+  "source": "census",
+  "matched": "101 N RANGE LINE RD, JOPLIN, MO, 64801"
+ },
+ "Northwest (Cedar Hill)": {
+  "lat": 38.368785828878,
+  "lon": -90.627352963451,
+  "source": "census",
+  "matched": "6005 CEDAR HILL RD, CEDAR HILL, MO, 63016"
+ },
+ "Marquette": {
+  "lat": 38.623421136481,
+  "lon": -90.581072921453,
+  "source": "census",
+  "matched": "2351 CLARKSON RD, CHESTERFIELD, MO, 63017"
+ },
+ "Seckman": {
+  "lat": 38.398494842902,
+  "lon": -90.426673192173,
+  "source": "census",
+  "matched": "2800 SECKMAN RD, IMPERIAL, MO, 63052"
+ },
+ "Oakville": {
+  "lat": 38.472597024285,
+  "lon": -90.319967614567,
+  "source": "census",
+  "matched": "5557 MILBURN RD, SAINT LOUIS, MO, 63129"
+ },
+ "Lindbergh": {
+  "lat": 38.528017958937,
+  "lon": -90.374415195415,
+  "source": "census",
+  "matched": "5000 S LINDBERGH BLVD, SAINT LOUIS, MO, 63126"
+ },
+ "Lafayette (Wildwood)": {
+  "lat": 38.596886253509,
+  "lon": -90.63877889173,
+  "source": "census",
+  "matched": "17050 CLAYTON RD, WILDWOOD, MO, 63011"
+ },
+ "Christian Brothers College": {
+  "lat": 38.639509317326,
+  "lon": -90.459454952312,
+  "source": "census",
+  "matched": "1850 DE LA SALLE DR, SAINT LOUIS, MO, 63141"
+ },
+ "Central (St. Joseph)": {
+  "lat": 39.765856245111,
+  "lon": -94.828358406278,
+  "source": "census",
+  "matched": "2602 EDMOND ST, SAINT JOSEPH, MO, 64501"
+ },
+ "De Smet Jesuit": {
+  "lat": 38.66036027725,
+  "lon": -90.443357485041,
+  "source": "census",
+  "matched": "233 N NEW BALLAS RD, CREVE COEUR, MO, 63141"
+ },
+ "Park Hill South": {
+  "lat": 39.173633650335,
+  "lon": -94.631234583505,
+  "source": "census",
+  "matched": "4500 NW RIVER PARK DR W, RIVERSIDE, MO, 64150"
+ },
+ "Oak Park": {
+  "lat": 39.237867794678,
+  "lon": -94.572292850109,
+  "source": "census",
+  "matched": "825 NE 79TH TER, KANSAS CITY, MO, 64118"
+ },
+ "Ft. Zumwalt West": {
+  "lat": 38.788927640912,
+  "lon": -90.728468597644,
+  "source": "census",
+  "matched": "1251 TURTLE CREEK DR, O FALLON, MO, 63366"
+ },
+ "Lee's Summit West": {
+  "lat": 38.87250448298,
+  "lon": -94.397602716245,
+  "source": "census",
+  "matched": "2600 SW WARD RD, LEES SUMMIT, MO, 64082"
+ },
+ "Ritenour": {
+  "lat": 38.713390827921,
+  "lon": -90.355300340423,
+  "source": "census",
+  "matched": "9100 SAINT CHARLES ROCK RD, SAINT LOUIS, MO, 63114"
+ },
+ "Park Hill": {
+  "lat": 39.246852845936,
+  "lon": -94.672577195668,
+  "source": "census",
+  "matched": "7701 NW BARRY RD, KANSAS CITY, MO, 64153"
+ },
+ "Kickapoo": {
+  "lat": 37.147397244882,
+  "lon": -93.291272186155,
+  "source": "census",
+  "matched": "3710 S JEFFERSON AVE, SPRINGFIELD, MO, 65807"
+ },
+ "SLUH": {
+  "lat": 38.628949643801,
+  "lon": -90.26711992365,
+  "source": "census",
+  "matched": "4970 OAKLAND AVE, SAINT LOUIS, MO, 63110"
+ },
+ "Liberty (Wentzville)": {
+  "lat": 38.759246388455,
+  "lon": -90.784724388309,
+  "source": "census",
+  "matched": "2275 SOMMERS RD, LAKE ST LOUIS, MO, 63367"
+ },
+ "Troy Buchanan": {
+  "lat": 38.977271167588,
+  "lon": -90.956630423461,
+  "source": "census",
+  "matched": "1190 OLD CAP AU GRIS RD, TROY, MO, 63379"
+ },
+ "Kirkwood": {
+  "lat": 38.589129198876,
+  "lon": -90.421508089915,
+  "source": "census",
+  "matched": "801 W ESSEX AVE, KIRKWOOD, MO, 63122"
+ },
+ "Waynesville": {
+  "lat": 37.812797087318,
+  "lon": -92.210355204018,
+  "source": "census",
+  "matched": "200 GW LN, WAYNESVILLE, MO, 65583"
+ },
+ "Staley": {
+  "lat": 39.286789646008,
+  "lon": -94.540556220281,
+  "source": "census",
+  "matched": "2800 NE SHOAL CREEK PKWY, KANSAS CITY, MO, 64156"
+ },
+ "Francis Howell": {
+  "lat": 38.701177315761,
+  "lon": -90.716843388913,
+  "source": "census",
+  "matched": "7001 S HWY 94, SAINT CHARLES, MO, 63304"
+ },
+ "Jackson": {
+  "lat": 37.379715547501,
+  "lon": -89.669461411559,
+  "source": "census",
+  "matched": "315 S MISSOURI ST, JACKSON, MO, 63755"
+ },
+ "Blue Springs": {
+  "lat": 39.027988103424,
+  "lon": -94.285913488458,
+  "source": "census",
+  "matched": "2000 NW ASHTON DR, BLUE SPRINGS, MO, 64015"
+ },
+ "North Kansas City": {
+  "lat": 39.145247384087,
+  "lon": -94.573439390991,
+  "source": "census",
+  "matched": "620 E 23RD AVE, KANSAS CITY, MO, 64116"
+ },
+ "Liberty North": {
+  "lat": 39.285737363242,
+  "lon": -94.429877509586,
+  "source": "census",
+  "matched": "1000 NE 104TH ST, LIBERTY, MO, 64068"
+ },
+ "Lee's Summit North": {
+  "lat": 38.928816093416,
+  "lon": -94.379549478899,
+  "source": "census",
+  "matched": "901 NE DOUGLAS ST, LEES SUMMIT, MO, 64086"
+ },
+ "Lee's Summit": {
+  "lat": 38.903178342139,
+  "lon": -94.366873851784,
+  "source": "census",
+  "matched": "400 SE BLUE PKWY, LEES SUMMIT, MO, 64063"
+ },
+ "Raymore-Peculiar": {
+  "lat": 38.75190751036,
+  "lon": -94.459562547256,
+  "source": "census",
+  "matched": "20801 S SCHOOL RD, PECULIAR, MO, 64078"
+ },
+ "Nixa": {
+  "lat": 37.041765607218,
+  "lon": -93.294877906025,
+  "source": "census",
+  "matched": "301 S MAIN ST, NIXA, MO, 65714"
+ },
+ "Blue Springs South": {
+  "lat": 39.004840341947,
+  "lon": -94.254042847856,
+  "source": "census",
+  "matched": "1200 SE ADAMS DAIRY PKWY, BLUE SPRINGS, MO, 64014"
+ },
+ "Rockhurst": {
+  "lat": 38.959838481781,
+  "lon": -94.60804355442,
+  "source": "census",
+  "matched": "9301 STATE LINE RD, KANSAS CITY, MO, 64114"
+ },
+ "Hazelwood West": {
+  "lat": 38.784736351922,
+  "lon": -90.379856479159,
+  "source": "census",
+  "matched": "1 WILDCAT LN, HAZELWOOD, MO, 63042"
+ },
+ "Francis Howell North": {
+  "lat": 38.762425099722,
+  "lon": -90.558166700046,
+  "source": "census",
+  "matched": "2549 HACKMANN RD, SAINT CHARLES, MO, 63303"
+ },
+ "Hickman": {
+  "lat": 38.963097076566,
+  "lon": -92.333804309311,
+  "source": "census",
+  "matched": "1104 N PROVIDENCE RD, COLUMBIA, MO, 65203"
+ },
+ "Rock Bridge": {
+  "lat": 38.902808709641,
+  "lon": -92.335106049259,
+  "source": "census",
+  "matched": "4303 S PROVIDENCE RD, COLUMBIA, MO, 65203"
+ },
+ "Ozark": {
+  "lat": 37.0169,
+  "lon": -93.2022,
+  "source": "zip_center"
+ },
+ "Francis Howell Central": {
+  "lat": 38.7378,
+  "lon": -90.6234,
+  "source": "zip_center"
+ }
+}
