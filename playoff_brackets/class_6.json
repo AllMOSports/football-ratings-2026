@@ -2,59 +2,16 @@
  "class": 6,
  "teams": 42,
  "byes": 22,
- "bye_rule": "statewide",
+ "bye_rule": "district",
  "drive_time_factor": 1.0,
  "limits_hours": {
-  "district_rounds": 2.5,
+  "district_rounds": 3.0,
   "quarterfinal": 4.0
  },
- "solver_status": "stage1 OPTIMAL, stage2 FEASIBLE",
- "violations": [
-  {
-   "team_a": "Raymore-Peculiar",
-   "team_b": "Nixa",
-   "round": "District rounds",
-   "hours": 3.1
-  },
-  {
-   "team_a": "Raymore-Peculiar",
-   "team_b": "Ozark",
-   "round": "District rounds",
-   "hours": 3.15
-  },
-  {
-   "team_a": "Raymore-Peculiar",
-   "team_b": "Kickapoo",
-   "round": "District rounds",
-   "hours": 2.93
-  },
-  {
-   "team_a": "Nixa",
-   "team_b": "Liberty",
-   "round": "District rounds",
-   "hours": 3.81
-  },
-  {
-   "team_a": "Liberty",
-   "team_b": "Ozark",
-   "round": "District rounds",
-   "hours": 3.87
-  },
-  {
-   "team_a": "Liberty",
-   "team_b": "Joplin",
-   "round": "District rounds",
-   "hours": 3.11
-  },
-  {
-   "team_a": "Liberty",
-   "team_b": "Kickapoo",
-   "round": "District rounds",
-   "hours": 3.64
-  }
- ],
+ "solver_status": "stage1 OPTIMAL, stage2 OPTIMAL",
+ "violations": [],
  "violations_proven_minimum": true,
- "solve_seconds": 171.9,
+ "solve_seconds": 0.3,
  "seeds": [
   {
    "seed": 1,
@@ -387,6 +344,10 @@
      "team": "SLUH"
     },
     {
+     "seed": 17,
+     "team": "Troy Buchanan"
+    },
+    {
      "seed": 18,
      "team": "Kirkwood"
     },
@@ -401,40 +362,36 @@
    ],
    "byes": [
     "Jackson",
-    "SLUH",
-    "Kirkwood"
+    "SLUH"
    ],
    "dqf_games": [
     {
-     "home": "Lindbergh",
+     "home": "Kirkwood",
+     "away": "Lindbergh",
+     "drive_h": 0.22
+    },
+    {
+     "home": "Troy Buchanan",
      "away": "Lafayette (Wildwood)",
-     "drive_h": 0.55
+     "drive_h": 0.85
     }
    ],
-   "max_drive_h": 2.31
+   "max_drive_h": 2.9
   },
   {
    "district": 2,
    "teams": [
     {
-     "seed": 11,
-     "team": "Christian Brothers College"
-    },
-    {
      "seed": 23,
      "team": "Pattonville"
     },
     {
-     "seed": 27,
-     "team": "Northwest (Cedar Hill)"
-    },
-    {
-     "seed": 38,
-     "team": "Liberty (Wentzville)"
-    },
-    {
      "seed": 39,
      "team": "Francis Howell Central"
+    },
+    {
+     "seed": 40,
+     "team": "Waynesville"
     },
     {
      "seed": 41,
@@ -446,34 +403,22 @@
     }
    ],
    "byes": [
-    "Christian Brothers College"
+    "Pattonville",
+    "Francis Howell Central",
+    "Waynesville"
    ],
    "dqf_games": [
     {
-     "home": "Liberty (Wentzville)",
-     "away": "Francis Howell Central",
-     "drive_h": 0.28
-    },
-    {
-     "home": "Pattonville",
+     "home": "Hazelwood West",
      "away": "Francis Howell North",
-     "drive_h": 0.25
-    },
-    {
-     "home": "Northwest (Cedar Hill)",
-     "away": "Hazelwood West",
-     "drive_h": 0.89
+     "drive_h": 0.35
     }
    ],
-   "max_drive_h": 1.03
+   "max_drive_h": 2.68
   },
   {
    "district": 3,
    "teams": [
-    {
-     "seed": 17,
-     "team": "Troy Buchanan"
-    },
     {
      "seed": 20,
      "team": "Francis Howell"
@@ -496,26 +441,26 @@
     }
    ],
    "byes": [
-    "Troy Buchanan",
-    "Francis Howell"
+    "Francis Howell",
+    "Seckman",
+    "Oakville"
    ],
    "dqf_games": [
     {
-     "home": "Oakville",
-     "away": "Ft. Zumwalt West",
-     "drive_h": 0.92
-    },
-    {
-     "home": "Seckman",
+     "home": "Ft. Zumwalt West",
      "away": "Ritenour",
-     "drive_h": 0.8
+     "drive_h": 0.55
     }
    ],
-   "max_drive_h": 1.43
+   "max_drive_h": 1.11
   },
   {
    "district": 4,
    "teams": [
+    {
+     "seed": 11,
+     "team": "Christian Brothers College"
+    },
     {
      "seed": 12,
      "team": "De Smet Jesuit"
@@ -525,31 +470,35 @@
      "team": "Hickman"
     },
     {
-     "seed": 22,
-     "team": "Rock Bridge"
+     "seed": 27,
+     "team": "Northwest (Cedar Hill)"
     },
     {
      "seed": 28,
      "team": "Marquette"
     },
     {
-     "seed": 40,
-     "team": "Waynesville"
+     "seed": 38,
+     "team": "Liberty (Wentzville)"
     }
    ],
    "byes": [
-    "De Smet Jesuit",
-    "Hickman",
-    "Rock Bridge"
+    "Christian Brothers College",
+    "De Smet Jesuit"
    ],
    "dqf_games": [
     {
-     "home": "Marquette",
-     "away": "Waynesville",
-     "drive_h": 2.29
+     "home": "Northwest (Cedar Hill)",
+     "away": "Marquette",
+     "drive_h": 0.7
+    },
+    {
+     "home": "Hickman",
+     "away": "Liberty (Wentzville)",
+     "drive_h": 1.76
     }
    ],
-   "max_drive_h": 2.45
+   "max_drive_h": 2.69
   },
   {
    "district": 5,
@@ -559,12 +508,95 @@
      "team": "Blue Springs"
     },
     {
-     "seed": 14,
-     "team": "Lee's Summit West"
-    },
-    {
      "seed": 15,
      "team": "Park Hill"
+    },
+    {
+     "seed": 33,
+     "team": "Central (St. Joseph)"
+    },
+    {
+     "seed": 34,
+     "team": "Park Hill South"
+    }
+   ],
+   "byes": [
+    "Blue Springs",
+    "Park Hill South",
+    "Park Hill",
+    "Central (St. Joseph)"
+   ],
+   "dqf_games": [],
+   "max_drive_h": 1.47
+  },
+  {
+   "district": 6,
+   "teams": [
+    {
+     "seed": 6,
+     "team": "Lee's Summit"
+    },
+    {
+     "seed": 7,
+     "team": "Raymore-Peculiar"
+    },
+    {
+     "seed": 9,
+     "team": "Blue Springs South"
+    },
+    {
+     "seed": 10,
+     "team": "Rockhurst"
+    },
+    {
+     "seed": 22,
+     "team": "Rock Bridge"
+    },
+    {
+     "seed": 24,
+     "team": "Liberty"
+    }
+   ],
+   "byes": [
+    "Lee's Summit",
+    "Raymore-Peculiar"
+   ],
+   "dqf_games": [
+    {
+     "home": "Rockhurst",
+     "away": "Rock Bridge",
+     "drive_h": 2.61
+    },
+    {
+     "home": "Blue Springs South",
+     "away": "Liberty",
+     "drive_h": 0.61
+    }
+   ],
+   "max_drive_h": 2.82
+  },
+  {
+   "district": 7,
+   "teams": [
+    {
+     "seed": 3,
+     "team": "North Kansas City"
+    },
+    {
+     "seed": 4,
+     "team": "Liberty North"
+    },
+    {
+     "seed": 5,
+     "team": "Lee's Summit North"
+    },
+    {
+     "seed": 13,
+     "team": "Oak Park"
+    },
+    {
+     "seed": 14,
+     "team": "Lee's Summit West"
     },
     {
      "seed": 19,
@@ -572,28 +604,29 @@
     }
    ],
    "byes": [
-    "Blue Springs",
-    "Staley",
-    "Lee's Summit West",
-    "Park Hill"
+    "North Kansas City",
+    "Liberty North"
    ],
-   "dqf_games": [],
-   "max_drive_h": 0.9
+   "dqf_games": [
+    {
+     "home": "Oak Park",
+     "away": "Lee's Summit West",
+     "drive_h": 0.8
+    },
+    {
+     "home": "Lee's Summit North",
+     "away": "Staley",
+     "drive_h": 0.72
+    }
+   ],
+   "max_drive_h": 0.8
   },
   {
-   "district": 6,
+   "district": 8,
    "teams": [
-    {
-     "seed": 7,
-     "team": "Raymore-Peculiar"
-    },
     {
      "seed": 8,
      "team": "Nixa"
-    },
-    {
-     "seed": 24,
-     "team": "Liberty"
     },
     {
      "seed": 25,
@@ -609,89 +642,13 @@
     }
    ],
    "byes": [
-    "Raymore-Peculiar",
-    "Nixa"
-   ],
-   "dqf_games": [
-    {
-     "home": "Ozark",
-     "away": "Joplin",
-     "drive_h": 1.68
-    },
-    {
-     "home": "Liberty",
-     "away": "Kickapoo",
-     "drive_h": 3.64
-    }
-   ],
-   "max_drive_h": 3.87
-  },
-  {
-   "district": 7,
-   "teams": [
-    {
-     "seed": 3,
-     "team": "North Kansas City"
-    },
-    {
-     "seed": 4,
-     "team": "Liberty North"
-    },
-    {
-     "seed": 13,
-     "team": "Oak Park"
-    },
-    {
-     "seed": 33,
-     "team": "Central (St. Joseph)"
-    },
-    {
-     "seed": 34,
-     "team": "Park Hill South"
-    }
-   ],
-   "byes": [
-    "North Kansas City",
-    "Liberty North",
-    "Oak Park"
-   ],
-   "dqf_games": [
-    {
-     "home": "Central (St. Joseph)",
-     "away": "Park Hill South",
-     "drive_h": 0.98
-    }
-   ],
-   "max_drive_h": 1.06
-  },
-  {
-   "district": 8,
-   "teams": [
-    {
-     "seed": 5,
-     "team": "Lee's Summit North"
-    },
-    {
-     "seed": 6,
-     "team": "Lee's Summit"
-    },
-    {
-     "seed": 9,
-     "team": "Blue Springs South"
-    },
-    {
-     "seed": 10,
-     "team": "Rockhurst"
-    }
-   ],
-   "byes": [
-    "Lee's Summit North",
-    "Rockhurst",
-    "Lee's Summit",
-    "Blue Springs South"
+    "Nixa",
+    "Kickapoo",
+    "Ozark",
+    "Joplin"
    ],
    "dqf_games": [],
-   "max_drive_h": 0.6
+   "max_drive_h": 1.68
   }
  ],
  "quarterfinals": [
@@ -700,28 +657,28 @@
     1,
     2
    ],
-   "max_drive_h": 2.54
+   "max_drive_h": 4.0
   },
   {
    "districts": [
     3,
     4
    ],
-   "max_drive_h": 2.8
+   "max_drive_h": 2.7
   },
   {
    "districts": [
     5,
     6
    ],
-   "max_drive_h": 3.98
+   "max_drive_h": 3.5
   },
   {
    "districts": [
     7,
     8
    ],
-   "max_drive_h": 1.56
+   "max_drive_h": 3.95
   }
  ],
  "lines": [
@@ -740,14 +697,14 @@
   {
    "line": 3,
    "ideal_seed": 32,
-   "team": "Lindbergh",
-   "seed": 31
+   "team": "Kirkwood",
+   "seed": 18
   },
   {
    "line": 4,
    "ideal_seed": 33,
-   "team": "Lafayette (Wildwood)",
-   "seed": 32
+   "team": "Lindbergh",
+   "seed": 31
   },
   {
    "line": 5,
@@ -764,20 +721,20 @@
   {
    "line": 7,
    "ideal_seed": 17,
-   "team": "Kirkwood",
-   "seed": 18
+   "team": "Troy Buchanan",
+   "seed": 17
   },
   {
    "line": 8,
    "ideal_seed": 48,
-   "team": null,
-   "seed": null
+   "team": "Lafayette (Wildwood)",
+   "seed": 32
   },
   {
    "line": 9,
    "ideal_seed": 8,
-   "team": "Christian Brothers College",
-   "seed": 11
+   "team": "Pattonville",
+   "seed": 23
   },
   {
    "line": 10,
@@ -788,44 +745,44 @@
   {
    "line": 11,
    "ideal_seed": 25,
-   "team": "Liberty (Wentzville)",
-   "seed": 38
-  },
-  {
-   "line": 12,
-   "ideal_seed": 40,
-   "team": "Francis Howell Central",
-   "seed": 39
-  },
-  {
-   "line": 13,
-   "ideal_seed": 9,
-   "team": "Pattonville",
-   "seed": 23
-  },
-  {
-   "line": 14,
-   "ideal_seed": 56,
-   "team": "Francis Howell North",
-   "seed": 42
-  },
-  {
-   "line": 15,
-   "ideal_seed": 24,
-   "team": "Northwest (Cedar Hill)",
-   "seed": 27
-  },
-  {
-   "line": 16,
-   "ideal_seed": 41,
    "team": "Hazelwood West",
    "seed": 41
   },
   {
+   "line": 12,
+   "ideal_seed": 40,
+   "team": "Francis Howell North",
+   "seed": 42
+  },
+  {
+   "line": 13,
+   "ideal_seed": 9,
+   "team": "Francis Howell Central",
+   "seed": 39
+  },
+  {
+   "line": 14,
+   "ideal_seed": 56,
+   "team": null,
+   "seed": null
+  },
+  {
+   "line": 15,
+   "ideal_seed": 24,
+   "team": "Waynesville",
+   "seed": 40
+  },
+  {
+   "line": 16,
+   "ideal_seed": 41,
+   "team": null,
+   "seed": null
+  },
+  {
    "line": 17,
    "ideal_seed": 4,
-   "team": "Troy Buchanan",
-   "seed": 17
+   "team": "Francis Howell",
+   "seed": 20
   },
   {
    "line": 18,
@@ -836,20 +793,20 @@
   {
    "line": 19,
    "ideal_seed": 29,
-   "team": "Oakville",
-   "seed": 30
-  },
-  {
-   "line": 20,
-   "ideal_seed": 36,
    "team": "Ft. Zumwalt West",
    "seed": 35
   },
   {
+   "line": 20,
+   "ideal_seed": 36,
+   "team": "Ritenour",
+   "seed": 36
+  },
+  {
    "line": 21,
    "ideal_seed": 13,
-   "team": "Francis Howell",
-   "seed": 20
+   "team": "Seckman",
+   "seed": 29
   },
   {
    "line": 22,
@@ -860,20 +817,20 @@
   {
    "line": 23,
    "ideal_seed": 20,
-   "team": "Seckman",
-   "seed": 29
+   "team": "Oakville",
+   "seed": 30
   },
   {
    "line": 24,
    "ideal_seed": 45,
-   "team": "Ritenour",
-   "seed": 36
+   "team": null,
+   "seed": null
   },
   {
    "line": 25,
    "ideal_seed": 5,
-   "team": "De Smet Jesuit",
-   "seed": 12
+   "team": "Christian Brothers College",
+   "seed": 11
   },
   {
    "line": 26,
@@ -884,20 +841,20 @@
   {
    "line": 27,
    "ideal_seed": 28,
-   "team": "Marquette",
-   "seed": 28
+   "team": "Northwest (Cedar Hill)",
+   "seed": 27
   },
   {
    "line": 28,
    "ideal_seed": 37,
-   "team": "Waynesville",
-   "seed": 40
+   "team": "Marquette",
+   "seed": 28
   },
   {
    "line": 29,
    "ideal_seed": 12,
-   "team": "Hickman",
-   "seed": 21
+   "team": "De Smet Jesuit",
+   "seed": 12
   },
   {
    "line": 30,
@@ -908,14 +865,14 @@
   {
    "line": 31,
    "ideal_seed": 21,
-   "team": "Rock Bridge",
-   "seed": 22
+   "team": "Hickman",
+   "seed": 21
   },
   {
    "line": 32,
    "ideal_seed": 44,
-   "team": null,
-   "seed": null
+   "team": "Liberty (Wentzville)",
+   "seed": 38
   },
   {
    "line": 33,
@@ -932,8 +889,8 @@
   {
    "line": 35,
    "ideal_seed": 31,
-   "team": "Staley",
-   "seed": 19
+   "team": "Park Hill South",
+   "seed": 34
   },
   {
    "line": 36,
@@ -944,8 +901,8 @@
   {
    "line": 37,
    "ideal_seed": 15,
-   "team": "Lee's Summit West",
-   "seed": 14
+   "team": "Park Hill",
+   "seed": 15
   },
   {
    "line": 38,
@@ -956,8 +913,8 @@
   {
    "line": 39,
    "ideal_seed": 18,
-   "team": "Park Hill",
-   "seed": 15
+   "team": "Central (St. Joseph)",
+   "seed": 33
   },
   {
    "line": 40,
@@ -968,8 +925,8 @@
   {
    "line": 41,
    "ideal_seed": 7,
-   "team": "Raymore-Peculiar",
-   "seed": 7
+   "team": "Lee's Summit",
+   "seed": 6
   },
   {
    "line": 42,
@@ -980,20 +937,20 @@
   {
    "line": 43,
    "ideal_seed": 26,
-   "team": "Ozark",
-   "seed": 25
+   "team": "Rockhurst",
+   "seed": 10
   },
   {
    "line": 44,
    "ideal_seed": 39,
-   "team": "Joplin",
-   "seed": 26
+   "team": "Rock Bridge",
+   "seed": 22
   },
   {
    "line": 45,
    "ideal_seed": 10,
-   "team": "Nixa",
-   "seed": 8
+   "team": "Raymore-Peculiar",
+   "seed": 7
   },
   {
    "line": 46,
@@ -1004,14 +961,14 @@
   {
    "line": 47,
    "ideal_seed": 23,
-   "team": "Liberty",
-   "seed": 24
+   "team": "Blue Springs South",
+   "seed": 9
   },
   {
    "line": 48,
    "ideal_seed": 42,
-   "team": "Kickapoo",
-   "seed": 37
+   "team": "Liberty",
+   "seed": 24
   },
   {
    "line": 49,
@@ -1028,14 +985,14 @@
   {
    "line": 51,
    "ideal_seed": 30,
-   "team": "Central (St. Joseph)",
-   "seed": 33
+   "team": "Oak Park",
+   "seed": 13
   },
   {
    "line": 52,
    "ideal_seed": 35,
-   "team": "Park Hill South",
-   "seed": 34
+   "team": "Lee's Summit West",
+   "seed": 14
   },
   {
    "line": 53,
@@ -1052,20 +1009,20 @@
   {
    "line": 55,
    "ideal_seed": 19,
-   "team": "Oak Park",
-   "seed": 13
+   "team": "Lee's Summit North",
+   "seed": 5
   },
   {
    "line": 56,
    "ideal_seed": 46,
-   "team": null,
-   "seed": null
+   "team": "Staley",
+   "seed": 19
   },
   {
    "line": 57,
    "ideal_seed": 6,
-   "team": "Lee's Summit North",
-   "seed": 5
+   "team": "Nixa",
+   "seed": 8
   },
   {
    "line": 58,
@@ -1076,8 +1033,8 @@
   {
    "line": 59,
    "ideal_seed": 27,
-   "team": "Rockhurst",
-   "seed": 10
+   "team": "Kickapoo",
+   "seed": 37
   },
   {
    "line": 60,
@@ -1088,8 +1045,8 @@
   {
    "line": 61,
    "ideal_seed": 11,
-   "team": "Lee's Summit",
-   "seed": 6
+   "team": "Ozark",
+   "seed": 25
   },
   {
    "line": 62,
@@ -1100,8 +1057,8 @@
   {
    "line": 63,
    "ideal_seed": 22,
-   "team": "Blue Springs South",
-   "seed": 9
+   "team": "Joplin",
+   "seed": 26
   },
   {
    "line": 64,
