@@ -1,0 +1,1236 @@
+{
+ "class": 5,
+ "teams": 54,
+ "byes": 10,
+ "bye_rule": "statewide",
+ "drive_time_factor": 1.0,
+ "limits_hours": {
+  "district_rounds": 2.5,
+  "quarterfinal": 4.0
+ },
+ "solver_status": "stage1 FEASIBLE, stage2 FEASIBLE",
+ "violations": [
+  {
+   "team_a": "Helias Catholic",
+   "team_b": "Grain Valley",
+   "round": "District rounds",
+   "hours": 2.58
+  },
+  {
+   "team_a": "Helias Catholic",
+   "team_b": "Fort Osage",
+   "round": "District rounds",
+   "hours": 2.82
+  },
+  {
+   "team_a": "Helias Catholic",
+   "team_b": "Raytown",
+   "round": "District rounds",
+   "hours": 2.9
+  },
+  {
+   "team_a": "Helias Catholic",
+   "team_b": "Truman",
+   "round": "District rounds",
+   "hours": 2.77
+  },
+  {
+   "team_a": "Cardinal Ritter",
+   "team_b": "Poplar Bluff",
+   "round": "District rounds",
+   "hours": 2.99
+  },
+  {
+   "team_a": "Eureka",
+   "team_b": "Poplar Bluff",
+   "round": "District rounds",
+   "hours": 2.98
+  },
+  {
+   "team_a": "Camdenton",
+   "team_b": "West Plains",
+   "round": "District rounds",
+   "hours": 2.85
+  }
+ ],
+ "violations_proven_minimum": false,
+ "solve_seconds": 240.3,
+ "seeds": [
+  {
+   "seed": 1,
+   "team": "Carthage",
+   "ovr_rating": 54.61,
+   "rating_rank": 1
+  },
+  {
+   "seed": 2,
+   "team": "Republic",
+   "ovr_rating": 53.74,
+   "rating_rank": 2
+  },
+  {
+   "seed": 3,
+   "team": "Platte County",
+   "ovr_rating": 51.71,
+   "rating_rank": 3
+  },
+  {
+   "seed": 4,
+   "team": "Helias Catholic",
+   "ovr_rating": 49.35,
+   "rating_rank": 4
+  },
+  {
+   "seed": 5,
+   "team": "Farmington",
+   "ovr_rating": 46.87,
+   "rating_rank": 5
+  },
+  {
+   "seed": 6,
+   "team": "Cardinal Ritter",
+   "ovr_rating": 46.6,
+   "rating_rank": 6
+  },
+  {
+   "seed": 7,
+   "team": "Webb City",
+   "ovr_rating": 44.86,
+   "rating_rank": 7
+  },
+  {
+   "seed": 8,
+   "team": "Neosho",
+   "ovr_rating": 42.34,
+   "rating_rank": 8
+  },
+  {
+   "seed": 9,
+   "team": "Ladue Horton Watkins",
+   "ovr_rating": 36.23,
+   "rating_rank": 12
+  },
+  {
+   "seed": 10,
+   "team": "Eureka",
+   "ovr_rating": 40.45,
+   "rating_rank": 9
+  },
+  {
+   "seed": 11,
+   "team": "Grain Valley",
+   "ovr_rating": 37.85,
+   "rating_rank": 10
+  },
+  {
+   "seed": 12,
+   "team": "Fort Osage",
+   "ovr_rating": 36.52,
+   "rating_rank": 11
+  },
+  {
+   "seed": 13,
+   "team": "Branson",
+   "ovr_rating": 35.64,
+   "rating_rank": 13
+  },
+  {
+   "seed": 14,
+   "team": "Chaminade College Prep",
+   "ovr_rating": 33.29,
+   "rating_rank": 14
+  },
+  {
+   "seed": 15,
+   "team": "St. Mary's South Side",
+   "ovr_rating": 32.24,
+   "rating_rank": 15
+  },
+  {
+   "seed": 16,
+   "team": "Camdenton",
+   "ovr_rating": 30.96,
+   "rating_rank": 16
+  },
+  {
+   "seed": 17,
+   "team": "Rockwood Summit",
+   "ovr_rating": 27.65,
+   "rating_rank": 17
+  },
+  {
+   "seed": 18,
+   "team": "Glendale",
+   "ovr_rating": 27.08,
+   "rating_rank": 18
+  },
+  {
+   "seed": 19,
+   "team": "West Plains",
+   "ovr_rating": 21.97,
+   "rating_rank": 19
+  },
+  {
+   "seed": 20,
+   "team": "Ft. Zumwalt North",
+   "ovr_rating": 19.0,
+   "rating_rank": 20
+  },
+  {
+   "seed": 21,
+   "team": "Raytown",
+   "ovr_rating": 18.56,
+   "rating_rank": 21
+  },
+  {
+   "seed": 22,
+   "team": "Fox",
+   "ovr_rating": 16.95,
+   "rating_rank": 22
+  },
+  {
+   "seed": 23,
+   "team": "Lebanon",
+   "ovr_rating": 16.85,
+   "rating_rank": 23
+  },
+  {
+   "seed": 24,
+   "team": "St. Dominic",
+   "ovr_rating": 15.75,
+   "rating_rank": 24
+  },
+  {
+   "seed": 25,
+   "team": "Rolla",
+   "ovr_rating": 14.64,
+   "rating_rank": 25
+  },
+  {
+   "seed": 26,
+   "team": "Central (Cape Girardeau)",
+   "ovr_rating": 11.75,
+   "rating_rank": 26
+  },
+  {
+   "seed": 27,
+   "team": "Smith-Cotton",
+   "ovr_rating": 11.02,
+   "rating_rank": 27
+  },
+  {
+   "seed": 28,
+   "team": "Timberland",
+   "ovr_rating": 10.4,
+   "rating_rank": 28
+  },
+  {
+   "seed": 29,
+   "team": "Parkway West",
+   "ovr_rating": 9.82,
+   "rating_rank": 29
+  },
+  {
+   "seed": 30,
+   "team": "Belton",
+   "ovr_rating": 9.46,
+   "rating_rank": 30
+  },
+  {
+   "seed": 31,
+   "team": "Jefferson City",
+   "ovr_rating": 8.79,
+   "rating_rank": 32
+  },
+  {
+   "seed": 32,
+   "team": "Capital City",
+   "ovr_rating": 8.98,
+   "rating_rank": 31
+  },
+  {
+   "seed": 33,
+   "team": "Winnetonka",
+   "ovr_rating": 6.8,
+   "rating_rank": 33
+  },
+  {
+   "seed": 34,
+   "team": "William Chrisman",
+   "ovr_rating": 3.39,
+   "rating_rank": 34
+  },
+  {
+   "seed": 35,
+   "team": "Poplar Bluff",
+   "ovr_rating": -1.44,
+   "rating_rank": 35
+  },
+  {
+   "seed": 36,
+   "team": "Willard",
+   "ovr_rating": -2.77,
+   "rating_rank": 36
+  },
+  {
+   "seed": 37,
+   "team": "Washington",
+   "ovr_rating": -3.3,
+   "rating_rank": 37
+  },
+  {
+   "seed": 38,
+   "team": "McCluer North",
+   "ovr_rating": -6.06,
+   "rating_rank": 38
+  },
+  {
+   "seed": 39,
+   "team": "North Point",
+   "ovr_rating": -7.07,
+   "rating_rank": 39
+  },
+  {
+   "seed": 40,
+   "team": "Parkway South",
+   "ovr_rating": -7.12,
+   "rating_rank": 40
+  },
+  {
+   "seed": 41,
+   "team": "Hazelwood East",
+   "ovr_rating": -7.31,
+   "rating_rank": 41
+  },
+  {
+   "seed": 42,
+   "team": "Ft. Zumwalt East",
+   "ovr_rating": -12.91,
+   "rating_rank": 42
+  },
+  {
+   "seed": 43,
+   "team": "Ft. Zumwalt South",
+   "ovr_rating": -13.43,
+   "rating_rank": 43
+  },
+  {
+   "seed": 44,
+   "team": "Lincoln College Prep",
+   "ovr_rating": -14.78,
+   "rating_rank": 44
+  },
+  {
+   "seed": 45,
+   "team": "Grandview",
+   "ovr_rating": -15.89,
+   "rating_rank": 45
+  },
+  {
+   "seed": 46,
+   "team": "Hazelwood Central",
+   "ovr_rating": -17.34,
+   "rating_rank": 46
+  },
+  {
+   "seed": 47,
+   "team": "Parkview",
+   "ovr_rating": -22.02,
+   "rating_rank": 47
+  },
+  {
+   "seed": 48,
+   "team": "McCluer",
+   "ovr_rating": -23.64,
+   "rating_rank": 48
+  },
+  {
+   "seed": 49,
+   "team": "Ruskin",
+   "ovr_rating": -24.0,
+   "rating_rank": 49
+  },
+  {
+   "seed": 50,
+   "team": "Webster Groves",
+   "ovr_rating": -27.72,
+   "rating_rank": 50
+  },
+  {
+   "seed": 51,
+   "team": "Battle",
+   "ovr_rating": -28.73,
+   "rating_rank": 51
+  },
+  {
+   "seed": 52,
+   "team": "Parkway Central",
+   "ovr_rating": -33.02,
+   "rating_rank": 52
+  },
+  {
+   "seed": 53,
+   "team": "Mehlville",
+   "ovr_rating": -35.3,
+   "rating_rank": 53
+  },
+  {
+   "seed": 54,
+   "team": "Truman",
+   "ovr_rating": -41.06,
+   "rating_rank": 54
+  }
+ ],
+ "jumps": [
+  {
+   "team": "Ladue Horton Watkins",
+   "jumped": "Eureka",
+   "from_seed": 12,
+   "to_seed": 9,
+   "result": [
+    "2026-10-09: Eureka 37, Ladue Horton Watkins 40"
+   ]
+  },
+  {
+   "team": "Jefferson City",
+   "jumped": "Capital City",
+   "from_seed": 32,
+   "to_seed": 31,
+   "result": [
+    "2026-09-25: Jefferson City 35, Capital City 28"
+   ]
+  }
+ ],
+ "districts": [
+  {
+   "district": 1,
+   "teams": [
+    {
+     "seed": 1,
+     "team": "Carthage"
+    },
+    {
+     "seed": 7,
+     "team": "Webb City"
+    },
+    {
+     "seed": 8,
+     "team": "Neosho"
+    },
+    {
+     "seed": 13,
+     "team": "Branson"
+    },
+    {
+     "seed": 18,
+     "team": "Glendale"
+    }
+   ],
+   "byes": [
+    "Carthage",
+    "Webb City",
+    "Neosho"
+   ],
+   "dqf_games": [
+    {
+     "home": "Branson",
+     "away": "Glendale",
+     "drive_h": 0.73
+    }
+   ],
+   "max_drive_h": 2.15
+  },
+  {
+   "district": 2,
+   "teams": [
+    {
+     "seed": 2,
+     "team": "Republic"
+    },
+    {
+     "seed": 16,
+     "team": "Camdenton"
+    },
+    {
+     "seed": 19,
+     "team": "West Plains"
+    },
+    {
+     "seed": 23,
+     "team": "Lebanon"
+    },
+    {
+     "seed": 25,
+     "team": "Rolla"
+    },
+    {
+     "seed": 36,
+     "team": "Willard"
+    },
+    {
+     "seed": 47,
+     "team": "Parkview"
+    }
+   ],
+   "byes": [
+    "Republic"
+   ],
+   "dqf_games": [
+    {
+     "home": "Lebanon",
+     "away": "Rolla",
+     "drive_h": 1.16
+    },
+    {
+     "home": "Camdenton",
+     "away": "Parkview",
+     "drive_h": 1.73
+    },
+    {
+     "home": "West Plains",
+     "away": "Willard",
+     "drive_h": 2.5
+    }
+   ],
+   "max_drive_h": 2.85
+  },
+  {
+   "district": 3,
+   "teams": [
+    {
+     "seed": 15,
+     "team": "St. Mary's South Side"
+    },
+    {
+     "seed": 17,
+     "team": "Rockwood Summit"
+    },
+    {
+     "seed": 20,
+     "team": "Ft. Zumwalt North"
+    },
+    {
+     "seed": 28,
+     "team": "Timberland"
+    },
+    {
+     "seed": 38,
+     "team": "McCluer North"
+    },
+    {
+     "seed": 46,
+     "team": "Hazelwood Central"
+    },
+    {
+     "seed": 50,
+     "team": "Webster Groves"
+    },
+    {
+     "seed": 53,
+     "team": "Mehlville"
+    }
+   ],
+   "byes": [],
+   "dqf_games": [
+    {
+     "home": "St. Mary's South Side",
+     "away": "Mehlville",
+     "drive_h": 0.21
+    },
+    {
+     "home": "Timberland",
+     "away": "McCluer North",
+     "drive_h": 0.8
+    },
+    {
+     "home": "Rockwood Summit",
+     "away": "Webster Groves",
+     "drive_h": 0.32
+    },
+    {
+     "home": "Ft. Zumwalt North",
+     "away": "Hazelwood Central",
+     "drive_h": 0.6
+    }
+   ],
+   "max_drive_h": 0.98
+  },
+  {
+   "district": 4,
+   "teams": [
+    {
+     "seed": 5,
+     "team": "Farmington"
+    },
+    {
+     "seed": 6,
+     "team": "Cardinal Ritter"
+    },
+    {
+     "seed": 10,
+     "team": "Eureka"
+    },
+    {
+     "seed": 26,
+     "team": "Central (Cape Girardeau)"
+    },
+    {
+     "seed": 35,
+     "team": "Poplar Bluff"
+    }
+   ],
+   "byes": [
+    "Farmington",
+    "Cardinal Ritter",
+    "Eureka"
+   ],
+   "dqf_games": [
+    {
+     "home": "Central (Cape Girardeau)",
+     "away": "Poplar Bluff",
+     "drive_h": 1.57
+    }
+   ],
+   "max_drive_h": 2.99
+  },
+  {
+   "district": 5,
+   "teams": [
+    {
+     "seed": 14,
+     "team": "Chaminade College Prep"
+    },
+    {
+     "seed": 29,
+     "team": "Parkway West"
+    },
+    {
+     "seed": 31,
+     "team": "Jefferson City"
+    },
+    {
+     "seed": 32,
+     "team": "Capital City"
+    },
+    {
+     "seed": 37,
+     "team": "Washington"
+    },
+    {
+     "seed": 43,
+     "team": "Ft. Zumwalt South"
+    },
+    {
+     "seed": 48,
+     "team": "McCluer"
+    },
+    {
+     "seed": 52,
+     "team": "Parkway Central"
+    }
+   ],
+   "byes": [],
+   "dqf_games": [
+    {
+     "home": "Chaminade College Prep",
+     "away": "Parkway Central",
+     "drive_h": 0.22
+    },
+    {
+     "home": "Capital City",
+     "away": "Washington",
+     "drive_h": 1.98
+    },
+    {
+     "home": "Parkway West",
+     "away": "McCluer",
+     "drive_h": 0.51
+    },
+    {
+     "home": "Jefferson City",
+     "away": "Ft. Zumwalt South",
+     "drive_h": 2.05
+    }
+   ],
+   "max_drive_h": 2.49
+  },
+  {
+   "district": 6,
+   "teams": [
+    {
+     "seed": 9,
+     "team": "Ladue Horton Watkins"
+    },
+    {
+     "seed": 22,
+     "team": "Fox"
+    },
+    {
+     "seed": 24,
+     "team": "St. Dominic"
+    },
+    {
+     "seed": 39,
+     "team": "North Point"
+    },
+    {
+     "seed": 40,
+     "team": "Parkway South"
+    },
+    {
+     "seed": 41,
+     "team": "Hazelwood East"
+    },
+    {
+     "seed": 42,
+     "team": "Ft. Zumwalt East"
+    }
+   ],
+   "byes": [
+    "Ladue Horton Watkins"
+   ],
+   "dqf_games": [
+    {
+     "home": "North Point",
+     "away": "Parkway South",
+     "drive_h": 0.77
+    },
+    {
+     "home": "Fox",
+     "away": "Ft. Zumwalt East",
+     "drive_h": 0.79
+    },
+    {
+     "home": "St. Dominic",
+     "away": "Hazelwood East",
+     "drive_h": 0.79
+    }
+   ],
+   "max_drive_h": 1.06
+  },
+  {
+   "district": 7,
+   "teams": [
+    {
+     "seed": 3,
+     "team": "Platte County"
+    },
+    {
+     "seed": 30,
+     "team": "Belton"
+    },
+    {
+     "seed": 33,
+     "team": "Winnetonka"
+    },
+    {
+     "seed": 34,
+     "team": "William Chrisman"
+    },
+    {
+     "seed": 44,
+     "team": "Lincoln College Prep"
+    },
+    {
+     "seed": 45,
+     "team": "Grandview"
+    },
+    {
+     "seed": 49,
+     "team": "Ruskin"
+    }
+   ],
+   "byes": [
+    "Platte County"
+   ],
+   "dqf_games": [
+    {
+     "home": "William Chrisman",
+     "away": "Lincoln College Prep",
+     "drive_h": 0.32
+    },
+    {
+     "home": "Belton",
+     "away": "Ruskin",
+     "drive_h": 0.27
+    },
+    {
+     "home": "Winnetonka",
+     "away": "Grandview",
+     "drive_h": 0.49
+    }
+   ],
+   "max_drive_h": 1.0
+  },
+  {
+   "district": 8,
+   "teams": [
+    {
+     "seed": 4,
+     "team": "Helias Catholic"
+    },
+    {
+     "seed": 11,
+     "team": "Grain Valley"
+    },
+    {
+     "seed": 12,
+     "team": "Fort Osage"
+    },
+    {
+     "seed": 21,
+     "team": "Raytown"
+    },
+    {
+     "seed": 27,
+     "team": "Smith-Cotton"
+    },
+    {
+     "seed": 51,
+     "team": "Battle"
+    },
+    {
+     "seed": 54,
+     "team": "Truman"
+    }
+   ],
+   "byes": [
+    "Helias Catholic"
+   ],
+   "dqf_games": [
+    {
+     "home": "Raytown",
+     "away": "Smith-Cotton",
+     "drive_h": 1.63
+    },
+    {
+     "home": "Grain Valley",
+     "away": "Truman",
+     "drive_h": 0.33
+    },
+    {
+     "home": "Fort Osage",
+     "away": "Battle",
+     "drive_h": 2.31
+    }
+   ],
+   "max_drive_h": 2.9
+  }
+ ],
+ "quarterfinals": [
+  {
+   "districts": [
+    1,
+    2
+   ],
+   "max_drive_h": 3.65
+  },
+  {
+   "districts": [
+    3,
+    4
+   ],
+   "max_drive_h": 3.47
+  },
+  {
+   "districts": [
+    5,
+    6
+   ],
+   "max_drive_h": 2.75
+  },
+  {
+   "districts": [
+    7,
+    8
+   ],
+   "max_drive_h": 3.46
+  }
+ ],
+ "lines": [
+  {
+   "line": 1,
+   "ideal_seed": 1,
+   "team": "Carthage",
+   "seed": 1
+  },
+  {
+   "line": 2,
+   "ideal_seed": 64,
+   "team": null,
+   "seed": null
+  },
+  {
+   "line": 3,
+   "ideal_seed": 32,
+   "team": "Branson",
+   "seed": 13
+  },
+  {
+   "line": 4,
+   "ideal_seed": 33,
+   "team": "Glendale",
+   "seed": 18
+  },
+  {
+   "line": 5,
+   "ideal_seed": 16,
+   "team": "Webb City",
+   "seed": 7
+  },
+  {
+   "line": 6,
+   "ideal_seed": 49,
+   "team": null,
+   "seed": null
+  },
+  {
+   "line": 7,
+   "ideal_seed": 17,
+   "team": "Neosho",
+   "seed": 8
+  },
+  {
+   "line": 8,
+   "ideal_seed": 48,
+   "team": null,
+   "seed": null
+  },
+  {
+   "line": 9,
+   "ideal_seed": 8,
+   "team": "Republic",
+   "seed": 2
+  },
+  {
+   "line": 10,
+   "ideal_seed": 57,
+   "team": null,
+   "seed": null
+  },
+  {
+   "line": 11,
+   "ideal_seed": 25,
+   "team": "Lebanon",
+   "seed": 23
+  },
+  {
+   "line": 12,
+   "ideal_seed": 40,
+   "team": "Rolla",
+   "seed": 25
+  },
+  {
+   "line": 13,
+   "ideal_seed": 9,
+   "team": "Camdenton",
+   "seed": 16
+  },
+  {
+   "line": 14,
+   "ideal_seed": 56,
+   "team": "Parkview",
+   "seed": 47
+  },
+  {
+   "line": 15,
+   "ideal_seed": 24,
+   "team": "West Plains",
+   "seed": 19
+  },
+  {
+   "line": 16,
+   "ideal_seed": 41,
+   "team": "Willard",
+   "seed": 36
+  },
+  {
+   "line": 17,
+   "ideal_seed": 4,
+   "team": "St. Mary's South Side",
+   "seed": 15
+  },
+  {
+   "line": 18,
+   "ideal_seed": 61,
+   "team": "Mehlville",
+   "seed": 53
+  },
+  {
+   "line": 19,
+   "ideal_seed": 29,
+   "team": "Timberland",
+   "seed": 28
+  },
+  {
+   "line": 20,
+   "ideal_seed": 36,
+   "team": "McCluer North",
+   "seed": 38
+  },
+  {
+   "line": 21,
+   "ideal_seed": 13,
+   "team": "Rockwood Summit",
+   "seed": 17
+  },
+  {
+   "line": 22,
+   "ideal_seed": 52,
+   "team": "Webster Groves",
+   "seed": 50
+  },
+  {
+   "line": 23,
+   "ideal_seed": 20,
+   "team": "Ft. Zumwalt North",
+   "seed": 20
+  },
+  {
+   "line": 24,
+   "ideal_seed": 45,
+   "team": "Hazelwood Central",
+   "seed": 46
+  },
+  {
+   "line": 25,
+   "ideal_seed": 5,
+   "team": "Farmington",
+   "seed": 5
+  },
+  {
+   "line": 26,
+   "ideal_seed": 60,
+   "team": null,
+   "seed": null
+  },
+  {
+   "line": 27,
+   "ideal_seed": 28,
+   "team": "Central (Cape Girardeau)",
+   "seed": 26
+  },
+  {
+   "line": 28,
+   "ideal_seed": 37,
+   "team": "Poplar Bluff",
+   "seed": 35
+  },
+  {
+   "line": 29,
+   "ideal_seed": 12,
+   "team": "Cardinal Ritter",
+   "seed": 6
+  },
+  {
+   "line": 30,
+   "ideal_seed": 53,
+   "team": null,
+   "seed": null
+  },
+  {
+   "line": 31,
+   "ideal_seed": 21,
+   "team": "Eureka",
+   "seed": 10
+  },
+  {
+   "line": 32,
+   "ideal_seed": 44,
+   "team": null,
+   "seed": null
+  },
+  {
+   "line": 33,
+   "ideal_seed": 2,
+   "team": "Chaminade College Prep",
+   "seed": 14
+  },
+  {
+   "line": 34,
+   "ideal_seed": 63,
+   "team": "Parkway Central",
+   "seed": 52
+  },
+  {
+   "line": 35,
+   "ideal_seed": 31,
+   "team": "Capital City",
+   "seed": 32
+  },
+  {
+   "line": 36,
+   "ideal_seed": 34,
+   "team": "Washington",
+   "seed": 37
+  },
+  {
+   "line": 37,
+   "ideal_seed": 15,
+   "team": "Parkway West",
+   "seed": 29
+  },
+  {
+   "line": 38,
+   "ideal_seed": 50,
+   "team": "McCluer",
+   "seed": 48
+  },
+  {
+   "line": 39,
+   "ideal_seed": 18,
+   "team": "Jefferson City",
+   "seed": 31
+  },
+  {
+   "line": 40,
+   "ideal_seed": 47,
+   "team": "Ft. Zumwalt South",
+   "seed": 43
+  },
+  {
+   "line": 41,
+   "ideal_seed": 7,
+   "team": "Ladue Horton Watkins",
+   "seed": 9
+  },
+  {
+   "line": 42,
+   "ideal_seed": 58,
+   "team": null,
+   "seed": null
+  },
+  {
+   "line": 43,
+   "ideal_seed": 26,
+   "team": "North Point",
+   "seed": 39
+  },
+  {
+   "line": 44,
+   "ideal_seed": 39,
+   "team": "Parkway South",
+   "seed": 40
+  },
+  {
+   "line": 45,
+   "ideal_seed": 10,
+   "team": "Fox",
+   "seed": 22
+  },
+  {
+   "line": 46,
+   "ideal_seed": 55,
+   "team": "Ft. Zumwalt East",
+   "seed": 42
+  },
+  {
+   "line": 47,
+   "ideal_seed": 23,
+   "team": "St. Dominic",
+   "seed": 24
+  },
+  {
+   "line": 48,
+   "ideal_seed": 42,
+   "team": "Hazelwood East",
+   "seed": 41
+  },
+  {
+   "line": 49,
+   "ideal_seed": 3,
+   "team": "Platte County",
+   "seed": 3
+  },
+  {
+   "line": 50,
+   "ideal_seed": 62,
+   "team": null,
+   "seed": null
+  },
+  {
+   "line": 51,
+   "ideal_seed": 30,
+   "team": "William Chrisman",
+   "seed": 34
+  },
+  {
+   "line": 52,
+   "ideal_seed": 35,
+   "team": "Lincoln College Prep",
+   "seed": 44
+  },
+  {
+   "line": 53,
+   "ideal_seed": 14,
+   "team": "Belton",
+   "seed": 30
+  },
+  {
+   "line": 54,
+   "ideal_seed": 51,
+   "team": "Ruskin",
+   "seed": 49
+  },
+  {
+   "line": 55,
+   "ideal_seed": 19,
+   "team": "Winnetonka",
+   "seed": 33
+  },
+  {
+   "line": 56,
+   "ideal_seed": 46,
+   "team": "Grandview",
+   "seed": 45
+  },
+  {
+   "line": 57,
+   "ideal_seed": 6,
+   "team": "Helias Catholic",
+   "seed": 4
+  },
+  {
+   "line": 58,
+   "ideal_seed": 59,
+   "team": null,
+   "seed": null
+  },
+  {
+   "line": 59,
+   "ideal_seed": 27,
+   "team": "Raytown",
+   "seed": 21
+  },
+  {
+   "line": 60,
+   "ideal_seed": 38,
+   "team": "Smith-Cotton",
+   "seed": 27
+  },
+  {
+   "line": 61,
+   "ideal_seed": 11,
+   "team": "Grain Valley",
+   "seed": 11
+  },
+  {
+   "line": 62,
+   "ideal_seed": 54,
+   "team": "Truman",
+   "seed": 54
+  },
+  {
+   "line": 63,
+   "ideal_seed": 22,
+   "team": "Fort Osage",
+   "seed": 12
+  },
+  {
+   "line": 64,
+   "ideal_seed": 43,
+   "team": "Battle",
+   "seed": 51
+  }
+ ]
+}

@@ -248,5 +248,322 @@
   "lat": 38.7378,
   "lon": -90.6234,
   "source": "zip_center"
+ },
+ "Grandview": {
+  "lat": 38.886468570617,
+  "lon": -94.514967935213,
+  "source": "census",
+  "matched": "2300 HIGH GROVE RD, GRANDVIEW, MO, 64030"
+ },
+ "Hazelwood Central": {
+  "lat": 38.831328130509,
+  "lon": -90.31330493278,
+  "source": "census",
+  "matched": "15875 NEW HALLS FERRY RD, FLORISSANT, MO, 63031"
+ },
+ "Parkview": {
+  "lat": 37.191352241198,
+  "lon": -93.29530929385,
+  "source": "census",
+  "matched": "516 W MEADOWMERE ST, SPRINGFIELD, MO, 65807"
+ },
+ "McCluer": {
+  "lat": 38.771747602932,
+  "lon": -90.315858518839,
+  "source": "census",
+  "matched": "1896 S NEW FLORISSANT RD, FLORISSANT, MO, 63031"
+ },
+ "Webster Groves": {
+  "lat": 38.589296472961,
+  "lon": -90.348863909273,
+  "source": "census",
+  "matched": "100 SELMA AVE, SAINT LOUIS, MO, 63119"
+ },
+ "Battle": {
+  "lat": 38.968631975026,
+  "lon": -92.220991378138,
+  "source": "census",
+  "matched": "7575 E SAINT CHARLES RD, COLUMBIA, MO, 65202"
+ },
+ "Parkway Central": {
+  "lat": 38.664868047255,
+  "lon": -90.502141808119,
+  "source": "census",
+  "matched": "369 N WOODS MILL RD, CHESTERFIELD, MO, 63017"
+ },
+ "Mehlville": {
+  "lat": 38.513576454526,
+  "lon": -90.31558671982,
+  "source": "census",
+  "matched": "3200 LEMAY FERRY RD, SAINT LOUIS, MO, 63125"
+ },
+ "Truman": {
+  "lat": 39.060499246403,
+  "lon": -94.414756940537,
+  "source": "census",
+  "matched": "3301 S NOLAND RD, INDEPENDENCE, MO, 64055"
+ },
+ "Grain Valley": {
+  "lat": 39.010462201374,
+  "lon": -94.204393575859,
+  "source": "census",
+  "matched": "551 SW EAGLES PKWY, GRAIN VALLEY, MO, 64029"
+ },
+ "Fort Osage": {
+  "lat": 39.136799261849,
+  "lon": -94.280554878054,
+  "source": "census",
+  "matched": "25102 US HWY 24, INDEPENDENCE, MO, 64056"
+ },
+ "Branson": {
+  "lat": 36.700543883135,
+  "lon": -93.236984301427,
+  "source": "census",
+  "matched": "935 BUCHANAN RD, BRANSON, MO, 65616"
+ },
+ "Chaminade College Prep": {
+  "lat": 38.650410583127,
+  "lon": -90.405478461012,
+  "source": "census",
+  "matched": "425 S LINDBERGH BLVD, FRONTENAC, MO, 63131"
+ },
+ "St. Mary's South Side": {
+  "lat": 38.57455969723,
+  "lon": -90.249388235213,
+  "source": "census",
+  "matched": "4701 S GRAND BLVD, SAINT LOUIS, MO, 63111"
+ },
+ "Glendale": {
+  "lat": 37.162563001567,
+  "lon": -93.226461908654,
+  "source": "census",
+  "matched": "2727 S INGRAM MILL RD, SPRINGFIELD, MO, 65804"
+ },
+ "West Plains": {
+  "lat": 36.734473836257,
+  "lon": -91.844454594906,
+  "source": "census",
+  "matched": "602 E OLDEN ST, WEST PLAINS, MO, 65775"
+ },
+ "Ft. Zumwalt North": {
+  "lat": 38.821400629901,
+  "lon": -90.672166850161,
+  "source": "census",
+  "matched": "1230 TOM GINNEVER AVE, O FALLON, MO, 63366"
+ },
+ "Carthage": {
+  "lat": 37.147306362187,
+  "lon": -94.301195809064,
+  "source": "census",
+  "matched": "2600 S RIVER ST, CARTHAGE, MO, 64836"
+ },
+ "Republic": {
+  "lat": 37.138155464494,
+  "lon": -93.415785202077,
+  "source": "census",
+  "matched": "4370 S REPMO DR, REPUBLIC, MO, 65738"
+ },
+ "Platte County": {
+  "lat": 39.359909741814,
+  "lon": -94.770252282813,
+  "source": "census",
+  "matched": "1501 BRANCH ST, PLATTE CITY, MO, 64079"
+ },
+ "Helias Catholic": {
+  "lat": 38.568204591721,
+  "lon": -92.192558001191,
+  "source": "census",
+  "matched": "1305 SWIFTS HWY, JEFFERSON CITY, MO, 65109"
+ },
+ "Farmington": {
+  "lat": 37.780829500905,
+  "lon": -90.43619127699,
+  "source": "census",
+  "matched": "1 BLACK KNIGHT DR, FARMINGTON, MO, 63640"
+ },
+ "Cardinal Ritter": {
+  "lat": 38.641949558529,
+  "lon": -90.234503090173,
+  "source": "census",
+  "matched": "701 N SPRING AVE, SAINT LOUIS, MO, 63108"
+ },
+ "Webb City": {
+  "lat": 37.151743764736,
+  "lon": -94.474272797383,
+  "source": "census",
+  "matched": "621 N MADISON AVE, WEBB CITY, MO, 64870"
+ },
+ "Neosho": {
+  "lat": 36.864934804097,
+  "lon": -94.381091533615,
+  "source": "census",
+  "matched": "511 S NEOSHO BLVD, NEOSHO, MO, 64850"
+ },
+ "Ladue Horton Watkins": {
+  "lat": 38.639680982461,
+  "lon": -90.395912591627,
+  "source": "census",
+  "matched": "1201 WARSON RD, SAINT LOUIS, MO, 63124"
+ },
+ "Raytown": {
+  "lat": 39.014126054919,
+  "lon": -94.460511208293,
+  "source": "census",
+  "matched": "6019 BLUE RIDGE BLVD, RAYTOWN, MO, 64133"
+ },
+ "Fox": {
+  "lat": 38.448346653789,
+  "lon": -90.369738968236,
+  "source": "census",
+  "matched": "751 JEFFCO BLVD, ARNOLD, MO, 63010"
+ },
+ "Lebanon": {
+  "lat": 37.691575786412,
+  "lon": -92.677630330933,
+  "source": "census",
+  "matched": "777 BRICE ST, LEBANON, MO, 65536"
+ },
+ "St. Dominic": {
+  "lat": 38.805823712709,
+  "lon": -90.721600370537,
+  "source": "census",
+  "matched": "31 ST DOMINIC DR, O FALLON, MO, 63366"
+ },
+ "Rolla": {
+  "lat": 37.949912815341,
+  "lon": -91.767266880692,
+  "source": "census",
+  "matched": "900 BULLDOG RUN, ROLLA, MO, 65401"
+ },
+ "Central (Cape Girardeau)": {
+  "lat": 37.279484877308,
+  "lon": -89.565935888942,
+  "source": "census",
+  "matched": "1000 S SILVER SPRINGS RD, CAPE GIRARDEAU, MO, 63703"
+ },
+ "Timberland": {
+  "lat": 38.767045208545,
+  "lon": -90.845361617059,
+  "source": "census",
+  "matched": "559 E HWY N, WENTZVILLE, MO, 63385"
+ },
+ "Parkway West": {
+  "lat": 38.62047499148,
+  "lon": -90.535336749071,
+  "source": "census",
+  "matched": "14653 CLAYTON RD, BALLWIN, MO, 63011"
+ },
+ "Belton": {
+  "lat": 38.815362198845,
+  "lon": -94.546913816029,
+  "source": "census",
+  "matched": "801 W NORTH AVE, BELTON, MO, 64012"
+ },
+ "Jefferson City": {
+  "lat": 38.562396933605,
+  "lon": -92.177241404092,
+  "source": "census",
+  "matched": "609 UNION ST, JEFFERSON CITY, MO, 65101"
+ },
+ "Winnetonka": {
+  "lat": 39.180601111635,
+  "lon": -94.509697746194,
+  "source": "census",
+  "matched": "5815 NE 48TH ST, KANSAS CITY, MO, 64119"
+ },
+ "William Chrisman": {
+  "lat": 39.102952396472,
+  "lon": -94.412681503748,
+  "source": "census",
+  "matched": "1223 N NOLAND RD, INDEPENDENCE, MO, 64050"
+ },
+ "Poplar Bluff": {
+  "lat": 36.789012280725,
+  "lon": -90.447395484026,
+  "source": "census",
+  "matched": "3209 OAK GROVE RD, POPLAR BLUFF, MO, 63901"
+ },
+ "Willard": {
+  "lat": 37.299647131718,
+  "lon": -93.41929504957,
+  "source": "census",
+  "matched": "515 E JACKSON ST, WILLARD, MO, 65781"
+ },
+ "Washington": {
+  "lat": 38.548542723308,
+  "lon": -91.007585731791,
+  "source": "census",
+  "matched": "600 BLUE JAY DR, WASHINGTON, MO, 63090"
+ },
+ "McCluer North": {
+  "lat": 38.789957463759,
+  "lon": -90.30155183752,
+  "source": "census",
+  "matched": "705 WATERFORD DR, FLORISSANT, MO, 63033"
+ },
+ "North Point": {
+  "lat": 38.825073554248,
+  "lon": -90.899772711653,
+  "source": "census",
+  "matched": "2255 W MEYER RD, WENTZVILLE, MO, 63385"
+ },
+ "Parkway South": {
+  "lat": 38.571325469639,
+  "lon": -90.510861644914,
+  "source": "census",
+  "matched": "801 HANNA CT, MANCHESTER, MO, 63021"
+ },
+ "Ft. Zumwalt East": {
+  "lat": 38.788492699202,
+  "lon": -90.583903506668,
+  "source": "census",
+  "matched": "600 FIRST EXECUTIVE AVE, SAINT PETERS, MO, 63376"
+ },
+ "Ft. Zumwalt South": {
+  "lat": 38.787742586569,
+  "lon": -90.669316783017,
+  "source": "census",
+  "matched": "8050 MEXICO RD, SAINT PETERS, MO, 63376"
+ },
+ "Lincoln College Prep": {
+  "lat": 39.086883453587,
+  "lon": -94.561141668994,
+  "source": "census",
+  "matched": "2111 WOODLAND AVE, KANSAS CITY, MO, 64108"
+ },
+ "Eureka": {
+  "lat": 38.5128,
+  "lon": -90.6306,
+  "source": "zip_center"
+ },
+ "Camdenton": {
+  "lat": 38.0185,
+  "lon": -92.7677,
+  "source": "zip_center"
+ },
+ "Rockwood Summit": {
+  "lat": 38.5015,
+  "lon": -90.4683,
+  "source": "zip_center"
+ },
+ "Smith-Cotton": {
+  "lat": 38.6961,
+  "lon": -93.2323,
+  "source": "zip_center"
+ },
+ "Capital City": {
+  "lat": 38.5773,
+  "lon": -92.2443,
+  "source": "zip_center"
+ },
+ "Hazelwood East": {
+  "lat": 38.8045,
+  "lon": -90.1783,
+  "source": "zip_center"
+ },
+ "Ruskin": {
+  "lat": 38.9296,
+  "lon": -94.5009,
+  "source": "zip_center"
  }
 }
