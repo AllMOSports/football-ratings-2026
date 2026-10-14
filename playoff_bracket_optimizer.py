@@ -14,7 +14,7 @@ For each class it:
 Rules
   * Rounds: District QF, District SF, District Championship, Quarterfinal,
     Semifinal, Championship.
-  * Travel limits: any two teams in the same district <= 2.5 h; any two teams
+  * Travel limits: any two teams in the same district <= 3.0 h; any two teams
     in districts that meet in the Quarterfinal <= 4 h; no limit after that.
   * Seeds: sort by ovr_rating. Then, working from the top seed down, a team
     within 5 spots below that beat a team head-to-head jumps directly above
@@ -41,7 +41,7 @@ import argparse, csv, io, itertools, json, math, os, sys, time
 import requests
 from ortools.sat.python import cp_model
 
-DIST_LIM_H, QF_LIM_H = 2.5, 4.0
+DIST_LIM_H, QF_LIM_H = 3.0, 4.0
 OSRM_URL = os.environ.get('OSRM_URL', 'https://router.project-osrm.org').rstrip('/')
 CENSUS_BATCH = 'https://geocoding.geo.census.gov/geocoder/locations/addressbatch'
 QF_PAIRS = [(0, 1), (2, 3), (4, 5), (6, 7)]
