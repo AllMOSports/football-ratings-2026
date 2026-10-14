@@ -1,48 +1,49 @@
 # Class 5 travel-limited bracket
 
-54 teams, 10 first-round byes (statewide bye rule). Drive-time factor 1.0. Limits: district rounds 2.5 h, quarterfinal 4.0 h (every possible matchup).
+54 teams, 10 first-round byes (district bye rule). Drive-time factor 1.0. Limits: district rounds 3.0 h, quarterfinal 4.0 h (every possible matchup).
 
-**Travel-limit violations: 7** (best found in time limit)
+**Travel-limit violations: 0** (proven minimum)
 
 ## Head-to-head jumps
 
 - **Ladue Horton Watkins** jumped Eureka (seed 12 to 9): 2026-10-09: Eureka 37, Ladue Horton Watkins 40
 - **Jefferson City** jumped Capital City (seed 32 to 31): 2026-09-25: Jefferson City 35, Capital City 28
 
-## District 1  (longest possible trip 2h 09m)
+## District 1  (longest possible trip 2h 50m)
 
 | Line | Seed | Team | First round |
 |---|---|---|---|
 | 1 | 1 | Carthage | Bye |
-| 3 | 13 | Branson | vs #18 Glendale (0h 44m) |
-| 4 | 18 | Glendale | vs #13 Branson (0h 44m) |
-| 5 | 7 | Webb City | Bye |
-| 7 | 8 | Neosho | Bye |
+| 3 | 34 | William Chrisman | vs #45 Grandview (0h 30m) |
+| 4 | 45 | Grandview | vs #34 William Chrisman (0h 30m) |
+| 5 | 30 | Belton | Bye |
+| 7 | 33 | Winnetonka | vs #49 Ruskin (0h 29m) |
+| 8 | 49 | Ruskin | vs #33 Winnetonka (0h 29m) |
 
-## District 2  (longest possible trip 2h 51m)
-
-| Line | Seed | Team | First round |
-|---|---|---|---|
-| 9 | 2 | Republic | Bye |
-| 11 | 23 | Lebanon | vs #25 Rolla (1h 09m) |
-| 12 | 25 | Rolla | vs #23 Lebanon (1h 09m) |
-| 13 | 16 | Camdenton | vs #47 Parkview (1h 44m) |
-| 14 | 47 | Parkview | vs #16 Camdenton (1h 44m) |
-| 15 | 19 | West Plains | vs #36 Willard (2h 30m) |
-| 16 | 36 | Willard | vs #19 West Plains (2h 30m) |
-
-## District 3  (longest possible trip 0h 59m)
+## District 2  (longest possible trip 2h 18m)
 
 | Line | Seed | Team | First round |
 |---|---|---|---|
-| 17 | 15 | St. Mary's South Side | vs #53 Mehlville (0h 12m) |
-| 18 | 53 | Mehlville | vs #15 St. Mary's South Side (0h 12m) |
-| 19 | 28 | Timberland | vs #38 McCluer North (0h 48m) |
-| 20 | 38 | McCluer North | vs #28 Timberland (0h 48m) |
-| 21 | 17 | Rockwood Summit | vs #50 Webster Groves (0h 19m) |
-| 22 | 50 | Webster Groves | vs #17 Rockwood Summit (0h 19m) |
-| 23 | 20 | Ft. Zumwalt North | vs #46 Hazelwood Central (0h 36m) |
-| 24 | 46 | Hazelwood Central | vs #20 Ft. Zumwalt North (0h 36m) |
+| 9 | 3 | Platte County | Bye |
+| 11 | 21 | Raytown | vs #27 Smith-Cotton (1h 38m) |
+| 12 | 27 | Smith-Cotton | vs #21 Raytown (1h 38m) |
+| 13 | 11 | Grain Valley | vs #54 Truman (0h 20m) |
+| 14 | 54 | Truman | vs #11 Grain Valley (0h 20m) |
+| 15 | 12 | Fort Osage | vs #44 Lincoln College Prep (0h 33m) |
+| 16 | 44 | Lincoln College Prep | vs #12 Fort Osage (0h 33m) |
+
+## District 3  (longest possible trip 1h 19m)
+
+| Line | Seed | Team | First round |
+|---|---|---|---|
+| 17 | 14 | Chaminade College Prep | vs #52 Parkway Central (0h 13m) |
+| 18 | 52 | Parkway Central | vs #14 Chaminade College Prep (0h 13m) |
+| 19 | 29 | Parkway West | vs #37 Washington (0h 51m) |
+| 20 | 37 | Washington | vs #29 Parkway West (0h 51m) |
+| 21 | 20 | Ft. Zumwalt North | vs #46 Hazelwood Central (0h 36m) |
+| 22 | 46 | Hazelwood Central | vs #20 Ft. Zumwalt North (0h 36m) |
+| 23 | 28 | Timberland | vs #43 Ft. Zumwalt South (0h 19m) |
+| 24 | 43 | Ft. Zumwalt South | vs #28 Timberland (0h 19m) |
 
 ## District 4  (longest possible trip 2h 59m)
 
@@ -51,77 +52,64 @@
 | 25 | 5 | Farmington | Bye |
 | 27 | 26 | Central (Cape Girardeau) | vs #35 Poplar Bluff (1h 34m) |
 | 28 | 35 | Poplar Bluff | vs #26 Central (Cape Girardeau) (1h 34m) |
-| 29 | 6 | Cardinal Ritter | Bye |
-| 31 | 10 | Eureka | Bye |
+| 29 | 6 | Cardinal Ritter | vs #53 Mehlville (0h 22m) |
+| 30 | 53 | Mehlville | vs #6 Cardinal Ritter (0h 22m) |
+| 31 | 22 | Fox | vs #40 Parkway South (0h 25m) |
+| 32 | 40 | Parkway South | vs #22 Fox (0h 25m) |
 
-## District 5  (longest possible trip 2h 30m)
-
-| Line | Seed | Team | First round |
-|---|---|---|---|
-| 33 | 14 | Chaminade College Prep | vs #52 Parkway Central (0h 13m) |
-| 34 | 52 | Parkway Central | vs #14 Chaminade College Prep (0h 13m) |
-| 35 | 32 | Capital City | vs #37 Washington (1h 59m) |
-| 36 | 37 | Washington | vs #32 Capital City (1h 59m) |
-| 37 | 29 | Parkway West | vs #48 McCluer (0h 31m) |
-| 38 | 48 | McCluer | vs #29 Parkway West (0h 31m) |
-| 39 | 31 | Jefferson City | vs #43 Ft. Zumwalt South (2h 03m) |
-| 40 | 43 | Ft. Zumwalt South | vs #31 Jefferson City (2h 03m) |
-
-## District 6  (longest possible trip 1h 04m)
+## District 5  (longest possible trip 2h 48m)
 
 | Line | Seed | Team | First round |
 |---|---|---|---|
-| 41 | 9 | Ladue Horton Watkins | Bye |
-| 43 | 39 | North Point | vs #40 Parkway South (0h 46m) |
-| 44 | 40 | Parkway South | vs #39 North Point (0h 46m) |
-| 45 | 22 | Fox | vs #42 Ft. Zumwalt East (0h 47m) |
-| 46 | 42 | Ft. Zumwalt East | vs #22 Fox (0h 47m) |
-| 47 | 24 | St. Dominic | vs #41 Hazelwood East (0h 47m) |
-| 48 | 41 | Hazelwood East | vs #24 St. Dominic (0h 47m) |
+| 33 | 4 | Helias Catholic | vs #51 Battle (0h 45m) |
+| 34 | 51 | Battle | vs #4 Helias Catholic (0h 45m) |
+| 35 | 31 | Jefferson City | vs #32 Capital City (0h 11m) |
+| 36 | 32 | Capital City | vs #31 Jefferson City (0h 11m) |
+| 37 | 15 | St. Mary's South Side | vs #50 Webster Groves (0h 16m) |
+| 38 | 50 | Webster Groves | vs #15 St. Mary's South Side (0h 16m) |
+| 39 | 17 | Rockwood Summit | vs #48 McCluer (0h 39m) |
+| 40 | 48 | McCluer | vs #17 Rockwood Summit (0h 39m) |
 
-## District 7  (longest possible trip 1h 00m)
-
-| Line | Seed | Team | First round |
-|---|---|---|---|
-| 49 | 3 | Platte County | Bye |
-| 51 | 34 | William Chrisman | vs #44 Lincoln College Prep (0h 19m) |
-| 52 | 44 | Lincoln College Prep | vs #34 William Chrisman (0h 19m) |
-| 53 | 30 | Belton | vs #49 Ruskin (0h 16m) |
-| 54 | 49 | Ruskin | vs #30 Belton (0h 16m) |
-| 55 | 33 | Winnetonka | vs #45 Grandview (0h 29m) |
-| 56 | 45 | Grandview | vs #33 Winnetonka (0h 29m) |
-
-## District 8  (longest possible trip 2h 54m)
+## District 6  (longest possible trip 2h 25m)
 
 | Line | Seed | Team | First round |
 |---|---|---|---|
-| 57 | 4 | Helias Catholic | Bye |
-| 59 | 21 | Raytown | vs #27 Smith-Cotton (1h 38m) |
-| 60 | 27 | Smith-Cotton | vs #21 Raytown (1h 38m) |
-| 61 | 11 | Grain Valley | vs #54 Truman (0h 20m) |
-| 62 | 54 | Truman | vs #11 Grain Valley (0h 20m) |
-| 63 | 12 | Fort Osage | vs #51 Battle (2h 18m) |
-| 64 | 51 | Battle | vs #12 Fort Osage (2h 18m) |
+| 41 | 9 | Ladue Horton Watkins | vs #42 Ft. Zumwalt East (0h 29m) |
+| 42 | 42 | Ft. Zumwalt East | vs #9 Ladue Horton Watkins (0h 29m) |
+| 43 | 25 | Rolla | vs #38 McCluer North (2h 15m) |
+| 44 | 38 | McCluer North | vs #25 Rolla (2h 15m) |
+| 45 | 10 | Eureka | vs #41 Hazelwood East (0h 59m) |
+| 46 | 41 | Hazelwood East | vs #10 Eureka (0h 59m) |
+| 47 | 24 | St. Dominic | vs #39 North Point (0h 17m) |
+| 48 | 39 | North Point | vs #24 St. Dominic (0h 17m) |
+
+## District 7  (longest possible trip 2h 51m)
+
+| Line | Seed | Team | First round |
+|---|---|---|---|
+| 49 | 2 | Republic | Bye |
+| 51 | 18 | Glendale | vs #19 West Plains (2h 07m) |
+| 52 | 19 | West Plains | vs #18 Glendale (2h 07m) |
+| 53 | 13 | Branson | Bye |
+| 55 | 16 | Camdenton | vs #47 Parkview (1h 44m) |
+| 56 | 47 | Parkview | vs #16 Camdenton (1h 44m) |
+
+## District 8  (longest possible trip 2h 31m)
+
+| Line | Seed | Team | First round |
+|---|---|---|---|
+| 57 | 7 | Webb City | Bye |
+| 59 | 36 | Willard | Bye |
+| 61 | 8 | Neosho | Bye |
+| 63 | 23 | Lebanon | Bye |
 
 ## Quarterfinal pairings
 
-- District 1 champion vs District 2 champion (longest possible trip 3h 39m)
+- District 1 champion vs District 2 champion (longest possible trip 3h 21m)
 - District 3 champion vs District 4 champion (longest possible trip 3h 28m)
 - District 5 champion vs District 6 champion (longest possible trip 2h 45m)
-- District 7 champion vs District 8 champion (longest possible trip 3h 28m)
+- District 7 champion vs District 8 champion (longest possible trip 3h 39m)
 - Semifinals: QF winners (D1/D2 vs D3/D4) and (D5/D6 vs D7/D8); no travel limit
-
-## Possible matchups over the limit
-
-| Round | Team | Team | Drive |
-|---|---|---|---|
-| District rounds | Cardinal Ritter | Poplar Bluff | 2h 59m |
-| District rounds | Eureka | Poplar Bluff | 2h 59m |
-| District rounds | Helias Catholic | Raytown | 2h 54m |
-| District rounds | Camdenton | West Plains | 2h 51m |
-| District rounds | Helias Catholic | Fort Osage | 2h 49m |
-| District rounds | Helias Catholic | Truman | 2h 46m |
-| District rounds | Helias Catholic | Grain Valley | 2h 35m |
 
 ## Seeds
 

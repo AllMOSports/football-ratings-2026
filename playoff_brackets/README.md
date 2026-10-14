@@ -4,4 +4,5 @@ Bye rule: district. Drive-time factor 1.0; limits: district rounds 3.0 h, quarte
 
 | Class | Teams | Byes | Violations | Proven minimum? |
 |---|---|---|---|---|
-| 6 | 42 | 22 | 0 | Yes |
+| 2 | 54 | 10 | 0 | Yes |
+| 5 | 54 | 10 | 0 | Yes |

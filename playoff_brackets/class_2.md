@@ -1,8 +1,8 @@
 # Class 2 travel-limited bracket
 
-54 teams, 10 first-round byes (statewide bye rule). Drive-time factor 1.0. Limits: district rounds 2.5 h, quarterfinal 4.0 h (every possible matchup).
+54 teams, 10 first-round byes (district bye rule). Drive-time factor 1.0. Limits: district rounds 3.0 h, quarterfinal 4.0 h (every possible matchup).
 
-**Travel-limit violations: 13** (best found in time limit)
+**Travel-limit violations: 0** (proven minimum)
 
 ## Head-to-head jumps
 
@@ -14,125 +14,107 @@
 - **Willow Springs** jumped Houston (seed 34 to 32): 2026-10-09: Willow Springs 14, Houston 13
 - **Lone Jack with Kingsville** jumped Lexington (seed 49 to 47): 2026-08-28: Lone Jack with Kingsville 27, Lexington 6
 
-## District 1  (longest possible trip 1h 54m)
+## District 1  (longest possible trip 2h 35m)
 
 | Line | Seed | Team | First round |
 |---|---|---|---|
 | 1 | 1 | Valle Catholic | Bye |
-| 3 | 46 | Miller Career Academy with Sumner | vs #53 Duchesne (0h 35m) |
-| 4 | 53 | Duchesne | vs #46 Miller Career Academy with Sumner (0h 35m) |
-| 5 | 8 | St. Vincent | Bye |
+| 3 | 36 | Kelly | vs #46 Miller Career Academy with Sumner (2h 35m) |
+| 4 | 46 | Miller Career Academy with Sumner | vs #36 Kelly (2h 35m) |
+| 5 | 30 | Saxony Lutheran | Bye |
 | 7 | 31 | Jefferson (Festus) | vs #54 Confluence Prep Academy Charter (0h 47m) |
 | 8 | 54 | Confluence Prep Academy Charter | vs #31 Jefferson (Festus) (0h 47m) |
 
-## District 2  (longest possible trip 5h 51m)
+## District 2  (longest possible trip 2h 13m)
 
 | Line | Seed | Team | First round |
 |---|---|---|---|
-| 9 | 2 | Blair Oaks | Bye |
-| 11 | 30 | Saxony Lutheran | vs #36 Kelly (0h 38m) |
-| 12 | 36 | Kelly | vs #30 Saxony Lutheran (0h 38m) |
-| 13 | 12 | Caruthersville | vs #51 East Prairie (1h 10m) |
-| 14 | 51 | East Prairie | vs #12 Caruthersville (1h 10m) |
-| 15 | 24 | South Callaway | vs #41 Central (New Madrid County) (5h 08m) |
-| 16 | 41 | Central (New Madrid County) | vs #24 South Callaway (5h 08m) |
+| 9 | 8 | St. Vincent | Bye |
+| 11 | 51 | East Prairie | Bye |
+| 13 | 12 | Caruthersville | Bye |
+| 15 | 41 | Central (New Madrid County) | Bye |
 
-## District 3  (longest possible trip 2h 12m)
+## District 3  (longest possible trip 2h 56m)
 
 | Line | Seed | Team | First round |
 |---|---|---|---|
-| 17 | 28 | Butler | vs #50 KIPP KC Legacy (1h 18m) |
-| 18 | 50 | KIPP KC Legacy | vs #28 Butler (1h 18m) |
-| 19 | 39 | Hogan Prep Academy Charter | vs #42 El Dorado Springs (2h 01m) |
-| 20 | 42 | El Dorado Springs | vs #39 Hogan Prep Academy Charter (2h 01m) |
-| 21 | 29 | Warsaw | vs #47 Lone Jack with Kingsville (1h 49m) |
-| 22 | 47 | Lone Jack with Kingsville | vs #29 Warsaw (1h 49m) |
-| 23 | 38 | Holden | vs #45 Cole Camp (1h 34m) |
-| 24 | 45 | Cole Camp | vs #38 Holden (1h 34m) |
+| 17 | 26 | California | vs #50 KIPP KC Legacy (2h 35m) |
+| 18 | 50 | KIPP KC Legacy | vs #26 California (2h 35m) |
+| 19 | 37 | Versailles | vs #45 Cole Camp (0h 29m) |
+| 20 | 45 | Cole Camp | vs #37 Versailles (0h 29m) |
+| 21 | 28 | Butler | vs #48 Lexington (2h 02m) |
+| 22 | 48 | Lexington | vs #28 Butler (2h 02m) |
+| 23 | 29 | Warsaw | vs #47 Lone Jack with Kingsville (1h 49m) |
+| 24 | 47 | Lone Jack with Kingsville | vs #29 Warsaw (1h 49m) |
 
-## District 4  (longest possible trip 2h 13m)
+## District 4  (longest possible trip 3h 00m)
 
 | Line | Seed | Team | First round |
 |---|---|---|---|
-| 25 | 5 | Mid-Buchanan | Bye |
+| 25 | 5 | Mid-Buchanan | vs #44 Trenton (1h 53m) |
+| 26 | 44 | Trenton | vs #5 Mid-Buchanan (1h 53m) |
 | 27 | 22 | West Platte | vs #27 Lafayette County (1h 44m) |
 | 28 | 27 | Lafayette County | vs #22 West Platte (1h 44m) |
-| 29 | 20 | Lathrop | vs #48 Lexington (1h 12m) |
-| 30 | 48 | Lexington | vs #20 Lathrop (1h 12m) |
-| 31 | 21 | Lawson | vs #44 Trenton (1h 27m) |
-| 32 | 44 | Trenton | vs #21 Lawson (1h 27m) |
+| 29 | 20 | Lathrop | vs #39 Hogan Prep Academy Charter (0h 58m) |
+| 30 | 39 | Hogan Prep Academy Charter | vs #20 Lathrop (0h 58m) |
+| 31 | 21 | Lawson | vs #38 Holden (1h 51m) |
+| 32 | 38 | Holden | vs #21 Lawson (1h 51m) |
 
-## District 5  (longest possible trip 2h 25m)
+## District 5  (longest possible trip 2h 57m)
 
 | Line | Seed | Team | First round |
 |---|---|---|---|
-| 33 | 6 | Springfield Catholic | Bye |
-| 35 | 15 | Liberty (Mountain View) | vs #32 Willow Springs (0h 24m) |
-| 36 | 32 | Willow Springs | vs #15 Liberty (Mountain View) (0h 24m) |
-| 37 | 9 | Clever | Bye |
-| 39 | 14 | Ava | vs #33 Houston (1h 20m) |
-| 40 | 33 | Houston | vs #14 Ava (1h 20m) |
+| 33 | 14 | Ava | Bye |
+| 35 | 32 | Willow Springs | vs #33 Houston (0h 41m) |
+| 36 | 33 | Houston | vs #32 Willow Springs (0h 41m) |
+| 37 | 15 | Liberty (Mountain View) | Bye |
+| 39 | 19 | Forsyth | vs #34 Sarcoxie (1h 51m) |
+| 40 | 34 | Sarcoxie | vs #19 Forsyth (1h 51m) |
 
-## District 6  (longest possible trip 2h 27m)
+## District 6  (longest possible trip 2h 07m)
 
 | Line | Seed | Team | First round |
 |---|---|---|---|
 | 41 | 3 | Lamar | Bye |
-| 43 | 19 | Forsyth | vs #25 Stockton with Sheldon (2h 15m) |
-| 44 | 25 | Stockton with Sheldon | vs #19 Forsyth (2h 15m) |
-| 45 | 7 | Fair Grove | Bye |
-| 47 | 16 | East Newton | vs #34 Sarcoxie (0h 45m) |
-| 48 | 34 | Sarcoxie | vs #16 East Newton (0h 45m) |
+| 43 | 9 | Clever | vs #16 East Newton (1h 13m) |
+| 44 | 16 | East Newton | vs #9 Clever (1h 13m) |
+| 45 | 6 | Springfield Catholic | vs #42 El Dorado Springs (1h 45m) |
+| 46 | 42 | El Dorado Springs | vs #6 Springfield Catholic (1h 45m) |
+| 47 | 7 | Fair Grove | vs #25 Stockton with Sheldon (1h 14m) |
+| 48 | 25 | Stockton with Sheldon | vs #7 Fair Grove (1h 14m) |
 
 ## District 7  (longest possible trip 2h 58m)
 
 | Line | Seed | Team | First round |
 |---|---|---|---|
-| 49 | 10 | Palmyra | Bye |
-| 51 | 23 | Monroe City | vs #40 Clark County (1h 31m) |
-| 52 | 40 | Clark County | vs #23 Monroe City (1h 31m) |
+| 49 | 4 | Centralia | Bye |
+| 51 | 35 | Montgomery County | vs #40 Clark County (2h 43m) |
+| 52 | 40 | Clark County | vs #35 Montgomery County (2h 43m) |
 | 53 | 17 | Brookfield | vs #52 Highland (2h 17m) |
 | 54 | 52 | Highland | vs #17 Brookfield (2h 17m) |
 | 55 | 18 | Bowling Green | vs #49 Mark Twain (0h 40m) |
 | 56 | 49 | Mark Twain | vs #18 Bowling Green (0h 40m) |
 
-## District 8  (longest possible trip 2h 18m)
+## District 8  (longest possible trip 2h 26m)
 
 | Line | Seed | Team | First round |
 |---|---|---|---|
-| 57 | 4 | Centralia | Bye |
-| 59 | 26 | California | vs #35 Montgomery County (1h 39m) |
-| 60 | 35 | Montgomery County | vs #26 California (1h 39m) |
-| 61 | 11 | North Callaway | vs #43 Hermann (1h 22m) |
-| 62 | 43 | Hermann | vs #11 North Callaway (1h 22m) |
-| 63 | 13 | Father Tolton | vs #37 Versailles (1h 26m) |
-| 64 | 37 | Versailles | vs #13 Father Tolton (1h 26m) |
+| 57 | 2 | Blair Oaks | vs #53 Duchesne (2h 23m) |
+| 58 | 53 | Duchesne | vs #2 Blair Oaks (2h 23m) |
+| 59 | 13 | Father Tolton | vs #23 Monroe City (1h 53m) |
+| 60 | 23 | Monroe City | vs #13 Father Tolton (1h 53m) |
+| 61 | 10 | Palmyra | vs #43 Hermann (2h 26m) |
+| 62 | 43 | Hermann | vs #10 Palmyra (2h 26m) |
+| 63 | 11 | North Callaway | vs #24 South Callaway (0h 45m) |
+| 64 | 24 | South Callaway | vs #11 North Callaway (0h 45m) |
 
 ## Quarterfinal pairings
 
-- District 1 champion vs District 2 champion (longest possible trip 3h 58m)
-- District 3 champion vs District 4 champion (longest possible trip 3h 57m)
-- District 5 champion vs District 6 champion (longest possible trip 3h 33m)
-- District 7 champion vs District 8 champion (longest possible trip 4h 15m)
+- District 1 champion vs District 2 champion (longest possible trip 3h 42m)
+- District 3 champion vs District 4 champion (longest possible trip 3h 35m)
+- District 5 champion vs District 6 champion (longest possible trip 3h 40m)
+- District 7 champion vs District 8 champion (longest possible trip 3h 48m)
 - Semifinals: QF winners (D1/D2 vs D3/D4) and (D5/D6 vs D7/D8); no travel limit
-
-## Possible matchups over the limit
-
-| Round | Team | Team | Drive |
-|---|---|---|---|
-| District rounds | Blair Oaks | Caruthersville | 5h 51m |
-| District rounds | Caruthersville | South Callaway | 5h 44m |
-| District rounds | Blair Oaks | East Prairie | 5h 17m |
-| District rounds | Blair Oaks | Central (New Madrid County) | 5h 15m |
-| District rounds | South Callaway | East Prairie | 5h 10m |
-| District rounds | South Callaway | Central (New Madrid County) | 5h 08m |
-| District rounds | Blair Oaks | Kelly | 4h 44m |
-| District rounds | South Callaway | Kelly | 4h 37m |
-| District rounds | Blair Oaks | Saxony Lutheran | 4h 19m |
-| Quarterfinal | Versailles | Clark County | 4h 16m |
-| District rounds | South Callaway | Saxony Lutheran | 4h 12m |
-| District rounds | Brookfield | Clark County | 2h 58m |
-| District rounds | Brookfield | Bowling Green | 2h 31m |
 
 ## Seeds
 
