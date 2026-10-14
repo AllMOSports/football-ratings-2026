@@ -1,0 +1,64 @@
+name: Playoff Bracket Optimizer
+ 
+on:
+  workflow_dispatch:
+    inputs:
+      classes:
+        description: "Classes to build (comma-separated)"
+        default: "1,2,3,4,5,6"
+        required: true
+      bye_rule:
+        description: "statewide = seeds 1..N get byes; district = each district's top seeds get its byes"
+        type: choice
+        options: [statewide, district]
+        default: statewide
+      drive_factor:
+        description: "Multiply OSRM drive times by this before checking limits (1.0 = raw OSRM)"
+        default: "1.0"
+        required: true
+      time_limit:
+        description: "Solver seconds per class"
+        default: "120"
+        required: true
+ 
+permissions:
+  contents: write
+ 
+concurrency:
+  group: playoff-bracket-optimizer
+  cancel-in-progress: false
+ 
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    steps:
+      - uses: actions/checkout@v4
+ 
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+ 
+      - name: Install dependencies
+        run: pip install ortools requests
+ 
+      - name: Build brackets
+        run: >
+          python playoff_bracket_optimizer.py
+          --classes "${{ inputs.classes }}"
+          --bye-rule "${{ inputs.bye_rule }}"
+          --factor "${{ inputs.drive_factor }}"
+          --time-limit "${{ inputs.time_limit }}"
+ 
+      - name: Commit results
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add school_coords.json drive_times playoff_brackets
+          if git diff --cached --quiet; then
+            echo "No changes to commit"
+            exit 0
+          fi
+          git commit -m "Update travel-limited playoff brackets [automated]"
+          git pull --rebase origin "${GITHUB_REF_NAME}"
+          git push origin "HEAD:${GITHUB_REF_NAME}"
