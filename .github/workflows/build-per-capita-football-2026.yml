@@ -1,0 +1,91 @@
+# .github/workflows/build_per_capita_football_2026.yml
+#
+# Runs build_per_capita_football_2026.py and commits the "Best Teams Per
+# Capita" outputs (per_capita_football_2026.json / .csv) back to the repo.
+#
+# Triggers:
+#   - workflow_run: right after "After Week 1 Ratings" finishes successfully.
+#     That workflow commits football_ratings_2026.json with the default
+#     GITHUB_TOKEN, and bot commits don't fire push triggers, so chaining
+#     is how this picks up new ratings automatically.
+#   - push: when the ratings file or this script changes from a manual commit
+#   - repository_dispatch: lets cron-job.org fire it via the GitHub API
+#     (event_type: build-per-capita-football), same pattern as the other
+#     nightly workflows
+#   - workflow_dispatch: manual run from the Actions tab
+#
+# Enrollment comes from All_MO_Sports-Data/classifications.json, fetched
+# fresh each run (not committed here). No MSHSAA access, so GitHub runner
+# IP blocking doesn't affect this job.
+ 
+name: Build Per Capita Football (2026)
+ 
+on:
+  workflow_run:
+    workflows: ["After Week 1 Ratings"]
+    types:
+      - completed
+  push:
+    branches: [main]
+    paths:
+      - "football_ratings_2026.json"
+      - "build_per_capita_football_2026.py"
+  repository_dispatch:
+    types: [build-per-capita-football]
+  workflow_dispatch:
+ 
+permissions:
+  contents: write
+ 
+concurrency:
+  group: build-per-capita-football-2026
+  cancel-in-progress: true
+ 
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    # Skip if the upstream ratings run failed (no point rebuilding off
+    # ratings that didn't update).
+    if: >
+      github.event_name != 'workflow_run' ||
+      github.event.workflow_run.conclusion == 'success'
+    timeout-minutes: 5   # pure local computation, finishes in seconds
+ 
+    steps:
+      - name: Check out repo
+        uses: actions/checkout@v4
+ 
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+ 
+      - name: Install dependencies
+        run: pip install numpy
+ 
+      # Saved under the filename the script checks before falling back to
+      # the raw URL. Not committed (see `git add` below).
+      - name: Fetch enrollment data from All_MO_Sports-Data
+        run: |
+          curl -sSfL -o classifications_enrollment.json \
+            "https://raw.githubusercontent.com/AllMOSports/All_MO_Sports-Data/main/classifications.json"
+ 
+      - name: Build per capita ratings
+        run: python build_per_capita_football_2026.py
+ 
+      - name: Commit and push results
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add per_capita_football_2026.json per_capita_football_2026.csv
+          if git diff --cached --quiet; then
+            echo "No changes to per capita outputs."
+            exit 0
+          fi
+          git commit -m "Update per capita football ratings ($(TZ=America/Chicago date +'%Y-%m-%d %H:%M CT'))"
+          for i in 1 2 3; do
+            git pull --rebase origin main && git push origin HEAD:main && exit 0
+            echo "Push failed (attempt $i), retrying..."
+            sleep 5
+          done
+          exit 1
