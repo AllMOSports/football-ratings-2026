@@ -1,7 +1,7 @@
 {
   "season": 2026,
   "sport": "football",
-  "generated_at": "2026-10-15T02:16:58+00:00",
+  "generated_at": "2026-10-15T02:18:44+00:00",
   "ratings_last_updated": "October 12, 2026 at 01:55 PM",
   "method": {
     "description": "Rating Over Expected: OVR minus the expected OVR for a school of that enrollment, fit on 2026 teams.",
