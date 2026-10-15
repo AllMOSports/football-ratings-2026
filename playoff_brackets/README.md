@@ -4,6 +4,7 @@ Priority balance {'top': 5000, 'pairs': 40, 'tiers': 200, 'travel': 1}. Travel s
 
 | Class | District limit | Violations | Avg district trip (min) ours / MSHSAA | Top-seed pairs together ours / MSHSAA | Exp. top-8 in QF ours / MSHSAA | Weakest district best seed ours / MSHSAA |
 |---|---|---|---|---|---|---|
-| 2 | 3.0 h | 0 | 84.4 / 82.0 | 0 / 1 | 6.97 / 6.4 | 8 / 27 |
+| 4 | 3.0 h | 0 | 66.1 / 64.7 | 2 / 3 | 5.16 / 5.09 | 11 / 11 |
+| 6 | 3.0 h | 0 | 41.5 / 39.0 | 2 / 4 | 5.25 / 4.53 | 12 / 16 |
 
 MSHSAA columns use MSHSAA's actual districts with the same seeds and the same scoring (seeding inside each district by rating, district N paired with N+1).

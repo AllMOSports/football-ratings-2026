@@ -1,98 +1,115 @@
-# Class 6 travel-limited bracket
+# Football Class 6 travel-limited bracket
 
-42 teams, 22 first-round byes (statewide bye rule). Drive-time factor 1.0. Limits: district rounds 4.0 h, quarterfinal 4.0 h (every possible matchup).
+42 teams on a 64-line bracket (8 districts), 22 first-round byes (district bye rule). Priority: balance. Drive-time factor 1.0. District limit 3.0 h; district champions re-seeded after districts.
 
 **Travel-limit violations: 0** (proven minimum)
 
-## District 1  (longest possible trip 2h 54m)
+## Scorecard
+
+| Measure | This bracket | MSHSAA districts |
+|---|---|---|
+| Avg district-round trip, expected matchups (min) | 41.5 | 39.0 |
+| Longest district-round trip, expected matchups (min) | 157.6 | 143.9 |
+| Avg district-round trip, simulated (min) | 42.1 | 40.8 |
+| Chance any district game is over the limit | 0.0 | 0.0 |
+| Longest first post-district trip, expected (min) | 247.0 | 221.2 |
+| Top-tier seed pairs sharing a district | 2 | 4 |
+| Strong-team pairs (top 2x tier) sharing a district | 10 | 13 |
+| Weakest district's best seed | 12 | 16 |
+| Spread of district top-team ratings (SD) | 5.57 | 10.89 |
+| Expected top-8 seeds reaching the quarterfinals | 5.25 | 4.53 |
+| Expected top-4 seeds reaching the final four | 2.44 | 2.04 |
+| Chance #1 and #2 meet in the final | 0.259 | 0.173 |
+| Chance the #1 seed wins | 0.513 | 0.652 |
+
+## District 1  (longest possible trip 2h 25m)
 
 | Line | Seed | Team | First round |
 |---|---|---|---|
 | 1 | 1 | Jackson | Bye |
-| 3 | 31 | Lafayette (Wildwood) | vs #32 Oakville (0h 41m) |
-| 4 | 32 | Oakville | vs #31 Lafayette (Wildwood) (0h 41m) |
-| 5 | 15 | SLUH | Bye |
-| 7 | 16 | Troy Buchanan | Bye |
+| 3 | 29 | Seckman | vs #39 Francis Howell Central (0h 55m) |
+| 4 | 39 | Francis Howell Central | vs #29 Seckman (0h 55m) |
+| 5 | 18 | Kirkwood | Bye |
+| 7 | 27 | Northwest (Cedar Hill) | Bye |
 
-## District 2  (longest possible trip 2h 41m)
-
-| Line | Seed | Team | First round |
-|---|---|---|---|
-| 9 | 11 | Christian Brothers College | Bye |
-| 11 | 39 | Francis Howell Central | vs #40 Waynesville (2h 36m) |
-| 12 | 40 | Waynesville | vs #39 Francis Howell Central (2h 36m) |
-| 13 | 23 | Pattonville | vs #42 Francis Howell North (0h 15m) |
-| 14 | 42 | Francis Howell North | vs #23 Pattonville (0h 15m) |
-| 15 | 38 | Liberty (Wentzville) | vs #41 Hazelwood West (0h 38m) |
-| 16 | 41 | Hazelwood West | vs #38 Liberty (Wentzville) (0h 38m) |
-
-## District 3  (longest possible trip 1h 07m)
+## District 2  (longest possible trip 0h 40m)
 
 | Line | Seed | Team | First round |
 |---|---|---|---|
-| 17 | 18 | Kirkwood | Bye |
-| 19 | 30 | Lindbergh | vs #35 Ft. Zumwalt West (0h 47m) |
-| 20 | 35 | Ft. Zumwalt West | vs #30 Lindbergh (0h 47m) |
-| 21 | 20 | Francis Howell | Bye |
-| 23 | 29 | Seckman | vs #36 Ritenour (0h 48m) |
-| 24 | 36 | Ritenour | vs #29 Seckman (0h 48m) |
+| 9 | 12 | De Smet Jesuit | Bye |
+| 11 | 30 | Lindbergh | vs #32 Oakville (0h 13m) |
+| 12 | 32 | Oakville | vs #30 Lindbergh (0h 13m) |
+| 13 | 15 | SLUH | vs #41 Hazelwood West (0h 28m) |
+| 14 | 41 | Hazelwood West | vs #15 SLUH (0h 28m) |
+| 15 | 23 | Pattonville | vs #36 Ritenour (0h 12m) |
+| 16 | 36 | Ritenour | vs #23 Pattonville (0h 12m) |
 
-## District 4  (longest possible trip 2h 46m)
+## District 3  (longest possible trip 1h 49m)
 
 | Line | Seed | Team | First round |
 |---|---|---|---|
-| 25 | 12 | De Smet Jesuit | Bye |
-| 27 | 27 | Northwest (Cedar Hill) | vs #28 Marquette (0h 42m) |
-| 28 | 28 | Marquette | vs #27 Northwest (Cedar Hill) (0h 42m) |
-| 29 | 21 | Hickman | Bye |
-| 31 | 22 | Rock Bridge | Bye |
+| 17 | 4 | Nixa | Bye |
+| 19 | 40 | Waynesville | Bye |
+| 21 | 25 | Ozark | Bye |
+| 23 | 37 | Kickapoo | Bye |
 
-## District 5  (longest possible trip 1h 36m)
+## District 4  (longest possible trip 1h 04m)
+
+| Line | Seed | Team | First round |
+|---|---|---|---|
+| 25 | 5 | Liberty North | Bye |
+| 27 | 19 | Staley | vs #33 Central (St. Joseph) (0h 55m) |
+| 28 | 33 | Central (St. Joseph) | vs #19 Staley (0h 55m) |
+| 29 | 13 | Oak Park | Bye |
+| 31 | 14 | Park Hill | Bye |
+
+## District 5  (longest possible trip 2h 07m)
 
 | Line | Seed | Team | First round |
 |---|---|---|---|
 | 33 | 2 | Blue Springs | Bye |
-| 35 | 33 | Central (St. Joseph) | vs #34 Park Hill South (0h 59m) |
-| 36 | 34 | Park Hill South | vs #33 Central (St. Joseph) (0h 59m) |
-| 37 | 17 | Lee's Summit West | Bye |
-| 39 | 19 | Staley | Bye |
+| 35 | 22 | Rock Bridge | Bye |
+| 37 | 6 | Blue Springs South | Bye |
+| 39 | 21 | Hickman | Bye |
 
-## District 6  (longest possible trip 3h 07m)
+## District 6  (longest possible trip 0h 54m)
 
 | Line | Seed | Team | First round |
 |---|---|---|---|
-| 41 | 7 | Lee's Summit | Bye |
-| 43 | 24 | Liberty | vs #26 Joplin (3h 07m) |
-| 44 | 26 | Joplin | vs #24 Liberty (3h 07m) |
-| 45 | 8 | Raymore-Peculiar | Bye |
-| 47 | 9 | Rockhurst | Bye |
+| 41 | 11 | Christian Brothers College | vs #42 Francis Howell North (0h 22m) |
+| 42 | 42 | Francis Howell North | vs #11 Christian Brothers College (0h 22m) |
+| 43 | 28 | Marquette | vs #31 Lafayette (Wildwood) (0h 11m) |
+| 44 | 31 | Lafayette (Wildwood) | vs #28 Marquette (0h 11m) |
+| 45 | 16 | Troy Buchanan | vs #38 Liberty (Wentzville) (0h 28m) |
+| 46 | 38 | Liberty (Wentzville) | vs #16 Troy Buchanan (0h 28m) |
+| 47 | 20 | Francis Howell | vs #35 Ft. Zumwalt West (0h 16m) |
+| 48 | 35 | Ft. Zumwalt West | vs #20 Francis Howell (0h 16m) |
 
-## District 7  (longest possible trip 3h 57m)
+## District 7  (longest possible trip 0h 37m)
 
 | Line | Seed | Team | First round |
 |---|---|---|---|
 | 49 | 3 | North Kansas City | Bye |
-| 51 | 14 | Park Hill | Bye |
-| 53 | 4 | Nixa | Bye |
-| 55 | 13 | Oak Park | Bye |
+| 51 | 34 | Park Hill South | Bye |
+| 53 | 9 | Rockhurst | Bye |
+| 55 | 24 | Liberty | Bye |
 
-## District 8  (longest possible trip 3h 57m)
+## District 8  (longest possible trip 2h 41m)
 
 | Line | Seed | Team | First round |
 |---|---|---|---|
-| 57 | 5 | Liberty North | Bye |
-| 59 | 25 | Ozark | vs #37 Kickapoo (0h 20m) |
-| 60 | 37 | Kickapoo | vs #25 Ozark (0h 20m) |
-| 61 | 6 | Blue Springs South | Bye |
+| 57 | 7 | Lee's Summit | Bye |
+| 59 | 17 | Lee's Summit West | vs #26 Joplin (2h 38m) |
+| 60 | 26 | Joplin | vs #17 Lee's Summit West (2h 38m) |
+| 61 | 8 | Raymore-Peculiar | Bye |
 | 63 | 10 | Lee's Summit North | Bye |
 
 ## Quarterfinal pairings
 
-- District 1 champion vs District 2 champion (longest possible trip 4h 00m)
-- District 3 champion vs District 4 champion (longest possible trip 2h 48m)
-- District 5 champion vs District 6 champion (longest possible trip 3h 57m)
-- District 7 champion vs District 8 champion (longest possible trip 3h 59m)
-- Semifinals: QF winners (D1/D2 vs D3/D4) and (D5/D6 vs D7/D8); no travel limit
+- District 1 champion vs District 2 champion (longest possible trip 2h 20m)
+- District 3 champion vs District 4 champion (longest possible trip 5h 16m)
+- District 5 champion vs District 6 champion (longest possible trip 4h 07m)
+- District 7 champion vs District 8 champion (longest possible trip 3h 07m)
 
 ## Seeds
 

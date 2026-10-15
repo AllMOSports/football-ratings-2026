@@ -1535,5 +1535,377 @@
   "lon": -92.553,
   "source": "zip_center",
   "addr": "601 HORNET LN|HUNTSVILLE|65259"
+ },
+ "Marshall": {
+  "lat": 39.113460415926,
+  "lon": -93.208774287956,
+  "source": "census",
+  "matched": "805 S MIAMI AVE, MARSHALL, MO, 65340",
+  "addr": "805 S MIAMI|MARSHALL|65340"
+ },
+ "Windsor (Imperial)": {
+  "lat": 38.3634073446,
+  "lon": -90.37510340323,
+  "source": "census",
+  "matched": "6208 US HWY 61, IMPERIAL, MO, 63052",
+  "addr": "6208 HWY 61-67|IMPERIAL|63052"
+ },
+ "Central (Kansas City)": {
+  "lat": 39.067519366926,
+  "lon": -94.543658316286,
+  "source": "census",
+  "matched": "3221 INDIANA AVE, KANSAS CITY, MO, 64128",
+  "addr": "3221 INDIANA|KANSAS CITY|64128"
+ },
+ "Knob Noster with Leeton": {
+  "lat": 38.761785919322,
+  "lon": -93.561330090549,
+  "source": "census",
+  "matched": "504 S WASHINGTON AVE, KNOB NOSTER, MO, 65336",
+  "addr": "504 S WASHINGTON|KNOB NOSTER|65336"
+ },
+ "St. Charles": {
+  "lat": 38.789478589195,
+  "lon": -90.488686716741,
+  "source": "census",
+  "matched": "725 N KINGSHIGHWAY ST, SAINT CHARLES, MO, 63301",
+  "addr": "725 N KINGSHIGHWAY ST|ST CHARLES|63301"
+ },
+ "Bayless with Hancock": {
+  "lat": 38.552206773577,
+  "lon": -90.300071251014,
+  "source": "census",
+  "matched": "4532 WEBER RD, SAINT LOUIS, MO, 63123",
+  "addr": "4532 WEBER RD|ST LOUIS|63123"
+ },
+ "Affton": {
+  "lat": 38.560109852547,
+  "lon": -90.321948173428,
+  "source": "census",
+  "matched": "8309 MACKENZIE RD, SAINT LOUIS, MO, 63123",
+  "addr": "8309 MACKENZIE RD|ST LOUIS|63123"
+ },
+ "Northeast (Kansas City)": {
+  "lat": 39.10879208913,
+  "lon": -94.525793799447,
+  "source": "census",
+  "matched": "415 VAN BRUNT BLVD, KANSAS CITY, MO, 64124",
+  "addr": "415 S VAN BRUNT|KANSAS CITY|64124"
+ },
+ "East (Kansas City)": {
+  "lat": 39.089050223928,
+  "lon": -94.520001634009,
+  "source": "census",
+  "matched": "1924 VAN BRUNT BLVD, KANSAS CITY, MO, 64127",
+  "addr": "1924 VAN BRUNT BLVD|KANSAS CITY|64127"
+ },
+ "Vianney": {
+  "lat": 38.560974871982,
+  "lon": -90.406997240876,
+  "source": "census",
+  "matched": "1311 S KIRKWOOD RD, KIRKWOOD, MO, 63122",
+  "addr": "1311 S KIRKWOOD RD|KIRKWOOD|63122"
+ },
+ "Moberly": {
+  "lat": 39.395694314434,
+  "lon": -92.422493512967,
+  "source": "census",
+  "matched": "1625 GRATZ BROWN ST, MOBERLY, MO, 65270",
+  "addr": "1625 GRATZ BROWN RD|MOBERLY|65270"
+ },
+ "Bolivar": {
+  "lat": 37.623354255815,
+  "lon": -93.392771063007,
+  "source": "census",
+  "matched": "1401 N POMME DE TERRE AVE, BOLIVAR, MO, 65613",
+  "addr": "1401 NORTH POMME DE TERRE AVE|BOLIVAR|65613"
+ },
+ "Carl Junction": {
+  "lat": 37.175773242431,
+  "lon": -94.567683809137,
+  "source": "census",
+  "matched": "206 S RONEY ST, CARL JUNCTION, MO, 64834",
+  "addr": "206 S RONEY|CARL JUNCTION|64834"
+ },
+ "Sikeston": {
+  "lat": 36.877949850526,
+  "lon": -89.573087152912,
+  "source": "census",
+  "matched": "200 PINE ST, SIKESTON, MO, 63801",
+  "addr": "200 PINE ST|SIKESTON|63801"
+ },
+ "Monett": {
+  "lat": 36.929804961808,
+  "lon": -93.905585770815,
+  "source": "census",
+  "matched": "1 DAVID SIPPY DR, MONETT, MO, 65708",
+  "addr": "ONE DAVID SIPPY DR|MONETT|65708"
+ },
+ "Harrisonville": {
+  "lat": 38.657079408016,
+  "lon": -94.336094388931,
+  "source": "census",
+  "matched": "1504 E ELM ST, HARRISONVILLE, MO, 64701",
+  "addr": "1504 E ELM|HARRISONVILLE|64701"
+ },
+ "Parkway North": {
+  "lat": 38.690940916469,
+  "lon": -90.469602398686,
+  "source": "census",
+  "matched": "12860 FEE FEE RD, SAINT LOUIS, MO, 63146",
+  "addr": "12860 FEE FEE RD|ST LOUIS|63146"
+ },
+ "Sullivan": {
+  "lat": 38.217078422962,
+  "lon": -91.136332429155,
+  "source": "census",
+  "matched": "1073 E VINE ST, SULLIVAN, MO, 63080",
+  "addr": "1073 E VINE ST|SULLIVAN|63080"
+ },
+ "Kearney": {
+  "lat": 39.353260444433,
+  "lon": -94.352386310674,
+  "source": "census",
+  "matched": "715 E 19TH ST, KEARNEY, MO, 64060",
+  "addr": "715 19TH ST|KEARNEY|64060"
+ },
+ "Savannah": {
+  "lat": 39.94473086454,
+  "lon": -94.81553152429,
+  "source": "census",
+  "matched": "701 STATE HWY E, SAVANNAH, MO, 64485",
+  "addr": "701 STATE RTE E|SAVANNAH|64485"
+ },
+ "Lift for Life Academy Charter": {
+  "lat": 38.608705508601,
+  "lon": -90.199824701266,
+  "source": "census",
+  "matched": "1731 S BROADWAY, SAINT LOUIS, MO, 63104",
+  "addr": "1731 S BROADWAY|ST LOUIS|63104"
+ },
+ "Festus": {
+  "lat": 38.223977916777,
+  "lon": -90.414081187738,
+  "source": "census",
+  "matched": "501 WESTWIND DR, FESTUS, MO, 63028",
+  "addr": "501 WESTWIND DR|FESTUS|63028"
+ },
+ "Smithville": {
+  "lat": 39.377006924878,
+  "lon": -94.579459412802,
+  "source": "census",
+  "matched": "645 S COMMERCIAL AVE, SMITHVILLE, MO, 64089",
+  "addr": "645 S COMMERCIAL AVE|SMITHVILLE|64089"
+ },
+ "Hannibal": {
+  "lat": 39.72125737479,
+  "lon": -91.391886212328,
+  "source": "census",
+  "matched": "4500 MCMASTERS AVE, HANNIBAL, MO, 63401",
+  "addr": "4500 MCMASTERS AVE|HANNIBAL|63401"
+ },
+ "Warrensburg": {
+  "lat": 38.741564908937,
+  "lon": -93.711877993283,
+  "source": "census",
+  "matched": "1411 S RIDGEVIEW DR, WARRENSBURG, MO, 64093",
+  "addr": "1411 S RIDGEVIEW DR|WARRENSBURG|64093"
+ },
+ "Hillsboro": {
+  "lat": 38.238382030283,
+  "lon": -90.563477091,
+  "source": "census",
+  "matched": "123 LEON HALL PKWY, HILLSBORO, MO, 63050",
+  "addr": "123 LEON HALL PKWY|HILLSBORO|63050"
+ },
+ "Odessa": {
+  "lat": 38.989242391999,
+  "lon": -93.956282811355,
+  "source": "census",
+  "matched": "713 S 3RD ST, ODESSA, MO, 64076",
+  "addr": "713 S THIRD ST|ODESSA|64076"
+ },
+ "St. Charles West": {
+  "lat": 38.802865385093,
+  "lon": -90.533736421889,
+  "source": "census",
+  "matched": "3601 DROSTE RD, SAINT CHARLES, MO, 63301",
+  "addr": "3601 DROSTE RD|ST CHARLES|63301"
+ },
+ "Union": {
+  "lat": 38.446761151183,
+  "lon": -91.02636112648,
+  "source": "census",
+  "matched": "1217 W MAIN ST, UNION, MO, 63084",
+  "addr": "1217 W MAIN ST|UNION|63084"
+ },
+ "Kirksville": {
+  "lat": 40.185149226534,
+  "lon": -92.567382961782,
+  "source": "census",
+  "matched": "1300 S COTTAGE GROVE AVE, KIRKSVILLE, MO, 63501",
+  "addr": "1300 S COTTAGE GROVE|KIRKSVILLE|63501"
+ },
+ "Westminster Christian Academy": {
+  "lat": 38.638871003412,
+  "lon": -90.498760406891,
+  "source": "census",
+  "matched": "800 MARYVILLE CENTRE DR, TOWN AND COUNTRY, MO, 63017",
+  "addr": "800 MARYVILLE CENTRE DR.|TOWN AND COUNTRY|63017"
+ },
+ "Marshfield": {
+  "lat": 37.337198285907,
+  "lon": -92.902784179974,
+  "source": "census",
+  "matched": "370 STATE HWY DD, MARSHFIELD, MO, 65706",
+  "addr": "370 STATE HWY DD|MARSHFIELD|65706"
+ },
+ "Warrenton": {
+  "lat": 38.802677060064,
+  "lon": -91.131951989387,
+  "source": "census",
+  "matched": "803 PINCKNEY ST, WARRENTON, MO, 63383",
+  "addr": "803 PINCKNEY|WARRENTON|63383"
+ },
+ "Raytown South": {
+  "lat": 38.973428809968,
+  "lon": -94.450991934083,
+  "source": "census",
+  "matched": "8211 STERLING AVE, RAYTOWN, MO, 64138",
+  "addr": "8211 STERLING AVE|RAYTOWN|64138"
+ },
+ "University City": {
+  "lat": 38.664239035371,
+  "lon": -90.328474628223,
+  "source": "census",
+  "matched": "7401 BALSON AVE, UNIVERSITY CITY, MO, 63130",
+  "addr": "7401 BALSON AVE|UNIVERSITY CITY|63130"
+ },
+ "Hillcrest": {
+  "lat": 37.257564606243,
+  "lon": -93.296901890715,
+  "source": "census",
+  "matched": "3319 N GRANT AVE, SPRINGFIELD, MO, 65803",
+  "addr": "3319 N GRANT|SPRINGFIELD|65803"
+ },
+ "Benton": {
+  "lat": 39.713376757059,
+  "lon": -94.855165748182,
+  "source": "census",
+  "matched": "5655 S 4TH ST, SAINT JOSEPH, MO, 64504",
+  "addr": "5655 S FOURTH|ST JOSEPH|64504"
+ },
+ "DeSoto": {
+  "lat": 38.135631344885,
+  "lon": -90.575387885601,
+  "source": "census",
+  "matched": "815 AMVETS DR, DE SOTO, MO, 63020",
+  "addr": "815 AMVETS DR|DESOTO|63020"
+ },
+ "Orchard Farm": {
+  "lat": 38.836771894365,
+  "lon": -90.474726046564,
+  "source": "census",
+  "matched": "2555 HWY B, SAINT CHARLES, MO, 63301",
+  "addr": "2555 HWY B|ST. CHARLES|63301"
+ },
+ "Mexico": {
+  "lat": 39.177145500678,
+  "lon": -91.890044115715,
+  "source": "census",
+  "matched": "639 N WADE ST, MEXICO, MO, 65265",
+  "addr": "639 N WADE|MEXICO|65265"
+ },
+ "Osage": {
+  "lat": 38.151361890503,
+  "lon": -92.600356499061,
+  "source": "census",
+  "matched": "636 HWY 42, OSAGE BEACH, MO, 65065",
+  "addr": "636 HWY 42|OSAGE BEACH|65065"
+ },
+ "Van Horn": {
+  "lat": 39.096754873639,
+  "lon": -94.464143728031,
+  "source": "census",
+  "matched": "1109 S ARLINGTON AVE, INDEPENDENCE, MO, 64053",
+  "addr": "1109 S ARLINGTON AVE|INDEPENDNCE|64053"
+ },
+ "Gateway with Soldan International Studies": {
+  "lat": 38.620800173023,
+  "lon": -90.268908521165,
+  "source": "census",
+  "matched": "5101 MCREE AVE, SAINT LOUIS, MO, 63110",
+  "addr": "5101 MCREE AVE|ST LOUIS|63110"
+ },
+ "Excelsior Springs": {
+  "lat": 39.348959325138,
+  "lon": -94.244505268983,
+  "source": "census",
+  "matched": "612 TIGER DR, EXCELSIOR SPRINGS, MO, 64024",
+  "addr": "612 TIGER DR|EXCELSIOR SPRINGS|64024"
+ },
+ "Pacific": {
+  "lat": 38.483500040341,
+  "lon": -90.779692315007,
+  "source": "census",
+  "matched": "425 INDIAN WARPATH DR, PACIFIC, MO, 63069",
+  "addr": "425 INDIAN WARPATH DR|PACIFIC|63069"
+ },
+ "University Academy Charter with Ewing Marion Kauffman": {
+  "lat": 39.003803563244,
+  "lon": -94.579588116946,
+  "source": "census",
+  "matched": "6801 HOLMES RD, KANSAS CITY, MO, 64131",
+  "addr": "6801 HOLMES RD|KANSAS CITY|64131"
+ },
+ "Riverview Gardens": {
+  "lat": 38.757691272398,
+  "lon": -90.214103456914,
+  "source": "census",
+  "matched": "1218 SHEPLEY DR, SAINT LOUIS, MO, 63137",
+  "addr": "1218 SHEPLEY DR. ST. LOUIS M|ST LOUIS|63137"
+ },
+ "Jennings": {
+  "lat": 38.727917804908,
+  "lon": -90.256479941587,
+  "source": "census",
+  "matched": "8850 COZENS AVE, JENNINGS, MO, 63136",
+  "addr": "8850 COZENS|JENNINGS|63136"
+ },
+ "Logan-Rogersville": {
+  "lat": 37.131,
+  "lon": -93.0964,
+  "source": "zip_center",
+  "addr": "300 N MISSOURI BLVD|ROGERSVILLE|65742"
+ },
+ "Pleasant Hill": {
+  "lat": 38.7859,
+  "lon": -94.244,
+  "source": "zip_center",
+  "addr": "1 ROOSTER WAY|PLEASANT HILL|64080"
+ },
+ "McDonald County": {
+  "lat": 36.6506,
+  "lon": -94.4436,
+  "source": "zip_center",
+  "addr": "100 MUSTANG DR|ANDERSON|64831"
+ },
+ "North County": {
+  "lat": 37.9231,
+  "lon": -90.5554,
+  "source": "zip_center",
+  "addr": "7151 RAIDER RD|BONNE TERRE|63628"
+ },
+ "Holt": {
+  "lat": 38.802,
+  "lon": -90.8534,
+  "source": "zip_center",
+  "addr": "600 CAMPUS DR|WENTZVILLE|63385"
+ },
+ "Clayton with Brentwood": {
+  "lat": 38.6453,
+  "lon": -90.3261,
+  "source": "zip_center",
+  "addr": "#1 MARK TWAIN CIRCLE|CLAYTON|63105"
  }
 }
