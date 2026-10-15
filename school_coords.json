@@ -1246,5 +1246,294 @@
   "lon": -90.6228,
   "source": "zip_center",
   "addr": "5100 MEXICO RD|SAINT PETERS|63376"
+ },
+ "Maysville": {
+  "lat": 39.889599287234,
+  "lon": -94.364297365692,
+  "source": "census",
+  "matched": "601 W MAIN ST, MAYSVILLE, MO, 64469",
+  "addr": "601 W MAIN ST|MAYSVILLE|64469"
+ },
+ "South Shelby": {
+  "lat": 39.709673679361,
+  "lon": -92.107082198853,
+  "source": "census",
+  "matched": "4154 US HWY 36, SHELBINA, MO, 63468",
+  "addr": "4154 HWY 36|SHELBINA|63468"
+ },
+ "Plattsburg": {
+  "lat": 39.561789796192,
+  "lon": -94.456714814574,
+  "source": "census",
+  "matched": "800 W FROST ST, PLATTSBURG, MO, 64477",
+  "addr": "800 W. FROST STREET|PLATTSBURG|64477"
+ },
+ "Windsor": {
+  "lat": 38.540562987068,
+  "lon": -93.525368624503,
+  "source": "census",
+  "matched": "210 NORTH ST, WINDSOR, MO, 65360",
+  "addr": "210 NORTH ST|WINDSOR|65360"
+ },
+ "Fayette": {
+  "lat": 39.139632147113,
+  "lon": -92.689131449411,
+  "source": "census",
+  "matched": "510 S CLEVELAND AVE, FAYETTE, MO, 65248",
+  "addr": "510 CLEVELAND AVE|FAYETTE|65248"
+ },
+ "Principia": {
+  "lat": 38.626233829948,
+  "lon": -90.46735690347,
+  "source": "census",
+  "matched": "13201 CLAYTON RD, SAINT LOUIS, MO, 63131",
+  "addr": "13201 CLAYTON RD.|ST. LOUIS|63131"
+ },
+ "Sherwood": {
+  "lat": 38.513320047864,
+  "lon": -94.084874885939,
+  "source": "census",
+  "matched": "33300 SHERWOOD DR, CREIGHTON, MO, 64739",
+  "addr": "33300 SHERWOOD DR|CREIGHTON|64739"
+ },
+ "Diamond": {
+  "lat": 36.992042741489,
+  "lon": -94.314902253035,
+  "source": "census",
+  "matched": "401 S MAIN ST, DIAMOND, MO, 64840",
+  "addr": "401 S MAIN ST|DIAMOND|64840"
+ },
+ "Russellville": {
+  "lat": 38.508668980923,
+  "lon": -92.447807778178,
+  "source": "census",
+  "matched": "13600 RTE C, RUSSELLVILLE, MO, 65074",
+  "addr": "13600 RTE C|RUSSELLVILLE|65074"
+ },
+ "Crest Ridge with Chilhowee": {
+  "lat": 38.750149794103,
+  "lon": -93.840080406377,
+  "source": "census",
+  "matched": "92 SW STATE HWY 58, CENTERVIEW, MO, 64019",
+  "addr": "92 HWY 58|CENTERVIEW|64019"
+ },
+ "Hayti": {
+  "lat": 36.23838544528,
+  "lon": -89.747894136268,
+  "source": "census",
+  "matched": "500 N 4TH ST, HAYTI, MO, 63851",
+  "addr": "500 N 4TH ST|HAYTI|63851"
+ },
+ "Van-Far": {
+  "lat": 39.301033778992,
+  "lon": -91.507842525723,
+  "source": "census",
+  "matched": "2200 W US HWY 54, VANDALIA, MO, 63382",
+  "addr": "2200 US HWY 54|VANDALIA|63382"
+ },
+ "East Buchanan": {
+  "lat": 39.609072495044,
+  "lon": -94.595524436568,
+  "source": "census",
+  "matched": "100 SMITH ST, GOWER, MO, 64454",
+  "addr": "100 SMITH ST|GOWER|64454"
+ },
+ "Harrisburg": {
+  "lat": 39.135614520711,
+  "lon": -92.462416149069,
+  "source": "census",
+  "matched": "801 S HARRIS ST, HARRISBURG, MO, 65256",
+  "addr": "801 S HARRIS|HARRISBURG|65256"
+ },
+ "Carrollton": {
+  "lat": 39.368207687022,
+  "lon": -93.492503923856,
+  "source": "census",
+  "matched": "300 E 9TH ST, CARROLLTON, MO, 64633",
+  "addr": "300 E NINTH ST|CARROLLTON|64633"
+ },
+ "Malden": {
+  "lat": 36.567459004153,
+  "lon": -89.973016693506,
+  "source": "census",
+  "matched": "505 BURKHART ST, MALDEN, MO, 63863",
+  "addr": "505 W BURKHART ST|MALDEN|63863"
+ },
+ "Ash Grove": {
+  "lat": 37.313689232287,
+  "lon": -93.578239103343,
+  "source": "census",
+  "matched": "100 N MAPLE LN, ASH GROVE, MO, 65604",
+  "addr": "100 N MAPLE LN|ASH GROVE|65604"
+ },
+ "Cabool": {
+  "lat": 37.121574549876,
+  "lon": -92.102812874924,
+  "source": "census",
+  "matched": "725 MAIN ST, CABOOL, MO, 65689",
+  "addr": "725 MAIN ST|CABOOL|65689"
+ },
+ "Penney": {
+  "lat": 39.752667786888,
+  "lon": -93.998261777975,
+  "source": "census",
+  "matched": "903 N DAVIS ST, HAMILTON, MO, 64644",
+  "addr": "903 N DAVIS ST|HAMILTON|64644"
+ },
+ "Linn": {
+  "lat": 38.475512512603,
+  "lon": -91.837109456258,
+  "source": "census",
+  "matched": "1212 E MAIN ST, LINN, MO, 65051",
+  "addr": "1212 E MAIN ST|LINN|65051"
+ },
+ "Marceline": {
+  "lat": 39.715181746682,
+  "lon": -92.945228506358,
+  "source": "census",
+  "matched": "314 E SANTA FE AVE, MARCELINE, MO, 64658",
+  "addr": "314 E SANTA FE AVE|MARCELINE|64658"
+ },
+ "Milan": {
+  "lat": 40.199983267183,
+  "lon": -93.125450703498,
+  "source": "census",
+  "matched": "373 S MARKET ST, MILAN, MO, 63556",
+  "addr": "373 S MARKET ST|MILAN|63556"
+ },
+ "Gallatin with Tri-County": {
+  "lat": 39.910438181719,
+  "lon": -93.970814105143,
+  "source": "census",
+  "matched": "602 OLIVE ST, GALLATIN, MO, 64640",
+  "addr": "602 S OLIVE|GALLATIN|64640"
+ },
+ "Veritas Christian Academy": {
+  "lat": 38.821488197755,
+  "lon": -90.671084144409,
+  "source": "census",
+  "matched": "1145 TOM GINNEVER AVE, O FALLON, MO, 63366",
+  "addr": "1145 TOM GINNEVER AVE.|O'FALLON|63366"
+ },
+ "Tipton with Bunceton": {
+  "lat": 38.650399807272,
+  "lon": -92.776114186525,
+  "source": "census",
+  "matched": "334 US HWY 50, TIPTON, MO, 65081",
+  "addr": "334 US HIGHWAY 50 WEST|TIPTON|65081"
+ },
+ "Thayer": {
+  "lat": 36.523211319716,
+  "lon": -91.541566380635,
+  "source": "census",
+  "matched": "401 WALNUT ST, THAYER, MO, 65791",
+  "addr": "401 E WALNUT ST|THAYER|65791"
+ },
+ "Skyline": {
+  "lat": 37.905650081093,
+  "lon": -93.189457650043,
+  "source": "census",
+  "matched": "20663 US HWY 65, URBANA, MO, 65767",
+  "addr": "20663 US -65|URBANA|65767"
+ },
+ "Miller": {
+  "lat": 37.220273785517,
+  "lon": -93.843018828474,
+  "source": "census",
+  "matched": "110 W 6TH ST, MILLER, MO, 65707",
+  "addr": "110 W 6TH ST|MILLER|65707"
+ },
+ "Salisbury": {
+  "lat": 39.415222237516,
+  "lon": -92.804474857644,
+  "source": "census",
+  "matched": "1000 S MAPLE AVE, SALISBURY, MO, 65281",
+  "addr": "1000 S MAPLE AVE|SALISBURY|65281"
+ },
+ "Marionville": {
+  "lat": 37.016456858158,
+  "lon": -93.628181270841,
+  "source": "census",
+  "matched": "17725 STATE HWY 14, MARIONVILLE, MO, 65705",
+  "addr": "17725 HWY 14|MARIONVILLE|65705"
+ },
+ "Putnam County": {
+  "lat": 40.467020201731,
+  "lon": -93.006846728429,
+  "source": "census",
+  "matched": "803 S 20TH ST, UNIONVILLE, MO, 63565",
+  "addr": "803 S 20TH|UNIONVILLE|63565"
+ },
+ "Portageville": {
+  "lat": 36.432730487081,
+  "lon": -89.699254616516,
+  "source": "census",
+  "matched": "904 KING AVE, PORTAGEVILLE, MO, 63873",
+  "addr": "904 KING AVE|PORTAGEVILLE|63873"
+ },
+ "North Platte": {
+  "lat": 39.524756401258,
+  "lon": -94.771801500738,
+  "source": "census",
+  "matched": "212 W 6TH ST, DEARBORN, MO, 64439",
+  "addr": "212 W SIXTH ST|DEARBORN|64439"
+ },
+ "Grandview (Hillsboro)": {
+  "lat": 38.216084302835,
+  "lon": -90.661782668121,
+  "source": "census",
+  "matched": "11470 STATE HWY C, HILLSBORO, MO, 63050",
+  "addr": "11470 HWY C|HILLSBORO|63050"
+ },
+ "Crystal City": {
+  "lat": 38.230783687113,
+  "lon": -90.378389593545,
+  "source": "census",
+  "matched": "1100 MISSISSIPPI AVE, CRYSTAL CITY, MO, 63019",
+  "addr": "1100 MISSISSIPPI AVE|CRYSTAL CITY|63019"
+ },
+ "Louisiana": {
+  "lat": 39.432780353555,
+  "lon": -91.07129669176,
+  "source": "census",
+  "matched": "3321 GEORGIA ST, LOUISIANA, MO, 63353",
+  "addr": "3321 W GEORGIA ST|LOUISIANA|63353"
+ },
+ "Charleston": {
+  "lat": 36.914698031495,
+  "lon": -89.337464533712,
+  "source": "census",
+  "matched": "606 S THORN ST, CHARLESTON, MO, 63834",
+  "addr": "606 S THORN ST|CHARLESTON|63834"
+ },
+ "Pierce City": {
+  "lat": 36.973,
+  "lon": -94.0024,
+  "source": "zip_center",
+  "addr": "300 MYRTLE ST|PIERCE CITY|65723"
+ },
+ "Adrian": {
+  "lat": 38.4125,
+  "lon": -94.3683,
+  "source": "zip_center",
+  "addr": "601 N HOUSTON AVE|ADRIAN|64720"
+ },
+ "Scotland County": {
+  "lat": 40.4619,
+  "lon": -92.1851,
+  "source": "zip_center",
+  "addr": "606 LOVERS LN|MEMPHIS|63555"
+ },
+ "South Harrison": {
+  "lat": 40.2601,
+  "lon": -94.0189,
+  "source": "zip_center",
+  "addr": "3400 BULLDOG AVE|BETHANY|64424"
+ },
+ "Westran": {
+  "lat": 39.4354,
+  "lon": -92.553,
+  "source": "zip_center",
+  "addr": "601 HORNET LN|HUNTSVILLE|65259"
  }
 }
