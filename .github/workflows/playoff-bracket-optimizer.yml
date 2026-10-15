@@ -1,4 +1,4 @@
-name: Playoff Bracket Optimizer
+name: Playoff Bracket Optimizer - Football
  
 on:
   workflow_dispatch:
@@ -7,23 +7,44 @@ on:
         description: "Classes to build (comma-separated)"
         default: "1,2,3,4,5,6"
         required: true
-      bye_rule:
-        description: "statewide = seeds 1..N get byes; district = each district's top seeds get its byes"
+      priority:
+        description: "What to optimize after travel limits"
         type: choice
-        options: [statewide, district]
+        options: [balance, travel, geographic]
+        default: balance
+      bye_rule:
+        description: "district = each district's top seeds get its byes; statewide = top seeds statewide"
+        type: choice
+        options: [district, statewide]
         default: district
+      reseed:
+        description: "Re-seed district champions by seed after districts (state rounds ignore geography)"
+        type: boolean
+        default: false
       h2h_jumps:
         description: "Apply the head-to-head jump rule to seeds"
         type: boolean
         default: true
-      drive_factor:
-        description: "Multiply OSRM drive times by this before checking limits (1.0 = raw OSRM)"
-        default: "1.0"
+      district_limit:
+        description: "Max drive (hours) between any two teams in a district"
+        default: "3.0"
+        required: true
+      next_limit:
+        description: "Max drive (hours) between teams in districts that meet in the Quarterfinal"
+        default: "4.0"
+        required: true
+      travel_slack_pct:
+        description: "% extra over-limit travel allowed to improve balance (classes with zero violations stay at zero)"
+        default: "50"
         required: true
       time_limit:
-        description: "Solver seconds per class"
-        default: "600"
+        description: "Solver seconds per class (per limit if sweeping)"
+        default: "300"
         required: true
+      extra_args:
+        description: "Optional extra options, e.g. --sweep 2.5,3,3.5,4  --factor 0.85  --calibration calibration.csv --factor auto"
+        default: ""
+        required: false
  
 permissions:
   contents: write
@@ -35,7 +56,7 @@ concurrency:
 jobs:
   build:
     runs-on: ubuntu-latest
-    timeout-minutes: 45
+    timeout-minutes: 340
     steps:
       - uses: actions/checkout@v4
  
@@ -49,11 +70,17 @@ jobs:
       - name: Build brackets
         run: >
           python playoff_bracket_optimizer.py
+          --sport football
           --classes "${{ inputs.classes }}"
+          --priority "${{ inputs.priority }}"
           --bye-rule "${{ inputs.bye_rule }}"
-          --factor "${{ inputs.drive_factor }}"
+          --district-limit "${{ inputs.district_limit }}"
+          --next-limit "${{ inputs.next_limit }}"
+          --travel-slack-pct "${{ inputs.travel_slack_pct }}"
           --time-limit "${{ inputs.time_limit }}"
+          ${{ inputs.reseed && '--reseed' || '' }}
           ${{ inputs.h2h_jumps == false && '--no-jumps' || '' }}
+          ${{ inputs.extra_args }}
  
       - name: Commit results
         run: |
@@ -64,6 +91,6 @@ jobs:
             echo "No changes to commit"
             exit 0
           fi
-          git commit -m "Update travel-limited playoff brackets [automated]"
+          git commit -m "Update football travel-limited playoff brackets [automated]"
           git pull --rebase origin "${GITHUB_REF_NAME}"
           git push origin "HEAD:${GITHUB_REF_NAME}"
