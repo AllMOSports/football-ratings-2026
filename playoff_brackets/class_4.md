@@ -8,16 +8,16 @@
 
 | Measure | This bracket | MSHSAA districts |
 |---|---|---|
-| Avg district-round trip, expected matchups (min) | 66.1 | 64.7 |
+| Avg district-round trip, expected matchups (min) | 65.5 | 64.7 |
 | Longest district-round trip, expected matchups (min) | 178.7 | 157.8 |
 | Avg district-round trip, simulated (min) | 64.9 | 65.1 |
 | Chance any district game is over the limit | 0.0 | 0.15 |
 | Longest first post-district trip, expected (min) | 331.4 | 171.4 |
 | Top-tier seed pairs sharing a district | 2 | 3 |
 | Strong-team pairs (top 2x tier) sharing a district | 10 | 11 |
-| Weakest district's best seed | 11 | 11 |
-| Spread of district top-team ratings (SD) | 15.41 | 15.68 |
-| Expected top-8 seeds reaching the quarterfinals | 5.16 | 5.09 |
+| Weakest district's best seed | 10 | 11 |
+| Spread of district top-team ratings (SD) | 15.08 | 15.68 |
+| Expected top-8 seeds reaching the quarterfinals | 5.34 | 5.09 |
 | Expected top-4 seeds reaching the final four | 2.22 | 2.2 |
 | Chance #1 and #2 meet in the final | 0.0 | 0.0 |
 | Chance the #1 seed wins | 0.963 | 0.971 |
@@ -34,31 +34,27 @@
 | 7 | 32 | Benton | vs #47 Central (Kansas City) (1h 07m) |
 | 8 | 47 | Central (Kansas City) | vs #32 Benton (1h 07m) |
 
-## District 2  (longest possible trip 2h 50m)
+## District 2  (longest possible trip 2h 59m)
 
 | Line | Seed | Team | First round |
 |---|---|---|---|
-| 9 | 11 | Vianney | vs #52 Affton (0h 12m) |
-| 10 | 52 | Affton | vs #11 Vianney (0h 12m) |
-| 11 | 29 | University City | vs #39 Gateway with Soldan International Studies (0h 13m) |
-| 12 | 39 | Gateway with Soldan International Studies | vs #29 University City (0h 13m) |
-| 13 | 16 | Sikeston | vs #50 Clayton with Brentwood (2h 48m) |
-| 14 | 50 | Clayton with Brentwood | vs #16 Sikeston (2h 48m) |
-| 15 | 19 | Parkway North | vs #46 Windsor (Imperial) (0h 37m) |
-| 16 | 46 | Windsor (Imperial) | vs #19 Parkway North (0h 37m) |
+| 9 | 10 | Odessa | Bye |
+| 11 | 45 | Marshall | Bye |
+| 13 | 27 | Warrenton | Bye |
+| 15 | 36 | Osage | Bye |
 
-## District 3  (longest possible trip 1h 33m)
+## District 3  (longest possible trip 2h 49m)
 
 | Line | Seed | Team | First round |
 |---|---|---|---|
-| 17 | 5 | Festus | vs #51 Bayless with Hancock (0h 34m) |
-| 18 | 51 | Bayless with Hancock | vs #5 Festus (0h 34m) |
-| 19 | 22 | Union | vs #31 North County (1h 33m) |
-| 20 | 31 | North County | vs #22 Union (1h 33m) |
-| 21 | 9 | Hillsboro | vs #41 Pacific (0h 51m) |
-| 22 | 41 | Pacific | vs #9 Hillsboro (0h 51m) |
-| 23 | 20 | Sullivan | vs #33 DeSoto (1h 10m) |
-| 24 | 33 | DeSoto | vs #20 Sullivan (1h 10m) |
+| 17 | 5 | Festus | vs #52 Affton (0h 35m) |
+| 18 | 52 | Affton | vs #5 Festus (0h 35m) |
+| 19 | 31 | North County | vs #33 DeSoto (0h 31m) |
+| 20 | 33 | DeSoto | vs #31 North County (0h 31m) |
+| 21 | 16 | Sikeston | vs #51 Bayless with Hancock (2h 32m) |
+| 22 | 51 | Bayless with Hancock | vs #16 Sikeston (2h 32m) |
+| 23 | 19 | Parkway North | vs #46 Windsor (Imperial) (0h 37m) |
+| 24 | 46 | Windsor (Imperial) | vs #19 Parkway North (0h 37m) |
 
 ## District 4  (longest possible trip 1h 50m)
 
@@ -85,14 +81,18 @@
 | 39 | 15 | Carl Junction | vs #26 Marshfield (2h 01m) |
 | 40 | 26 | Marshfield | vs #15 Carl Junction (2h 01m) |
 
-## District 6  (longest possible trip 2h 59m)
+## District 6  (longest possible trip 1h 16m)
 
 | Line | Seed | Team | First round |
 |---|---|---|---|
-| 41 | 10 | Odessa | Bye |
-| 43 | 45 | Marshall | Bye |
-| 45 | 27 | Warrenton | Bye |
-| 47 | 36 | Osage | Bye |
+| 41 | 9 | Hillsboro | vs #50 Clayton with Brentwood (0h 55m) |
+| 42 | 50 | Clayton with Brentwood | vs #9 Hillsboro (0h 55m) |
+| 43 | 22 | Union | vs #25 Westminster Christian Academy (0h 55m) |
+| 44 | 25 | Westminster Christian Academy | vs #22 Union (0h 55m) |
+| 45 | 11 | Vianney | vs #41 Pacific (0h 29m) |
+| 46 | 41 | Pacific | vs #11 Vianney (0h 29m) |
+| 47 | 20 | Sullivan | vs #39 Gateway with Soldan International Studies (1h 13m) |
+| 48 | 39 | Gateway with Soldan International Studies | vs #20 Sullivan (1h 13m) |
 
 ## District 7  (longest possible trip 0h 56m)
 
@@ -104,8 +104,8 @@
 | 52 | 38 | Holt | vs #34 Orchard Farm (0h 32m) |
 | 53 | 21 | St. Charles West | vs #44 Jennings (0h 27m) |
 | 54 | 44 | Jennings | vs #21 St. Charles West (0h 27m) |
-| 55 | 25 | Westminster Christian Academy | vs #43 Riverview Gardens (0h 35m) |
-| 56 | 43 | Riverview Gardens | vs #25 Westminster Christian Academy (0h 35m) |
+| 55 | 29 | University City | vs #43 Riverview Gardens (0h 22m) |
+| 56 | 43 | Riverview Gardens | vs #29 University City (0h 22m) |
 
 ## District 8  (longest possible trip 1h 59m)
 
@@ -118,9 +118,9 @@
 
 ## Quarterfinal pairings
 
-- District 1 champion vs District 2 champion (longest possible trip 8h 21m)
-- District 3 champion vs District 4 champion (longest possible trip 6h 05m)
-- District 5 champion vs District 6 champion (longest possible trip 5h 37m)
+- District 1 champion vs District 2 champion (longest possible trip 4h 51m)
+- District 3 champion vs District 4 champion (longest possible trip 7h 29m)
+- District 5 champion vs District 6 champion (longest possible trip 5h 38m)
 - District 7 champion vs District 8 champion (longest possible trip 4h 12m)
 
 ## Seeds

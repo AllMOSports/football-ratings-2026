@@ -32,21 +32,21 @@
  "violations_proven_minimum": true,
  "minutes_over_limit_score": 0,
  "travel_allowance_used": 0,
- "solve_seconds": 360.1,
+ "solve_seconds": 540.1,
  "violations": [],
  "scorecard": {
-  "chalk_district_game_avg_min": 66.1,
+  "chalk_district_game_avg_min": 65.5,
   "chalk_district_game_max_min": 178.7,
   "chalk_district_games_over_limit": 0,
   "chalk_next_round_max_min": 331.4,
   "expected_district_game_min": 64.9,
-  "expected_next_round_game_min": 251.1,
+  "expected_next_round_game_min": 199.8,
   "p_any_district_game_over_limit": 0.0,
   "top_seed_pairs_same_district": 2,
   "strong_pairs_same_district": 10,
-  "weakest_district_best_seed": 11,
-  "district_best_rating_sd": 15.41,
-  "exp_top8_in_quarterfinals": 5.16,
+  "weakest_district_best_seed": 10,
+  "district_best_rating_sd": 15.08,
+  "exp_top8_in_quarterfinals": 5.34,
   "exp_top4_in_final_four": 2.22,
   "p_1_vs_2_final": 0.0,
   "p_top_seed_champion": 0.963
@@ -455,8 +455,37 @@
    "district": 2,
    "teams": [
     {
-     "seed": 11,
-     "team": "Vianney"
+     "seed": 10,
+     "team": "Odessa"
+    },
+    {
+     "seed": 27,
+     "team": "Warrenton"
+    },
+    {
+     "seed": 36,
+     "team": "Osage"
+    },
+    {
+     "seed": 45,
+     "team": "Marshall"
+    }
+   ],
+   "byes": [
+    "Odessa",
+    "Marshall",
+    "Warrenton",
+    "Osage"
+   ],
+   "dqf_games": [],
+   "max_drive_h": 2.98
+  },
+  {
+   "district": 3,
+   "teams": [
+    {
+     "seed": 5,
+     "team": "Festus"
     },
     {
      "seed": 16,
@@ -467,20 +496,20 @@
      "team": "Parkway North"
     },
     {
-     "seed": 29,
-     "team": "University City"
+     "seed": 31,
+     "team": "North County"
     },
     {
-     "seed": 39,
-     "team": "Gateway with Soldan International Studies"
+     "seed": 33,
+     "team": "DeSoto"
     },
     {
      "seed": 46,
      "team": "Windsor (Imperial)"
     },
     {
-     "seed": 50,
-     "team": "Clayton with Brentwood"
+     "seed": 51,
+     "team": "Bayless with Hancock"
     },
     {
      "seed": 52,
@@ -490,19 +519,19 @@
    "byes": [],
    "dqf_games": [
     {
-     "home": "Vianney",
+     "home": "Festus",
      "away": "Affton",
-     "drive_h": 0.2
+     "drive_h": 0.59
     },
     {
-     "home": "University City",
-     "away": "Gateway with Soldan International Studies",
-     "drive_h": 0.22
+     "home": "North County",
+     "away": "DeSoto",
+     "drive_h": 0.52
     },
     {
      "home": "Sikeston",
-     "away": "Clayton with Brentwood",
-     "drive_h": 2.81
+     "away": "Bayless with Hancock",
+     "drive_h": 2.53
     },
     {
      "home": "Parkway North",
@@ -510,68 +539,7 @@
      "drive_h": 0.62
     }
    ],
-   "max_drive_h": 2.84
-  },
-  {
-   "district": 3,
-   "teams": [
-    {
-     "seed": 5,
-     "team": "Festus"
-    },
-    {
-     "seed": 9,
-     "team": "Hillsboro"
-    },
-    {
-     "seed": 20,
-     "team": "Sullivan"
-    },
-    {
-     "seed": 22,
-     "team": "Union"
-    },
-    {
-     "seed": 31,
-     "team": "North County"
-    },
-    {
-     "seed": 33,
-     "team": "DeSoto"
-    },
-    {
-     "seed": 41,
-     "team": "Pacific"
-    },
-    {
-     "seed": 51,
-     "team": "Bayless with Hancock"
-    }
-   ],
-   "byes": [],
-   "dqf_games": [
-    {
-     "home": "Festus",
-     "away": "Bayless with Hancock",
-     "drive_h": 0.56
-    },
-    {
-     "home": "Union",
-     "away": "North County",
-     "drive_h": 1.54
-    },
-    {
-     "home": "Hillsboro",
-     "away": "Pacific",
-     "drive_h": 0.85
-    },
-    {
-     "home": "Sullivan",
-     "away": "DeSoto",
-     "drive_h": 1.16
-    }
-   ],
-   "max_drive_h": 1.54
+   "max_drive_h": 2.81
   },
   {
    "district": 4,
@@ -692,30 +660,62 @@
    "district": 6,
    "teams": [
     {
-     "seed": 10,
-     "team": "Odessa"
+     "seed": 9,
+     "team": "Hillsboro"
     },
     {
-     "seed": 27,
-     "team": "Warrenton"
+     "seed": 11,
+     "team": "Vianney"
     },
     {
-     "seed": 36,
-     "team": "Osage"
+     "seed": 20,
+     "team": "Sullivan"
     },
     {
-     "seed": 45,
-     "team": "Marshall"
+     "seed": 22,
+     "team": "Union"
+    },
+    {
+     "seed": 25,
+     "team": "Westminster Christian Academy"
+    },
+    {
+     "seed": 39,
+     "team": "Gateway with Soldan International Studies"
+    },
+    {
+     "seed": 41,
+     "team": "Pacific"
+    },
+    {
+     "seed": 50,
+     "team": "Clayton with Brentwood"
     }
    ],
-   "byes": [
-    "Odessa",
-    "Marshall",
-    "Warrenton",
-    "Osage"
+   "byes": [],
+   "dqf_games": [
+    {
+     "home": "Hillsboro",
+     "away": "Clayton with Brentwood",
+     "drive_h": 0.91
+    },
+    {
+     "home": "Union",
+     "away": "Westminster Christian Academy",
+     "drive_h": 0.92
+    },
+    {
+     "home": "Vianney",
+     "away": "Pacific",
+     "drive_h": 0.48
+    },
+    {
+     "home": "Sullivan",
+     "away": "Gateway with Soldan International Studies",
+     "drive_h": 1.22
+    }
    ],
-   "dqf_games": [],
-   "max_drive_h": 2.98
+   "max_drive_h": 1.27
   },
   {
    "district": 7,
@@ -729,8 +729,8 @@
      "team": "St. Charles West"
     },
     {
-     "seed": 25,
-     "team": "Westminster Christian Academy"
+     "seed": 29,
+     "team": "University City"
     },
     {
      "seed": 34,
@@ -771,9 +771,9 @@
      "drive_h": 0.46
     },
     {
-     "home": "Westminster Christian Academy",
+     "home": "University City",
      "away": "Riverview Gardens",
-     "drive_h": 0.58
+     "drive_h": 0.37
     }
    ],
    "max_drive_h": 0.94
@@ -814,21 +814,21 @@
     1,
     2
    ],
-   "max_drive_h": 8.35
+   "max_drive_h": 4.84
   },
   {
    "districts": [
     3,
     4
    ],
-   "max_drive_h": 6.08
+   "max_drive_h": 7.49
   },
   {
    "districts": [
     5,
     6
    ],
-   "max_drive_h": 5.62
+   "max_drive_h": 5.64
   },
   {
    "districts": [
@@ -890,50 +890,50 @@
   {
    "line": 9,
    "ideal_seed": 8,
-   "team": "Vianney",
-   "seed": 11
+   "team": "Odessa",
+   "seed": 10
   },
   {
    "line": 10,
    "ideal_seed": 57,
-   "team": "Affton",
-   "seed": 52
+   "team": null,
+   "seed": null
   },
   {
    "line": 11,
    "ideal_seed": 25,
-   "team": "University City",
-   "seed": 29
+   "team": "Marshall",
+   "seed": 45
   },
   {
    "line": 12,
    "ideal_seed": 40,
-   "team": "Gateway with Soldan International Studies",
-   "seed": 39
+   "team": null,
+   "seed": null
   },
   {
    "line": 13,
    "ideal_seed": 9,
-   "team": "Sikeston",
-   "seed": 16
+   "team": "Warrenton",
+   "seed": 27
   },
   {
    "line": 14,
    "ideal_seed": 56,
-   "team": "Clayton with Brentwood",
-   "seed": 50
+   "team": null,
+   "seed": null
   },
   {
    "line": 15,
    "ideal_seed": 24,
-   "team": "Parkway North",
-   "seed": 19
+   "team": "Osage",
+   "seed": 36
   },
   {
    "line": 16,
    "ideal_seed": 41,
-   "team": "Windsor (Imperial)",
-   "seed": 46
+   "team": null,
+   "seed": null
   },
   {
    "line": 17,
@@ -944,44 +944,44 @@
   {
    "line": 18,
    "ideal_seed": 61,
-   "team": "Bayless with Hancock",
-   "seed": 51
+   "team": "Affton",
+   "seed": 52
   },
   {
    "line": 19,
    "ideal_seed": 29,
-   "team": "Union",
-   "seed": 22
-  },
-  {
-   "line": 20,
-   "ideal_seed": 36,
    "team": "North County",
    "seed": 31
   },
   {
+   "line": 20,
+   "ideal_seed": 36,
+   "team": "DeSoto",
+   "seed": 33
+  },
+  {
    "line": 21,
    "ideal_seed": 13,
-   "team": "Hillsboro",
-   "seed": 9
+   "team": "Sikeston",
+   "seed": 16
   },
   {
    "line": 22,
    "ideal_seed": 52,
-   "team": "Pacific",
-   "seed": 41
+   "team": "Bayless with Hancock",
+   "seed": 51
   },
   {
    "line": 23,
    "ideal_seed": 20,
-   "team": "Sullivan",
-   "seed": 20
+   "team": "Parkway North",
+   "seed": 19
   },
   {
    "line": 24,
    "ideal_seed": 45,
-   "team": "DeSoto",
-   "seed": 33
+   "team": "Windsor (Imperial)",
+   "seed": 46
   },
   {
    "line": 25,
@@ -1082,50 +1082,50 @@
   {
    "line": 41,
    "ideal_seed": 7,
-   "team": "Odessa",
-   "seed": 10
+   "team": "Hillsboro",
+   "seed": 9
   },
   {
    "line": 42,
    "ideal_seed": 58,
-   "team": null,
-   "seed": null
+   "team": "Clayton with Brentwood",
+   "seed": 50
   },
   {
    "line": 43,
    "ideal_seed": 26,
-   "team": "Marshall",
-   "seed": 45
+   "team": "Union",
+   "seed": 22
   },
   {
    "line": 44,
    "ideal_seed": 39,
-   "team": null,
-   "seed": null
+   "team": "Westminster Christian Academy",
+   "seed": 25
   },
   {
    "line": 45,
    "ideal_seed": 10,
-   "team": "Warrenton",
-   "seed": 27
+   "team": "Vianney",
+   "seed": 11
   },
   {
    "line": 46,
    "ideal_seed": 55,
-   "team": null,
-   "seed": null
+   "team": "Pacific",
+   "seed": 41
   },
   {
    "line": 47,
    "ideal_seed": 23,
-   "team": "Osage",
-   "seed": 36
+   "team": "Sullivan",
+   "seed": 20
   },
   {
    "line": 48,
    "ideal_seed": 42,
-   "team": null,
-   "seed": null
+   "team": "Gateway with Soldan International Studies",
+   "seed": 39
   },
   {
    "line": 49,
@@ -1166,8 +1166,8 @@
   {
    "line": 55,
    "ideal_seed": 19,
-   "team": "Westminster Christian Academy",
-   "seed": 25
+   "team": "University City",
+   "seed": 29
   },
   {
    "line": 56,
