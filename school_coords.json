@@ -878,5 +878,373 @@
   "lat": 40.0867,
   "lon": -91.8157,
   "source": "zip_center"
+ },
+ "Winfield": {
+  "lat": 38.989978529907,
+  "lon": -90.750075466595,
+  "source": "census",
+  "matched": "3920 E STATE HWY 47, WINFIELD, MO, 63389",
+  "addr": "3920 EAST HWY 47|WINFIELD|63389"
+ },
+ "Priory": {
+  "lat": 38.643806793378,
+  "lon": -90.481463720335,
+  "source": "census",
+  "matched": "500 S MASON RD, SAINT LOUIS, MO, 63141",
+  "addr": "500 S MASON RD.|ST. LOUIS|63141"
+ },
+ "Eldon": {
+  "lat": 38.350056912008,
+  "lon": -92.58221762772,
+  "source": "census",
+  "matched": "101 S PINE ST, ELDON, MO, 65026",
+  "addr": "101 S PINE ST|ELDON|65026"
+ },
+ "Hollister": {
+  "lat": 36.621524597444,
+  "lon": -93.190504146668,
+  "source": "census",
+  "matched": "2112 STATE HWY BB, HOLLISTER, MO, 65672",
+  "addr": "2112 STATE HWY BB|HOLLISTER|65672"
+ },
+ "Owensville": {
+  "lat": 38.34108131329,
+  "lon": -91.494447420519,
+  "source": "census",
+  "matched": "3336 STATE HWY 19, OWENSVILLE, MO, 65066",
+  "addr": "3336 HWY 19|OWENSVILLE|65066"
+ },
+ "Lutheran South": {
+  "lat": 38.547223343346,
+  "lon": -90.332894212609,
+  "source": "census",
+  "matched": "9515 TESSON FERRY RD, SAINT LOUIS, MO, 63123",
+  "addr": "9515 TESSON FERRY RD|SAINT LOUIS|63123"
+ },
+ "Doniphan": {
+  "lat": 36.6216849108,
+  "lon": -90.818390759671,
+  "source": "census",
+  "matched": "5 BALL PARK RD, DONIPHAN, MO, 63935",
+  "addr": "5 BALL PARK RD|DONIPHAN|63935"
+ },
+ "Pleasant Hope with Halfway, Marion C. Early": {
+  "lat": 37.462976214211,
+  "lon": -93.272982363553,
+  "source": "census",
+  "matched": "100 W COWDEN ST, PLEASANT HOPE, MO, 65725",
+  "addr": "100 W. COWDEN|PLEASANT HOPE|65725"
+ },
+ "Mt. Vernon": {
+  "lat": 37.116326050856,
+  "lon": -93.813505543111,
+  "source": "census",
+  "matched": "400 STATE HWY 174, MOUNT VERNON, MO, 65712",
+  "addr": "400 W HWY 174|MOUNT VERNON|65712"
+ },
+ "Nevada": {
+  "lat": 37.843087237344,
+  "lon": -94.366570009229,
+  "source": "census",
+  "matched": "800 W HICKORY ST, NEVADA, MO, 64772",
+  "addr": "800 W HICKORY ST|NEVADA|64772"
+ },
+ "Center": {
+  "lat": 38.968914677436,
+  "lon": -94.581309981066,
+  "source": "census",
+  "matched": "8715 HOLMES RD, KANSAS CITY, MO, 64131",
+  "addr": "8715 HOLMES RD|KANSAS CITY|64131"
+ },
+ "Macon": {
+  "lat": 39.745581773121,
+  "lon": -92.465369223871,
+  "source": "census",
+  "matched": "702 N MISSOURI ST, MACON, MO, 63552",
+  "addr": "702 N MISSOURI|MACON|63552"
+ },
+ "Richmond": {
+  "lat": 39.270545014078,
+  "lon": -93.969715482985,
+  "source": "census",
+  "matched": "451 E SOUTH ST, RICHMOND, MO, 64085",
+  "addr": "451 E SOUTH|RICHMOND|64085"
+ },
+ "Summit Christian Academy": {
+  "lat": 38.892697177616,
+  "lon": -94.377672067082,
+  "source": "census",
+  "matched": "1500 SW JEFFERSON ST, LEES SUMMIT, MO, 64081",
+  "addr": "1500 SW JEFFERSON ST.|LEE'S SUMMIT|64081"
+ },
+ "Ste. Genevieve": {
+  "lat": 37.981264168994,
+  "lon": -90.051553132,
+  "source": "census",
+  "matched": "715 WASHINGTON ST, STE GENEVIEVE, MO, 63670",
+  "addr": "715 WASHINGTON ST|STE GENEVIEVE|63670"
+ },
+ "St. Pius X (Kansas City)": {
+  "lat": 39.172031706074,
+  "lon": -94.561251107654,
+  "source": "census",
+  "matched": "1500 NE 42ND TER, KANSAS CITY, MO, 64116",
+  "addr": "1500 NE 42ND TER|KANSAS CITY|64116"
+ },
+ "Cassville": {
+  "lat": 36.684925177501,
+  "lon": -93.864984250399,
+  "source": "census",
+  "matched": "1501 MAIN ST, CASSVILLE, MO, 65625",
+  "addr": "1501 MAIN ST|CASSVILLE|65625"
+ },
+ "Maryville": {
+  "lat": 40.33156185977,
+  "lon": -94.88337749702,
+  "source": "census",
+  "matched": "1503 S MUNN AVE, MARYVILLE, MO, 64468",
+  "addr": "1503 S MUNN AVE|MARYVILLE|64468"
+ },
+ "St. Pius X (Festus)": {
+  "lat": 38.201327162148,
+  "lon": -90.394338446713,
+  "source": "census",
+  "matched": "1030 SAINT PIUS DR, FESTUS, MO, 63028",
+  "addr": "1030 ST PIUS DR|FESTUS|63028"
+ },
+ "Lutheran North": {
+  "lat": 38.715932871909,
+  "lon": -90.282357431987,
+  "source": "census",
+  "matched": "5401 LUCAS & HUNT RD, SAINT LOUIS, MO, 63121",
+  "addr": "5401 LUCAS AND HUNT RD.|ST. LOUIS|63121"
+ },
+ "MICDS": {
+  "lat": 38.655015602321,
+  "lon": -90.395465661626,
+  "source": "census",
+  "matched": "101 N WARSON RD, SAINT LOUIS, MO, 63124",
+  "addr": "101 N WARSON RD.|ST. LOUIS|63124"
+ },
+ "Mountain Grove": {
+  "lat": 37.132077791541,
+  "lon": -92.263175255453,
+  "source": "census",
+  "matched": "420 N MAIN ST, MOUNTAIN GROVE, MO, 65711",
+  "addr": "420 N MAIN ST|MOUNTAIN GROVE|65711"
+ },
+ "Pembroke Hill": {
+  "lat": 39.03619914246,
+  "lon": -94.607402482902,
+  "source": "census",
+  "matched": "5121 STATE LINE RD, KANSAS CITY, MO, 64112",
+  "addr": "5121 STATE LINE RD.|KANSAS CITY|64112"
+ },
+ "Southern Boone": {
+  "lat": 38.779104812839,
+  "lon": -92.262465316566,
+  "source": "census",
+  "matched": "14520 S CRUMP LN, ASHLAND, MO, 65010",
+  "addr": "14520 CRUMP LN|ASHLAND|65010"
+ },
+ "Oak Grove": {
+  "lat": 39.004416988793,
+  "lon": -94.122055175315,
+  "source": "census",
+  "matched": "601 SE 12TH ST, OAK GROVE, MO, 64075",
+  "addr": "601 SE 12TH STREET|OAK GROVE|64075"
+ },
+ "St. Francis Borgia": {
+  "lat": 38.551138310209,
+  "lon": -91.025617007301,
+  "source": "census",
+  "matched": "1000 BORGIA DR, WASHINGTON, MO, 63090",
+  "addr": "1000 BORGIA DR|WASHINGTON|63090"
+ },
+ "Clinton": {
+  "lat": 38.358459804406,
+  "lon": -93.774441425824,
+  "source": "census",
+  "matched": "1106 S 2ND ST, CLINTON, MO, 64735",
+  "addr": "1106 S 2ND STREET|CLINTON|64735"
+ },
+ "Central (Park Hills)": {
+  "lat": 37.844507370562,
+  "lon": -90.522745185369,
+  "source": "census",
+  "matched": "116 REBEL DR, PARK HILLS, MO, 63601",
+  "addr": "116 REBEL DR|PARK HILLS|63601"
+ },
+ "Kennett": {
+  "lat": 36.238866789996,
+  "lon": -90.07042132733,
+  "source": "census",
+  "matched": "1400 W WASHINGTON ST, KENNETT, MO, 63857",
+  "addr": "1400 W WASHINGTON ST|KENNETT|63857"
+ },
+ "Potosi": {
+  "lat": 37.935368149736,
+  "lon": -90.790443330036,
+  "source": "census",
+  "matched": "1 TROJAN DR, POTOSI, MO, 63664",
+  "addr": "1 TROJAN DR|POTOSI|63664"
+ },
+ "Dexter": {
+  "lat": 36.789012708208,
+  "lon": -89.975415513219,
+  "source": "census",
+  "matched": "1101 W GRANT ST, DEXTER, MO, 63841",
+  "addr": "1101 W GRANT ST|DEXTER|63841"
+ },
+ "Aurora": {
+  "lat": 36.954872756069,
+  "lon": -93.726285716017,
+  "source": "census",
+  "matched": "305 W PROSPECT ST, AURORA, MO, 65605",
+  "addr": "305 W PROSPECT ST|AURORA|65605"
+ },
+ "Strafford": {
+  "lat": 37.270722889915,
+  "lon": -93.119269385846,
+  "source": "census",
+  "matched": "211 W MCCABE ST, STRAFFORD, MO, 65757",
+  "addr": "211 W MCCABE|STRAFFORD|65757"
+ },
+ "Cameron": {
+  "lat": 39.72834231113,
+  "lon": -94.240524907012,
+  "source": "census",
+  "matched": "1220 PARK AVE, CAMERON, MO, 64429",
+  "addr": "1220 S PARK AVENUE|CAMERON|64429"
+ },
+ "Buffalo": {
+  "lat": 37.644035253807,
+  "lon": -93.094992438841,
+  "source": "census",
+  "matched": "500 W MAIN ST, BUFFALO, MO, 65622",
+  "addr": "500 W MAIN|BUFFALO|65622"
+ },
+ "Fredericktown": {
+  "lat": 37.566266471423,
+  "lon": -90.271938143489,
+  "source": "census",
+  "matched": "805 STATE HWY 72, FREDERICKTOWN, MO, 63645",
+  "addr": "805 E HWY 72|FREDERICKTOWN|63645"
+ },
+ "Fulton": {
+  "lat": 38.873240684753,
+  "lon": -91.943636435267,
+  "source": "census",
+  "matched": "1 HORNET DR, FULTON, MO, 65251",
+  "addr": "1 HORNET DR|FULTON|65251"
+ },
+ "Perryville": {
+  "lat": 37.720429154305,
+  "lon": -89.85984183246,
+  "source": "census",
+  "matched": "326 COLLEGE ST, PERRYVILLE, MO, 63775",
+  "addr": "326 COLLEGE ST|PERRYVILLE|63775"
+ },
+ "Herculaneum": {
+  "lat": 38.267582688077,
+  "lon": -90.380257004652,
+  "source": "census",
+  "matched": "1 BLACKCAT DR, HERCULANEUM, MO, 63048",
+  "addr": "1 BLACKCAT DR|HERCULANEUM|63048"
+ },
+ "John Burroughs": {
+  "lat": 38.644800386773,
+  "lon": -90.366855830651,
+  "source": "census",
+  "matched": "755 S PRICE RD, SAINT LOUIS, MO, 63124",
+  "addr": "755 S PRICE RD.|ST. LOUIS|63124"
+ },
+ "Reeds Spring": {
+  "lat": 36.723337519135,
+  "lon": -93.382174297643,
+  "source": "census",
+  "matched": "20277A STATE HWY 413, REEDS SPRING, MO, 65737",
+  "addr": "20277A STATE HWY 413|REEDS SPRING|65737"
+ },
+ "St. James": {
+  "lat": 37.995452749474,
+  "lon": -91.612894806095,
+  "source": "census",
+  "matched": "101 E SCIOTO ST, SAINT JAMES, MO, 65559",
+  "addr": "101 E SCIOTO|ST JAMES|65559"
+ },
+ "Normandy Collaborative": {
+  "lat": 38.682317555275,
+  "lon": -90.298468732852,
+  "source": "census",
+  "matched": "6701 SAINT CHARLES ROCK RD, SAINT LOUIS, MO, 63133",
+  "addr": "6701 ST CHARLES ROCK RD|ST LOUIS|63133"
+ },
+ "Scott City with Chaffee": {
+  "lat": 37.212839978936,
+  "lon": -89.551200243141,
+  "source": "census",
+  "matched": "3000 MAIN ST, SCOTT CITY, MO, 63780",
+  "addr": "3000 MAIN ST|SCOTT CITY|63780"
+ },
+ "Seneca": {
+  "lat": 36.8408,
+  "lon": -94.5781,
+  "source": "zip_center",
+  "addr": "1110 NEOSHO ST|SENECA|64865"
+ },
+ "Hallsville": {
+  "lat": 39.1054,
+  "lon": -92.2239,
+  "source": "zip_center",
+  "addr": "421 HWY 124 E|HALLSVILLE|65255"
+ },
+ "Boonville": {
+  "lat": 38.9536,
+  "lon": -92.745,
+  "source": "zip_center",
+  "addr": "1 PIRATE DRIVE|BOONVILLE|65233"
+ },
+ "St. Clair": {
+  "lat": 38.3299,
+  "lon": -90.9713,
+  "source": "zip_center",
+  "addr": "1015 HIGH SCHOOL DR|ST CLAIR|63077"
+ },
+ "St. Michael the Archangel": {
+  "lat": 38.9953,
+  "lon": -94.3652,
+  "source": "zip_center",
+  "addr": "2901 LEE'S SUMMIT RD.|LEE'S SUMMIT|64064"
+ },
+ "Chillicothe": {
+  "lat": 39.7966,
+  "lon": -93.5509,
+  "source": "zip_center",
+  "addr": "2801 HORNET RD|CHILLICOTHE|64601"
+ },
+ "Wright City": {
+  "lat": 38.8097,
+  "lon": -91.0329,
+  "source": "zip_center",
+  "addr": "159 ROELKER RD|WRIGHT CITY|63390"
+ },
+ "Salem": {
+  "lat": 37.617,
+  "lon": -91.5258,
+  "source": "zip_center",
+  "addr": "1400 TIGER PRIDE DR|SALEM|65560"
+ },
+ "Cuba with Steelville": {
+  "lat": 38.0926,
+  "lon": -91.4081,
+  "source": "zip_center",
+  "addr": "1 WILDCAT PRIDE DR|CUBA|65453"
+ },
+ "Lutheran St. Charles": {
+  "lat": 38.7802,
+  "lon": -90.6228,
+  "source": "zip_center",
+  "addr": "5100 MEXICO RD|SAINT PETERS|63376"
  }
 }
