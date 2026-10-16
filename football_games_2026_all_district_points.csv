@@ -1080,9 +1080,9 @@ date,team1,team1_classified,score1,team2,team2_classified,score2,forfeit,overtim
 10/10/2026,Lutheran North,TRUE,55,MICDS,TRUE,35,FALSE,FALSE
 10/10/2026,John Burroughs,TRUE,30,Priory,TRUE,12,FALSE,FALSE
 10/10/2026,St. Michael the Archangel,TRUE,45,University Academy Charter with Ewing Marion Kauffman,TRUE,16,FALSE,FALSE
-10/15/2026,Christian Brothers College,TRUE,,Cardinal Ritter,TRUE,,FALSE,FALSE
-10/15/2026,Houston,TRUE,,Mountain Grove,TRUE,,FALSE,FALSE
-10/15/2026,St. Charles West,TRUE,,Winfield,TRUE,,FALSE,FALSE
+10/15/2026,Christian Brothers College,TRUE,20,Cardinal Ritter,TRUE,30,FALSE,FALSE
+10/15/2026,Houston,TRUE,7,Mountain Grove,TRUE,48,FALSE,FALSE
+10/15/2026,St. Charles West,TRUE,37,Winfield,TRUE,14,FALSE,FALSE
 10/16/2026,KIPP KC Legacy,TRUE,,Sumner (KS.),FALSE,,FALSE,FALSE
 10/16/2026,Marionville,TRUE,,Ash Grove,TRUE,,FALSE,FALSE
 10/16/2026,Cuba with Steelville,TRUE,,Bayless with Hancock,TRUE,,FALSE,FALSE
@@ -1094,7 +1094,7 @@ date,team1,team1_classified,score1,team2,team2_classified,score2,forfeit,overtim
 10/16/2026,Ava,TRUE,,Cabool,TRUE,,FALSE,FALSE
 10/16/2026,Capital City,TRUE,,Camdenton,TRUE,,FALSE,FALSE
 10/16/2026,Bolivar,TRUE,,Carl Junction,TRUE,,FALSE,FALSE
-10/16/2026,Central (Cape Girardeau),TRUE,,Caruthersville,TRUE,,FALSE,FALSE
+10/16/2026,Central (Cape Girardeau),TRUE,0,Caruthersville,TRUE,13,TRUE,FALSE
 10/16/2026,Warrensburg,TRUE,,Center,TRUE,,FALSE,FALSE
 10/16/2026,Southeast,FALSE,,Central (Kansas City),TRUE,,FALSE,FALSE
 10/16/2026,Grain Valley,TRUE,,Central (St. Joseph),TRUE,,FALSE,FALSE
@@ -1110,7 +1110,7 @@ date,team1,team1_classified,score1,team2,team2_classified,score2,forfeit,overtim
 10/16/2026,Charleston,TRUE,,East Prairie,TRUE,,FALSE,FALSE
 10/16/2026,Adrian,TRUE,,El Dorado Springs,TRUE,,FALSE,FALSE
 10/16/2026,Blair Oaks,TRUE,,Eldon,TRUE,,FALSE,FALSE
-10/16/2026,Miller Career Academy with Sumner,TRUE,,Excelsior Springs,TRUE,,FALSE,FALSE
+10/16/2026,Miller Career Academy with Sumner,TRUE,0,Excelsior Springs,TRUE,13,TRUE,FALSE
 10/16/2026,Strafford,TRUE,,Fair Grove,TRUE,,FALSE,FALSE
 10/16/2026,Hillsboro,TRUE,,Farmington,TRUE,,FALSE,FALSE
 10/16/2026,Belton,TRUE,,Fort Osage,TRUE,,FALSE,FALSE
@@ -1256,7 +1256,6 @@ date,team1,team1_classified,score1,team2,team2_classified,score2,forfeit,overtim
 10/23/2026,El Dorado Springs,TRUE,,Butler,TRUE,,FALSE,FALSE
 10/23/2026,Eldon,TRUE,,California,TRUE,,FALSE,FALSE
 10/23/2026,University Academy Charter with Ewing Marion Kauffman,TRUE,,Cameron,TRUE,,FALSE,FALSE
-10/23/2026,Miller Career Academy with Sumner,TRUE,,Capital City,TRUE,,FALSE,FALSE
 10/23/2026,Hillcrest,TRUE,,Carl Junction,TRUE,,FALSE,FALSE
 10/23/2026,Neosho,TRUE,,Carthage,TRUE,,FALSE,FALSE
 10/23/2026,Pleasant Hill,TRUE,,Center,TRUE,,FALSE,FALSE
@@ -1291,6 +1290,7 @@ date,team1,team1_classified,score1,team2,team2_classified,score2,forfeit,overtim
 10/23/2026,Poplar Bluff,TRUE,,Hillsboro,TRUE,,FALSE,FALSE
 10/23/2026,Washington,TRUE,,Holt,TRUE,,FALSE,FALSE
 10/23/2026,Cardinal Ritter,TRUE,,Jackson,TRUE,,FALSE,FALSE
+10/23/2026,Christian Brothers College,TRUE,,Capital City,TRUE,,FALSE,FALSE
 10/23/2026,St. Vincent,TRUE,,Jefferson (Festus),TRUE,,FALSE,FALSE
 10/23/2026,MICDS,TRUE,,Jefferson City,TRUE,,FALSE,FALSE
 10/23/2026,Clayton with Brentwood,TRUE,,Jennings,TRUE,,FALSE,FALSE
