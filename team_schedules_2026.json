@@ -2,7 +2,7 @@
   "Cabool": {
     "class": 1,
     "district": 1,
-    "current_total_points": 25.7619,
+    "current_total_points": 25.7727,
     "current_rank": 5,
     "games": [
       {
@@ -234,7 +234,7 @@
   "Hayti": {
     "class": 1,
     "district": 1,
-    "current_total_points": 41.3484,
+    "current_total_points": 41.4762,
     "current_rank": 3,
     "games": [
       {
@@ -350,7 +350,7 @@
   "Malden": {
     "class": 1,
     "district": 1,
-    "current_total_points": 24.7619,
+    "current_total_points": 24.9003,
     "current_rank": 6,
     "games": [
       {
@@ -466,7 +466,7 @@
   "Portageville": {
     "class": 1,
     "district": 1,
-    "current_total_points": 46.0627,
+    "current_total_points": 46.1905,
     "current_rank": 2,
     "games": [
       {
@@ -582,7 +582,7 @@
   "Thayer": {
     "class": 1,
     "district": 1,
-    "current_total_points": 52.5,
+    "current_total_points": 52.3902,
     "current_rank": 1,
     "games": [
       {
@@ -698,7 +698,7 @@
   "Crystal City": {
     "class": 1,
     "district": 2,
-    "current_total_points": 32.7033,
+    "current_total_points": 32.6071,
     "current_rank": 3,
     "games": [
       {
@@ -930,7 +930,7 @@
   "Louisiana": {
     "class": 1,
     "district": 2,
-    "current_total_points": 46.0,
+    "current_total_points": 45.9169,
     "current_rank": 1,
     "games": [
       {
@@ -1694,7 +1694,7 @@
   "Pierce City": {
     "class": 1,
     "district": 3,
-    "current_total_points": 34.0,
+    "current_total_points": 33.8505,
     "current_rank": 4,
     "games": [
       {
@@ -1810,7 +1810,7 @@
   "Linn": {
     "class": 1,
     "district": 4,
-    "current_total_points": 17.0,
+    "current_total_points": 16.9336,
     "current_rank": 5,
     "games": [
       {
@@ -4802,7 +4802,7 @@
   "Caruthersville": {
     "class": 2,
     "district": 1,
-    "current_total_points": 41.1812,
+    "current_total_points": 41.9167,
     "current_rank": 3,
     "games": [
       {
@@ -4894,12 +4894,12 @@
         "opponent": "Central (Cape Girardeau)",
         "opponent_type": "in_state",
         "opponent_class": 5,
-        "played": false,
-        "my_score": null,
-        "opp_score": null,
-        "won": null,
+        "played": true,
+        "my_score": 13,
+        "opp_score": 0,
+        "won": true,
         "overtime": false,
-        "forfeit": false
+        "forfeit": true
       },
       {
         "date": "10/23/2026",
@@ -4918,7 +4918,7 @@
   "Central (New Madrid County)": {
     "class": 2,
     "district": 1,
-    "current_total_points": 26.7143,
+    "current_total_points": 26.8333,
     "current_rank": 5,
     "games": [
       {
@@ -5591,7 +5591,7 @@
     "class": 2,
     "district": 2,
     "current_total_points": 29.0516,
-    "current_rank": 5,
+    "current_rank": 4,
     "games": [
       {
         "date": "8/28/2026",
@@ -5938,8 +5938,8 @@
   "Miller Career Academy with Sumner": {
     "class": 2,
     "district": 2,
-    "current_total_points": 31.4286,
-    "current_rank": 3,
+    "current_total_points": 27.852,
+    "current_rank": 5,
     "games": [
       {
         "date": "8/28/2026",
@@ -6030,24 +6030,12 @@
         "opponent": "Excelsior Springs",
         "opponent_type": "in_state",
         "opponent_class": 4,
-        "played": false,
-        "my_score": null,
-        "opp_score": null,
-        "won": null,
+        "played": true,
+        "my_score": 0,
+        "opp_score": 13,
+        "won": false,
         "overtime": false,
-        "forfeit": false
-      },
-      {
-        "date": "10/23/2026",
-        "opponent": "Capital City",
-        "opponent_type": "in_state",
-        "opponent_class": 5,
-        "played": false,
-        "my_score": null,
-        "opp_score": null,
-        "won": null,
-        "overtime": false,
-        "forfeit": false
+        "forfeit": true
       }
     ]
   },
@@ -6055,7 +6043,7 @@
     "class": 2,
     "district": 2,
     "current_total_points": 29.3333,
-    "current_rank": 4,
+    "current_rank": 3,
     "games": [
       {
         "date": "8/28/2026",
@@ -6286,7 +6274,7 @@
   "Ava": {
     "class": 2,
     "district": 3,
-    "current_total_points": 36.5714,
+    "current_total_points": 36.539,
     "current_rank": 4,
     "games": [
       {
@@ -6402,7 +6390,7 @@
   "Fair Grove": {
     "class": 2,
     "district": 3,
-    "current_total_points": 50.7526,
+    "current_total_points": 50.8571,
     "current_rank": 1,
     "games": [
       {
@@ -6634,7 +6622,7 @@
   "Houston": {
     "class": 2,
     "district": 3,
-    "current_total_points": 25.8095,
+    "current_total_points": 25.648,
     "current_rank": 7,
     "games": [
       {
@@ -6726,10 +6714,10 @@
         "opponent": "Mountain Grove",
         "opponent_type": "in_state",
         "opponent_class": 3,
-        "played": false,
-        "my_score": null,
-        "opp_score": null,
-        "won": null,
+        "played": true,
+        "my_score": 7,
+        "opp_score": 48,
+        "won": false,
         "overtime": false,
         "forfeit": false
       },
@@ -6750,7 +6738,7 @@
   "Liberty (Mountain View)": {
     "class": 2,
     "district": 3,
-    "current_total_points": 39.0952,
+    "current_total_points": 39.206,
     "current_rank": 3,
     "games": [
       {
@@ -6866,7 +6854,7 @@
   "Springfield Catholic": {
     "class": 2,
     "district": 3,
-    "current_total_points": 49.777,
+    "current_total_points": 49.6667,
     "current_rank": 2,
     "games": [
       {
@@ -9986,7 +9974,7 @@
   "Mark Twain": {
     "class": 2,
     "district": 7,
-    "current_total_points": 20.2143,
+    "current_total_points": 20.1395,
     "current_rank": 6,
     "games": [
       {
@@ -11610,7 +11598,7 @@
   "Scott City with Chaffee": {
     "class": 3,
     "district": 1,
-    "current_total_points": 18.1905,
+    "current_total_points": 18.2957,
     "current_rank": 6,
     "games": [
       {
@@ -11726,7 +11714,7 @@
   "Ste. Genevieve": {
     "class": 3,
     "district": 1,
-    "current_total_points": 37.8333,
+    "current_total_points": 37.6977,
     "current_rank": 2,
     "games": [
       {
@@ -12422,7 +12410,7 @@
   "St. Pius X (Festus)": {
     "class": 3,
     "district": 2,
-    "current_total_points": 44.9734,
+    "current_total_points": 45.0844,
     "current_rank": 1,
     "games": [
       {
@@ -12630,7 +12618,7 @@
   "Lutheran North": {
     "class": 3,
     "district": 3,
-    "current_total_points": 41.6757,
+    "current_total_points": 41.7895,
     "current_rank": 2,
     "games": [
       {
@@ -13198,7 +13186,7 @@
   "Winfield": {
     "class": 3,
     "district": 3,
-    "current_total_points": 32.7143,
+    "current_total_points": 32.102,
     "current_rank": 4,
     "games": [
       {
@@ -13290,10 +13278,10 @@
         "opponent": "St. Charles West",
         "opponent_type": "in_state",
         "opponent_class": 4,
-        "played": false,
-        "my_score": null,
-        "opp_score": null,
-        "won": null,
+        "played": true,
+        "my_score": 14,
+        "opp_score": 37,
+        "won": false,
         "overtime": false,
         "forfeit": false
       },
@@ -14358,7 +14346,7 @@
   "Mountain Grove": {
     "class": 3,
     "district": 5,
-    "current_total_points": 41.3333,
+    "current_total_points": 41.852,
     "current_rank": 1,
     "games": [
       {
@@ -14450,10 +14438,10 @@
         "opponent": "Houston",
         "opponent_type": "in_state",
         "opponent_class": 2,
-        "played": false,
-        "my_score": null,
-        "opp_score": null,
-        "won": null,
+        "played": true,
+        "my_score": 48,
+        "opp_score": 7,
+        "won": true,
         "overtime": false,
         "forfeit": false
       },
@@ -14590,7 +14578,7 @@
   "Salem": {
     "class": 3,
     "district": 5,
-    "current_total_points": 17.4286,
+    "current_total_points": 17.4935,
     "current_rank": 6,
     "games": [
       {
@@ -15054,7 +15042,7 @@
   "Cassville": {
     "class": 3,
     "district": 6,
-    "current_total_points": 44.6667,
+    "current_total_points": 44.5615,
     "current_rank": 1,
     "games": [
       {
@@ -15738,7 +15726,7 @@
   "Boonville": {
     "class": 3,
     "district": 7,
-    "current_total_points": 34.9524,
+    "current_total_points": 35.0797,
     "current_rank": 4,
     "games": [
       {
@@ -16550,7 +16538,7 @@
   "Cameron": {
     "class": 3,
     "district": 8,
-    "current_total_points": 17.6111,
+    "current_total_points": 17.7162,
     "current_rank": 6,
     "games": [
       {
@@ -16654,7 +16642,7 @@
   "Chillicothe": {
     "class": 3,
     "district": 8,
-    "current_total_points": 34.3031,
+    "current_total_points": 34.4048,
     "current_rank": 5,
     "games": [
       {
@@ -16886,7 +16874,7 @@
   "Maryville": {
     "class": 3,
     "district": 8,
-    "current_total_points": 54.0893,
+    "current_total_points": 54.2021,
     "current_rank": 2,
     "games": [
       {
@@ -17698,7 +17686,7 @@
   "Sikeston": {
     "class": 4,
     "district": 1,
-    "current_total_points": 44.0476,
+    "current_total_points": 43.7987,
     "current_rank": 2,
     "games": [
       {
@@ -18510,7 +18498,7 @@
   "Vianney": {
     "class": 4,
     "district": 2,
-    "current_total_points": 37.5,
+    "current_total_points": 37.3588,
     "current_rank": 4,
     "games": [
       {
@@ -18742,7 +18730,7 @@
   "Clayton with Brentwood": {
     "class": 4,
     "district": 3,
-    "current_total_points": 17.9524,
+    "current_total_points": 18.0465,
     "current_rank": 6,
     "games": [
       {
@@ -18858,7 +18846,7 @@
   "Gateway with Soldan International Studies": {
     "class": 4,
     "district": 3,
-    "current_total_points": 32.2222,
+    "current_total_points": 32.0175,
     "current_rank": 3,
     "games": [
       {
@@ -19078,7 +19066,7 @@
   "Lift for Life Academy Charter": {
     "class": 4,
     "district": 3,
-    "current_total_points": 36.5282,
+    "current_total_points": 36.6234,
     "current_rank": 2,
     "games": [
       {
@@ -19542,7 +19530,7 @@
   "Holt": {
     "class": 4,
     "district": 4,
-    "current_total_points": 29.8333,
+    "current_total_points": 29.7955,
     "current_rank": 6,
     "games": [
       {
@@ -19658,7 +19646,7 @@
   "Orchard Farm": {
     "class": 4,
     "district": 4,
-    "current_total_points": 38.8095,
+    "current_total_points": 38.8312,
     "current_rank": 3,
     "games": [
       {
@@ -20006,7 +19994,7 @@
   "St. Charles West": {
     "class": 4,
     "district": 4,
-    "current_total_points": 49.1667,
+    "current_total_points": 48.85,
     "current_rank": 1,
     "games": [
       {
@@ -20098,10 +20086,10 @@
         "opponent": "Winfield",
         "opponent_type": "in_state",
         "opponent_class": 3,
-        "played": false,
-        "my_score": null,
-        "opp_score": null,
-        "won": null,
+        "played": true,
+        "my_score": 37,
+        "opp_score": 14,
+        "won": true,
         "overtime": false,
         "forfeit": false
       },
@@ -20122,7 +20110,7 @@
   "Warrenton": {
     "class": 4,
     "district": 4,
-    "current_total_points": 37.2381,
+    "current_total_points": 37.1948,
     "current_rank": 4,
     "games": [
       {
@@ -20934,7 +20922,7 @@
   "Warrensburg": {
     "class": 4,
     "district": 5,
-    "current_total_points": 44.0952,
+    "current_total_points": 44.206,
     "current_rank": 1,
     "games": [
       {
@@ -22662,7 +22650,7 @@
   "Benton": {
     "class": 4,
     "district": 8,
-    "current_total_points": 30.5238,
+    "current_total_points": 30.6346,
     "current_rank": 4,
     "games": [
       {
@@ -22778,8 +22766,8 @@
   "Excelsior Springs": {
     "class": 4,
     "district": 8,
-    "current_total_points": 19.5296,
-    "current_rank": 7,
+    "current_total_points": 22.5625,
+    "current_rank": 6,
     "games": [
       {
         "date": "8/28/2026",
@@ -22870,12 +22858,12 @@
         "opponent": "Miller Career Academy with Sumner",
         "opponent_type": "in_state",
         "opponent_class": 2,
-        "played": false,
-        "my_score": null,
-        "opp_score": null,
-        "won": null,
+        "played": true,
+        "my_score": 13,
+        "opp_score": 0,
+        "won": true,
         "overtime": false,
-        "forfeit": false
+        "forfeit": true
       },
       {
         "date": "10/23/2026",
@@ -23011,7 +22999,7 @@
     "class": 4,
     "district": 8,
     "current_total_points": 21.4469,
-    "current_rank": 6,
+    "current_rank": 7,
     "games": [
       {
         "date": "8/28/2026",
@@ -23474,7 +23462,7 @@
   "Central (Cape Girardeau)": {
     "class": 5,
     "district": 1,
-    "current_total_points": 33.5854,
+    "current_total_points": 30.6097,
     "current_rank": 4,
     "games": [
       {
@@ -23566,12 +23554,12 @@
         "opponent": "Caruthersville",
         "opponent_type": "in_state",
         "opponent_class": 2,
-        "played": false,
-        "my_score": null,
-        "opp_score": null,
-        "won": null,
+        "played": true,
+        "my_score": 0,
+        "opp_score": 13,
+        "won": false,
         "overtime": false,
-        "forfeit": false
+        "forfeit": true
       },
       {
         "date": "10/23/2026",
@@ -23590,7 +23578,7 @@
   "Farmington": {
     "class": 5,
     "district": 1,
-    "current_total_points": 45.9524,
+    "current_total_points": 45.7973,
     "current_rank": 1,
     "games": [
       {
@@ -23938,7 +23926,7 @@
   "Poplar Bluff": {
     "class": 5,
     "district": 1,
-    "current_total_points": 19.2381,
+    "current_total_points": 19.1163,
     "current_rank": 5,
     "games": [
       {
@@ -24982,7 +24970,7 @@
   "Cardinal Ritter": {
     "class": 5,
     "district": 3,
-    "current_total_points": 35.6446,
+    "current_total_points": 38.2292,
     "current_rank": 4,
     "games": [
       {
@@ -25074,10 +25062,10 @@
         "opponent": "Christian Brothers College",
         "opponent_type": "in_state",
         "opponent_class": 6,
-        "played": false,
-        "my_score": null,
-        "opp_score": null,
-        "won": null,
+        "played": true,
+        "my_score": 30,
+        "opp_score": 20,
+        "won": true,
         "overtime": false,
         "forfeit": false
       },
@@ -25098,7 +25086,7 @@
   "Chaminade College Prep": {
     "class": 5,
     "district": 3,
-    "current_total_points": 39.881,
+    "current_total_points": 39.7508,
     "current_rank": 3,
     "games": [
       {
@@ -27186,7 +27174,7 @@
   "West Plains": {
     "class": 5,
     "district": 5,
-    "current_total_points": 38.1986,
+    "current_total_points": 38.1362,
     "current_rank": 3,
     "games": [
       {
@@ -28447,9 +28435,9 @@
       },
       {
         "date": "10/23/2026",
-        "opponent": "Miller Career Academy with Sumner",
+        "opponent": "Christian Brothers College",
         "opponent_type": "in_state",
-        "opponent_class": 2,
+        "opponent_class": 6,
         "played": false,
         "my_score": null,
         "opp_score": null,
@@ -29506,7 +29494,7 @@
   "William Chrisman": {
     "class": 5,
     "district": 8,
-    "current_total_points": 25.8571,
+    "current_total_points": 26.0066,
     "current_rank": 6,
     "games": [
       {
@@ -29738,7 +29726,7 @@
   "Jackson": {
     "class": 6,
     "district": 1,
-    "current_total_points": 48.6818,
+    "current_total_points": 48.5556,
     "current_rank": 1,
     "games": [
       {
@@ -30318,7 +30306,7 @@
   "Christian Brothers College": {
     "class": 6,
     "district": 2,
-    "current_total_points": 37.7442,
+    "current_total_points": 34.775,
     "current_rank": 3,
     "games": [
       {
@@ -30410,6 +30398,18 @@
         "opponent": "Cardinal Ritter",
         "opponent_type": "in_state",
         "opponent_class": 5,
+        "played": true,
+        "my_score": 20,
+        "opp_score": 30,
+        "won": false,
+        "overtime": false,
+        "forfeit": false
+      },
+      {
+        "date": "10/23/2026",
+        "opponent": "Capital City",
+        "opponent_type": "in_state",
+        "opponent_class": 5,
         "played": false,
         "my_score": null,
         "opp_score": null,
@@ -30422,7 +30422,7 @@
   "De Smet Jesuit": {
     "class": 6,
     "district": 2,
-    "current_total_points": 41.2619,
+    "current_total_points": 41.224,
     "current_rank": 2,
     "games": [
       {
@@ -30886,7 +30886,7 @@
   "Francis Howell North": {
     "class": 6,
     "district": 3,
-    "current_total_points": 12.8537,
+    "current_total_points": 12.9524,
     "current_rank": 5,
     "games": [
       {
@@ -31350,7 +31350,7 @@
   "SLUH": {
     "class": 6,
     "district": 3,
-    "current_total_points": 37.2619,
+    "current_total_points": 37.1429,
     "current_rank": 2,
     "games": [
       {
@@ -31814,7 +31814,7 @@
   "Liberty (Wentzville)": {
     "class": 6,
     "district": 4,
-    "current_total_points": 21.7381,
+    "current_total_points": 21.6412,
     "current_rank": 5,
     "games": [
       {
