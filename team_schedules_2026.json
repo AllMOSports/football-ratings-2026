@@ -2,8 +2,8 @@
   "Cabool": {
     "class": 1,
     "district": 1,
-    "current_total_points": 25.7727,
-    "current_rank": 5,
+    "current_total_points": 25.6786,
+    "current_rank": 6,
     "games": [
       {
         "date": "8/28/2026",
@@ -94,10 +94,10 @@
         "opponent": "Ava",
         "opponent_type": "in_state",
         "opponent_class": 2,
-        "played": false,
-        "my_score": null,
-        "opp_score": null,
-        "won": null,
+        "played": true,
+        "my_score": 6,
+        "opp_score": 37,
+        "won": false,
         "overtime": false,
         "forfeit": false
       },
@@ -118,8 +118,8 @@
   "Charleston": {
     "class": 1,
     "district": 1,
-    "current_total_points": 39.3484,
-    "current_rank": 4,
+    "current_total_points": 41.1818,
+    "current_rank": 3,
     "games": [
       {
         "date": "8/28/2026",
@@ -210,10 +210,10 @@
         "opponent": "East Prairie",
         "opponent_type": "in_state",
         "opponent_class": 2,
-        "played": false,
-        "my_score": null,
-        "opp_score": null,
-        "won": null,
+        "played": true,
+        "my_score": 56,
+        "opp_score": 12,
+        "won": true,
         "overtime": false,
         "forfeit": false
       },
@@ -234,8 +234,8 @@
   "Hayti": {
     "class": 1,
     "district": 1,
-    "current_total_points": 41.4762,
-    "current_rank": 3,
+    "current_total_points": 39.25,
+    "current_rank": 4,
     "games": [
       {
         "date": "8/28/2026",
@@ -326,10 +326,10 @@
         "opponent": "Father Tolton",
         "opponent_type": "in_state",
         "opponent_class": 2,
-        "played": false,
-        "my_score": null,
-        "opp_score": null,
-        "won": null,
+        "played": true,
+        "my_score": 12,
+        "opp_score": 38,
+        "won": false,
         "overtime": false,
         "forfeit": false
       },
@@ -350,8 +350,8 @@
   "Malden": {
     "class": 1,
     "district": 1,
-    "current_total_points": 24.9003,
-    "current_rank": 6,
+    "current_total_points": 27.5179,
+    "current_rank": 5,
     "games": [
       {
         "date": "8/28/2026",
@@ -442,10 +442,10 @@
         "opponent": "Crystal City",
         "opponent_type": "in_state",
         "opponent_class": 1,
-        "played": false,
-        "my_score": null,
-        "opp_score": null,
-        "won": null,
+        "played": true,
+        "my_score": 28,
+        "opp_score": 0,
+        "won": true,
         "overtime": false,
         "forfeit": false
       },
@@ -466,7 +466,7 @@
   "Portageville": {
     "class": 1,
     "district": 1,
-    "current_total_points": 46.1905,
+    "current_total_points": 48.3068,
     "current_rank": 2,
     "games": [
       {
@@ -558,10 +558,10 @@
         "opponent": "Lutheran South",
         "opponent_type": "in_state",
         "opponent_class": 3,
-        "played": false,
-        "my_score": null,
-        "opp_score": null,
-        "won": null,
+        "played": true,
+        "my_score": 54,
+        "opp_score": 13,
+        "won": true,
         "overtime": false,
         "forfeit": false
       },
@@ -582,7 +582,7 @@
   "Thayer": {
     "class": 1,
     "district": 1,
-    "current_total_points": 52.3902,
+    "current_total_points": 53.0481,
     "current_rank": 1,
     "games": [
       {
@@ -674,10 +674,10 @@
         "opponent": "Willow Springs",
         "opponent_type": "in_state",
         "opponent_class": 2,
-        "played": false,
-        "my_score": null,
-        "opp_score": null,
-        "won": null,
+        "played": true,
+        "my_score": 42,
+        "opp_score": 0,
+        "won": true,
         "overtime": false,
         "forfeit": false
       },
@@ -698,8 +698,8 @@
   "Crystal City": {
     "class": 1,
     "district": 2,
-    "current_total_points": 32.6071,
-    "current_rank": 3,
+    "current_total_points": 29.3325,
+    "current_rank": 4,
     "games": [
       {
         "date": "8/28/2026",
@@ -790,10 +790,10 @@
         "opponent": "Malden",
         "opponent_type": "in_state",
         "opponent_class": 1,
-        "played": false,
-        "my_score": null,
-        "opp_score": null,
-        "won": null,
+        "played": true,
+        "my_score": 0,
+        "opp_score": 28,
+        "won": false,
         "overtime": false,
         "forfeit": false
       },
@@ -814,7 +814,7 @@
   "Grandview (Hillsboro)": {
     "class": 1,
     "district": 2,
-    "current_total_points": 25.7857,
+    "current_total_points": 25.75,
     "current_rank": 5,
     "games": [
       {
@@ -906,10 +906,10 @@
         "opponent": "St. Vincent",
         "opponent_type": "in_state",
         "opponent_class": 2,
-        "played": false,
-        "my_score": null,
-        "opp_score": null,
-        "won": null,
+        "played": true,
+        "my_score": 18,
+        "opp_score": 49,
+        "won": false,
         "overtime": false,
         "forfeit": false
       },
@@ -930,7 +930,7 @@
   "Louisiana": {
     "class": 1,
     "district": 2,
-    "current_total_points": 45.9169,
+    "current_total_points": 46.9643,
     "current_rank": 1,
     "games": [
       {
@@ -1022,10 +1022,10 @@
         "opponent": "Mark Twain",
         "opponent_type": "in_state",
         "opponent_class": 2,
-        "played": false,
-        "my_score": null,
-        "opp_score": null,
-        "won": null,
+        "played": true,
+        "my_score": 48,
+        "opp_score": 0,
+        "won": true,
         "overtime": false,
         "forfeit": false
       },
@@ -1046,7 +1046,7 @@
   "Principia": {
     "class": 1,
     "district": 2,
-    "current_total_points": 32.7941,
+    "current_total_points": 31.0,
     "current_rank": 2,
     "games": [
       {
@@ -1126,10 +1126,10 @@
         "opponent": "Kelly",
         "opponent_type": "in_state",
         "opponent_class": 2,
-        "played": false,
-        "my_score": null,
-        "opp_score": null,
-        "won": null,
+        "played": true,
+        "my_score": 18,
+        "opp_score": 31,
+        "won": false,
         "overtime": false,
         "forfeit": false
       },
@@ -1150,8 +1150,8 @@
   "Veritas Christian Academy": {
     "class": 1,
     "district": 2,
-    "current_total_points": 30.9385,
-    "current_rank": 4,
+    "current_total_points": 30.7143,
+    "current_rank": 3,
     "games": [
       {
         "date": "9/5/2026",
@@ -1218,10 +1218,10 @@
         "opponent": "John Burroughs",
         "opponent_type": "in_state",
         "opponent_class": 3,
-        "played": false,
-        "my_score": null,
-        "opp_score": null,
-        "won": null,
+        "played": true,
+        "my_score": 0,
+        "opp_score": 45,
+        "won": false,
         "overtime": false,
         "forfeit": false
       },
@@ -1242,7 +1242,7 @@
   "Ash Grove": {
     "class": 1,
     "district": 3,
-    "current_total_points": 37.878,
+    "current_total_points": 36.0,
     "current_rank": 3,
     "games": [
       {
@@ -1334,11 +1334,11 @@
         "opponent": "Marionville",
         "opponent_type": "in_state",
         "opponent_class": 1,
-        "played": false,
-        "my_score": null,
-        "opp_score": null,
-        "won": null,
-        "overtime": false,
+        "played": true,
+        "my_score": 30,
+        "opp_score": 38,
+        "won": false,
+        "overtime": true,
         "forfeit": false
       },
       {
@@ -1358,7 +1358,7 @@
   "Diamond": {
     "class": 1,
     "district": 3,
-    "current_total_points": 20.6667,
+    "current_total_points": 19.5306,
     "current_rank": 5,
     "games": [
       {
@@ -1438,10 +1438,10 @@
         "opponent": "Pierce City",
         "opponent_type": "in_state",
         "opponent_class": 1,
-        "played": false,
-        "my_score": null,
-        "opp_score": null,
-        "won": null,
+        "played": true,
+        "my_score": 3,
+        "opp_score": 21,
+        "won": false,
         "overtime": false,
         "forfeit": false
       },
@@ -1462,7 +1462,7 @@
   "Marionville": {
     "class": 1,
     "district": 3,
-    "current_total_points": 43.0383,
+    "current_total_points": 43.2273,
     "current_rank": 1,
     "games": [
       {
@@ -1554,11 +1554,11 @@
         "opponent": "Ash Grove",
         "opponent_type": "in_state",
         "opponent_class": 1,
-        "played": false,
-        "my_score": null,
-        "opp_score": null,
-        "won": null,
-        "overtime": false,
+        "played": true,
+        "my_score": 38,
+        "opp_score": 30,
+        "won": true,
+        "overtime": true,
         "forfeit": false
       },
       {
@@ -1578,7 +1578,7 @@
   "Miller": {
     "class": 1,
     "district": 3,
-    "current_total_points": 40.0209,
+    "current_total_points": 40.4205,
     "current_rank": 2,
     "games": [
       {
@@ -1670,10 +1670,10 @@
         "opponent": "Skyline",
         "opponent_type": "in_state",
         "opponent_class": 1,
-        "played": false,
-        "my_score": null,
-        "opp_score": null,
-        "won": null,
+        "played": true,
+        "my_score": 22,
+        "opp_score": 19,
+        "won": true,
         "overtime": false,
         "forfeit": false
       },
@@ -1694,7 +1694,7 @@
   "Pierce City": {
     "class": 1,
     "district": 3,
-    "current_total_points": 33.8505,
+    "current_total_points": 35.1364,
     "current_rank": 4,
     "games": [
       {
@@ -1786,10 +1786,10 @@
         "opponent": "Diamond",
         "opponent_type": "in_state",
         "opponent_class": 1,
-        "played": false,
-        "my_score": null,
-        "opp_score": null,
-        "won": null,
+        "played": true,
+        "my_score": 21,
+        "opp_score": 3,
+        "won": true,
         "overtime": false,
         "forfeit": false
       },
@@ -1810,7 +1810,7 @@
   "Linn": {
     "class": 1,
     "district": 4,
-    "current_total_points": 16.9336,
+    "current_total_points": 17.0,
     "current_rank": 5,
     "games": [
       {
@@ -1902,10 +1902,10 @@
         "opponent": "Tipton with Bunceton",
         "opponent_type": "in_state",
         "opponent_class": 1,
-        "played": false,
-        "my_score": null,
-        "opp_score": null,
-        "won": null,
+        "played": true,
+        "my_score": 0,
+        "opp_score": 68,
+        "won": false,
         "overtime": false,
         "forfeit": false
       },
@@ -1926,8 +1926,8 @@
   "Russellville": {
     "class": 1,
     "district": 4,
-    "current_total_points": 49.5641,
-    "current_rank": 3,
+    "current_total_points": 49.1923,
+    "current_rank": 2,
     "games": [
       {
         "date": "8/28/2026",
@@ -2018,10 +2018,10 @@
         "opponent": "Harrisburg",
         "opponent_type": "in_state",
         "opponent_class": 1,
-        "played": false,
-        "my_score": null,
-        "opp_score": null,
-        "won": null,
+        "played": true,
+        "my_score": 46,
+        "opp_score": 8,
+        "won": true,
         "overtime": false,
         "forfeit": false
       },
@@ -2042,8 +2042,8 @@
   "Skyline": {
     "class": 1,
     "district": 4,
-    "current_total_points": 51.0476,
-    "current_rank": 2,
+    "current_total_points": 47.8036,
+    "current_rank": 3,
     "games": [
       {
         "date": "8/28/2026",
@@ -2134,10 +2134,10 @@
         "opponent": "Miller",
         "opponent_type": "in_state",
         "opponent_class": 1,
-        "played": false,
-        "my_score": null,
-        "opp_score": null,
-        "won": null,
+        "played": true,
+        "my_score": 19,
+        "opp_score": 22,
+        "won": false,
         "overtime": false,
         "forfeit": false
       },
@@ -2158,7 +2158,7 @@
   "Tipton with Bunceton": {
     "class": 1,
     "district": 4,
-    "current_total_points": 52.7619,
+    "current_total_points": 51.75,
     "current_rank": 1,
     "games": [
       {
@@ -2250,10 +2250,10 @@
         "opponent": "Linn",
         "opponent_type": "in_state",
         "opponent_class": 1,
-        "played": false,
-        "my_score": null,
-        "opp_score": null,
-        "won": null,
+        "played": true,
+        "my_score": 68,
+        "opp_score": 0,
+        "won": true,
         "overtime": false,
         "forfeit": false
       },
@@ -2274,7 +2274,7 @@
   "Windsor": {
     "class": 1,
     "district": 4,
-    "current_total_points": 33.2381,
+    "current_total_points": 32.3036,
     "current_rank": 4,
     "games": [
       {
@@ -2366,10 +2366,10 @@
         "opponent": "Cole Camp",
         "opponent_type": "in_state",
         "opponent_class": 2,
-        "played": false,
-        "my_score": null,
-        "opp_score": null,
-        "won": null,
+        "played": true,
+        "my_score": 14,
+        "opp_score": 23,
+        "won": false,
         "overtime": false,
         "forfeit": false
       },
@@ -2390,7 +2390,7 @@
   "Adrian": {
     "class": 1,
     "district": 5,
-    "current_total_points": 36.8095,
+    "current_total_points": 38.8929,
     "current_rank": 2,
     "games": [
       {
@@ -2482,10 +2482,10 @@
         "opponent": "El Dorado Springs",
         "opponent_type": "in_state",
         "opponent_class": 2,
-        "played": false,
-        "my_score": null,
-        "opp_score": null,
-        "won": null,
+        "played": true,
+        "my_score": 28,
+        "opp_score": 14,
+        "won": true,
         "overtime": false,
         "forfeit": false
       },
@@ -2506,7 +2506,7 @@
   "Carrollton": {
     "class": 1,
     "district": 5,
-    "current_total_points": 54.4048,
+    "current_total_points": 54.0357,
     "current_rank": 1,
     "games": [
       {
@@ -2598,10 +2598,10 @@
         "opponent": "Holden",
         "opponent_type": "in_state",
         "opponent_class": 2,
-        "played": false,
-        "my_score": null,
-        "opp_score": null,
-        "won": null,
+        "played": true,
+        "my_score": 54,
+        "opp_score": 46,
+        "won": true,
         "overtime": false,
         "forfeit": false
       },
@@ -2622,7 +2622,7 @@
   "Crest Ridge with Chilhowee": {
     "class": 1,
     "district": 5,
-    "current_total_points": 34.7619,
+    "current_total_points": 32.6607,
     "current_rank": 4,
     "games": [
       {
@@ -2714,10 +2714,10 @@
         "opponent": "Salisbury",
         "opponent_type": "in_state",
         "opponent_class": 1,
-        "played": false,
-        "my_score": null,
-        "opp_score": null,
-        "won": null,
+        "played": true,
+        "my_score": 7,
+        "opp_score": 45,
+        "won": false,
         "overtime": false,
         "forfeit": false
       },
@@ -2738,7 +2738,7 @@
   "North Platte": {
     "class": 1,
     "district": 5,
-    "current_total_points": 36.5714,
+    "current_total_points": 35.4643,
     "current_rank": 3,
     "games": [
       {
@@ -2830,10 +2830,10 @@
         "opponent": "Mid-Buchanan",
         "opponent_type": "in_state",
         "opponent_class": 2,
-        "played": false,
-        "my_score": null,
-        "opp_score": null,
-        "won": null,
+        "played": true,
+        "my_score": 14,
+        "opp_score": 44,
+        "won": false,
         "overtime": false,
         "forfeit": false
       },
@@ -2854,7 +2854,7 @@
   "Sherwood": {
     "class": 1,
     "district": 5,
-    "current_total_points": 34.2857,
+    "current_total_points": 32.4821,
     "current_rank": 5,
     "games": [
       {
@@ -2946,10 +2946,10 @@
         "opponent": "Warsaw",
         "opponent_type": "in_state",
         "opponent_class": 2,
-        "played": false,
-        "my_score": null,
-        "opp_score": null,
-        "won": null,
+        "played": true,
+        "my_score": 7,
+        "opp_score": 39,
+        "won": false,
         "overtime": false,
         "forfeit": false
       },
@@ -2970,7 +2970,7 @@
   "East Buchanan": {
     "class": 1,
     "district": 6,
-    "current_total_points": 41.1905,
+    "current_total_points": 39.6607,
     "current_rank": 1,
     "games": [
       {
@@ -3062,10 +3062,10 @@
         "opponent": "West Platte",
         "opponent_type": "in_state",
         "opponent_class": 2,
-        "played": false,
-        "my_score": null,
-        "opp_score": null,
-        "won": null,
+        "played": true,
+        "my_score": 13,
+        "opp_score": 20,
+        "won": false,
         "overtime": false,
         "forfeit": false
       },
@@ -3086,8 +3086,8 @@
   "Gallatin with Tri-County": {
     "class": 1,
     "district": 6,
-    "current_total_points": 28.9199,
-    "current_rank": 4,
+    "current_total_points": 30.8068,
+    "current_rank": 2,
     "games": [
       {
         "date": "8/28/2026",
@@ -3178,10 +3178,10 @@
         "opponent": "South Harrison",
         "opponent_type": "in_state",
         "opponent_class": 1,
-        "played": false,
-        "my_score": null,
-        "opp_score": null,
-        "won": null,
+        "played": true,
+        "my_score": 43,
+        "opp_score": 8,
+        "won": true,
         "overtime": false,
         "forfeit": false
       },
@@ -3202,8 +3202,8 @@
   "Maysville": {
     "class": 1,
     "district": 6,
-    "current_total_points": 21.223,
-    "current_rank": 6,
+    "current_total_points": 25.5909,
+    "current_rank": 5,
     "games": [
       {
         "date": "8/28/2026",
@@ -3294,10 +3294,10 @@
         "opponent": "Trenton",
         "opponent_type": "in_state",
         "opponent_class": 2,
-        "played": false,
-        "my_score": null,
-        "opp_score": null,
-        "won": null,
+        "played": true,
+        "my_score": 38,
+        "opp_score": 7,
+        "won": true,
         "overtime": false,
         "forfeit": false
       },
@@ -3318,8 +3318,8 @@
   "Penney": {
     "class": 1,
     "district": 6,
-    "current_total_points": 30.5238,
-    "current_rank": 3,
+    "current_total_points": 30.4107,
+    "current_rank": 4,
     "games": [
       {
         "date": "8/28/2026",
@@ -3410,10 +3410,10 @@
         "opponent": "Lathrop",
         "opponent_type": "in_state",
         "opponent_class": 2,
-        "played": false,
-        "my_score": null,
-        "opp_score": null,
-        "won": null,
+        "played": true,
+        "my_score": 42,
+        "opp_score": 50,
+        "won": false,
         "overtime": false,
         "forfeit": false
       },
@@ -3434,8 +3434,8 @@
   "Plattsburg": {
     "class": 1,
     "district": 6,
-    "current_total_points": 32.0238,
-    "current_rank": 2,
+    "current_total_points": 30.6964,
+    "current_rank": 3,
     "games": [
       {
         "date": "8/28/2026",
@@ -3526,10 +3526,10 @@
         "opponent": "Lawson",
         "opponent_type": "in_state",
         "opponent_class": 2,
-        "played": false,
-        "my_score": null,
-        "opp_score": null,
-        "won": null,
+        "played": true,
+        "my_score": 7,
+        "opp_score": 35,
+        "won": false,
         "overtime": false,
         "forfeit": false
       },
@@ -3550,8 +3550,8 @@
   "South Harrison": {
     "class": 1,
     "district": 6,
-    "current_total_points": 23.7108,
-    "current_rank": 5,
+    "current_total_points": 21.9545,
+    "current_rank": 6,
     "games": [
       {
         "date": "8/28/2026",
@@ -3642,10 +3642,10 @@
         "opponent": "Gallatin with Tri-County",
         "opponent_type": "in_state",
         "opponent_class": 1,
-        "played": false,
-        "my_score": null,
-        "opp_score": null,
-        "won": null,
+        "played": true,
+        "my_score": 8,
+        "opp_score": 43,
+        "won": false,
         "overtime": false,
         "forfeit": false
       },
@@ -3666,7 +3666,7 @@
   "Fayette": {
     "class": 1,
     "district": 7,
-    "current_total_points": 24.9524,
+    "current_total_points": 24.375,
     "current_rank": 3,
     "games": [
       {
@@ -3758,10 +3758,10 @@
         "opponent": "South Callaway",
         "opponent_type": "in_state",
         "opponent_class": 2,
-        "played": false,
-        "my_score": null,
-        "opp_score": null,
-        "won": null,
+        "played": true,
+        "my_score": 6,
+        "opp_score": 40,
+        "won": false,
         "overtime": false,
         "forfeit": false
       },
@@ -3782,7 +3782,7 @@
   "Harrisburg": {
     "class": 1,
     "district": 7,
-    "current_total_points": 20.1905,
+    "current_total_points": 19.9107,
     "current_rank": 5,
     "games": [
       {
@@ -3874,10 +3874,10 @@
         "opponent": "Russellville",
         "opponent_type": "in_state",
         "opponent_class": 1,
-        "played": false,
-        "my_score": null,
-        "opp_score": null,
-        "won": null,
+        "played": true,
+        "my_score": 8,
+        "opp_score": 46,
+        "won": false,
         "overtime": false,
         "forfeit": false
       },
@@ -3898,7 +3898,7 @@
   "Salisbury": {
     "class": 1,
     "district": 7,
-    "current_total_points": 46.7179,
+    "current_total_points": 46.6792,
     "current_rank": 1,
     "games": [
       {
@@ -3990,10 +3990,10 @@
         "opponent": "Crest Ridge with Chilhowee",
         "opponent_type": "in_state",
         "opponent_class": 1,
-        "played": false,
-        "my_score": null,
-        "opp_score": null,
-        "won": null,
+        "played": true,
+        "my_score": 45,
+        "opp_score": 7,
+        "won": true,
         "overtime": false,
         "forfeit": false
       },
@@ -4014,7 +4014,7 @@
   "Van-Far": {
     "class": 1,
     "district": 7,
-    "current_total_points": 23.4762,
+    "current_total_points": 23.5893,
     "current_rank": 4,
     "games": [
       {
@@ -4106,10 +4106,10 @@
         "opponent": "North Callaway",
         "opponent_type": "in_state",
         "opponent_class": 2,
-        "played": false,
-        "my_score": null,
-        "opp_score": null,
-        "won": null,
+        "played": true,
+        "my_score": 22,
+        "opp_score": 81,
+        "won": false,
         "overtime": false,
         "forfeit": false
       },
@@ -4130,7 +4130,7 @@
   "Westran": {
     "class": 1,
     "district": 7,
-    "current_total_points": 33.0952,
+    "current_total_points": 30.3182,
     "current_rank": 2,
     "games": [
       {
@@ -4222,10 +4222,10 @@
         "opponent": "Scotland County",
         "opponent_type": "in_state",
         "opponent_class": 1,
-        "played": false,
-        "my_score": null,
-        "opp_score": null,
-        "won": null,
+        "played": true,
+        "my_score": 22,
+        "opp_score": 41,
+        "won": false,
         "overtime": false,
         "forfeit": false
       },
@@ -4246,7 +4246,7 @@
   "Marceline": {
     "class": 1,
     "district": 8,
-    "current_total_points": 32.9048,
+    "current_total_points": 34.5455,
     "current_rank": 4,
     "games": [
       {
@@ -4338,10 +4338,10 @@
         "opponent": "Milan",
         "opponent_type": "in_state",
         "opponent_class": 1,
-        "played": false,
-        "my_score": null,
-        "opp_score": null,
-        "won": null,
+        "played": true,
+        "my_score": 45,
+        "opp_score": 0,
+        "won": true,
         "overtime": false,
         "forfeit": false
       },
@@ -4362,7 +4362,7 @@
   "Milan": {
     "class": 1,
     "district": 8,
-    "current_total_points": 14.5,
+    "current_total_points": 14.3469,
     "current_rank": 5,
     "games": [
       {
@@ -4442,10 +4442,10 @@
         "opponent": "Marceline",
         "opponent_type": "in_state",
         "opponent_class": 1,
-        "played": false,
-        "my_score": null,
-        "opp_score": null,
-        "won": null,
+        "played": true,
+        "my_score": 0,
+        "opp_score": 45,
+        "won": false,
         "overtime": false,
         "forfeit": false
       },
@@ -4466,8 +4466,8 @@
   "Putnam County": {
     "class": 1,
     "district": 8,
-    "current_total_points": 40.0209,
-    "current_rank": 3,
+    "current_total_points": 42.5682,
+    "current_rank": 1,
     "games": [
       {
         "date": "8/28/2026",
@@ -4558,10 +4558,10 @@
         "opponent": "Brookfield",
         "opponent_type": "in_state",
         "opponent_class": 2,
-        "played": false,
-        "my_score": null,
-        "opp_score": null,
-        "won": null,
+        "played": true,
+        "my_score": 42,
+        "opp_score": 34,
+        "won": true,
         "overtime": false,
         "forfeit": false
       },
@@ -4582,8 +4582,8 @@
   "Scotland County": {
     "class": 1,
     "district": 8,
-    "current_total_points": 41.3649,
-    "current_rank": 1,
+    "current_total_points": 42.5306,
+    "current_rank": 2,
     "games": [
       {
         "date": "8/28/2026",
@@ -4662,10 +4662,10 @@
         "opponent": "Westran",
         "opponent_type": "in_state",
         "opponent_class": 1,
-        "played": false,
-        "my_score": null,
-        "opp_score": null,
-        "won": null,
+        "played": true,
+        "my_score": 41,
+        "opp_score": 22,
+        "won": true,
         "overtime": false,
         "forfeit": false
       },
@@ -4686,8 +4686,8 @@
   "South Shelby": {
     "class": 1,
     "district": 8,
-    "current_total_points": 40.381,
-    "current_rank": 2,
+    "current_total_points": 37.9643,
+    "current_rank": 3,
     "games": [
       {
         "date": "8/28/2026",
@@ -4778,10 +4778,10 @@
         "opponent": "Monroe City",
         "opponent_type": "in_state",
         "opponent_class": 2,
-        "played": false,
-        "my_score": null,
-        "opp_score": null,
-        "won": null,
+        "played": true,
+        "my_score": 24,
+        "opp_score": 42,
+        "won": false,
         "overtime": false,
         "forfeit": false
       },
@@ -4802,8 +4802,8 @@
   "Caruthersville": {
     "class": 2,
     "district": 1,
-    "current_total_points": 41.9167,
-    "current_rank": 3,
+    "current_total_points": 41.8704,
+    "current_rank": 2,
     "games": [
       {
         "date": "8/28/2026",
@@ -4918,7 +4918,7 @@
   "Central (New Madrid County)": {
     "class": 2,
     "district": 1,
-    "current_total_points": 26.8333,
+    "current_total_points": 27.9205,
     "current_rank": 5,
     "games": [
       {
@@ -5010,10 +5010,10 @@
         "opponent": "Sikeston",
         "opponent_type": "in_state",
         "opponent_class": 4,
-        "played": false,
-        "my_score": null,
-        "opp_score": null,
-        "won": null,
+        "played": true,
+        "my_score": 6,
+        "opp_score": 48,
+        "won": false,
         "overtime": false,
         "forfeit": false
       },
@@ -5034,7 +5034,7 @@
   "East Prairie": {
     "class": 2,
     "district": 1,
-    "current_total_points": 18.881,
+    "current_total_points": 18.6607,
     "current_rank": 6,
     "games": [
       {
@@ -5126,10 +5126,10 @@
         "opponent": "Charleston",
         "opponent_type": "in_state",
         "opponent_class": 1,
-        "played": false,
-        "my_score": null,
-        "opp_score": null,
-        "won": null,
+        "played": true,
+        "my_score": 12,
+        "opp_score": 56,
+        "won": false,
         "overtime": false,
         "forfeit": false
       },
@@ -5150,8 +5150,8 @@
   "Kelly": {
     "class": 2,
     "district": 1,
-    "current_total_points": 38.0714,
-    "current_rank": 4,
+    "current_total_points": 39.3409,
+    "current_rank": 3,
     "games": [
       {
         "date": "8/28/2026",
@@ -5242,10 +5242,10 @@
         "opponent": "Principia",
         "opponent_type": "in_state",
         "opponent_class": 1,
-        "played": false,
-        "my_score": null,
-        "opp_score": null,
-        "won": null,
+        "played": true,
+        "my_score": 31,
+        "opp_score": 18,
+        "won": true,
         "overtime": false,
         "forfeit": false
       },
@@ -5266,8 +5266,8 @@
   "Saxony Lutheran": {
     "class": 2,
     "district": 1,
-    "current_total_points": 42.2059,
-    "current_rank": 2,
+    "current_total_points": 38.6984,
+    "current_rank": 4,
     "games": [
       {
         "date": "8/28/2026",
@@ -5346,10 +5346,10 @@
         "opponent": "Valle Catholic",
         "opponent_type": "in_state",
         "opponent_class": 2,
-        "played": false,
-        "my_score": null,
-        "opp_score": null,
-        "won": null,
+        "played": true,
+        "my_score": 21,
+        "opp_score": 74,
+        "won": false,
         "overtime": false,
         "forfeit": false
       },
@@ -5370,7 +5370,7 @@
   "St. Vincent": {
     "class": 2,
     "district": 1,
-    "current_total_points": 54.619,
+    "current_total_points": 53.2857,
     "current_rank": 1,
     "games": [
       {
@@ -5462,10 +5462,10 @@
         "opponent": "Grandview (Hillsboro)",
         "opponent_type": "in_state",
         "opponent_class": 1,
-        "played": false,
-        "my_score": null,
-        "opp_score": null,
-        "won": null,
+        "played": true,
+        "my_score": 49,
+        "opp_score": 18,
+        "won": true,
         "overtime": false,
         "forfeit": false
       },
@@ -5486,7 +5486,7 @@
   "Confluence Prep Academy Charter": {
     "class": 2,
     "district": 2,
-    "current_total_points": 18.7157,
+    "current_total_points": 18.7236,
     "current_rank": 7,
     "games": [
       {
@@ -5566,10 +5566,10 @@
         "opponent": "Priory",
         "opponent_type": "in_state",
         "opponent_class": 3,
-        "played": false,
-        "my_score": null,
-        "opp_score": null,
-        "won": null,
+        "played": true,
+        "my_score": 14,
+        "opp_score": 55,
+        "won": false,
         "overtime": false,
         "forfeit": false
       },
@@ -5590,8 +5590,8 @@
   "Duchesne": {
     "class": 2,
     "district": 2,
-    "current_total_points": 29.0516,
-    "current_rank": 4,
+    "current_total_points": 29.5714,
+    "current_rank": 5,
     "games": [
       {
         "date": "8/28/2026",
@@ -5682,10 +5682,10 @@
         "opponent": "Westminster Christian Academy",
         "opponent_type": "in_state",
         "opponent_class": 4,
-        "played": false,
-        "my_score": null,
-        "opp_score": null,
-        "won": null,
+        "played": true,
+        "my_score": 8,
+        "opp_score": 38,
+        "won": false,
         "overtime": false,
         "forfeit": false
       },
@@ -5706,8 +5706,8 @@
   "Hermann": {
     "class": 2,
     "district": 2,
-    "current_total_points": 25.4286,
-    "current_rank": 6,
+    "current_total_points": 30.2143,
+    "current_rank": 4,
     "games": [
       {
         "date": "8/28/2026",
@@ -5798,10 +5798,10 @@
         "opponent": "Pacific",
         "opponent_type": "in_state",
         "opponent_class": 4,
-        "played": false,
-        "my_score": null,
-        "opp_score": null,
-        "won": null,
+        "played": true,
+        "my_score": 33,
+        "opp_score": 12,
+        "won": true,
         "overtime": false,
         "forfeit": false
       },
@@ -5822,7 +5822,7 @@
   "Jefferson (Festus)": {
     "class": 2,
     "district": 2,
-    "current_total_points": 47.7143,
+    "current_total_points": 44.6786,
     "current_rank": 2,
     "games": [
       {
@@ -5914,10 +5914,10 @@
         "opponent": "Ste. Genevieve",
         "opponent_type": "in_state",
         "opponent_class": 3,
-        "played": false,
-        "my_score": null,
-        "opp_score": null,
-        "won": null,
+        "played": true,
+        "my_score": 7,
+        "opp_score": 23,
+        "won": false,
         "overtime": false,
         "forfeit": false
       },
@@ -5938,8 +5938,8 @@
   "Miller Career Academy with Sumner": {
     "class": 2,
     "district": 2,
-    "current_total_points": 27.852,
-    "current_rank": 5,
+    "current_total_points": 28.0227,
+    "current_rank": 6,
     "games": [
       {
         "date": "8/28/2026",
@@ -6042,7 +6042,7 @@
   "Montgomery County": {
     "class": 2,
     "district": 2,
-    "current_total_points": 29.3333,
+    "current_total_points": 33.125,
     "current_rank": 3,
     "games": [
       {
@@ -6134,10 +6134,10 @@
         "opponent": "Wright City",
         "opponent_type": "in_state",
         "opponent_class": 3,
-        "played": false,
-        "my_score": null,
-        "opp_score": null,
-        "won": null,
+        "played": true,
+        "my_score": 26,
+        "opp_score": 2,
+        "won": true,
         "overtime": false,
         "forfeit": false
       },
@@ -6158,7 +6158,7 @@
   "Valle Catholic": {
     "class": 2,
     "district": 2,
-    "current_total_points": 59.6667,
+    "current_total_points": 58.1136,
     "current_rank": 1,
     "games": [
       {
@@ -6250,10 +6250,10 @@
         "opponent": "Saxony Lutheran",
         "opponent_type": "in_state",
         "opponent_class": 2,
-        "played": false,
-        "my_score": null,
-        "opp_score": null,
-        "won": null,
+        "played": true,
+        "my_score": 74,
+        "opp_score": 21,
+        "won": true,
         "overtime": false,
         "forfeit": false
       },
@@ -6274,7 +6274,7 @@
   "Ava": {
     "class": 2,
     "district": 3,
-    "current_total_points": 36.539,
+    "current_total_points": 37.7321,
     "current_rank": 4,
     "games": [
       {
@@ -6366,10 +6366,10 @@
         "opponent": "Cabool",
         "opponent_type": "in_state",
         "opponent_class": 1,
-        "played": false,
-        "my_score": null,
-        "opp_score": null,
-        "won": null,
+        "played": true,
+        "my_score": 37,
+        "opp_score": 6,
+        "won": true,
         "overtime": false,
         "forfeit": false
       },
@@ -6390,7 +6390,7 @@
   "Fair Grove": {
     "class": 2,
     "district": 3,
-    "current_total_points": 50.8571,
+    "current_total_points": 51.7614,
     "current_rank": 1,
     "games": [
       {
@@ -6482,10 +6482,10 @@
         "opponent": "Strafford",
         "opponent_type": "in_state",
         "opponent_class": 3,
-        "played": false,
-        "my_score": null,
-        "opp_score": null,
-        "won": null,
+        "played": true,
+        "my_score": 40,
+        "opp_score": 0,
+        "won": true,
         "overtime": false,
         "forfeit": false
       },
@@ -6506,7 +6506,7 @@
   "Forsyth": {
     "class": 2,
     "district": 3,
-    "current_total_points": 29.9048,
+    "current_total_points": 33.3571,
     "current_rank": 5,
     "games": [
       {
@@ -6598,10 +6598,10 @@
         "opponent": "Buffalo",
         "opponent_type": "in_state",
         "opponent_class": 3,
-        "played": false,
-        "my_score": null,
-        "opp_score": null,
-        "won": null,
+        "played": true,
+        "my_score": 36,
+        "opp_score": 19,
+        "won": true,
         "overtime": false,
         "forfeit": false
       },
@@ -6622,7 +6622,7 @@
   "Houston": {
     "class": 2,
     "district": 3,
-    "current_total_points": 25.648,
+    "current_total_points": 25.75,
     "current_rank": 7,
     "games": [
       {
@@ -6738,7 +6738,7 @@
   "Liberty (Mountain View)": {
     "class": 2,
     "district": 3,
-    "current_total_points": 39.206,
+    "current_total_points": 41.0714,
     "current_rank": 3,
     "games": [
       {
@@ -6830,10 +6830,10 @@
         "opponent": "Salem",
         "opponent_type": "in_state",
         "opponent_class": 3,
-        "played": false,
-        "my_score": null,
-        "opp_score": null,
-        "won": null,
+        "played": true,
+        "my_score": 38,
+        "opp_score": 0,
+        "won": true,
         "overtime": false,
         "forfeit": false
       },
@@ -6854,7 +6854,7 @@
   "Springfield Catholic": {
     "class": 2,
     "district": 3,
-    "current_total_points": 49.6667,
+    "current_total_points": 48.8102,
     "current_rank": 2,
     "games": [
       {
@@ -6946,10 +6946,10 @@
         "opponent": "Clever",
         "opponent_type": "in_state",
         "opponent_class": 2,
-        "played": false,
-        "my_score": null,
-        "opp_score": null,
-        "won": null,
+        "played": true,
+        "my_score": 16,
+        "opp_score": 13,
+        "won": true,
         "overtime": false,
         "forfeit": false
       },
@@ -6970,7 +6970,7 @@
   "Willow Springs": {
     "class": 2,
     "district": 3,
-    "current_total_points": 29.2857,
+    "current_total_points": 27.2143,
     "current_rank": 6,
     "games": [
       {
@@ -7062,10 +7062,10 @@
         "opponent": "Thayer",
         "opponent_type": "in_state",
         "opponent_class": 1,
-        "played": false,
-        "my_score": null,
-        "opp_score": null,
-        "won": null,
+        "played": true,
+        "my_score": 0,
+        "opp_score": 42,
+        "won": false,
         "overtime": false,
         "forfeit": false
       },
@@ -7086,7 +7086,7 @@
   "Clever": {
     "class": 2,
     "district": 4,
-    "current_total_points": 47.0952,
+    "current_total_points": 44.5536,
     "current_rank": 2,
     "games": [
       {
@@ -7178,10 +7178,10 @@
         "opponent": "Springfield Catholic",
         "opponent_type": "in_state",
         "opponent_class": 2,
-        "played": false,
-        "my_score": null,
-        "opp_score": null,
-        "won": null,
+        "played": true,
+        "my_score": 13,
+        "opp_score": 16,
+        "won": false,
         "overtime": false,
         "forfeit": false
       },
@@ -7202,8 +7202,8 @@
   "East Newton": {
     "class": 2,
     "district": 4,
-    "current_total_points": 28.3333,
-    "current_rank": 5,
+    "current_total_points": 33.3523,
+    "current_rank": 4,
     "games": [
       {
         "date": "8/28/2026",
@@ -7294,10 +7294,10 @@
         "opponent": "Monett",
         "opponent_type": "in_state",
         "opponent_class": 4,
-        "played": false,
-        "my_score": null,
-        "opp_score": null,
-        "won": null,
+        "played": true,
+        "my_score": 67,
+        "opp_score": 36,
+        "won": true,
         "overtime": false,
         "forfeit": false
       },
@@ -7318,7 +7318,7 @@
   "El Dorado Springs": {
     "class": 2,
     "district": 4,
-    "current_total_points": 22.676,
+    "current_total_points": 21.3194,
     "current_rank": 7,
     "games": [
       {
@@ -7410,10 +7410,10 @@
         "opponent": "Adrian",
         "opponent_type": "in_state",
         "opponent_class": 1,
-        "played": false,
-        "my_score": null,
-        "opp_score": null,
-        "won": null,
+        "played": true,
+        "my_score": 14,
+        "opp_score": 28,
+        "won": false,
         "overtime": false,
         "forfeit": false
       },
@@ -7434,7 +7434,7 @@
   "Lamar": {
     "class": 2,
     "district": 4,
-    "current_total_points": 55.0,
+    "current_total_points": 55.7454,
     "current_rank": 1,
     "games": [
       {
@@ -7526,10 +7526,10 @@
         "opponent": "Nevada",
         "opponent_type": "in_state",
         "opponent_class": 3,
-        "played": false,
-        "my_score": null,
-        "opp_score": null,
-        "won": null,
+        "played": true,
+        "my_score": 47,
+        "opp_score": 14,
+        "won": true,
         "overtime": false,
         "forfeit": false
       },
@@ -7550,8 +7550,8 @@
   "Sarcoxie": {
     "class": 2,
     "district": 4,
-    "current_total_points": 29.2143,
-    "current_rank": 4,
+    "current_total_points": 30.0283,
+    "current_rank": 5,
     "games": [
       {
         "date": "8/28/2026",
@@ -7642,11 +7642,11 @@
         "opponent": "Stockton with Sheldon",
         "opponent_type": "in_state",
         "opponent_class": 2,
-        "played": false,
-        "my_score": null,
-        "opp_score": null,
-        "won": null,
-        "overtime": false,
+        "played": true,
+        "my_score": 43,
+        "opp_score": 42,
+        "won": true,
+        "overtime": true,
         "forfeit": false
       },
       {
@@ -7666,7 +7666,7 @@
   "Stockton with Sheldon": {
     "class": 2,
     "district": 4,
-    "current_total_points": 27.7526,
+    "current_total_points": 27.5568,
     "current_rank": 6,
     "games": [
       {
@@ -7758,11 +7758,11 @@
         "opponent": "Sarcoxie",
         "opponent_type": "in_state",
         "opponent_class": 2,
-        "played": false,
-        "my_score": null,
-        "opp_score": null,
-        "won": null,
-        "overtime": false,
+        "played": true,
+        "my_score": 42,
+        "opp_score": 43,
+        "won": false,
+        "overtime": true,
         "forfeit": false
       },
       {
@@ -7782,7 +7782,7 @@
   "Warsaw": {
     "class": 2,
     "district": 4,
-    "current_total_points": 34.8095,
+    "current_total_points": 36.3393,
     "current_rank": 3,
     "games": [
       {
@@ -7874,10 +7874,10 @@
         "opponent": "Sherwood",
         "opponent_type": "in_state",
         "opponent_class": 1,
-        "played": false,
-        "my_score": null,
-        "opp_score": null,
-        "won": null,
+        "played": true,
+        "my_score": 39,
+        "opp_score": 7,
+        "won": true,
         "overtime": false,
         "forfeit": false
       },
@@ -7898,7 +7898,7 @@
   "Blair Oaks": {
     "class": 2,
     "district": 5,
-    "current_total_points": 53.7108,
+    "current_total_points": 53.4091,
     "current_rank": 1,
     "games": [
       {
@@ -7990,10 +7990,10 @@
         "opponent": "Eldon",
         "opponent_type": "in_state",
         "opponent_class": 3,
-        "played": false,
-        "my_score": null,
-        "opp_score": null,
-        "won": null,
+        "played": true,
+        "my_score": 63,
+        "opp_score": 7,
+        "won": true,
         "overtime": false,
         "forfeit": false
       },
@@ -8014,7 +8014,7 @@
   "California": {
     "class": 2,
     "district": 5,
-    "current_total_points": 29.2857,
+    "current_total_points": 27.9286,
     "current_rank": 7,
     "games": [
       {
@@ -8106,10 +8106,10 @@
         "opponent": "Fulton",
         "opponent_type": "in_state",
         "opponent_class": 3,
-        "played": false,
-        "my_score": null,
-        "opp_score": null,
-        "won": null,
+        "played": true,
+        "my_score": 30,
+        "opp_score": 52,
+        "won": false,
         "overtime": false,
         "forfeit": false
       },
@@ -8130,7 +8130,7 @@
   "Cole Camp": {
     "class": 2,
     "district": 5,
-    "current_total_points": 34.0733,
+    "current_total_points": 35.4904,
     "current_rank": 5,
     "games": [
       {
@@ -8222,10 +8222,10 @@
         "opponent": "Windsor",
         "opponent_type": "in_state",
         "opponent_class": 1,
-        "played": false,
-        "my_score": null,
-        "opp_score": null,
-        "won": null,
+        "played": true,
+        "my_score": 23,
+        "opp_score": 14,
+        "won": true,
         "overtime": false,
         "forfeit": false
       },
@@ -8246,7 +8246,7 @@
   "Father Tolton": {
     "class": 2,
     "district": 5,
-    "current_total_points": 47.7619,
+    "current_total_points": 47.7321,
     "current_rank": 2,
     "games": [
       {
@@ -8338,10 +8338,10 @@
         "opponent": "Hayti",
         "opponent_type": "in_state",
         "opponent_class": 1,
-        "played": false,
-        "my_score": null,
-        "opp_score": null,
-        "won": null,
+        "played": true,
+        "my_score": 38,
+        "opp_score": 12,
+        "won": true,
         "overtime": false,
         "forfeit": false
       },
@@ -8362,7 +8362,7 @@
   "North Callaway": {
     "class": 2,
     "district": 5,
-    "current_total_points": 41.1905,
+    "current_total_points": 41.7143,
     "current_rank": 3,
     "games": [
       {
@@ -8454,10 +8454,10 @@
         "opponent": "Van-Far",
         "opponent_type": "in_state",
         "opponent_class": 1,
-        "played": false,
-        "my_score": null,
-        "opp_score": null,
-        "won": null,
+        "played": true,
+        "my_score": 81,
+        "opp_score": 22,
+        "won": true,
         "overtime": false,
         "forfeit": false
       },
@@ -8478,7 +8478,7 @@
   "South Callaway": {
     "class": 2,
     "district": 5,
-    "current_total_points": 31.8118,
+    "current_total_points": 33.875,
     "current_rank": 6,
     "games": [
       {
@@ -8570,10 +8570,10 @@
         "opponent": "Fayette",
         "opponent_type": "in_state",
         "opponent_class": 1,
-        "played": false,
-        "my_score": null,
-        "opp_score": null,
-        "won": null,
+        "played": true,
+        "my_score": 40,
+        "opp_score": 6,
+        "won": true,
         "overtime": false,
         "forfeit": false
       },
@@ -8594,7 +8594,7 @@
   "Versailles": {
     "class": 2,
     "district": 5,
-    "current_total_points": 36.3095,
+    "current_total_points": 36.5893,
     "current_rank": 4,
     "games": [
       {
@@ -8686,10 +8686,10 @@
         "opponent": "Butler",
         "opponent_type": "in_state",
         "opponent_class": 2,
-        "played": false,
-        "my_score": null,
-        "opp_score": null,
-        "won": null,
+        "played": true,
+        "my_score": 16,
+        "opp_score": 14,
+        "won": true,
         "overtime": false,
         "forfeit": false
       },
@@ -8710,8 +8710,8 @@
   "Butler": {
     "class": 2,
     "district": 6,
-    "current_total_points": 40.381,
-    "current_rank": 2,
+    "current_total_points": 38.1786,
+    "current_rank": 3,
     "games": [
       {
         "date": "8/28/2026",
@@ -8802,10 +8802,10 @@
         "opponent": "Versailles",
         "opponent_type": "in_state",
         "opponent_class": 2,
-        "played": false,
-        "my_score": null,
-        "opp_score": null,
-        "won": null,
+        "played": true,
+        "my_score": 14,
+        "opp_score": 16,
+        "won": false,
         "overtime": false,
         "forfeit": false
       },
@@ -8826,7 +8826,7 @@
   "Hogan Prep Academy Charter": {
     "class": 2,
     "district": 6,
-    "current_total_points": 43.1905,
+    "current_total_points": 40.2857,
     "current_rank": 1,
     "games": [
       {
@@ -8906,10 +8906,10 @@
         "opponent": "St. Michael the Archangel",
         "opponent_type": "in_state",
         "opponent_class": 3,
-        "played": false,
-        "my_score": null,
-        "opp_score": null,
-        "won": null,
+        "played": true,
+        "my_score": 6,
+        "opp_score": 55,
+        "won": false,
         "overtime": false,
         "forfeit": false
       },
@@ -8930,7 +8930,7 @@
   "Holden": {
     "class": 2,
     "district": 6,
-    "current_total_points": 26.4524,
+    "current_total_points": 25.9107,
     "current_rank": 5,
     "games": [
       {
@@ -9022,10 +9022,10 @@
         "opponent": "Carrollton",
         "opponent_type": "in_state",
         "opponent_class": 1,
-        "played": false,
-        "my_score": null,
-        "opp_score": null,
-        "won": null,
+        "played": true,
+        "my_score": 46,
+        "opp_score": 54,
+        "won": false,
         "overtime": false,
         "forfeit": false
       },
@@ -9046,8 +9046,8 @@
   "KIPP KC Legacy": {
     "class": 2,
     "district": 6,
-    "current_total_points": 40.2143,
-    "current_rank": 3,
+    "current_total_points": 39.1148,
+    "current_rank": 2,
     "games": [
       {
         "date": "8/29/2026",
@@ -9138,10 +9138,10 @@
         "opponent": "Sumner (KS.)",
         "opponent_type": "out_of_state",
         "opponent_class": 4,
-        "played": false,
-        "my_score": null,
-        "opp_score": null,
-        "won": null,
+        "played": true,
+        "my_score": 6,
+        "opp_score": 30,
+        "won": false,
         "overtime": false,
         "forfeit": false
       },
@@ -9162,7 +9162,7 @@
   "Lafayette County": {
     "class": 2,
     "district": 6,
-    "current_total_points": 34.8571,
+    "current_total_points": 35.875,
     "current_rank": 4,
     "games": [
       {
@@ -9254,10 +9254,10 @@
         "opponent": "Lexington",
         "opponent_type": "in_state",
         "opponent_class": 2,
-        "played": false,
-        "my_score": null,
-        "opp_score": null,
-        "won": null,
+        "played": true,
+        "my_score": 48,
+        "opp_score": 6,
+        "won": true,
         "overtime": false,
         "forfeit": false
       },
@@ -9278,7 +9278,7 @@
   "Lexington": {
     "class": 2,
     "district": 6,
-    "current_total_points": 15.0476,
+    "current_total_points": 14.6964,
     "current_rank": 7,
     "games": [
       {
@@ -9370,10 +9370,10 @@
         "opponent": "Lafayette County",
         "opponent_type": "in_state",
         "opponent_class": 2,
-        "played": false,
-        "my_score": null,
-        "opp_score": null,
-        "won": null,
+        "played": true,
+        "my_score": 6,
+        "opp_score": 48,
+        "won": false,
         "overtime": false,
         "forfeit": false
       },
@@ -9394,7 +9394,7 @@
   "Lone Jack with Kingsville": {
     "class": 2,
     "district": 6,
-    "current_total_points": 19.4048,
+    "current_total_points": 23.6786,
     "current_rank": 6,
     "games": [
       {
@@ -9486,10 +9486,10 @@
         "opponent": "Pleasant Hope with Halfway, Marion C. Early",
         "opponent_type": "in_state",
         "opponent_class": 3,
-        "played": false,
-        "my_score": null,
-        "opp_score": null,
-        "won": null,
+        "played": true,
+        "my_score": 24,
+        "opp_score": 6,
+        "won": true,
         "overtime": false,
         "forfeit": false
       },
@@ -9510,8 +9510,8 @@
   "Bowling Green": {
     "class": 2,
     "district": 7,
-    "current_total_points": 39.381,
-    "current_rank": 3,
+    "current_total_points": 42.6786,
+    "current_rank": 2,
     "games": [
       {
         "date": "8/28/2026",
@@ -9602,10 +9602,10 @@
         "opponent": "Mexico",
         "opponent_type": "in_state",
         "opponent_class": 4,
-        "played": false,
-        "my_score": null,
-        "opp_score": null,
-        "won": null,
+        "played": true,
+        "my_score": 35,
+        "opp_score": 24,
+        "won": true,
         "overtime": false,
         "forfeit": false
       },
@@ -9626,7 +9626,7 @@
   "Centralia": {
     "class": 2,
     "district": 7,
-    "current_total_points": 53.3571,
+    "current_total_points": 52.3929,
     "current_rank": 1,
     "games": [
       {
@@ -9718,10 +9718,10 @@
         "opponent": "Palmyra",
         "opponent_type": "in_state",
         "opponent_class": 2,
-        "played": false,
-        "my_score": null,
-        "opp_score": null,
-        "won": null,
+        "played": true,
+        "my_score": 48,
+        "opp_score": 42,
+        "won": true,
         "overtime": false,
         "forfeit": false
       },
@@ -9742,7 +9742,7 @@
   "Clark County": {
     "class": 2,
     "district": 7,
-    "current_total_points": 20.2619,
+    "current_total_points": 23.0893,
     "current_rank": 5,
     "games": [
       {
@@ -9834,10 +9834,10 @@
         "opponent": "Highland",
         "opponent_type": "in_state",
         "opponent_class": 2,
-        "played": false,
-        "my_score": null,
-        "opp_score": null,
-        "won": null,
+        "played": true,
+        "my_score": 36,
+        "opp_score": 0,
+        "won": true,
         "overtime": false,
         "forfeit": false
       },
@@ -9858,7 +9858,7 @@
   "Highland": {
     "class": 2,
     "district": 7,
-    "current_total_points": 12.4878,
+    "current_total_points": 12.0,
     "current_rank": 7,
     "games": [
       {
@@ -9950,10 +9950,10 @@
         "opponent": "Clark County",
         "opponent_type": "in_state",
         "opponent_class": 2,
-        "played": false,
-        "my_score": null,
-        "opp_score": null,
-        "won": null,
+        "played": true,
+        "my_score": 0,
+        "opp_score": 36,
+        "won": false,
         "overtime": false,
         "forfeit": false
       },
@@ -9974,7 +9974,7 @@
   "Mark Twain": {
     "class": 2,
     "district": 7,
-    "current_total_points": 20.1395,
+    "current_total_points": 19.5893,
     "current_rank": 6,
     "games": [
       {
@@ -10066,10 +10066,10 @@
         "opponent": "Louisiana",
         "opponent_type": "in_state",
         "opponent_class": 1,
-        "played": false,
-        "my_score": null,
-        "opp_score": null,
-        "won": null,
+        "played": true,
+        "my_score": 0,
+        "opp_score": 48,
+        "won": false,
         "overtime": false,
         "forfeit": false
       },
@@ -10090,7 +10090,7 @@
   "Monroe City": {
     "class": 2,
     "district": 7,
-    "current_total_points": 33.9048,
+    "current_total_points": 35.6964,
     "current_rank": 4,
     "games": [
       {
@@ -10182,10 +10182,10 @@
         "opponent": "South Shelby",
         "opponent_type": "in_state",
         "opponent_class": 1,
-        "played": false,
-        "my_score": null,
-        "opp_score": null,
-        "won": null,
+        "played": true,
+        "my_score": 42,
+        "opp_score": 24,
+        "won": true,
         "overtime": false,
         "forfeit": false
       },
@@ -10206,8 +10206,8 @@
   "Palmyra": {
     "class": 2,
     "district": 7,
-    "current_total_points": 41.9524,
-    "current_rank": 2,
+    "current_total_points": 39.7679,
+    "current_rank": 3,
     "games": [
       {
         "date": "8/28/2026",
@@ -10298,10 +10298,10 @@
         "opponent": "Centralia",
         "opponent_type": "in_state",
         "opponent_class": 2,
-        "played": false,
-        "my_score": null,
-        "opp_score": null,
-        "won": null,
+        "played": true,
+        "my_score": 42,
+        "opp_score": 48,
+        "won": false,
         "overtime": false,
         "forfeit": false
       },
@@ -10322,8 +10322,8 @@
   "Brookfield": {
     "class": 2,
     "district": 8,
-    "current_total_points": 46.2927,
-    "current_rank": 2,
+    "current_total_points": 43.2159,
+    "current_rank": 3,
     "games": [
       {
         "date": "8/28/2026",
@@ -10414,10 +10414,10 @@
         "opponent": "Putnam County",
         "opponent_type": "in_state",
         "opponent_class": 1,
-        "played": false,
-        "my_score": null,
-        "opp_score": null,
-        "won": null,
+        "played": true,
+        "my_score": 34,
+        "opp_score": 42,
+        "won": false,
         "overtime": false,
         "forfeit": false
       },
@@ -10438,8 +10438,8 @@
   "Lathrop": {
     "class": 2,
     "district": 8,
-    "current_total_points": 44.0476,
-    "current_rank": 3,
+    "current_total_points": 43.5893,
+    "current_rank": 2,
     "games": [
       {
         "date": "8/29/2026",
@@ -10530,10 +10530,10 @@
         "opponent": "Penney",
         "opponent_type": "in_state",
         "opponent_class": 1,
-        "played": false,
-        "my_score": null,
-        "opp_score": null,
-        "won": null,
+        "played": true,
+        "my_score": 50,
+        "opp_score": 42,
+        "won": true,
         "overtime": false,
         "forfeit": false
       },
@@ -10554,7 +10554,7 @@
   "Lawson": {
     "class": 2,
     "district": 8,
-    "current_total_points": 32.5679,
+    "current_total_points": 34.3864,
     "current_rank": 5,
     "games": [
       {
@@ -10646,10 +10646,10 @@
         "opponent": "Plattsburg",
         "opponent_type": "in_state",
         "opponent_class": 1,
-        "played": false,
-        "my_score": null,
-        "opp_score": null,
-        "won": null,
+        "played": true,
+        "my_score": 35,
+        "opp_score": 7,
+        "won": true,
         "overtime": false,
         "forfeit": false
       },
@@ -10670,7 +10670,7 @@
   "Mid-Buchanan": {
     "class": 2,
     "district": 8,
-    "current_total_points": 49.6667,
+    "current_total_points": 49.4286,
     "current_rank": 1,
     "games": [
       {
@@ -10762,10 +10762,10 @@
         "opponent": "North Platte",
         "opponent_type": "in_state",
         "opponent_class": 1,
-        "played": false,
-        "my_score": null,
-        "opp_score": null,
-        "won": null,
+        "played": true,
+        "my_score": 44,
+        "opp_score": 14,
+        "won": true,
         "overtime": false,
         "forfeit": false
       },
@@ -10786,7 +10786,7 @@
   "Trenton": {
     "class": 2,
     "district": 8,
-    "current_total_points": 23.0627,
+    "current_total_points": 21.0,
     "current_rank": 6,
     "games": [
       {
@@ -10878,10 +10878,10 @@
         "opponent": "Maysville",
         "opponent_type": "in_state",
         "opponent_class": 1,
-        "played": false,
-        "my_score": null,
-        "opp_score": null,
-        "won": null,
+        "played": true,
+        "my_score": 7,
+        "opp_score": 38,
+        "won": false,
         "overtime": false,
         "forfeit": false
       },
@@ -10902,7 +10902,7 @@
   "West Platte": {
     "class": 2,
     "district": 8,
-    "current_total_points": 36.9524,
+    "current_total_points": 37.7321,
     "current_rank": 4,
     "games": [
       {
@@ -10994,10 +10994,10 @@
         "opponent": "East Buchanan",
         "opponent_type": "in_state",
         "opponent_class": 1,
-        "played": false,
-        "my_score": null,
-        "opp_score": null,
-        "won": null,
+        "played": true,
+        "my_score": 20,
+        "opp_score": 13,
+        "won": true,
         "overtime": false,
         "forfeit": false
       },
@@ -11018,7 +11018,7 @@
   "Dexter": {
     "class": 3,
     "district": 1,
-    "current_total_points": 37.0,
+    "current_total_points": 38.4286,
     "current_rank": 3,
     "games": [
       {
@@ -11110,10 +11110,10 @@
         "opponent": "Central (Park Hills)",
         "opponent_type": "in_state",
         "opponent_class": 3,
-        "played": false,
-        "my_score": null,
-        "opp_score": null,
-        "won": null,
+        "played": true,
+        "my_score": 28,
+        "opp_score": 16,
+        "won": true,
         "overtime": false,
         "forfeit": false
       },
@@ -11134,8 +11134,8 @@
   "Doniphan": {
     "class": 3,
     "district": 1,
-    "current_total_points": 18.0488,
-    "current_rank": 7,
+    "current_total_points": 21.6,
+    "current_rank": 6,
     "games": [
       {
         "date": "8/28/2026",
@@ -11226,10 +11226,10 @@
         "opponent": "Missouri Military Academy",
         "opponent_type": "out_of_state",
         "opponent_class": 1,
-        "played": false,
-        "my_score": null,
-        "opp_score": null,
-        "won": null,
+        "played": true,
+        "my_score": 62,
+        "opp_score": 0,
+        "won": true,
         "overtime": false,
         "forfeit": false
       },
@@ -11250,8 +11250,8 @@
   "Fredericktown": {
     "class": 3,
     "district": 1,
-    "current_total_points": 24.1905,
-    "current_rank": 5,
+    "current_total_points": 28.1786,
+    "current_rank": 4,
     "games": [
       {
         "date": "8/28/2026",
@@ -11342,10 +11342,10 @@
         "opponent": "Windsor (Imperial)",
         "opponent_type": "in_state",
         "opponent_class": 4,
-        "played": false,
-        "my_score": null,
-        "opp_score": null,
-        "won": null,
+        "played": true,
+        "my_score": 20,
+        "opp_score": 0,
+        "won": true,
         "overtime": false,
         "forfeit": false
       },
@@ -11366,7 +11366,7 @@
   "Kennett": {
     "class": 3,
     "district": 1,
-    "current_total_points": 42.6429,
+    "current_total_points": 43.0,
     "current_rank": 1,
     "games": [
       {
@@ -11458,10 +11458,10 @@
         "opponent": "Scott City with Chaffee",
         "opponent_type": "in_state",
         "opponent_class": 3,
-        "played": false,
-        "my_score": null,
-        "opp_score": null,
-        "won": null,
+        "played": true,
+        "my_score": 23,
+        "opp_score": 9,
+        "won": true,
         "overtime": false,
         "forfeit": false
       },
@@ -11482,8 +11482,8 @@
   "Perryville": {
     "class": 3,
     "district": 1,
-    "current_total_points": 29.3333,
-    "current_rank": 4,
+    "current_total_points": 28.1607,
+    "current_rank": 5,
     "games": [
       {
         "date": "8/28/2026",
@@ -11574,10 +11574,10 @@
         "opponent": "Herculaneum",
         "opponent_type": "in_state",
         "opponent_class": 3,
-        "played": false,
-        "my_score": null,
-        "opp_score": null,
-        "won": null,
+        "played": true,
+        "my_score": 21,
+        "opp_score": 27,
+        "won": false,
         "overtime": false,
         "forfeit": false
       },
@@ -11598,8 +11598,8 @@
   "Scott City with Chaffee": {
     "class": 3,
     "district": 1,
-    "current_total_points": 18.2957,
-    "current_rank": 6,
+    "current_total_points": 18.25,
+    "current_rank": 7,
     "games": [
       {
         "date": "8/28/2026",
@@ -11690,10 +11690,10 @@
         "opponent": "Kennett",
         "opponent_type": "in_state",
         "opponent_class": 3,
-        "played": false,
-        "my_score": null,
-        "opp_score": null,
-        "won": null,
+        "played": true,
+        "my_score": 9,
+        "opp_score": 23,
+        "won": false,
         "overtime": false,
         "forfeit": false
       },
@@ -11714,7 +11714,7 @@
   "Ste. Genevieve": {
     "class": 3,
     "district": 1,
-    "current_total_points": 37.6977,
+    "current_total_points": 39.3571,
     "current_rank": 2,
     "games": [
       {
@@ -11806,10 +11806,10 @@
         "opponent": "Jefferson (Festus)",
         "opponent_type": "in_state",
         "opponent_class": 2,
-        "played": false,
-        "my_score": null,
-        "opp_score": null,
-        "won": null,
+        "played": true,
+        "my_score": 23,
+        "opp_score": 7,
+        "won": true,
         "overtime": false,
         "forfeit": false
       },
@@ -11830,7 +11830,7 @@
   "Central (Park Hills)": {
     "class": 3,
     "district": 2,
-    "current_total_points": 29.8095,
+    "current_total_points": 27.9464,
     "current_rank": 5,
     "games": [
       {
@@ -11922,10 +11922,10 @@
         "opponent": "Dexter",
         "opponent_type": "in_state",
         "opponent_class": 3,
-        "played": false,
-        "my_score": null,
-        "opp_score": null,
-        "won": null,
+        "played": true,
+        "my_score": 16,
+        "opp_score": 28,
+        "won": false,
         "overtime": false,
         "forfeit": false
       },
@@ -11946,7 +11946,7 @@
   "Herculaneum": {
     "class": 3,
     "district": 2,
-    "current_total_points": 34.7143,
+    "current_total_points": 35.4107,
     "current_rank": 3,
     "games": [
       {
@@ -12038,10 +12038,10 @@
         "opponent": "Perryville",
         "opponent_type": "in_state",
         "opponent_class": 3,
-        "played": false,
-        "my_score": null,
-        "opp_score": null,
-        "won": null,
+        "played": true,
+        "my_score": 27,
+        "opp_score": 21,
+        "won": true,
         "overtime": false,
         "forfeit": false
       },
@@ -12062,7 +12062,7 @@
   "Lutheran South": {
     "class": 3,
     "district": 2,
-    "current_total_points": 19.1026,
+    "current_total_points": 18.5283,
     "current_rank": 6,
     "games": [
       {
@@ -12154,10 +12154,10 @@
         "opponent": "Portageville",
         "opponent_type": "in_state",
         "opponent_class": 1,
-        "played": false,
-        "my_score": null,
-        "opp_score": null,
-        "won": null,
+        "played": true,
+        "my_score": 13,
+        "opp_score": 54,
+        "won": false,
         "overtime": false,
         "forfeit": false
       },
@@ -12178,7 +12178,7 @@
   "Potosi": {
     "class": 3,
     "district": 2,
-    "current_total_points": 29.9048,
+    "current_total_points": 28.7679,
     "current_rank": 4,
     "games": [
       {
@@ -12270,10 +12270,10 @@
         "opponent": "DeSoto",
         "opponent_type": "in_state",
         "opponent_class": 4,
-        "played": false,
-        "my_score": null,
-        "opp_score": null,
-        "won": null,
+        "played": true,
+        "my_score": 13,
+        "opp_score": 31,
+        "won": false,
         "overtime": false,
         "forfeit": false
       },
@@ -12294,7 +12294,7 @@
   "St. Clair": {
     "class": 3,
     "district": 2,
-    "current_total_points": 43.5714,
+    "current_total_points": 41.125,
     "current_rank": 2,
     "games": [
       {
@@ -12386,10 +12386,10 @@
         "opponent": "North County",
         "opponent_type": "in_state",
         "opponent_class": 4,
-        "played": false,
-        "my_score": null,
-        "opp_score": null,
-        "won": null,
+        "played": true,
+        "my_score": 27,
+        "opp_score": 38,
+        "won": false,
         "overtime": false,
         "forfeit": false
       },
@@ -12410,7 +12410,7 @@
   "St. Pius X (Festus)": {
     "class": 3,
     "district": 2,
-    "current_total_points": 45.0844,
+    "current_total_points": 45.0714,
     "current_rank": 1,
     "games": [
       {
@@ -12502,10 +12502,10 @@
         "opponent": "Vianney",
         "opponent_type": "in_state",
         "opponent_class": 4,
-        "played": false,
-        "my_score": null,
-        "opp_score": null,
-        "won": null,
+        "played": true,
+        "my_score": 30,
+        "opp_score": 27,
+        "won": true,
         "overtime": false,
         "forfeit": false
       },
@@ -12526,8 +12526,8 @@
   "John Burroughs": {
     "class": 3,
     "district": 3,
-    "current_total_points": 30.8,
-    "current_rank": 5,
+    "current_total_points": 34.0,
+    "current_rank": 4,
     "games": [
       {
         "date": "8/28/2026",
@@ -12594,10 +12594,10 @@
         "opponent": "Veritas Christian Academy",
         "opponent_type": "in_state",
         "opponent_class": 1,
-        "played": false,
-        "my_score": null,
-        "opp_score": null,
-        "won": null,
+        "played": true,
+        "my_score": 45,
+        "opp_score": 0,
+        "won": true,
         "overtime": false,
         "forfeit": false
       },
@@ -12618,8 +12618,8 @@
   "Lutheran North": {
     "class": 3,
     "district": 3,
-    "current_total_points": 41.7895,
-    "current_rank": 2,
+    "current_total_points": 37.7755,
+    "current_rank": 3,
     "games": [
       {
         "date": "8/28/2026",
@@ -12698,10 +12698,10 @@
         "opponent": "St. Pius X (Kansas City)",
         "opponent_type": "in_state",
         "opponent_class": 3,
-        "played": false,
-        "my_score": null,
-        "opp_score": null,
-        "won": null,
+        "played": true,
+        "my_score": 7,
+        "opp_score": 49,
+        "won": false,
         "overtime": false,
         "forfeit": false
       },
@@ -12722,8 +12722,8 @@
   "Lutheran St. Charles": {
     "class": 3,
     "district": 3,
-    "current_total_points": 24.6167,
-    "current_rank": 6,
+    "current_total_points": 23.1818,
+    "current_rank": 7,
     "games": [
       {
         "date": "8/28/2026",
@@ -12814,10 +12814,10 @@
         "opponent": "St. Francis Borgia",
         "opponent_type": "in_state",
         "opponent_class": 3,
-        "played": false,
-        "my_score": null,
-        "opp_score": null,
-        "won": null,
+        "played": true,
+        "my_score": 0,
+        "opp_score": 41,
+        "won": false,
         "overtime": false,
         "forfeit": false
       },
@@ -12838,8 +12838,8 @@
   "MICDS": {
     "class": 3,
     "district": 3,
-    "current_total_points": 42.4689,
-    "current_rank": 1,
+    "current_total_points": 41.4127,
+    "current_rank": 2,
     "games": [
       {
         "date": "8/28/2026",
@@ -12930,10 +12930,10 @@
         "opponent": "St. Dominic",
         "opponent_type": "in_state",
         "opponent_class": 5,
-        "played": false,
-        "my_score": null,
-        "opp_score": null,
-        "won": null,
+        "played": true,
+        "my_score": 7,
+        "opp_score": 41,
+        "won": false,
         "overtime": false,
         "forfeit": false
       },
@@ -12954,8 +12954,8 @@
   "Normandy Collaborative": {
     "class": 3,
     "district": 3,
-    "current_total_points": 40.3214,
-    "current_rank": 3,
+    "current_total_points": 41.6389,
+    "current_rank": 1,
     "games": [
       {
         "date": "8/27/2026",
@@ -13046,10 +13046,10 @@
         "opponent": "Clayton with Brentwood",
         "opponent_type": "in_state",
         "opponent_class": 4,
-        "played": false,
-        "my_score": null,
-        "opp_score": null,
-        "won": null,
+        "played": true,
+        "my_score": 42,
+        "opp_score": 7,
+        "won": true,
         "overtime": false,
         "forfeit": false
       },
@@ -13070,8 +13070,8 @@
   "Priory": {
     "class": 3,
     "district": 3,
-    "current_total_points": 23.7143,
-    "current_rank": 7,
+    "current_total_points": 26.467,
+    "current_rank": 6,
     "games": [
       {
         "date": "8/28/2026",
@@ -13162,10 +13162,10 @@
         "opponent": "Confluence Prep Academy Charter",
         "opponent_type": "in_state",
         "opponent_class": 2,
-        "played": false,
-        "my_score": null,
-        "opp_score": null,
-        "won": null,
+        "played": true,
+        "my_score": 55,
+        "opp_score": 14,
+        "won": true,
         "overtime": false,
         "forfeit": false
       },
@@ -13186,8 +13186,8 @@
   "Winfield": {
     "class": 3,
     "district": 3,
-    "current_total_points": 32.102,
-    "current_rank": 4,
+    "current_total_points": 32.0,
+    "current_rank": 5,
     "games": [
       {
         "date": "8/28/2026",
@@ -13302,7 +13302,7 @@
   "Eldon": {
     "class": 3,
     "district": 4,
-    "current_total_points": 16.8095,
+    "current_total_points": 16.9821,
     "current_rank": 7,
     "games": [
       {
@@ -13394,10 +13394,10 @@
         "opponent": "Blair Oaks",
         "opponent_type": "in_state",
         "opponent_class": 2,
-        "played": false,
-        "my_score": null,
-        "opp_score": null,
-        "won": null,
+        "played": true,
+        "my_score": 7,
+        "opp_score": 63,
+        "won": false,
         "overtime": false,
         "forfeit": false
       },
@@ -13418,7 +13418,7 @@
   "Fulton": {
     "class": 3,
     "district": 4,
-    "current_total_points": 23.2381,
+    "current_total_points": 25.6786,
     "current_rank": 5,
     "games": [
       {
@@ -13510,10 +13510,10 @@
         "opponent": "California",
         "opponent_type": "in_state",
         "opponent_class": 2,
-        "played": false,
-        "my_score": null,
-        "opp_score": null,
-        "won": null,
+        "played": true,
+        "my_score": 52,
+        "opp_score": 30,
+        "won": true,
         "overtime": false,
         "forfeit": false
       },
@@ -13534,8 +13534,8 @@
   "Hallsville": {
     "class": 3,
     "district": 4,
-    "current_total_points": 43.7143,
-    "current_rank": 2,
+    "current_total_points": 43.5357,
+    "current_rank": 1,
     "games": [
       {
         "date": "8/28/2026",
@@ -13626,10 +13626,10 @@
         "opponent": "Southern Boone",
         "opponent_type": "in_state",
         "opponent_class": 3,
-        "played": false,
-        "my_score": null,
-        "opp_score": null,
-        "won": null,
+        "played": true,
+        "my_score": 30,
+        "opp_score": 27,
+        "won": true,
         "overtime": false,
         "forfeit": false
       },
@@ -13650,7 +13650,7 @@
   "Owensville": {
     "class": 3,
     "district": 4,
-    "current_total_points": 18.0476,
+    "current_total_points": 21.375,
     "current_rank": 6,
     "games": [
       {
@@ -13742,10 +13742,10 @@
         "opponent": "St. James",
         "opponent_type": "in_state",
         "opponent_class": 3,
-        "played": false,
-        "my_score": null,
-        "opp_score": null,
-        "won": null,
+        "played": true,
+        "my_score": 26,
+        "opp_score": 12,
+        "won": true,
         "overtime": false,
         "forfeit": false
       },
@@ -13766,8 +13766,8 @@
   "Southern Boone": {
     "class": 3,
     "district": 4,
-    "current_total_points": 44.7619,
-    "current_rank": 1,
+    "current_total_points": 42.5714,
+    "current_rank": 2,
     "games": [
       {
         "date": "8/28/2026",
@@ -13858,10 +13858,10 @@
         "opponent": "Hallsville",
         "opponent_type": "in_state",
         "opponent_class": 3,
-        "played": false,
-        "my_score": null,
-        "opp_score": null,
-        "won": null,
+        "played": true,
+        "my_score": 27,
+        "opp_score": 30,
+        "won": false,
         "overtime": false,
         "forfeit": false
       },
@@ -13882,7 +13882,7 @@
   "St. Francis Borgia": {
     "class": 3,
     "district": 4,
-    "current_total_points": 41.4048,
+    "current_total_points": 42.125,
     "current_rank": 3,
     "games": [
       {
@@ -13974,10 +13974,10 @@
         "opponent": "Lutheran St. Charles",
         "opponent_type": "in_state",
         "opponent_class": 3,
-        "played": false,
-        "my_score": null,
-        "opp_score": null,
-        "won": null,
+        "played": true,
+        "my_score": 41,
+        "opp_score": 0,
+        "won": true,
         "overtime": false,
         "forfeit": false
       },
@@ -13998,7 +13998,7 @@
   "Wright City": {
     "class": 3,
     "district": 4,
-    "current_total_points": 30.119,
+    "current_total_points": 28.0179,
     "current_rank": 4,
     "games": [
       {
@@ -14090,10 +14090,10 @@
         "opponent": "Montgomery County",
         "opponent_type": "in_state",
         "opponent_class": 2,
-        "played": false,
-        "my_score": null,
-        "opp_score": null,
-        "won": null,
+        "played": true,
+        "my_score": 2,
+        "opp_score": 26,
+        "won": false,
         "overtime": false,
         "forfeit": false
       },
@@ -14114,8 +14114,8 @@
   "Buffalo": {
     "class": 3,
     "district": 5,
-    "current_total_points": 27.8188,
-    "current_rank": 3,
+    "current_total_points": 25.5568,
+    "current_rank": 4,
     "games": [
       {
         "date": "8/27/2026",
@@ -14206,10 +14206,10 @@
         "opponent": "Forsyth",
         "opponent_type": "in_state",
         "opponent_class": 2,
-        "played": false,
-        "my_score": null,
-        "opp_score": null,
-        "won": null,
+        "played": true,
+        "my_score": 19,
+        "opp_score": 36,
+        "won": false,
         "overtime": false,
         "forfeit": false
       },
@@ -14230,8 +14230,8 @@
   "Cuba with Steelville": {
     "class": 3,
     "district": 5,
-    "current_total_points": 26.5238,
-    "current_rank": 5,
+    "current_total_points": 30.1607,
+    "current_rank": 2,
     "games": [
       {
         "date": "8/28/2026",
@@ -14322,10 +14322,10 @@
         "opponent": "Bayless with Hancock",
         "opponent_type": "in_state",
         "opponent_class": 4,
-        "played": false,
-        "my_score": null,
-        "opp_score": null,
-        "won": null,
+        "played": true,
+        "my_score": 21,
+        "opp_score": 0,
+        "won": true,
         "overtime": false,
         "forfeit": false
       },
@@ -14346,7 +14346,7 @@
   "Mountain Grove": {
     "class": 3,
     "district": 5,
-    "current_total_points": 41.852,
+    "current_total_points": 41.9286,
     "current_rank": 1,
     "games": [
       {
@@ -14462,7 +14462,7 @@
   "Pleasant Hope with Halfway, Marion C. Early": {
     "class": 3,
     "district": 5,
-    "current_total_points": 13.4286,
+    "current_total_points": 12.8929,
     "current_rank": 7,
     "games": [
       {
@@ -14554,10 +14554,10 @@
         "opponent": "Lone Jack with Kingsville",
         "opponent_type": "in_state",
         "opponent_class": 2,
-        "played": false,
-        "my_score": null,
-        "opp_score": null,
-        "won": null,
+        "played": true,
+        "my_score": 6,
+        "opp_score": 24,
+        "won": false,
         "overtime": false,
         "forfeit": false
       },
@@ -14578,7 +14578,7 @@
   "Salem": {
     "class": 3,
     "district": 5,
-    "current_total_points": 17.4935,
+    "current_total_points": 17.1071,
     "current_rank": 6,
     "games": [
       {
@@ -14670,10 +14670,10 @@
         "opponent": "Liberty (Mountain View)",
         "opponent_type": "in_state",
         "opponent_class": 2,
-        "played": false,
-        "my_score": null,
-        "opp_score": null,
-        "won": null,
+        "played": true,
+        "my_score": 0,
+        "opp_score": 38,
+        "won": false,
         "overtime": false,
         "forfeit": false
       },
@@ -14694,8 +14694,8 @@
   "St. James": {
     "class": 3,
     "district": 5,
-    "current_total_points": 27.381,
-    "current_rank": 4,
+    "current_total_points": 24.7143,
+    "current_rank": 5,
     "games": [
       {
         "date": "8/28/2026",
@@ -14786,10 +14786,10 @@
         "opponent": "Owensville",
         "opponent_type": "in_state",
         "opponent_class": 3,
-        "played": false,
-        "my_score": null,
-        "opp_score": null,
-        "won": null,
+        "played": true,
+        "my_score": 12,
+        "opp_score": 26,
+        "won": false,
         "overtime": false,
         "forfeit": false
       },
@@ -14810,8 +14810,8 @@
   "Strafford": {
     "class": 3,
     "district": 5,
-    "current_total_points": 31.9524,
-    "current_rank": 2,
+    "current_total_points": 30.1429,
+    "current_rank": 3,
     "games": [
       {
         "date": "8/28/2026",
@@ -14902,10 +14902,10 @@
         "opponent": "Fair Grove",
         "opponent_type": "in_state",
         "opponent_class": 2,
-        "played": false,
-        "my_score": null,
-        "opp_score": null,
-        "won": null,
+        "played": true,
+        "my_score": 0,
+        "opp_score": 40,
+        "won": false,
         "overtime": false,
         "forfeit": false
       },
@@ -14926,7 +14926,7 @@
   "Aurora": {
     "class": 3,
     "district": 6,
-    "current_total_points": 17.0,
+    "current_total_points": 17.9432,
     "current_rank": 6,
     "games": [
       {
@@ -15018,10 +15018,10 @@
         "opponent": "McDonald County",
         "opponent_type": "in_state",
         "opponent_class": 4,
-        "played": false,
-        "my_score": null,
-        "opp_score": null,
-        "won": null,
+        "played": true,
+        "my_score": 34,
+        "opp_score": 41,
+        "won": false,
         "overtime": false,
         "forfeit": false
       },
@@ -15042,7 +15042,7 @@
   "Cassville": {
     "class": 3,
     "district": 6,
-    "current_total_points": 44.5615,
+    "current_total_points": 45.0455,
     "current_rank": 1,
     "games": [
       {
@@ -15134,10 +15134,10 @@
         "opponent": "Mt. Vernon",
         "opponent_type": "in_state",
         "opponent_class": 3,
-        "played": false,
-        "my_score": null,
-        "opp_score": null,
-        "won": null,
+        "played": true,
+        "my_score": 26,
+        "opp_score": 0,
+        "won": true,
         "overtime": false,
         "forfeit": false
       },
@@ -15158,7 +15158,7 @@
   "Hollister": {
     "class": 3,
     "district": 6,
-    "current_total_points": 13.0976,
+    "current_total_points": 12.5556,
     "current_rank": 7,
     "games": [
       {
@@ -15250,10 +15250,10 @@
         "opponent": "Reeds Spring",
         "opponent_type": "in_state",
         "opponent_class": 3,
-        "played": false,
-        "my_score": null,
-        "opp_score": null,
-        "won": null,
+        "played": true,
+        "my_score": 0,
+        "opp_score": 47,
+        "won": false,
         "overtime": false,
         "forfeit": false
       },
@@ -15274,7 +15274,7 @@
   "Mt. Vernon": {
     "class": 3,
     "district": 6,
-    "current_total_points": 30.9048,
+    "current_total_points": 29.0227,
     "current_rank": 4,
     "games": [
       {
@@ -15366,10 +15366,10 @@
         "opponent": "Cassville",
         "opponent_type": "in_state",
         "opponent_class": 3,
-        "played": false,
-        "my_score": null,
-        "opp_score": null,
-        "won": null,
+        "played": true,
+        "my_score": 0,
+        "opp_score": 26,
+        "won": false,
         "overtime": false,
         "forfeit": false
       },
@@ -15390,7 +15390,7 @@
   "Nevada": {
     "class": 3,
     "district": 6,
-    "current_total_points": 36.381,
+    "current_total_points": 34.1023,
     "current_rank": 3,
     "games": [
       {
@@ -15482,10 +15482,10 @@
         "opponent": "Lamar",
         "opponent_type": "in_state",
         "opponent_class": 2,
-        "played": false,
-        "my_score": null,
-        "opp_score": null,
-        "won": null,
+        "played": true,
+        "my_score": 14,
+        "opp_score": 47,
+        "won": false,
         "overtime": false,
         "forfeit": false
       },
@@ -15506,7 +15506,7 @@
   "Reeds Spring": {
     "class": 3,
     "district": 6,
-    "current_total_points": 24.381,
+    "current_total_points": 26.6786,
     "current_rank": 5,
     "games": [
       {
@@ -15598,10 +15598,10 @@
         "opponent": "Hollister",
         "opponent_type": "in_state",
         "opponent_class": 3,
-        "played": false,
-        "my_score": null,
-        "opp_score": null,
-        "won": null,
+        "played": true,
+        "my_score": 47,
+        "opp_score": 0,
+        "won": true,
         "overtime": false,
         "forfeit": false
       },
@@ -15622,7 +15622,7 @@
   "Seneca": {
     "class": 3,
     "district": 6,
-    "current_total_points": 42.0,
+    "current_total_points": 41.7959,
     "current_rank": 2,
     "games": [
       {
@@ -15726,7 +15726,7 @@
   "Boonville": {
     "class": 3,
     "district": 7,
-    "current_total_points": 35.0797,
+    "current_total_points": 36.9643,
     "current_rank": 4,
     "games": [
       {
@@ -15818,10 +15818,10 @@
         "opponent": "Osage",
         "opponent_type": "in_state",
         "opponent_class": 4,
-        "played": false,
-        "my_score": null,
-        "opp_score": null,
-        "won": null,
+        "played": true,
+        "my_score": 49,
+        "opp_score": 42,
+        "won": true,
         "overtime": false,
         "forfeit": false
       },
@@ -15842,7 +15842,7 @@
   "Center": {
     "class": 3,
     "district": 7,
-    "current_total_points": 41.0952,
+    "current_total_points": 39.6591,
     "current_rank": 3,
     "games": [
       {
@@ -15934,10 +15934,10 @@
         "opponent": "Warrensburg",
         "opponent_type": "in_state",
         "opponent_class": 4,
-        "played": false,
-        "my_score": null,
-        "opp_score": null,
-        "won": null,
+        "played": true,
+        "my_score": 18,
+        "opp_score": 43,
+        "won": false,
         "overtime": false,
         "forfeit": false
       },
@@ -15958,8 +15958,8 @@
   "Clinton": {
     "class": 3,
     "district": 7,
-    "current_total_points": 32.0,
-    "current_rank": 6,
+    "current_total_points": 31.3929,
+    "current_rank": 7,
     "games": [
       {
         "date": "8/28/2026",
@@ -16050,10 +16050,10 @@
         "opponent": "Harrisonville",
         "opponent_type": "in_state",
         "opponent_class": 4,
-        "played": false,
-        "my_score": null,
-        "opp_score": null,
-        "won": null,
+        "played": true,
+        "my_score": 28,
+        "opp_score": 33,
+        "won": false,
         "overtime": false,
         "forfeit": false
       },
@@ -16074,8 +16074,8 @@
   "Oak Grove": {
     "class": 3,
     "district": 7,
-    "current_total_points": 29.2857,
-    "current_rank": 7,
+    "current_total_points": 33.8571,
+    "current_rank": 6,
     "games": [
       {
         "date": "8/28/2026",
@@ -16166,10 +16166,10 @@
         "opponent": "Lincoln College Prep",
         "opponent_type": "in_state",
         "opponent_class": 5,
-        "played": false,
-        "my_score": null,
-        "opp_score": null,
-        "won": null,
+        "played": true,
+        "my_score": 41,
+        "opp_score": 6,
+        "won": true,
         "overtime": false,
         "forfeit": false
       },
@@ -16190,7 +16190,7 @@
   "Pembroke Hill": {
     "class": 3,
     "district": 7,
-    "current_total_points": 51.2857,
+    "current_total_points": 50.3654,
     "current_rank": 1,
     "games": [
       {
@@ -16282,10 +16282,10 @@
         "opponent": "Summit Christian Academy",
         "opponent_type": "in_state",
         "opponent_class": 3,
-        "played": false,
-        "my_score": null,
-        "opp_score": null,
-        "won": null,
+        "played": true,
+        "my_score": 27,
+        "opp_score": 22,
+        "won": true,
         "overtime": false,
         "forfeit": false
       },
@@ -16306,7 +16306,7 @@
   "St. Michael the Archangel": {
     "class": 3,
     "district": 7,
-    "current_total_points": 32.3333,
+    "current_total_points": 34.0682,
     "current_rank": 5,
     "games": [
       {
@@ -16398,10 +16398,10 @@
         "opponent": "Hogan Prep Academy Charter",
         "opponent_type": "in_state",
         "opponent_class": 2,
-        "played": false,
-        "my_score": null,
-        "opp_score": null,
-        "won": null,
+        "played": true,
+        "my_score": 55,
+        "opp_score": 6,
+        "won": true,
         "overtime": false,
         "forfeit": false
       },
@@ -16422,7 +16422,7 @@
   "Summit Christian Academy": {
     "class": 3,
     "district": 7,
-    "current_total_points": 43.1429,
+    "current_total_points": 40.9213,
     "current_rank": 2,
     "games": [
       {
@@ -16514,10 +16514,10 @@
         "opponent": "Pembroke Hill",
         "opponent_type": "in_state",
         "opponent_class": 3,
-        "played": false,
-        "my_score": null,
-        "opp_score": null,
-        "won": null,
+        "played": true,
+        "my_score": 22,
+        "opp_score": 27,
+        "won": false,
         "overtime": false,
         "forfeit": false
       },
@@ -16538,7 +16538,7 @@
   "Cameron": {
     "class": 3,
     "district": 8,
-    "current_total_points": 17.7162,
+    "current_total_points": 18.2041,
     "current_rank": 6,
     "games": [
       {
@@ -16618,10 +16618,10 @@
         "opponent": "Benton",
         "opponent_type": "in_state",
         "opponent_class": 4,
-        "played": false,
-        "my_score": null,
-        "opp_score": null,
-        "won": null,
+        "played": true,
+        "my_score": 28,
+        "opp_score": 49,
+        "won": false,
         "overtime": false,
         "forfeit": false
       },
@@ -16642,7 +16642,7 @@
   "Chillicothe": {
     "class": 3,
     "district": 8,
-    "current_total_points": 34.4048,
+    "current_total_points": 33.0341,
     "current_rank": 5,
     "games": [
       {
@@ -16734,10 +16734,10 @@
         "opponent": "Moberly",
         "opponent_type": "in_state",
         "opponent_class": 4,
-        "played": false,
-        "my_score": null,
-        "opp_score": null,
-        "won": null,
+        "played": true,
+        "my_score": 26,
+        "opp_score": 41,
+        "won": false,
         "overtime": false,
         "forfeit": false
       },
@@ -16758,7 +16758,7 @@
   "Macon": {
     "class": 3,
     "district": 8,
-    "current_total_points": 37.0476,
+    "current_total_points": 38.5536,
     "current_rank": 4,
     "games": [
       {
@@ -16850,10 +16850,10 @@
         "opponent": "Kirksville",
         "opponent_type": "in_state",
         "opponent_class": 4,
-        "played": false,
-        "my_score": null,
-        "opp_score": null,
-        "won": null,
+        "played": true,
+        "my_score": 14,
+        "opp_score": 8,
+        "won": true,
         "overtime": false,
         "forfeit": false
       },
@@ -16874,7 +16874,7 @@
   "Maryville": {
     "class": 3,
     "district": 8,
-    "current_total_points": 54.2021,
+    "current_total_points": 50.5833,
     "current_rank": 2,
     "games": [
       {
@@ -16966,10 +16966,10 @@
         "opponent": "Savannah",
         "opponent_type": "in_state",
         "opponent_class": 4,
-        "played": false,
-        "my_score": null,
-        "opp_score": null,
-        "won": null,
+        "played": true,
+        "my_score": 21,
+        "opp_score": 40,
+        "won": false,
         "overtime": false,
         "forfeit": false
       },
@@ -16990,7 +16990,7 @@
   "Richmond": {
     "class": 3,
     "district": 8,
-    "current_total_points": 40.8095,
+    "current_total_points": 42.5714,
     "current_rank": 3,
     "games": [
       {
@@ -17082,10 +17082,10 @@
         "opponent": "Knob Noster with Leeton",
         "opponent_type": "in_state",
         "opponent_class": 4,
-        "played": false,
-        "my_score": null,
-        "opp_score": null,
-        "won": null,
+        "played": true,
+        "my_score": 81,
+        "opp_score": 0,
+        "won": true,
         "overtime": false,
         "forfeit": false
       },
@@ -17106,7 +17106,7 @@
   "St. Pius X (Kansas City)": {
     "class": 3,
     "district": 8,
-    "current_total_points": 55.1786,
+    "current_total_points": 54.4167,
     "current_rank": 1,
     "games": [
       {
@@ -17198,10 +17198,10 @@
         "opponent": "Lutheran North",
         "opponent_type": "in_state",
         "opponent_class": 3,
-        "played": false,
-        "my_score": null,
-        "opp_score": null,
-        "won": null,
+        "played": true,
+        "my_score": 49,
+        "opp_score": 7,
+        "won": true,
         "overtime": false,
         "forfeit": false
       },
@@ -17222,7 +17222,7 @@
   "DeSoto": {
     "class": 4,
     "district": 1,
-    "current_total_points": 28.7619,
+    "current_total_points": 31.1071,
     "current_rank": 5,
     "games": [
       {
@@ -17314,10 +17314,10 @@
         "opponent": "Potosi",
         "opponent_type": "in_state",
         "opponent_class": 3,
-        "played": false,
-        "my_score": null,
-        "opp_score": null,
-        "won": null,
+        "played": true,
+        "my_score": 31,
+        "opp_score": 13,
+        "won": true,
         "overtime": false,
         "forfeit": false
       },
@@ -17338,8 +17338,8 @@
   "Festus": {
     "class": 4,
     "district": 1,
-    "current_total_points": 43.5714,
-    "current_rank": 3,
+    "current_total_points": 44.75,
+    "current_rank": 1,
     "games": [
       {
         "date": "8/28/2026",
@@ -17430,10 +17430,10 @@
         "opponent": "Poplar Bluff",
         "opponent_type": "in_state",
         "opponent_class": 5,
-        "played": false,
-        "my_score": null,
-        "opp_score": null,
-        "won": null,
+        "played": true,
+        "my_score": 41,
+        "opp_score": 6,
+        "won": true,
         "overtime": false,
         "forfeit": false
       },
@@ -17454,8 +17454,8 @@
   "Hillsboro": {
     "class": 4,
     "district": 1,
-    "current_total_points": 44.2857,
-    "current_rank": 1,
+    "current_total_points": 42.2143,
+    "current_rank": 3,
     "games": [
       {
         "date": "8/28/2026",
@@ -17546,10 +17546,10 @@
         "opponent": "Farmington",
         "opponent_type": "in_state",
         "opponent_class": 5,
-        "played": false,
-        "my_score": null,
-        "opp_score": null,
-        "won": null,
+        "played": true,
+        "my_score": 9,
+        "opp_score": 55,
+        "won": false,
         "overtime": false,
         "forfeit": false
       },
@@ -17570,7 +17570,7 @@
   "North County": {
     "class": 4,
     "district": 1,
-    "current_total_points": 29.8095,
+    "current_total_points": 32.0714,
     "current_rank": 4,
     "games": [
       {
@@ -17662,10 +17662,10 @@
         "opponent": "St. Clair",
         "opponent_type": "in_state",
         "opponent_class": 3,
-        "played": false,
-        "my_score": null,
-        "opp_score": null,
-        "won": null,
+        "played": true,
+        "my_score": 38,
+        "opp_score": 27,
+        "won": true,
         "overtime": false,
         "forfeit": false
       },
@@ -17686,7 +17686,7 @@
   "Sikeston": {
     "class": 4,
     "district": 1,
-    "current_total_points": 43.7987,
+    "current_total_points": 44.125,
     "current_rank": 2,
     "games": [
       {
@@ -17778,10 +17778,10 @@
         "opponent": "Central (New Madrid County)",
         "opponent_type": "in_state",
         "opponent_class": 2,
-        "played": false,
-        "my_score": null,
-        "opp_score": null,
-        "won": null,
+        "played": true,
+        "my_score": 48,
+        "opp_score": 6,
+        "won": true,
         "overtime": false,
         "forfeit": false
       },
@@ -17802,7 +17802,7 @@
   "Windsor (Imperial)": {
     "class": 4,
     "district": 1,
-    "current_total_points": 22.6516,
+    "current_total_points": 20.9091,
     "current_rank": 6,
     "games": [
       {
@@ -17894,10 +17894,10 @@
         "opponent": "Fredericktown",
         "opponent_type": "in_state",
         "opponent_class": 3,
-        "played": false,
-        "my_score": null,
-        "opp_score": null,
-        "won": null,
+        "played": true,
+        "my_score": 0,
+        "opp_score": 20,
+        "won": false,
         "overtime": false,
         "forfeit": false
       },
@@ -17918,7 +17918,7 @@
   "Affton": {
     "class": 4,
     "district": 2,
-    "current_total_points": 30.2509,
+    "current_total_points": 28.5227,
     "current_rank": 5,
     "games": [
       {
@@ -18010,10 +18010,10 @@
         "opponent": "University City",
         "opponent_type": "in_state",
         "opponent_class": 4,
-        "played": false,
-        "my_score": null,
-        "opp_score": null,
-        "won": null,
+        "played": true,
+        "my_score": 6,
+        "opp_score": 62,
+        "won": false,
         "overtime": false,
         "forfeit": false
       },
@@ -18034,7 +18034,7 @@
   "Bayless with Hancock": {
     "class": 4,
     "district": 2,
-    "current_total_points": 21.2658,
+    "current_total_points": 19.9643,
     "current_rank": 6,
     "games": [
       {
@@ -18126,10 +18126,10 @@
         "opponent": "Cuba with Steelville",
         "opponent_type": "in_state",
         "opponent_class": 3,
-        "played": false,
-        "my_score": null,
-        "opp_score": null,
-        "won": null,
+        "played": true,
+        "my_score": 0,
+        "opp_score": 21,
+        "won": false,
         "overtime": false,
         "forfeit": false
       },
@@ -18150,7 +18150,7 @@
   "Pacific": {
     "class": 4,
     "district": 2,
-    "current_total_points": 20.381,
+    "current_total_points": 19.0357,
     "current_rank": 7,
     "games": [
       {
@@ -18242,10 +18242,10 @@
         "opponent": "Hermann",
         "opponent_type": "in_state",
         "opponent_class": 2,
-        "played": false,
-        "my_score": null,
-        "opp_score": null,
-        "won": null,
+        "played": true,
+        "my_score": 12,
+        "opp_score": 33,
+        "won": false,
         "overtime": false,
         "forfeit": false
       },
@@ -18266,8 +18266,8 @@
   "Sullivan": {
     "class": 4,
     "district": 2,
-    "current_total_points": 39.8571,
-    "current_rank": 2,
+    "current_total_points": 37.0,
+    "current_rank": 3,
     "games": [
       {
         "date": "8/28/2026",
@@ -18358,10 +18358,10 @@
         "opponent": "Union",
         "opponent_type": "in_state",
         "opponent_class": 4,
-        "played": false,
-        "my_score": null,
-        "opp_score": null,
-        "won": null,
+        "played": true,
+        "my_score": 7,
+        "opp_score": 29,
+        "won": false,
         "overtime": false,
         "forfeit": false
       },
@@ -18382,7 +18382,7 @@
   "Union": {
     "class": 4,
     "district": 2,
-    "current_total_points": 44.6429,
+    "current_total_points": 45.6429,
     "current_rank": 1,
     "games": [
       {
@@ -18474,10 +18474,10 @@
         "opponent": "Sullivan",
         "opponent_type": "in_state",
         "opponent_class": 4,
-        "played": false,
-        "my_score": null,
-        "opp_score": null,
-        "won": null,
+        "played": true,
+        "my_score": 29,
+        "opp_score": 7,
+        "won": true,
         "overtime": false,
         "forfeit": false
       },
@@ -18498,7 +18498,7 @@
   "Vianney": {
     "class": 4,
     "district": 2,
-    "current_total_points": 37.3588,
+    "current_total_points": 35.7857,
     "current_rank": 4,
     "games": [
       {
@@ -18590,10 +18590,10 @@
         "opponent": "St. Pius X (Festus)",
         "opponent_type": "in_state",
         "opponent_class": 3,
-        "played": false,
-        "my_score": null,
-        "opp_score": null,
-        "won": null,
+        "played": true,
+        "my_score": 27,
+        "opp_score": 30,
+        "won": false,
         "overtime": false,
         "forfeit": false
       },
@@ -18614,8 +18614,8 @@
   "Westminster Christian Academy": {
     "class": 4,
     "district": 2,
-    "current_total_points": 37.5018,
-    "current_rank": 3,
+    "current_total_points": 38.5259,
+    "current_rank": 2,
     "games": [
       {
         "date": "8/28/2026",
@@ -18706,10 +18706,10 @@
         "opponent": "Duchesne",
         "opponent_type": "in_state",
         "opponent_class": 2,
-        "played": false,
-        "my_score": null,
-        "opp_score": null,
-        "won": null,
+        "played": true,
+        "my_score": 38,
+        "opp_score": 8,
+        "won": true,
         "overtime": false,
         "forfeit": false
       },
@@ -18730,7 +18730,7 @@
   "Clayton with Brentwood": {
     "class": 4,
     "district": 3,
-    "current_total_points": 18.0465,
+    "current_total_points": 17.0893,
     "current_rank": 6,
     "games": [
       {
@@ -18822,10 +18822,10 @@
         "opponent": "Normandy Collaborative",
         "opponent_type": "in_state",
         "opponent_class": 3,
-        "played": false,
-        "my_score": null,
-        "opp_score": null,
-        "won": null,
+        "played": true,
+        "my_score": 7,
+        "opp_score": 42,
+        "won": false,
         "overtime": false,
         "forfeit": false
       },
@@ -18846,7 +18846,7 @@
   "Gateway with Soldan International Studies": {
     "class": 4,
     "district": 3,
-    "current_total_points": 32.0175,
+    "current_total_points": 32.1012,
     "current_rank": 3,
     "games": [
       {
@@ -18926,10 +18926,10 @@
         "opponent": "SLUH",
         "opponent_type": "in_state",
         "opponent_class": 6,
-        "played": false,
-        "my_score": null,
-        "opp_score": null,
-        "won": null,
+        "played": true,
+        "my_score": 0,
+        "opp_score": 35,
+        "won": false,
         "overtime": false,
         "forfeit": false
       },
@@ -18950,8 +18950,8 @@
   "Jennings": {
     "class": 4,
     "district": 3,
-    "current_total_points": 28.3929,
-    "current_rank": 5,
+    "current_total_points": 32.0602,
+    "current_rank": 4,
     "games": [
       {
         "date": "8/28/2026",
@@ -19042,10 +19042,10 @@
         "opponent": "McCluer",
         "opponent_type": "in_state",
         "opponent_class": 5,
-        "played": false,
-        "my_score": null,
-        "opp_score": null,
-        "won": null,
+        "played": true,
+        "my_score": 30,
+        "opp_score": 12,
+        "won": true,
         "overtime": false,
         "forfeit": false
       },
@@ -19066,7 +19066,7 @@
   "Lift for Life Academy Charter": {
     "class": 4,
     "district": 3,
-    "current_total_points": 36.6234,
+    "current_total_points": 34.8182,
     "current_rank": 2,
     "games": [
       {
@@ -19158,10 +19158,10 @@
         "opponent": "Chaminade College Prep",
         "opponent_type": "in_state",
         "opponent_class": 5,
-        "played": false,
-        "my_score": null,
-        "opp_score": null,
-        "won": null,
+        "played": true,
+        "my_score": 8,
+        "opp_score": 21,
+        "won": false,
         "overtime": false,
         "forfeit": false
       },
@@ -19182,8 +19182,8 @@
   "Riverview Gardens": {
     "class": 4,
     "district": 3,
-    "current_total_points": 30.1045,
-    "current_rank": 4,
+    "current_total_points": 29.0795,
+    "current_rank": 5,
     "games": [
       {
         "date": "8/29/2026",
@@ -19274,10 +19274,10 @@
         "opponent": "Fox",
         "opponent_type": "in_state",
         "opponent_class": 5,
-        "played": false,
-        "my_score": null,
-        "opp_score": null,
-        "won": null,
+        "played": true,
+        "my_score": 6,
+        "opp_score": 27,
+        "won": false,
         "overtime": false,
         "forfeit": false
       },
@@ -19298,7 +19298,7 @@
   "University City": {
     "class": 4,
     "district": 3,
-    "current_total_points": 49.9443,
+    "current_total_points": 49.7639,
     "current_rank": 1,
     "games": [
       {
@@ -19390,10 +19390,10 @@
         "opponent": "Affton",
         "opponent_type": "in_state",
         "opponent_class": 4,
-        "played": false,
-        "my_score": null,
-        "opp_score": null,
-        "won": null,
+        "played": true,
+        "my_score": 62,
+        "opp_score": 6,
+        "won": true,
         "overtime": false,
         "forfeit": false
       },
@@ -19414,7 +19414,7 @@
   "Hannibal": {
     "class": 4,
     "district": 4,
-    "current_total_points": 36.7619,
+    "current_total_points": 36.8214,
     "current_rank": 5,
     "games": [
       {
@@ -19506,10 +19506,10 @@
         "opponent": "Jackson",
         "opponent_type": "in_state",
         "opponent_class": 6,
-        "played": false,
-        "my_score": null,
-        "opp_score": null,
-        "won": null,
+        "played": true,
+        "my_score": 21,
+        "opp_score": 49,
+        "won": false,
         "overtime": false,
         "forfeit": false
       },
@@ -19530,7 +19530,7 @@
   "Holt": {
     "class": 4,
     "district": 4,
-    "current_total_points": 29.7955,
+    "current_total_points": 27.8571,
     "current_rank": 6,
     "games": [
       {
@@ -19622,10 +19622,10 @@
         "opponent": "Orchard Farm",
         "opponent_type": "in_state",
         "opponent_class": 4,
-        "played": false,
-        "my_score": null,
-        "opp_score": null,
-        "won": null,
+        "played": true,
+        "my_score": 18,
+        "opp_score": 35,
+        "won": false,
         "overtime": false,
         "forfeit": false
       },
@@ -19646,7 +19646,7 @@
   "Orchard Farm": {
     "class": 4,
     "district": 4,
-    "current_total_points": 38.8312,
+    "current_total_points": 39.8393,
     "current_rank": 3,
     "games": [
       {
@@ -19738,10 +19738,10 @@
         "opponent": "Holt",
         "opponent_type": "in_state",
         "opponent_class": 4,
-        "played": false,
-        "my_score": null,
-        "opp_score": null,
-        "won": null,
+        "played": true,
+        "my_score": 35,
+        "opp_score": 18,
+        "won": true,
         "overtime": false,
         "forfeit": false
       },
@@ -19762,7 +19762,7 @@
   "Parkway North": {
     "class": 4,
     "district": 4,
-    "current_total_points": 41.5,
+    "current_total_points": 40.8929,
     "current_rank": 2,
     "games": [
       {
@@ -19854,10 +19854,10 @@
         "opponent": "Pattonville",
         "opponent_type": "in_state",
         "opponent_class": 6,
-        "played": false,
-        "my_score": null,
-        "opp_score": null,
-        "won": null,
+        "played": true,
+        "my_score": 14,
+        "opp_score": 35,
+        "won": false,
         "overtime": false,
         "forfeit": false
       },
@@ -19878,7 +19878,7 @@
   "St. Charles": {
     "class": 4,
     "district": 4,
-    "current_total_points": 23.7143,
+    "current_total_points": 22.1607,
     "current_rank": 7,
     "games": [
       {
@@ -19970,10 +19970,10 @@
         "opponent": "Warrenton",
         "opponent_type": "in_state",
         "opponent_class": 4,
-        "played": false,
-        "my_score": null,
-        "opp_score": null,
-        "won": null,
+        "played": true,
+        "my_score": 6,
+        "opp_score": 49,
+        "won": false,
         "overtime": false,
         "forfeit": false
       },
@@ -19994,7 +19994,7 @@
   "St. Charles West": {
     "class": 4,
     "district": 4,
-    "current_total_points": 48.85,
+    "current_total_points": 48.7679,
     "current_rank": 1,
     "games": [
       {
@@ -20110,7 +20110,7 @@
   "Warrenton": {
     "class": 4,
     "district": 4,
-    "current_total_points": 37.1948,
+    "current_total_points": 38.1071,
     "current_rank": 4,
     "games": [
       {
@@ -20202,10 +20202,10 @@
         "opponent": "St. Charles",
         "opponent_type": "in_state",
         "opponent_class": 4,
-        "played": false,
-        "my_score": null,
-        "opp_score": null,
-        "won": null,
+        "played": true,
+        "my_score": 49,
+        "opp_score": 6,
+        "won": true,
         "overtime": false,
         "forfeit": false
       },
@@ -20226,7 +20226,7 @@
   "Kirksville": {
     "class": 4,
     "district": 5,
-    "current_total_points": 23.9524,
+    "current_total_points": 23.2143,
     "current_rank": 5,
     "games": [
       {
@@ -20318,10 +20318,10 @@
         "opponent": "Macon",
         "opponent_type": "in_state",
         "opponent_class": 3,
-        "played": false,
-        "my_score": null,
-        "opp_score": null,
-        "won": null,
+        "played": true,
+        "my_score": 8,
+        "opp_score": 14,
+        "won": false,
         "overtime": false,
         "forfeit": false
       },
@@ -20342,7 +20342,7 @@
   "Knob Noster with Leeton": {
     "class": 4,
     "district": 5,
-    "current_total_points": 15.8333,
+    "current_total_points": 15.875,
     "current_rank": 7,
     "games": [
       {
@@ -20434,10 +20434,10 @@
         "opponent": "Richmond",
         "opponent_type": "in_state",
         "opponent_class": 3,
-        "played": false,
-        "my_score": null,
-        "opp_score": null,
-        "won": null,
+        "played": true,
+        "my_score": 0,
+        "opp_score": 81,
+        "won": false,
         "overtime": false,
         "forfeit": false
       },
@@ -20458,7 +20458,7 @@
   "Marshall": {
     "class": 4,
     "district": 5,
-    "current_total_points": 17.381,
+    "current_total_points": 18.1964,
     "current_rank": 6,
     "games": [
       {
@@ -20550,10 +20550,10 @@
         "opponent": "Rolla",
         "opponent_type": "in_state",
         "opponent_class": 5,
-        "played": false,
-        "my_score": null,
-        "opp_score": null,
-        "won": null,
+        "played": true,
+        "my_score": 0,
+        "opp_score": 48,
+        "won": false,
         "overtime": false,
         "forfeit": false
       },
@@ -20574,7 +20574,7 @@
   "Mexico": {
     "class": 4,
     "district": 5,
-    "current_total_points": 27.1667,
+    "current_total_points": 25.9821,
     "current_rank": 4,
     "games": [
       {
@@ -20666,10 +20666,10 @@
         "opponent": "Bowling Green",
         "opponent_type": "in_state",
         "opponent_class": 2,
-        "played": false,
-        "my_score": null,
-        "opp_score": null,
-        "won": null,
+        "played": true,
+        "my_score": 24,
+        "opp_score": 35,
+        "won": false,
         "overtime": false,
         "forfeit": false
       },
@@ -20690,7 +20690,7 @@
   "Moberly": {
     "class": 4,
     "district": 5,
-    "current_total_points": 42.5923,
+    "current_total_points": 43.375,
     "current_rank": 2,
     "games": [
       {
@@ -20782,10 +20782,10 @@
         "opponent": "Chillicothe",
         "opponent_type": "in_state",
         "opponent_class": 3,
-        "played": false,
-        "my_score": null,
-        "opp_score": null,
-        "won": null,
+        "played": true,
+        "my_score": 41,
+        "opp_score": 26,
+        "won": true,
         "overtime": false,
         "forfeit": false
       },
@@ -20806,7 +20806,7 @@
   "Osage": {
     "class": 4,
     "district": 5,
-    "current_total_points": 28.0,
+    "current_total_points": 26.9286,
     "current_rank": 3,
     "games": [
       {
@@ -20898,10 +20898,10 @@
         "opponent": "Boonville",
         "opponent_type": "in_state",
         "opponent_class": 3,
-        "played": false,
-        "my_score": null,
-        "opp_score": null,
-        "won": null,
+        "played": true,
+        "my_score": 42,
+        "opp_score": 49,
+        "won": false,
         "overtime": false,
         "forfeit": false
       },
@@ -20922,7 +20922,7 @@
   "Warrensburg": {
     "class": 4,
     "district": 5,
-    "current_total_points": 44.206,
+    "current_total_points": 45.0893,
     "current_rank": 1,
     "games": [
       {
@@ -21014,10 +21014,10 @@
         "opponent": "Center",
         "opponent_type": "in_state",
         "opponent_class": 3,
-        "played": false,
-        "my_score": null,
-        "opp_score": null,
-        "won": null,
+        "played": true,
+        "my_score": 43,
+        "opp_score": 18,
+        "won": true,
         "overtime": false,
         "forfeit": false
       },
@@ -21038,8 +21038,8 @@
   "Bolivar": {
     "class": 4,
     "district": 6,
-    "current_total_points": 36.4251,
-    "current_rank": 2,
+    "current_total_points": 33.2614,
+    "current_rank": 3,
     "games": [
       {
         "date": "8/28/2026",
@@ -21130,10 +21130,10 @@
         "opponent": "Carl Junction",
         "opponent_type": "in_state",
         "opponent_class": 4,
-        "played": false,
-        "my_score": null,
-        "opp_score": null,
-        "won": null,
+        "played": true,
+        "my_score": 7,
+        "opp_score": 34,
+        "won": false,
         "overtime": false,
         "forfeit": false
       },
@@ -21154,8 +21154,8 @@
   "Carl Junction": {
     "class": 4,
     "district": 6,
-    "current_total_points": 34.9524,
-    "current_rank": 3,
+    "current_total_points": 36.4643,
+    "current_rank": 2,
     "games": [
       {
         "date": "8/28/2026",
@@ -21246,10 +21246,10 @@
         "opponent": "Bolivar",
         "opponent_type": "in_state",
         "opponent_class": 4,
-        "played": false,
-        "my_score": null,
-        "opp_score": null,
-        "won": null,
+        "played": true,
+        "my_score": 34,
+        "opp_score": 7,
+        "won": true,
         "overtime": false,
         "forfeit": false
       },
@@ -21270,7 +21270,7 @@
   "Hillcrest": {
     "class": 4,
     "district": 6,
-    "current_total_points": 27.8889,
+    "current_total_points": 27.4898,
     "current_rank": 5,
     "games": [
       {
@@ -21350,10 +21350,10 @@
         "opponent": "Branson",
         "opponent_type": "in_state",
         "opponent_class": 5,
-        "played": false,
-        "my_score": null,
-        "opp_score": null,
-        "won": null,
+        "played": true,
+        "my_score": 6,
+        "opp_score": 44,
+        "won": false,
         "overtime": false,
         "forfeit": false
       },
@@ -21374,7 +21374,7 @@
   "Logan-Rogersville": {
     "class": 4,
     "district": 6,
-    "current_total_points": 49.4913,
+    "current_total_points": 48.9886,
     "current_rank": 1,
     "games": [
       {
@@ -21466,10 +21466,10 @@
         "opponent": "Marshfield",
         "opponent_type": "in_state",
         "opponent_class": 4,
-        "played": false,
-        "my_score": null,
-        "opp_score": null,
-        "won": null,
+        "played": true,
+        "my_score": 21,
+        "opp_score": 3,
+        "won": true,
         "overtime": false,
         "forfeit": false
       },
@@ -21490,7 +21490,7 @@
   "Marshfield": {
     "class": 4,
     "district": 6,
-    "current_total_points": 25.5575,
+    "current_total_points": 24.7955,
     "current_rank": 6,
     "games": [
       {
@@ -21582,10 +21582,10 @@
         "opponent": "Logan-Rogersville",
         "opponent_type": "in_state",
         "opponent_class": 4,
-        "played": false,
-        "my_score": null,
-        "opp_score": null,
-        "won": null,
+        "played": true,
+        "my_score": 3,
+        "opp_score": 21,
+        "won": false,
         "overtime": false,
         "forfeit": false
       },
@@ -21606,7 +21606,7 @@
   "McDonald County": {
     "class": 4,
     "district": 6,
-    "current_total_points": 23.1905,
+    "current_total_points": 24.7679,
     "current_rank": 7,
     "games": [
       {
@@ -21698,10 +21698,10 @@
         "opponent": "Aurora",
         "opponent_type": "in_state",
         "opponent_class": 3,
-        "played": false,
-        "my_score": null,
-        "opp_score": null,
-        "won": null,
+        "played": true,
+        "my_score": 41,
+        "opp_score": 34,
+        "won": true,
         "overtime": false,
         "forfeit": false
       },
@@ -21722,7 +21722,7 @@
   "Monett": {
     "class": 4,
     "district": 6,
-    "current_total_points": 31.9524,
+    "current_total_points": 28.875,
     "current_rank": 4,
     "games": [
       {
@@ -21814,10 +21814,10 @@
         "opponent": "East Newton",
         "opponent_type": "in_state",
         "opponent_class": 2,
-        "played": false,
-        "my_score": null,
-        "opp_score": null,
-        "won": null,
+        "played": true,
+        "my_score": 36,
+        "opp_score": 67,
+        "won": false,
         "overtime": false,
         "forfeit": false
       },
@@ -21838,8 +21838,8 @@
   "Central (Kansas City)": {
     "class": 4,
     "district": 7,
-    "current_total_points": 34.7003,
-    "current_rank": 4,
+    "current_total_points": 35.8981,
+    "current_rank": 3,
     "games": [
       {
         "date": "8/29/2026",
@@ -21930,10 +21930,10 @@
         "opponent": "Southeast",
         "opponent_type": "out_of_state",
         "opponent_class": 2,
-        "played": false,
-        "my_score": null,
-        "opp_score": null,
-        "won": null,
+        "played": true,
+        "my_score": 49,
+        "opp_score": 0,
+        "won": true,
         "overtime": false,
         "forfeit": false
       },
@@ -21954,7 +21954,7 @@
   "East (Kansas City)": {
     "class": 4,
     "district": 7,
-    "current_total_points": 15.5714,
+    "current_total_points": 14.4808,
     "current_rank": 7,
     "games": [
       {
@@ -22046,10 +22046,10 @@
         "opponent": "Northeast (Kansas City)",
         "opponent_type": "in_state",
         "opponent_class": 4,
-        "played": false,
-        "my_score": null,
-        "opp_score": null,
-        "won": null,
+        "played": true,
+        "my_score": 0,
+        "opp_score": 41,
+        "won": false,
         "overtime": false,
         "forfeit": false
       },
@@ -22070,7 +22070,7 @@
   "Harrisonville": {
     "class": 4,
     "district": 7,
-    "current_total_points": 23.4007,
+    "current_total_points": 25.1713,
     "current_rank": 5,
     "games": [
       {
@@ -22162,10 +22162,10 @@
         "opponent": "Clinton",
         "opponent_type": "in_state",
         "opponent_class": 3,
-        "played": false,
-        "my_score": null,
-        "opp_score": null,
-        "won": null,
+        "played": true,
+        "my_score": 33,
+        "opp_score": 28,
+        "won": true,
         "overtime": false,
         "forfeit": false
       },
@@ -22186,7 +22186,7 @@
   "Odessa": {
     "class": 4,
     "district": 7,
-    "current_total_points": 37.8153,
+    "current_total_points": 38.8636,
     "current_rank": 1,
     "games": [
       {
@@ -22278,10 +22278,10 @@
         "opponent": "Pleasant Hill",
         "opponent_type": "in_state",
         "opponent_class": 4,
-        "played": false,
-        "my_score": null,
-        "opp_score": null,
-        "won": null,
+        "played": true,
+        "my_score": 28,
+        "opp_score": 18,
+        "won": true,
         "overtime": false,
         "forfeit": false
       },
@@ -22302,8 +22302,8 @@
   "Pleasant Hill": {
     "class": 4,
     "district": 7,
-    "current_total_points": 34.7143,
-    "current_rank": 3,
+    "current_total_points": 32.6071,
+    "current_rank": 4,
     "games": [
       {
         "date": "8/28/2026",
@@ -22394,10 +22394,10 @@
         "opponent": "Odessa",
         "opponent_type": "in_state",
         "opponent_class": 4,
-        "played": false,
-        "my_score": null,
-        "opp_score": null,
-        "won": null,
+        "played": true,
+        "my_score": 18,
+        "opp_score": 28,
+        "won": false,
         "overtime": false,
         "forfeit": false
       },
@@ -22418,7 +22418,7 @@
   "Raytown South": {
     "class": 4,
     "district": 7,
-    "current_total_points": 37.0952,
+    "current_total_points": 36.0714,
     "current_rank": 2,
     "games": [
       {
@@ -22510,10 +22510,10 @@
         "opponent": "Winnetonka",
         "opponent_type": "in_state",
         "opponent_class": 5,
-        "played": false,
-        "my_score": null,
-        "opp_score": null,
-        "won": null,
+        "played": true,
+        "my_score": 6,
+        "opp_score": 9,
+        "won": false,
         "overtime": false,
         "forfeit": false
       },
@@ -22534,7 +22534,7 @@
   "University Academy Charter with Ewing Marion Kauffman": {
     "class": 4,
     "district": 7,
-    "current_total_points": 20.0,
+    "current_total_points": 19.1786,
     "current_rank": 6,
     "games": [
       {
@@ -22626,10 +22626,10 @@
         "opponent": "Van Horn",
         "opponent_type": "in_state",
         "opponent_class": 4,
-        "played": false,
-        "my_score": null,
-        "opp_score": null,
-        "won": null,
+        "played": true,
+        "my_score": 0,
+        "opp_score": 35,
+        "won": false,
         "overtime": false,
         "forfeit": false
       },
@@ -22650,7 +22650,7 @@
   "Benton": {
     "class": 4,
     "district": 8,
-    "current_total_points": 30.6346,
+    "current_total_points": 32.1364,
     "current_rank": 4,
     "games": [
       {
@@ -22742,10 +22742,10 @@
         "opponent": "Cameron",
         "opponent_type": "in_state",
         "opponent_class": 3,
-        "played": false,
-        "my_score": null,
-        "opp_score": null,
-        "won": null,
+        "played": true,
+        "my_score": 49,
+        "opp_score": 28,
+        "won": true,
         "overtime": false,
         "forfeit": false
       },
@@ -22766,8 +22766,8 @@
   "Excelsior Springs": {
     "class": 4,
     "district": 8,
-    "current_total_points": 22.5625,
-    "current_rank": 6,
+    "current_total_points": 22.5114,
+    "current_rank": 7,
     "games": [
       {
         "date": "8/28/2026",
@@ -22882,7 +22882,7 @@
   "Kearney": {
     "class": 4,
     "district": 8,
-    "current_total_points": 56.0,
+    "current_total_points": 56.25,
     "current_rank": 1,
     "games": [
       {
@@ -22974,10 +22974,10 @@
         "opponent": "Grandview",
         "opponent_type": "in_state",
         "opponent_class": 5,
-        "played": false,
-        "my_score": null,
-        "opp_score": null,
-        "won": null,
+        "played": true,
+        "my_score": 58,
+        "opp_score": 8,
+        "won": true,
         "overtime": false,
         "forfeit": false
       },
@@ -22998,8 +22998,8 @@
   "Northeast (Kansas City)": {
     "class": 4,
     "district": 8,
-    "current_total_points": 21.4469,
-    "current_rank": 7,
+    "current_total_points": 24.4,
+    "current_rank": 6,
     "games": [
       {
         "date": "8/28/2026",
@@ -23090,10 +23090,10 @@
         "opponent": "East (Kansas City)",
         "opponent_type": "in_state",
         "opponent_class": 4,
-        "played": false,
-        "my_score": null,
-        "opp_score": null,
-        "won": null,
+        "played": true,
+        "my_score": 41,
+        "opp_score": 0,
+        "won": true,
         "overtime": false,
         "forfeit": false
       },
@@ -23114,7 +23114,7 @@
   "Savannah": {
     "class": 4,
     "district": 8,
-    "current_total_points": 48.2439,
+    "current_total_points": 48.6481,
     "current_rank": 2,
     "games": [
       {
@@ -23206,10 +23206,10 @@
         "opponent": "Maryville",
         "opponent_type": "in_state",
         "opponent_class": 3,
-        "played": false,
-        "my_score": null,
-        "opp_score": null,
-        "won": null,
+        "played": true,
+        "my_score": 40,
+        "opp_score": 21,
+        "won": true,
         "overtime": false,
         "forfeit": false
       },
@@ -23230,7 +23230,7 @@
   "Smithville": {
     "class": 4,
     "district": 8,
-    "current_total_points": 37.0139,
+    "current_total_points": 39.3611,
     "current_rank": 3,
     "games": [
       {
@@ -23322,10 +23322,10 @@
         "opponent": "Ruskin",
         "opponent_type": "in_state",
         "opponent_class": 5,
-        "played": false,
-        "my_score": null,
-        "opp_score": null,
-        "won": null,
+        "played": true,
+        "my_score": 57,
+        "opp_score": 6,
+        "won": true,
         "overtime": false,
         "forfeit": false
       },
@@ -23346,7 +23346,7 @@
   "Van Horn": {
     "class": 4,
     "district": 8,
-    "current_total_points": 29.2381,
+    "current_total_points": 30.9286,
     "current_rank": 5,
     "games": [
       {
@@ -23438,10 +23438,10 @@
         "opponent": "University Academy Charter with Ewing Marion Kauffman",
         "opponent_type": "in_state",
         "opponent_class": 4,
-        "played": false,
-        "my_score": null,
-        "opp_score": null,
-        "won": null,
+        "played": true,
+        "my_score": 35,
+        "opp_score": 0,
+        "won": true,
         "overtime": false,
         "forfeit": false
       },
@@ -23462,7 +23462,7 @@
   "Central (Cape Girardeau)": {
     "class": 5,
     "district": 1,
-    "current_total_points": 30.6097,
+    "current_total_points": 30.4205,
     "current_rank": 4,
     "games": [
       {
@@ -23578,7 +23578,7 @@
   "Farmington": {
     "class": 5,
     "district": 1,
-    "current_total_points": 45.7973,
+    "current_total_points": 46.5357,
     "current_rank": 1,
     "games": [
       {
@@ -23670,10 +23670,10 @@
         "opponent": "Hillsboro",
         "opponent_type": "in_state",
         "opponent_class": 4,
-        "played": false,
-        "my_score": null,
-        "opp_score": null,
-        "won": null,
+        "played": true,
+        "my_score": 55,
+        "opp_score": 9,
+        "won": true,
         "overtime": false,
         "forfeit": false
       },
@@ -23694,8 +23694,8 @@
   "Fox": {
     "class": 5,
     "district": 1,
-    "current_total_points": 36.4425,
-    "current_rank": 2,
+    "current_total_points": 37.8636,
+    "current_rank": 3,
     "games": [
       {
         "date": "8/28/2026",
@@ -23786,10 +23786,10 @@
         "opponent": "Riverview Gardens",
         "opponent_type": "in_state",
         "opponent_class": 4,
-        "played": false,
-        "my_score": null,
-        "opp_score": null,
-        "won": null,
+        "played": true,
+        "my_score": 27,
+        "opp_score": 6,
+        "won": true,
         "overtime": false,
         "forfeit": false
       },
@@ -23810,7 +23810,7 @@
   "Mehlville": {
     "class": 5,
     "district": 1,
-    "current_total_points": 13.6899,
+    "current_total_points": 15.3295,
     "current_rank": 6,
     "games": [
       {
@@ -23902,10 +23902,10 @@
         "opponent": "Oakville",
         "opponent_type": "in_state",
         "opponent_class": 6,
-        "played": false,
-        "my_score": null,
-        "opp_score": null,
-        "won": null,
+        "played": true,
+        "my_score": 0,
+        "opp_score": 55,
+        "won": false,
         "overtime": false,
         "forfeit": false
       },
@@ -23926,7 +23926,7 @@
   "Poplar Bluff": {
     "class": 5,
     "district": 1,
-    "current_total_points": 19.1163,
+    "current_total_points": 18.8393,
     "current_rank": 5,
     "games": [
       {
@@ -24018,10 +24018,10 @@
         "opponent": "Festus",
         "opponent_type": "in_state",
         "opponent_class": 4,
-        "played": false,
-        "my_score": null,
-        "opp_score": null,
-        "won": null,
+        "played": true,
+        "my_score": 6,
+        "opp_score": 41,
+        "won": false,
         "overtime": false,
         "forfeit": false
       },
@@ -24042,8 +24042,8 @@
   "St. Mary's South Side": {
     "class": 5,
     "district": 1,
-    "current_total_points": 36.3688,
-    "current_rank": 3,
+    "current_total_points": 38.0417,
+    "current_rank": 2,
     "games": [
       {
         "date": "8/28/2026",
@@ -24134,10 +24134,10 @@
         "opponent": "De Smet Jesuit",
         "opponent_type": "in_state",
         "opponent_class": 6,
-        "played": false,
-        "my_score": null,
-        "opp_score": null,
-        "won": null,
+        "played": true,
+        "my_score": 37,
+        "opp_score": 35,
+        "won": true,
         "overtime": false,
         "forfeit": false
       },
@@ -24158,7 +24158,7 @@
   "Eureka": {
     "class": 5,
     "district": 2,
-    "current_total_points": 46.1742,
+    "current_total_points": 47.1705,
     "current_rank": 1,
     "games": [
       {
@@ -24250,10 +24250,10 @@
         "opponent": "Lafayette (Wildwood)",
         "opponent_type": "in_state",
         "opponent_class": 6,
-        "played": false,
-        "my_score": null,
-        "opp_score": null,
-        "won": null,
+        "played": true,
+        "my_score": 35,
+        "opp_score": 8,
+        "won": true,
         "overtime": false,
         "forfeit": false
       },
@@ -24274,7 +24274,7 @@
   "Parkway Central": {
     "class": 5,
     "district": 2,
-    "current_total_points": 16.8095,
+    "current_total_points": 16.8036,
     "current_rank": 7,
     "games": [
       {
@@ -24366,10 +24366,10 @@
         "opponent": "Ladue Horton Watkins",
         "opponent_type": "in_state",
         "opponent_class": 5,
-        "played": false,
-        "my_score": null,
-        "opp_score": null,
-        "won": null,
+        "played": true,
+        "my_score": 6,
+        "opp_score": 63,
+        "won": false,
         "overtime": false,
         "forfeit": false
       },
@@ -24390,8 +24390,8 @@
   "Parkway South": {
     "class": 5,
     "district": 2,
-    "current_total_points": 35.3066,
-    "current_rank": 4,
+    "current_total_points": 37.0909,
+    "current_rank": 3,
     "games": [
       {
         "date": "8/28/2026",
@@ -24482,10 +24482,10 @@
         "opponent": "McCluer North",
         "opponent_type": "in_state",
         "opponent_class": 5,
-        "played": false,
-        "my_score": null,
-        "opp_score": null,
-        "won": null,
+        "played": true,
+        "my_score": 44,
+        "opp_score": 6,
+        "won": true,
         "overtime": false,
         "forfeit": false
       },
@@ -24506,8 +24506,8 @@
   "Parkway West": {
     "class": 5,
     "district": 2,
-    "current_total_points": 36.1667,
-    "current_rank": 3,
+    "current_total_points": 38.9107,
+    "current_rank": 2,
     "games": [
       {
         "date": "8/27/2026",
@@ -24598,10 +24598,10 @@
         "opponent": "Hazelwood West",
         "opponent_type": "in_state",
         "opponent_class": 6,
-        "played": false,
-        "my_score": null,
-        "opp_score": null,
-        "won": null,
+        "played": true,
+        "my_score": 49,
+        "opp_score": 20,
+        "won": true,
         "overtime": false,
         "forfeit": false
       },
@@ -24622,8 +24622,8 @@
   "Rockwood Summit": {
     "class": 5,
     "district": 2,
-    "current_total_points": 36.5476,
-    "current_rank": 2,
+    "current_total_points": 35.9659,
+    "current_rank": 4,
     "games": [
       {
         "date": "8/28/2026",
@@ -24714,10 +24714,10 @@
         "opponent": "Kirkwood",
         "opponent_type": "in_state",
         "opponent_class": 6,
-        "played": false,
-        "my_score": null,
-        "opp_score": null,
-        "won": null,
+        "played": true,
+        "my_score": 14,
+        "opp_score": 20,
+        "won": false,
         "overtime": false,
         "forfeit": false
       },
@@ -24738,7 +24738,7 @@
   "Washington": {
     "class": 5,
     "district": 2,
-    "current_total_points": 27.7381,
+    "current_total_points": 26.1429,
     "current_rank": 6,
     "games": [
       {
@@ -24830,10 +24830,10 @@
         "opponent": "Ft. Zumwalt North",
         "opponent_type": "in_state",
         "opponent_class": 5,
-        "played": false,
-        "my_score": null,
-        "opp_score": null,
-        "won": null,
+        "played": true,
+        "my_score": 14,
+        "opp_score": 28,
+        "won": false,
         "overtime": false,
         "forfeit": false
       },
@@ -24854,7 +24854,7 @@
   "Webster Groves": {
     "class": 5,
     "district": 2,
-    "current_total_points": 31.9444,
+    "current_total_points": 31.2041,
     "current_rank": 5,
     "games": [
       {
@@ -24934,10 +24934,10 @@
         "opponent": "Northwest (Cedar Hill)",
         "opponent_type": "in_state",
         "opponent_class": 6,
-        "played": false,
-        "my_score": null,
-        "opp_score": null,
-        "won": null,
+        "played": true,
+        "my_score": 0,
+        "opp_score": 35,
+        "won": false,
         "overtime": false,
         "forfeit": false
       },
@@ -24970,8 +24970,8 @@
   "Cardinal Ritter": {
     "class": 5,
     "district": 3,
-    "current_total_points": 38.2292,
-    "current_rank": 4,
+    "current_total_points": 37.8186,
+    "current_rank": 3,
     "games": [
       {
         "date": "8/28/2026",
@@ -25086,8 +25086,8 @@
   "Chaminade College Prep": {
     "class": 5,
     "district": 3,
-    "current_total_points": 39.7508,
-    "current_rank": 3,
+    "current_total_points": 40.2857,
+    "current_rank": 2,
     "games": [
       {
         "date": "8/28/2026",
@@ -25178,10 +25178,10 @@
         "opponent": "Lift for Life Academy Charter",
         "opponent_type": "in_state",
         "opponent_class": 4,
-        "played": false,
-        "my_score": null,
-        "opp_score": null,
-        "won": null,
+        "played": true,
+        "my_score": 21,
+        "opp_score": 8,
+        "won": true,
         "overtime": false,
         "forfeit": false
       },
@@ -25202,8 +25202,8 @@
   "Hazelwood Central": {
     "class": 5,
     "district": 3,
-    "current_total_points": 23.5714,
-    "current_rank": 6,
+    "current_total_points": 21.3214,
+    "current_rank": 7,
     "games": [
       {
         "date": "8/28/2026",
@@ -25294,10 +25294,10 @@
         "opponent": "Hazelwood East",
         "opponent_type": "in_state",
         "opponent_class": 5,
-        "played": false,
-        "my_score": null,
-        "opp_score": null,
-        "won": null,
+        "played": true,
+        "my_score": 0,
+        "opp_score": 36,
+        "won": false,
         "overtime": false,
         "forfeit": false
       },
@@ -25318,8 +25318,8 @@
   "Hazelwood East": {
     "class": 5,
     "district": 3,
-    "current_total_points": 20.2404,
-    "current_rank": 7,
+    "current_total_points": 23.0227,
+    "current_rank": 6,
     "games": [
       {
         "date": "8/29/2026",
@@ -25410,10 +25410,10 @@
         "opponent": "Hazelwood Central",
         "opponent_type": "in_state",
         "opponent_class": 5,
-        "played": false,
-        "my_score": null,
-        "opp_score": null,
-        "won": null,
+        "played": true,
+        "my_score": 36,
+        "opp_score": 0,
+        "won": true,
         "overtime": false,
         "forfeit": false
       },
@@ -25434,7 +25434,7 @@
   "Ladue Horton Watkins": {
     "class": 5,
     "district": 3,
-    "current_total_points": 48.5952,
+    "current_total_points": 47.5536,
     "current_rank": 1,
     "games": [
       {
@@ -25526,10 +25526,10 @@
         "opponent": "Parkway Central",
         "opponent_type": "in_state",
         "opponent_class": 5,
-        "played": false,
-        "my_score": null,
-        "opp_score": null,
-        "won": null,
+        "played": true,
+        "my_score": 63,
+        "opp_score": 6,
+        "won": true,
         "overtime": false,
         "forfeit": false
       },
@@ -25550,7 +25550,7 @@
   "McCluer": {
     "class": 5,
     "district": 3,
-    "current_total_points": 28.878,
+    "current_total_points": 26.4205,
     "current_rank": 5,
     "games": [
       {
@@ -25642,10 +25642,10 @@
         "opponent": "Jennings",
         "opponent_type": "in_state",
         "opponent_class": 4,
-        "played": false,
-        "my_score": null,
-        "opp_score": null,
-        "won": null,
+        "played": true,
+        "my_score": 12,
+        "opp_score": 30,
+        "won": false,
         "overtime": false,
         "forfeit": false
       },
@@ -25666,8 +25666,8 @@
   "McCluer North": {
     "class": 5,
     "district": 3,
-    "current_total_points": 40.4286,
-    "current_rank": 2,
+    "current_total_points": 36.875,
+    "current_rank": 4,
     "games": [
       {
         "date": "8/28/2026",
@@ -25758,10 +25758,10 @@
         "opponent": "Parkway South",
         "opponent_type": "in_state",
         "opponent_class": 5,
-        "played": false,
-        "my_score": null,
-        "opp_score": null,
-        "won": null,
+        "played": true,
+        "my_score": 6,
+        "opp_score": 44,
+        "won": false,
         "overtime": false,
         "forfeit": false
       },
@@ -25782,7 +25782,7 @@
   "Ft. Zumwalt East": {
     "class": 5,
     "district": 4,
-    "current_total_points": 23.9003,
+    "current_total_points": 22.9464,
     "current_rank": 4,
     "games": [
       {
@@ -25874,10 +25874,10 @@
         "opponent": "Timberland",
         "opponent_type": "in_state",
         "opponent_class": 5,
-        "played": false,
-        "my_score": null,
-        "opp_score": null,
-        "won": null,
+        "played": true,
+        "my_score": 14,
+        "opp_score": 35,
+        "won": false,
         "overtime": false,
         "forfeit": false
       },
@@ -25898,7 +25898,7 @@
   "Ft. Zumwalt North": {
     "class": 5,
     "district": 4,
-    "current_total_points": 37.7143,
+    "current_total_points": 39.1786,
     "current_rank": 2,
     "games": [
       {
@@ -25990,10 +25990,10 @@
         "opponent": "Washington",
         "opponent_type": "in_state",
         "opponent_class": 5,
-        "played": false,
-        "my_score": null,
-        "opp_score": null,
-        "won": null,
+        "played": true,
+        "my_score": 28,
+        "opp_score": 14,
+        "won": true,
         "overtime": false,
         "forfeit": false
       },
@@ -26014,8 +26014,8 @@
   "Ft. Zumwalt South": {
     "class": 5,
     "district": 4,
-    "current_total_points": 20.3095,
-    "current_rank": 6,
+    "current_total_points": 21.75,
+    "current_rank": 5,
     "games": [
       {
         "date": "8/27/2026",
@@ -26106,10 +26106,10 @@
         "opponent": "North Point",
         "opponent_type": "in_state",
         "opponent_class": 5,
-        "played": false,
-        "my_score": null,
-        "opp_score": null,
-        "won": null,
+        "played": true,
+        "my_score": 13,
+        "opp_score": 12,
+        "won": true,
         "overtime": false,
         "forfeit": false
       },
@@ -26130,8 +26130,8 @@
   "North Point": {
     "class": 5,
     "district": 4,
-    "current_total_points": 21.5714,
-    "current_rank": 5,
+    "current_total_points": 21.5179,
+    "current_rank": 6,
     "games": [
       {
         "date": "8/28/2026",
@@ -26222,10 +26222,10 @@
         "opponent": "Ft. Zumwalt South",
         "opponent_type": "in_state",
         "opponent_class": 5,
-        "played": false,
-        "my_score": null,
-        "opp_score": null,
-        "won": null,
+        "played": true,
+        "my_score": 12,
+        "opp_score": 13,
+        "won": false,
         "overtime": false,
         "forfeit": false
       },
@@ -26246,7 +26246,7 @@
   "St. Dominic": {
     "class": 5,
     "district": 4,
-    "current_total_points": 32.9286,
+    "current_total_points": 35.125,
     "current_rank": 3,
     "games": [
       {
@@ -26338,10 +26338,10 @@
         "opponent": "MICDS",
         "opponent_type": "in_state",
         "opponent_class": 3,
-        "played": false,
-        "my_score": null,
-        "opp_score": null,
-        "won": null,
+        "played": true,
+        "my_score": 41,
+        "opp_score": 7,
+        "won": true,
         "overtime": false,
         "forfeit": false
       },
@@ -26362,7 +26362,7 @@
   "Timberland": {
     "class": 5,
     "district": 4,
-    "current_total_points": 41.9524,
+    "current_total_points": 42.5893,
     "current_rank": 1,
     "games": [
       {
@@ -26454,10 +26454,10 @@
         "opponent": "Ft. Zumwalt East",
         "opponent_type": "in_state",
         "opponent_class": 5,
-        "played": false,
-        "my_score": null,
-        "opp_score": null,
-        "won": null,
+        "played": true,
+        "my_score": 35,
+        "opp_score": 14,
+        "won": true,
         "overtime": false,
         "forfeit": false
       },
@@ -26478,7 +26478,7 @@
   "Camdenton": {
     "class": 5,
     "district": 5,
-    "current_total_points": 40.5923,
+    "current_total_points": 40.0694,
     "current_rank": 2,
     "games": [
       {
@@ -26570,10 +26570,10 @@
         "opponent": "Capital City",
         "opponent_type": "in_state",
         "opponent_class": 5,
-        "played": false,
-        "my_score": null,
-        "opp_score": null,
-        "won": null,
+        "played": true,
+        "my_score": 32,
+        "opp_score": 27,
+        "won": true,
         "overtime": false,
         "forfeit": false
       },
@@ -26594,7 +26594,7 @@
   "Glendale": {
     "class": 5,
     "district": 5,
-    "current_total_points": 34.4286,
+    "current_total_points": 35.8571,
     "current_rank": 4,
     "games": [
       {
@@ -26686,10 +26686,10 @@
         "opponent": "Ozark",
         "opponent_type": "in_state",
         "opponent_class": 6,
-        "played": false,
-        "my_score": null,
-        "opp_score": null,
-        "won": null,
+        "played": true,
+        "my_score": 20,
+        "opp_score": 17,
+        "won": true,
         "overtime": false,
         "forfeit": false
       },
@@ -26710,7 +26710,7 @@
   "Helias Catholic": {
     "class": 5,
     "district": 5,
-    "current_total_points": 50.8571,
+    "current_total_points": 49.0714,
     "current_rank": 1,
     "games": [
       {
@@ -26802,10 +26802,10 @@
         "opponent": "Smith-Cotton",
         "opponent_type": "in_state",
         "opponent_class": 5,
-        "played": false,
-        "my_score": null,
-        "opp_score": null,
-        "won": null,
+        "played": true,
+        "my_score": 22,
+        "opp_score": 19,
+        "won": true,
         "overtime": false,
         "forfeit": false
       },
@@ -26826,8 +26826,8 @@
   "Jefferson City": {
     "class": 5,
     "district": 5,
-    "current_total_points": 24.9524,
-    "current_rank": 7,
+    "current_total_points": 27.0893,
+    "current_rank": 6,
     "games": [
       {
         "date": "8/28/2026",
@@ -26918,10 +26918,10 @@
         "opponent": "Battle",
         "opponent_type": "in_state",
         "opponent_class": 5,
-        "played": false,
-        "my_score": null,
-        "opp_score": null,
-        "won": null,
+        "played": true,
+        "my_score": 48,
+        "opp_score": 12,
+        "won": true,
         "overtime": false,
         "forfeit": false
       },
@@ -26942,8 +26942,8 @@
   "Lebanon": {
     "class": 5,
     "district": 5,
-    "current_total_points": 25.7619,
-    "current_rank": 6,
+    "current_total_points": 25.9464,
+    "current_rank": 7,
     "games": [
       {
         "date": "8/28/2026",
@@ -27034,10 +27034,10 @@
         "opponent": "Nixa",
         "opponent_type": "in_state",
         "opponent_class": 6,
-        "played": false,
-        "my_score": null,
-        "opp_score": null,
-        "won": null,
+        "played": true,
+        "my_score": 7,
+        "opp_score": 49,
+        "won": false,
         "overtime": false,
         "forfeit": false
       },
@@ -27058,7 +27058,7 @@
   "Rolla": {
     "class": 5,
     "district": 5,
-    "current_total_points": 33.9129,
+    "current_total_points": 35.0556,
     "current_rank": 5,
     "games": [
       {
@@ -27150,10 +27150,10 @@
         "opponent": "Marshall",
         "opponent_type": "in_state",
         "opponent_class": 4,
-        "played": false,
-        "my_score": null,
-        "opp_score": null,
-        "won": null,
+        "played": true,
+        "my_score": 48,
+        "opp_score": 0,
+        "won": true,
         "overtime": false,
         "forfeit": false
       },
@@ -27174,7 +27174,7 @@
   "West Plains": {
     "class": 5,
     "district": 5,
-    "current_total_points": 38.1362,
+    "current_total_points": 38.7045,
     "current_rank": 3,
     "games": [
       {
@@ -27266,10 +27266,10 @@
         "opponent": "Parkview",
         "opponent_type": "in_state",
         "opponent_class": 5,
-        "played": false,
-        "my_score": null,
-        "opp_score": null,
-        "won": null,
+        "played": true,
+        "my_score": 41,
+        "opp_score": 6,
+        "won": true,
         "overtime": false,
         "forfeit": false
       },
@@ -27290,7 +27290,7 @@
   "Branson": {
     "class": 5,
     "district": 6,
-    "current_total_points": 42.0209,
+    "current_total_points": 42.592,
     "current_rank": 4,
     "games": [
       {
@@ -27382,10 +27382,10 @@
         "opponent": "Hillcrest",
         "opponent_type": "in_state",
         "opponent_class": 4,
-        "played": false,
-        "my_score": null,
-        "opp_score": null,
-        "won": null,
+        "played": true,
+        "my_score": 44,
+        "opp_score": 6,
+        "won": true,
         "overtime": false,
         "forfeit": false
       },
@@ -27406,8 +27406,8 @@
   "Carthage": {
     "class": 5,
     "district": 6,
-    "current_total_points": 46.9048,
-    "current_rank": 2,
+    "current_total_points": 44.2321,
+    "current_rank": 3,
     "games": [
       {
         "date": "8/28/2026",
@@ -27498,10 +27498,10 @@
         "opponent": "Republic",
         "opponent_type": "in_state",
         "opponent_class": 5,
-        "played": false,
-        "my_score": null,
-        "opp_score": null,
-        "won": null,
+        "played": true,
+        "my_score": 22,
+        "opp_score": 26,
+        "won": false,
         "overtime": false,
         "forfeit": false
       },
@@ -27522,8 +27522,8 @@
   "Neosho": {
     "class": 5,
     "district": 6,
-    "current_total_points": 45.4762,
-    "current_rank": 3,
+    "current_total_points": 45.3393,
+    "current_rank": 2,
     "games": [
       {
         "date": "8/28/2026",
@@ -27614,10 +27614,10 @@
         "opponent": "Webb City",
         "opponent_type": "in_state",
         "opponent_class": 5,
-        "played": false,
-        "my_score": null,
-        "opp_score": null,
-        "won": null,
+        "played": true,
+        "my_score": 35,
+        "opp_score": 28,
+        "won": true,
         "overtime": false,
         "forfeit": false
       },
@@ -27638,7 +27638,7 @@
   "Parkview": {
     "class": 5,
     "district": 6,
-    "current_total_points": 13.4643,
+    "current_total_points": 13.783,
     "current_rank": 7,
     "games": [
       {
@@ -27730,10 +27730,10 @@
         "opponent": "West Plains",
         "opponent_type": "in_state",
         "opponent_class": 5,
-        "played": false,
-        "my_score": null,
-        "opp_score": null,
-        "won": null,
+        "played": true,
+        "my_score": 6,
+        "opp_score": 41,
+        "won": false,
         "overtime": false,
         "forfeit": false
       },
@@ -27754,7 +27754,7 @@
   "Republic": {
     "class": 5,
     "district": 6,
-    "current_total_points": 49.1429,
+    "current_total_points": 48.3214,
     "current_rank": 1,
     "games": [
       {
@@ -27846,10 +27846,10 @@
         "opponent": "Carthage",
         "opponent_type": "in_state",
         "opponent_class": 5,
-        "played": false,
-        "my_score": null,
-        "opp_score": null,
-        "won": null,
+        "played": true,
+        "my_score": 26,
+        "opp_score": 22,
+        "won": true,
         "overtime": false,
         "forfeit": false
       },
@@ -27870,7 +27870,7 @@
   "Webb City": {
     "class": 5,
     "district": 6,
-    "current_total_points": 39.7143,
+    "current_total_points": 37.2679,
     "current_rank": 5,
     "games": [
       {
@@ -27962,10 +27962,10 @@
         "opponent": "Neosho",
         "opponent_type": "in_state",
         "opponent_class": 5,
-        "played": false,
-        "my_score": null,
-        "opp_score": null,
-        "won": null,
+        "played": true,
+        "my_score": 28,
+        "opp_score": 35,
+        "won": false,
         "overtime": false,
         "forfeit": false
       },
@@ -27986,7 +27986,7 @@
   "Willard": {
     "class": 5,
     "district": 6,
-    "current_total_points": 20.9524,
+    "current_total_points": 20.7857,
     "current_rank": 6,
     "games": [
       {
@@ -28078,10 +28078,10 @@
         "opponent": "Joplin",
         "opponent_type": "in_state",
         "opponent_class": 6,
-        "played": false,
-        "my_score": null,
-        "opp_score": null,
-        "won": null,
+        "played": true,
+        "my_score": 9,
+        "opp_score": 51,
+        "won": false,
         "overtime": false,
         "forfeit": false
       },
@@ -28102,7 +28102,7 @@
   "Battle": {
     "class": 5,
     "district": 7,
-    "current_total_points": 15.0952,
+    "current_total_points": 14.3214,
     "current_rank": 7,
     "games": [
       {
@@ -28194,10 +28194,10 @@
         "opponent": "Jefferson City",
         "opponent_type": "in_state",
         "opponent_class": 5,
-        "played": false,
-        "my_score": null,
-        "opp_score": null,
-        "won": null,
+        "played": true,
+        "my_score": 12,
+        "opp_score": 48,
+        "won": false,
         "overtime": false,
         "forfeit": false
       },
@@ -28218,8 +28218,8 @@
   "Belton": {
     "class": 5,
     "district": 7,
-    "current_total_points": 31.0952,
-    "current_rank": 2,
+    "current_total_points": 28.6786,
+    "current_rank": 3,
     "games": [
       {
         "date": "8/28/2026",
@@ -28310,10 +28310,10 @@
         "opponent": "Fort Osage",
         "opponent_type": "in_state",
         "opponent_class": 5,
-        "played": false,
-        "my_score": null,
-        "opp_score": null,
-        "won": null,
+        "played": true,
+        "my_score": 0,
+        "opp_score": 50,
+        "won": false,
         "overtime": false,
         "forfeit": false
       },
@@ -28334,7 +28334,7 @@
   "Capital City": {
     "class": 5,
     "district": 7,
-    "current_total_points": 24.122,
+    "current_total_points": 23.8704,
     "current_rank": 5,
     "games": [
       {
@@ -28426,10 +28426,10 @@
         "opponent": "Camdenton",
         "opponent_type": "in_state",
         "opponent_class": 5,
-        "played": false,
-        "my_score": null,
-        "opp_score": null,
-        "won": null,
+        "played": true,
+        "my_score": 27,
+        "opp_score": 32,
+        "won": false,
         "overtime": false,
         "forfeit": false
       },
@@ -28450,7 +28450,7 @@
   "Grain Valley": {
     "class": 5,
     "district": 7,
-    "current_total_points": 37.619,
+    "current_total_points": 40.1071,
     "current_rank": 1,
     "games": [
       {
@@ -28542,10 +28542,10 @@
         "opponent": "Central (St. Joseph)",
         "opponent_type": "in_state",
         "opponent_class": 6,
-        "played": false,
-        "my_score": null,
-        "opp_score": null,
-        "won": null,
+        "played": true,
+        "my_score": 57,
+        "opp_score": 27,
+        "won": true,
         "overtime": false,
         "forfeit": false
       },
@@ -28566,7 +28566,7 @@
   "Grandview": {
     "class": 5,
     "district": 7,
-    "current_total_points": 26.2381,
+    "current_total_points": 25.2045,
     "current_rank": 4,
     "games": [
       {
@@ -28658,10 +28658,10 @@
         "opponent": "Kearney",
         "opponent_type": "in_state",
         "opponent_class": 4,
-        "played": false,
-        "my_score": null,
-        "opp_score": null,
-        "won": null,
+        "played": true,
+        "my_score": 8,
+        "opp_score": 58,
+        "won": false,
         "overtime": false,
         "forfeit": false
       },
@@ -28682,7 +28682,7 @@
   "Ruskin": {
     "class": 5,
     "district": 7,
-    "current_total_points": 21.619,
+    "current_total_points": 20.625,
     "current_rank": 6,
     "games": [
       {
@@ -28774,10 +28774,10 @@
         "opponent": "Smithville",
         "opponent_type": "in_state",
         "opponent_class": 4,
-        "played": false,
-        "my_score": null,
-        "opp_score": null,
-        "won": null,
+        "played": true,
+        "my_score": 6,
+        "opp_score": 57,
+        "won": false,
         "overtime": false,
         "forfeit": false
       },
@@ -28798,8 +28798,8 @@
   "Smith-Cotton": {
     "class": 5,
     "district": 7,
-    "current_total_points": 29.9048,
-    "current_rank": 3,
+    "current_total_points": 29.6607,
+    "current_rank": 2,
     "games": [
       {
         "date": "8/28/2026",
@@ -28890,10 +28890,10 @@
         "opponent": "Helias Catholic",
         "opponent_type": "in_state",
         "opponent_class": 5,
-        "played": false,
-        "my_score": null,
-        "opp_score": null,
-        "won": null,
+        "played": true,
+        "my_score": 19,
+        "opp_score": 22,
+        "won": false,
         "overtime": false,
         "forfeit": false
       },
@@ -28914,7 +28914,7 @@
   "Fort Osage": {
     "class": 5,
     "district": 8,
-    "current_total_points": 32.7619,
+    "current_total_points": 34.7857,
     "current_rank": 2,
     "games": [
       {
@@ -29006,10 +29006,10 @@
         "opponent": "Belton",
         "opponent_type": "in_state",
         "opponent_class": 5,
-        "played": false,
-        "my_score": null,
-        "opp_score": null,
-        "won": null,
+        "played": true,
+        "my_score": 50,
+        "opp_score": 0,
+        "won": true,
         "overtime": false,
         "forfeit": false
       },
@@ -29030,7 +29030,7 @@
   "Lincoln College Prep": {
     "class": 5,
     "district": 8,
-    "current_total_points": 28.4146,
+    "current_total_points": 26.3349,
     "current_rank": 5,
     "games": [
       {
@@ -29122,10 +29122,10 @@
         "opponent": "Oak Grove",
         "opponent_type": "in_state",
         "opponent_class": 3,
-        "played": false,
-        "my_score": null,
-        "opp_score": null,
-        "won": null,
+        "played": true,
+        "my_score": 6,
+        "opp_score": 41,
+        "won": false,
         "overtime": false,
         "forfeit": false
       },
@@ -29146,7 +29146,7 @@
   "Platte County": {
     "class": 5,
     "district": 8,
-    "current_total_points": 42.2857,
+    "current_total_points": 42.5536,
     "current_rank": 1,
     "games": [
       {
@@ -29238,10 +29238,10 @@
         "opponent": "Truman",
         "opponent_type": "in_state",
         "opponent_class": 5,
-        "played": false,
-        "my_score": null,
-        "opp_score": null,
-        "won": null,
+        "played": true,
+        "my_score": 83,
+        "opp_score": 0,
+        "won": true,
         "overtime": false,
         "forfeit": false
       },
@@ -29262,7 +29262,7 @@
   "Raytown": {
     "class": 5,
     "district": 8,
-    "current_total_points": 31.2381,
+    "current_total_points": 33.3929,
     "current_rank": 3,
     "games": [
       {
@@ -29354,10 +29354,10 @@
         "opponent": "William Chrisman",
         "opponent_type": "in_state",
         "opponent_class": 5,
-        "played": false,
-        "my_score": null,
-        "opp_score": null,
-        "won": null,
+        "played": true,
+        "my_score": 27,
+        "opp_score": 12,
+        "won": true,
         "overtime": false,
         "forfeit": false
       },
@@ -29378,7 +29378,7 @@
   "Truman": {
     "class": 5,
     "district": 8,
-    "current_total_points": 11.0476,
+    "current_total_points": 11.6429,
     "current_rank": 7,
     "games": [
       {
@@ -29470,10 +29470,10 @@
         "opponent": "Platte County",
         "opponent_type": "in_state",
         "opponent_class": 5,
-        "played": false,
-        "my_score": null,
-        "opp_score": null,
-        "won": null,
+        "played": true,
+        "my_score": 0,
+        "opp_score": 83,
+        "won": false,
         "overtime": false,
         "forfeit": false
       },
@@ -29494,7 +29494,7 @@
   "William Chrisman": {
     "class": 5,
     "district": 8,
-    "current_total_points": 26.0066,
+    "current_total_points": 24.4821,
     "current_rank": 6,
     "games": [
       {
@@ -29586,10 +29586,10 @@
         "opponent": "Raytown",
         "opponent_type": "in_state",
         "opponent_class": 5,
-        "played": false,
-        "my_score": null,
-        "opp_score": null,
-        "won": null,
+        "played": true,
+        "my_score": 12,
+        "opp_score": 27,
+        "won": false,
         "overtime": false,
         "forfeit": false
       },
@@ -29610,7 +29610,7 @@
   "Winnetonka": {
     "class": 5,
     "district": 8,
-    "current_total_points": 28.8095,
+    "current_total_points": 29.8393,
     "current_rank": 4,
     "games": [
       {
@@ -29702,10 +29702,10 @@
         "opponent": "Raytown South",
         "opponent_type": "in_state",
         "opponent_class": 4,
-        "played": false,
-        "my_score": null,
-        "opp_score": null,
-        "won": null,
+        "played": true,
+        "my_score": 9,
+        "opp_score": 6,
+        "won": true,
         "overtime": false,
         "forfeit": false
       },
@@ -29726,7 +29726,7 @@
   "Jackson": {
     "class": 6,
     "district": 1,
-    "current_total_points": 48.5556,
+    "current_total_points": 48.5357,
     "current_rank": 1,
     "games": [
       {
@@ -29818,10 +29818,10 @@
         "opponent": "Hannibal",
         "opponent_type": "in_state",
         "opponent_class": 4,
-        "played": false,
-        "my_score": null,
-        "opp_score": null,
-        "won": null,
+        "played": true,
+        "my_score": 49,
+        "opp_score": 21,
+        "won": true,
         "overtime": false,
         "forfeit": false
       },
@@ -29842,7 +29842,7 @@
   "Lindbergh": {
     "class": 6,
     "district": 1,
-    "current_total_points": 27.5854,
+    "current_total_points": 28.8636,
     "current_rank": 5,
     "games": [
       {
@@ -29934,10 +29934,10 @@
         "opponent": "Marquette",
         "opponent_type": "in_state",
         "opponent_class": 6,
-        "played": false,
-        "my_score": null,
-        "opp_score": null,
-        "won": null,
+        "played": true,
+        "my_score": 28,
+        "opp_score": 25,
+        "won": true,
         "overtime": false,
         "forfeit": false
       },
@@ -29958,7 +29958,7 @@
   "Northwest (Cedar Hill)": {
     "class": 6,
     "district": 1,
-    "current_total_points": 44.4524,
+    "current_total_points": 44.9205,
     "current_rank": 2,
     "games": [
       {
@@ -30050,10 +30050,10 @@
         "opponent": "Webster Groves",
         "opponent_type": "in_state",
         "opponent_class": 5,
-        "played": false,
-        "my_score": null,
-        "opp_score": null,
-        "won": null,
+        "played": true,
+        "my_score": 35,
+        "opp_score": 0,
+        "won": true,
         "overtime": false,
         "forfeit": false
       },
@@ -30074,7 +30074,7 @@
   "Oakville": {
     "class": 6,
     "district": 1,
-    "current_total_points": 42.6098,
+    "current_total_points": 42.4773,
     "current_rank": 3,
     "games": [
       {
@@ -30166,10 +30166,10 @@
         "opponent": "Mehlville",
         "opponent_type": "in_state",
         "opponent_class": 5,
-        "played": false,
-        "my_score": null,
-        "opp_score": null,
-        "won": null,
+        "played": true,
+        "my_score": 55,
+        "opp_score": 0,
+        "won": true,
         "overtime": false,
         "forfeit": false
       },
@@ -30190,7 +30190,7 @@
   "Seckman": {
     "class": 6,
     "district": 1,
-    "current_total_points": 40.5238,
+    "current_total_points": 42.0536,
     "current_rank": 4,
     "games": [
       {
@@ -30282,10 +30282,10 @@
         "opponent": "Ritenour",
         "opponent_type": "in_state",
         "opponent_class": 6,
-        "played": false,
-        "my_score": null,
-        "opp_score": null,
-        "won": null,
+        "played": true,
+        "my_score": 26,
+        "opp_score": 0,
+        "won": true,
         "overtime": false,
         "forfeit": false
       },
@@ -30306,7 +30306,7 @@
   "Christian Brothers College": {
     "class": 6,
     "district": 2,
-    "current_total_points": 34.775,
+    "current_total_points": 34.6713,
     "current_rank": 3,
     "games": [
       {
@@ -30422,7 +30422,7 @@
   "De Smet Jesuit": {
     "class": 6,
     "district": 2,
-    "current_total_points": 41.224,
+    "current_total_points": 39.2321,
     "current_rank": 2,
     "games": [
       {
@@ -30514,10 +30514,10 @@
         "opponent": "St. Mary's South Side",
         "opponent_type": "in_state",
         "opponent_class": 5,
-        "played": false,
-        "my_score": null,
-        "opp_score": null,
-        "won": null,
+        "played": true,
+        "my_score": 35,
+        "opp_score": 37,
+        "won": false,
         "overtime": false,
         "forfeit": false
       },
@@ -30538,7 +30538,7 @@
   "Kirkwood": {
     "class": 6,
     "district": 2,
-    "current_total_points": 42.8889,
+    "current_total_points": 42.8571,
     "current_rank": 1,
     "games": [
       {
@@ -30618,10 +30618,10 @@
         "opponent": "Rockwood Summit",
         "opponent_type": "in_state",
         "opponent_class": 5,
-        "played": false,
-        "my_score": null,
-        "opp_score": null,
-        "won": null,
+        "played": true,
+        "my_score": 20,
+        "opp_score": 14,
+        "won": true,
         "overtime": false,
         "forfeit": false
       },
@@ -30654,7 +30654,7 @@
   "Lafayette (Wildwood)": {
     "class": 6,
     "district": 2,
-    "current_total_points": 29.5714,
+    "current_total_points": 27.6429,
     "current_rank": 5,
     "games": [
       {
@@ -30746,10 +30746,10 @@
         "opponent": "Eureka",
         "opponent_type": "in_state",
         "opponent_class": 5,
-        "played": false,
-        "my_score": null,
-        "opp_score": null,
-        "won": null,
+        "played": true,
+        "my_score": 8,
+        "opp_score": 35,
+        "won": false,
         "overtime": false,
         "forfeit": false
       },
@@ -30770,7 +30770,7 @@
   "Marquette": {
     "class": 6,
     "district": 2,
-    "current_total_points": 32.7909,
+    "current_total_points": 31.2841,
     "current_rank": 4,
     "games": [
       {
@@ -30862,10 +30862,10 @@
         "opponent": "Lindbergh",
         "opponent_type": "in_state",
         "opponent_class": 6,
-        "played": false,
-        "my_score": null,
-        "opp_score": null,
-        "won": null,
+        "played": true,
+        "my_score": 25,
+        "opp_score": 28,
+        "won": false,
         "overtime": false,
         "forfeit": false
       },
@@ -30886,7 +30886,7 @@
   "Francis Howell North": {
     "class": 6,
     "district": 3,
-    "current_total_points": 12.9524,
+    "current_total_points": 12.8182,
     "current_rank": 5,
     "games": [
       {
@@ -30978,10 +30978,10 @@
         "opponent": "Francis Howell",
         "opponent_type": "in_state",
         "opponent_class": 6,
-        "played": false,
-        "my_score": null,
-        "opp_score": null,
-        "won": null,
+        "played": true,
+        "my_score": 0,
+        "opp_score": 57,
+        "won": false,
         "overtime": false,
         "forfeit": false
       },
@@ -31002,7 +31002,7 @@
   "Hazelwood West": {
     "class": 6,
     "district": 3,
-    "current_total_points": 21.4524,
+    "current_total_points": 20.6429,
     "current_rank": 4,
     "games": [
       {
@@ -31094,10 +31094,10 @@
         "opponent": "Parkway West",
         "opponent_type": "in_state",
         "opponent_class": 5,
-        "played": false,
-        "my_score": null,
-        "opp_score": null,
-        "won": null,
+        "played": true,
+        "my_score": 20,
+        "opp_score": 49,
+        "won": false,
         "overtime": false,
         "forfeit": false
       },
@@ -31118,7 +31118,7 @@
   "Pattonville": {
     "class": 6,
     "district": 3,
-    "current_total_points": 42.9048,
+    "current_total_points": 43.2143,
     "current_rank": 1,
     "games": [
       {
@@ -31210,10 +31210,10 @@
         "opponent": "Parkway North",
         "opponent_type": "in_state",
         "opponent_class": 4,
-        "played": false,
-        "my_score": null,
-        "opp_score": null,
-        "won": null,
+        "played": true,
+        "my_score": 35,
+        "opp_score": 14,
+        "won": true,
         "overtime": false,
         "forfeit": false
       },
@@ -31234,7 +31234,7 @@
   "Ritenour": {
     "class": 6,
     "district": 3,
-    "current_total_points": 33.878,
+    "current_total_points": 31.7045,
     "current_rank": 3,
     "games": [
       {
@@ -31326,10 +31326,10 @@
         "opponent": "Seckman",
         "opponent_type": "in_state",
         "opponent_class": 6,
-        "played": false,
-        "my_score": null,
-        "opp_score": null,
-        "won": null,
+        "played": true,
+        "my_score": 0,
+        "opp_score": 26,
+        "won": false,
         "overtime": false,
         "forfeit": false
       },
@@ -31350,7 +31350,7 @@
   "SLUH": {
     "class": 6,
     "district": 3,
-    "current_total_points": 37.1429,
+    "current_total_points": 38.3182,
     "current_rank": 2,
     "games": [
       {
@@ -31442,10 +31442,10 @@
         "opponent": "Gateway with Soldan International Studies",
         "opponent_type": "in_state",
         "opponent_class": 4,
-        "played": false,
-        "my_score": null,
-        "opp_score": null,
-        "won": null,
+        "played": true,
+        "my_score": 35,
+        "opp_score": 0,
+        "won": true,
         "overtime": false,
         "forfeit": false
       },
@@ -31466,7 +31466,7 @@
   "Francis Howell": {
     "class": 6,
     "district": 4,
-    "current_total_points": 36.3854,
+    "current_total_points": 37.3036,
     "current_rank": 2,
     "games": [
       {
@@ -31558,10 +31558,10 @@
         "opponent": "Francis Howell North",
         "opponent_type": "in_state",
         "opponent_class": 6,
-        "played": false,
-        "my_score": null,
-        "opp_score": null,
-        "won": null,
+        "played": true,
+        "my_score": 57,
+        "opp_score": 0,
+        "won": true,
         "overtime": false,
         "forfeit": false
       },
@@ -31582,7 +31582,7 @@
   "Francis Howell Central": {
     "class": 6,
     "district": 4,
-    "current_total_points": 27.6429,
+    "current_total_points": 25.9107,
     "current_rank": 4,
     "games": [
       {
@@ -31674,10 +31674,10 @@
         "opponent": "Ft. Zumwalt West",
         "opponent_type": "in_state",
         "opponent_class": 6,
-        "played": false,
-        "my_score": null,
-        "opp_score": null,
-        "won": null,
+        "played": true,
+        "my_score": 3,
+        "opp_score": 34,
+        "won": false,
         "overtime": false,
         "forfeit": false
       },
@@ -31698,7 +31698,7 @@
   "Ft. Zumwalt West": {
     "class": 6,
     "district": 4,
-    "current_total_points": 28.5952,
+    "current_total_points": 30.9464,
     "current_rank": 3,
     "games": [
       {
@@ -31790,10 +31790,10 @@
         "opponent": "Francis Howell Central",
         "opponent_type": "in_state",
         "opponent_class": 6,
-        "played": false,
-        "my_score": null,
-        "opp_score": null,
-        "won": null,
+        "played": true,
+        "my_score": 34,
+        "opp_score": 3,
+        "won": true,
         "overtime": false,
         "forfeit": false
       },
@@ -31814,7 +31814,7 @@
   "Liberty (Wentzville)": {
     "class": 6,
     "district": 4,
-    "current_total_points": 21.6412,
+    "current_total_points": 21.0714,
     "current_rank": 5,
     "games": [
       {
@@ -31906,10 +31906,10 @@
         "opponent": "Troy Buchanan",
         "opponent_type": "in_state",
         "opponent_class": 6,
-        "played": false,
-        "my_score": null,
-        "opp_score": null,
-        "won": null,
+        "played": true,
+        "my_score": 0,
+        "opp_score": 31,
+        "won": false,
         "overtime": false,
         "forfeit": false
       },
@@ -31930,7 +31930,7 @@
   "Troy Buchanan": {
     "class": 6,
     "district": 4,
-    "current_total_points": 44.1163,
+    "current_total_points": 44.3214,
     "current_rank": 1,
     "games": [
       {
@@ -32022,10 +32022,10 @@
         "opponent": "Liberty (Wentzville)",
         "opponent_type": "in_state",
         "opponent_class": 6,
-        "played": false,
-        "my_score": null,
-        "opp_score": null,
-        "won": null,
+        "played": true,
+        "my_score": 31,
+        "opp_score": 0,
+        "won": true,
         "overtime": false,
         "forfeit": false
       },
@@ -32046,7 +32046,7 @@
   "Joplin": {
     "class": 6,
     "district": 5,
-    "current_total_points": 25.0952,
+    "current_total_points": 27.5714,
     "current_rank": 3,
     "games": [
       {
@@ -32138,10 +32138,10 @@
         "opponent": "Willard",
         "opponent_type": "in_state",
         "opponent_class": 5,
-        "played": false,
-        "my_score": null,
-        "opp_score": null,
-        "won": null,
+        "played": true,
+        "my_score": 51,
+        "opp_score": 9,
+        "won": true,
         "overtime": false,
         "forfeit": false
       },
@@ -32162,7 +32162,7 @@
   "Kickapoo": {
     "class": 6,
     "district": 5,
-    "current_total_points": 18.4286,
+    "current_total_points": 20.3393,
     "current_rank": 4,
     "games": [
       {
@@ -32254,10 +32254,10 @@
         "opponent": "Waynesville",
         "opponent_type": "in_state",
         "opponent_class": 6,
-        "played": false,
-        "my_score": null,
-        "opp_score": null,
-        "won": null,
+        "played": true,
+        "my_score": 18,
+        "opp_score": 15,
+        "won": true,
         "overtime": false,
         "forfeit": false
       },
@@ -32278,7 +32278,7 @@
   "Nixa": {
     "class": 6,
     "district": 5,
-    "current_total_points": 43.2381,
+    "current_total_points": 43.4464,
     "current_rank": 1,
     "games": [
       {
@@ -32370,10 +32370,10 @@
         "opponent": "Lebanon",
         "opponent_type": "in_state",
         "opponent_class": 5,
-        "played": false,
-        "my_score": null,
-        "opp_score": null,
-        "won": null,
+        "played": true,
+        "my_score": 49,
+        "opp_score": 7,
+        "won": true,
         "overtime": false,
         "forfeit": false
       },
@@ -32394,7 +32394,7 @@
   "Ozark": {
     "class": 6,
     "district": 5,
-    "current_total_points": 29.0952,
+    "current_total_points": 28.1786,
     "current_rank": 2,
     "games": [
       {
@@ -32486,10 +32486,10 @@
         "opponent": "Glendale",
         "opponent_type": "in_state",
         "opponent_class": 5,
-        "played": false,
-        "my_score": null,
-        "opp_score": null,
-        "won": null,
+        "played": true,
+        "my_score": 17,
+        "opp_score": 20,
+        "won": false,
         "overtime": false,
         "forfeit": false
       },
@@ -32510,7 +32510,7 @@
   "Waynesville": {
     "class": 6,
     "district": 5,
-    "current_total_points": 11.7619,
+    "current_total_points": 12.7143,
     "current_rank": 5,
     "games": [
       {
@@ -32602,10 +32602,10 @@
         "opponent": "Kickapoo",
         "opponent_type": "in_state",
         "opponent_class": 6,
-        "played": false,
-        "my_score": null,
-        "opp_score": null,
-        "won": null,
+        "played": true,
+        "my_score": 15,
+        "opp_score": 18,
+        "won": false,
         "overtime": false,
         "forfeit": false
       },
@@ -32626,7 +32626,7 @@
   "Blue Springs": {
     "class": 6,
     "district": 6,
-    "current_total_points": 40.7619,
+    "current_total_points": 41.6964,
     "current_rank": 1,
     "games": [
       {
@@ -32718,10 +32718,10 @@
         "opponent": "Lee's Summit",
         "opponent_type": "in_state",
         "opponent_class": 6,
-        "played": false,
-        "my_score": null,
-        "opp_score": null,
-        "won": null,
+        "played": true,
+        "my_score": 41,
+        "opp_score": 20,
+        "won": true,
         "overtime": false,
         "forfeit": false
       },
@@ -32742,7 +32742,7 @@
   "Blue Springs South": {
     "class": 6,
     "district": 6,
-    "current_total_points": 33.8333,
+    "current_total_points": 32.1786,
     "current_rank": 5,
     "games": [
       {
@@ -32834,10 +32834,10 @@
         "opponent": "Rockhurst",
         "opponent_type": "in_state",
         "opponent_class": 6,
-        "played": false,
-        "my_score": null,
-        "opp_score": null,
-        "won": null,
+        "played": true,
+        "my_score": 16,
+        "opp_score": 21,
+        "won": false,
         "overtime": false,
         "forfeit": false
       },
@@ -32858,7 +32858,7 @@
   "Hickman": {
     "class": 6,
     "district": 6,
-    "current_total_points": 36.5,
+    "current_total_points": 33.8393,
     "current_rank": 4,
     "games": [
       {
@@ -32950,10 +32950,10 @@
         "opponent": "Rock Bridge",
         "opponent_type": "in_state",
         "opponent_class": 6,
-        "played": false,
-        "my_score": null,
-        "opp_score": null,
-        "won": null,
+        "played": true,
+        "my_score": 7,
+        "opp_score": 33,
+        "won": false,
         "overtime": false,
         "forfeit": false
       },
@@ -32974,7 +32974,7 @@
   "Lee's Summit": {
     "class": 6,
     "district": 6,
-    "current_total_points": 32.2857,
+    "current_total_points": 29.9659,
     "current_rank": 6,
     "games": [
       {
@@ -33066,10 +33066,10 @@
         "opponent": "Blue Springs",
         "opponent_type": "in_state",
         "opponent_class": 6,
-        "played": false,
-        "my_score": null,
-        "opp_score": null,
-        "won": null,
+        "played": true,
+        "my_score": 20,
+        "opp_score": 41,
+        "won": false,
         "overtime": false,
         "forfeit": false
       },
@@ -33090,8 +33090,8 @@
   "Lee's Summit North": {
     "class": 6,
     "district": 6,
-    "current_total_points": 38.2381,
-    "current_rank": 2,
+    "current_total_points": 38.8068,
+    "current_rank": 3,
     "games": [
       {
         "date": "8/28/2026",
@@ -33182,10 +33182,10 @@
         "opponent": "Liberty",
         "opponent_type": "in_state",
         "opponent_class": 6,
-        "played": false,
-        "my_score": null,
-        "opp_score": null,
-        "won": null,
+        "played": true,
+        "my_score": 35,
+        "opp_score": 0,
+        "won": true,
         "overtime": false,
         "forfeit": false
       },
@@ -33206,8 +33206,8 @@
   "Rock Bridge": {
     "class": 6,
     "district": 6,
-    "current_total_points": 37.1429,
-    "current_rank": 3,
+    "current_total_points": 38.9464,
+    "current_rank": 2,
     "games": [
       {
         "date": "8/28/2026",
@@ -33298,10 +33298,10 @@
         "opponent": "Hickman",
         "opponent_type": "in_state",
         "opponent_class": 6,
-        "played": false,
-        "my_score": null,
-        "opp_score": null,
-        "won": null,
+        "played": true,
+        "my_score": 33,
+        "opp_score": 7,
+        "won": true,
         "overtime": false,
         "forfeit": false
       },
@@ -33322,7 +33322,7 @@
   "Lee's Summit West": {
     "class": 6,
     "district": 7,
-    "current_total_points": 23.6905,
+    "current_total_points": 25.4107,
     "current_rank": 4,
     "games": [
       {
@@ -33414,10 +33414,10 @@
         "opponent": "Staley",
         "opponent_type": "in_state",
         "opponent_class": 6,
-        "played": false,
-        "my_score": null,
-        "opp_score": null,
-        "won": null,
+        "played": true,
+        "my_score": 28,
+        "opp_score": 24,
+        "won": true,
         "overtime": false,
         "forfeit": false
       },
@@ -33438,8 +33438,8 @@
   "North Kansas City": {
     "class": 6,
     "district": 7,
-    "current_total_points": 39.2619,
-    "current_rank": 2,
+    "current_total_points": 40.0714,
+    "current_rank": 1,
     "games": [
       {
         "date": "8/28/2026",
@@ -33530,10 +33530,10 @@
         "opponent": "Park Hill South",
         "opponent_type": "in_state",
         "opponent_class": 6,
-        "played": false,
-        "my_score": null,
-        "opp_score": null,
-        "won": null,
+        "played": true,
+        "my_score": 55,
+        "opp_score": 0,
+        "won": true,
         "overtime": false,
         "forfeit": false
       },
@@ -33554,7 +33554,7 @@
   "Park Hill South": {
     "class": 6,
     "district": 7,
-    "current_total_points": 23.2857,
+    "current_total_points": 22.2321,
     "current_rank": 5,
     "games": [
       {
@@ -33646,10 +33646,10 @@
         "opponent": "North Kansas City",
         "opponent_type": "in_state",
         "opponent_class": 6,
-        "played": false,
-        "my_score": null,
-        "opp_score": null,
-        "won": null,
+        "played": true,
+        "my_score": 0,
+        "opp_score": 55,
+        "won": false,
         "overtime": false,
         "forfeit": false
       },
@@ -33670,8 +33670,8 @@
   "Raymore-Peculiar": {
     "class": 6,
     "district": 7,
-    "current_total_points": 41.6516,
-    "current_rank": 1,
+    "current_total_points": 38.9306,
+    "current_rank": 2,
     "games": [
       {
         "date": "8/28/2026",
@@ -33762,10 +33762,10 @@
         "opponent": "Liberty North",
         "opponent_type": "in_state",
         "opponent_class": 6,
-        "played": false,
-        "my_score": null,
-        "opp_score": null,
-        "won": null,
+        "played": true,
+        "my_score": 17,
+        "opp_score": 24,
+        "won": false,
         "overtime": false,
         "forfeit": false
       },
@@ -33786,7 +33786,7 @@
   "Rockhurst": {
     "class": 6,
     "district": 7,
-    "current_total_points": 31.9286,
+    "current_total_points": 33.1458,
     "current_rank": 3,
     "games": [
       {
@@ -33878,10 +33878,10 @@
         "opponent": "Blue Springs South",
         "opponent_type": "in_state",
         "opponent_class": 6,
-        "played": false,
-        "my_score": null,
-        "opp_score": null,
-        "won": null,
+        "played": true,
+        "my_score": 21,
+        "opp_score": 16,
+        "won": true,
         "overtime": false,
         "forfeit": false
       },
@@ -33902,7 +33902,7 @@
   "Central (St. Joseph)": {
     "class": 6,
     "district": 8,
-    "current_total_points": 23.4762,
+    "current_total_points": 22.4286,
     "current_rank": 5,
     "games": [
       {
@@ -33994,10 +33994,10 @@
         "opponent": "Grain Valley",
         "opponent_type": "in_state",
         "opponent_class": 5,
-        "played": false,
-        "my_score": null,
-        "opp_score": null,
-        "won": null,
+        "played": true,
+        "my_score": 27,
+        "opp_score": 57,
+        "won": false,
         "overtime": false,
         "forfeit": false
       },
@@ -34018,7 +34018,7 @@
   "Liberty": {
     "class": 6,
     "district": 8,
-    "current_total_points": 18.6667,
+    "current_total_points": 18.0714,
     "current_rank": 6,
     "games": [
       {
@@ -34110,10 +34110,10 @@
         "opponent": "Lee's Summit North",
         "opponent_type": "in_state",
         "opponent_class": 6,
-        "played": false,
-        "my_score": null,
-        "opp_score": null,
-        "won": null,
+        "played": true,
+        "my_score": 0,
+        "opp_score": 35,
+        "won": false,
         "overtime": false,
         "forfeit": false
       },
@@ -34134,7 +34134,7 @@
   "Liberty North": {
     "class": 6,
     "district": 8,
-    "current_total_points": 38.7381,
+    "current_total_points": 39.4286,
     "current_rank": 1,
     "games": [
       {
@@ -34226,10 +34226,10 @@
         "opponent": "Raymore-Peculiar",
         "opponent_type": "in_state",
         "opponent_class": 6,
-        "played": false,
-        "my_score": null,
-        "opp_score": null,
-        "won": null,
+        "played": true,
+        "my_score": 24,
+        "opp_score": 17,
+        "won": true,
         "overtime": false,
         "forfeit": false
       },
@@ -34250,7 +34250,7 @@
   "Oak Park": {
     "class": 6,
     "district": 8,
-    "current_total_points": 32.9048,
+    "current_total_points": 32.0179,
     "current_rank": 2,
     "games": [
       {
@@ -34342,11 +34342,11 @@
         "opponent": "Park Hill",
         "opponent_type": "in_state",
         "opponent_class": 6,
-        "played": false,
-        "my_score": null,
-        "opp_score": null,
-        "won": null,
-        "overtime": false,
+        "played": true,
+        "my_score": 17,
+        "opp_score": 20,
+        "won": false,
+        "overtime": true,
         "forfeit": false
       },
       {
@@ -34366,7 +34366,7 @@
   "Park Hill": {
     "class": 6,
     "district": 8,
-    "current_total_points": 27.1429,
+    "current_total_points": 28.5893,
     "current_rank": 3,
     "games": [
       {
@@ -34458,11 +34458,11 @@
         "opponent": "Oak Park",
         "opponent_type": "in_state",
         "opponent_class": 6,
-        "played": false,
-        "my_score": null,
-        "opp_score": null,
-        "won": null,
-        "overtime": false,
+        "played": true,
+        "my_score": 20,
+        "opp_score": 17,
+        "won": true,
+        "overtime": true,
         "forfeit": false
       },
       {
@@ -34482,7 +34482,7 @@
   "Staley": {
     "class": 6,
     "district": 8,
-    "current_total_points": 26.7735,
+    "current_total_points": 25.7176,
     "current_rank": 4,
     "games": [
       {
@@ -34574,10 +34574,10 @@
         "opponent": "Lee's Summit West",
         "opponent_type": "in_state",
         "opponent_class": 6,
-        "played": false,
-        "my_score": null,
-        "opp_score": null,
-        "won": null,
+        "played": true,
+        "my_score": 24,
+        "opp_score": 28,
+        "won": false,
         "overtime": false,
         "forfeit": false
       },
