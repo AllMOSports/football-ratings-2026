@@ -289,7 +289,7 @@ class Season:
  
         T = np.where(ff, np.where(won, P["win"], P["forfeit"]),
                      np.where(won, P["win"], np.where(e_ot, P["ot_loss"], P["loss"])))
-        U = np.where(ff & ~won, 0.0, self.e_ubase)
+        U = np.broadcast_to(np.where(ff, 0.0, self.e_ubase), em.shape)   # no class bonus for either team in a forfeit
         X = np.clip(em, -P["diff_cap"], P["diff_cap"])
  
         ow, ol, oo = wins[:, self.e_opp], losses[:, self.e_opp], otl[:, self.e_opp]
