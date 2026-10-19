@@ -9,13 +9,16 @@ Method: Rating Over Expected
   3. Teams are ranked by POE. A size-adjusted z-score (POE / local spread,
      with the spread modeled against ln(enrollment)) is kept as a reference
      column only, since the spread is nearly flat across school sizes
-  4. "Plays like a school of N": inverts the curve to find the enrollment
+  4. Private (non-charter, non-boundaried) schools are scored against the
+     expected rating for PRIVATE_FACTOR x their enrollment, since they draw
+     from a wider area. Charters stay on raw enrollment.
+  5. "Plays like a school of N": inverts the curve to find the enrollment
      whose expected OVR equals the team's actual OVR (clamped to the
      observed enrollment range)
  
 Inputs (local file paths tried first, then GitHub raw URLs):
   - football_ratings_2026.json           (football-ratings-2026 repo)
-  - classifications.json (Football teams with enrollment, All_MO_Sports-Data repo)
+  - mshsaa_enrollments_2026-2027.json  (MSHSAA 2026-27 enrollments, same repo)
  
 Outputs:
   - per_capita_football_2026.json
@@ -42,10 +45,13 @@ RATINGS_SOURCES = [
     "https://raw.githubusercontent.com/AllMOSports/football-ratings-2026/main/football_ratings_2026.json",
 ]
 ENROLLMENT_SOURCES = [
-    "../All_MO_Sports-Data/classifications.json",
-    "classifications_enrollment.json",
-    "https://raw.githubusercontent.com/AllMOSports/All_MO_Sports-Data/main/classifications.json",
+    "mshsaa_enrollments_2026-2027.json",
+    "https://raw.githubusercontent.com/AllMOSports/football-ratings-2026/main/mshsaa_enrollments_2026-2027.json",
 ]
+ 
+# Co-ops ("Tipton with Bunceton", "Pleasant Hope with Halfway, Marion C. Early"):
+# True = sum every member school's enrollment; False = primary school only.
+COOP_COMBINE = True
  
 OUT_JSON = "per_capita_football_2026.json"
 OUT_CSV = "per_capita_football_2026.csv"
@@ -84,6 +90,20 @@ PLAYS_LIKE_ROUND = 10
 # so a near-zero modeled spread can't blow up z-scores.
 SPREAD_FLOOR_FRAC = 0.5
  
+# Private-school enrollment factor. Measured from 2026 data: with the curve fit
+# on public schools, privates (charters excluded) average ~+18 points over
+# expected, the same as playing like a school ~2.2x their enrollment.
+# Set to 1.0 to turn the adjustment off.
+PRIVATE_FACTOR = 2.2
+ 
+# Charters are non-boundaried but, as a group, do not outperform their
+# enrollment, so PRIVATE_FACTOR is not applied to them.
+CHARTER_SCHOOLS = {
+    "Confluence Prep Academy Charter", "Hogan Prep Academy Charter",
+    "KIPP KC Legacy", "Lift for Life Academy Charter",
+    "University Academy Charter with Ewing Marion Kauffman",
+}
+ 
  
 # ---------------------------------------------------------------------------
 # Loading
@@ -106,7 +126,7 @@ def load_json(sources):
  
  
 def build_enrollment_lookup(class_data):
-    """Return {school_name: enrollment} for Football from classifications.json."""
+    """Return {school_name: enrollment} from an enrollment JSON ({"teams": [{"name", "enrollment"}]})."""
     if "sports" in class_data:
         teams = class_data["sports"]["Football"]["teams"]
     else:
@@ -125,12 +145,18 @@ def find_enrollment(school, lookup):
         return float(ENROLLMENT_OVERRIDES[school])
     if school in lookup:
         return lookup[school]
-    # Co-ops are listed as "Primary with Partner" in ratings but as the
-    # primary school in classifications.json.
+    # Co-ops are listed as "Primary with Partner[, Partner]" in the ratings.
     if " with " in school:
-        primary = school.split(" with ")[0].strip()
-        if primary in lookup:
-            return lookup[primary]
+        primary, partners = school.split(" with ", 1)
+        members = [primary.strip()] + [p.strip() for p in partners.split(",")]
+        if primary.strip() not in lookup:
+            return None
+        if not COOP_COMBINE:
+            return lookup[primary.strip()]
+        missing = [m for m in members if m not in lookup]
+        if missing:
+            print(f"  co-op {school}: no enrollment for {missing}, using known members only")
+        return sum(lookup[m] for m in members if m in lookup)
     return None
  
  
@@ -159,8 +185,11 @@ def main():
         if not enr or enr <= 0:
             missing.append(t["school"])
             continue
-        teams.append({**t, "enrollment": enr,
-                      "non_boundaried": t["school"] in NON_BOUNDARIED})
+        nb = t["school"] in NON_BOUNDARIED
+        factor = PRIVATE_FACTOR if (nb and t["school"] not in CHARTER_SCHOOLS) else 1.0
+        teams.append({**t, "enrollment": enr, "non_boundaried": nb,
+                      "private_factor": factor,
+                      "effective_enrollment": enr * factor})
  
     if missing:
         print(f"\nSkipped {len(missing)} team(s) with no enrollment "
@@ -200,9 +229,9 @@ def main():
  
     # --- 3. Score every team ----------------------------------------------
     for t in teams:
-        exp_ovr = expected(t["enrollment"])
+        exp_ovr = expected(t["effective_enrollment"])
         poe = t["ovr_rating"] - exp_ovr
-        sd = local_sd(t["enrollment"])
+        sd = local_sd(t["effective_enrollment"])
         pl, pl_flag = plays_like(t["ovr_rating"])
         t.update({
             "expected_ovr": round(exp_ovr, 2),
@@ -233,10 +262,11 @@ def main():
     # --- 5. Write -----------------------------------------------------------
     fields = ["per_capita_rank", "public_rank", "class_rank", "z_rank",
               "school", "classification", "district", "non_boundaried",
-              "enrollment", "ovr_rating", "ovr_rank", "expected_ovr",
+              "enrollment", "private_factor", "effective_enrollment", "ovr_rating", "ovr_rank", "expected_ovr",
               "points_over_expected", "z_score", "local_sd",
               "plays_like_enrollment", "plays_like_capped", "size_multiple"]
-    rows = [{f: (int(t[f]) if f == "enrollment" else t.get(f)) for f in fields}
+    rows = [{f: (int(round(t[f])) if f in ("enrollment", "effective_enrollment")
+                 else t.get(f)) for f in fields}
             for t in teams]
  
     out = {
@@ -259,6 +289,8 @@ def main():
             "typical_sd": round(typical_sd, 2),
             "enrollment_range": [int(enr_min), int(enr_max)],
             "sort": "points_over_expected (descending)",
+            "private_factor": PRIVATE_FACTOR,
+            "private_factor_applies_to": "non-boundaried schools except charters",
         },
         "skipped_no_enrollment": missing,
         "teams": rows,
