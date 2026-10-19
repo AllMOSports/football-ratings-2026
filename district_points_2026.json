@@ -4,12 +4,12 @@
       "team": "Thayer",
       "class": 1,
       "district": 1,
-      "total_points": 53.0481,
+      "total_points": 53.0694,
       "components": {
         "avg_win_loss": 17.5,
         "avg_class_bonus": 13.75,
         "avg_differential": 7.375,
-        "sos_term": 14.4231
+        "sos_term": 14.4444
       },
       "games_played": 8,
       "games_counted_in_sos": 8,
@@ -25,7 +25,7 @@
           "opponent_class": 3,
           "opponent_record": {
             "wins": 2,
-            "losses": 4,
+            "losses": 5,
             "ot_losses": 0
           },
           "my_score": 38,
@@ -45,7 +45,7 @@
           "opponent_classification_source": "out_of_state",
           "opponent_class": 4,
           "opponent_record": {
-            "wins": 5,
+            "wins": 6,
             "losses": 1,
             "ot_losses": 0
           },
@@ -571,12 +571,12 @@
       "team": "Hayti",
       "class": 1,
       "district": 1,
-      "total_points": 39.25,
+      "total_points": 39.1591,
       "components": {
         "avg_win_loss": 16.25,
         "avg_class_bonus": 6.25,
         "avg_differential": 1.75,
-        "sos_term": 15.0
+        "sos_term": 14.9091
       },
       "games_played": 8,
       "games_counted_in_sos": 8,
@@ -613,7 +613,7 @@
           "opponent_class": 1,
           "opponent_record": {
             "wins": 0,
-            "losses": 7,
+            "losses": 8,
             "ot_losses": 0
           },
           "my_score": 56,
@@ -1329,12 +1329,12 @@
       "team": "Principia",
       "class": 1,
       "district": 2,
-      "total_points": 31.0,
+      "total_points": 30.8936,
       "components": {
         "avg_win_loss": 12.8571,
         "avg_class_bonus": 8.5714,
         "avg_differential": -5.4286,
-        "sos_term": 15.0
+        "sos_term": 14.8936
       },
       "games_played": 7,
       "games_counted_in_sos": 7,
@@ -1371,7 +1371,7 @@
           "opponent_class": 2,
           "opponent_record": {
             "wins": 4,
-            "losses": 4,
+            "losses": 5,
             "ot_losses": 0
           },
           "my_score": 22,
@@ -1497,12 +1497,12 @@
       "team": "Veritas Christian Academy",
       "class": 1,
       "district": 2,
-      "total_points": 30.7143,
+      "total_points": 30.6667,
       "components": {
         "avg_win_loss": 15.0,
         "avg_class_bonus": 5.0,
         "avg_differential": -1.0,
-        "sos_term": 11.7143
+        "sos_term": 11.6667
       },
       "games_played": 6,
       "games_counted_in_sos": 6,
@@ -1539,7 +1539,7 @@
           "opponent_class": 1,
           "opponent_record": {
             "wins": 0,
-            "losses": 4,
+            "losses": 5,
             "ot_losses": 0
           },
           "my_score": 55,
@@ -3139,12 +3139,12 @@
       "team": "Russellville",
       "class": 1,
       "district": 4,
-      "total_points": 49.1923,
+      "total_points": 49.1415,
       "components": {
         "avg_win_loss": 20.0,
         "avg_class_bonus": 5.0,
         "avg_differential": 11.5,
-        "sos_term": 12.6923
+        "sos_term": 12.6415
       },
       "games_played": 8,
       "games_counted_in_sos": 8,
@@ -3223,7 +3223,7 @@
           "opponent_class": 1,
           "opponent_record": {
             "wins": 0,
-            "losses": 4,
+            "losses": 5,
             "ot_losses": 0
           },
           "my_score": 54,
@@ -7116,12 +7116,12 @@
       "team": "Scotland County",
       "class": 1,
       "district": 8,
-      "total_points": 42.5306,
+      "total_points": 42.4286,
       "components": {
         "avg_win_loss": 17.1429,
         "avg_class_bonus": 5.7143,
         "avg_differential": 4.5714,
-        "sos_term": 15.102
+        "sos_term": 15.0
       },
       "games_played": 7,
       "games_counted_in_sos": 7,
@@ -7221,7 +7221,7 @@
           "opponent_class": 2,
           "opponent_record": {
             "wins": 2,
-            "losses": 6,
+            "losses": 7,
             "ot_losses": 0
           },
           "my_score": 49,
@@ -8021,12 +8021,12 @@
       "team": "Caruthersville",
       "class": 2,
       "district": 1,
-      "total_points": 41.8704,
+      "total_points": 41.7727,
       "components": {
         "avg_win_loss": 17.5,
         "avg_class_bonus": 2.5,
         "avg_differential": 6.5,
-        "sos_term": 15.3704
+        "sos_term": 15.2727
       },
       "games_played": 8,
       "games_counted_in_sos": 8,
@@ -8042,7 +8042,7 @@
           "opponent_class": 2,
           "opponent_record": {
             "wins": 6,
-            "losses": 0,
+            "losses": 1,
             "ot_losses": 0
           },
           "my_score": 14,
@@ -8399,12 +8399,12 @@
       "team": "Saxony Lutheran",
       "class": 2,
       "district": 1,
-      "total_points": 38.6984,
+      "total_points": 38.462,
       "components": {
         "avg_win_loss": 15.7143,
         "avg_class_bonus": 5.7143,
         "avg_differential": 1.7143,
-        "sos_term": 15.5556
+        "sos_term": 15.3191
       },
       "games_played": 7,
       "games_counted_in_sos": 7,
@@ -8483,7 +8483,7 @@
           "opponent_class": 2,
           "opponent_record": {
             "wins": 5,
-            "losses": 3,
+            "losses": 4,
             "ot_losses": 0
           },
           "my_score": 28,
@@ -8525,7 +8525,7 @@
           "opponent_class": 4,
           "opponent_record": {
             "wins": 0,
-            "losses": 4,
+            "losses": 5,
             "ot_losses": 0
           },
           "my_score": 42,
@@ -9703,12 +9703,12 @@
       "team": "Duchesne",
       "class": 2,
       "district": 2,
-      "total_points": 29.5714,
+      "total_points": 29.5,
       "components": {
         "avg_win_loss": 13.75,
         "avg_class_bonus": 6.25,
         "avg_differential": -4.0,
-        "sos_term": 13.5714
+        "sos_term": 13.5
       },
       "games_played": 8,
       "games_counted_in_sos": 8,
@@ -9808,7 +9808,7 @@
           "opponent_class": 1,
           "opponent_record": {
             "wins": 0,
-            "losses": 4,
+            "losses": 5,
             "ot_losses": 0
           },
           "my_score": 64,
@@ -9892,12 +9892,12 @@
       "team": "Miller Career Academy with Sumner",
       "class": 2,
       "district": 2,
-      "total_points": 28.0227,
+      "total_points": 28.1071,
       "components": {
         "avg_win_loss": 10.0,
         "avg_class_bonus": 12.5,
         "avg_differential": -9.75,
-        "sos_term": 15.2727
+        "sos_term": 15.3571
       },
       "games_played": 8,
       "games_counted_in_sos": 8,
@@ -10017,7 +10017,7 @@
           "opponent_classification_source": "out_of_state",
           "opponent_class": 4,
           "opponent_record": {
-            "wins": 6,
+            "wins": 7,
             "losses": 2,
             "ot_losses": 0
           },
@@ -10081,12 +10081,12 @@
       "team": "Confluence Prep Academy Charter",
       "class": 2,
       "district": 2,
-      "total_points": 18.7236,
+      "total_points": 18.6565,
       "components": {
         "avg_win_loss": 10.0,
         "avg_class_bonus": 8.5714,
         "avg_differential": -13.0,
-        "sos_term": 13.1522
+        "sos_term": 13.0851
       },
       "games_played": 7,
       "games_counted_in_sos": 7,
@@ -10123,7 +10123,7 @@
           "opponent_class": 3,
           "opponent_record": {
             "wins": 7,
-            "losses": 0,
+            "losses": 1,
             "ot_losses": 0
           },
           "my_score": 28,
@@ -10440,12 +10440,12 @@
       "team": "Springfield Catholic",
       "class": 2,
       "district": 3,
-      "total_points": 48.8102,
+      "total_points": 48.7159,
       "components": {
         "avg_win_loss": 20.0,
         "avg_class_bonus": 3.75,
         "avg_differential": 9.875,
-        "sos_term": 15.1852
+        "sos_term": 15.0909
       },
       "games_played": 8,
       "games_counted_in_sos": 8,
@@ -10461,7 +10461,7 @@
           "opponent_class": 1,
           "opponent_record": {
             "wins": 4,
-            "losses": 2,
+            "losses": 3,
             "ot_losses": 0
           },
           "my_score": 42,
@@ -11576,12 +11576,12 @@
       "team": "Lamar",
       "class": 2,
       "district": 4,
-      "total_points": 55.7454,
+      "total_points": 55.8295,
       "components": {
         "avg_win_loss": 20.0,
         "avg_class_bonus": 8.75,
         "avg_differential": 11.625,
-        "sos_term": 15.3704
+        "sos_term": 15.4545
       },
       "games_played": 8,
       "games_counted_in_sos": 8,
@@ -11680,7 +11680,7 @@
           "opponent_classification_source": "out_of_state",
           "opponent_class": 1,
           "opponent_record": {
-            "wins": 4,
+            "wins": 5,
             "losses": 3,
             "ot_losses": 0
           },
@@ -12332,12 +12332,12 @@
       "team": "Sarcoxie",
       "class": 2,
       "district": 4,
-      "total_points": 30.0283,
+      "total_points": 30.1296,
       "components": {
         "avg_win_loss": 15.0,
         "avg_class_bonus": 1.25,
         "avg_differential": -0.75,
-        "sos_term": 14.5283
+        "sos_term": 14.6296
       },
       "games_played": 8,
       "games_counted_in_sos": 8,
@@ -12352,7 +12352,7 @@
           "opponent_classification_source": "out_of_state",
           "opponent_class": 2,
           "opponent_record": {
-            "wins": 3,
+            "wins": 4,
             "losses": 3,
             "ot_losses": 0
           },
@@ -12710,12 +12710,12 @@
       "team": "El Dorado Springs",
       "class": 2,
       "district": 4,
-      "total_points": 21.3194,
+      "total_points": 21.2386,
       "components": {
         "avg_win_loss": 12.5,
         "avg_class_bonus": 1.25,
         "avg_differential": -6.875,
-        "sos_term": 14.4444
+        "sos_term": 14.3636
       },
       "games_played": 8,
       "games_counted_in_sos": 8,
@@ -12794,7 +12794,7 @@
           "opponent_class": 1,
           "opponent_record": {
             "wins": 4,
-            "losses": 2,
+            "losses": 3,
             "ot_losses": 0
           },
           "my_score": 8,
@@ -13657,12 +13657,12 @@
       "team": "Cole Camp",
       "class": 2,
       "district": 5,
-      "total_points": 35.4904,
+      "total_points": 35.4033,
       "components": {
         "avg_win_loss": 16.25,
         "avg_class_bonus": 1.25,
         "avg_differential": 3.375,
-        "sos_term": 14.6154
+        "sos_term": 14.5283
       },
       "games_played": 8,
       "games_counted_in_sos": 8,
@@ -13804,7 +13804,7 @@
           "opponent_class": 1,
           "opponent_record": {
             "wins": 0,
-            "losses": 4,
+            "losses": 5,
             "ot_losses": 0
           },
           "my_score": 48,
@@ -14267,7 +14267,7 @@
           "opponent_classification_source": "out_of_state",
           "opponent_class": 2,
           "opponent_record": {
-            "wins": 5,
+            "wins": 6,
             "losses": 2,
             "ot_losses": 0
           },
@@ -14352,7 +14352,7 @@
           "opponent_class": 2,
           "opponent_record": {
             "wins": 2,
-            "losses": 4,
+            "losses": 5,
             "ot_losses": 0
           },
           "my_score": 54,
@@ -14394,12 +14394,12 @@
       "team": "KIPP KC Legacy",
       "class": 2,
       "district": 6,
-      "total_points": 39.1148,
+      "total_points": 39.342,
       "components": {
         "avg_win_loss": 13.75,
         "avg_class_bonus": 15.0,
         "avg_differential": -4.125,
-        "sos_term": 14.4898
+        "sos_term": 14.717
       },
       "games_played": 8,
       "games_counted_in_sos": 8,
@@ -14499,7 +14499,7 @@
           "opponent_class": 5,
           "opponent_record": {
             "wins": 3,
-            "losses": 3,
+            "losses": 4,
             "ot_losses": 0
           },
           "my_score": 13,
@@ -14519,7 +14519,7 @@
           "opponent_classification_source": "out_of_state",
           "opponent_class": 5,
           "opponent_record": {
-            "wins": 4,
+            "wins": 5,
             "losses": 2,
             "ot_losses": 0
           },
@@ -14540,7 +14540,7 @@
           "opponent_classification_source": "out_of_state",
           "opponent_class": 2,
           "opponent_record": {
-            "wins": 5,
+            "wins": 6,
             "losses": 2,
             "ot_losses": 0
           },
@@ -14561,7 +14561,7 @@
           "opponent_classification_source": "out_of_state",
           "opponent_class": 4,
           "opponent_record": {
-            "wins": 3,
+            "wins": 4,
             "losses": 3,
             "ot_losses": 0
           },
@@ -18936,12 +18936,12 @@
       "team": "Doniphan",
       "class": 3,
       "district": 1,
-      "total_points": 21.6,
+      "total_points": 21.4808,
       "components": {
         "avg_win_loss": 12.5,
         "avg_class_bonus": 0.0,
         "avg_differential": -4.0,
-        "sos_term": 13.1
+        "sos_term": 12.9808
       },
       "games_played": 8,
       "games_counted_in_sos": 8,
@@ -18957,7 +18957,7 @@
           "opponent_class": 2,
           "opponent_record": {
             "wins": 0,
-            "losses": 6,
+            "losses": 7,
             "ot_losses": 0
           },
           "my_score": 40,
@@ -19104,7 +19104,7 @@
           "opponent_class": 1,
           "opponent_record": {
             "wins": 0,
-            "losses": 4,
+            "losses": 5,
             "ot_losses": 0
           },
           "my_score": 62,
@@ -19316,12 +19316,12 @@
       "team": "St. Pius X (Festus)",
       "class": 3,
       "district": 2,
-      "total_points": 45.0714,
+      "total_points": 45.1623,
       "components": {
         "avg_win_loss": 17.5,
         "avg_class_bonus": 7.5,
         "avg_differential": 5.25,
-        "sos_term": 14.8214
+        "sos_term": 14.9123
       },
       "games_played": 8,
       "games_counted_in_sos": 8,
@@ -19336,7 +19336,7 @@
           "opponent_classification_source": "out_of_state",
           "opponent_class": 4,
           "opponent_record": {
-            "wins": 7,
+            "wins": 8,
             "losses": 1,
             "ot_losses": 0
           },
@@ -20830,12 +20830,12 @@
       "team": "Lutheran North",
       "class": 3,
       "district": 3,
-      "total_points": 37.7755,
+      "total_points": 37.8571,
       "components": {
         "avg_win_loss": 14.2857,
         "avg_class_bonus": 8.5714,
         "avg_differential": -1.0,
-        "sos_term": 15.9184
+        "sos_term": 16.0
       },
       "games_played": 7,
       "games_counted_in_sos": 7,
@@ -20892,7 +20892,7 @@
           "opponent_classification_source": "out_of_state",
           "opponent_class": 6,
           "opponent_record": {
-            "wins": 4,
+            "wins": 5,
             "losses": 4,
             "ot_losses": 0
           },
@@ -25477,12 +25477,12 @@
       "team": "Hollister",
       "class": 3,
       "district": 6,
-      "total_points": 12.5556,
+      "total_points": 12.4545,
       "components": {
         "avg_win_loss": 10.0,
         "avg_class_bonus": 0.0,
         "avg_differential": -13.0,
-        "sos_term": 15.5556
+        "sos_term": 15.4545
       },
       "games_played": 8,
       "games_counted_in_sos": 8,
@@ -25498,7 +25498,7 @@
           "opponent_class": 3,
           "opponent_record": {
             "wins": 3,
-            "losses": 3,
+            "losses": 4,
             "ot_losses": 0
           },
           "my_score": 24,
@@ -25668,12 +25668,12 @@
       "team": "Pembroke Hill",
       "class": 3,
       "district": 7,
-      "total_points": 50.3654,
+      "total_points": 50.3796,
       "components": {
         "avg_win_loss": 20.0,
         "avg_class_bonus": 3.75,
         "avg_differential": 12.0,
-        "sos_term": 14.6154
+        "sos_term": 14.6296
       },
       "games_played": 8,
       "games_counted_in_sos": 8,
@@ -25689,7 +25689,7 @@
           "opponent_class": 2,
           "opponent_record": {
             "wins": 0,
-            "losses": 7,
+            "losses": 8,
             "ot_losses": 0
           },
           "my_score": 55,
@@ -25814,7 +25814,7 @@
           "opponent_classification_source": "out_of_state",
           "opponent_class": 5,
           "opponent_record": {
-            "wins": 4,
+            "wins": 5,
             "losses": 2,
             "ot_losses": 0
           },
@@ -25857,12 +25857,12 @@
       "team": "Summit Christian Academy",
       "class": 3,
       "district": 7,
-      "total_points": 40.9213,
+      "total_points": 41.0536,
       "components": {
         "avg_win_loss": 17.5,
         "avg_class_bonus": 2.5,
         "avg_differential": 4.625,
-        "sos_term": 16.2963
+        "sos_term": 16.4286
       },
       "games_played": 8,
       "games_counted_in_sos": 8,
@@ -25877,7 +25877,7 @@
           "opponent_classification_source": "out_of_state",
           "opponent_class": 2,
           "opponent_record": {
-            "wins": 5,
+            "wins": 6,
             "losses": 2,
             "ot_losses": 0
           },
@@ -25919,7 +25919,7 @@
           "opponent_classification_source": "out_of_state",
           "opponent_class": 1,
           "opponent_record": {
-            "wins": 4,
+            "wins": 5,
             "losses": 3,
             "ot_losses": 0
           },
@@ -26046,12 +26046,12 @@
       "team": "Center",
       "class": 3,
       "district": 7,
-      "total_points": 39.6591,
+      "total_points": 39.5714,
       "components": {
         "avg_win_loss": 16.25,
         "avg_class_bonus": 5.0,
         "avg_differential": 3.5,
-        "sos_term": 14.9091
+        "sos_term": 14.8214
       },
       "games_played": 8,
       "games_counted_in_sos": 8,
@@ -26151,7 +26151,7 @@
           "opponent_class": 2,
           "opponent_record": {
             "wins": 0,
-            "losses": 7,
+            "losses": 8,
             "ot_losses": 0
           },
           "my_score": 54,
@@ -26993,12 +26993,12 @@
       "team": "St. Pius X (Kansas City)",
       "class": 3,
       "district": 8,
-      "total_points": 54.4167,
+      "total_points": 54.5425,
       "components": {
         "avg_win_loss": 17.5,
         "avg_class_bonus": 13.75,
         "avg_differential": 6.5,
-        "sos_term": 16.6667
+        "sos_term": 16.7925
       },
       "games_played": 8,
       "games_counted_in_sos": 8,
@@ -27076,7 +27076,7 @@
           "opponent_classification_source": "out_of_state",
           "opponent_class": 2,
           "opponent_record": {
-            "wins": 2,
+            "wins": 3,
             "losses": 4,
             "ot_losses": 0
           },
@@ -27097,7 +27097,7 @@
           "opponent_classification_source": "out_of_state",
           "opponent_class": 4,
           "opponent_record": {
-            "wins": 4,
+            "wins": 5,
             "losses": 2,
             "ot_losses": 0
           },
@@ -30189,12 +30189,12 @@
       "team": "Bayless with Hancock",
       "class": 4,
       "district": 2,
-      "total_points": 19.9643,
+      "total_points": 20.0724,
       "components": {
         "avg_win_loss": 12.5,
         "avg_class_bonus": 0.0,
         "avg_differential": -6.375,
-        "sos_term": 13.8393
+        "sos_term": 13.9474
       },
       "games_played": 8,
       "games_counted_in_sos": 8,
@@ -30209,7 +30209,7 @@
           "opponent_classification_source": "out_of_state",
           "opponent_class": 2,
           "opponent_record": {
-            "wins": 2,
+            "wins": 3,
             "losses": 6,
             "ot_losses": 0
           },
@@ -30569,12 +30569,12 @@
       "team": "University City",
       "class": 4,
       "district": 3,
-      "total_points": 49.7639,
+      "total_points": 49.6932,
       "components": {
         "avg_win_loss": 20.0,
         "avg_class_bonus": 3.75,
         "avg_differential": 12.125,
-        "sos_term": 13.8889
+        "sos_term": 13.8182
       },
       "games_played": 8,
       "games_counted_in_sos": 8,
@@ -30611,7 +30611,7 @@
           "opponent_class": 5,
           "opponent_record": {
             "wins": 3,
-            "losses": 3,
+            "losses": 4,
             "ot_losses": 0
           },
           "my_score": 47,
@@ -30758,12 +30758,12 @@
       "team": "Lift for Life Academy Charter",
       "class": 4,
       "district": 3,
-      "total_points": 34.8182,
+      "total_points": 35.0714,
       "components": {
         "avg_win_loss": 12.5,
         "avg_class_bonus": 11.25,
         "avg_differential": -4.75,
-        "sos_term": 15.8182
+        "sos_term": 16.0714
       },
       "games_played": 8,
       "games_counted_in_sos": 8,
@@ -30799,7 +30799,7 @@
           "opponent_classification_source": "out_of_state",
           "opponent_class": 1,
           "opponent_record": {
-            "wins": 4,
+            "wins": 5,
             "losses": 3,
             "ot_losses": 0
           },
@@ -30820,8 +30820,8 @@
           "opponent_classification_source": "out_of_state",
           "opponent_class": 6,
           "opponent_record": {
-            "wins": 6,
-            "losses": 2,
+            "wins": 7,
+            "losses": 1,
             "ot_losses": 0
           },
           "my_score": 6,
@@ -30947,12 +30947,12 @@
       "team": "Gateway with Soldan International Studies",
       "class": 4,
       "district": 3,
-      "total_points": 32.1012,
+      "total_points": 32.2245,
       "components": {
         "avg_win_loss": 14.2857,
         "avg_class_bonus": 5.7143,
         "avg_differential": -1.8571,
-        "sos_term": 13.9583
+        "sos_term": 14.0816
       },
       "games_played": 7,
       "games_counted_in_sos": 7,
@@ -31009,7 +31009,7 @@
           "opponent_classification_source": "out_of_state",
           "opponent_class": 2,
           "opponent_record": {
-            "wins": 3,
+            "wins": 4,
             "losses": 5,
             "ot_losses": 0
           },
@@ -33198,12 +33198,12 @@
       "team": "Moberly",
       "class": 4,
       "district": 5,
-      "total_points": 43.375,
+      "total_points": 43.2841,
       "components": {
         "avg_win_loss": 18.75,
         "avg_class_bonus": 1.25,
         "avg_differential": 8.375,
-        "sos_term": 15.0
+        "sos_term": 14.9091
       },
       "games_played": 8,
       "games_counted_in_sos": 8,
@@ -33261,7 +33261,7 @@
           "opponent_class": 1,
           "opponent_record": {
             "wins": 4,
-            "losses": 2,
+            "losses": 3,
             "ot_losses": 0
           },
           "my_score": 20,
@@ -36016,12 +36016,12 @@
       "team": "Central (Kansas City)",
       "class": 4,
       "district": 7,
-      "total_points": 35.8981,
+      "total_points": 35.8409,
       "components": {
         "avg_win_loss": 16.25,
         "avg_class_bonus": 3.75,
         "avg_differential": 2.75,
-        "sos_term": 13.1481
+        "sos_term": 13.0909
       },
       "games_played": 8,
       "games_counted_in_sos": 8,
@@ -36184,7 +36184,7 @@
           "opponent_class": 2,
           "opponent_record": {
             "wins": 0,
-            "losses": 7,
+            "losses": 8,
             "ot_losses": 0
           },
           "my_score": 49,
@@ -36394,12 +36394,12 @@
       "team": "Harrisonville",
       "class": 4,
       "district": 7,
-      "total_points": 25.1713,
+      "total_points": 25.0568,
       "components": {
         "avg_win_loss": 13.75,
         "avg_class_bonus": 0.0,
         "avg_differential": -4.875,
-        "sos_term": 16.2963
+        "sos_term": 16.1818
       },
       "games_played": 8,
       "games_counted_in_sos": 8,
@@ -36520,7 +36520,7 @@
           "opponent_class": 3,
           "opponent_record": {
             "wins": 5,
-            "losses": 1,
+            "losses": 2,
             "ot_losses": 0
           },
           "my_score": 14,
@@ -36772,12 +36772,12 @@
       "team": "East (Kansas City)",
       "class": 4,
       "district": 7,
-      "total_points": 14.4808,
+      "total_points": 14.4167,
       "components": {
         "avg_win_loss": 11.25,
         "avg_class_bonus": 1.25,
         "avg_differential": -9.75,
-        "sos_term": 11.7308
+        "sos_term": 11.6667
       },
       "games_played": 8,
       "games_counted_in_sos": 8,
@@ -36835,7 +36835,7 @@
           "opponent_class": 4,
           "opponent_record": {
             "wins": 2,
-            "losses": 4,
+            "losses": 5,
             "ot_losses": 0
           },
           "my_score": 12,
@@ -36898,7 +36898,7 @@
           "opponent_class": 2,
           "opponent_record": {
             "wins": 0,
-            "losses": 7,
+            "losses": 8,
             "ot_losses": 0
           },
           "my_score": 38,
@@ -37152,12 +37152,12 @@
       "team": "Savannah",
       "class": 4,
       "district": 8,
-      "total_points": 48.6481,
+      "total_points": 48.7273,
       "components": {
         "avg_win_loss": 20.0,
         "avg_class_bonus": 0.0,
         "avg_differential": 13.0,
-        "sos_term": 15.6481
+        "sos_term": 15.7273
       },
       "games_played": 8,
       "games_counted_in_sos": 8,
@@ -37235,7 +37235,7 @@
           "opponent_classification_source": "out_of_state",
           "opponent_class": 1,
           "opponent_record": {
-            "wins": 4,
+            "wins": 5,
             "losses": 3,
             "ot_losses": 0
           },
@@ -37341,12 +37341,12 @@
       "team": "Smithville",
       "class": 4,
       "district": 8,
-      "total_points": 39.3611,
+      "total_points": 39.25,
       "components": {
         "avg_win_loss": 16.25,
         "avg_class_bonus": 3.75,
         "avg_differential": 3.25,
-        "sos_term": 16.1111
+        "sos_term": 16.0
       },
       "games_played": 8,
       "games_counted_in_sos": 8,
@@ -37488,7 +37488,7 @@
           "opponent_class": 4,
           "opponent_record": {
             "wins": 3,
-            "losses": 3,
+            "losses": 4,
             "ot_losses": 0
           },
           "my_score": 37,
@@ -37908,12 +37908,12 @@
       "team": "Northeast (Kansas City)",
       "class": 4,
       "district": 8,
-      "total_points": 24.4,
+      "total_points": 24.2075,
       "components": {
         "avg_win_loss": 12.5,
         "avg_class_bonus": 2.5,
         "avg_differential": -4.0,
-        "sos_term": 13.4
+        "sos_term": 13.2075
       },
       "games_played": 8,
       "games_counted_in_sos": 8,
@@ -37971,7 +37971,7 @@
           "opponent_class": 5,
           "opponent_record": {
             "wins": 3,
-            "losses": 3,
+            "losses": 4,
             "ot_losses": 0
           },
           "my_score": 23,
@@ -37992,7 +37992,7 @@
           "opponent_class": 4,
           "opponent_record": {
             "wins": 2,
-            "losses": 4,
+            "losses": 5,
             "ot_losses": 0
           },
           "my_score": 9,
@@ -38055,7 +38055,7 @@
           "opponent_class": 2,
           "opponent_record": {
             "wins": 0,
-            "losses": 7,
+            "losses": 8,
             "ot_losses": 0
           },
           "my_score": 50,
@@ -38497,7 +38497,7 @@
           "opponent_classification_source": "out_of_state",
           "opponent_class": 2,
           "opponent_record": {
-            "wins": 7,
+            "wins": 8,
             "losses": 1,
             "ot_losses": 0
           },
@@ -38540,7 +38540,7 @@
           "opponent_class": 4,
           "opponent_record": {
             "wins": 6,
-            "losses": 2,
+            "losses": 3,
             "ot_losses": 0
           },
           "my_score": 25,
@@ -38581,7 +38581,7 @@
           "opponent_classification_source": "out_of_state",
           "opponent_class": 2,
           "opponent_record": {
-            "wins": 2,
+            "wins": 3,
             "losses": 4,
             "ot_losses": 0
           },
@@ -41106,12 +41106,12 @@
       "team": "Cardinal Ritter",
       "class": 5,
       "district": 3,
-      "total_points": 37.8186,
+      "total_points": 38.0682,
       "components": {
         "avg_win_loss": 15.0,
         "avg_class_bonus": 5.0,
         "avg_differential": 1.25,
-        "sos_term": 16.5686
+        "sos_term": 16.8182
       },
       "games_played": 8,
       "games_counted_in_sos": 8,
@@ -41168,7 +41168,7 @@
           "opponent_classification_source": "out_of_state",
           "opponent_class": 4,
           "opponent_record": {
-            "wins": 6,
+            "wins": 7,
             "losses": 1,
             "ot_losses": 0
           },
@@ -41189,7 +41189,7 @@
           "opponent_classification_source": "out_of_state",
           "opponent_class": 6,
           "opponent_record": {
-            "wins": 7,
+            "wins": 8,
             "losses": 0,
             "ot_losses": 0
           },
@@ -41210,7 +41210,7 @@
           "opponent_classification_source": "out_of_state",
           "opponent_class": 2,
           "opponent_record": {
-            "wins": 5,
+            "wins": 6,
             "losses": 1,
             "ot_losses": 0
           },
@@ -41231,7 +41231,7 @@
           "opponent_classification_source": "out_of_state",
           "opponent_class": 6,
           "opponent_record": {
-            "wins": 4,
+            "wins": 5,
             "losses": 4,
             "ot_losses": 0
           },
@@ -42620,12 +42620,12 @@
       "team": "Ft. Zumwalt East",
       "class": 5,
       "district": 4,
-      "total_points": 22.9464,
+      "total_points": 23.0373,
       "components": {
         "avg_win_loss": 13.75,
         "avg_class_bonus": 0.0,
         "avg_differential": -5.625,
-        "sos_term": 14.8214
+        "sos_term": 14.9123
       },
       "games_played": 8,
       "games_counted_in_sos": 8,
@@ -42640,7 +42640,7 @@
           "opponent_classification_source": "out_of_state",
           "opponent_class": 4,
           "opponent_record": {
-            "wins": 7,
+            "wins": 8,
             "losses": 1,
             "ot_losses": 0
           },
@@ -43378,12 +43378,12 @@
       "team": "Camdenton",
       "class": 5,
       "district": 5,
-      "total_points": 40.0694,
+      "total_points": 39.9886,
       "components": {
         "avg_win_loss": 17.5,
         "avg_class_bonus": 3.75,
         "avg_differential": 4.375,
-        "sos_term": 14.4444
+        "sos_term": 14.3636
       },
       "games_played": 8,
       "games_counted_in_sos": 8,
@@ -43399,7 +43399,7 @@
           "opponent_class": 6,
           "opponent_record": {
             "wins": 0,
-            "losses": 6,
+            "losses": 7,
             "ot_losses": 0
           },
           "my_score": 47,
@@ -43945,12 +43945,12 @@
       "team": "Rolla",
       "class": 5,
       "district": 5,
-      "total_points": 35.0556,
+      "total_points": 35.1364,
       "components": {
         "avg_win_loss": 16.25,
         "avg_class_bonus": 0.0,
         "avg_differential": 3.25,
-        "sos_term": 15.5556
+        "sos_term": 15.6364
       },
       "games_played": 8,
       "games_counted_in_sos": 8,
@@ -44007,7 +44007,7 @@
           "opponent_classification_source": "out_of_state",
           "opponent_class": 5,
           "opponent_record": {
-            "wins": 5,
+            "wins": 6,
             "losses": 1,
             "ot_losses": 0
           },
@@ -45081,12 +45081,12 @@
       "team": "Branson",
       "class": 5,
       "district": 6,
-      "total_points": 42.592,
+      "total_points": 42.6898,
       "components": {
         "avg_win_loss": 18.75,
         "avg_class_bonus": 0.0,
         "avg_differential": 9.125,
-        "sos_term": 14.717
+        "sos_term": 14.8148
       },
       "games_played": 8,
       "games_counted_in_sos": 8,
@@ -45101,7 +45101,7 @@
           "opponent_classification_source": "out_of_state",
           "opponent_class": 4,
           "opponent_record": {
-            "wins": 3,
+            "wins": 4,
             "losses": 3,
             "ot_losses": 0
           },
@@ -45648,12 +45648,12 @@
       "team": "Parkview",
       "class": 5,
       "district": 6,
-      "total_points": 13.783,
+      "total_points": 13.6852,
       "components": {
         "avg_win_loss": 10.0,
         "avg_class_bonus": 0.0,
         "avg_differential": -11.5,
-        "sos_term": 15.283
+        "sos_term": 15.1852
       },
       "games_played": 8,
       "games_counted_in_sos": 8,
@@ -45690,7 +45690,7 @@
           "opponent_class": 1,
           "opponent_record": {
             "wins": 4,
-            "losses": 2,
+            "losses": 3,
             "ot_losses": 0
           },
           "my_score": 14,
@@ -46406,12 +46406,12 @@
       "team": "Grandview",
       "class": 5,
       "district": 7,
-      "total_points": 25.2045,
+      "total_points": 25.1429,
       "components": {
         "avg_win_loss": 13.75,
         "avg_class_bonus": 1.25,
         "avg_differential": -3.25,
-        "sos_term": 13.4545
+        "sos_term": 13.3929
       },
       "games_played": 8,
       "games_counted_in_sos": 8,
@@ -46469,7 +46469,7 @@
           "opponent_class": 2,
           "opponent_record": {
             "wins": 0,
-            "losses": 7,
+            "losses": 8,
             "ot_losses": 0
           },
           "my_score": 63,
@@ -46595,12 +46595,12 @@
       "team": "Capital City",
       "class": 5,
       "district": 7,
-      "total_points": 23.8704,
+      "total_points": 23.9545,
       "components": {
         "avg_win_loss": 11.25,
         "avg_class_bonus": 3.75,
         "avg_differential": -6.5,
-        "sos_term": 15.3704
+        "sos_term": 15.4545
       },
       "games_played": 8,
       "games_counted_in_sos": 8,
@@ -46615,7 +46615,7 @@
           "opponent_classification_source": "out_of_state",
           "opponent_class": 6,
           "opponent_record": {
-            "wins": 5,
+            "wins": 6,
             "losses": 1,
             "ot_losses": 0
           },
@@ -47920,12 +47920,12 @@
       "team": "Lincoln College Prep",
       "class": 5,
       "district": 8,
-      "total_points": 26.3349,
+      "total_points": 26.3864,
       "components": {
         "avg_win_loss": 13.75,
         "avg_class_bonus": 0.0,
         "avg_differential": -1.0,
-        "sos_term": 13.5849
+        "sos_term": 13.6364
       },
       "games_played": 8,
       "games_counted_in_sos": 8,
@@ -47983,7 +47983,7 @@
           "opponent_class": 5,
           "opponent_record": {
             "wins": 1,
-            "losses": 5,
+            "losses": 6,
             "ot_losses": 0
           },
           "my_score": 7,
@@ -48024,7 +48024,7 @@
           "opponent_classification_source": "out_of_state",
           "opponent_class": 2,
           "opponent_record": {
-            "wins": 5,
+            "wins": 6,
             "losses": 2,
             "ot_losses": 0
           },
@@ -48489,12 +48489,12 @@
       "team": "Jackson",
       "class": 6,
       "district": 1,
-      "total_points": 48.5357,
+      "total_points": 48.5172,
       "components": {
         "avg_win_loss": 20.0,
         "avg_class_bonus": 0.0,
         "avg_differential": 13.0,
-        "sos_term": 15.5357
+        "sos_term": 15.5172
       },
       "games_played": 8,
       "games_counted_in_sos": 8,
@@ -48509,7 +48509,7 @@
           "opponent_classification_source": "out_of_state",
           "opponent_class": 6,
           "opponent_record": {
-            "wins": 3,
+            "wins": 4,
             "losses": 5,
             "ot_losses": 0
           },
@@ -48531,7 +48531,7 @@
           "opponent_class": 6,
           "opponent_record": {
             "wins": 2,
-            "losses": 6,
+            "losses": 7,
             "ot_losses": 0
           },
           "my_score": 42,
@@ -49793,12 +49793,12 @@
       "team": "Christian Brothers College",
       "class": 6,
       "district": 2,
-      "total_points": 34.6713,
+      "total_points": 34.8662,
       "components": {
         "avg_win_loss": 15.625,
         "avg_class_bonus": 0.0,
         "avg_differential": 2.75,
-        "sos_term": 16.2963
+        "sos_term": 16.4912
       },
       "games_played": 8,
       "games_counted_in_sos": 8,
@@ -49813,7 +49813,7 @@
           "opponent_classification_source": "out_of_state",
           "opponent_class": 6,
           "opponent_record": {
-            "wins": 7,
+            "wins": 8,
             "losses": 1,
             "ot_losses": 0
           },
@@ -49897,7 +49897,7 @@
           "opponent_classification_source": "out_of_state",
           "opponent_class": 2,
           "opponent_record": {
-            "wins": 5,
+            "wins": 6,
             "losses": 2,
             "ot_losses": 0
           },
@@ -49918,7 +49918,7 @@
           "opponent_classification_source": "out_of_state",
           "opponent_class": 2,
           "opponent_record": {
-            "wins": 3,
+            "wins": 4,
             "losses": 4,
             "ot_losses": 0
           },
@@ -51309,12 +51309,12 @@
       "team": "Troy Buchanan",
       "class": 6,
       "district": 4,
-      "total_points": 44.3214,
+      "total_points": 44.4123,
       "components": {
         "avg_win_loss": 19.375,
         "avg_class_bonus": 0.0,
         "avg_differential": 10.125,
-        "sos_term": 14.8214
+        "sos_term": 14.9123
       },
       "games_played": 8,
       "games_counted_in_sos": 8,
@@ -51350,7 +51350,7 @@
           "opponent_classification_source": "out_of_state",
           "opponent_class": 6,
           "opponent_record": {
-            "wins": 4,
+            "wins": 5,
             "losses": 4,
             "ot_losses": 0
           },
@@ -51498,12 +51498,12 @@
       "team": "Francis Howell",
       "class": 6,
       "district": 4,
-      "total_points": 37.3036,
+      "total_points": 37.3882,
       "components": {
         "avg_win_loss": 16.25,
         "avg_class_bonus": 0.0,
         "avg_differential": 5.875,
-        "sos_term": 15.1786
+        "sos_term": 15.2632
       },
       "games_played": 8,
       "games_counted_in_sos": 8,
@@ -51518,7 +51518,7 @@
           "opponent_classification_source": "out_of_state",
           "opponent_class": 6,
           "opponent_record": {
-            "wins": 4,
+            "wins": 5,
             "losses": 4,
             "ot_losses": 0
           },
@@ -53581,12 +53581,12 @@
       "team": "Lee's Summit North",
       "class": 6,
       "district": 6,
-      "total_points": 38.8068,
+      "total_points": 38.8929,
       "components": {
         "avg_win_loss": 17.5,
         "avg_class_bonus": 0.0,
         "avg_differential": 6.125,
-        "sos_term": 15.1818
+        "sos_term": 15.2679
       },
       "games_played": 8,
       "games_counted_in_sos": 8,
@@ -53622,7 +53622,7 @@
           "opponent_classification_source": "out_of_state",
           "opponent_class": 6,
           "opponent_record": {
-            "wins": 7,
+            "wins": 8,
             "losses": 0,
             "ot_losses": 0
           },
@@ -54148,12 +54148,12 @@
       "team": "Lee's Summit",
       "class": 6,
       "district": 6,
-      "total_points": 29.9659,
+      "total_points": 30.0179,
       "components": {
         "avg_win_loss": 15.0,
         "avg_class_bonus": 0.0,
         "avg_differential": -2.125,
-        "sos_term": 17.0909
+        "sos_term": 17.1429
       },
       "games_played": 8,
       "games_counted_in_sos": 8,
@@ -54189,7 +54189,7 @@
           "opponent_classification_source": "out_of_state",
           "opponent_class": 6,
           "opponent_record": {
-            "wins": 7,
+            "wins": 8,
             "losses": 0,
             "ot_losses": 0
           },
@@ -54528,12 +54528,12 @@
       "team": "Raymore-Peculiar",
       "class": 6,
       "district": 7,
-      "total_points": 38.9306,
+      "total_points": 38.8295,
       "components": {
         "avg_win_loss": 17.5,
         "avg_class_bonus": 0.0,
         "avg_differential": 5.875,
-        "sos_term": 15.5556
+        "sos_term": 15.4545
       },
       "games_played": 8,
       "games_counted_in_sos": 8,
@@ -54591,7 +54591,7 @@
           "opponent_class": 5,
           "opponent_record": {
             "wins": 3,
-            "losses": 3,
+            "losses": 4,
             "ot_losses": 0
           },
           "my_score": 42,
@@ -54717,12 +54717,12 @@
       "team": "Rockhurst",
       "class": 6,
       "district": 7,
-      "total_points": 33.1458,
+      "total_points": 33.1538,
       "components": {
         "avg_win_loss": 15.0,
         "avg_class_bonus": 0.0,
         "avg_differential": 0.75,
-        "sos_term": 17.3958
+        "sos_term": 17.4038
       },
       "games_played": 8,
       "games_counted_in_sos": 8,
@@ -54758,7 +54758,7 @@
           "opponent_classification_source": "out_of_state",
           "opponent_class": 6,
           "opponent_record": {
-            "wins": 4,
+            "wins": 5,
             "losses": 2,
             "ot_losses": 0
           },
@@ -54780,7 +54780,7 @@
           "opponent_class": 5,
           "opponent_record": {
             "wins": 3,
-            "losses": 3,
+            "losses": 4,
             "ot_losses": 0
           },
           "my_score": 34,
@@ -54821,7 +54821,7 @@
           "opponent_classification_source": "out_of_state",
           "opponent_class": 4,
           "opponent_record": {
-            "wins": 3,
+            "wins": 4,
             "losses": 3,
             "ot_losses": 0
           },
@@ -54842,7 +54842,7 @@
           "opponent_classification_source": "out_of_state",
           "opponent_class": 4,
           "opponent_record": {
-            "wins": 5,
+            "wins": 6,
             "losses": 1,
             "ot_losses": 0
           },
@@ -55853,12 +55853,12 @@
       "team": "Staley",
       "class": 6,
       "district": 8,
-      "total_points": 25.7176,
+      "total_points": 25.625,
       "components": {
         "avg_win_loss": 13.75,
         "avg_class_bonus": 0.0,
         "avg_differential": -3.125,
-        "sos_term": 15.0926
+        "sos_term": 15.0
       },
       "games_played": 8,
       "games_counted_in_sos": 8,
@@ -55916,7 +55916,7 @@
           "opponent_class": 6,
           "opponent_record": {
             "wins": 0,
-            "losses": 6,
+            "losses": 7,
             "ot_losses": 0
           },
           "my_score": 21,
