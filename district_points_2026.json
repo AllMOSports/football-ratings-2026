@@ -1497,12 +1497,12 @@
       "team": "Veritas Christian Academy",
       "class": 1,
       "district": 2,
-      "total_points": 30.6667,
+      "total_points": 30.8056,
       "components": {
         "avg_win_loss": 15.0,
         "avg_class_bonus": 5.0,
         "avg_differential": -1.0,
-        "sos_term": 11.6667
+        "sos_term": 11.8056
       },
       "games_played": 6,
       "games_counted_in_sos": 6,
@@ -2024,12 +2024,12 @@
       "team": "Marionville",
       "class": 1,
       "district": 3,
-      "total_points": 43.2273,
+      "total_points": 43.3182,
       "components": {
         "avg_win_loss": 17.5,
         "avg_class_bonus": 5.0,
         "avg_differential": 5.0,
-        "sos_term": 15.7273
+        "sos_term": 15.8182
       },
       "games_played": 8,
       "games_counted_in_sos": 8,
@@ -4464,12 +4464,12 @@
       "team": "Crest Ridge with Chilhowee",
       "class": 1,
       "district": 5,
-      "total_points": 32.6607,
+      "total_points": 32.75,
       "components": {
         "avg_win_loss": 13.75,
         "avg_class_bonus": 8.75,
         "avg_differential": -4.125,
-        "sos_term": 14.2857
+        "sos_term": 14.375
       },
       "games_played": 8,
       "games_counted_in_sos": 8,
@@ -12332,12 +12332,12 @@
       "team": "Sarcoxie",
       "class": 2,
       "district": 4,
-      "total_points": 30.1296,
+      "total_points": 30.2222,
       "components": {
         "avg_win_loss": 15.0,
         "avg_class_bonus": 1.25,
         "avg_differential": -0.75,
-        "sos_term": 14.6296
+        "sos_term": 14.7222
       },
       "games_played": 8,
       "games_counted_in_sos": 8,
@@ -17611,12 +17611,12 @@
       "team": "Lawson",
       "class": 2,
       "district": 8,
-      "total_points": 34.3864,
+      "total_points": 34.4773,
       "components": {
         "avg_win_loss": 16.25,
         "avg_class_bonus": 1.25,
         "avg_differential": 1.25,
-        "sos_term": 15.6364
+        "sos_term": 15.7273
       },
       "games_played": 8,
       "games_counted_in_sos": 8,
@@ -22092,12 +22092,12 @@
       "team": "St. Francis Borgia",
       "class": 3,
       "district": 4,
-      "total_points": 42.125,
+      "total_points": 42.2143,
       "components": {
         "avg_win_loss": 16.25,
         "avg_class_bonus": 10.0,
         "avg_differential": 1.5,
-        "sos_term": 14.375
+        "sos_term": 14.4643
       },
       "games_played": 8,
       "games_counted_in_sos": 8,
@@ -27560,12 +27560,12 @@
       "team": "Macon",
       "class": 3,
       "district": 8,
-      "total_points": 38.5536,
+      "total_points": 38.6429,
       "components": {
         "avg_win_loss": 17.5,
         "avg_class_bonus": 1.25,
         "avg_differential": 3.375,
-        "sos_term": 16.4286
+        "sos_term": 16.5179
       },
       "games_played": 8,
       "games_counted_in_sos": 8,
@@ -28297,12 +28297,12 @@
       "team": "Sikeston",
       "class": 4,
       "district": 1,
-      "total_points": 44.125,
+      "total_points": 44.2143,
       "components": {
         "avg_win_loss": 17.5,
         "avg_class_bonus": 6.25,
         "avg_differential": 5.375,
-        "sos_term": 15.0
+        "sos_term": 15.0893
       },
       "games_played": 8,
       "games_counted_in_sos": 8,
@@ -32062,12 +32062,12 @@
       "team": "Orchard Farm",
       "class": 4,
       "district": 4,
-      "total_points": 39.8393,
+      "total_points": 39.9286,
       "components": {
         "avg_win_loss": 17.5,
         "avg_class_bonus": 2.5,
         "avg_differential": 5.375,
-        "sos_term": 14.4643
+        "sos_term": 14.5536
       },
       "games_played": 8,
       "games_counted_in_sos": 8,
@@ -39424,12 +39424,12 @@
       "team": "Eureka",
       "class": 5,
       "district": 2,
-      "total_points": 47.1705,
+      "total_points": 47.2614,
       "components": {
         "avg_win_loss": 18.125,
         "avg_class_bonus": 5.0,
         "avg_differential": 7.5,
-        "sos_term": 16.5455
+        "sos_term": 16.6364
       },
       "games_played": 8,
       "games_counted_in_sos": 8,
@@ -40728,12 +40728,12 @@
       "team": "Ladue Horton Watkins",
       "class": 5,
       "district": 3,
-      "total_points": 47.5536,
+      "total_points": 47.6429,
       "components": {
         "avg_win_loss": 20.0,
         "avg_class_bonus": 1.25,
         "avg_differential": 11.75,
-        "sos_term": 14.5536
+        "sos_term": 14.6429
       },
       "games_played": 8,
       "games_counted_in_sos": 8,
@@ -42242,12 +42242,12 @@
       "team": "Ft. Zumwalt North",
       "class": 5,
       "district": 4,
-      "total_points": 39.1786,
+      "total_points": 39.2679,
       "components": {
         "avg_win_loss": 16.25,
         "avg_class_bonus": 3.75,
         "avg_differential": 4.0,
-        "sos_term": 15.1786
+        "sos_term": 15.2679
       },
       "games_played": 8,
       "games_counted_in_sos": 8,
@@ -42809,12 +42809,12 @@
       "team": "Ft. Zumwalt South",
       "class": 5,
       "district": 4,
-      "total_points": 21.75,
+      "total_points": 21.8393,
       "components": {
         "avg_win_loss": 12.5,
         "avg_class_bonus": 1.25,
         "avg_differential": -6.375,
-        "sos_term": 14.375
+        "sos_term": 14.4643
       },
       "games_played": 8,
       "games_counted_in_sos": 8,
@@ -49056,12 +49056,12 @@
       "team": "Seckman",
       "class": 6,
       "district": 1,
-      "total_points": 42.0536,
+      "total_points": 42.1429,
       "components": {
         "avg_win_loss": 18.75,
         "avg_class_bonus": 0.0,
         "avg_differential": 8.125,
-        "sos_term": 15.1786
+        "sos_term": 15.2679
       },
       "games_played": 8,
       "games_counted_in_sos": 8,
@@ -54528,12 +54528,12 @@
       "team": "Raymore-Peculiar",
       "class": 6,
       "district": 7,
-      "total_points": 38.8295,
+      "total_points": 38.9205,
       "components": {
         "avg_win_loss": 17.5,
         "avg_class_bonus": 0.0,
         "avg_differential": 5.875,
-        "sos_term": 15.4545
+        "sos_term": 15.5455
       },
       "games_played": 8,
       "games_counted_in_sos": 8,
@@ -55664,12 +55664,12 @@
       "team": "Park Hill",
       "class": 6,
       "district": 8,
-      "total_points": 28.5893,
+      "total_points": 28.6786,
       "components": {
         "avg_win_loss": 15.0,
         "avg_class_bonus": 0.0,
         "avg_differential": -0.875,
-        "sos_term": 14.4643
+        "sos_term": 14.5536
       },
       "games_played": 8,
       "games_counted_in_sos": 8,
