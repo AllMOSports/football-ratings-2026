@@ -1,8 +1,8 @@
 {
-  "generated": "2026-10-19T00:21:01",
+  "generated": "2026-10-19T00:31:37",
   "ratings_last_updated": "October 18, 2026 at 07:08 PM",
   "simulations": 10000,
-  "sigma": 15.0,
+  "sigma": 16.0,
   "remaining_games_simulated": 151,
   "districts": {
     "class1_district1": {
@@ -15,7 +15,7 @@
           "games_remaining": 1,
           "current_points": 53.0694,
           "current_seed": 1,
-          "projected_points": 52.3454,
+          "projected_points": 52.3763,
           "avg_seed": 1.0,
           "seed_probs": [
             1.0,
@@ -33,17 +33,17 @@
           "games_remaining": 1,
           "current_points": 48.3068,
           "current_seed": 2,
-          "projected_points": 48.9301,
-          "avg_seed": 2.039,
+          "projected_points": 48.8927,
+          "avg_seed": 2.047,
           "seed_probs": [
             0.0,
-            0.9614,
-            0.0386,
+            0.9529,
+            0.0471,
             0.0,
             0.0,
             0.0
           ],
-          "top2_prob": 0.9614
+          "top2_prob": 0.9529
         },
         {
           "team": "Charleston",
@@ -51,13 +51,13 @@
           "games_remaining": 1,
           "current_points": 41.1818,
           "current_seed": 3,
-          "projected_points": 41.7432,
-          "avg_seed": 3.039,
+          "projected_points": 41.7512,
+          "avg_seed": 3.047,
           "seed_probs": [
             0.0,
             0.0,
-            0.9614,
-            0.0386,
+            0.9529,
+            0.0471,
             0.0,
             0.0
           ],
@@ -69,17 +69,17 @@
           "games_remaining": 1,
           "current_points": 39.1591,
           "current_seed": 4,
-          "projected_points": 38.5477,
-          "avg_seed": 3.923,
+          "projected_points": 38.6029,
+          "avg_seed": 3.906,
           "seed_probs": [
             0.0,
-            0.0386,
+            0.0471,
             0.0,
-            0.9614,
+            0.9529,
             0.0,
             0.0
           ],
-          "top2_prob": 0.0386
+          "top2_prob": 0.0471
         },
         {
           "team": "Malden",
@@ -87,15 +87,15 @@
           "games_remaining": 1,
           "current_points": 27.5179,
           "current_seed": 5,
-          "projected_points": 30.2963,
-          "avg_seed": 5.01,
+          "projected_points": 30.2604,
+          "avg_seed": 5.015,
           "seed_probs": [
             0.0,
             0.0,
             0.0,
             0.0,
-            0.9897,
-            0.0103
+            0.9846,
+            0.0154
           ],
           "top2_prob": 0.0
         },
@@ -105,15 +105,15 @@
           "games_remaining": 1,
           "current_points": 25.6786,
           "current_seed": 6,
-          "projected_points": 26.163,
-          "avg_seed": 5.99,
+          "projected_points": 26.2094,
+          "avg_seed": 5.985,
           "seed_probs": [
             0.0,
             0.0,
             0.0,
             0.0,
-            0.0103,
-            0.9897
+            0.0154,
+            0.9846
           ],
           "top2_prob": 0.0
         }
@@ -129,7 +129,7 @@
           "games_remaining": 1,
           "current_points": 46.9643,
           "current_seed": 1,
-          "projected_points": 45.9304,
+          "projected_points": 45.9627,
           "avg_seed": 1.0,
           "seed_probs": [
             1.0,
@@ -146,16 +146,16 @@
           "games_remaining": 1,
           "current_points": 30.8936,
           "current_seed": 2,
-          "projected_points": 31.7968,
-          "avg_seed": 2.081,
+          "projected_points": 31.8603,
+          "avg_seed": 2.084,
           "seed_probs": [
             0.0,
-            0.9433,
-            0.0326,
-            0.0241,
+            0.9405,
+            0.0345,
+            0.025,
             0.0
           ],
-          "top2_prob": 0.9433
+          "top2_prob": 0.9405
         },
         {
           "team": "Veritas Christian Academy",
@@ -163,16 +163,16 @@
           "games_remaining": 1,
           "current_points": 30.8056,
           "current_seed": 3,
-          "projected_points": 31.5449,
+          "projected_points": 31.6266,
           "avg_seed": 3.009,
           "seed_probs": [
             0.0,
-            0.0241,
-            0.9433,
-            0.0326,
+            0.025,
+            0.9405,
+            0.0345,
             0.0
           ],
-          "top2_prob": 0.0241
+          "top2_prob": 0.025
         },
         {
           "team": "Grandview (Hillsboro)",
@@ -180,14 +180,14 @@
           "games_remaining": 1,
           "current_points": 25.75,
           "current_seed": 5,
-          "projected_points": 26.4846,
-          "avg_seed": 4.312,
+          "projected_points": 26.4606,
+          "avg_seed": 4.328,
           "seed_probs": [
             0.0,
             0.0,
             0.0,
-            0.6878,
-            0.3122
+            0.672,
+            0.328
           ],
           "top2_prob": 0.0
         },
@@ -197,16 +197,16 @@
           "games_remaining": 1,
           "current_points": 29.3325,
           "current_seed": 4,
-          "projected_points": 28.3329,
-          "avg_seed": 4.598,
+          "projected_points": 28.3613,
+          "avg_seed": 4.578,
           "seed_probs": [
             0.0,
-            0.0326,
-            0.0241,
-            0.2555,
-            0.6878
+            0.0345,
+            0.025,
+            0.2685,
+            0.672
           ],
-          "top2_prob": 0.0326
+          "top2_prob": 0.0345
         }
       ]
     },
@@ -220,7 +220,7 @@
           "games_remaining": 1,
           "current_points": 43.3182,
           "current_seed": 1,
-          "projected_points": 42.5069,
+          "projected_points": 42.481,
           "avg_seed": 1.0,
           "seed_probs": [
             1.0,
@@ -237,7 +237,7 @@
           "games_remaining": 1,
           "current_points": 40.4205,
           "current_seed": 2,
-          "projected_points": 41.6565,
+          "projected_points": 41.6044,
           "avg_seed": 2.0,
           "seed_probs": [
             0.0,
@@ -254,7 +254,7 @@
           "games_remaining": 1,
           "current_points": 36.0,
           "current_seed": 3,
-          "projected_points": 36.8634,
+          "projected_points": 36.8303,
           "avg_seed": 3.0,
           "seed_probs": [
             0.0,
@@ -271,7 +271,7 @@
           "games_remaining": 1,
           "current_points": 35.1364,
           "current_seed": 4,
-          "projected_points": 34.1838,
+          "projected_points": 34.2093,
           "avg_seed": 4.0,
           "seed_probs": [
             0.0,
@@ -288,7 +288,7 @@
           "games_remaining": 1,
           "current_points": 19.5306,
           "current_seed": 5,
-          "projected_points": 18.834,
+          "projected_points": 18.8366,
           "avg_seed": 5.0,
           "seed_probs": [
             0.0,
@@ -311,11 +311,11 @@
           "games_remaining": 1,
           "current_points": 51.75,
           "current_seed": 1,
-          "projected_points": 52.1402,
-          "avg_seed": 1.002,
+          "projected_points": 52.1243,
+          "avg_seed": 1.005,
           "seed_probs": [
-            0.9975,
-            0.0025,
+            0.9954,
+            0.0046,
             0.0,
             0.0,
             0.0
@@ -328,16 +328,16 @@
           "games_remaining": 1,
           "current_points": 47.8036,
           "current_seed": 3,
-          "projected_points": 47.1822,
-          "avg_seed": 2.005,
+          "projected_points": 47.1813,
+          "avg_seed": 2.008,
           "seed_probs": [
             0.0,
-            0.9951,
-            0.0049,
+            0.9923,
+            0.0077,
             0.0,
             0.0
           ],
-          "top2_prob": 0.9951
+          "top2_prob": 0.9923
         },
         {
           "team": "Russellville",
@@ -345,16 +345,16 @@
           "games_remaining": 1,
           "current_points": 49.1415,
           "current_seed": 2,
-          "projected_points": 45.7402,
-          "avg_seed": 2.993,
+          "projected_points": 45.7568,
+          "avg_seed": 2.988,
           "seed_probs": [
-            0.0025,
-            0.0024,
-            0.9951,
+            0.0046,
+            0.0031,
+            0.9923,
             0.0,
             0.0
           ],
-          "top2_prob": 0.0049
+          "top2_prob": 0.0077
         },
         {
           "team": "Windsor",
@@ -362,7 +362,7 @@
           "games_remaining": 1,
           "current_points": 32.3036,
           "current_seed": 4,
-          "projected_points": 32.3228,
+          "projected_points": 32.2816,
           "avg_seed": 4.0,
           "seed_probs": [
             0.0,
@@ -379,7 +379,7 @@
           "games_remaining": 1,
           "current_points": 17.0,
           "current_seed": 5,
-          "projected_points": 17.7263,
+          "projected_points": 17.7257,
           "avg_seed": 5.0,
           "seed_probs": [
             0.0,
@@ -402,7 +402,7 @@
           "games_remaining": 1,
           "current_points": 54.0357,
           "current_seed": 1,
-          "projected_points": 52.4979,
+          "projected_points": 52.4941,
           "avg_seed": 1.0,
           "seed_probs": [
             1.0,
@@ -419,16 +419,16 @@
           "games_remaining": 1,
           "current_points": 38.8929,
           "current_seed": 2,
-          "projected_points": 40.4441,
-          "avg_seed": 2.028,
+          "projected_points": 40.3884,
+          "avg_seed": 2.036,
           "seed_probs": [
             0.0,
-            0.9717,
-            0.0283,
+            0.964,
+            0.036,
             0.0,
             0.0
           ],
-          "top2_prob": 0.9717
+          "top2_prob": 0.964
         },
         {
           "team": "North Platte",
@@ -436,16 +436,16 @@
           "games_remaining": 1,
           "current_points": 35.4643,
           "current_seed": 3,
-          "projected_points": 36.0446,
-          "avg_seed": 3.046,
+          "projected_points": 36.0794,
+          "avg_seed": 3.05,
           "seed_probs": [
             0.0,
-            0.0283,
-            0.9012,
-            0.0668,
-            0.0037
+            0.036,
+            0.8843,
+            0.0734,
+            0.0063
           ],
-          "top2_prob": 0.0283
+          "top2_prob": 0.036
         },
         {
           "team": "Sherwood",
@@ -453,14 +453,14 @@
           "games_remaining": 1,
           "current_points": 32.4821,
           "current_seed": 4,
-          "projected_points": 32.0947,
-          "avg_seed": 3.991,
+          "projected_points": 32.1447,
+          "avg_seed": 3.987,
           "seed_probs": [
             0.0,
             0.0,
-            0.0395,
-            0.9295,
-            0.031
+            0.0464,
+            0.9203,
+            0.0333
           ],
           "top2_prob": 0.0
         },
@@ -470,14 +470,14 @@
           "games_remaining": 1,
           "current_points": 32.75,
           "current_seed": 5,
-          "projected_points": 31.8416,
-          "avg_seed": 4.934,
+          "projected_points": 31.8864,
+          "avg_seed": 4.927,
           "seed_probs": [
             0.0,
             0.0,
-            0.031,
-            0.0037,
-            0.9653
+            0.0333,
+            0.0063,
+            0.9604
           ],
           "top2_prob": 0.0
         }
@@ -493,11 +493,11 @@
           "games_remaining": 1,
           "current_points": 39.6607,
           "current_seed": 1,
-          "projected_points": 39.8536,
-          "avg_seed": 1.007,
+          "projected_points": 39.8002,
+          "avg_seed": 1.011,
           "seed_probs": [
-            0.9934,
-            0.0066,
+            0.9894,
+            0.0106,
             0.0,
             0.0,
             0.0,
@@ -511,17 +511,17 @@
           "games_remaining": 1,
           "current_points": 30.4107,
           "current_seed": 4,
-          "projected_points": 30.0674,
-          "avg_seed": 2.2,
+          "projected_points": 30.0799,
+          "avg_seed": 2.222,
           "seed_probs": [
             0.0,
-            0.8963,
-            0.007,
-            0.0967,
+            0.8829,
+            0.0118,
+            0.1053,
             0.0,
             0.0
           ],
-          "top2_prob": 0.8963
+          "top2_prob": 0.8829
         },
         {
           "team": "Gallatin with Tri-County",
@@ -529,17 +529,17 @@
           "games_remaining": 1,
           "current_points": 30.8068,
           "current_seed": 2,
-          "projected_points": 33.2587,
-          "avg_seed": 2.91,
+          "projected_points": 33.2349,
+          "avg_seed": 2.906,
           "seed_probs": [
             0.0,
-            0.0967,
-            0.8963,
-            0.007,
+            0.1053,
+            0.8829,
+            0.0118,
             0.0,
             0.0
           ],
-          "top2_prob": 0.0967
+          "top2_prob": 0.1053
         },
         {
           "team": "Plattsburg",
@@ -547,17 +547,17 @@
           "games_remaining": 1,
           "current_points": 30.6964,
           "current_seed": 3,
-          "projected_points": 29.1144,
-          "avg_seed": 3.883,
+          "projected_points": 29.1678,
+          "avg_seed": 3.861,
           "seed_probs": [
-            0.0066,
-            0.0004,
-            0.0967,
-            0.8963,
+            0.0106,
+            0.0012,
+            0.1053,
+            0.8829,
             0.0,
             0.0
           ],
-          "top2_prob": 0.007
+          "top2_prob": 0.0118
         },
         {
           "team": "Maysville",
@@ -565,15 +565,15 @@
           "games_remaining": 1,
           "current_points": 25.5909,
           "current_seed": 5,
-          "projected_points": 26.6174,
-          "avg_seed": 5.245,
+          "projected_points": 26.5859,
+          "avg_seed": 5.255,
           "seed_probs": [
             0.0,
             0.0,
             0.0,
             0.0,
-            0.7548,
-            0.2452
+            0.745,
+            0.255
           ],
           "top2_prob": 0.0
         },
@@ -583,15 +583,15 @@
           "games_remaining": 1,
           "current_points": 21.9545,
           "current_seed": 6,
-          "projected_points": 21.7006,
-          "avg_seed": 5.755,
+          "projected_points": 21.7265,
+          "avg_seed": 5.745,
           "seed_probs": [
             0.0,
             0.0,
             0.0,
             0.0,
-            0.2452,
-            0.7548
+            0.255,
+            0.745
           ],
           "top2_prob": 0.0
         }
@@ -607,11 +607,11 @@
           "games_remaining": 1,
           "current_points": 46.6792,
           "current_seed": 1,
-          "projected_points": 46.7793,
-          "avg_seed": 1.003,
+          "projected_points": 46.7767,
+          "avg_seed": 1.006,
           "seed_probs": [
-            0.9966,
-            0.0034,
+            0.9943,
+            0.0057,
             0.0,
             0.0,
             0.0
@@ -624,11 +624,11 @@
           "games_remaining": 1,
           "current_points": 30.3182,
           "current_seed": 2,
-          "projected_points": 28.8075,
-          "avg_seed": 1.997,
+          "projected_points": 28.818,
+          "avg_seed": 1.994,
           "seed_probs": [
-            0.0034,
-            0.9966,
+            0.0057,
+            0.9943,
             0.0,
             0.0,
             0.0
@@ -641,14 +641,14 @@
           "games_remaining": 1,
           "current_points": 24.375,
           "current_seed": 3,
-          "projected_points": 25.6244,
-          "avg_seed": 3.411,
+          "projected_points": 25.5839,
+          "avg_seed": 3.448,
           "seed_probs": [
             0.0,
             0.0,
-            0.7579,
-            0.073,
-            0.1691
+            0.7345,
+            0.0826,
+            0.1829
           ],
           "top2_prob": 0.0
         },
@@ -658,13 +658,13 @@
           "games_remaining": 1,
           "current_points": 23.5893,
           "current_seed": 4,
-          "projected_points": 24.5839,
-          "avg_seed": 3.758,
+          "projected_points": 24.6222,
+          "avg_seed": 3.735,
           "seed_probs": [
             0.0,
             0.0,
-            0.2421,
-            0.7579,
+            0.2655,
+            0.7345,
             0.0
           ],
           "top2_prob": 0.0
@@ -675,14 +675,14 @@
           "games_remaining": 1,
           "current_points": 19.9107,
           "current_seed": 5,
-          "projected_points": 19.3615,
-          "avg_seed": 4.831,
+          "projected_points": 19.4043,
+          "avg_seed": 4.817,
           "seed_probs": [
             0.0,
             0.0,
             0.0,
-            0.1691,
-            0.8309
+            0.1829,
+            0.8171
           ],
           "top2_prob": 0.0
         }
@@ -698,16 +698,16 @@
           "games_remaining": 1,
           "current_points": 42.4286,
           "current_seed": 1,
-          "projected_points": 42.8518,
+          "projected_points": 42.8063,
           "avg_seed": 1.0,
           "seed_probs": [
-            1.0,
+            0.9999,
             0.0,
-            0.0,
+            0.0001,
             0.0,
             0.0
           ],
-          "top2_prob": 1.0
+          "top2_prob": 0.9999
         },
         {
           "team": "Putnam County",
@@ -715,11 +715,11 @@
           "games_remaining": 1,
           "current_points": 42.5682,
           "current_seed": 2,
-          "projected_points": 42.6955,
+          "projected_points": 42.6915,
           "avg_seed": 2.0,
           "seed_probs": [
-            0.0,
-            1.0,
+            0.0001,
+            0.9999,
             0.0,
             0.0,
             0.0
@@ -732,16 +732,16 @@
           "games_remaining": 1,
           "current_points": 37.9643,
           "current_seed": 3,
-          "projected_points": 36.6606,
-          "avg_seed": 3.086,
+          "projected_points": 36.6673,
+          "avg_seed": 3.107,
           "seed_probs": [
             0.0,
-            0.0,
-            0.9144,
-            0.0856,
+            0.0001,
+            0.8933,
+            0.1066,
             0.0
           ],
-          "top2_prob": 0.0
+          "top2_prob": 0.0001
         },
         {
           "team": "Marceline",
@@ -749,13 +749,13 @@
           "games_remaining": 1,
           "current_points": 34.5455,
           "current_seed": 4,
-          "projected_points": 34.2914,
-          "avg_seed": 3.914,
+          "projected_points": 34.3715,
+          "avg_seed": 3.893,
           "seed_probs": [
             0.0,
             0.0,
-            0.0856,
-            0.9144,
+            0.1066,
+            0.8934,
             0.0
           ],
           "top2_prob": 0.0
@@ -766,7 +766,7 @@
           "games_remaining": 1,
           "current_points": 14.3469,
           "current_seed": 5,
-          "projected_points": 14.5044,
+          "projected_points": 14.5057,
           "avg_seed": 5.0,
           "seed_probs": [
             0.0,
@@ -789,11 +789,11 @@
           "games_remaining": 1,
           "current_points": 53.2857,
           "current_seed": 1,
-          "projected_points": 52.7719,
+          "projected_points": 52.7172,
           "avg_seed": 1.0,
           "seed_probs": [
-            0.9999,
-            0.0001,
+            0.9997,
+            0.0003,
             0.0,
             0.0,
             0.0,
@@ -807,11 +807,11 @@
           "games_remaining": 1,
           "current_points": 45.5227,
           "current_seed": 2,
-          "projected_points": 47.8525,
+          "projected_points": 47.8043,
           "avg_seed": 2.0,
           "seed_probs": [
-            0.0001,
-            0.9999,
+            0.0003,
+            0.9997,
             0.0,
             0.0,
             0.0,
@@ -825,13 +825,13 @@
           "games_remaining": 1,
           "current_points": 38.462,
           "current_seed": 4,
-          "projected_points": 40.4872,
-          "avg_seed": 3.088,
+          "projected_points": 40.4414,
+          "avg_seed": 3.105,
           "seed_probs": [
             0.0,
             0.0,
-            0.9116,
-            0.0884,
+            0.8951,
+            0.1049,
             0.0,
             0.0
           ],
@@ -843,13 +843,13 @@
           "games_remaining": 1,
           "current_points": 39.3409,
           "current_seed": 3,
-          "projected_points": 37.887,
-          "avg_seed": 3.912,
+          "projected_points": 37.918,
+          "avg_seed": 3.895,
           "seed_probs": [
             0.0,
             0.0,
-            0.0884,
-            0.9116,
+            0.1049,
+            0.8951,
             0.0,
             0.0
           ],
@@ -861,7 +861,7 @@
           "games_remaining": 1,
           "current_points": 27.9205,
           "current_seed": 5,
-          "projected_points": 26.7258,
+          "projected_points": 26.7586,
           "avg_seed": 5.0,
           "seed_probs": [
             0.0,
@@ -879,7 +879,7 @@
           "games_remaining": 1,
           "current_points": 18.6607,
           "current_seed": 6,
-          "projected_points": 18.5406,
+          "projected_points": 18.5652,
           "avg_seed": 6.0,
           "seed_probs": [
             0.0,
@@ -903,7 +903,7 @@
           "games_remaining": 1,
           "current_points": 58.1136,
           "current_seed": 1,
-          "projected_points": 57.7906,
+          "projected_points": 57.747,
           "avg_seed": 1.0,
           "seed_probs": [
             1.0,
@@ -922,7 +922,7 @@
           "games_remaining": 1,
           "current_points": 44.6786,
           "current_seed": 2,
-          "projected_points": 41.7777,
+          "projected_points": 41.8235,
           "avg_seed": 2.0,
           "seed_probs": [
             0.0,
@@ -941,14 +941,14 @@
           "games_remaining": 1,
           "current_points": 33.125,
           "current_seed": 3,
-          "projected_points": 33.8681,
-          "avg_seed": 3.032,
+          "projected_points": 33.8318,
+          "avg_seed": 3.039,
           "seed_probs": [
             0.0,
             0.0,
-            0.9749,
-            0.0184,
-            0.0067,
+            0.9688,
+            0.0239,
+            0.0073,
             0.0,
             0.0
           ],
@@ -960,14 +960,14 @@
           "games_remaining": 1,
           "current_points": 30.2143,
           "current_seed": 4,
-          "projected_points": 31.7052,
-          "avg_seed": 4.199,
+          "projected_points": 31.676,
+          "avg_seed": 4.22,
           "seed_probs": [
             0.0,
             0.0,
-            0.0067,
-            0.788,
-            0.2053,
+            0.0073,
+            0.765,
+            0.2277,
             0.0,
             0.0
           ],
@@ -979,14 +979,14 @@
           "games_remaining": 1,
           "current_points": 29.5,
           "current_seed": 5,
-          "projected_points": 29.9109,
-          "avg_seed": 4.77,
+          "projected_points": 29.9505,
+          "avg_seed": 4.741,
           "seed_probs": [
             0.0,
             0.0,
-            0.0184,
-            0.1936,
-            0.788,
+            0.0239,
+            0.2111,
+            0.765,
             0.0,
             0.0
           ],
@@ -998,7 +998,7 @@
           "games_remaining": 0,
           "current_points": 28.1071,
           "current_seed": 6,
-          "projected_points": 28.1904,
+          "projected_points": 28.182,
           "avg_seed": 6.0,
           "seed_probs": [
             0.0,
@@ -1017,7 +1017,7 @@
           "games_remaining": 1,
           "current_points": 18.6565,
           "current_seed": 7,
-          "projected_points": 20.1034,
+          "projected_points": 20.1086,
           "avg_seed": 7.0,
           "seed_probs": [
             0.0,
@@ -1042,7 +1042,7 @@
           "games_remaining": 1,
           "current_points": 48.7159,
           "current_seed": 1,
-          "projected_points": 49.2852,
+          "projected_points": 49.2451,
           "avg_seed": 1.0,
           "seed_probs": [
             1.0,
@@ -1061,7 +1061,7 @@
           "games_remaining": 1,
           "current_points": 51.7614,
           "current_seed": 2,
-          "projected_points": 52.1804,
+          "projected_points": 52.1643,
           "avg_seed": 2.0,
           "seed_probs": [
             0.0,
@@ -1080,13 +1080,13 @@
           "games_remaining": 1,
           "current_points": 37.7321,
           "current_seed": 3,
-          "projected_points": 38.1878,
-          "avg_seed": 3.044,
+          "projected_points": 38.1213,
+          "avg_seed": 3.057,
           "seed_probs": [
             0.0,
             0.0,
-            0.9558,
-            0.0442,
+            0.9432,
+            0.0568,
             0.0,
             0.0,
             0.0
@@ -1099,13 +1099,13 @@
           "games_remaining": 1,
           "current_points": 41.0714,
           "current_seed": 4,
-          "projected_points": 41.2825,
-          "avg_seed": 3.956,
+          "projected_points": 41.2259,
+          "avg_seed": 3.943,
           "seed_probs": [
             0.0,
             0.0,
-            0.0442,
-            0.9558,
+            0.0568,
+            0.9432,
             0.0,
             0.0,
             0.0
@@ -1118,7 +1118,7 @@
           "games_remaining": 1,
           "current_points": 33.3571,
           "current_seed": 5,
-          "projected_points": 35.421,
+          "projected_points": 35.4116,
           "avg_seed": 5.0,
           "seed_probs": [
             0.0,
@@ -1137,7 +1137,7 @@
           "games_remaining": 1,
           "current_points": 27.2143,
           "current_seed": 6,
-          "projected_points": 26.3117,
+          "projected_points": 26.3791,
           "avg_seed": 6.0,
           "seed_probs": [
             0.0,
@@ -1156,7 +1156,7 @@
           "games_remaining": 1,
           "current_points": 25.75,
           "current_seed": 7,
-          "projected_points": 24.9701,
+          "projected_points": 25.0247,
           "avg_seed": 7.0,
           "seed_probs": [
             0.0,
@@ -1181,7 +1181,7 @@
           "games_remaining": 1,
           "current_points": 55.8295,
           "current_seed": 1,
-          "projected_points": 57.0543,
+          "projected_points": 57.0182,
           "avg_seed": 1.0,
           "seed_probs": [
             1.0,
@@ -1200,7 +1200,7 @@
           "games_remaining": 1,
           "current_points": 44.5536,
           "current_seed": 2,
-          "projected_points": 45.6927,
+          "projected_points": 45.6687,
           "avg_seed": 2.0,
           "seed_probs": [
             0.0,
@@ -1219,14 +1219,14 @@
           "games_remaining": 1,
           "current_points": 33.3523,
           "current_seed": 4,
-          "projected_points": 34.6217,
-          "avg_seed": 3.431,
+          "projected_points": 34.5511,
+          "avg_seed": 3.459,
           "seed_probs": [
             0.0,
             0.0,
-            0.5956,
-            0.3778,
-            0.0266,
+            0.5706,
+            0.4001,
+            0.0293,
             0.0,
             0.0
           ],
@@ -1238,13 +1238,13 @@
           "games_remaining": 1,
           "current_points": 36.3393,
           "current_seed": 3,
-          "projected_points": 35.0095,
-          "avg_seed": 3.596,
+          "projected_points": 35.0438,
+          "avg_seed": 3.571,
           "seed_probs": [
             0.0,
             0.0,
-            0.4044,
-            0.5956,
+            0.4294,
+            0.5706,
             0.0,
             0.0,
             0.0
@@ -1257,14 +1257,14 @@
           "games_remaining": 1,
           "current_points": 30.2222,
           "current_seed": 5,
-          "projected_points": 29.8678,
-          "avg_seed": 4.973,
+          "projected_points": 29.9076,
+          "avg_seed": 4.971,
           "seed_probs": [
             0.0,
             0.0,
             0.0,
-            0.0266,
-            0.9734,
+            0.0293,
+            0.9707,
             0.0,
             0.0
           ],
@@ -1276,7 +1276,7 @@
           "games_remaining": 1,
           "current_points": 27.5568,
           "current_seed": 6,
-          "projected_points": 26.6963,
+          "projected_points": 26.7494,
           "avg_seed": 6.0,
           "seed_probs": [
             0.0,
@@ -1295,7 +1295,7 @@
           "games_remaining": 1,
           "current_points": 21.2386,
           "current_seed": 7,
-          "projected_points": 20.8803,
+          "projected_points": 20.9395,
           "avg_seed": 7.0,
           "seed_probs": [
             0.0,
@@ -1320,7 +1320,7 @@
           "games_remaining": 1,
           "current_points": 53.4091,
           "current_seed": 1,
-          "projected_points": 54.1116,
+          "projected_points": 54.0685,
           "avg_seed": 1.0,
           "seed_probs": [
             1.0,
@@ -1339,7 +1339,7 @@
           "games_remaining": 1,
           "current_points": 47.7321,
           "current_seed": 2,
-          "projected_points": 46.9698,
+          "projected_points": 46.957,
           "avg_seed": 2.0,
           "seed_probs": [
             0.0,
@@ -1358,7 +1358,7 @@
           "games_remaining": 1,
           "current_points": 41.7143,
           "current_seed": 3,
-          "projected_points": 43.4093,
+          "projected_points": 43.3947,
           "avg_seed": 3.0,
           "seed_probs": [
             0.0,
@@ -1377,15 +1377,15 @@
           "games_remaining": 1,
           "current_points": 36.5893,
           "current_seed": 4,
-          "projected_points": 37.1752,
-          "avg_seed": 4.115,
+          "projected_points": 37.1254,
+          "avg_seed": 4.136,
           "seed_probs": [
             0.0,
             0.0,
             0.0,
-            0.9029,
-            0.0793,
-            0.0178,
+            0.889,
+            0.0859,
+            0.0251,
             0.0
           ],
           "top2_prob": 0.0
@@ -1396,15 +1396,15 @@
           "games_remaining": 1,
           "current_points": 33.875,
           "current_seed": 6,
-          "projected_points": 34.9234,
-          "avg_seed": 5.067,
+          "projected_points": 34.9168,
+          "avg_seed": 5.07,
           "seed_probs": [
             0.0,
             0.0,
             0.0,
-            0.0751,
-            0.7829,
-            0.142,
+            0.0823,
+            0.7658,
+            0.1519,
             0.0
           ],
           "top2_prob": 0.0
@@ -1415,15 +1415,15 @@
           "games_remaining": 1,
           "current_points": 35.4033,
           "current_seed": 5,
-          "projected_points": 33.3296,
-          "avg_seed": 5.818,
+          "projected_points": 33.3907,
+          "avg_seed": 5.794,
           "seed_probs": [
             0.0,
             0.0,
             0.0,
-            0.022,
-            0.1378,
-            0.8402,
+            0.0287,
+            0.1483,
+            0.823,
             0.0
           ],
           "top2_prob": 0.0
@@ -1434,7 +1434,7 @@
           "games_remaining": 1,
           "current_points": 27.9286,
           "current_seed": 7,
-          "projected_points": 30.4033,
+          "projected_points": 30.3709,
           "avg_seed": 7.0,
           "seed_probs": [
             0.0,
@@ -1459,18 +1459,18 @@
           "games_remaining": 1,
           "current_points": 40.2857,
           "current_seed": 1,
-          "projected_points": 40.7521,
-          "avg_seed": 1.378,
+          "projected_points": 40.7077,
+          "avg_seed": 1.405,
           "seed_probs": [
-            0.666,
-            0.2983,
-            0.0278,
-            0.0079,
-            0.0,
+            0.6493,
+            0.3074,
+            0.0327,
+            0.0104,
+            0.0002,
             0.0,
             0.0
           ],
-          "top2_prob": 0.9643
+          "top2_prob": 0.9567
         },
         {
           "team": "KIPP KC Legacy",
@@ -1478,18 +1478,18 @@
           "games_remaining": 1,
           "current_points": 39.342,
           "current_seed": 2,
-          "projected_points": 39.5219,
-          "avg_seed": 2.052,
+          "projected_points": 39.5495,
+          "avg_seed": 2.031,
           "seed_probs": [
-            0.3182,
-            0.3115,
-            0.3703,
+            0.3301,
+            0.3087,
+            0.3612,
             0.0,
             0.0,
             0.0,
             0.0
           ],
-          "top2_prob": 0.6297
+          "top2_prob": 0.6388
         },
         {
           "team": "Butler",
@@ -1497,18 +1497,18 @@
           "games_remaining": 1,
           "current_points": 38.1786,
           "current_seed": 3,
-          "projected_points": 38.3598,
-          "avg_seed": 2.644,
+          "projected_points": 38.3058,
+          "avg_seed": 2.65,
           "seed_probs": [
-            0.0158,
-            0.3891,
-            0.5309,
-            0.0642,
+            0.0206,
+            0.3818,
+            0.5247,
+            0.0729,
             0.0,
             0.0,
             0.0
           ],
-          "top2_prob": 0.4049
+          "top2_prob": 0.4024
         },
         {
           "team": "Lafayette County",
@@ -1516,18 +1516,18 @@
           "games_remaining": 1,
           "current_points": 35.875,
           "current_seed": 4,
-          "projected_points": 35.7456,
-          "avg_seed": 3.927,
+          "projected_points": 35.7498,
+          "avg_seed": 3.914,
           "seed_probs": [
             0.0,
-            0.0011,
-            0.071,
-            0.9279,
+            0.0021,
+            0.0814,
+            0.9165,
             0.0,
             0.0,
             0.0
           ],
-          "top2_prob": 0.0011
+          "top2_prob": 0.0021
         },
         {
           "team": "Holden",
@@ -1535,15 +1535,15 @@
           "games_remaining": 1,
           "current_points": 25.9107,
           "current_seed": 5,
-          "projected_points": 29.5932,
+          "projected_points": 29.5375,
           "avg_seed": 5.0,
           "seed_probs": [
             0.0,
             0.0,
             0.0,
             0.0,
-            0.9999,
-            0.0001,
+            0.9996,
+            0.0004,
             0.0
           ],
           "top2_prob": 0.0
@@ -1554,15 +1554,15 @@
           "games_remaining": 1,
           "current_points": 23.6786,
           "current_seed": 6,
-          "projected_points": 22.5331,
-          "avg_seed": 6.0,
+          "projected_points": 22.5737,
+          "avg_seed": 5.999,
           "seed_probs": [
             0.0,
             0.0,
             0.0,
-            0.0,
-            0.0001,
-            0.9999,
+            0.0002,
+            0.0002,
+            0.9996,
             0.0
           ],
           "top2_prob": 0.0
@@ -1573,7 +1573,7 @@
           "games_remaining": 1,
           "current_points": 14.6964,
           "current_seed": 7,
-          "projected_points": 15.8628,
+          "projected_points": 15.8658,
           "avg_seed": 7.0,
           "seed_probs": [
             0.0,
@@ -1598,7 +1598,7 @@
           "games_remaining": 1,
           "current_points": 52.3929,
           "current_seed": 1,
-          "projected_points": 51.7472,
+          "projected_points": 51.7491,
           "avg_seed": 1.0,
           "seed_probs": [
             1.0,
@@ -1617,18 +1617,18 @@
           "games_remaining": 1,
           "current_points": 39.7679,
           "current_seed": 2,
-          "projected_points": 40.427,
-          "avg_seed": 2.024,
+          "projected_points": 40.3853,
+          "avg_seed": 2.029,
           "seed_probs": [
             0.0,
-            0.9879,
+            0.9853,
             0.0,
-            0.0121,
+            0.0147,
             0.0,
             0.0,
             0.0
           ],
-          "top2_prob": 0.9879
+          "top2_prob": 0.9853
         },
         {
           "team": "Bowling Green",
@@ -1636,18 +1636,18 @@
           "games_remaining": 1,
           "current_points": 42.6786,
           "current_seed": 3,
-          "projected_points": 42.7415,
-          "avg_seed": 2.988,
+          "projected_points": 42.7436,
+          "avg_seed": 2.985,
           "seed_probs": [
             0.0,
-            0.0121,
-            0.9879,
+            0.0147,
+            0.9853,
             0.0,
             0.0,
             0.0,
             0.0
           ],
-          "top2_prob": 0.0121
+          "top2_prob": 0.0147
         },
         {
           "team": "Monroe City",
@@ -1655,13 +1655,13 @@
           "games_remaining": 1,
           "current_points": 35.6964,
           "current_seed": 4,
-          "projected_points": 33.4471,
-          "avg_seed": 3.988,
+          "projected_points": 33.4928,
+          "avg_seed": 3.985,
           "seed_probs": [
             0.0,
             0.0,
-            0.0121,
-            0.9879,
+            0.0147,
+            0.9853,
             0.0,
             0.0,
             0.0
@@ -1674,15 +1674,15 @@
           "games_remaining": 1,
           "current_points": 23.0893,
           "current_seed": 5,
-          "projected_points": 23.1853,
+          "projected_points": 23.2297,
           "avg_seed": 5.0,
           "seed_probs": [
             0.0,
             0.0,
             0.0,
             0.0,
-            0.9998,
-            0.0002,
+            1.0,
+            0.0,
             0.0
           ],
           "top2_prob": 0.0
@@ -1693,15 +1693,15 @@
           "games_remaining": 1,
           "current_points": 19.5893,
           "current_seed": 6,
-          "projected_points": 19.0286,
+          "projected_points": 19.0318,
           "avg_seed": 6.0,
           "seed_probs": [
             0.0,
             0.0,
             0.0,
             0.0,
-            0.0002,
-            0.9998,
+            0.0,
+            1.0,
             0.0
           ],
           "top2_prob": 0.0
@@ -1712,7 +1712,7 @@
           "games_remaining": 1,
           "current_points": 12.0,
           "current_seed": 7,
-          "projected_points": 13.3036,
+          "projected_points": 13.3056,
           "avg_seed": 7.0,
           "seed_probs": [
             0.0,
@@ -1737,7 +1737,7 @@
           "games_remaining": 1,
           "current_points": 49.4286,
           "current_seed": 1,
-          "projected_points": 48.8465,
+          "projected_points": 48.8337,
           "avg_seed": 1.0,
           "seed_probs": [
             1.0,
@@ -1755,17 +1755,17 @@
           "games_remaining": 1,
           "current_points": 43.2159,
           "current_seed": 3,
-          "projected_points": 43.367,
-          "avg_seed": 2.307,
+          "projected_points": 43.2874,
+          "avg_seed": 2.333,
           "seed_probs": [
             0.0,
-            0.6931,
-            0.3069,
+            0.6669,
+            0.3331,
             0.0,
             0.0,
             0.0
           ],
-          "top2_prob": 0.6931
+          "top2_prob": 0.6669
         },
         {
           "team": "Lathrop",
@@ -1773,17 +1773,17 @@
           "games_remaining": 1,
           "current_points": 43.5893,
           "current_seed": 2,
-          "projected_points": 42.0771,
-          "avg_seed": 3.236,
+          "projected_points": 42.1205,
+          "avg_seed": 3.187,
           "seed_probs": [
             0.0,
-            0.3069,
-            0.15,
-            0.5431,
+            0.3331,
+            0.1465,
+            0.5204,
             0.0,
             0.0
           ],
-          "top2_prob": 0.3069
+          "top2_prob": 0.3331
         },
         {
           "team": "West Platte",
@@ -1791,14 +1791,14 @@
           "games_remaining": 1,
           "current_points": 37.7321,
           "current_seed": 5,
-          "projected_points": 37.4419,
-          "avg_seed": 3.914,
+          "projected_points": 37.3963,
+          "avg_seed": 3.959,
           "seed_probs": [
             0.0,
             0.0,
-            0.5431,
+            0.5204,
             0.0,
-            0.4569,
+            0.4796,
             0.0
           ],
           "top2_prob": 0.0
@@ -1809,14 +1809,14 @@
           "games_remaining": 1,
           "current_points": 34.4773,
           "current_seed": 4,
-          "projected_points": 33.9538,
-          "avg_seed": 4.543,
+          "projected_points": 33.9162,
+          "avg_seed": 4.52,
           "seed_probs": [
             0.0,
             0.0,
             0.0,
-            0.4569,
-            0.5431,
+            0.4796,
+            0.5204,
             0.0
           ],
           "top2_prob": 0.0
@@ -1827,7 +1827,7 @@
           "games_remaining": 1,
           "current_points": 21.0,
           "current_seed": 6,
-          "projected_points": 20.5383,
+          "projected_points": 20.5597,
           "avg_seed": 6.0,
           "seed_probs": [
             0.0,
@@ -1851,18 +1851,18 @@
           "games_remaining": 1,
           "current_points": 43.0,
           "current_seed": 1,
-          "projected_points": 42.3,
-          "avg_seed": 1.116,
+          "projected_points": 42.2695,
+          "avg_seed": 1.127,
           "seed_probs": [
-            0.8883,
-            0.1092,
-            0.0006,
-            0.0019,
+            0.8795,
+            0.1163,
+            0.0016,
+            0.0026,
             0.0,
             0.0,
             0.0
           ],
-          "top2_prob": 0.9975
+          "top2_prob": 0.9958
         },
         {
           "team": "Ste. Genevieve",
@@ -1870,18 +1870,18 @@
           "games_remaining": 1,
           "current_points": 39.3571,
           "current_seed": 2,
-          "projected_points": 39.4603,
-          "avg_seed": 1.898,
+          "projected_points": 39.4301,
+          "avg_seed": 1.894,
           "seed_probs": [
-            0.1117,
-            0.8787,
-            0.0096,
+            0.1205,
+            0.8654,
+            0.0141,
             0.0,
             0.0,
             0.0,
             0.0
           ],
-          "top2_prob": 0.9904
+          "top2_prob": 0.9859
         },
         {
           "team": "Dexter",
@@ -1889,18 +1889,18 @@
           "games_remaining": 1,
           "current_points": 38.4286,
           "current_seed": 3,
-          "projected_points": 37.9632,
-          "avg_seed": 2.988,
+          "projected_points": 38.0168,
+          "avg_seed": 2.982,
           "seed_probs": [
             0.0,
-            0.0121,
-            0.9879,
+            0.0183,
+            0.9817,
             0.0,
             0.0,
             0.0,
             0.0
           ],
-          "top2_prob": 0.0121
+          "top2_prob": 0.0183
         },
         {
           "team": "Perryville",
@@ -1908,14 +1908,14 @@
           "games_remaining": 1,
           "current_points": 28.1607,
           "current_seed": 4,
-          "projected_points": 29.7796,
-          "avg_seed": 4.002,
+          "projected_points": 29.7317,
+          "avg_seed": 4.003,
           "seed_probs": [
             0.0,
             0.0,
             0.0,
-            0.9981,
-            0.0019,
+            0.9974,
+            0.0026,
             0.0,
             0.0
           ],
@@ -1927,14 +1927,14 @@
           "games_remaining": 1,
           "current_points": 28.1786,
           "current_seed": 5,
-          "projected_points": 27.9527,
-          "avg_seed": 4.996,
+          "projected_points": 27.985,
+          "avg_seed": 4.995,
           "seed_probs": [
             0.0,
             0.0,
-            0.0019,
+            0.0026,
             0.0,
-            0.9981,
+            0.9974,
             0.0,
             0.0
           ],
@@ -1946,16 +1946,16 @@
           "games_remaining": 1,
           "current_points": 18.25,
           "current_seed": 7,
-          "projected_points": 21.0128,
-          "avg_seed": 6.455,
+          "projected_points": 20.9859,
+          "avg_seed": 6.468,
           "seed_probs": [
             0.0,
             0.0,
             0.0,
             0.0,
             0.0,
-            0.5452,
-            0.4548
+            0.5317,
+            0.4683
           ],
           "top2_prob": 0.0
         },
@@ -1965,16 +1965,16 @@
           "games_remaining": 1,
           "current_points": 21.4808,
           "current_seed": 6,
-          "projected_points": 21.5154,
-          "avg_seed": 6.545,
+          "projected_points": 21.5601,
+          "avg_seed": 6.532,
           "seed_probs": [
             0.0,
             0.0,
             0.0,
             0.0,
             0.0,
-            0.4548,
-            0.5452
+            0.4683,
+            0.5317
           ],
           "top2_prob": 0.0
         }
@@ -1990,11 +1990,11 @@
           "games_remaining": 1,
           "current_points": 45.1623,
           "current_seed": 1,
-          "projected_points": 42.427,
-          "avg_seed": 1.208,
+          "projected_points": 42.4665,
+          "avg_seed": 1.219,
           "seed_probs": [
-            0.7918,
-            0.2082,
+            0.7809,
+            0.2191,
             0.0,
             0.0,
             0.0,
@@ -2008,11 +2008,11 @@
           "games_remaining": 1,
           "current_points": 41.125,
           "current_seed": 2,
-          "projected_points": 40.6652,
-          "avg_seed": 1.792,
+          "projected_points": 40.6987,
+          "avg_seed": 1.781,
           "seed_probs": [
-            0.2082,
-            0.7918,
+            0.2191,
+            0.7809,
             0.0,
             0.0,
             0.0,
@@ -2026,7 +2026,7 @@
           "games_remaining": 1,
           "current_points": 35.4107,
           "current_seed": 3,
-          "projected_points": 34.3461,
+          "projected_points": 34.407,
           "avg_seed": 3.0,
           "seed_probs": [
             0.0,
@@ -2044,7 +2044,7 @@
           "games_remaining": 1,
           "current_points": 27.9464,
           "current_seed": 4,
-          "projected_points": 28.5972,
+          "projected_points": 28.6005,
           "avg_seed": 4.0,
           "seed_probs": [
             0.0,
@@ -2062,7 +2062,7 @@
           "games_remaining": 1,
           "current_points": 28.7679,
           "current_seed": 5,
-          "projected_points": 30.1955,
+          "projected_points": 30.1663,
           "avg_seed": 5.0,
           "seed_probs": [
             0.0,
@@ -2080,7 +2080,7 @@
           "games_remaining": 1,
           "current_points": 18.5283,
           "current_seed": 6,
-          "projected_points": 21.1174,
+          "projected_points": 21.0593,
           "avg_seed": 6.0,
           "seed_probs": [
             0.0,
@@ -2104,18 +2104,18 @@
           "games_remaining": 1,
           "current_points": 41.6389,
           "current_seed": 1,
-          "projected_points": 43.219,
-          "avg_seed": 1.431,
+          "projected_points": 43.184,
+          "avg_seed": 1.434,
           "seed_probs": [
-            0.5706,
-            0.4278,
-            0.0016,
+            0.5693,
+            0.4275,
+            0.0032,
             0.0,
             0.0,
             0.0,
             0.0
           ],
-          "top2_prob": 0.9984
+          "top2_prob": 0.9968
         },
         {
           "team": "MICDS",
@@ -2123,18 +2123,18 @@
           "games_remaining": 1,
           "current_points": 41.4127,
           "current_seed": 3,
-          "projected_points": 42.3728,
+          "projected_points": 42.3436,
           "avg_seed": 2.143,
           "seed_probs": [
-            0.4275,
-            0.0016,
-            0.5709,
+            0.4268,
+            0.0032,
+            0.57,
             0.0,
             0.0,
             0.0,
             0.0
           ],
-          "top2_prob": 0.4291
+          "top2_prob": 0.43
         },
         {
           "team": "Lutheran North",
@@ -2142,18 +2142,18 @@
           "games_remaining": 1,
           "current_points": 37.8571,
           "current_seed": 2,
-          "projected_points": 38.8323,
-          "avg_seed": 2.426,
+          "projected_points": 38.8866,
+          "avg_seed": 2.423,
           "seed_probs": [
-            0.0019,
-            0.5706,
-            0.4275,
+            0.0039,
+            0.5693,
+            0.4268,
             0.0,
             0.0,
             0.0,
             0.0
           ],
-          "top2_prob": 0.5725
+          "top2_prob": 0.5732
         },
         {
           "team": "John Burroughs",
@@ -2161,14 +2161,14 @@
           "games_remaining": 1,
           "current_points": 34.0,
           "current_seed": 4,
-          "projected_points": 34.6269,
-          "avg_seed": 4.176,
+          "projected_points": 34.5666,
+          "avg_seed": 4.185,
           "seed_probs": [
             0.0,
             0.0,
             0.0,
-            0.8237,
-            0.1763,
+            0.8153,
+            0.1847,
             0.0,
             0.0
           ],
@@ -2180,14 +2180,14 @@
           "games_remaining": 1,
           "current_points": 32.0,
           "current_seed": 5,
-          "projected_points": 32.9279,
-          "avg_seed": 4.824,
+          "projected_points": 32.8919,
+          "avg_seed": 4.815,
           "seed_probs": [
             0.0,
             0.0,
             0.0,
-            0.1763,
-            0.8237,
+            0.1847,
+            0.8153,
             0.0,
             0.0
           ],
@@ -2199,16 +2199,16 @@
           "games_remaining": 1,
           "current_points": 26.467,
           "current_seed": 6,
-          "projected_points": 25.2035,
-          "avg_seed": 6.006,
+          "projected_points": 25.2382,
+          "avg_seed": 6.005,
           "seed_probs": [
             0.0,
             0.0,
             0.0,
             0.0,
             0.0,
-            0.9945,
-            0.0055
+            0.9953,
+            0.0047
           ],
           "top2_prob": 0.0
         },
@@ -2218,7 +2218,7 @@
           "games_remaining": 1,
           "current_points": 23.1818,
           "current_seed": 7,
-          "projected_points": 23.3735,
+          "projected_points": 23.3869,
           "avg_seed": 6.995,
           "seed_probs": [
             0.0,
@@ -2226,8 +2226,8 @@
             0.0,
             0.0,
             0.0,
-            0.0055,
-            0.9945
+            0.0047,
+            0.9953
           ],
           "top2_prob": 0.0
         }
@@ -2243,18 +2243,18 @@
           "games_remaining": 1,
           "current_points": 42.5714,
           "current_seed": 2,
-          "projected_points": 43.5679,
-          "avg_seed": 1.83,
+          "projected_points": 43.5123,
+          "avg_seed": 1.89,
           "seed_probs": [
-            0.4378,
-            0.2943,
-            0.2679,
+            0.3982,
+            0.3134,
+            0.2884,
             0.0,
             0.0,
             0.0,
             0.0
           ],
-          "top2_prob": 0.7321
+          "top2_prob": 0.7116
         },
         {
           "team": "St. Francis Borgia",
@@ -2262,18 +2262,18 @@
           "games_remaining": 1,
           "current_points": 42.2143,
           "current_seed": 3,
-          "projected_points": 42.1259,
-          "avg_seed": 2.036,
+          "projected_points": 42.147,
+          "avg_seed": 2.039,
           "seed_probs": [
-            0.2581,
-            0.4476,
-            0.2943,
+            0.2743,
+            0.4123,
+            0.3134,
             0.0,
             0.0,
             0.0,
             0.0
           ],
-          "top2_prob": 0.7057
+          "top2_prob": 0.6866
         },
         {
           "team": "Hallsville",
@@ -2281,18 +2281,18 @@
           "games_remaining": 1,
           "current_points": 43.5357,
           "current_seed": 1,
-          "projected_points": 40.7435,
-          "avg_seed": 2.134,
+          "projected_points": 40.7853,
+          "avg_seed": 2.071,
           "seed_probs": [
-            0.3041,
-            0.2581,
-            0.4378,
+            0.3275,
+            0.2743,
+            0.3982,
             0.0,
             0.0,
             0.0,
             0.0
           ],
-          "top2_prob": 0.5622
+          "top2_prob": 0.6018
         },
         {
           "team": "Wright City",
@@ -2300,14 +2300,14 @@
           "games_remaining": 1,
           "current_points": 28.0179,
           "current_seed": 4,
-          "projected_points": 26.3524,
-          "avg_seed": 4.078,
+          "projected_points": 26.3692,
+          "avg_seed": 4.092,
           "seed_probs": [
             0.0,
             0.0,
             0.0,
-            0.9217,
-            0.0783,
+            0.9081,
+            0.0919,
             0.0,
             0.0
           ],
@@ -2319,14 +2319,14 @@
           "games_remaining": 1,
           "current_points": 25.6786,
           "current_seed": 5,
-          "projected_points": 24.665,
-          "avg_seed": 4.922,
+          "projected_points": 24.7212,
+          "avg_seed": 4.908,
           "seed_probs": [
             0.0,
             0.0,
             0.0,
-            0.0783,
-            0.9217,
+            0.0919,
+            0.9081,
             0.0,
             0.0
           ],
@@ -2338,7 +2338,7 @@
           "games_remaining": 1,
           "current_points": 16.9821,
           "current_seed": 6,
-          "projected_points": 16.3029,
+          "projected_points": 16.3309,
           "avg_seed": 6.0,
           "seed_probs": [
             0.0,
@@ -2357,7 +2357,7 @@
           "games_remaining": 1,
           "current_points": 21.375,
           "current_seed": 7,
-          "projected_points": 21.1154,
+          "projected_points": 21.1475,
           "avg_seed": 7.0,
           "seed_probs": [
             0.0,
@@ -2382,7 +2382,7 @@
           "games_remaining": 1,
           "current_points": 41.9286,
           "current_seed": 1,
-          "projected_points": 41.7313,
+          "projected_points": 41.6982,
           "avg_seed": 1.0,
           "seed_probs": [
             1.0,
@@ -2401,18 +2401,18 @@
           "games_remaining": 1,
           "current_points": 30.1429,
           "current_seed": 3,
-          "projected_points": 29.2299,
-          "avg_seed": 2.261,
+          "projected_points": 29.266,
+          "avg_seed": 2.273,
           "seed_probs": [
             0.0,
-            0.7387,
-            0.2613,
+            0.727,
+            0.273,
             0.0,
             0.0,
             0.0,
             0.0
           ],
-          "top2_prob": 0.7387
+          "top2_prob": 0.727
         },
         {
           "team": "Cuba with Steelville",
@@ -2420,18 +2420,18 @@
           "games_remaining": 1,
           "current_points": 30.1607,
           "current_seed": 2,
-          "projected_points": 28.882,
-          "avg_seed": 3.102,
+          "projected_points": 28.9281,
+          "avg_seed": 3.08,
           "seed_probs": [
             0.0,
-            0.2613,
-            0.376,
-            0.3624,
-            0.0003,
+            0.273,
+            0.3748,
+            0.3517,
+            0.0005,
             0.0,
             0.0
           ],
-          "top2_prob": 0.2613
+          "top2_prob": 0.273
         },
         {
           "team": "St. James",
@@ -2439,14 +2439,14 @@
           "games_remaining": 1,
           "current_points": 24.7143,
           "current_seed": 5,
-          "projected_points": 25.2016,
-          "avg_seed": 4.141,
+          "projected_points": 25.2372,
+          "avg_seed": 4.155,
           "seed_probs": [
             0.0,
             0.0,
-            0.3624,
-            0.1339,
-            0.5037,
+            0.3517,
+            0.1419,
+            0.5064,
             0.0,
             0.0
           ],
@@ -2458,14 +2458,14 @@
           "games_remaining": 1,
           "current_points": 25.5568,
           "current_seed": 4,
-          "projected_points": 24.4651,
-          "avg_seed": 4.496,
+          "projected_points": 24.4824,
+          "avg_seed": 4.493,
           "seed_probs": [
             0.0,
             0.0,
-            0.0003,
-            0.5037,
-            0.496,
+            0.0005,
+            0.5064,
+            0.4931,
             0.0,
             0.0
           ],
@@ -2477,16 +2477,16 @@
           "games_remaining": 1,
           "current_points": 17.1071,
           "current_seed": 6,
-          "projected_points": 19.9427,
-          "avg_seed": 6.0,
+          "projected_points": 19.899,
+          "avg_seed": 6.001,
           "seed_probs": [
             0.0,
             0.0,
             0.0,
             0.0,
             0.0,
-            0.9998,
-            0.0002
+            0.9992,
+            0.0008
           ],
           "top2_prob": 0.0
         },
@@ -2496,16 +2496,16 @@
           "games_remaining": 1,
           "current_points": 12.8929,
           "current_seed": 7,
-          "projected_points": 13.2097,
-          "avg_seed": 7.0,
+          "projected_points": 13.2478,
+          "avg_seed": 6.999,
           "seed_probs": [
             0.0,
             0.0,
             0.0,
             0.0,
             0.0,
-            0.0002,
-            0.9998
+            0.0008,
+            0.9992
           ],
           "top2_prob": 0.0
         }
@@ -2521,7 +2521,7 @@
           "games_remaining": 1,
           "current_points": 45.0455,
           "current_seed": 1,
-          "projected_points": 45.3786,
+          "projected_points": 45.3301,
           "avg_seed": 1.0,
           "seed_probs": [
             1.0,
@@ -2540,7 +2540,7 @@
           "games_remaining": 1,
           "current_points": 41.7959,
           "current_seed": 2,
-          "projected_points": 43.4849,
+          "projected_points": 43.4558,
           "avg_seed": 2.0,
           "seed_probs": [
             0.0,
@@ -2559,7 +2559,7 @@
           "games_remaining": 1,
           "current_points": 34.1023,
           "current_seed": 3,
-          "projected_points": 32.4032,
+          "projected_points": 32.4447,
           "avg_seed": 3.0,
           "seed_probs": [
             0.0,
@@ -2578,14 +2578,14 @@
           "games_remaining": 1,
           "current_points": 29.0227,
           "current_seed": 4,
-          "projected_points": 30.0434,
-          "avg_seed": 4.004,
+          "projected_points": 29.9918,
+          "avg_seed": 4.007,
           "seed_probs": [
             0.0,
             0.0,
             0.0,
-            0.9958,
-            0.0042,
+            0.993,
+            0.007,
             0.0,
             0.0
           ],
@@ -2597,14 +2597,14 @@
           "games_remaining": 1,
           "current_points": 26.6786,
           "current_seed": 5,
-          "projected_points": 25.4272,
-          "avg_seed": 4.996,
+          "projected_points": 25.4551,
+          "avg_seed": 4.993,
           "seed_probs": [
             0.0,
             0.0,
             0.0,
-            0.0042,
-            0.9958,
+            0.007,
+            0.993,
             0.0,
             0.0
           ],
@@ -2616,7 +2616,7 @@
           "games_remaining": 1,
           "current_points": 17.9432,
           "current_seed": 6,
-          "projected_points": 17.7034,
+          "projected_points": 17.7707,
           "avg_seed": 6.0,
           "seed_probs": [
             0.0,
@@ -2635,7 +2635,7 @@
           "games_remaining": 1,
           "current_points": 12.4545,
           "current_seed": 7,
-          "projected_points": 12.2148,
+          "projected_points": 12.2215,
           "avg_seed": 7.0,
           "seed_probs": [
             0.0,
@@ -2660,7 +2660,7 @@
           "games_remaining": 1,
           "current_points": 50.3796,
           "current_seed": 1,
-          "projected_points": 50.8918,
+          "projected_points": 50.848,
           "avg_seed": 1.0,
           "seed_probs": [
             1.0,
@@ -2679,18 +2679,18 @@
           "games_remaining": 1,
           "current_points": 41.0536,
           "current_seed": 2,
-          "projected_points": 38.9504,
-          "avg_seed": 2.779,
+          "projected_points": 39.0005,
+          "avg_seed": 2.786,
           "seed_probs": [
             0.0,
-            0.4514,
-            0.3185,
-            0.2301,
+            0.4495,
+            0.3154,
+            0.2351,
             0.0,
             0.0,
             0.0
           ],
-          "top2_prob": 0.4514
+          "top2_prob": 0.4495
         },
         {
           "team": "Center",
@@ -2698,18 +2698,18 @@
           "games_remaining": 1,
           "current_points": 39.5714,
           "current_seed": 3,
-          "projected_points": 38.8829,
-          "avg_seed": 2.835,
+          "projected_points": 38.9584,
+          "avg_seed": 2.808,
           "seed_probs": [
             0.0,
-            0.4283,
-            0.3083,
-            0.2634,
+            0.4333,
+            0.3251,
+            0.2416,
             0.0,
             0.0,
             0.0
           ],
-          "top2_prob": 0.4283
+          "top2_prob": 0.4333
         },
         {
           "team": "Boonville",
@@ -2717,18 +2717,18 @@
           "games_remaining": 1,
           "current_points": 36.9643,
           "current_seed": 4,
-          "projected_points": 37.4573,
-          "avg_seed": 3.434,
+          "projected_points": 37.4013,
+          "avg_seed": 3.466,
           "seed_probs": [
             0.0,
-            0.1203,
-            0.3732,
-            0.4658,
-            0.0337,
-            0.0067,
-            0.0003
+            0.1172,
+            0.3595,
+            0.474,
+            0.0387,
+            0.0105,
+            0.0001
           ],
-          "top2_prob": 0.1203
+          "top2_prob": 0.1172
         },
         {
           "team": "Oak Grove",
@@ -2736,16 +2736,16 @@
           "games_remaining": 1,
           "current_points": 33.8571,
           "current_seed": 6,
-          "projected_points": 33.5877,
-          "avg_seed": 5.372,
+          "projected_points": 33.5832,
+          "avg_seed": 5.378,
           "seed_probs": [
             0.0,
             0.0,
             0.0,
-            0.022,
-            0.5877,
-            0.3871,
-            0.0032
+            0.0255,
+            0.5767,
+            0.3921,
+            0.0057
           ],
           "top2_prob": 0.0
         },
@@ -2755,16 +2755,16 @@
           "games_remaining": 1,
           "current_points": 34.0682,
           "current_seed": 5,
-          "projected_points": 33.307,
-          "avg_seed": 5.622,
+          "projected_points": 33.3372,
+          "avg_seed": 5.613,
           "seed_probs": [
             0.0,
             0.0,
             0.0,
-            0.0185,
-            0.3754,
-            0.5717,
-            0.0344
+            0.0234,
+            0.3789,
+            0.5586,
+            0.0391
           ],
           "top2_prob": 0.0
         },
@@ -2774,16 +2774,16 @@
           "games_remaining": 1,
           "current_points": 31.3929,
           "current_seed": 7,
-          "projected_points": 31.0688,
-          "avg_seed": 6.958,
+          "projected_points": 31.1115,
+          "avg_seed": 6.949,
           "seed_probs": [
             0.0,
             0.0,
             0.0,
-            0.0002,
-            0.0032,
-            0.0345,
-            0.9621
+            0.0004,
+            0.0057,
+            0.0388,
+            0.9551
           ],
           "top2_prob": 0.0
         }
@@ -2799,7 +2799,7 @@
           "games_remaining": 1,
           "current_points": 54.5425,
           "current_seed": 1,
-          "projected_points": 56.2503,
+          "projected_points": 56.1895,
           "avg_seed": 1.0,
           "seed_probs": [
             1.0,
@@ -2817,7 +2817,7 @@
           "games_remaining": 1,
           "current_points": 50.5833,
           "current_seed": 2,
-          "projected_points": 50.609,
+          "projected_points": 50.5406,
           "avg_seed": 2.0,
           "seed_probs": [
             0.0,
@@ -2835,7 +2835,7 @@
           "games_remaining": 1,
           "current_points": 42.5714,
           "current_seed": 3,
-          "projected_points": 42.593,
+          "projected_points": 42.5945,
           "avg_seed": 3.0,
           "seed_probs": [
             0.0,
@@ -2853,7 +2853,7 @@
           "games_remaining": 1,
           "current_points": 38.6429,
           "current_seed": 4,
-          "projected_points": 38.8658,
+          "projected_points": 38.8701,
           "avg_seed": 4.0,
           "seed_probs": [
             0.0,
@@ -2871,7 +2871,7 @@
           "games_remaining": 1,
           "current_points": 33.0341,
           "current_seed": 5,
-          "projected_points": 33.8173,
+          "projected_points": 33.8238,
           "avg_seed": 5.0,
           "seed_probs": [
             0.0,
@@ -2889,7 +2889,7 @@
           "games_remaining": 1,
           "current_points": 18.2041,
           "current_seed": 6,
-          "projected_points": 20.9893,
+          "projected_points": 20.9686,
           "avg_seed": 6.0,
           "seed_probs": [
             0.0,
@@ -2913,11 +2913,11 @@
           "games_remaining": 1,
           "current_points": 44.75,
           "current_seed": 1,
-          "projected_points": 44.8662,
-          "avg_seed": 1.142,
+          "projected_points": 44.8093,
+          "avg_seed": 1.179,
           "seed_probs": [
-            0.8581,
-            0.1419,
+            0.8215,
+            0.1785,
             0.0,
             0.0,
             0.0,
@@ -2931,17 +2931,17 @@
           "games_remaining": 1,
           "current_points": 44.2143,
           "current_seed": 2,
-          "projected_points": 44.6914,
-          "avg_seed": 1.862,
+          "projected_points": 44.6802,
+          "avg_seed": 1.829,
           "seed_probs": [
-            0.1419,
-            0.8545,
-            0.0036,
+            0.1785,
+            0.8138,
+            0.0077,
             0.0,
             0.0,
             0.0
           ],
-          "top2_prob": 0.9964
+          "top2_prob": 0.9923
         },
         {
           "team": "Hillsboro",
@@ -2949,17 +2949,17 @@
           "games_remaining": 1,
           "current_points": 42.2143,
           "current_seed": 3,
-          "projected_points": 43.348,
-          "avg_seed": 2.996,
+          "projected_points": 43.3074,
+          "avg_seed": 2.992,
           "seed_probs": [
             0.0,
-            0.0036,
-            0.9964,
+            0.0077,
+            0.9923,
             0.0,
             0.0,
             0.0
           ],
-          "top2_prob": 0.0036
+          "top2_prob": 0.0077
         },
         {
           "team": "North County",
@@ -2967,7 +2967,7 @@
           "games_remaining": 1,
           "current_points": 32.0714,
           "current_seed": 4,
-          "projected_points": 32.1079,
+          "projected_points": 32.1328,
           "avg_seed": 4.0,
           "seed_probs": [
             0.0,
@@ -2985,7 +2985,7 @@
           "games_remaining": 1,
           "current_points": 31.1071,
           "current_seed": 5,
-          "projected_points": 33.0411,
+          "projected_points": 32.9754,
           "avg_seed": 5.0,
           "seed_probs": [
             0.0,
@@ -3003,7 +3003,7 @@
           "games_remaining": 1,
           "current_points": 20.9091,
           "current_seed": 6,
-          "projected_points": 23.6244,
+          "projected_points": 23.6179,
           "avg_seed": 6.0,
           "seed_probs": [
             0.0,
@@ -3027,7 +3027,7 @@
           "games_remaining": 1,
           "current_points": 45.6429,
           "current_seed": 1,
-          "projected_points": 45.1541,
+          "projected_points": 45.1252,
           "avg_seed": 1.0,
           "seed_probs": [
             1.0,
@@ -3046,18 +3046,18 @@
           "games_remaining": 1,
           "current_points": 38.5259,
           "current_seed": 2,
-          "projected_points": 37.2077,
-          "avg_seed": 2.562,
+          "projected_points": 37.2589,
+          "avg_seed": 2.556,
           "seed_probs": [
             0.0,
-            0.4382,
-            0.5618,
+            0.4444,
+            0.5556,
             0.0,
             0.0,
             0.0,
             0.0
           ],
-          "top2_prob": 0.4382
+          "top2_prob": 0.4444
         },
         {
           "team": "Vianney",
@@ -3065,18 +3065,18 @@
           "games_remaining": 1,
           "current_points": 35.7857,
           "current_seed": 4,
-          "projected_points": 36.3122,
-          "avg_seed": 2.74,
+          "projected_points": 36.274,
+          "avg_seed": 2.763,
           "seed_probs": [
             0.0,
-            0.4395,
-            0.3809,
-            0.1796,
+            0.4273,
+            0.382,
+            0.1907,
             0.0,
             0.0,
             0.0
           ],
-          "top2_prob": 0.4395
+          "top2_prob": 0.4273
         },
         {
           "team": "Sullivan",
@@ -3084,18 +3084,18 @@
           "games_remaining": 1,
           "current_points": 37.0,
           "current_seed": 3,
-          "projected_points": 34.7765,
-          "avg_seed": 3.698,
+          "projected_points": 34.818,
+          "avg_seed": 3.681,
           "seed_probs": [
             0.0,
-            0.1223,
-            0.0573,
-            0.8204,
+            0.1283,
+            0.0624,
+            0.8093,
             0.0,
             0.0,
             0.0
           ],
-          "top2_prob": 0.1223
+          "top2_prob": 0.1283
         },
         {
           "team": "Affton",
@@ -3103,7 +3103,7 @@
           "games_remaining": 1,
           "current_points": 28.5227,
           "current_seed": 5,
-          "projected_points": 26.8209,
+          "projected_points": 26.8638,
           "avg_seed": 5.0,
           "seed_probs": [
             0.0,
@@ -3122,16 +3122,16 @@
           "games_remaining": 1,
           "current_points": 20.0724,
           "current_seed": 6,
-          "projected_points": 22.6923,
-          "avg_seed": 6.074,
+          "projected_points": 22.6586,
+          "avg_seed": 6.079,
           "seed_probs": [
             0.0,
             0.0,
             0.0,
             0.0,
             0.0,
-            0.9257,
-            0.0743
+            0.9213,
+            0.0787
           ],
           "top2_prob": 0.0
         },
@@ -3141,16 +3141,16 @@
           "games_remaining": 1,
           "current_points": 19.0357,
           "current_seed": 7,
-          "projected_points": 20.8392,
-          "avg_seed": 6.926,
+          "projected_points": 20.806,
+          "avg_seed": 6.921,
           "seed_probs": [
             0.0,
             0.0,
             0.0,
             0.0,
             0.0,
-            0.0743,
-            0.9257
+            0.0787,
+            0.9213
           ],
           "top2_prob": 0.0
         }
@@ -3166,7 +3166,7 @@
           "games_remaining": 1,
           "current_points": 50.9432,
           "current_seed": 1,
-          "projected_points": 51.386,
+          "projected_points": 51.3337,
           "avg_seed": 1.0,
           "seed_probs": [
             1.0,
@@ -3184,17 +3184,17 @@
           "games_remaining": 1,
           "current_points": 35.0714,
           "current_seed": 2,
-          "projected_points": 36.4242,
-          "avg_seed": 2.151,
+          "projected_points": 36.4604,
+          "avg_seed": 2.152,
           "seed_probs": [
             0.0,
-            0.8486,
-            0.1514,
+            0.8477,
+            0.1523,
             0.0,
             0.0,
             0.0
           ],
-          "top2_prob": 0.8486
+          "top2_prob": 0.8477
         },
         {
           "team": "Gateway with Soldan International Studies",
@@ -3202,17 +3202,17 @@
           "games_remaining": 1,
           "current_points": 32.2245,
           "current_seed": 3,
-          "projected_points": 34.1069,
-          "avg_seed": 3.025,
+          "projected_points": 34.0379,
+          "avg_seed": 3.05,
           "seed_probs": [
             0.0,
-            0.1514,
-            0.7159,
-            0.0892,
-            0.0435,
+            0.1523,
+            0.699,
+            0.0952,
+            0.0535,
             0.0
           ],
-          "top2_prob": 0.1514
+          "top2_prob": 0.1523
         },
         {
           "team": "Jennings",
@@ -3220,15 +3220,15 @@
           "games_remaining": 1,
           "current_points": 32.0602,
           "current_seed": 4,
-          "projected_points": 33.1207,
-          "avg_seed": 3.931,
+          "projected_points": 33.0782,
+          "avg_seed": 3.93,
           "seed_probs": [
             0.0,
             0.0,
-            0.126,
-            0.8312,
-            0.0284,
-            0.0144
+            0.14,
+            0.8085,
+            0.0328,
+            0.0187
           ],
           "top2_prob": 0.0
         },
@@ -3238,14 +3238,14 @@
           "games_remaining": 1,
           "current_points": 29.0795,
           "current_seed": 5,
-          "projected_points": 30.5411,
-          "avg_seed": 4.907,
+          "projected_points": 30.5921,
+          "avg_seed": 4.886,
           "seed_probs": [
             0.0,
             0.0,
-            0.0067,
-            0.0796,
-            0.9137,
+            0.0087,
+            0.0963,
+            0.895,
             0.0
           ],
           "top2_prob": 0.0
@@ -3256,15 +3256,15 @@
           "games_remaining": 1,
           "current_points": 17.0893,
           "current_seed": 6,
-          "projected_points": 16.5862,
-          "avg_seed": 5.986,
+          "projected_points": 16.6249,
+          "avg_seed": 5.981,
           "seed_probs": [
             0.0,
             0.0,
             0.0,
             0.0,
-            0.0144,
-            0.9856
+            0.0187,
+            0.9813
           ],
           "top2_prob": 0.0
         }
@@ -3280,7 +3280,7 @@
           "games_remaining": 1,
           "current_points": 48.7679,
           "current_seed": 1,
-          "projected_points": 49.2937,
+          "projected_points": 49.2218,
           "avg_seed": 1.0,
           "seed_probs": [
             1.0,
@@ -3299,18 +3299,18 @@
           "games_remaining": 1,
           "current_points": 39.9286,
           "current_seed": 3,
-          "projected_points": 40.4331,
-          "avg_seed": 2.627,
+          "projected_points": 40.4246,
+          "avg_seed": 2.636,
           "seed_probs": [
             0.0,
-            0.4699,
-            0.4336,
-            0.0964,
-            0.0001,
+            0.4572,
+            0.4503,
+            0.0919,
+            0.0006,
             0.0,
             0.0
           ],
-          "top2_prob": 0.4699
+          "top2_prob": 0.4572
         },
         {
           "team": "Parkway North",
@@ -3318,18 +3318,18 @@
           "games_remaining": 1,
           "current_points": 40.8929,
           "current_seed": 2,
-          "projected_points": 41.0874,
-          "avg_seed": 2.758,
+          "projected_points": 41.1408,
+          "avg_seed": 2.727,
           "seed_probs": [
             0.0,
-            0.4574,
-            0.3269,
-            0.2157,
+            0.4741,
+            0.3253,
+            0.2006,
             0.0,
             0.0,
             0.0
           ],
-          "top2_prob": 0.4574
+          "top2_prob": 0.4741
         },
         {
           "team": "Hannibal",
@@ -3337,18 +3337,18 @@
           "games_remaining": 1,
           "current_points": 36.8214,
           "current_seed": 5,
-          "projected_points": 39.5796,
-          "avg_seed": 3.743,
+          "projected_points": 39.5063,
+          "avg_seed": 3.772,
           "seed_probs": [
             0.0,
-            0.0727,
-            0.2394,
-            0.5597,
-            0.1282,
+            0.0687,
+            0.2238,
+            0.5742,
+            0.1333,
             0.0,
             0.0
           ],
-          "top2_prob": 0.0727
+          "top2_prob": 0.0687
         },
         {
           "team": "Warrenton",
@@ -3356,14 +3356,14 @@
           "games_remaining": 1,
           "current_points": 38.1071,
           "current_seed": 4,
-          "projected_points": 37.6251,
-          "avg_seed": 4.872,
+          "projected_points": 37.591,
+          "avg_seed": 4.865,
           "seed_probs": [
             0.0,
             0.0,
-            0.0001,
-            0.1282,
-            0.8717,
+            0.0006,
+            0.1333,
+            0.8661,
             0.0,
             0.0
           ],
@@ -3375,7 +3375,7 @@
           "games_remaining": 1,
           "current_points": 27.8571,
           "current_seed": 6,
-          "projected_points": 28.2659,
+          "projected_points": 28.2887,
           "avg_seed": 6.0,
           "seed_probs": [
             0.0,
@@ -3394,7 +3394,7 @@
           "games_remaining": 1,
           "current_points": 22.1607,
           "current_seed": 7,
-          "projected_points": 24.5602,
+          "projected_points": 24.5778,
           "avg_seed": 7.0,
           "seed_probs": [
             0.0,
@@ -3419,7 +3419,7 @@
           "games_remaining": 1,
           "current_points": 43.2841,
           "current_seed": 1,
-          "projected_points": 43.1399,
+          "projected_points": 43.1027,
           "avg_seed": 1.0,
           "seed_probs": [
             1.0,
@@ -3438,7 +3438,7 @@
           "games_remaining": 1,
           "current_points": 45.0893,
           "current_seed": 2,
-          "projected_points": 45.0431,
+          "projected_points": 45.0045,
           "avg_seed": 2.0,
           "seed_probs": [
             0.0,
@@ -3457,14 +3457,14 @@
           "games_remaining": 1,
           "current_points": 26.9286,
           "current_seed": 3,
-          "projected_points": 26.1973,
-          "avg_seed": 3.093,
+          "projected_points": 26.2509,
+          "avg_seed": 3.11,
           "seed_probs": [
             0.0,
             0.0,
-            0.908,
-            0.0908,
-            0.0012,
+            0.8925,
+            0.1052,
+            0.0023,
             0.0,
             0.0
           ],
@@ -3476,14 +3476,14 @@
           "games_remaining": 1,
           "current_points": 23.2143,
           "current_seed": 4,
-          "projected_points": 22.4992,
-          "avg_seed": 4.079,
+          "projected_points": 22.5459,
+          "avg_seed": 4.087,
           "seed_probs": [
             0.0,
             0.0,
-            0.0068,
-            0.9077,
-            0.0855,
+            0.0106,
+            0.8922,
+            0.0972,
             0.0,
             0.0
           ],
@@ -3495,14 +3495,14 @@
           "games_remaining": 1,
           "current_points": 25.9821,
           "current_seed": 5,
-          "projected_points": 25.0664,
-          "avg_seed": 4.828,
+          "projected_points": 25.119,
+          "avg_seed": 4.804,
           "seed_probs": [
             0.0,
             0.0,
-            0.0852,
-            0.0015,
-            0.9133,
+            0.0969,
+            0.0026,
+            0.9005,
             0.0,
             0.0
           ],
@@ -3514,16 +3514,16 @@
           "games_remaining": 1,
           "current_points": 18.1964,
           "current_seed": 6,
-          "projected_points": 18.4912,
-          "avg_seed": 6.046,
+          "projected_points": 18.5038,
+          "avg_seed": 6.057,
           "seed_probs": [
             0.0,
             0.0,
             0.0,
             0.0,
             0.0,
-            0.9543,
-            0.0457
+            0.9434,
+            0.0566
           ],
           "top2_prob": 0.0
         },
@@ -3533,16 +3533,16 @@
           "games_remaining": 1,
           "current_points": 15.875,
           "current_seed": 7,
-          "projected_points": 15.5829,
-          "avg_seed": 6.954,
+          "projected_points": 15.6398,
+          "avg_seed": 6.943,
           "seed_probs": [
             0.0,
             0.0,
             0.0,
             0.0,
             0.0,
-            0.0457,
-            0.9543
+            0.0566,
+            0.9434
           ],
           "top2_prob": 0.0
         }
@@ -3558,7 +3558,7 @@
           "games_remaining": 1,
           "current_points": 48.9886,
           "current_seed": 1,
-          "projected_points": 48.0806,
+          "projected_points": 48.0756,
           "avg_seed": 1.0,
           "seed_probs": [
             1.0,
@@ -3577,7 +3577,7 @@
           "games_remaining": 1,
           "current_points": 36.4643,
           "current_seed": 2,
-          "projected_points": 36.9072,
+          "projected_points": 36.8537,
           "avg_seed": 2.0,
           "seed_probs": [
             0.0,
@@ -3596,7 +3596,7 @@
           "games_remaining": 1,
           "current_points": 33.2614,
           "current_seed": 3,
-          "projected_points": 35.2832,
+          "projected_points": 35.2554,
           "avg_seed": 3.0,
           "seed_probs": [
             0.0,
@@ -3615,15 +3615,15 @@
           "games_remaining": 1,
           "current_points": 28.875,
           "current_seed": 4,
-          "projected_points": 27.7635,
-          "avg_seed": 4.168,
+          "projected_points": 27.7974,
+          "avg_seed": 4.188,
           "seed_probs": [
             0.0,
             0.0,
             0.0,
-            0.8395,
-            0.1533,
-            0.0072,
+            0.8208,
+            0.1701,
+            0.0091,
             0.0
           ],
           "top2_prob": 0.0
@@ -3634,16 +3634,16 @@
           "games_remaining": 1,
           "current_points": 27.4898,
           "current_seed": 5,
-          "projected_points": 26.0318,
-          "avg_seed": 5.004,
+          "projected_points": 26.0958,
+          "avg_seed": 5.001,
           "seed_probs": [
             0.0,
             0.0,
             0.0,
-            0.0891,
-            0.8211,
-            0.0865,
-            0.0033
+            0.103,
+            0.7967,
+            0.0968,
+            0.0035
           ],
           "top2_prob": 0.0
         },
@@ -3653,16 +3653,16 @@
           "games_remaining": 1,
           "current_points": 24.7679,
           "current_seed": 6,
-          "projected_points": 23.7118,
-          "avg_seed": 6.163,
+          "projected_points": 23.7353,
+          "avg_seed": 6.161,
           "seed_probs": [
             0.0,
             0.0,
             0.0,
             0.0001,
-            0.0184,
-            0.7999,
-            0.1816
+            0.0241,
+            0.7904,
+            0.1854
           ],
           "top2_prob": 0.0
         },
@@ -3672,16 +3672,16 @@
           "games_remaining": 1,
           "current_points": 24.7955,
           "current_seed": 7,
-          "projected_points": 25.2584,
-          "avg_seed": 6.665,
+          "projected_points": 25.2978,
+          "avg_seed": 6.65,
           "seed_probs": [
             0.0,
             0.0,
             0.0,
-            0.0713,
-            0.0072,
-            0.1064,
-            0.8151
+            0.0761,
+            0.0091,
+            0.1037,
+            0.8111
           ],
           "top2_prob": 0.0
         }
@@ -3697,18 +3697,18 @@
           "games_remaining": 1,
           "current_points": 38.8636,
           "current_seed": 1,
-          "projected_points": 37.524,
-          "avg_seed": 1.579,
+          "projected_points": 37.5846,
+          "avg_seed": 1.581,
           "seed_probs": [
-            0.475,
-            0.471,
-            0.054,
+            0.4817,
+            0.4556,
+            0.0627,
             0.0,
             0.0,
             0.0,
             0.0
           ],
-          "top2_prob": 0.946
+          "top2_prob": 0.9373
         },
         {
           "team": "Central (Kansas City)",
@@ -3716,18 +3716,18 @@
           "games_remaining": 1,
           "current_points": 35.8409,
           "current_seed": 3,
-          "projected_points": 36.7932,
-          "avg_seed": 1.607,
+          "projected_points": 36.7959,
+          "avg_seed": 1.634,
           "seed_probs": [
-            0.4487,
-            0.4954,
-            0.0558,
+            0.4323,
+            0.5011,
+            0.0665,
             0.0001,
             0.0,
             0.0,
             0.0
           ],
-          "top2_prob": 0.9441
+          "top2_prob": 0.9334
         },
         {
           "team": "Raytown South",
@@ -3735,18 +3735,18 @@
           "games_remaining": 1,
           "current_points": 36.0714,
           "current_seed": 2,
-          "projected_points": 35.0472,
-          "avg_seed": 2.818,
+          "projected_points": 35.1158,
+          "avg_seed": 2.79,
           "seed_probs": [
-            0.0763,
-            0.0336,
-            0.8855,
-            0.0046,
+            0.086,
+            0.0432,
+            0.8654,
+            0.0054,
             0.0,
             0.0,
             0.0
           ],
-          "top2_prob": 0.1099
+          "top2_prob": 0.1292
         },
         {
           "team": "Pleasant Hill",
@@ -3754,18 +3754,18 @@
           "games_remaining": 1,
           "current_points": 32.6071,
           "current_seed": 4,
-          "projected_points": 33.0217,
-          "avg_seed": 3.995,
+          "projected_points": 32.9516,
+          "avg_seed": 3.994,
           "seed_probs": [
             0.0,
-            0.0,
-            0.0047,
-            0.9953,
+            0.0001,
+            0.0054,
+            0.9945,
             0.0,
             0.0,
             0.0
           ],
-          "top2_prob": 0.0
+          "top2_prob": 0.0001
         },
         {
           "team": "Harrisonville",
@@ -3773,7 +3773,7 @@
           "games_remaining": 1,
           "current_points": 25.0568,
           "current_seed": 5,
-          "projected_points": 26.1518,
+          "projected_points": 26.1604,
           "avg_seed": 5.0,
           "seed_probs": [
             0.0,
@@ -3792,7 +3792,7 @@
           "games_remaining": 1,
           "current_points": 19.1786,
           "current_seed": 6,
-          "projected_points": 19.2496,
+          "projected_points": 19.2695,
           "avg_seed": 6.0,
           "seed_probs": [
             0.0,
@@ -3811,7 +3811,7 @@
           "games_remaining": 1,
           "current_points": 14.4167,
           "current_seed": 7,
-          "projected_points": 14.4795,
+          "projected_points": 14.4796,
           "avg_seed": 7.0,
           "seed_probs": [
             0.0,
@@ -3836,7 +3836,7 @@
           "games_remaining": 1,
           "current_points": 56.25,
           "current_seed": 1,
-          "projected_points": 56.1387,
+          "projected_points": 56.135,
           "avg_seed": 1.0,
           "seed_probs": [
             1.0,
@@ -3855,7 +3855,7 @@
           "games_remaining": 1,
           "current_points": 48.7273,
           "current_seed": 2,
-          "projected_points": 48.364,
+          "projected_points": 48.3571,
           "avg_seed": 2.0,
           "seed_probs": [
             0.0,
@@ -3874,7 +3874,7 @@
           "games_remaining": 1,
           "current_points": 39.25,
           "current_seed": 3,
-          "projected_points": 41.0798,
+          "projected_points": 41.0378,
           "avg_seed": 3.0,
           "seed_probs": [
             0.0,
@@ -3893,7 +3893,7 @@
           "games_remaining": 1,
           "current_points": 32.1364,
           "current_seed": 4,
-          "projected_points": 31.9044,
+          "projected_points": 31.8882,
           "avg_seed": 4.0,
           "seed_probs": [
             0.0,
@@ -3912,7 +3912,7 @@
           "games_remaining": 1,
           "current_points": 30.9286,
           "current_seed": 5,
-          "projected_points": 29.6653,
+          "projected_points": 29.7192,
           "avg_seed": 5.0,
           "seed_probs": [
             0.0,
@@ -3931,7 +3931,7 @@
           "games_remaining": 1,
           "current_points": 24.2075,
           "current_seed": 6,
-          "projected_points": 25.4341,
+          "projected_points": 25.4088,
           "avg_seed": 6.0,
           "seed_probs": [
             0.0,
@@ -3950,7 +3950,7 @@
           "games_remaining": 1,
           "current_points": 22.5114,
           "current_seed": 7,
-          "projected_points": 22.0663,
+          "projected_points": 22.0609,
           "avg_seed": 7.0,
           "seed_probs": [
             0.0,
@@ -3975,7 +3975,7 @@
           "games_remaining": 1,
           "current_points": 46.5357,
           "current_seed": 1,
-          "projected_points": 46.4401,
+          "projected_points": 46.4399,
           "avg_seed": 1.0,
           "seed_probs": [
             1.0,
@@ -3993,17 +3993,17 @@
           "games_remaining": 1,
           "current_points": 37.8636,
           "current_seed": 3,
-          "projected_points": 38.3098,
+          "projected_points": 38.2982,
           "avg_seed": 2.494,
           "seed_probs": [
             0.0,
-            0.5065,
-            0.4935,
+            0.5055,
+            0.4945,
             0.0,
             0.0,
             0.0
           ],
-          "top2_prob": 0.5065
+          "top2_prob": 0.5055
         },
         {
           "team": "St. Mary's South Side",
@@ -4011,17 +4011,17 @@
           "games_remaining": 1,
           "current_points": 38.0417,
           "current_seed": 2,
-          "projected_points": 38.5917,
-          "avg_seed": 2.506,
+          "projected_points": 38.5878,
+          "avg_seed": 2.505,
           "seed_probs": [
             0.0,
-            0.4935,
-            0.5065,
+            0.4945,
+            0.5055,
             0.0,
             0.0,
             0.0
           ],
-          "top2_prob": 0.4935
+          "top2_prob": 0.4945
         },
         {
           "team": "Central (Cape Girardeau)",
@@ -4029,7 +4029,7 @@
           "games_remaining": 1,
           "current_points": 30.4205,
           "current_seed": 4,
-          "projected_points": 32.2048,
+          "projected_points": 32.1447,
           "avg_seed": 4.0,
           "seed_probs": [
             0.0,
@@ -4047,15 +4047,15 @@
           "games_remaining": 1,
           "current_points": 18.8393,
           "current_seed": 5,
-          "projected_points": 18.8754,
-          "avg_seed": 5.002,
+          "projected_points": 18.9101,
+          "avg_seed": 5.005,
           "seed_probs": [
             0.0,
             0.0,
             0.0,
             0.0,
-            0.9979,
-            0.0021
+            0.9951,
+            0.0049
           ],
           "top2_prob": 0.0
         },
@@ -4065,15 +4065,15 @@
           "games_remaining": 1,
           "current_points": 15.3295,
           "current_seed": 6,
-          "projected_points": 15.1705,
-          "avg_seed": 5.998,
+          "projected_points": 15.1949,
+          "avg_seed": 5.995,
           "seed_probs": [
             0.0,
             0.0,
             0.0,
             0.0,
-            0.0021,
-            0.9979
+            0.0049,
+            0.9951
           ],
           "top2_prob": 0.0
         }
@@ -4089,7 +4089,7 @@
           "games_remaining": 1,
           "current_points": 47.2614,
           "current_seed": 1,
-          "projected_points": 47.9416,
+          "projected_points": 47.8764,
           "avg_seed": 1.0,
           "seed_probs": [
             1.0,
@@ -4108,18 +4108,18 @@
           "games_remaining": 1,
           "current_points": 38.9107,
           "current_seed": 2,
-          "projected_points": 36.8476,
-          "avg_seed": 2.705,
+          "projected_points": 36.8886,
+          "avg_seed": 2.685,
           "seed_probs": [
             0.0,
-            0.4016,
-            0.4917,
-            0.1067,
+            0.4157,
+            0.4834,
+            0.1009,
             0.0,
             0.0,
             0.0
           ],
-          "top2_prob": 0.4016
+          "top2_prob": 0.4157
         },
         {
           "team": "Rockwood Summit",
@@ -4127,18 +4127,18 @@
           "games_remaining": 1,
           "current_points": 35.9659,
           "current_seed": 4,
-          "projected_points": 36.9013,
-          "avg_seed": 2.871,
+          "projected_points": 36.8539,
+          "avg_seed": 2.889,
           "seed_probs": [
             0.0,
-            0.4917,
-            0.1452,
-            0.3631,
+            0.4834,
+            0.1438,
+            0.3728,
             0.0,
             0.0,
             0.0
           ],
-          "top2_prob": 0.4917
+          "top2_prob": 0.4834
         },
         {
           "team": "Parkway South",
@@ -4146,18 +4146,18 @@
           "games_remaining": 1,
           "current_points": 37.0909,
           "current_seed": 3,
-          "projected_points": 37.3846,
-          "avg_seed": 3.423,
+          "projected_points": 37.3633,
+          "avg_seed": 3.425,
           "seed_probs": [
             0.0,
-            0.1067,
-            0.3631,
-            0.5302,
+            0.1009,
+            0.3728,
+            0.5263,
             0.0,
             0.0,
             0.0
           ],
-          "top2_prob": 0.1067
+          "top2_prob": 0.1009
         },
         {
           "team": "Webster Groves",
@@ -4165,7 +4165,7 @@
           "games_remaining": 1,
           "current_points": 31.2041,
           "current_seed": 5,
-          "projected_points": 29.9221,
+          "projected_points": 29.9497,
           "avg_seed": 5.0,
           "seed_probs": [
             0.0,
@@ -4184,7 +4184,7 @@
           "games_remaining": 1,
           "current_points": 26.1429,
           "current_seed": 6,
-          "projected_points": 27.1067,
+          "projected_points": 27.0857,
           "avg_seed": 6.0,
           "seed_probs": [
             0.0,
@@ -4203,7 +4203,7 @@
           "games_remaining": 1,
           "current_points": 16.8036,
           "current_seed": 7,
-          "projected_points": 16.3663,
+          "projected_points": 16.3761,
           "avg_seed": 7.0,
           "seed_probs": [
             0.0,
@@ -4228,7 +4228,7 @@
           "games_remaining": 1,
           "current_points": 47.6429,
           "current_seed": 1,
-          "projected_points": 47.7506,
+          "projected_points": 47.7115,
           "avg_seed": 1.0,
           "seed_probs": [
             1.0,
@@ -4247,18 +4247,18 @@
           "games_remaining": 1,
           "current_points": 40.2857,
           "current_seed": 2,
-          "projected_points": 40.4021,
-          "avg_seed": 2.032,
+          "projected_points": 40.4112,
+          "avg_seed": 2.038,
           "seed_probs": [
             0.0,
-            0.9683,
-            0.0317,
+            0.9622,
+            0.0378,
             0.0,
             0.0,
             0.0,
             0.0
           ],
-          "top2_prob": 0.9683
+          "top2_prob": 0.9622
         },
         {
           "team": "McCluer North",
@@ -4266,13 +4266,13 @@
           "games_remaining": 1,
           "current_points": 36.875,
           "current_seed": 4,
-          "projected_points": 37.1867,
-          "avg_seed": 3.307,
+          "projected_points": 37.1628,
+          "avg_seed": 3.321,
           "seed_probs": [
             0.0,
             0.0,
-            0.6927,
-            0.3073,
+            0.6793,
+            0.3207,
             0.0,
             0.0,
             0.0
@@ -4285,18 +4285,18 @@
           "games_remaining": 1,
           "current_points": 38.0682,
           "current_seed": 3,
-          "projected_points": 37.1421,
-          "avg_seed": 3.661,
+          "projected_points": 37.1877,
+          "avg_seed": 3.642,
           "seed_probs": [
             0.0,
-            0.0317,
-            0.2756,
-            0.6927,
+            0.0378,
+            0.2829,
+            0.6793,
             0.0,
             0.0,
             0.0
           ],
-          "top2_prob": 0.0317
+          "top2_prob": 0.0378
         },
         {
           "team": "McCluer",
@@ -4304,15 +4304,15 @@
           "games_remaining": 1,
           "current_points": 26.4205,
           "current_seed": 5,
-          "projected_points": 25.7878,
-          "avg_seed": 5.004,
+          "projected_points": 25.8378,
+          "avg_seed": 5.009,
           "seed_probs": [
             0.0,
             0.0,
             0.0,
             0.0,
-            0.9964,
-            0.0036,
+            0.9909,
+            0.0091,
             0.0
           ],
           "top2_prob": 0.0
@@ -4323,16 +4323,16 @@
           "games_remaining": 1,
           "current_points": 23.0227,
           "current_seed": 6,
-          "projected_points": 23.4215,
-          "avg_seed": 5.996,
+          "projected_points": 23.4435,
+          "avg_seed": 5.992,
           "seed_probs": [
             0.0,
             0.0,
             0.0,
             0.0,
-            0.0036,
-            0.9964,
-            0.0
+            0.0088,
+            0.9909,
+            0.0003
           ],
           "top2_prob": 0.0
         },
@@ -4342,16 +4342,16 @@
           "games_remaining": 1,
           "current_points": 21.3214,
           "current_seed": 7,
-          "projected_points": 21.5511,
-          "avg_seed": 7.0,
+          "projected_points": 21.5914,
+          "avg_seed": 6.999,
           "seed_probs": [
             0.0,
             0.0,
             0.0,
             0.0,
+            0.0003,
             0.0,
-            0.0,
-            1.0
+            0.9997
           ],
           "top2_prob": 0.0
         }
@@ -4367,7 +4367,7 @@
           "games_remaining": 1,
           "current_points": 42.5893,
           "current_seed": 1,
-          "projected_points": 43.2173,
+          "projected_points": 43.1997,
           "avg_seed": 1.0,
           "seed_probs": [
             1.0,
@@ -4385,7 +4385,7 @@
           "games_remaining": 1,
           "current_points": 39.2679,
           "current_seed": 2,
-          "projected_points": 38.0735,
+          "projected_points": 38.1201,
           "avg_seed": 2.0,
           "seed_probs": [
             0.0,
@@ -4403,7 +4403,7 @@
           "games_remaining": 1,
           "current_points": 35.125,
           "current_seed": 3,
-          "projected_points": 36.2397,
+          "projected_points": 36.1912,
           "avg_seed": 3.0,
           "seed_probs": [
             0.0,
@@ -4421,15 +4421,15 @@
           "games_remaining": 1,
           "current_points": 23.0373,
           "current_seed": 4,
-          "projected_points": 22.8634,
-          "avg_seed": 4.318,
+          "projected_points": 22.9338,
+          "avg_seed": 4.332,
           "seed_probs": [
             0.0,
             0.0,
             0.0,
-            0.7158,
-            0.2502,
-            0.034
+            0.7084,
+            0.2517,
+            0.0399
           ],
           "top2_prob": 0.0
         },
@@ -4439,15 +4439,15 @@
           "games_remaining": 1,
           "current_points": 21.8393,
           "current_seed": 5,
-          "projected_points": 22.0831,
-          "avg_seed": 5.216,
+          "projected_points": 22.1296,
+          "avg_seed": 5.212,
           "seed_probs": [
             0.0,
             0.0,
             0.0,
-            0.034,
-            0.7158,
-            0.2502
+            0.0399,
+            0.7084,
+            0.2517
           ],
           "top2_prob": 0.0
         },
@@ -4457,15 +4457,15 @@
           "games_remaining": 1,
           "current_points": 21.5179,
           "current_seed": 6,
-          "projected_points": 21.5993,
-          "avg_seed": 5.466,
+          "projected_points": 21.6498,
+          "avg_seed": 5.457,
           "seed_probs": [
             0.0,
             0.0,
             0.0,
-            0.2502,
-            0.034,
-            0.7158
+            0.2517,
+            0.0399,
+            0.7084
           ],
           "top2_prob": 0.0
         }
@@ -4481,7 +4481,7 @@
           "games_remaining": 1,
           "current_points": 49.0714,
           "current_seed": 1,
-          "projected_points": 48.8834,
+          "projected_points": 48.8783,
           "avg_seed": 1.0,
           "seed_probs": [
             1.0,
@@ -4500,18 +4500,18 @@
           "games_remaining": 1,
           "current_points": 39.9886,
           "current_seed": 2,
-          "projected_points": 40.3917,
-          "avg_seed": 2.286,
+          "projected_points": 40.3319,
+          "avg_seed": 2.316,
           "seed_probs": [
             0.0,
-            0.852,
-            0.0102,
-            0.1371,
-            0.0007,
+            0.8362,
+            0.0126,
+            0.1503,
+            0.0009,
             0.0,
             0.0
           ],
-          "top2_prob": 0.852
+          "top2_prob": 0.8362
         },
         {
           "team": "West Plains",
@@ -4519,18 +4519,18 @@
           "games_remaining": 1,
           "current_points": 38.7045,
           "current_seed": 3,
-          "projected_points": 38.8739,
-          "avg_seed": 2.872,
+          "projected_points": 38.8352,
+          "avg_seed": 2.861,
           "seed_probs": [
             0.0,
-            0.1389,
-            0.8499,
-            0.0111,
-            0.0001,
+            0.1533,
+            0.8326,
+            0.0139,
+            0.0002,
             0.0,
             0.0
           ],
-          "top2_prob": 0.1389
+          "top2_prob": 0.1533
         },
         {
           "team": "Glendale",
@@ -4538,18 +4538,18 @@
           "games_remaining": 1,
           "current_points": 35.8571,
           "current_seed": 4,
-          "projected_points": 34.8747,
-          "avg_seed": 4.155,
+          "projected_points": 34.8875,
+          "avg_seed": 4.17,
           "seed_probs": [
             0.0,
-            0.0002,
-            0.0028,
-            0.8392,
-            0.1578,
+            0.0003,
+            0.0045,
+            0.8198,
+            0.1754,
             0.0,
             0.0
           ],
-          "top2_prob": 0.0002
+          "top2_prob": 0.0003
         },
         {
           "team": "Rolla",
@@ -4557,18 +4557,18 @@
           "games_remaining": 1,
           "current_points": 35.1364,
           "current_seed": 5,
-          "projected_points": 33.3733,
-          "avg_seed": 4.686,
+          "projected_points": 33.4406,
+          "avg_seed": 4.653,
           "seed_probs": [
             0.0,
-            0.0089,
-            0.1371,
-            0.0126,
-            0.8414,
+            0.0102,
+            0.1503,
+            0.016,
+            0.8235,
             0.0,
             0.0
           ],
-          "top2_prob": 0.0089
+          "top2_prob": 0.0102
         },
         {
           "team": "Lebanon",
@@ -4576,16 +4576,16 @@
           "games_remaining": 1,
           "current_points": 25.9464,
           "current_seed": 7,
-          "projected_points": 28.3901,
-          "avg_seed": 6.385,
+          "projected_points": 28.3437,
+          "avg_seed": 6.401,
           "seed_probs": [
             0.0,
             0.0,
             0.0,
             0.0,
             0.0,
-            0.6154,
-            0.3846
+            0.5987,
+            0.4013
           ],
           "top2_prob": 0.0
         },
@@ -4595,16 +4595,16 @@
           "games_remaining": 1,
           "current_points": 27.0893,
           "current_seed": 6,
-          "projected_points": 27.4711,
-          "avg_seed": 6.615,
+          "projected_points": 27.4945,
+          "avg_seed": 6.599,
           "seed_probs": [
             0.0,
             0.0,
             0.0,
             0.0,
             0.0,
-            0.3846,
-            0.6154
+            0.4013,
+            0.5987
           ],
           "top2_prob": 0.0
         }
@@ -4620,7 +4620,7 @@
           "games_remaining": 1,
           "current_points": 48.3214,
           "current_seed": 1,
-          "projected_points": 47.8766,
+          "projected_points": 47.874,
           "avg_seed": 1.0,
           "seed_probs": [
             1.0,
@@ -4639,18 +4639,18 @@
           "games_remaining": 1,
           "current_points": 44.2321,
           "current_seed": 3,
-          "projected_points": 43.94,
-          "avg_seed": 2.444,
+          "projected_points": 43.8898,
+          "avg_seed": 2.469,
           "seed_probs": [
             0.0,
-            0.7263,
-            0.1036,
-            0.1701,
+            0.7114,
+            0.1087,
+            0.1799,
             0.0,
             0.0,
             0.0
           ],
-          "top2_prob": 0.7263
+          "top2_prob": 0.7114
         },
         {
           "team": "Neosho",
@@ -4658,18 +4658,18 @@
           "games_remaining": 1,
           "current_points": 45.3393,
           "current_seed": 2,
-          "projected_points": 43.0641,
-          "avg_seed": 3.2,
+          "projected_points": 43.1141,
+          "avg_seed": 3.172,
           "seed_probs": [
             0.0,
-            0.2559,
-            0.2887,
-            0.4554,
+            0.2722,
+            0.2831,
+            0.4447,
             0.0,
             0.0,
             0.0
           ],
-          "top2_prob": 0.2559
+          "top2_prob": 0.2722
         },
         {
           "team": "Branson",
@@ -4677,18 +4677,18 @@
           "games_remaining": 1,
           "current_points": 42.6898,
           "current_seed": 4,
-          "projected_points": 42.3714,
-          "avg_seed": 3.357,
+          "projected_points": 42.375,
+          "avg_seed": 3.359,
           "seed_probs": [
             0.0,
-            0.0178,
-            0.6077,
-            0.3745,
+            0.0164,
+            0.6082,
+            0.3754,
             0.0,
             0.0,
             0.0
           ],
-          "top2_prob": 0.0178
+          "top2_prob": 0.0164
         },
         {
           "team": "Webb City",
@@ -4696,7 +4696,7 @@
           "games_remaining": 1,
           "current_points": 37.2679,
           "current_seed": 5,
-          "projected_points": 38.6611,
+          "projected_points": 38.6136,
           "avg_seed": 5.0,
           "seed_probs": [
             0.0,
@@ -4715,7 +4715,7 @@
           "games_remaining": 1,
           "current_points": 20.7857,
           "current_seed": 6,
-          "projected_points": 20.1861,
+          "projected_points": 20.189,
           "avg_seed": 6.0,
           "seed_probs": [
             0.0,
@@ -4734,7 +4734,7 @@
           "games_remaining": 1,
           "current_points": 13.6852,
           "current_seed": 7,
-          "projected_points": 13.481,
+          "projected_points": 13.5127,
           "avg_seed": 7.0,
           "seed_probs": [
             0.0,
@@ -4759,7 +4759,7 @@
           "games_remaining": 1,
           "current_points": 40.1071,
           "current_seed": 1,
-          "projected_points": 40.7313,
+          "projected_points": 40.7149,
           "avg_seed": 1.0,
           "seed_probs": [
             1.0,
@@ -4778,18 +4778,18 @@
           "games_remaining": 1,
           "current_points": 29.6607,
           "current_seed": 2,
-          "projected_points": 31.2629,
+          "projected_points": 31.2495,
           "avg_seed": 2.0,
           "seed_probs": [
             0.0,
-            0.9999,
+            0.9997,
+            0.0002,
             0.0001,
-            0.0,
             0.0,
             0.0,
             0.0
           ],
-          "top2_prob": 0.9999
+          "top2_prob": 0.9997
         },
         {
           "team": "Belton",
@@ -4797,18 +4797,18 @@
           "games_remaining": 1,
           "current_points": 28.6786,
           "current_seed": 3,
-          "projected_points": 27.0981,
-          "avg_seed": 3.236,
+          "projected_points": 27.108,
+          "avg_seed": 3.258,
           "seed_probs": [
             0.0,
-            0.0001,
-            0.7642,
-            0.2352,
-            0.0005,
+            0.0003,
+            0.7418,
+            0.2572,
+            0.0007,
             0.0,
             0.0
           ],
-          "top2_prob": 0.0001
+          "top2_prob": 0.0003
         },
         {
           "team": "Grandview",
@@ -4816,14 +4816,14 @@
           "games_remaining": 1,
           "current_points": 25.1429,
           "current_seed": 4,
-          "projected_points": 26.8739,
-          "avg_seed": 3.786,
+          "projected_points": 26.8253,
+          "avg_seed": 3.775,
           "seed_probs": [
             0.0,
             0.0,
-            0.2346,
-            0.745,
-            0.0204,
+            0.2561,
+            0.7131,
+            0.0308,
             0.0,
             0.0
           ],
@@ -4835,14 +4835,14 @@
           "games_remaining": 1,
           "current_points": 23.9545,
           "current_seed": 5,
-          "projected_points": 23.936,
-          "avg_seed": 4.978,
+          "projected_points": 23.9452,
+          "avg_seed": 4.967,
           "seed_probs": [
             0.0,
             0.0,
-            0.0011,
-            0.0198,
-            0.9791,
+            0.0019,
+            0.0296,
+            0.9685,
             0.0,
             0.0
           ],
@@ -4854,7 +4854,7 @@
           "games_remaining": 1,
           "current_points": 20.625,
           "current_seed": 6,
-          "projected_points": 20.3768,
+          "projected_points": 20.379,
           "avg_seed": 6.0,
           "seed_probs": [
             0.0,
@@ -4873,7 +4873,7 @@
           "games_remaining": 1,
           "current_points": 14.3214,
           "current_seed": 7,
-          "projected_points": 14.7841,
+          "projected_points": 14.8371,
           "avg_seed": 7.0,
           "seed_probs": [
             0.0,
@@ -4898,7 +4898,7 @@
           "games_remaining": 1,
           "current_points": 42.5536,
           "current_seed": 1,
-          "projected_points": 43.1827,
+          "projected_points": 43.1724,
           "avg_seed": 1.0,
           "seed_probs": [
             1.0,
@@ -4917,7 +4917,7 @@
           "games_remaining": 1,
           "current_points": 34.7857,
           "current_seed": 2,
-          "projected_points": 36.5614,
+          "projected_points": 36.5118,
           "avg_seed": 2.0,
           "seed_probs": [
             0.0,
@@ -4936,7 +4936,7 @@
           "games_remaining": 1,
           "current_points": 33.3929,
           "current_seed": 3,
-          "projected_points": 34.2794,
+          "projected_points": 34.2124,
           "avg_seed": 3.0,
           "seed_probs": [
             0.0,
@@ -4955,7 +4955,7 @@
           "games_remaining": 1,
           "current_points": 29.8393,
           "current_seed": 4,
-          "projected_points": 28.3871,
+          "projected_points": 28.4265,
           "avg_seed": 4.0,
           "seed_probs": [
             0.0,
@@ -4974,15 +4974,15 @@
           "games_remaining": 1,
           "current_points": 26.3864,
           "current_seed": 5,
-          "projected_points": 25.4276,
-          "avg_seed": 5.009,
+          "projected_points": 25.4315,
+          "avg_seed": 5.012,
           "seed_probs": [
             0.0,
             0.0,
             0.0,
             0.0,
-            0.9911,
-            0.0089,
+            0.9884,
+            0.0116,
             0.0
           ],
           "top2_prob": 0.0
@@ -4993,15 +4993,15 @@
           "games_remaining": 1,
           "current_points": 24.4821,
           "current_seed": 6,
-          "projected_points": 23.3966,
-          "avg_seed": 5.991,
+          "projected_points": 23.4135,
+          "avg_seed": 5.988,
           "seed_probs": [
             0.0,
             0.0,
             0.0,
             0.0,
-            0.0089,
-            0.9911,
+            0.0116,
+            0.9884,
             0.0
           ],
           "top2_prob": 0.0
@@ -5012,7 +5012,7 @@
           "games_remaining": 1,
           "current_points": 11.6429,
           "current_seed": 7,
-          "projected_points": 11.817,
+          "projected_points": 11.87,
           "avg_seed": 7.0,
           "seed_probs": [
             0.0,
@@ -5037,11 +5037,11 @@
           "games_remaining": 1,
           "current_points": 48.5172,
           "current_seed": 1,
-          "projected_points": 48.2785,
-          "avg_seed": 1.018,
+          "projected_points": 48.2305,
+          "avg_seed": 1.021,
           "seed_probs": [
-            0.9818,
-            0.0182,
+            0.9792,
+            0.0208,
             0.0,
             0.0,
             0.0
@@ -5054,16 +5054,16 @@
           "games_remaining": 1,
           "current_points": 44.9205,
           "current_seed": 2,
-          "projected_points": 44.0222,
-          "avg_seed": 2.553,
+          "projected_points": 43.9962,
+          "avg_seed": 2.575,
           "seed_probs": [
-            0.0182,
-            0.6188,
-            0.1553,
-            0.2077,
+            0.0208,
+            0.6002,
+            0.162,
+            0.217,
             0.0
           ],
-          "top2_prob": 0.637
+          "top2_prob": 0.621
         },
         {
           "team": "Seckman",
@@ -5071,16 +5071,16 @@
           "games_remaining": 1,
           "current_points": 42.1429,
           "current_seed": 3,
-          "projected_points": 41.7928,
-          "avg_seed": 2.948,
+          "projected_points": 41.7431,
+          "avg_seed": 2.945,
           "seed_probs": [
             0.0,
-            0.2077,
-            0.637,
-            0.1553,
+            0.217,
+            0.621,
+            0.162,
             0.0
           ],
-          "top2_prob": 0.2077
+          "top2_prob": 0.217
         },
         {
           "team": "Oakville",
@@ -5088,16 +5088,16 @@
           "games_remaining": 1,
           "current_points": 42.4773,
           "current_seed": 4,
-          "projected_points": 41.1856,
-          "avg_seed": 3.482,
+          "projected_points": 41.2125,
+          "avg_seed": 3.459,
           "seed_probs": [
             0.0,
-            0.1553,
-            0.2077,
-            0.637,
+            0.162,
+            0.217,
+            0.621,
             0.0
           ],
-          "top2_prob": 0.1553
+          "top2_prob": 0.162
         },
         {
           "team": "Lindbergh",
@@ -5105,7 +5105,7 @@
           "games_remaining": 1,
           "current_points": 28.8636,
           "current_seed": 5,
-          "projected_points": 27.6722,
+          "projected_points": 27.7341,
           "avg_seed": 5.0,
           "seed_probs": [
             0.0,
@@ -5128,11 +5128,11 @@
           "games_remaining": 1,
           "current_points": 42.8571,
           "current_seed": 1,
-          "projected_points": 42.859,
-          "avg_seed": 1.055,
+          "projected_points": 42.8108,
+          "avg_seed": 1.063,
           "seed_probs": [
-            0.9453,
-            0.0547,
+            0.9366,
+            0.0634,
             0.0,
             0.0,
             0.0
@@ -5145,16 +5145,16 @@
           "games_remaining": 1,
           "current_points": 34.8662,
           "current_seed": 2,
-          "projected_points": 35.744,
-          "avg_seed": 2.056,
+          "projected_points": 35.7332,
+          "avg_seed": 2.065,
           "seed_probs": [
             0.0,
-            0.9446,
-            0.0547,
-            0.0007,
+            0.9358,
+            0.0634,
+            0.0008,
             0.0
           ],
-          "top2_prob": 0.9446
+          "top2_prob": 0.9358
         },
         {
           "team": "De Smet Jesuit",
@@ -5162,16 +5162,16 @@
           "games_remaining": 1,
           "current_points": 39.2321,
           "current_seed": 3,
-          "projected_points": 39.8942,
-          "avg_seed": 2.89,
+          "projected_points": 39.8449,
+          "avg_seed": 2.872,
           "seed_probs": [
-            0.0547,
-            0.0007,
-            0.9446,
+            0.0634,
+            0.0008,
+            0.9358,
             0.0,
             0.0
           ],
-          "top2_prob": 0.0554
+          "top2_prob": 0.0642
         },
         {
           "team": "Marquette",
@@ -5179,13 +5179,13 @@
           "games_remaining": 1,
           "current_points": 31.2841,
           "current_seed": 4,
-          "projected_points": 30.6228,
+          "projected_points": 30.6641,
           "avg_seed": 3.999,
           "seed_probs": [
             0.0,
             0.0,
-            0.0007,
-            0.9993,
+            0.0008,
+            0.9992,
             0.0
           ],
           "top2_prob": 0.0
@@ -5196,7 +5196,7 @@
           "games_remaining": 1,
           "current_points": 27.6429,
           "current_seed": 5,
-          "projected_points": 26.7646,
+          "projected_points": 26.8058,
           "avg_seed": 5.0,
           "seed_probs": [
             0.0,
@@ -5219,7 +5219,7 @@
           "games_remaining": 1,
           "current_points": 43.2143,
           "current_seed": 1,
-          "projected_points": 43.1921,
+          "projected_points": 43.1688,
           "avg_seed": 1.0,
           "seed_probs": [
             1.0,
@@ -5236,7 +5236,7 @@
           "games_remaining": 1,
           "current_points": 38.3182,
           "current_seed": 2,
-          "projected_points": 35.9318,
+          "projected_points": 35.9796,
           "avg_seed": 2.0,
           "seed_probs": [
             0.0,
@@ -5253,7 +5253,7 @@
           "games_remaining": 1,
           "current_points": 31.7045,
           "current_seed": 3,
-          "projected_points": 33.0788,
+          "projected_points": 33.0387,
           "avg_seed": 3.0,
           "seed_probs": [
             0.0,
@@ -5270,7 +5270,7 @@
           "games_remaining": 1,
           "current_points": 20.6429,
           "current_seed": 4,
-          "projected_points": 22.1993,
+          "projected_points": 22.149,
           "avg_seed": 4.0,
           "seed_probs": [
             0.0,
@@ -5287,7 +5287,7 @@
           "games_remaining": 1,
           "current_points": 12.8182,
           "current_seed": 5,
-          "projected_points": 14.6822,
+          "projected_points": 14.6577,
           "avg_seed": 5.0,
           "seed_probs": [
             0.0,
@@ -5310,7 +5310,7 @@
           "games_remaining": 1,
           "current_points": 44.4123,
           "current_seed": 1,
-          "projected_points": 44.7362,
+          "projected_points": 44.6935,
           "avg_seed": 1.0,
           "seed_probs": [
             1.0,
@@ -5327,7 +5327,7 @@
           "games_remaining": 1,
           "current_points": 37.3882,
           "current_seed": 2,
-          "projected_points": 36.8069,
+          "projected_points": 36.7985,
           "avg_seed": 2.0,
           "seed_probs": [
             0.0,
@@ -5344,7 +5344,7 @@
           "games_remaining": 1,
           "current_points": 30.9464,
           "current_seed": 3,
-          "projected_points": 29.504,
+          "projected_points": 29.5647,
           "avg_seed": 3.0,
           "seed_probs": [
             0.0,
@@ -5361,14 +5361,14 @@
           "games_remaining": 1,
           "current_points": 21.0714,
           "current_seed": 4,
-          "projected_points": 23.3154,
-          "avg_seed": 4.013,
+          "projected_points": 23.2767,
+          "avg_seed": 4.014,
           "seed_probs": [
             0.0,
             0.0,
             0.0,
-            0.9873,
-            0.0127
+            0.9865,
+            0.0135
           ],
           "top2_prob": 0.0
         },
@@ -5378,14 +5378,14 @@
           "games_remaining": 1,
           "current_points": 25.9107,
           "current_seed": 5,
-          "projected_points": 25.8236,
+          "projected_points": 25.8464,
           "avg_seed": 4.987,
           "seed_probs": [
             0.0,
             0.0,
             0.0,
-            0.0127,
-            0.9873
+            0.0135,
+            0.9865
           ],
           "top2_prob": 0.0
         }
@@ -5401,7 +5401,7 @@
           "games_remaining": 1,
           "current_points": 43.4464,
           "current_seed": 1,
-          "projected_points": 44.1598,
+          "projected_points": 44.1432,
           "avg_seed": 1.0,
           "seed_probs": [
             1.0,
@@ -5418,16 +5418,16 @@
           "games_remaining": 1,
           "current_points": 28.1786,
           "current_seed": 2,
-          "projected_points": 29.6968,
-          "avg_seed": 2.089,
+          "projected_points": 29.6412,
+          "avg_seed": 2.108,
           "seed_probs": [
             0.0,
-            0.9391,
-            0.0326,
-            0.0283,
+            0.9275,
+            0.0372,
+            0.0353,
             0.0
           ],
-          "top2_prob": 0.9391
+          "top2_prob": 0.9275
         },
         {
           "team": "Joplin",
@@ -5435,16 +5435,16 @@
           "games_remaining": 1,
           "current_points": 27.5714,
           "current_seed": 3,
-          "projected_points": 26.6998,
-          "avg_seed": 2.939,
+          "projected_points": 26.7478,
+          "avg_seed": 2.927,
           "seed_probs": [
             0.0,
-            0.0609,
-            0.9391,
+            0.0725,
+            0.9275,
             0.0,
             0.0
           ],
-          "top2_prob": 0.0609
+          "top2_prob": 0.0725
         },
         {
           "team": "Kickapoo",
@@ -5452,13 +5452,13 @@
           "games_remaining": 1,
           "current_points": 20.3393,
           "current_seed": 4,
-          "projected_points": 19.73,
-          "avg_seed": 3.972,
+          "projected_points": 19.7866,
+          "avg_seed": 3.965,
           "seed_probs": [
             0.0,
             0.0,
-            0.0283,
-            0.9717,
+            0.0353,
+            0.9647,
             0.0
           ],
           "top2_prob": 0.0
@@ -5469,7 +5469,7 @@
           "games_remaining": 1,
           "current_points": 12.7143,
           "current_seed": 5,
-          "projected_points": 12.7888,
+          "projected_points": 12.8408,
           "avg_seed": 5.0,
           "seed_probs": [
             0.0,
@@ -5492,17 +5492,17 @@
           "games_remaining": 1,
           "current_points": 41.6964,
           "current_seed": 1,
-          "projected_points": 41.9739,
-          "avg_seed": 1.003,
+          "projected_points": 41.9592,
+          "avg_seed": 1.008,
           "seed_probs": [
-            0.9982,
-            0.001,
-            0.0008,
+            0.995,
+            0.0025,
+            0.0025,
             0.0,
             0.0,
             0.0
           ],
-          "top2_prob": 0.9992
+          "top2_prob": 0.9975
         },
         {
           "team": "Lee's Summit North",
@@ -5510,17 +5510,17 @@
           "games_remaining": 1,
           "current_points": 38.8929,
           "current_seed": 3,
-          "projected_points": 39.1363,
-          "avg_seed": 2.409,
+          "projected_points": 39.06,
+          "avg_seed": 2.422,
           "seed_probs": [
-            0.0013,
-            0.5888,
-            0.4099,
+            0.0029,
+            0.5719,
+            0.4252,
             0.0,
             0.0,
             0.0
           ],
-          "top2_prob": 0.5901
+          "top2_prob": 0.5748
         },
         {
           "team": "Rock Bridge",
@@ -5528,17 +5528,17 @@
           "games_remaining": 1,
           "current_points": 38.9464,
           "current_seed": 2,
-          "projected_points": 38.331,
-          "avg_seed": 2.589,
+          "projected_points": 38.3288,
+          "avg_seed": 2.57,
           "seed_probs": [
-            0.0005,
-            0.4102,
-            0.5893,
+            0.0021,
+            0.4256,
+            0.5723,
             0.0,
             0.0,
             0.0
           ],
-          "top2_prob": 0.4107
+          "top2_prob": 0.4277
         },
         {
           "team": "Hickman",
@@ -5546,15 +5546,15 @@
           "games_remaining": 1,
           "current_points": 33.8393,
           "current_seed": 4,
-          "projected_points": 33.3832,
-          "avg_seed": 4.509,
+          "projected_points": 33.3476,
+          "avg_seed": 4.514,
           "seed_probs": [
             0.0,
             0.0,
             0.0,
-            0.6253,
-            0.2401,
-            0.1346
+            0.6233,
+            0.2398,
+            0.1369
           ],
           "top2_prob": 0.0
         },
@@ -5564,15 +5564,15 @@
           "games_remaining": 1,
           "current_points": 30.0179,
           "current_seed": 5,
-          "projected_points": 31.4523,
-          "avg_seed": 4.944,
+          "projected_points": 31.4094,
+          "avg_seed": 4.936,
           "seed_probs": [
             0.0,
             0.0,
             0.0,
-            0.2152,
-            0.6253,
-            0.1595
+            0.2201,
+            0.6233,
+            0.1566
           ],
           "top2_prob": 0.0
         },
@@ -5582,15 +5582,15 @@
           "games_remaining": 1,
           "current_points": 32.1786,
           "current_seed": 6,
-          "projected_points": 32.3597,
-          "avg_seed": 5.546,
+          "projected_points": 32.3488,
+          "avg_seed": 5.55,
           "seed_probs": [
             0.0,
             0.0,
             0.0,
-            0.1595,
-            0.1346,
-            0.7059
+            0.1566,
+            0.1369,
+            0.7065
           ],
           "top2_prob": 0.0
         }
@@ -5606,7 +5606,7 @@
           "games_remaining": 1,
           "current_points": 38.9205,
           "current_seed": 1,
-          "projected_points": 37.8752,
+          "projected_points": 37.8877,
           "avg_seed": 1.0,
           "seed_probs": [
             1.0,
@@ -5623,7 +5623,7 @@
           "games_remaining": 1,
           "current_points": 40.0714,
           "current_seed": 2,
-          "projected_points": 40.6517,
+          "projected_points": 40.6487,
           "avg_seed": 2.0,
           "seed_probs": [
             0.0,
@@ -5640,7 +5640,7 @@
           "games_remaining": 1,
           "current_points": 33.1538,
           "current_seed": 3,
-          "projected_points": 34.8401,
+          "projected_points": 34.7839,
           "avg_seed": 3.0,
           "seed_probs": [
             0.0,
@@ -5657,14 +5657,14 @@
           "games_remaining": 1,
           "current_points": 25.4107,
           "current_seed": 4,
-          "projected_points": 24.473,
-          "avg_seed": 4.043,
+          "projected_points": 24.541,
+          "avg_seed": 4.055,
           "seed_probs": [
             0.0,
             0.0,
             0.0,
-            0.9566,
-            0.0434
+            0.9448,
+            0.0552
           ],
           "top2_prob": 0.0
         },
@@ -5674,14 +5674,14 @@
           "games_remaining": 1,
           "current_points": 22.2321,
           "current_seed": 5,
-          "projected_points": 21.5699,
-          "avg_seed": 4.957,
+          "projected_points": 21.622,
+          "avg_seed": 4.945,
           "seed_probs": [
             0.0,
             0.0,
             0.0,
-            0.0434,
-            0.9566
+            0.0552,
+            0.9448
           ],
           "top2_prob": 0.0
         }
@@ -5697,7 +5697,7 @@
           "games_remaining": 1,
           "current_points": 39.4286,
           "current_seed": 1,
-          "projected_points": 39.8496,
+          "projected_points": 39.7853,
           "avg_seed": 1.0,
           "seed_probs": [
             1.0,
@@ -5715,17 +5715,17 @@
           "games_remaining": 1,
           "current_points": 28.6786,
           "current_seed": 2,
-          "projected_points": 27.5778,
-          "avg_seed": 2.061,
+          "projected_points": 27.6644,
+          "avg_seed": 2.07,
           "seed_probs": [
             0.0,
-            0.9695,
+            0.965,
             0.0,
-            0.0305,
+            0.035,
             0.0,
             0.0
           ],
-          "top2_prob": 0.9695
+          "top2_prob": 0.965
         },
         {
           "team": "Oak Park",
@@ -5733,17 +5733,17 @@
           "games_remaining": 1,
           "current_points": 32.0179,
           "current_seed": 3,
-          "projected_points": 31.0475,
-          "avg_seed": 2.97,
+          "projected_points": 31.1063,
+          "avg_seed": 2.965,
           "seed_probs": [
             0.0,
-            0.0305,
-            0.9695,
+            0.035,
+            0.965,
             0.0,
             0.0,
             0.0
           ],
-          "top2_prob": 0.0305
+          "top2_prob": 0.035
         },
         {
           "team": "Staley",
@@ -5751,13 +5751,13 @@
           "games_remaining": 1,
           "current_points": 25.625,
           "current_seed": 4,
-          "projected_points": 24.4714,
-          "avg_seed": 3.97,
+          "projected_points": 24.5117,
+          "avg_seed": 3.965,
           "seed_probs": [
             0.0,
             0.0,
-            0.0305,
-            0.9695,
+            0.035,
+            0.965,
             0.0,
             0.0
           ],
@@ -5769,7 +5769,7 @@
           "games_remaining": 1,
           "current_points": 22.4286,
           "current_seed": 5,
-          "projected_points": 21.45,
+          "projected_points": 21.4604,
           "avg_seed": 5.0,
           "seed_probs": [
             0.0,
@@ -5787,7 +5787,7 @@
           "games_remaining": 1,
           "current_points": 18.0714,
           "current_seed": 6,
-          "projected_points": 17.6796,
+          "projected_points": 17.6953,
           "avg_seed": 6.0,
           "seed_probs": [
             0.0,
