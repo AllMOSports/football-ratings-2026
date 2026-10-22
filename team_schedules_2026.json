@@ -930,7 +930,7 @@
   "Louisiana": {
     "class": 1,
     "district": 2,
-    "current_total_points": 46.9643,
+    "current_total_points": 46.9079,
     "current_rank": 1,
     "games": [
       {
@@ -1810,7 +1810,7 @@
   "Linn": {
     "class": 1,
     "district": 4,
-    "current_total_points": 17.0,
+    "current_total_points": 16.9342,
     "current_rank": 5,
     "games": [
       {
@@ -4582,7 +4582,7 @@
   "Scotland County": {
     "class": 1,
     "district": 8,
-    "current_total_points": 42.4286,
+    "current_total_points": 42.3305,
     "current_rank": 2,
     "games": [
       {
@@ -4686,7 +4686,7 @@
   "South Shelby": {
     "class": 1,
     "district": 8,
-    "current_total_points": 37.9643,
+    "current_total_points": 38.0043,
     "current_rank": 3,
     "games": [
       {
@@ -5938,7 +5938,7 @@
   "Miller Career Academy with Sumner": {
     "class": 2,
     "district": 2,
-    "current_total_points": 28.1071,
+    "current_total_points": 25.2882,
     "current_rank": 6,
     "games": [
       {
@@ -6030,6 +6030,18 @@
         "opponent": "Excelsior Springs",
         "opponent_type": "in_state",
         "opponent_class": 4,
+        "played": true,
+        "my_score": 0,
+        "opp_score": 13,
+        "won": false,
+        "overtime": false,
+        "forfeit": true
+      },
+      {
+        "date": "10/23/2026",
+        "opponent": "Capital City",
+        "opponent_type": "in_state",
+        "opponent_class": 5,
         "played": true,
         "my_score": 0,
         "opp_score": 13,
@@ -8362,7 +8374,7 @@
   "North Callaway": {
     "class": 2,
     "district": 5,
-    "current_total_points": 41.7143,
+    "current_total_points": 41.7895,
     "current_rank": 3,
     "games": [
       {
@@ -9626,7 +9638,7 @@
   "Centralia": {
     "class": 2,
     "district": 7,
-    "current_total_points": 52.3929,
+    "current_total_points": 52.3836,
     "current_rank": 1,
     "games": [
       {
@@ -9742,7 +9754,7 @@
   "Clark County": {
     "class": 2,
     "district": 7,
-    "current_total_points": 23.0893,
+    "current_total_points": 23.0862,
     "current_rank": 5,
     "games": [
       {
@@ -9858,7 +9870,7 @@
   "Highland": {
     "class": 2,
     "district": 7,
-    "current_total_points": 12.0,
+    "current_total_points": 11.7619,
     "current_rank": 7,
     "games": [
       {
@@ -9962,19 +9974,19 @@
         "opponent": "Macon",
         "opponent_type": "in_state",
         "opponent_class": 3,
-        "played": false,
-        "my_score": null,
-        "opp_score": null,
-        "won": null,
+        "played": true,
+        "my_score": 0,
+        "opp_score": 13,
+        "won": false,
         "overtime": false,
-        "forfeit": false
+        "forfeit": true
       }
     ]
   },
   "Mark Twain": {
     "class": 2,
     "district": 7,
-    "current_total_points": 19.5893,
+    "current_total_points": 19.5219,
     "current_rank": 6,
     "games": [
       {
@@ -10090,7 +10102,7 @@
   "Monroe City": {
     "class": 2,
     "district": 7,
-    "current_total_points": 35.6964,
+    "current_total_points": 35.7026,
     "current_rank": 4,
     "games": [
       {
@@ -10206,7 +10218,7 @@
   "Palmyra": {
     "class": 2,
     "district": 7,
-    "current_total_points": 39.7679,
+    "current_total_points": 39.7371,
     "current_rank": 3,
     "games": [
       {
@@ -11714,7 +11726,7 @@
   "Ste. Genevieve": {
     "class": 3,
     "district": 1,
-    "current_total_points": 39.3571,
+    "current_total_points": 39.2522,
     "current_rank": 2,
     "games": [
       {
@@ -13534,7 +13546,7 @@
   "Hallsville": {
     "class": 3,
     "district": 4,
-    "current_total_points": 43.5357,
+    "current_total_points": 43.614,
     "current_rank": 1,
     "games": [
       {
@@ -15042,7 +15054,7 @@
   "Cassville": {
     "class": 3,
     "district": 6,
-    "current_total_points": 45.0455,
+    "current_total_points": 44.9643,
     "current_rank": 1,
     "games": [
       {
@@ -16758,7 +16770,7 @@
   "Macon": {
     "class": 3,
     "district": 8,
-    "current_total_points": 38.6429,
+    "current_total_points": 39.0365,
     "current_rank": 4,
     "games": [
       {
@@ -16862,12 +16874,12 @@
         "opponent": "Highland",
         "opponent_type": "in_state",
         "opponent_class": 2,
-        "played": false,
-        "my_score": null,
-        "opp_score": null,
-        "won": null,
+        "played": true,
+        "my_score": 13,
+        "opp_score": 0,
+        "won": true,
         "overtime": false,
-        "forfeit": false
+        "forfeit": true
       }
     ]
   },
@@ -17686,7 +17698,7 @@
   "Sikeston": {
     "class": 4,
     "district": 1,
-    "current_total_points": 44.2143,
+    "current_total_points": 44.125,
     "current_rank": 2,
     "games": [
       {
@@ -18846,7 +18858,7 @@
   "Gateway with Soldan International Studies": {
     "class": 4,
     "district": 3,
-    "current_total_points": 32.2245,
+    "current_total_points": 32.1429,
     "current_rank": 3,
     "games": [
       {
@@ -20226,7 +20238,7 @@
   "Kirksville": {
     "class": 4,
     "district": 5,
-    "current_total_points": 23.2143,
+    "current_total_points": 23.2895,
     "current_rank": 5,
     "games": [
       {
@@ -22766,7 +22778,7 @@
   "Excelsior Springs": {
     "class": 4,
     "district": 8,
-    "current_total_points": 22.5114,
+    "current_total_points": 22.4286,
     "current_rank": 7,
     "games": [
       {
@@ -26478,7 +26490,7 @@
   "Camdenton": {
     "class": 5,
     "district": 5,
-    "current_total_points": 39.9886,
+    "current_total_points": 40.0893,
     "current_rank": 2,
     "games": [
       {
@@ -26710,7 +26722,7 @@
   "Helias Catholic": {
     "class": 5,
     "district": 5,
-    "current_total_points": 49.0714,
+    "current_total_points": 49.1623,
     "current_rank": 1,
     "games": [
       {
@@ -26826,7 +26838,7 @@
   "Jefferson City": {
     "class": 5,
     "district": 5,
-    "current_total_points": 27.0893,
+    "current_total_points": 27.1864,
     "current_rank": 6,
     "games": [
       {
@@ -27174,7 +27186,7 @@
   "West Plains": {
     "class": 5,
     "district": 5,
-    "current_total_points": 38.7045,
+    "current_total_points": 38.6071,
     "current_rank": 3,
     "games": [
       {
@@ -28102,7 +28114,7 @@
   "Battle": {
     "class": 5,
     "district": 7,
-    "current_total_points": 14.3214,
+    "current_total_points": 14.4123,
     "current_rank": 7,
     "games": [
       {
@@ -28334,8 +28346,8 @@
   "Capital City": {
     "class": 5,
     "district": 7,
-    "current_total_points": 23.9545,
-    "current_rank": 5,
+    "current_total_points": 26.1429,
+    "current_rank": 4,
     "games": [
       {
         "date": "8/28/2026",
@@ -28435,15 +28447,15 @@
       },
       {
         "date": "10/23/2026",
-        "opponent": "Christian Brothers College",
+        "opponent": "Miller Career Academy with Sumner",
         "opponent_type": "in_state",
-        "opponent_class": 6,
-        "played": false,
-        "my_score": null,
-        "opp_score": null,
-        "won": null,
+        "opponent_class": 2,
+        "played": true,
+        "my_score": 13,
+        "opp_score": 0,
+        "won": true,
         "overtime": false,
-        "forfeit": false
+        "forfeit": true
       }
     ]
   },
@@ -28567,7 +28579,7 @@
     "class": 5,
     "district": 7,
     "current_total_points": 25.1429,
-    "current_rank": 4,
+    "current_rank": 5,
     "games": [
       {
         "date": "8/28/2026",
@@ -28798,7 +28810,7 @@
   "Smith-Cotton": {
     "class": 5,
     "district": 7,
-    "current_total_points": 29.6607,
+    "current_total_points": 29.739,
     "current_rank": 2,
     "games": [
       {
@@ -30402,18 +30414,6 @@
         "my_score": 20,
         "opp_score": 30,
         "won": false,
-        "overtime": false,
-        "forfeit": false
-      },
-      {
-        "date": "10/23/2026",
-        "opponent": "Capital City",
-        "opponent_type": "in_state",
-        "opponent_class": 5,
-        "played": false,
-        "my_score": null,
-        "opp_score": null,
-        "won": null,
         "overtime": false,
         "forfeit": false
       }
@@ -32858,7 +32858,7 @@
   "Hickman": {
     "class": 6,
     "district": 6,
-    "current_total_points": 33.8393,
+    "current_total_points": 33.9254,
     "current_rank": 4,
     "games": [
       {
@@ -33206,7 +33206,7 @@
   "Rock Bridge": {
     "class": 6,
     "district": 6,
-    "current_total_points": 38.9464,
+    "current_total_points": 39.0373,
     "current_rank": 2,
     "games": [
       {
