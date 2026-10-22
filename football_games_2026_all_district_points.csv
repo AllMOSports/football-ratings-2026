@@ -1256,7 +1256,7 @@ date,team1,team1_classified,score1,team2,team2_classified,score2,forfeit,overtim
 10/23/2026,El Dorado Springs,TRUE,,Butler,TRUE,,FALSE,FALSE
 10/23/2026,Eldon,TRUE,,California,TRUE,,FALSE,FALSE
 10/23/2026,University Academy Charter with Ewing Marion Kauffman,TRUE,,Cameron,TRUE,,FALSE,FALSE
-10/23/2026,Christian Brothers College,TRUE,,Capital City,TRUE,,FALSE,FALSE
+10/23/2026,Miller Career Academy with Sumner,TRUE,0,Capital City,TRUE,13,TRUE,FALSE
 10/23/2026,Hillcrest,TRUE,,Carl Junction,TRUE,,FALSE,FALSE
 10/23/2026,Neosho,TRUE,,Carthage,TRUE,,FALSE,FALSE
 10/23/2026,Pleasant Hill,TRUE,,Center,TRUE,,FALSE,FALSE
@@ -1311,7 +1311,7 @@ date,team1,team1_classified,score1,team2,team2_classified,score2,forfeit,overtim
 10/23/2026,Branson,TRUE,,Logan-Rogersville,TRUE,,FALSE,FALSE
 10/23/2026,Montgomery County,TRUE,,Louisiana,TRUE,,FALSE,FALSE
 10/23/2026,Veritas Christian Academy,TRUE,,Lutheran South,TRUE,,FALSE,FALSE
-10/23/2026,Highland,TRUE,,Macon,TRUE,,FALSE,FALSE
+10/23/2026,Highland,TRUE,0,Macon,TRUE,13,TRUE,FALSE
 10/23/2026,Brookfield,TRUE,,Marceline,TRUE,,FALSE,FALSE
 10/23/2026,Pierce City,TRUE,,Marionville,TRUE,,FALSE,FALSE
 10/23/2026,Bowling Green,TRUE,,Mark Twain,TRUE,,FALSE,FALSE
