@@ -1,0 +1,91 @@
+# .github/workflows/build-matchup-previews.yml
+#
+# Runs build_matchup_previews_2026.py and commits matchup_previews_2026.json
+# (the data file behind the Football Matchup Preview snippet).
+#
+# Triggers:
+#   - push: when the seed projections / schedule metrics / per-capita outputs or
+#     the ratings + games inputs change, so previews follow the nightly pipeline
+#   - repository_dispatch: cron-job.org can fire it via the GitHub API
+#     (event_type: build-matchup-previews), same pattern as the other workflows
+#   - workflow_dispatch: manual run from the Actions tab with sims / sigma
+#
+# Reads repo files plus public All_MO_Sports-Data files from GitHub raw
+# (schools.json, school_aliases.json, football_history.json, and the
+# 2010-2025 football schedule files) -- never contacts MSHSAA.
+
+name: Build Matchup Previews
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - "football_games_2026_all.json"
+      - "football_games_2026_all_district_points.csv"
+      - "football_ratings_2026.json"
+      - "district_seed_projections_2026.json"
+      - "schedule_metrics_2026.json"
+      - "per_capita_football_2026.json"
+      - "out_of_state_records.json"
+      - "build_matchup_previews_2026.py"
+      - "simulate_district_seeds.py"
+      - "simulate_playoff_odds.py"
+  repository_dispatch:
+    types: [build-matchup-previews]
+  workflow_dispatch:
+    inputs:
+      sims:
+        description: "Number of simulations"
+        required: false
+        default: "20000"
+      sigma:
+        description: "Margin standard deviation (points)"
+        required: false
+        default: "16"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: build-matchup-previews
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+
+    steps:
+      - name: Check out repo
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies
+        run: pip install numpy
+
+      - name: Build matchup previews
+        env:
+          SIMS: ${{ github.event.inputs.sims || '20000' }}
+          SIGMA: ${{ github.event.inputs.sigma || '16' }}
+        run: python build_matchup_previews_2026.py --sims "$SIMS" --sigma "$SIGMA"
+
+      - name: Commit matchup previews
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add matchup_previews_2026.json
+          if git diff --cached --quiet; then
+            echo "No changes to matchup previews."
+            exit 0
+          fi
+          git commit -m "Update matchup previews ($(TZ=America/Chicago date +'%Y-%m-%d %H:%M CT'))"
+          for i in 1 2 3; do
+            git pull --rebase origin main && git push origin HEAD:main && exit 0
+            echo "Push failed (attempt $i), retrying..."
+            sleep 5
+          done
+          exit 1
