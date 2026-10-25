@@ -1,0 +1,9670 @@
+{
+ "generated": "2026-10-25T23:41:13",
+ "season": 2026,
+ "ratings_last_updated": "October 25, 2026 at 10:51 PM",
+ "simulations": 20000,
+ "sigma": 16.0,
+ "stages": [
+  "District semifinal",
+  "District final",
+  "District champion",
+  "Final Four",
+  "State final",
+  "State champion"
+ ],
+ "district_bracket_order": [
+  1,
+  8,
+  4,
+  5,
+  2,
+  7,
+  3,
+  6
+ ],
+ "results": [],
+ "classes": {
+  "1": {
+   "class": 1,
+   "state_bracket_order": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8
+   ],
+   "districts": {
+    "1": {
+     "seeds": [
+      "Thayer",
+      "Portageville",
+      "Charleston",
+      "Hayti",
+      "Malden",
+      "Cabool"
+     ],
+     "seed_status": "final"
+    },
+    "2": {
+     "seeds": [
+      "Louisiana",
+      "Crystal City",
+      "Principia",
+      "Veritas Christian Academy",
+      "Grandview (Hillsboro)"
+     ],
+     "seed_status": "final"
+    },
+    "3": {
+     "seeds": [
+      "Marionville",
+      "Miller",
+      "Ash Grove",
+      "Pierce City",
+      "Diamond"
+     ],
+     "seed_status": "final"
+    },
+    "4": {
+     "seeds": [
+      "Tipton with Bunceton",
+      "Skyline",
+      "Russellville",
+      "Windsor",
+      "Linn"
+     ],
+     "seed_status": "final"
+    },
+    "5": {
+     "seeds": [
+      "Carrollton",
+      "Adrian",
+      "Sherwood",
+      "Crest Ridge with Chilhowee",
+      "North Platte"
+     ],
+     "seed_status": "final"
+    },
+    "6": {
+     "seeds": [
+      "East Buchanan",
+      "Penney",
+      "Gallatin with Tri-County",
+      "Plattsburg",
+      "Maysville",
+      "South Harrison"
+     ],
+     "seed_status": "final"
+    },
+    "7": {
+     "seeds": [
+      "Salisbury",
+      "Westran",
+      "Van-Far",
+      "Harrisburg",
+      "Fayette"
+     ],
+     "seed_status": "final"
+    },
+    "8": {
+     "seeds": [
+      "Scotland County",
+      "Putnam County",
+      "South Shelby",
+      "Marceline",
+      "Milan"
+     ],
+     "seed_status": "final"
+    }
+   },
+   "teams": [
+    {
+     "team": "Tipton with Bunceton",
+     "district": 4,
+     "seed": 1,
+     "bye": true,
+     "record": "9-0",
+     "ovr": 26.38,
+     "off": 16.12,
+     "def": 10.26,
+     "ovr_rank": 60,
+     "class_rank": 1,
+     "slug": "tipton",
+     "logo": "https://raw.githubusercontent.com/AllMOSports/All_MO_Sports-Data/main/logos_main2/tipton.png",
+     "reach": [
+      1.0,
+      1.0,
+      0.9352,
+      0.8821,
+      0.801,
+      0.775
+     ],
+     "reach_display": [
+      ">99%",
+      ">99%",
+      "94%",
+      "88%",
+      "80%",
+      "77%"
+     ]
+    },
+    {
+     "team": "Thayer",
+     "district": 1,
+     "seed": 1,
+     "bye": true,
+     "record": "6-3",
+     "ovr": 7.33,
+     "off": 4.66,
+     "def": 2.67,
+     "ovr_rank": 113,
+     "class_rank": 2,
+     "slug": "thayer",
+     "logo": "https://raw.githubusercontent.com/AllMOSports/All_MO_Sports-Data/main/logos_main2/thayer.png",
+     "reach": [
+      1.0,
+      0.916,
+      0.8113,
+      0.7872,
+      0.1386,
+      0.1037
+     ],
+     "reach_display": [
+      ">99%",
+      "92%",
+      "81%",
+      "79%",
+      "14%",
+      "10%"
+     ]
+    },
+    {
+     "team": "Salisbury",
+     "district": 7,
+     "seed": 1,
+     "bye": true,
+     "record": "9-0",
+     "ovr": -0.62,
+     "off": 3.56,
+     "def": -4.19,
+     "ovr_rank": 149,
+     "class_rank": 6,
+     "slug": "salisbury",
+     "logo": "https://raw.githubusercontent.com/AllMOSports/All_MO_Sports-Data/main/logos_main2/salisbury.png",
+     "reach": [
+      1.0,
+      0.9981,
+      0.9933,
+      0.8015,
+      0.6873,
+      0.0753
+     ],
+     "reach_display": [
+      ">99%",
+      ">99%",
+      "99%",
+      "80%",
+      "69%",
+      "8%"
+     ]
+    },
+    {
+     "team": "Miller",
+     "district": 3,
+     "seed": 2,
+     "bye": true,
+     "record": "7-2",
+     "ovr": 2.26,
+     "off": -5.19,
+     "def": 7.45,
+     "ovr_rank": 135,
+     "class_rank": 4,
+     "slug": "miller",
+     "logo": "https://raw.githubusercontent.com/AllMOSports/All_MO_Sports-Data/main/logos_main2/miller.png",
+     "reach": [
+      1.0,
+      0.9041,
+      0.5405,
+      0.0483,
+      0.0227,
+      0.0152
+     ],
+     "reach_display": [
+      ">99%",
+      "90%",
+      "54%",
+      "5%",
+      "2%",
+      "2%"
+     ]
+    },
+    {
+     "team": "Skyline",
+     "district": 4,
+     "seed": 2,
+     "bye": true,
+     "record": "7-2",
+     "ovr": 3.3,
+     "off": 1.67,
+     "def": 1.62,
+     "ovr_rank": 129,
+     "class_rank": 3,
+     "slug": "skyline",
+     "logo": "https://raw.githubusercontent.com/AllMOSports/All_MO_Sports-Data/main/logos_main2/skyline.png",
+     "reach": [
+      1.0,
+      0.8285,
+      0.0629,
+      0.0365,
+      0.0174,
+      0.012
+     ],
+     "reach_display": [
+      ">99%",
+      "83%",
+      "6%",
+      "4%",
+      "2%",
+      "1%"
+     ]
+    },
+    {
+     "team": "Marionville",
+     "district": 3,
+     "seed": 1,
+     "bye": true,
+     "record": "7-2",
+     "ovr": 0.84,
+     "off": -1.25,
+     "def": 2.09,
+     "ovr_rank": 144,
+     "class_rank": 5,
+     "slug": "marionville",
+     "logo": "https://raw.githubusercontent.com/AllMOSports/All_MO_Sports-Data/main/logos_main2/marionville.png",
+     "reach": [
+      1.0,
+      0.7513,
+      0.3765,
+      0.0308,
+      0.0135,
+      0.009
+     ],
+     "reach_display": [
+      ">99%",
+      "75%",
+      "38%",
+      "3%",
+      "1%",
+      "1%"
+     ]
+    },
+    {
+     "team": "Putnam County",
+     "district": 8,
+     "seed": 2,
+     "bye": true,
+     "record": "7-2",
+     "ovr": -11.37,
+     "off": -7.34,
+     "def": -4.03,
+     "ovr_rank": 181,
+     "class_rank": 9,
+     "slug": "putnam-county",
+     "logo": "https://raw.githubusercontent.com/AllMOSports/All_MO_Sports-Data/main/logos_main2/putnam-county.png",
+     "reach": [
+      1.0,
+      0.873,
+      0.6623,
+      0.1681,
+      0.1108,
+      0.0041
+     ],
+     "reach_display": [
+      ">99%",
+      "87%",
+      "66%",
+      "17%",
+      "11%",
+      "<1%"
+     ]
+    },
+    {
+     "team": "Portageville",
+     "district": 1,
+     "seed": 2,
+     "bye": true,
+     "record": "7-2",
+     "ovr": -10.7,
+     "off": 1.15,
+     "def": -11.85,
+     "ovr_rank": 178,
+     "class_rank": 8,
+     "slug": "portageville",
+     "logo": "https://raw.githubusercontent.com/AllMOSports/All_MO_Sports-Data/main/logos_main2/portageville.png",
+     "reach": [
+      1.0,
+      0.8577,
+      0.148,
+      0.1153,
+      0.0047,
+      0.0018
+     ],
+     "reach_display": [
+      ">99%",
+      "86%",
+      "15%",
+      "12%",
+      "<1%",
+      "<1%"
+     ]
+    },
+    {
+     "team": "Carrollton",
+     "district": 5,
+     "seed": 1,
+     "bye": true,
+     "record": "8-1",
+     "ovr": -14.55,
+     "off": -3.14,
+     "def": -11.42,
+     "ovr_rank": 188,
+     "class_rank": 12,
+     "slug": "carrollton",
+     "logo": "https://raw.githubusercontent.com/AllMOSports/All_MO_Sports-Data/main/logos_main2/carrollton.png",
+     "reach": [
+      1.0,
+      0.5778,
+      0.4633,
+      0.2936,
+      0.072,
+      0.0014
+     ],
+     "reach_display": [
+      ">99%",
+      "58%",
+      "46%",
+      "29%",
+      "7%",
+      "<1%"
+     ]
+    },
+    {
+     "team": "North Platte",
+     "district": 5,
+     "seed": 5,
+     "bye": false,
+     "record": "4-5",
+     "ovr": -16.86,
+     "off": -7.94,
+     "def": -8.92,
+     "ovr_rank": 196,
+     "class_rank": 13,
+     "slug": "north-platte",
+     "logo": "https://raw.githubusercontent.com/AllMOSports/All_MO_Sports-Data/main/logos_main2/north-platte.png",
+     "reach": [
+      0.9433,
+      0.4201,
+      0.3235,
+      0.192,
+      0.0391,
+      0.0009
+     ],
+     "reach_display": [
+      "94%",
+      "42%",
+      "32%",
+      "19%",
+      "4%",
+      "<1%"
+     ]
+    },
+    {
+     "team": "East Buchanan",
+     "district": 6,
+     "seed": 1,
+     "bye": true,
+     "record": "6-3",
+     "ovr": -18.27,
+     "off": -4.56,
+     "def": -13.72,
+     "ovr_rank": 204,
+     "class_rank": 14,
+     "slug": "east-buchanan",
+     "logo": "https://raw.githubusercontent.com/AllMOSports/All_MO_Sports-Data/main/logos_main2/east-buchanan.png",
+     "reach": [
+      1.0,
+      0.776,
+      0.4492,
+      0.2213,
+      0.0423,
+      0.0005
+     ],
+     "reach_display": [
+      ">99%",
+      "78%",
+      "45%",
+      "22%",
+      "4%",
+      "<1%"
+     ]
+    },
+    {
+     "team": "Pierce City",
+     "district": 3,
+     "seed": 4,
+     "bye": false,
+     "record": "4-5",
+     "ovr": -9.55,
+     "off": -10.23,
+     "def": 0.68,
+     "ovr_rank": 175,
+     "class_rank": 7,
+     "slug": "pierce-city",
+     "logo": "https://raw.githubusercontent.com/AllMOSports/All_MO_Sports-Data/main/logos_main2/pierce-city.png",
+     "reach": [
+      0.9633,
+      0.2482,
+      0.0678,
+      0.0019,
+      0.0007,
+      0.0004
+     ],
+     "reach_display": [
+      "96%",
+      "25%",
+      "7%",
+      "<1%",
+      "<1%",
+      "<1%"
+     ]
+    },
+    {
+     "team": "Penney",
+     "district": 6,
+     "seed": 2,
+     "bye": true,
+     "record": "2-7",
+     "ovr": -21.14,
+     "off": -3.46,
+     "def": -17.67,
+     "ovr_rank": 214,
+     "class_rank": 16,
+     "slug": "penney",
+     "logo": "https://raw.githubusercontent.com/AllMOSports/All_MO_Sports-Data/main/logos_main2/penney.png",
+     "reach": [
+      1.0,
+      0.5304,
+      0.2601,
+      0.1108,
+      0.0158,
+      0.0003
+     ],
+     "reach_display": [
+      ">99%",
+      "53%",
+      "26%",
+      "11%",
+      "2%",
+      "<1%"
+     ]
+    },
+    {
+     "team": "Gallatin with Tri-County",
+     "district": 6,
+     "seed": 3,
+     "bye": false,
+     "record": "5-4",
+     "ovr": -21.45,
+     "off": -16.28,
+     "def": -5.17,
+     "ovr_rank": 216,
+     "class_rank": 18,
+     "slug": "gallatin",
+     "logo": "https://raw.githubusercontent.com/AllMOSports/All_MO_Sports-Data/main/logos_main2/gallatin.png",
+     "reach": [
+      0.9284,
+      0.4641,
+      0.2225,
+      0.091,
+      0.0127,
+      0.0001
+     ],
+     "reach_display": [
+      "93%",
+      "46%",
+      "22%",
+      "9%",
+      "1%",
+      "<1%"
+     ]
+    },
+    {
+     "team": "Marceline",
+     "district": 8,
+     "seed": 4,
+     "bye": false,
+     "record": "6-3",
+     "ovr": -21.17,
+     "off": -17.32,
+     "def": -3.86,
+     "ovr_rank": 215,
+     "class_rank": 17,
+     "slug": "marceline",
+     "logo": "https://raw.githubusercontent.com/AllMOSports/All_MO_Sports-Data/main/logos_main2/marceline.png",
+     "reach": [
+      0.998,
+      0.6044,
+      0.1982,
+      0.0217,
+      0.0092,
+      0.0001
+     ],
+     "reach_display": [
+      ">99%",
+      "60%",
+      "20%",
+      "2%",
+      "1%",
+      "<1%"
+     ]
+    },
+    {
+     "team": "Adrian",
+     "district": 5,
+     "seed": 2,
+     "bye": true,
+     "record": "4-5",
+     "ovr": -26.76,
+     "off": -18.32,
+     "def": -8.43,
+     "ovr_rank": 230,
+     "class_rank": 21,
+     "slug": "adrian",
+     "logo": "https://raw.githubusercontent.com/AllMOSports/All_MO_Sports-Data/main/logos_main2/adrian.png",
+     "reach": [
+      1.0,
+      0.8257,
+      0.2036,
+      0.0736,
+      0.0072,
+      0.0001
+     ],
+     "reach_display": [
+      ">99%",
+      "83%",
+      "20%",
+      "7%",
+      "1%",
+      "<1%"
+     ]
+    },
+    {
+     "team": "Louisiana",
+     "district": 2,
+     "seed": 1,
+     "bye": true,
+     "record": "7-2",
+     "ovr": -22.12,
+     "off": -11.0,
+     "def": -11.12,
+     "ovr_rank": 220,
+     "class_rank": 19,
+     "slug": "louisiana",
+     "logo": "https://raw.githubusercontent.com/AllMOSports/All_MO_Sports-Data/main/logos_main2/louisiana.png",
+     "reach": [
+      1.0,
+      0.9985,
+      0.8995,
+      0.0697,
+      0.0007,
+      0.0001
+     ],
+     "reach_display": [
+      ">99%",
+      ">99%",
+      "90%",
+      "7%",
+      "<1%",
+      "<1%"
+     ]
+    },
+    {
+     "team": "Hayti",
+     "district": 1,
+     "seed": 4,
+     "bye": false,
+     "record": "5-4",
+     "ovr": -14.55,
+     "off": -5.13,
+     "def": -9.43,
+     "ovr_rank": 187,
+     "class_rank": 11,
+     "slug": "hayti",
+     "logo": "https://raw.githubusercontent.com/AllMOSports/All_MO_Sports-Data/main/logos_main2/hayti.png",
+     "reach": [
+      0.9895,
+      0.084,
+      0.0366,
+      0.026,
+      0.0006,
+      0.0001
+     ],
+     "reach_display": [
+      "99%",
+      "8%",
+      "4%",
+      "3%",
+      "<1%",
+      "<1%"
+     ]
+    },
+    {
+     "team": "Russellville",
+     "district": 4,
+     "seed": 3,
+     "bye": true,
+     "record": "8-1",
+     "ovr": -12.01,
+     "off": -4.68,
+     "def": -7.33,
+     "ovr_rank": 182,
+     "class_rank": 10,
+     "slug": "russellville",
+     "logo": "https://raw.githubusercontent.com/AllMOSports/All_MO_Sports-Data/main/logos_main2/russellville.png",
+     "reach": [
+      1.0,
+      0.1715,
+      0.002,
+      0.0004,
+      0.0001,
+      0.0001
+     ],
+     "reach_display": [
+      ">99%",
+      "17%",
+      "<1%",
+      "<1%",
+      "<1%",
+      "<1%"
+     ]
+    },
+    {
+     "team": "Scotland County",
+     "district": 8,
+     "seed": 1,
+     "bye": true,
+     "record": "5-3",
+     "ovr": -25.39,
+     "off": -10.13,
+     "def": -15.26,
+     "ovr_rank": 227,
+     "class_rank": 20,
+     "slug": "scotland-county",
+     "logo": "https://raw.githubusercontent.com/AllMOSports/All_MO_Sports-Data/main/logos_main2/scotland-county.png",
+     "reach": [
+      1.0,
+      0.3956,
+      0.0971,
+      0.006,
+      0.0021,
+      0.0
+     ],
+     "reach_display": [
+      ">99%",
+      "40%",
+      "10%",
+      "1%",
+      "<1%",
+      "0%"
+     ]
+    },
+    {
+     "team": "Maysville",
+     "district": 6,
+     "seed": 5,
+     "bye": false,
+     "record": "3-6",
+     "ovr": -28.37,
+     "off": -16.31,
+     "def": -12.05,
+     "ovr_rank": 234,
+     "class_rank": 23,
+     "slug": "maysville",
+     "logo": "https://raw.githubusercontent.com/AllMOSports/All_MO_Sports-Data/main/logos_main2/maysville.png",
+     "reach": [
+      0.6705,
+      0.1763,
+      0.0589,
+      0.0155,
+      0.0009,
+      0.0
+     ],
+     "reach_display": [
+      "67%",
+      "18%",
+      "6%",
+      "2%",
+      "<1%",
+      "0%"
+     ]
+    },
+    {
+     "team": "South Shelby",
+     "district": 8,
+     "seed": 3,
+     "bye": true,
+     "record": "4-5",
+     "ovr": -29.62,
+     "off": -20.12,
+     "def": -9.5,
+     "ovr_rank": 238,
+     "class_rank": 24,
+     "slug": "south-shelby",
+     "logo": "https://raw.githubusercontent.com/AllMOSports/All_MO_Sports-Data/main/logos_main2/south-shelby.png",
+     "reach": [
+      1.0,
+      0.127,
+      0.0425,
+      0.0019,
+      0.0003,
+      0.0
+     ],
+     "reach_display": [
+      ">99%",
+      "13%",
+      "4%",
+      "<1%",
+      "<1%",
+      "0%"
+     ]
+    },
+    {
+     "team": "Plattsburg",
+     "district": 6,
+     "seed": 4,
+     "bye": false,
+     "record": "3-6",
+     "ovr": -35.55,
+     "off": -20.05,
+     "def": -15.5,
+     "ovr_rank": 251,
+     "class_rank": 25,
+     "slug": "plattsburg",
+     "logo": "https://raw.githubusercontent.com/AllMOSports/All_MO_Sports-Data/main/logos_main2/plattsburg.png",
+     "reach": [
+      0.3295,
+      0.0478,
+      0.0086,
+      0.0013,
+      0.0001,
+      0.0
+     ],
+     "reach_display": [
+      "33%",
+      "5%",
+      "1%",
+      "<1%",
+      "<1%",
+      "0%"
+     ]
+    },
+    {
+     "team": "Westran",
+     "district": 7,
+     "seed": 2,
+     "bye": true,
+     "record": "4-5",
+     "ovr": -40.9,
+     "off": -18.52,
+     "def": -22.38,
+     "ovr_rank": 263,
+     "class_rank": 28,
+     "slug": "westran",
+     "logo": "https://raw.githubusercontent.com/AllMOSports/All_MO_Sports-Data/main/logos_main2/westran.png",
+     "reach": [
+      1.0,
+      0.811,
+      0.0056,
+      0.0008,
+      0.0001,
+      0.0
+     ],
+     "reach_display": [
+      ">99%",
+      "81%",
+      "1%",
+      "<1%",
+      "<1%",
+      "0%"
+     ]
+    },
+    {
+     "team": "Charleston",
+     "district": 1,
+     "seed": 3,
+     "bye": false,
+     "record": "5-4",
+     "ovr": -27.6,
+     "off": -9.51,
+     "def": -18.09,
+     "ovr_rank": 231,
+     "class_rank": 22,
+     "slug": "charleston",
+     "logo": "https://raw.githubusercontent.com/AllMOSports/All_MO_Sports-Data/main/logos_main2/charleston.png",
+     "reach": [
+      0.986,
+      0.1422,
+      0.0041,
+      0.0014,
+      0.0,
+      0.0
+     ],
+     "reach_display": [
+      "99%",
+      "14%",
+      "<1%",
+      "<1%",
+      "0%",
+      "0%"
+     ]
+    },
+    {
+     "team": "Sherwood",
+     "district": 5,
+     "seed": 3,
+     "bye": true,
+     "record": "4-5",
+     "ovr": -41.79,
+     "off": -25.14,
+     "def": -16.66,
+     "ovr_rank": 264,
+     "class_rank": 29,
+     "slug": "sherwood",
+     "logo": "https://raw.githubusercontent.com/AllMOSports/All_MO_Sports-Data/main/logos_main2/sherwood.png",
+     "reach": [
+      1.0,
+      0.1742,
+      0.0089,
+      0.0009,
+      0.0,
+      0.0
+     ],
+     "reach_display": [
+      ">99%",
+      "17%",
+      "1%",
+      "<1%",
+      "0%",
+      "0%"
+     ]
+    },
+    {
+     "team": "Principia",
+     "district": 2,
+     "seed": 3,
+     "bye": true,
+     "record": "2-6",
+     "ovr": -42.4,
+     "off": -5.26,
+     "def": -37.14,
+     "ovr_rank": 266,
+     "class_rank": 31,
+     "slug": "principia",
+     "logo": "https://raw.githubusercontent.com/AllMOSports/All_MO_Sports-Data/main/logos_main2/principia.png",
+     "reach": [
+      1.0,
+      0.9628,
+      0.1003,
+      0.0004,
+      0.0,
+      0.0
+     ],
+     "reach_display": [
+      ">99%",
+      "96%",
+      "10%",
+      "<1%",
+      "0%",
+      "0%"
+     ]
+    },
+    {
+     "team": "Ash Grove",
+     "district": 3,
+     "seed": 3,
+     "bye": true,
+     "record": "5-4",
+     "ovr": -18.79,
+     "off": -14.04,
+     "def": -4.75,
+     "ovr_rank": 207,
+     "class_rank": 15,
+     "slug": "ash-grove",
+     "logo": "https://raw.githubusercontent.com/AllMOSports/All_MO_Sports-Data/main/logos_main2/ash-grove.png",
+     "reach": [
+      1.0,
+      0.0959,
+      0.0152,
+      0.0001,
+      0.0,
+      0.0
+     ],
+     "reach_display": [
+      ">99%",
+      "10%",
+      "2%",
+      "<1%",
+      "0%",
+      "0%"
+     ]
+    },
+    {
+     "team": "South Harrison",
+     "district": 6,
+     "seed": 6,
+     "bye": false,
+     "record": "1-8",
+     "ovr": -44.26,
+     "off": -26.07,
+     "def": -18.19,
+     "ovr_rank": 269,
+     "class_rank": 32,
+     "slug": "south-harrison",
+     "logo": "https://raw.githubusercontent.com/AllMOSports/All_MO_Sports-Data/main/logos_main2/south-harrison.png",
+     "reach": [
+      0.0716,
+      0.0056,
+      0.0006,
+      0.0001,
+      0.0,
+      0.0
+     ],
+     "reach_display": [
+      "7%",
+      "1%",
+      "<1%",
+      "<1%",
+      "0%",
+      "0%"
+     ]
+    },
+    {
+     "team": "Fayette",
+     "district": 7,
+     "seed": 5,
+     "bye": false,
+     "record": "2-7",
+     "ovr": -45.38,
+     "off": -26.32,
+     "def": -19.06,
+     "ovr_rank": 270,
+     "class_rank": 33,
+     "slug": "fayette",
+     "logo": "https://raw.githubusercontent.com/AllMOSports/All_MO_Sports-Data/main/logos_main2/fayette.png",
+     "reach": [
+      0.7107,
+      0.0019,
+      0.0008,
+      0.0,
+      0.0,
+      0.0
+     ],
+     "reach_display": [
+      "71%",
+      "<1%",
+      "<1%",
+      "0%",
+      "0%",
+      "0%"
+     ]
+    },
+    {
+     "team": "Crest Ridge with Chilhowee",
+     "district": 5,
+     "seed": 4,
+     "bye": false,
+     "record": "4-5",
+     "ovr": -42.2,
+     "off": -26.2,
+     "def": -16.0,
+     "ovr_rank": 265,
+     "class_rank": 30,
+     "slug": "crest-ridge",
+     "logo": "https://raw.githubusercontent.com/AllMOSports/All_MO_Sports-Data/main/logos_main2/crest-ridge.png",
+     "reach": [
+      0.0567,
+      0.0021,
+      0.0007,
+      0.0,
+      0.0,
+      0.0
+     ],
+     "reach_display": [
+      "6%",
+      "<1%",
+      "<1%",
+      "0%",
+      "0%",
+      "0%"
+     ]
+    },
+    {
+     "team": "Van-Far",
+     "district": 7,
+     "seed": 3,
+     "bye": true,
+     "record": "1-8",
+     "ovr": -55.22,
+     "off": -23.49,
+     "def": -31.74,
+     "ovr_rank": 282,
+     "class_rank": 36,
+     "slug": "van-far",
+     "logo": "https://raw.githubusercontent.com/AllMOSports/All_MO_Sports-Data/main/logos_main2/van-far.png",
+     "reach": [
+      1.0,
+      0.189,
+      0.0003,
+      0.0,
+      0.0,
+      0.0
+     ],
+     "reach_display": [
+      ">99%",
+      "19%",
+      "<1%",
+      "0%",
+      "0%",
+      "0%"
+     ]
+    },
+    {
+     "team": "Crystal City",
+     "district": 2,
+     "seed": 2,
+     "bye": true,
+     "record": "2-7",
+     "ovr": -71.26,
+     "off": -38.94,
+     "def": -32.33,
+     "ovr_rank": 297,
+     "class_rank": 41,
+     "slug": "crystal-city",
+     "logo": "https://raw.githubusercontent.com/AllMOSports/All_MO_Sports-Data/main/logos_main2/crystal-city.png",
+     "reach": [
+      1.0,
+      0.0372,
+      0.0001,
+      0.0,
+      0.0,
+      0.0
+     ],
+     "reach_display": [
+      ">99%",
+      "4%",
+      "<1%",
+      "0%",
+      "0%",
+      "0%"
+     ]
+    },
+    {
+     "team": "Veritas Christian Academy",
+     "district": 2,
+     "seed": 4,
+     "bye": false,
+     "record": "3-4",
+     "ovr": -67.82,
+     "off": -31.1,
+     "def": -36.72,
+     "ovr_rank": 292,
+     "class_rank": 40,
+     "slug": "veritas-christian-academy",
+     "logo": "https://raw.githubusercontent.com/AllMOSports/All_MO_Sports-Data/main/logos_main2/veritas-christian-academy.png",
+     "reach": [
+      0.6377,
+      0.0011,
+      0.0001,
+      0.0,
+      0.0,
+      0.0
+     ],
+     "reach_display": [
+      "64%",
+      "<1%",
+      "<1%",
+      "0%",
+      "0%",
+      "0%"
+     ]
+    },
+    {
+     "team": "Malden",
+     "district": 1,
+     "seed": 5,
+     "bye": false,
+     "record": "3-6",
+     "ovr": -51.74,
+     "off": -27.43,
+     "def": -24.3,
+     "ovr_rank": 278,
+     "class_rank": 34,
+     "slug": "malden",
+     "logo": "https://raw.githubusercontent.com/AllMOSports/All_MO_Sports-Data/main/logos_main2/malden.png",
+     "reach": [
+      0.0106,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+     ],
+     "reach_display": [
+      "1%",
+      "0%",
+      "0%",
+      "0%",
+      "0%",
+      "0%"
+     ]
+    },
+    {
+     "team": "Cabool",
+     "district": 1,
+     "seed": 6,
+     "bye": false,
+     "record": "1-8",
+     "ovr": -62.24,
+     "off": -30.75,
+     "def": -31.49,
+     "ovr_rank": 289,
+     "class_rank": 38,
+     "slug": "cabool",
+     "logo": "https://raw.githubusercontent.com/AllMOSports/All_MO_Sports-Data/main/logos_main2/cabool.png",
+     "reach": [
+      0.014,
+      0.0001,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+     ],
+     "reach_display": [
+      "1%",
+      "<1%",
+      "0%",
+      "0%",
+      "0%",
+      "0%"
+     ]
+    },
+    {
+     "team": "Grandview (Hillsboro)",
+     "district": 2,
+     "seed": 5,
+     "bye": false,
+     "record": "0-9",
+     "ovr": -73.58,
+     "off": -39.37,
+     "def": -34.21,
+     "ovr_rank": 298,
+     "class_rank": 42,
+     "slug": "grandview-hillsboro",
+     "logo": "https://raw.githubusercontent.com/AllMOSports/All_MO_Sports-Data/main/logos_main2/grandview-hillsboro.png",
+     "reach": [
+      0.3623,
+      0.0004,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+     ],
+     "reach_display": [
+      "36%",
+      "<1%",
+      "0%",
+      "0%",
+      "0%",
+      "0%"
+     ]
+    },
+    {
+     "team": "Diamond",
+     "district": 3,
+     "seed": 5,
+     "bye": false,
+     "record": "0-8",
+     "ovr": -38.17,
+     "off": -17.83,
+     "def": -20.34,
+     "ovr_rank": 257,
+     "class_rank": 26,
+     "slug": "diamond",
+     "logo": "https://raw.githubusercontent.com/AllMOSports/All_MO_Sports-Data/main/logos_main2/diamond.png",
+     "reach": [
+      0.0367,
+      0.0004,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+     ],
+     "reach_display": [
+      "4%",
+      "<1%",
+      "0%",
+      "0%",
+      "0%",
+      "0%"
+     ]
+    },
+    {
+     "team": "Windsor",
+     "district": 4,
+     "seed": 4,
+     "bye": false,
+     "record": "4-5",
+     "ovr": -40.24,
+     "off": -24.97,
+     "def": -15.27,
+     "ovr_rank": 260,
+     "class_rank": 27,
+     "slug": "windsor",
+     "logo": "https://raw.githubusercontent.com/AllMOSports/All_MO_Sports-Data/main/logos_main2/windsor.png",
+     "reach": [
+      0.9056,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+     ],
+     "reach_display": [
+      "91%",
+      "0%",
+      "0%",
+      "0%",
+      "0%",
+      "0%"
+     ]
+    },
+    {
+     "team": "Linn",
+     "district": 4,
+     "seed": 5,
+     "bye": false,
+     "record": "0-9",
+     "ovr": -61.58,
+     "off": -36.06,
+     "def": -25.52,
+     "ovr_rank": 288,
+     "class_rank": 37,
+     "slug": "linn",
+     "logo": "https://raw.githubusercontent.com/AllMOSports/All_MO_Sports-Data/main/logos_main2/linn.png",
+     "reach": [
+      0.0944,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+     ],
+     "reach_display": [
+      "9%",
+      "0%",
+      "0%",
+      "0%",
+      "0%",
+      "0%"
+     ]
+    },
+    {
+     "team": "Harrisburg",
+     "district": 7,
+     "seed": 4,
+     "bye": false,
+     "record": "2-7",
+     "ovr": -54.19,
+     "off": -31.63,
+     "def": -22.56,
+     "ovr_rank": 279,
+     "class_rank": 35,
+     "slug": "harrisburg",
+     "logo": "https://raw.githubusercontent.com/AllMOSports/All_MO_Sports-Data/main/logos_main2/harrisburg.png",
+     "reach": [
+      0.2893,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+     ],
+     "reach_display": [
+      "29%",
+      "0%",
+      "0%",
+      "0%",
+      "0%",
+      "0%"
+     ]
+    },
+    {
+     "team": "Milan",
+     "district": 8,
+     "seed": 5,
+     "bye": false,
+     "record": "0-8",
+     "ovr": -66.3,
+     "off": -34.7,
+     "def": -31.61,
+     "ovr_rank": 290,
+     "class_rank": 39,
+     "slug": "milan",
+     "logo": "https://raw.githubusercontent.com/AllMOSports/All_MO_Sports-Data/main/logos_main2/milan.png",
+     "reach": [
+      0.0019,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+     ],
+     "reach_display": [
+      "<1%",
+      "0%",
+      "0%",
+      "0%",
+      "0%",
+      "0%"
+     ]
+    }
+   ]
+  },
+  "2": {
+   "class": 2,
+   "state_bracket_order": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8
+   ],
+   "districts": {
+    "1": {
+     "seeds": [
+      "St. Vincent",
+      "Caruthersville",
+      "Saxony Lutheran",
+      "Kelly",
+      "Central (New Madrid County)",
+      "East Prairie"
+     ],
+     "seed_status": "final"
+    },
+    "2": {
+     "seeds": [
+      "Valle Catholic",
+      "Jefferson (Festus)",
+      "Montgomery County",
+      "Duchesne",
+      "Hermann",
+      "Miller Career Academy with Sumner",
+      "Confluence Prep Academy Charter"
+     ],
+     "seed_status": "final"
+    },
+    "3": {
+     "seeds": [
+      "Springfield Catholic",
+      "Fair Grove",
+      "Ava",
+      "Liberty (Mountain View)",
+      "Forsyth",
+      "Willow Springs",
+      "Houston"
+     ],
+     "seed_status": "final"
+    },
+    "4": {
+     "seeds": [
+      "Lamar",
+      "Clever",
+      "East Newton",
+      "Warsaw",
+      "Sarcoxie",
+      "Stockton with Sheldon",
+      "El Dorado Springs"
+     ],
+     "seed_status": "final"
+    },
+    "5": {
+     "seeds": [
+      "Blair Oaks",
+      "Father Tolton",
+      "North Callaway",
+      "Cole Camp",
+      "South Callaway",
+      "Versailles",
+      "California"
+     ],
+     "seed_status": "final"
+    },
+    "6": {
+     "seeds": [
+      "KIPP KC Legacy",
+      "Hogan Prep Academy Charter",
+      "Butler",
+      "Lafayette County",
+      "Holden",
+      "Lone Jack with Kingsville",
+      "Lexington"
+     ],
+     "seed_status": "final"
+    },
+    "7": {
+     "seeds": [
+      "Centralia",
+      "Palmyra",
+      "Bowling Green",
+      "Monroe City",
+      "Clark County",
+      "Mark Twain",
+      "Highland"
+     ],
+     "seed_status": "final"
+    },
+    "8": {
+     "seeds": [
+      "Mid-Buchanan",
+      "Brookfield",
+      "West Platte",
+      "Lathrop",
+      "Lawson",
+      "Trenton"
+     ],
+     "seed_status": "final"
+    }
+   },
+   "teams": [
+    {
+     "team": "Valle Catholic",
+     "district": 2,
+     "seed": 1,
+     "bye": true,
+     "record": "9-0",
+     "ovr": 50.75,
+     "off": 29.8,
+     "def": 20.95,
+     "ovr_rank": 17,
+     "class_rank": 1,
+     "slug": "valle-catholic",
+     "logo": "https://raw.githubusercontent.com/AllMOSports/All_MO_Sports-Data/main/logos_main2/valle-catholic.png",
+     "reach": [
+      1.0,
+      1.0,
+      0.9999,
+      0.9978,
+      0.8132,
+      0.6814
+     ],
+     "reach_display": [
+      ">99%",
+      ">99%",
+      ">99%",
+      ">99%",
+      "81%",
+      "68%"
+     ]
+    },
+    {
+     "team": "Blair Oaks",
+     "district": 5,
+     "seed": 1,
+     "bye": true,
+     "record": "8-1",
+     "ovr": 37.15,
+     "off": 18.53,
+     "def": 18.62,
+     "ovr_rank": 36,
+     "class_rank": 3,
+     "slug": "blair-oaks",
+     "logo": "https://raw.githubusercontent.com/AllMOSports/All_MO_Sports-Data/main/logos_main2/blair-oaks.png",
+     "reach": [
+      1.0,
+      0.9984,
+      0.9655,
+      0.9651,
+      0.798,
+      0.1973
+     ],
+     "reach_display": [
+      ">99%",
+      ">99%",
+      "97%",
+      "97%",
+      "80%",
+      "20%"
+     ]
+    },
+    {
+     "team": "Lamar",
+     "district": 4,
+     "seed": 1,
+     "bye": true,
+     "record": "9-0",
+     "ovr": 38.18,
+     "off": 18.64,
+     "def": 19.55,
+     "ovr_rank": 31,
+     "class_rank": 2,
+     "slug": "lamar",
+     "logo": "https://raw.githubusercontent.com/AllMOSports/All_MO_Sports-Data/main/logos_main2/lamar.png",
+     "reach": [
+      1.0,
+      0.9997,
+      0.9719,
+      0.8303,
+      0.1797,
+      0.1073
+     ],
+     "reach_display": [
+      ">99%",
+      ">99%",
+      "97%",
+      "83%",
+      "18%",
+      "11%"
+     ]
+    },
+    {
+     "team": "Centralia",
+     "district": 7,
+     "seed": 1,
+     "bye": true,
+     "record": "9-0",
+     "ovr": 23.28,
+     "off": 17.94,
+     "def": 5.33,
+     "ovr_rank": 63,
+     "class_rank": 4,
+     "slug": "centralia",
+     "logo": "https://raw.githubusercontent.com/AllMOSports/All_MO_Sports-Data/main/logos_main2/centralia.png",
+     "reach": [
+      1.0,
+      0.9947,
+      0.7399,
+      0.4133,
+      0.0897,
+      0.0063
+     ],
+     "reach_display": [
+      ">99%",
+      "99%",
+      "74%",
+      "41%",
+      "9%",
+      "1%"
+     ]
+    },
+    {
+     "team": "Mid-Buchanan",
+     "district": 8,
+     "seed": 1,
+     "bye": true,
+     "record": "9-0",
+     "ovr": 21.94,
+     "off": 11.79,
+     "def": 10.15,
+     "ovr_rank": 69,
+     "class_rank": 6,
+     "slug": "mid-buchanan",
+     "logo": "https://raw.githubusercontent.com/AllMOSports/All_MO_Sports-Data/main/logos_main2/mid-buchanan.png",
+     "reach": [
+      1.0,
+      0.9729,
+      0.9456,
+      0.4936,
+      0.0968,
+      0.0058
+     ],
+     "reach_display": [
+      ">99%",
+      "97%",
+      "95%",
+      "49%",
+      "10%",
+      "1%"
+     ]
+    },
+    {
+     "team": "Fair Grove",
+     "district": 3,
+     "seed": 2,
+     "bye": false,
+     "record": "8-1",
+     "ovr": 22.92,
+     "off": 11.32,
+     "def": 11.61,
+     "ovr_rank": 64,
+     "class_rank": 5,
+     "slug": "fair-grove",
+     "logo": "https://raw.githubusercontent.com/AllMOSports/All_MO_Sports-Data/main/logos_main2/fair-grove.png",
+     "reach": [
+      0.9972,
+      0.9665,
+      0.8517,
+      0.1588,
+      0.0071,
+      0.0018
+     ],
+     "reach_display": [
+      ">99%",
+      "97%",
+      "85%",
+      "16%",
+      "1%",
+      "<1%"
+     ]
+    },
+    {
+     "team": "Palmyra",
+     "district": 7,
+     "seed": 2,
+     "bye": false,
+     "record": "6-3",
+     "ovr": 14.47,
+     "off": 12.22,
+     "def": 2.25,
+     "ovr_rank": 91,
+     "class_rank": 7,
+     "slug": "palmyra",
+     "logo": "https://raw.githubusercontent.com/AllMOSports/All_MO_Sports-Data/main/logos_main2/palmyra.png",
+     "reach": [
+      1.0,
+      0.8575,
+      0.2522,
+      0.0901,
+      0.0095,
+      0.0001
+     ],
+     "reach_display": [
+      ">99%",
+      "86%",
+      "25%",
+      "9%",
+      "1%",
+      "<1%"
+     ]
+    },
+    {
+     "team": "North Callaway",
+     "district": 5,
+     "seed": 3,
+     "bye": false,
+     "record": "7-2",
+     "ovr": 9.15,
+     "off": 20.23,
+     "def": -11.08,
+     "ovr_rank": 107,
+     "class_rank": 9,
+     "slug": "north-callaway",
+     "logo": "https://raw.githubusercontent.com/AllMOSports/All_MO_Sports-Data/main/logos_main2/north-callaway.png",
+     "reach": [
+      0.9899,
+      0.6967,
+      0.0299,
+      0.0288,
+      0.0056,
+      0.0001
+     ],
+     "reach_display": [
+      "99%",
+      "70%",
+      "3%",
+      "3%",
+      "1%",
+      "<1%"
+     ]
+    },
+    {
+     "team": "Father Tolton",
+     "district": 5,
+     "seed": 2,
+     "bye": false,
+     "record": "5-4",
+     "ovr": 1.98,
+     "off": 5.15,
+     "def": -3.17,
+     "ovr_rank": 139,
+     "class_rank": 15,
+     "slug": "father-tolton",
+     "logo": "https://raw.githubusercontent.com/AllMOSports/All_MO_Sports-Data/main/logos_main2/father-tolton.png",
+     "reach": [
+      0.9042,
+      0.2979,
+      0.0046,
+      0.0043,
+      0.0003,
+      0.0
+     ],
+     "reach_display": [
+      "90%",
+      "30%",
+      "<1%",
+      "<1%",
+      "<1%",
+      "0%"
+     ]
+    },
+    {
+     "team": "Clever",
+     "district": 4,
+     "seed": 2,
+     "bye": false,
+     "record": "7-2",
+     "ovr": 9.2,
+     "off": -2.16,
+     "def": 11.35,
+     "ovr_rank": 106,
+     "class_rank": 8,
+     "slug": "clever",
+     "logo": "https://raw.githubusercontent.com/AllMOSports/All_MO_Sports-Data/main/logos_main2/clever.png",
+     "reach": [
+      0.9976,
+      0.6613,
+      0.0223,
+      0.0056,
+      0.0001,
+      0.0
+     ],
+     "reach_display": [
+      ">99%",
+      "66%",
+      "2%",
+      "1%",
+      "<1%",
+      "0%"
+     ]
+    },
+    {
+     "team": "Brookfield",
+     "district": 8,
+     "seed": 2,
+     "bye": true,
+     "record": "7-2",
+     "ovr": -8.76,
+     "off": -0.73,
+     "def": -8.03,
+     "ovr_rank": 173,
+     "class_rank": 21,
+     "slug": "brookfield",
+     "logo": "https://raw.githubusercontent.com/AllMOSports/All_MO_Sports-Data/main/logos_main2/brookfield.png",
+     "reach": [
+      1.0,
+      0.4698,
+      0.0174,
+      0.0008,
+      0.0001,
+      0.0
+     ],
+     "reach_display": [
+      ">99%",
+      "47%",
+      "2%",
+      "<1%",
+      "<1%",
+      "0%"
+     ]
+    },
+    {
+     "team": "Springfield Catholic",
+     "district": 3,
+     "seed": 1,
+     "bye": true,
+     "record": "9-0",
+     "ovr": 5.48,
+     "off": 4.28,
+     "def": 1.2,
+     "ovr_rank": 120,
+     "class_rank": 11,
+     "slug": "springfield-catholic",
+     "logo": "https://raw.githubusercontent.com/AllMOSports/All_MO_Sports-Data/main/logos_main2/springfield-catholic.png",
+     "reach": [
+      1.0,
+      0.6365,
+      0.1022,
+      0.0032,
+      0.0,
+      0.0
+     ],
+     "reach_display": [
+      ">99%",
+      "64%",
+      "10%",
+      "<1%",
+      "0%",
+      "0%"
+     ]
+    },
+    {
+     "team": "Caruthersville",
+     "district": 1,
+     "seed": 2,
+     "bye": true,
+     "record": "7-2",
+     "ovr": 6.48,
+     "off": 5.01,
+     "def": 1.47,
+     "ovr_rank": 116,
+     "class_rank": 10,
+     "slug": "caruthersville",
+     "logo": "https://raw.githubusercontent.com/AllMOSports/All_MO_Sports-Data/main/logos_main2/caruthersville.png",
+     "reach": [
+      1.0,
+      0.9162,
+      0.5236,
+      0.0014,
+      0.0,
+      0.0
+     ],
+     "reach_display": [
+      ">99%",
+      "92%",
+      "52%",
+      "<1%",
+      "0%",
+      "0%"
+     ]
+    },
+    {
+     "team": "Lafayette County",
+     "district": 6,
+     "seed": 4,
+     "bye": false,
+     "record": "4-5",
+     "ovr": -18.51,
+     "off": -9.17,
+     "def": -9.34,
+     "ovr_rank": 205,
+     "class_rank": 30,
+     "slug": "lafayette-county",
+     "logo": "https://raw.githubusercontent.com/AllMOSports/All_MO_Sports-Data/main/logos_main2/lafayette-county.png",
+     "reach": [
+      0.7729,
+      0.7651,
+      0.4456,
+      0.0014,
+      0.0,
+      0.0
+     ],
+     "reach_display": [
+      "77%",
+      "77%",
+      "45%",
+      "<1%",
+      "0%",
+      "0%"
+     ]
+    },
+    {
+     "team": "East Newton",
+     "district": 4,
+     "seed": 3,
+     "bye": false,
+     "record": "3-6",
+     "ovr": 4.47,
+     "off": 4.42,
+     "def": 0.06,
+     "ovr_rank": 125,
+     "class_rank": 12,
+     "slug": "east-newton",
+     "logo": "https://raw.githubusercontent.com/AllMOSports/All_MO_Sports-Data/main/logos_main2/east-newton.png",
+     "reach": [
+      0.874,
+      0.3297,
+      0.0057,
+      0.0011,
+      0.0,
+      0.0
+     ],
+     "reach_display": [
+      "87%",
+      "33%",
+      "1%",
+      "<1%",
+      "0%",
+      "0%"
+     ]
+    },
+    {
+     "team": "West Platte",
+     "district": 8,
+     "seed": 3,
+     "bye": false,
+     "record": "7-2",
+     "ovr": -7.49,
+     "off": -4.47,
+     "def": -3.02,
+     "ovr_rank": 169,
+     "class_rank": 20,
+     "slug": "west-platte",
+     "logo": "https://raw.githubusercontent.com/AllMOSports/All_MO_Sports-Data/main/logos_main2/west-platte.png",
+     "reach": [
+      0.9919,
+      0.5302,
+      0.0215,
+      0.001,
+      0.0,
+      0.0
+     ],
+     "reach_display": [
+      "99%",
+      "53%",
+      "2%",
+      "<1%",
+      "0%",
+      "0%"
+     ]
+    },
+    {
+     "team": "Liberty (Mountain View)",
+     "district": 3,
+     "seed": 4,
+     "bye": false,
+     "record": "7-2",
+     "ovr": 2.19,
+     "off": -2.81,
+     "def": 5.0,
+     "ovr_rank": 137,
+     "class_rank": 14,
+     "slug": "liberty-mountain-view",
+     "logo": "https://raw.githubusercontent.com/AllMOSports/All_MO_Sports-Data/main/logos_main2/liberty-mountain-view.png",
+     "reach": [
+      0.6838,
+      0.2853,
+      0.0342,
+      0.0009,
+      0.0,
+      0.0
+     ],
+     "reach_display": [
+      "68%",
+      "29%",
+      "3%",
+      "<1%",
+      "0%",
+      "0%"
+     ]
+    },
+    {
+     "team": "St. Vincent",
+     "district": 1,
+     "seed": 1,
+     "bye": true,
+     "record": "7-2",
+     "ovr": 4.36,
+     "off": -3.46,
+     "def": 7.83,
+     "ovr_rank": 127,
+     "class_rank": 13,
+     "slug": "st-vincent",
+     "logo": "https://raw.githubusercontent.com/AllMOSports/All_MO_Sports-Data/main/logos_main2/st-vincent.png",
+     "reach": [
+      1.0,
+      0.9522,
+      0.4622,
+      0.0008,
+      0.0,
+      0.0
+     ],
+     "reach_display": [
+      ">99%",
+      "95%",
+      "46%",
+      "<1%",
+      "0%",
+      "0%"
+     ]
+    },
+    {
+     "team": "Lawson",
+     "district": 8,
+     "seed": 5,
+     "bye": false,
+     "record": "6-3",
+     "ovr": -7.0,
+     "off": -6.29,
+     "def": -0.7,
+     "ovr_rank": 167,
+     "class_rank": 19,
+     "slug": "lawson",
+     "logo": "https://raw.githubusercontent.com/AllMOSports/All_MO_Sports-Data/main/logos_main2/lawson.png",
+     "reach": [
+      0.6633,
+      0.0222,
+      0.0133,
+      0.0006,
+      0.0,
+      0.0
+     ],
+     "reach_display": [
+      "66%",
+      "2%",
+      "1%",
+      "<1%",
+      "0%",
+      "0%"
+     ]
+    },
+    {
+     "team": "Bowling Green",
+     "district": 7,
+     "seed": 3,
+     "bye": false,
+     "record": "7-2",
+     "ovr": -2.93,
+     "off": 7.62,
+     "def": -10.55,
+     "ovr_rank": 156,
+     "class_rank": 16,
+     "slug": "bowling-green",
+     "logo": "https://raw.githubusercontent.com/AllMOSports/All_MO_Sports-Data/main/logos_main2/bowling-green.png",
+     "reach": [
+      0.9993,
+      0.1425,
+      0.0077,
+      0.0005,
+      0.0,
+      0.0
+     ],
+     "reach_display": [
+      ">99%",
+      "14%",
+      "1%",
+      "<1%",
+      "0%",
+      "0%"
+     ]
+    },
+    {
+     "team": "Butler",
+     "district": 6,
+     "seed": 3,
+     "bye": false,
+     "record": "6-3",
+     "ovr": -19.59,
+     "off": -5.77,
+     "def": -13.82,
+     "ovr_rank": 208,
+     "class_rank": 32,
+     "slug": "butler",
+     "logo": "https://raw.githubusercontent.com/AllMOSports/All_MO_Sports-Data/main/logos_main2/butler.png",
+     "reach": [
+      0.9909,
+      0.7932,
+      0.4336,
+      0.0004,
+      0.0,
+      0.0
+     ],
+     "reach_display": [
+      "99%",
+      "79%",
+      "43%",
+      "<1%",
+      "0%",
+      "0%"
+     ]
+    },
+    {
+     "team": "Saxony Lutheran",
+     "district": 1,
+     "seed": 3,
+     "bye": false,
+     "record": "5-3",
+     "ovr": -15.58,
+     "off": -8.96,
+     "def": -6.62,
+     "ovr_rank": 194,
+     "class_rank": 26,
+     "slug": "saxony-lutheran",
+     "logo": "https://raw.githubusercontent.com/AllMOSports/All_MO_Sports-Data/main/logos_main2/saxony-lutheran.png",
+     "reach": [
+      0.9995,
+      0.0838,
+      0.0108,
+      0.0001,
+      0.0,
+      0.0
+     ],
+     "reach_display": [
+      ">99%",
+      "8%",
+      "1%",
+      "<1%",
+      "0%",
+      "0%"
+     ]
+    },
+    {
+     "team": "Ava",
+     "district": 3,
+     "seed": 3,
+     "bye": false,
+     "record": "6-3",
+     "ovr": -6.15,
+     "off": -8.0,
+     "def": 1.84,
+     "ovr_rank": 165,
+     "class_rank": 18,
+     "slug": "ava",
+     "logo": "https://raw.githubusercontent.com/AllMOSports/All_MO_Sports-Data/main/logos_main2/ava.png",
+     "reach": [
+      0.877,
+      0.0328,
+      0.008,
+      0.0001,
+      0.0,
+      0.0
+     ],
+     "reach_display": [
+      "88%",
+      "3%",
+      "1%",
+      "<1%",
+      "0%",
+      "0%"
+     ]
+    },
+    {
+     "team": "Jefferson (Festus)",
+     "district": 2,
+     "seed": 2,
+     "bye": false,
+     "record": "6-3",
+     "ovr": -15.56,
+     "off": -12.54,
+     "def": -3.03,
+     "ovr_rank": 193,
+     "class_rank": 25,
+     "slug": "jefferson-festus",
+     "logo": "https://raw.githubusercontent.com/AllMOSports/All_MO_Sports-Data/main/logos_main2/jefferson-festus.png",
+     "reach": [
+      1.0,
+      0.6816,
+      0.0001,
+      0.0001,
+      0.0,
+      0.0
+     ],
+     "reach_display": [
+      ">99%",
+      "68%",
+      "<1%",
+      "<1%",
+      "0%",
+      "0%"
+     ]
+    },
+    {
+     "team": "South Callaway",
+     "district": 5,
+     "seed": 5,
+     "bye": false,
+     "record": "5-4",
+     "ovr": -10.66,
+     "off": -9.0,
+     "def": -1.66,
+     "ovr_rank": 177,
+     "class_rank": 22,
+     "slug": "south-callaway",
+     "logo": "https://raw.githubusercontent.com/AllMOSports/All_MO_Sports-Data/main/logos_main2/south-callaway.png",
+     "reach": [
+      0.9527,
+      0.0016,
+      0.0001,
+      0.0001,
+      0.0,
+      0.0
+     ],
+     "reach_display": [
+      "95%",
+      "<1%",
+      "<1%",
+      "<1%",
+      "0%",
+      "0%"
+     ]
+    },
+    {
+     "team": "Holden",
+     "district": 6,
+     "seed": 5,
+     "bye": false,
+     "record": "3-6",
+     "ovr": -30.49,
+     "off": -11.98,
+     "def": -18.51,
+     "ovr_rank": 242,
+     "class_rank": 38,
+     "slug": "holden",
+     "logo": "https://raw.githubusercontent.com/AllMOSports/All_MO_Sports-Data/main/logos_main2/holden.png",
+     "reach": [
+      0.2271,
+      0.2145,
+      0.0658,
+      0.0,
+      0.0,
+      0.0
+     ],
+     "reach_display": [
+      "23%",
+      "21%",
+      "7%",
+      "0%",
+      "0%",
+      "0%"
+     ]
+    },
+    {
+     "team": "Hogan Prep Academy Charter",
+     "district": 6,
+     "seed": 2,
+     "bye": false,
+     "record": "4-4",
+     "ovr": -32.42,
+     "off": -19.42,
+     "def": -13.0,
+     "ovr_rank": 249,
+     "class_rank": 40,
+     "slug": "hogan-prep-academy-charter",
+     "logo": "https://raw.githubusercontent.com/AllMOSports/All_MO_Sports-Data/main/logos_main2/hogan-prep-academy-charter.png",
+     "reach": [
+      0.914,
+      0.2042,
+      0.0541,
+      0.0,
+      0.0,
+      0.0
+     ],
+     "reach_display": [
+      "91%",
+      "20%",
+      "5%",
+      "0%",
+      "0%",
+      "0%"
+     ]
+    },
+    {
+     "team": "Forsyth",
+     "district": 3,
+     "seed": 5,
+     "bye": false,
+     "record": "4-5",
+     "ovr": -5.36,
+     "off": -2.71,
+     "def": -2.65,
+     "ovr_rank": 163,
+     "class_rank": 17,
+     "slug": "forsyth",
+     "logo": "https://raw.githubusercontent.com/AllMOSports/All_MO_Sports-Data/main/logos_main2/forsyth.png",
+     "reach": [
+      0.3161,
+      0.0783,
+      0.004,
+      0.0,
+      0.0,
+      0.0
+     ],
+     "reach_display": [
+      "32%",
+      "8%",
+      "<1%",
+      "0%",
+      "0%",
+      "0%"
+     ]
+    },
+    {
+     "team": "Kelly",
+     "district": 1,
+     "seed": 4,
+     "bye": false,
+     "record": "6-3",
+     "ovr": -20.78,
+     "off": -13.25,
+     "def": -7.53,
+     "ovr_rank": 212,
+     "class_rank": 33,
+     "slug": "kelly",
+     "logo": "https://raw.githubusercontent.com/AllMOSports/All_MO_Sports-Data/main/logos_main2/kelly.png",
+     "reach": [
+      0.7665,
+      0.0452,
+      0.0034,
+      0.0,
+      0.0,
+      0.0
+     ],
+     "reach_display": [
+      "77%",
+      "5%",
+      "<1%",
+      "0%",
+      "0%",
+      "0%"
+     ]
+    },
+    {
+     "team": "Lathrop",
+     "district": 8,
+     "seed": 4,
+     "bye": false,
+     "record": "6-3",
+     "ovr": -13.99,
+     "off": -4.61,
+     "def": -9.39,
+     "ovr_rank": 185,
+     "class_rank": 23,
+     "slug": "lathrop",
+     "logo": "https://raw.githubusercontent.com/AllMOSports/All_MO_Sports-Data/main/logos_main2/lathrop.png",
+     "reach": [
+      0.3367,
+      0.0049,
+      0.0022,
+      0.0,
+      0.0,
+      0.0
+     ],
+     "reach_display": [
+      "34%",
+      "<1%",
+      "<1%",
+      "0%",
+      "0%",
+      "0%"
+     ]
+    },
+    {
+     "team": "KIPP KC Legacy",
+     "district": 6,
+     "seed": 1,
+     "bye": true,
+     "record": "4-5",
+     "ovr": -56.09,
+     "off": -29.29,
+     "def": -26.8,
+     "ovr_rank": 285,
+     "class_rank": 49,
+     "slug": "kipp-kc-legacy",
+     "logo": "https://raw.githubusercontent.com/AllMOSports/All_MO_Sports-Data/main/logos_main2/kipp-kc-legacy.png",
+     "reach": [
+      1.0,
+      0.0204,
+      0.0007,
+      0.0,
+      0.0,
+      0.0
+     ],
+     "reach_display": [
+      ">99%",
+      "2%",
+      "<1%",
+      "0%",
+      "0%",
+      "0%"
+     ]
+    },
+    {
+     "team": "Warsaw",
+     "district": 4,
+     "seed": 4,
+     "bye": false,
+     "record": "4-5",
+     "ovr": -16.89,
+     "off": -7.72,
+     "def": -9.16,
+     "ovr_rank": 198,
+     "class_rank": 27,
+     "slug": "warsaw",
+     "logo": "https://raw.githubusercontent.com/AllMOSports/All_MO_Sports-Data/main/logos_main2/warsaw.png",
+     "reach": [
+      0.502,
+      0.0003,
+      0.0001,
+      0.0,
+      0.0,
+      0.0
+     ],
+     "reach_display": [
+      "50%",
+      "<1%",
+      "<1%",
+      "0%",
+      "0%",
+      "0%"
+     ]
+    },
+    {
+     "team": "Lexington",
+     "district": 6,
+     "seed": 7,
+     "bye": false,
+     "record": "0-9",
+     "ovr": -54.39,
+     "off": -30.9,
+     "def": -23.49,
+     "ovr_rank": 281,
+     "class_rank": 47,
+     "slug": "lexington",
+     "logo": "https://raw.githubusercontent.com/AllMOSports/All_MO_Sports-Data/main/logos_main2/lexington.png",
+     "reach": [
+      0.0861,
+      0.0018,
+      0.0001,
+      0.0,
+      0.0,
+      0.0
+     ],
+     "reach_display": [
+      "9%",
+      "<1%",
+      "<1%",
+      "0%",
+      "0%",
+      "0%"
+     ]
+    },
+    {
+     "team": "Monroe City",
+     "district": 7,
+     "seed": 4,
+     "bye": false,
+     "record": "4-5",
+     "ovr": -17.24,
+     "off": -12.28,
+     "def": -4.95,
+     "ovr_rank": 202,
+     "class_rank": 29,
+     "slug": "monroe-city",
+     "logo": "https://raw.githubusercontent.com/AllMOSports/All_MO_Sports-Data/main/logos_main2/monroe-city.png",
+     "reach": [
+      0.8265,
+      0.0053,
+      0.0001,
+      0.0,
+      0.0,
+      0.0
+     ],
+     "reach_display": [
+      "83%",
+      "1%",
+      "<1%",
+      "0%",
+      "0%",
+      "0%"
+     ]
+    },
+    {
+     "team": "Central (New Madrid County)",
+     "district": 1,
+     "seed": 5,
+     "bye": false,
+     "record": "2-7",
+     "ovr": -32.64,
+     "off": -15.97,
+     "def": -16.67,
+     "ovr_rank": 250,
+     "class_rank": 41,
+     "slug": "central-new-madrid-county",
+     "logo": "https://raw.githubusercontent.com/AllMOSports/All_MO_Sports-Data/main/logos_main2/central-new-madrid-county.png",
+     "reach": [
+      0.2335,
+      0.0027,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+     ],
+     "reach_display": [
+      "23%",
+      "<1%",
+      "0%",
+      "0%",
+      "0%",
+      "0%"
+     ]
+    },
+    {
+     "team": "East Prairie",
+     "district": 1,
+     "seed": 6,
+     "bye": false,
+     "record": "1-8",
+     "ovr": -68.8,
+     "off": -40.67,
+     "def": -28.13,
+     "ovr_rank": 293,
+     "class_rank": 52,
+     "slug": "east-prairie",
+     "logo": "https://raw.githubusercontent.com/AllMOSports/All_MO_Sports-Data/main/logos_main2/east-prairie.png",
+     "reach": [
+      0.0005,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+     ],
+     "reach_display": [
+      "<1%",
+      "0%",
+      "0%",
+      "0%",
+      "0%",
+      "0%"
+     ]
+    },
+    {
+     "team": "Montgomery County",
+     "district": 2,
+     "seed": 3,
+     "bye": false,
+     "record": "5-4",
+     "ovr": -21.96,
+     "off": -16.62,
+     "def": -5.34,
+     "ovr_rank": 219,
+     "class_rank": 34,
+     "slug": "montgomery-county",
+     "logo": "https://raw.githubusercontent.com/AllMOSports/All_MO_Sports-Data/main/logos_main2/montgomery-county.png",
+     "reach": [
+      0.9073,
+      0.314,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+     ],
+     "reach_display": [
+      "91%",
+      "31%",
+      "0%",
+      "0%",
+      "0%",
+      "0%"
+     ]
+    },
+    {
+     "team": "Duchesne",
+     "district": 2,
+     "seed": 4,
+     "bye": false,
+     "record": "3-6",
+     "ovr": -71.12,
+     "off": -41.91,
+     "def": -29.21,
+     "ovr_rank": 296,
+     "class_rank": 53,
+     "slug": "duchesne",
+     "logo": "https://raw.githubusercontent.com/AllMOSports/All_MO_Sports-Data/main/logos_main2/duchesne.png",
+     "reach": [
+      0.0147,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+     ],
+     "reach_display": [
+      "1%",
+      "0%",
+      "0%",
+      "0%",
+      "0%",
+      "0%"
+     ]
+    },
+    {
+     "team": "Hermann",
+     "district": 2,
+     "seed": 5,
+     "bye": false,
+     "record": "2-7",
+     "ovr": -36.43,
+     "off": -18.66,
+     "def": -17.77,
+     "ovr_rank": 252,
+     "class_rank": 42,
+     "slug": "hermann",
+     "logo": "https://raw.githubusercontent.com/AllMOSports/All_MO_Sports-Data/main/logos_main2/hermann.png",
+     "reach": [
+      0.9853,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+     ],
+     "reach_display": [
+      "99%",
+      "0%",
+      "0%",
+      "0%",
+      "0%",
+      "0%"
+     ]
+    },
+    {
+     "team": "Miller Career Academy with Sumner",
+     "district": 2,
+     "seed": 6,
+     "bye": false,
+     "record": "1-8",
+     "ovr": -43.12,
+     "off": -17.99,
+     "def": -25.14,
+     "ovr_rank": 267,
+     "class_rank": 45,
+     "slug": "miller-career-academy",
+     "logo": "https://raw.githubusercontent.com/AllMOSports/All_MO_Sports-Data/main/logos_main2/miller-career-academy.png",
+     "reach": [
+      0.0926,
+      0.0044,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+     ],
+     "reach_display": [
+      "9%",
+      "<1%",
+      "0%",
+      "0%",
+      "0%",
+      "0%"
+     ]
+    },
+    {
+     "team": "Confluence Prep Academy Charter",
+     "district": 2,
+     "seed": 7,
+     "bye": false,
+     "record": "0-8",
+     "ovr": -86.25,
+     "off": -41.63,
+     "def": -44.61,
+     "ovr_rank": 300,
+     "class_rank": 54,
+     "slug": "confluence-prep-academy-charter",
+     "logo": "https://raw.githubusercontent.com/AllMOSports/All_MO_Sports-Data/main/logos_main2/confluence-prep-academy-charter.png",
+     "reach": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+     ],
+     "reach_display": [
+      "0%",
+      "0%",
+      "0%",
+      "0%",
+      "0%",
+      "0%"
+     ]
+    },
+    {
+     "team": "Willow Springs",
+     "district": 3,
+     "seed": 6,
+     "bye": false,
+     "record": "3-6",
+     "ovr": -24.36,
+     "off": -12.92,
+     "def": -11.43,
+     "ovr_rank": 224,
+     "class_rank": 36,
+     "slug": "willow-springs",
+     "logo": "https://raw.githubusercontent.com/AllMOSports/All_MO_Sports-Data/main/logos_main2/willow-springs.png",
+     "reach": [
+      0.1231,
+      0.0003,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+     ],
+     "reach_display": [
+      "12%",
+      "<1%",
+      "0%",
+      "0%",
+      "0%",
+      "0%"
+     ]
+    },
+    {
+     "team": "Houston",
+     "district": 3,
+     "seed": 7,
+     "bye": false,
+     "record": "2-7",
+     "ovr": -22.41,
+     "off": -10.05,
+     "def": -12.36,
+     "ovr_rank": 221,
+     "class_rank": 35,
+     "slug": "houston",
+     "logo": "https://raw.githubusercontent.com/AllMOSports/All_MO_Sports-Data/main/logos_main2/houston.png",
+     "reach": [
+      0.0028,
+      0.0004,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+     ],
+     "reach_display": [
+      "<1%",
+      "<1%",
+      "0%",
+      "0%",
+      "0%",
+      "0%"
+     ]
+    },
+    {
+     "team": "Sarcoxie",
+     "district": 4,
+     "seed": 5,
+     "bye": false,
+     "record": "5-4",
+     "ovr": -16.91,
+     "off": -5.79,
+     "def": -11.11,
+     "ovr_rank": 199,
+     "class_rank": 28,
+     "slug": "sarcoxie",
+     "logo": "https://raw.githubusercontent.com/AllMOSports/All_MO_Sports-Data/main/logos_main2/sarcoxie.png",
+     "reach": [
+      0.498,
+      0.0001,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+     ],
+     "reach_display": [
+      "50%",
+      "<1%",
+      "0%",
+      "0%",
+      "0%",
+      "0%"
+     ]
+    },
+    {
+     "team": "Stockton with Sheldon",
+     "district": 4,
+     "seed": 6,
+     "bye": false,
+     "record": "3-6",
+     "ovr": -14.18,
+     "off": -4.45,
+     "def": -9.73,
+     "ovr_rank": 186,
+     "class_rank": 24,
+     "slug": "stockton",
+     "logo": "https://raw.githubusercontent.com/AllMOSports/All_MO_Sports-Data/main/logos_main2/stockton.png",
+     "reach": [
+      0.126,
+      0.009,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+     ],
+     "reach_display": [
+      "13%",
+      "1%",
+      "0%",
+      "0%",
+      "0%",
+      "0%"
+     ]
+    },
+    {
+     "team": "El Dorado Springs",
+     "district": 4,
+     "seed": 7,
+     "bye": false,
+     "record": "2-7",
+     "ovr": -37.06,
+     "off": -18.59,
+     "def": -18.47,
+     "ovr_rank": 253,
+     "class_rank": 43,
+     "slug": "el-dorado-springs",
+     "logo": "https://raw.githubusercontent.com/AllMOSports/All_MO_Sports-Data/main/logos_main2/el-dorado-springs.png",
+     "reach": [
+      0.0024,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+     ],
+     "reach_display": [
+      "<1%",
+      "0%",
+      "0%",
+      "0%",
+      "0%",
+      "0%"
+     ]
+    },
+    {
+     "team": "Cole Camp",
+     "district": 5,
+     "seed": 4,
+     "bye": false,
+     "record": "6-3",
+     "ovr": -37.11,
+     "off": -23.97,
+     "def": -13.14,
+     "ovr_rank": 254,
+     "class_rank": 44,
+     "slug": "cole-camp",
+     "logo": "https://raw.githubusercontent.com/AllMOSports/All_MO_Sports-Data/main/logos_main2/cole-camp.png",
+     "reach": [
+      0.0473,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+     ],
+     "reach_display": [
+      "5%",
+      "0%",
+      "0%",
+      "0%",
+      "0%",
+      "0%"
+     ]
+    },
+    {
+     "team": "Versailles",
+     "district": 5,
+     "seed": 6,
+     "bye": false,
+     "record": "6-3",
+     "ovr": -28.07,
+     "off": -19.47,
+     "def": -8.6,
+     "ovr_rank": 233,
+     "class_rank": 37,
+     "slug": "versailles",
+     "logo": "https://raw.githubusercontent.com/AllMOSports/All_MO_Sports-Data/main/logos_main2/versailles.png",
+     "reach": [
+      0.0101,
+      0.0005,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+     ],
+     "reach_display": [
+      "1%",
+      "<1%",
+      "0%",
+      "0%",
+      "0%",
+      "0%"
+     ]
+    },
+    {
+     "team": "California",
+     "district": 5,
+     "seed": 7,
+     "bye": false,
+     "record": "2-7",
+     "ovr": -18.62,
+     "off": -4.39,
+     "def": -14.23,
+     "ovr_rank": 206,
+     "class_rank": 31,
+     "slug": "california",
+     "logo": "https://raw.githubusercontent.com/AllMOSports/All_MO_Sports-Data/main/logos_main2/california.png",
+     "reach": [
+      0.0958,
+      0.0049,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+     ],
+     "reach_display": [
+      "10%",
+      "<1%",
+      "0%",
+      "0%",
+      "0%",
+      "0%"
+     ]
+    },
+    {
+     "team": "Lone Jack with Kingsville",
+     "district": 6,
+     "seed": 6,
+     "bye": false,
+     "record": "2-7",
+     "ovr": -57.12,
+     "off": -33.29,
+     "def": -23.83,
+     "ovr_rank": 286,
+     "class_rank": 50,
+     "slug": "lone-jack",
+     "logo": "https://raw.githubusercontent.com/AllMOSports/All_MO_Sports-Data/main/logos_main2/lone-jack.png",
+     "reach": [
+      0.0092,
+      0.0008,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+     ],
+     "reach_display": [
+      "1%",
+      "<1%",
+      "0%",
+      "0%",
+      "0%",
+      "0%"
+     ]
+    },
+    {
+     "team": "Clark County",
+     "district": 7,
+     "seed": 5,
+     "bye": false,
+     "record": "3-6",
+     "ovr": -32.26,
+     "off": -14.85,
+     "def": -17.42,
+     "ovr_rank": 247,
+     "class_rank": 39,
+     "slug": "clark-county",
+     "logo": "https://raw.githubusercontent.com/AllMOSports/All_MO_Sports-Data/main/logos_main2/clark-county.png",
+     "reach": [
+      0.1735,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+     ],
+     "reach_display": [
+      "17%",
+      "0%",
+      "0%",
+      "0%",
+      "0%",
+      "0%"
+     ]
+    },
+    {
+     "team": "Mark Twain",
+     "district": 7,
+     "seed": 6,
+     "bye": false,
+     "record": "1-8",
+     "ovr": -55.65,
+     "off": -31.4,
+     "def": -24.25,
+     "ovr_rank": 284,
+     "class_rank": 48,
+     "slug": "mark-twain",
+     "logo": "https://raw.githubusercontent.com/AllMOSports/All_MO_Sports-Data/main/logos_main2/mark-twain.png",
+     "reach": [
+      0.0006,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+     ],
+     "reach_display": [
+      "<1%",
+      "0%",
+      "0%",
+      "0%",
+      "0%",
+      "0%"
+     ]
+    },
+    {
+     "team": "Highland",
+     "district": 7,
+     "seed": 7,
+     "bye": false,
+     "record": "0-9",
+     "ovr": -67.26,
+     "off": -35.31,
+     "def": -31.95,
+     "ovr_rank": 291,
+     "class_rank": 51,
+     "slug": "highland",
+     "logo": "https://raw.githubusercontent.com/AllMOSports/All_MO_Sports-Data/main/logos_main2/highland.png",
+     "reach": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+     ],
+     "reach_display": [
+      "0%",
+      "0%",
+      "0%",
+      "0%",
+      "0%",
+      "0%"
+     ]
+    },
+    {
+     "team": "Trenton",
+     "district": 8,
+     "seed": 6,
+     "bye": false,
+     "record": "2-7",
+     "ovr": -46.7,
+     "off": -28.13,
+     "def": -18.58,
+     "ovr_rank": 272,
+     "class_rank": 46,
+     "slug": "trenton",
+     "logo": "https://raw.githubusercontent.com/AllMOSports/All_MO_Sports-Data/main/logos_main2/trenton.png",
+     "reach": [
+      0.008,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+     ],
+     "reach_display": [
+      "1%",
+      "0%",
+      "0%",
+      "0%",
+      "0%",
+      "0%"
+     ]
+    }
+   ]
+  },
+  "3": {
+   "class": 3,
+   "state_bracket_order": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8
+   ],
+   "districts": {
+    "1": {
+     "seeds": [
+      "Kennett",
+      "Ste. Genevieve",
+      "Dexter",
+      "Perryville",
+      "Fredericktown",
+      "Scott City with Chaffee",
+      "Doniphan"
+     ],
+     "seed_status": "final"
+    },
+    "2": {
+     "seeds": [
+      "St. Pius X (Festus)",
+      "St. Clair",
+      "Herculaneum",
+      "Central (Park Hills)",
+      "Potosi",
+      "Lutheran South"
+     ],
+     "seed_status": "final"
+    },
+    "3": {
+     "seeds": [
+      "Normandy Collaborative",
+      "Lutheran North",
+      "MICDS",
+      "John Burroughs",
+      "Winfield",
+      "Priory",
+      "Lutheran St. Charles"
+     ],
+     "seed_status": "final"
+    },
+    "4": {
+     "seeds": [
+      "Southern Boone",
+      "St. Francis Borgia",
+      "Hallsville",
+      "Wright City",
+      "Fulton",
+      "Eldon",
+      "Owensville"
+     ],
+     "seed_status": "final"
+    },
+    "5": {
+     "seeds": [
+      "Mountain Grove",
+      "Strafford",
+      "St. James",
+      "Cuba with Steelville",
+      "Buffalo",
+      "Salem",
+      "Pleasant Hope with Halfway, Marion C. Early"
+     ],
+     "seed_status": "final"
+    },
+    "6": {
+     "seeds": [
+      "Cassville",
+      "Seneca",
+      "Nevada",
+      "Mt. Vernon",
+      "Reeds Spring",
+      "Aurora",
+      "Hollister"
+     ],
+     "seed_status": "final"
+    },
+    "7": {
+     "seeds": [
+      "Pembroke Hill",
+      "Summit Christian Academy",
+      "Boonville",
+      "Center",
+      "Oak Grove",
+      "St. Michael the Archangel",
+      "Clinton"
+     ],
+     "seed_status": "final"
+    },
+    "8": {
+     "seeds": [
+      "St. Pius X (Kansas City)",
+      "Maryville",
+      "Richmond",
+      "Macon",
+      "Chillicothe",
+      "Cameron"
+     ],
+     "seed_status": "final"
+    }
+   },
+   "teams": [
+    {
+     "team": "St. Pius X (Kansas City)",
+     "district": 8,
+     "seed": 1,
+     "bye": true,
+     "record": "7-2",
+     "ovr": 56.12,
+     "off": 24.78,
+     "def": 31.34,
+     "ovr_rank": 12,
+     "class_rank": 1,
+     "slug": "st-pius-x-kansas-city",
+     "logo": "https://raw.githubusercontent.com/AllMOSports/All_MO_Sports-Data/main/logos_main2/st-pius-x-kansas-city.png",
+     "reach": [
+      1.0,
+      0.999,
+      0.8955,
+      0.8898,
+      0.8218,
+      0.8044
+     ],
+     "reach_display": [
+      ">99%",
+      ">99%",
+      "90%",
+      "89%",
+      "82%",
+      "80%"
+     ]
+    },
+    {
+     "team": "Cassville",
+     "district": 6,
+     "seed": 1,
+     "bye": true,
+     "record": "8-1",
+     "ovr": 35.44,
+     "off": 15.07,
+     "def": 20.37,
+     "ovr_rank": 40,
+     "class_rank": 3,
+     "slug": "cassville",
+     "logo": "https://raw.githubusercontent.com/AllMOSports/All_MO_Sports-Data/main/logos_main2/cassville.png",
+     "reach": [
+      1.0,
+      0.9482,
+      0.5554,
+      0.4824,
+      0.0721,
+      0.055
+     ],
+     "reach_display": [
+      ">99%",
+      "95%",
+      "56%",
+      "48%",
+      "7%",
+      "6%"
+     ]
+    },
+    {
+     "team": "Maryville",
+     "district": 8,
+     "seed": 2,
+     "bye": true,
+     "record": "8-1",
+     "ovr": 35.93,
+     "off": 17.66,
+     "def": 18.27,
+     "ovr_rank": 38,
+     "class_rank": 2,
+     "slug": "maryville",
+     "logo": "https://raw.githubusercontent.com/AllMOSports/All_MO_Sports-Data/main/logos_main2/maryville.png",
+     "reach": [
+      1.0,
+      0.9727,
+      0.1043,
+      0.0929,
+      0.0539,
+      0.0418
+     ],
+     "reach_display": [
+      ">99%",
+      "97%",
+      "10%",
+      "9%",
+      "5%",
+      "4%"
+     ]
+    },
+    {
+     "team": "St. Pius X (Festus)",
+     "district": 2,
+     "seed": 1,
+     "bye": true,
+     "record": "6-3",
+     "ovr": 24.63,
+     "off": 12.61,
+     "def": 12.02,
+     "ovr_rank": 61,
+     "class_rank": 5,
+     "slug": "st-pius-x-festus",
+     "logo": "https://raw.githubusercontent.com/AllMOSports/All_MO_Sports-Data/main/logos_main2/st-pius-x-festus.png",
+     "reach": [
+      1.0,
+      0.9839,
+      0.9284,
+      0.887,
+      0.5464,
+      0.0388
+     ],
+     "reach_display": [
+      ">99%",
+      "98%",
+      "93%",
+      "89%",
+      "55%",
+      "4%"
+     ]
+    },
+    {
+     "team": "Seneca",
+     "district": 6,
+     "seed": 2,
+     "bye": false,
+     "record": "6-2",
+     "ovr": 32.81,
+     "off": 16.23,
+     "def": 16.59,
+     "ovr_rank": 43,
+     "class_rank": 4,
+     "slug": "seneca",
+     "logo": "https://raw.githubusercontent.com/AllMOSports/All_MO_Sports-Data/main/logos_main2/seneca.png",
+     "reach": [
+      1.0,
+      0.9421,
+      0.4348,
+      0.363,
+      0.0445,
+      0.0326
+     ],
+     "reach_display": [
+      ">99%",
+      "94%",
+      "43%",
+      "36%",
+      "4%",
+      "3%"
+     ]
+    },
+    {
+     "team": "Lutheran North",
+     "district": 3,
+     "seed": 2,
+     "bye": false,
+     "record": "3-5",
+     "ovr": 23.79,
+     "off": 18.78,
+     "def": 5.01,
+     "ovr_rank": 62,
+     "class_rank": 6,
+     "slug": "lutheran-north",
+     "logo": "https://raw.githubusercontent.com/AllMOSports/All_MO_Sports-Data/main/logos_main2/lutheran-north.png",
+     "reach": [
+      1.0,
+      0.8428,
+      0.8418,
+      0.6391,
+      0.3392,
+      0.0226
+     ],
+     "reach_display": [
+      ">99%",
+      "84%",
+      "84%",
+      "64%",
+      "34%",
+      "2%"
+     ]
+    },
+    {
+     "team": "Southern Boone",
+     "district": 4,
+     "seed": 1,
+     "bye": true,
+     "record": "7-2",
+     "ovr": 14.02,
+     "off": 5.84,
+     "def": 8.18,
+     "ovr_rank": 93,
+     "class_rank": 9,
+     "slug": "southern-boone",
+     "logo": "https://raw.githubusercontent.com/AllMOSports/All_MO_Sports-Data/main/logos_main2/southern-boone.png",
+     "reach": [
+      1.0,
+      0.9715,
+      0.6106,
+      0.2064,
+      0.066,
+      0.0016
+     ],
+     "reach_display": [
+      ">99%",
+      "97%",
+      "61%",
+      "21%",
+      "7%",
+      "<1%"
+     ]
+    },
+    {
+     "team": "Mountain Grove",
+     "district": 5,
+     "seed": 1,
+     "bye": true,
+     "record": "7-2",
+     "ovr": 17.92,
+     "off": 6.1,
+     "def": 11.82,
+     "ovr_rank": 83,
+     "class_rank": 8,
+     "slug": "mountain-grove",
+     "logo": "https://raw.githubusercontent.com/AllMOSports/All_MO_Sports-Data/main/logos_main2/mountain-grove.png",
+     "reach": [
+      1.0,
+      0.9865,
+      0.9556,
+      0.1517,
+      0.0047,
+      0.0016
+     ],
+     "reach_display": [
+      ">99%",
+      "99%",
+      "96%",
+      "15%",
+      "<1%",
+      "<1%"
+     ]
+    },
+    {
+     "team": "Pembroke Hill",
+     "district": 7,
+     "seed": 1,
+     "bye": true,
+     "record": "9-0",
+     "ovr": 19.12,
+     "off": 9.28,
+     "def": 9.84,
+     "ovr_rank": 79,
+     "class_rank": 7,
+     "slug": "pembroke-hill",
+     "logo": "https://raw.githubusercontent.com/AllMOSports/All_MO_Sports-Data/main/logos_main2/pembroke-hill.png",
+     "reach": [
+      1.0,
+      0.7442,
+      0.5786,
+      0.014,
+      0.0026,
+      0.0008
+     ],
+     "reach_display": [
+      ">99%",
+      "74%",
+      "58%",
+      "1%",
+      "<1%",
+      "<1%"
+     ]
+    },
+    {
+     "team": "Hallsville",
+     "district": 4,
+     "seed": 3,
+     "bye": false,
+     "record": "7-2",
+     "ovr": 11.1,
+     "off": 5.3,
+     "def": 5.8,
+     "ovr_rank": 102,
+     "class_rank": 10,
+     "slug": "hallsville",
+     "logo": "https://raw.githubusercontent.com/AllMOSports/All_MO_Sports-Data/main/logos_main2/hallsville.png",
+     "reach": [
+      0.9992,
+      0.7497,
+      0.3332,
+      0.0896,
+      0.0239,
+      0.0004
+     ],
+     "reach_display": [
+      ">99%",
+      "75%",
+      "33%",
+      "9%",
+      "2%",
+      "<1%"
+     ]
+    },
+    {
+     "team": "MICDS",
+     "district": 3,
+     "seed": 3,
+     "bye": false,
+     "record": "5-4",
+     "ovr": 7.59,
+     "off": 11.05,
+     "def": -3.46,
+     "ovr_rank": 112,
+     "class_rank": 16,
+     "slug": "micds",
+     "logo": "https://raw.githubusercontent.com/AllMOSports/All_MO_Sports-Data/main/logos_main2/micds.png",
+     "reach": [
+      0.9979,
+      0.1572,
+      0.1547,
+      0.0579,
+      0.012,
+      0.0003
+     ],
+     "reach_display": [
+      ">99%",
+      "16%",
+      "15%",
+      "6%",
+      "1%",
+      "<1%"
+     ]
+    },
+    {
+     "team": "Center",
+     "district": 7,
+     "seed": 4,
+     "bye": false,
+     "record": "5-4",
+     "ovr": 10.26,
+     "off": 7.33,
+     "def": 2.93,
+     "ovr_rank": 103,
+     "class_rank": 11,
+     "slug": "center",
+     "logo": "https://raw.githubusercontent.com/AllMOSports/All_MO_Sports-Data/main/logos_main2/center.png",
+     "reach": [
+      0.5998,
+      0.1722,
+      0.1004,
+      0.0008,
+      0.0001,
+      0.0001
+     ],
+     "reach_display": [
+      "60%",
+      "17%",
+      "10%",
+      "<1%",
+      "<1%",
+      "<1%"
+     ]
+    },
+    {
+     "team": "St. Clair",
+     "district": 2,
+     "seed": 2,
+     "bye": true,
+     "record": "6-3",
+     "ovr": -0.52,
+     "off": -4.34,
+     "def": 3.82,
+     "ovr_rank": 148,
+     "class_rank": 23,
+     "slug": "st-clair",
+     "logo": "https://raw.githubusercontent.com/AllMOSports/All_MO_Sports-Data/main/logos_main2/st-clair.png",
+     "reach": [
+      1.0,
+      0.938,
+      0.0661,
+      0.0346,
+      0.0039,
+      0.0
+     ],
+     "reach_display": [
+      ">99%",
+      "94%",
+      "7%",
+      "3%",
+      "<1%",
+      "0%"
+     ]
+    },
+    {
+     "team": "Ste. Genevieve",
+     "district": 1,
+     "seed": 2,
+     "bye": false,
+     "record": "6-3",
+     "ovr": -1.19,
+     "off": -2.88,
+     "def": 1.7,
+     "ovr_rank": 152,
+     "class_rank": 24,
+     "slug": "ste-genevieve",
+     "logo": "https://raw.githubusercontent.com/AllMOSports/All_MO_Sports-Data/main/logos_main2/ste-genevieve.png",
+     "reach": [
+      1.0,
+      0.5978,
+      0.3402,
+      0.0307,
+      0.0037,
+      0.0
+     ],
+     "reach_display": [
+      ">99%",
+      "60%",
+      "34%",
+      "3%",
+      "<1%",
+      "0%"
+     ]
+    },
+    {
+     "team": "Kennett",
+     "district": 1,
+     "seed": 1,
+     "bye": true,
+     "record": "8-1",
+     "ovr": -2.68,
+     "off": 1.26,
+     "def": -3.94,
+     "ovr_rank": 155,
+     "class_rank": 25,
+     "slug": "kennett",
+     "logo": "https://raw.githubusercontent.com/AllMOSports/All_MO_Sports-Data/main/logos_main2/kennett.png",
+     "reach": [
+      1.0,
+      0.9099,
+      0.4504,
+      0.0336,
+      0.0033,
+      0.0
+     ],
+     "reach_display": [
+      ">99%",
+      "91%",
+      "45%",
+      "3%",
+      "<1%",
+      "0%"
+     ]
+    },
+    {
+     "team": "Dexter",
+     "district": 1,
+     "seed": 3,
+     "bye": false,
+     "record": "5-4",
+     "ovr": -4.33,
+     "off": -2.63,
+     "def": -1.7,
+     "ovr_rank": 160,
+     "class_rank": 26,
+     "slug": "dexter",
+     "logo": "https://raw.githubusercontent.com/AllMOSports/All_MO_Sports-Data/main/logos_main2/dexter.png",
+     "reach": [
+      0.9476,
+      0.4004,
+      0.1996,
+      0.0123,
+      0.001,
+      0.0
+     ],
+     "reach_display": [
+      "95%",
+      "40%",
+      "20%",
+      "1%",
+      "<1%",
+      "0%"
+     ]
+    },
+    {
+     "team": "St. Francis Borgia",
+     "district": 4,
+     "seed": 2,
+     "bye": false,
+     "record": "5-4",
+     "ovr": 0.31,
+     "off": -3.18,
+     "def": 3.49,
+     "ovr_rank": 146,
+     "class_rank": 21,
+     "slug": "st-francis-borgia",
+     "logo": "https://raw.githubusercontent.com/AllMOSports/All_MO_Sports-Data/main/logos_main2/st-francis-borgia.png",
+     "reach": [
+      0.9914,
+      0.2503,
+      0.0542,
+      0.0069,
+      0.0006,
+      0.0
+     ],
+     "reach_display": [
+      "99%",
+      "25%",
+      "5%",
+      "1%",
+      "<1%",
+      "0%"
+     ]
+    },
+    {
+     "team": "Summit Christian Academy",
+     "district": 7,
+     "seed": 2,
+     "bye": false,
+     "record": "7-2",
+     "ovr": 8.48,
+     "off": 3.66,
+     "def": 4.82,
+     "ovr_rank": 109,
+     "class_rank": 15,
+     "slug": "summit-christian-academy",
+     "logo": "https://raw.githubusercontent.com/AllMOSports/All_MO_Sports-Data/main/logos_main2/summit-christian-academy.png",
+     "reach": [
+      0.7993,
+      0.4651,
+      0.1502,
+      0.0014,
+      0.0002,
+      0.0
+     ],
+     "reach_display": [
+      "80%",
+      "47%",
+      "15%",
+      "<1%",
+      "<1%",
+      "0%"
+     ]
+    },
+    {
+     "team": "Central (Park Hills)",
+     "district": 2,
+     "seed": 4,
+     "bye": false,
+     "record": "3-6",
+     "ovr": -8.52,
+     "off": -7.38,
+     "def": -1.14,
+     "ovr_rank": 172,
+     "class_rank": 28,
+     "slug": "central-park-hills",
+     "logo": "https://raw.githubusercontent.com/AllMOSports/All_MO_Sports-Data/main/logos_main2/central-park-hills.png",
+     "reach": [
+      0.6087,
+      0.0124,
+      0.0041,
+      0.0015,
+      0.0001,
+      0.0
+     ],
+     "reach_display": [
+      "61%",
+      "1%",
+      "<1%",
+      "<1%",
+      "<1%",
+      "0%"
+     ]
+    },
+    {
+     "team": "Boonville",
+     "district": 7,
+     "seed": 3,
+     "bye": false,
+     "record": "6-3",
+     "ovr": 6.92,
+     "off": 9.92,
+     "def": -3.0,
+     "ovr_rank": 114,
+     "class_rank": 17,
+     "slug": "boonville",
+     "logo": "https://raw.githubusercontent.com/AllMOSports/All_MO_Sports-Data/main/logos_main2/boonville.png",
+     "reach": [
+      0.5907,
+      0.3063,
+      0.0869,
+      0.0008,
+      0.0001,
+      0.0
+     ],
+     "reach_display": [
+      "59%",
+      "31%",
+      "9%",
+      "<1%",
+      "<1%",
+      "0%"
+     ]
+    },
+    {
+     "team": "Mt. Vernon",
+     "district": 6,
+     "seed": 4,
+     "bye": false,
+     "record": "3-6",
+     "ovr": 9.62,
+     "off": -2.69,
+     "def": 12.31,
+     "ovr_rank": 104,
+     "class_rank": 12,
+     "slug": "mt-vernon",
+     "logo": "https://raw.githubusercontent.com/AllMOSports/All_MO_Sports-Data/main/logos_main2/mt-vernon.png",
+     "reach": [
+      0.9812,
+      0.0519,
+      0.0057,
+      0.0018,
+      0.0,
+      0.0
+     ],
+     "reach_display": [
+      "98%",
+      "5%",
+      "1%",
+      "<1%",
+      "0%",
+      "0%"
+     ]
+    },
+    {
+     "team": "Nevada",
+     "district": 6,
+     "seed": 3,
+     "bye": false,
+     "record": "5-4",
+     "ovr": 8.49,
+     "off": 2.17,
+     "def": 6.32,
+     "ovr_rank": 108,
+     "class_rank": 14,
+     "slug": "nevada",
+     "logo": "https://raw.githubusercontent.com/AllMOSports/All_MO_Sports-Data/main/logos_main2/nevada.png",
+     "reach": [
+      0.8824,
+      0.0576,
+      0.0041,
+      0.001,
+      0.0,
+      0.0
+     ],
+     "reach_display": [
+      "88%",
+      "6%",
+      "<1%",
+      "<1%",
+      "0%",
+      "0%"
+     ]
+    },
+    {
+     "team": "Potosi",
+     "district": 2,
+     "seed": 5,
+     "bye": false,
+     "record": "3-6",
+     "ovr": -12.88,
+     "off": -5.94,
+     "def": -6.94,
+     "ovr_rank": 183,
+     "class_rank": 31,
+     "slug": "potosi",
+     "logo": "https://raw.githubusercontent.com/AllMOSports/All_MO_Sports-Data/main/logos_main2/potosi.png",
+     "reach": [
+      0.3913,
+      0.0037,
+      0.0009,
+      0.0002,
+      0.0,
+      0.0
+     ],
+     "reach_display": [
+      "39%",
+      "<1%",
+      "<1%",
+      "<1%",
+      "0%",
+      "0%"
+     ]
+    },
+    {
+     "team": "Oak Grove",
+     "district": 7,
+     "seed": 5,
+     "bye": false,
+     "record": "4-5",
+     "ovr": 6.24,
+     "off": -4.44,
+     "def": 10.68,
+     "ovr_rank": 117,
+     "class_rank": 18,
+     "slug": "oak-grove",
+     "logo": "https://raw.githubusercontent.com/AllMOSports/All_MO_Sports-Data/main/logos_main2/oak-grove.png",
+     "reach": [
+      0.4002,
+      0.0836,
+      0.0398,
+      0.0001,
+      0.0,
+      0.0
+     ],
+     "reach_display": [
+      "40%",
+      "8%",
+      "4%",
+      "<1%",
+      "0%",
+      "0%"
+     ]
+    },
+    {
+     "team": "Strafford",
+     "district": 5,
+     "seed": 2,
+     "bye": false,
+     "record": "4-5",
+     "ovr": -11.15,
+     "off": -8.32,
+     "def": -2.83,
+     "ovr_rank": 180,
+     "class_rank": 30,
+     "slug": "strafford",
+     "logo": "https://raw.githubusercontent.com/AllMOSports/All_MO_Sports-Data/main/logos_main2/strafford.png",
+     "reach": [
+      0.9999,
+      0.8975,
+      0.0394,
+      0.0001,
+      0.0,
+      0.0
+     ],
+     "reach_display": [
+      ">99%",
+      "90%",
+      "4%",
+      "<1%",
+      "0%",
+      "0%"
+     ]
+    },
+    {
+     "team": "St. Michael the Archangel",
+     "district": 7,
+     "seed": 6,
+     "bye": false,
+     "record": "5-4",
+     "ovr": 3.12,
+     "off": 0.83,
+     "def": 2.29,
+     "ovr_rank": 130,
+     "class_rank": 20,
+     "slug": "st-michael-the-archangel",
+     "logo": "https://raw.githubusercontent.com/AllMOSports/All_MO_Sports-Data/main/logos_main2/st-michael-the-archangel.png",
+     "reach": [
+      0.4093,
+      0.1752,
+      0.0386,
+      0.0001,
+      0.0,
+      0.0
+     ],
+     "reach_display": [
+      "41%",
+      "18%",
+      "4%",
+      "<1%",
+      "0%",
+      "0%"
+     ]
+    },
+    {
+     "team": "Normandy Collaborative",
+     "district": 3,
+     "seed": 1,
+     "bye": true,
+     "record": "5-4",
+     "ovr": -25.26,
+     "off": -20.52,
+     "def": -4.74,
+     "ovr_rank": 226,
+     "class_rank": 39,
+     "slug": "normandy-collaborative",
+     "logo": "https://raw.githubusercontent.com/AllMOSports/All_MO_Sports-Data/main/logos_main2/normandy-collaborative.png",
+     "reach": [
+      1.0,
+      0.5376,
+      0.0021,
+      0.0001,
+      0.0,
+      0.0
+     ],
+     "reach_display": [
+      ">99%",
+      "54%",
+      "<1%",
+      "<1%",
+      "0%",
+      "0%"
+     ]
+    },
+    {
+     "team": "Fulton",
+     "district": 4,
+     "seed": 5,
+     "bye": false,
+     "record": "2-7",
+     "ovr": -15.46,
+     "off": -8.28,
+     "def": -7.17,
+     "ovr_rank": 192,
+     "class_rank": 32,
+     "slug": "fulton",
+     "logo": "https://raw.githubusercontent.com/AllMOSports/All_MO_Sports-Data/main/logos_main2/fulton.png",
+     "reach": [
+      0.8249,
+      0.0276,
+      0.0021,
+      0.0001,
+      0.0,
+      0.0
+     ],
+     "reach_display": [
+      "82%",
+      "3%",
+      "<1%",
+      "<1%",
+      "0%",
+      "0%"
+     ]
+    },
+    {
+     "team": "Macon",
+     "district": 8,
+     "seed": 4,
+     "bye": false,
+     "record": "7-2",
+     "ovr": 9.26,
+     "off": 0.76,
+     "def": 8.51,
+     "ovr_rank": 105,
+     "class_rank": 13,
+     "slug": "macon",
+     "logo": "https://raw.githubusercontent.com/AllMOSports/All_MO_Sports-Data/main/logos_main2/macon.png",
+     "reach": [
+      0.7328,
+      0.001,
+      0.0001,
+      0.0001,
+      0.0,
+      0.0
+     ],
+     "reach_display": [
+      "73%",
+      "<1%",
+      "<1%",
+      "<1%",
+      "0%",
+      "0%"
+     ]
+    },
+    {
+     "team": "Fredericktown",
+     "district": 1,
+     "seed": 5,
+     "bye": false,
+     "record": "3-6",
+     "ovr": -21.89,
+     "off": -19.8,
+     "def": -2.1,
+     "ovr_rank": 218,
+     "class_rank": 35,
+     "slug": "fredericktown",
+     "logo": "https://raw.githubusercontent.com/AllMOSports/All_MO_Sports-Data/main/logos_main2/fredericktown.png",
+     "reach": [
+      0.6717,
+      0.073,
+      0.0089,
+      0.0,
+      0.0,
+      0.0
+     ],
+     "reach_display": [
+      "67%",
+      "7%",
+      "1%",
+      "0%",
+      "0%",
+      "0%"
+     ]
+    },
+    {
+     "team": "Clinton",
+     "district": 7,
+     "seed": 7,
+     "bye": false,
+     "record": "3-6",
+     "ovr": -4.83,
+     "off": -2.52,
+     "def": -2.31,
+     "ovr_rank": 161,
+     "class_rank": 27,
+     "slug": "clinton",
+     "logo": "https://raw.githubusercontent.com/AllMOSports/All_MO_Sports-Data/main/logos_main2/clinton.png",
+     "reach": [
+      0.2007,
+      0.0534,
+      0.0054,
+      0.0,
+      0.0,
+      0.0
+     ],
+     "reach_display": [
+      "20%",
+      "5%",
+      "1%",
+      "0%",
+      "0%",
+      "0%"
+     ]
+    },
+    {
+     "team": "Buffalo",
+     "district": 5,
+     "seed": 5,
+     "bye": false,
+     "record": "3-6",
+     "ovr": -16.94,
+     "off": -1.64,
+     "def": -15.3,
+     "ovr_rank": 200,
+     "class_rank": 33,
+     "slug": "buffalo",
+     "logo": "https://raw.githubusercontent.com/AllMOSports/All_MO_Sports-Data/main/logos_main2/buffalo.png",
+     "reach": [
+      0.9235,
+      0.0135,
+      0.0049,
+      0.0,
+      0.0,
+      0.0
+     ],
+     "reach_display": [
+      "92%",
+      "1%",
+      "<1%",
+      "0%",
+      "0%",
+      "0%"
+     ]
+    },
+    {
+     "team": "John Burroughs",
+     "district": 3,
+     "seed": 4,
+     "bye": false,
+     "record": "4-3",
+     "ovr": -24.49,
+     "off": -12.67,
+     "def": -11.82,
+     "ovr_rank": 225,
+     "class_rank": 38,
+     "slug": "john-burroughs",
+     "logo": "https://raw.githubusercontent.com/AllMOSports/All_MO_Sports-Data/main/logos_main2/john-burroughs.png",
+     "reach": [
+      0.6946,
+      0.3631,
+      0.0014,
+      0.0,
+      0.0,
+      0.0
+     ],
+     "reach_display": [
+      "69%",
+      "36%",
+      "<1%",
+      "0%",
+      "0%",
+      "0%"
+     ]
+    },
+    {
+     "team": "Perryville",
+     "district": 1,
+     "seed": 4,
+     "bye": false,
+     "record": "4-5",
+     "ovr": -28.9,
+     "off": -13.32,
+     "def": -15.58,
+     "ovr_rank": 235,
+     "class_rank": 40,
+     "slug": "perryville",
+     "logo": "https://raw.githubusercontent.com/AllMOSports/All_MO_Sports-Data/main/logos_main2/perryville.png",
+     "reach": [
+      0.3283,
+      0.0171,
+      0.0008,
+      0.0,
+      0.0,
+      0.0
+     ],
+     "reach_display": [
+      "33%",
+      "2%",
+      "<1%",
+      "0%",
+      "0%",
+      "0%"
+     ]
+    },
+    {
+     "team": "Herculaneum",
+     "district": 2,
+     "seed": 3,
+     "bye": false,
+     "record": "5-4",
+     "ovr": -24.24,
+     "off": -13.91,
+     "def": -10.34,
+     "ovr_rank": 223,
+     "class_rank": 37,
+     "slug": "herculaneum",
+     "logo": "https://raw.githubusercontent.com/AllMOSports/All_MO_Sports-Data/main/logos_main2/herculaneum.png",
+     "reach": [
+      0.9291,
+      0.062,
+      0.0004,
+      0.0,
+      0.0,
+      0.0
+     ],
+     "reach_display": [
+      "93%",
+      "6%",
+      "<1%",
+      "0%",
+      "0%",
+      "0%"
+     ]
+    },
+    {
+     "team": "Scott City with Chaffee",
+     "district": 1,
+     "seed": 6,
+     "bye": false,
+     "record": "2-7",
+     "ovr": -30.23,
+     "off": -15.61,
+     "def": -14.61,
+     "ovr_rank": 241,
+     "class_rank": 41,
+     "slug": "scott-city",
+     "logo": "https://raw.githubusercontent.com/AllMOSports/All_MO_Sports-Data/main/logos_main2/scott-city.png",
+     "reach": [
+      0.0524,
+      0.0018,
+      0.0001,
+      0.0,
+      0.0,
+      0.0
+     ],
+     "reach_display": [
+      "5%",
+      "<1%",
+      "<1%",
+      "0%",
+      "0%",
+      "0%"
+     ]
+    },
+    {
+     "team": "Winfield",
+     "district": 3,
+     "seed": 5,
+     "bye": false,
+     "record": "4-5",
+     "ovr": -32.38,
+     "off": -19.96,
+     "def": -12.41,
+     "ovr_rank": 248,
+     "class_rank": 45,
+     "slug": "winfield",
+     "logo": "https://raw.githubusercontent.com/AllMOSports/All_MO_Sports-Data/main/logos_main2/winfield.png",
+     "reach": [
+      0.3054,
+      0.0993,
+      0.0001,
+      0.0,
+      0.0,
+      0.0
+     ],
+     "reach_display": [
+      "31%",
+      "10%",
+      "<1%",
+      "0%",
+      "0%",
+      "0%"
+     ]
+    },
+    {
+     "team": "St. James",
+     "district": 5,
+     "seed": 3,
+     "bye": false,
+     "record": "2-7",
+     "ovr": -30.78,
+     "off": -22.56,
+     "def": -8.22,
+     "ovr_rank": 244,
+     "class_rank": 43,
+     "slug": "st-james",
+     "logo": "https://raw.githubusercontent.com/AllMOSports/All_MO_Sports-Data/main/logos_main2/st-james.png",
+     "reach": [
+      0.519,
+      0.0561,
+      0.0001,
+      0.0,
+      0.0,
+      0.0
+     ],
+     "reach_display": [
+      "52%",
+      "6%",
+      "<1%",
+      "0%",
+      "0%",
+      "0%"
+     ]
+    },
+    {
+     "team": "Salem",
+     "district": 5,
+     "seed": 6,
+     "bye": false,
+     "record": "2-7",
+     "ovr": -31.5,
+     "off": -16.08,
+     "def": -15.41,
+     "ovr_rank": 246,
+     "class_rank": 44,
+     "slug": "salem",
+     "logo": "https://raw.githubusercontent.com/AllMOSports/All_MO_Sports-Data/main/logos_main2/salem.png",
+     "reach": [
+      0.481,
+      0.0464,
+      0.0001,
+      0.0,
+      0.0,
+      0.0
+     ],
+     "reach_display": [
+      "48%",
+      "5%",
+      "<1%",
+      "0%",
+      "0%",
+      "0%"
+     ]
+    },
+    {
+     "team": "Doniphan",
+     "district": 1,
+     "seed": 7,
+     "bye": false,
+     "record": "2-7",
+     "ovr": -68.84,
+     "off": -39.55,
+     "def": -29.28,
+     "ovr_rank": 294,
+     "class_rank": 53,
+     "slug": "doniphan",
+     "logo": "https://raw.githubusercontent.com/AllMOSports/All_MO_Sports-Data/main/logos_main2/doniphan.png",
+     "reach": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+     ],
+     "reach_display": [
+      "0%",
+      "0%",
+      "0%",
+      "0%",
+      "0%",
+      "0%"
+     ]
+    },
+    {
+     "team": "Lutheran South",
+     "district": 2,
+     "seed": 6,
+     "bye": false,
+     "record": "2-7",
+     "ovr": -47.78,
+     "off": -17.67,
+     "def": -30.11,
+     "ovr_rank": 275,
+     "class_rank": 51,
+     "slug": "lutheran-south",
+     "logo": "https://raw.githubusercontent.com/AllMOSports/All_MO_Sports-Data/main/logos_main2/lutheran-south.png",
+     "reach": [
+      0.0709,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+     ],
+     "reach_display": [
+      "7%",
+      "0%",
+      "0%",
+      "0%",
+      "0%",
+      "0%"
+     ]
+    },
+    {
+     "team": "Priory",
+     "district": 3,
+     "seed": 6,
+     "bye": false,
+     "record": "3-6",
+     "ovr": -39.26,
+     "off": -19.54,
+     "def": -19.71,
+     "ovr_rank": 258,
+     "class_rank": 47,
+     "slug": "priory",
+     "logo": "https://raw.githubusercontent.com/AllMOSports/All_MO_Sports-Data/main/logos_main2/priory.png",
+     "reach": [
+      0.0021,
+      0.0001,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+     ],
+     "reach_display": [
+      "<1%",
+      "<1%",
+      "0%",
+      "0%",
+      "0%",
+      "0%"
+     ]
+    },
+    {
+     "team": "Lutheran St. Charles",
+     "district": 3,
+     "seed": 7,
+     "bye": false,
+     "record": "1-8",
+     "ovr": -43.68,
+     "off": -19.86,
+     "def": -23.83,
+     "ovr_rank": 268,
+     "class_rank": 50,
+     "slug": "lutheran-st-charles",
+     "logo": "https://raw.githubusercontent.com/AllMOSports/All_MO_Sports-Data/main/logos_main2/lutheran-st-charles.png",
+     "reach": [
+      0.0001,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+     ],
+     "reach_display": [
+      "<1%",
+      "0%",
+      "0%",
+      "0%",
+      "0%",
+      "0%"
+     ]
+    },
+    {
+     "team": "Wright City",
+     "district": 4,
+     "seed": 4,
+     "bye": false,
+     "record": "3-6",
+     "ovr": -30.55,
+     "off": -15.08,
+     "def": -15.47,
+     "ovr_rank": 243,
+     "class_rank": 42,
+     "slug": "wright-city",
+     "logo": "https://raw.githubusercontent.com/AllMOSports/All_MO_Sports-Data/main/logos_main2/wright-city.png",
+     "reach": [
+      0.1751,
+      0.0009,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+     ],
+     "reach_display": [
+      "18%",
+      "<1%",
+      "0%",
+      "0%",
+      "0%",
+      "0%"
+     ]
+    },
+    {
+     "team": "Eldon",
+     "district": 4,
+     "seed": 6,
+     "bye": false,
+     "record": "1-8",
+     "ovr": -40.62,
+     "off": -23.62,
+     "def": -17.0,
+     "ovr_rank": 262,
+     "class_rank": 49,
+     "slug": "eldon",
+     "logo": "https://raw.githubusercontent.com/AllMOSports/All_MO_Sports-Data/main/logos_main2/eldon.png",
+     "reach": [
+      0.0008,
+      0.0001,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+     ],
+     "reach_display": [
+      "<1%",
+      "<1%",
+      "0%",
+      "0%",
+      "0%",
+      "0%"
+     ]
+    },
+    {
+     "team": "Owensville",
+     "district": 4,
+     "seed": 7,
+     "bye": false,
+     "record": "2-7",
+     "ovr": -37.56,
+     "off": -16.92,
+     "def": -20.64,
+     "ovr_rank": 256,
+     "class_rank": 46,
+     "slug": "owensville",
+     "logo": "https://raw.githubusercontent.com/AllMOSports/All_MO_Sports-Data/main/logos_main2/owensville.png",
+     "reach": [
+      0.0086,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+     ],
+     "reach_display": [
+      "1%",
+      "0%",
+      "0%",
+      "0%",
+      "0%",
+      "0%"
+     ]
+    },
+    {
+     "team": "Cuba with Steelville",
+     "district": 5,
+     "seed": 4,
+     "bye": false,
+     "record": "4-5",
+     "ovr": -39.32,
+     "off": -20.13,
+     "def": -19.19,
+     "ovr_rank": 259,
+     "class_rank": 48,
+     "slug": "cuba",
+     "logo": "https://raw.githubusercontent.com/AllMOSports/All_MO_Sports-Data/main/logos_main2/cuba.png",
+     "reach": [
+      0.0765,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+     ],
+     "reach_display": [
+      "8%",
+      "0%",
+      "0%",
+      "0%",
+      "0%",
+      "0%"
+     ]
+    },
+    {
+     "team": "Pleasant Hope with Halfway, Marion C. Early",
+     "district": 5,
+     "seed": 7,
+     "bye": false,
+     "record": "1-8",
+     "ovr": -70.52,
+     "off": -37.8,
+     "def": -32.72,
+     "ovr_rank": 295,
+     "class_rank": 54,
+     "slug": "pleasant-hope",
+     "logo": "https://raw.githubusercontent.com/AllMOSports/All_MO_Sports-Data/main/logos_main2/pleasant-hope.png",
+     "reach": [
+      0.0001,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+     ],
+     "reach_display": [
+      "<1%",
+      "0%",
+      "0%",
+      "0%",
+      "0%",
+      "0%"
+     ]
+    },
+    {
+     "team": "Reeds Spring",
+     "district": 6,
+     "seed": 5,
+     "bye": false,
+     "record": "3-6",
+     "ovr": -23.65,
+     "off": -15.52,
+     "def": -8.13,
+     "ovr_rank": 222,
+     "class_rank": 36,
+     "slug": "reeds-spring",
+     "logo": "https://raw.githubusercontent.com/AllMOSports/All_MO_Sports-Data/main/logos_main2/reeds-spring.png",
+     "reach": [
+      0.0187,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+     ],
+     "reach_display": [
+      "2%",
+      "0%",
+      "0%",
+      "0%",
+      "0%",
+      "0%"
+     ]
+    },
+    {
+     "team": "Aurora",
+     "district": 6,
+     "seed": 6,
+     "bye": false,
+     "record": "0-9",
+     "ovr": -10.19,
+     "off": -8.83,
+     "def": -1.36,
+     "ovr_rank": 176,
+     "class_rank": 29,
+     "slug": "aurora",
+     "logo": "https://raw.githubusercontent.com/AllMOSports/All_MO_Sports-Data/main/logos_main2/aurora.png",
+     "reach": [
+      0.1176,
+      0.0003,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+     ],
+     "reach_display": [
+      "12%",
+      "<1%",
+      "0%",
+      "0%",
+      "0%",
+      "0%"
+     ]
+    },
+    {
+     "team": "Hollister",
+     "district": 6,
+     "seed": 7,
+     "bye": false,
+     "record": "0-9",
+     "ovr": -48.86,
+     "off": -22.42,
+     "def": -26.44,
+     "ovr_rank": 276,
+     "class_rank": 52,
+     "slug": "hollister",
+     "logo": "https://raw.githubusercontent.com/AllMOSports/All_MO_Sports-Data/main/logos_main2/hollister.png",
+     "reach": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+     ],
+     "reach_display": [
+      "0%",
+      "0%",
+      "0%",
+      "0%",
+      "0%",
+      "0%"
+     ]
+    },
+    {
+     "team": "Richmond",
+     "district": 8,
+     "seed": 3,
+     "bye": false,
+     "record": "7-2",
+     "ovr": 6.14,
+     "off": 8.32,
+     "def": -2.18,
+     "ovr_rank": 119,
+     "class_rank": 19,
+     "slug": "richmond",
+     "logo": "https://raw.githubusercontent.com/AllMOSports/All_MO_Sports-Data/main/logos_main2/richmond.png",
+     "reach": [
+      0.9336,
+      0.0273,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+     ],
+     "reach_display": [
+      "93%",
+      "3%",
+      "0%",
+      "0%",
+      "0%",
+      "0%"
+     ]
+    },
+    {
+     "team": "Chillicothe",
+     "district": 8,
+     "seed": 5,
+     "bye": false,
+     "record": "4-5",
+     "ovr": -0.51,
+     "off": -2.24,
+     "def": 1.73,
+     "ovr_rank": 147,
+     "class_rank": 22,
+     "slug": "chillicothe",
+     "logo": "https://raw.githubusercontent.com/AllMOSports/All_MO_Sports-Data/main/logos_main2/chillicothe.png",
+     "reach": [
+      0.2672,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+     ],
+     "reach_display": [
+      "27%",
+      "0%",
+      "0%",
+      "0%",
+      "0%",
+      "0%"
+     ]
+    },
+    {
+     "team": "Cameron",
+     "district": 8,
+     "seed": 6,
+     "bye": false,
+     "record": "0-8",
+     "ovr": -17.84,
+     "off": -4.11,
+     "def": -13.73,
+     "ovr_rank": 203,
+     "class_rank": 34,
+     "slug": "cameron",
+     "logo": "https://raw.githubusercontent.com/AllMOSports/All_MO_Sports-Data/main/logos_main2/cameron.png",
+     "reach": [
+      0.0664,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+     ],
+     "reach_display": [
+      "7%",
+      "0%",
+      "0%",
+      "0%",
+      "0%",
+      "0%"
+     ]
+    }
+   ]
+  },
+  "4": {
+   "class": 4,
+   "state_bracket_order": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8
+   ],
+   "districts": {
+    "1": {
+     "seeds": [
+      "Sikeston",
+      "Festus",
+      "Hillsboro",
+      "North County",
+      "DeSoto",
+      "Windsor (Imperial)"
+     ],
+     "seed_status": "final"
+    },
+    "2": {
+     "seeds": [
+      "Union",
+      "Sullivan",
+      "Westminster Christian Academy",
+      "Vianney",
+      "Affton",
+      "Bayless with Hancock",
+      "Pacific"
+     ],
+     "seed_status": "final"
+    },
+    "3": {
+     "seeds": [
+      "University City",
+      "Lift for Life Academy Charter",
+      "Gateway with Soldan International Studies",
+      "Jennings",
+      "Riverview Gardens",
+      "Clayton with Brentwood"
+     ],
+     "seed_status": "final"
+    },
+    "4": {
+     "seeds": [
+      "St. Charles West",
+      "Parkway North",
+      "Orchard Farm",
+      "Hannibal",
+      "Warrenton",
+      "Holt",
+      "St. Charles"
+     ],
+     "seed_status": "final"
+    },
+    "5": {
+     "seeds": [
+      "Moberly",
+      "Warrensburg",
+      "Osage",
+      "Kirksville",
+      "Mexico",
+      "Marshall",
+      "Knob Noster with Leeton"
+     ],
+     "seed_status": "final"
+    },
+    "6": {
+     "seeds": [
+      "Logan-Rogersville",
+      "Carl Junction",
+      "Bolivar",
+      "Monett",
+      "Hillcrest",
+      "McDonald County",
+      "Marshfield"
+     ],
+     "seed_status": "final"
+    },
+    "7": {
+     "seeds": [
+      "Central (Kansas City)",
+      "Odessa",
+      "Raytown South",
+      "Pleasant Hill",
+      "Harrisonville",
+      "University Academy Charter with Ewing Marion Kauffman",
+      "East (Kansas City)"
+     ],
+     "seed_status": "final"
+    },
+    "8": {
+     "seeds": [
+      "Kearney",
+      "Savannah",
+      "Smithville",
+      "Benton",
+      "Van Horn",
+      "Northeast (Kansas City)",
+      "Excelsior Springs"
+     ],
+     "seed_status": "final"
+    }
+   },
+   "teams": [
+    {
+     "team": "Kearney",
+     "district": 8,
+     "seed": 1,
+     "bye": true,
+     "record": "9-0",
+     "ovr": 72.12,
+     "off": 33.28,
+     "def": 38.84,
+     "ovr_rank": 2,
+     "class_rank": 1,
+     "slug": "kearney",
+     "logo": "https://raw.githubusercontent.com/AllMOSports/All_MO_Sports-Data/main/logos_main2/kearney.png",
+     "reach": [
+      1.0,
+      1.0,
+      0.9349,
+      0.9344,
+      0.9313,
+      0.9281
+     ],
+     "reach_display": [
+      ">99%",
+      ">99%",
+      "93%",
+      "93%",
+      "93%",
+      "93%"
+     ]
+    },
+    {
+     "team": "Savannah",
+     "district": 8,
+     "seed": 2,
+     "bye": false,
+     "record": "9-0",
+     "ovr": 48.81,
+     "off": 27.06,
+     "def": 21.74,
+     "ovr_rank": 19,
+     "class_rank": 2,
+     "slug": "savannah",
+     "logo": "https://raw.githubusercontent.com/AllMOSports/All_MO_Sports-Data/main/logos_main2/savannah.png",
+     "reach": [
+      1.0,
+      0.8781,
+      0.0646,
+      0.0623,
+      0.0566,
+      0.0512
+     ],
+     "reach_display": [
+      ">99%",
+      "88%",
+      "6%",
+      "6%",
+      "6%",
+      "5%"
+     ]
+    },
+    {
+     "team": "Lift for Life Academy Charter",
+     "district": 3,
+     "seed": 2,
+     "bye": true,
+     "record": "3-6",
+     "ovr": 30.4,
+     "off": 3.31,
+     "def": 27.09,
+     "ovr_rank": 50,
+     "class_rank": 4,
+     "slug": "lift-for-life-academy-charter",
+     "logo": "https://raw.githubusercontent.com/AllMOSports/All_MO_Sports-Data/main/logos_main2/lift-for-life-academy-charter.png",
+     "reach": [
+      1.0,
+      0.9903,
+      0.9532,
+      0.6533,
+      0.4465,
+      0.007
+     ],
+     "reach_display": [
+      ">99%",
+      "99%",
+      "95%",
+      "65%",
+      "45%",
+      "1%"
+     ]
+    },
+    {
+     "team": "Festus",
+     "district": 1,
+     "seed": 2,
+     "bye": true,
+     "record": "7-2",
+     "ovr": 28.59,
+     "off": 11.28,
+     "def": 17.31,
+     "ovr_rank": 55,
+     "class_rank": 6,
+     "slug": "festus",
+     "logo": "https://raw.githubusercontent.com/AllMOSports/All_MO_Sports-Data/main/logos_main2/festus.png",
+     "reach": [
+      1.0,
+      0.7389,
+      0.6166,
+      0.5188,
+      0.259,
+      0.0046
+     ],
+     "reach_display": [
+      ">99%",
+      "74%",
+      "62%",
+      "52%",
+      "26%",
+      "<1%"
+     ]
+    },
+    {
+     "team": "Logan-Rogersville",
+     "district": 6,
+     "seed": 1,
+     "bye": true,
+     "record": "8-1",
+     "ovr": 31.2,
+     "off": 17.67,
+     "def": 13.52,
+     "ovr_rank": 47,
+     "class_rank": 3,
+     "slug": "logan-rogersville",
+     "logo": "https://raw.githubusercontent.com/AllMOSports/All_MO_Sports-Data/main/logos_main2/logan-rogersville.png",
+     "reach": [
+      1.0,
+      0.9512,
+      0.7386,
+      0.4683,
+      0.0069,
+      0.0037
+     ],
+     "reach_display": [
+      ">99%",
+      "95%",
+      "74%",
+      "47%",
+      "1%",
+      "<1%"
+     ]
+    },
+    {
+     "team": "Hannibal",
+     "district": 4,
+     "seed": 4,
+     "bye": false,
+     "record": "4-5",
+     "ovr": 26.42,
+     "off": 15.89,
+     "def": 10.53,
+     "ovr_rank": 59,
+     "class_rank": 8,
+     "slug": "hannibal",
+     "logo": "https://raw.githubusercontent.com/AllMOSports/All_MO_Sports-Data/main/logos_main2/hannibal.png",
+     "reach": [
+      0.9392,
+      0.8501,
+      0.7131,
+      0.3031,
+      0.1835,
+      0.0021
+     ],
+     "reach_display": [
+      "94%",
+      "85%",
+      "71%",
+      "30%",
+      "18%",
+      "<1%"
+     ]
+    },
+    {
+     "team": "Warrensburg",
+     "district": 5,
+     "seed": 2,
+     "bye": false,
+     "record": "8-1",
+     "ovr": 28.11,
+     "off": 18.3,
+     "def": 9.81,
+     "ovr_rank": 57,
+     "class_rank": 7,
+     "slug": "warrensburg",
+     "logo": "https://raw.githubusercontent.com/AllMOSports/All_MO_Sports-Data/main/logos_main2/warrensburg.png",
+     "reach": [
+      1.0,
+      0.9742,
+      0.6841,
+      0.3367,
+      0.0036,
+      0.0021
+     ],
+     "reach_display": [
+      ">99%",
+      "97%",
+      "68%",
+      "34%",
+      "<1%",
+      "<1%"
+     ]
+    },
+    {
+     "team": "Carl Junction",
+     "district": 6,
+     "seed": 2,
+     "bye": false,
+     "record": "5-4",
+     "ovr": 21.96,
+     "off": 6.12,
+     "def": 15.83,
+     "ovr_rank": 68,
+     "class_rank": 9,
+     "slug": "carl-junction",
+     "logo": "https://raw.githubusercontent.com/AllMOSports/All_MO_Sports-Data/main/logos_main2/carl-junction.png",
+     "reach": [
+      0.8735,
+      0.6337,
+      0.1939,
+      0.0771,
+      0.0006,
+      0.0003
+     ],
+     "reach_display": [
+      "87%",
+      "63%",
+      "19%",
+      "8%",
+      "<1%",
+      "<1%"
+     ]
+    },
+    {
+     "team": "Hillsboro",
+     "district": 1,
+     "seed": 3,
+     "bye": false,
+     "record": "6-3",
+     "ovr": 18.23,
+     "off": 5.69,
+     "def": 12.54,
+     "ovr_rank": 82,
+     "class_rank": 13,
+     "slug": "hillsboro",
+     "logo": "https://raw.githubusercontent.com/AllMOSports/All_MO_Sports-Data/main/logos_main2/hillsboro.png",
+     "reach": [
+      0.9989,
+      0.2611,
+      0.1648,
+      0.1065,
+      0.03,
+      0.0002
+     ],
+     "reach_display": [
+      ">99%",
+      "26%",
+      "16%",
+      "11%",
+      "3%",
+      "<1%"
+     ]
+    },
+    {
+     "team": "Odessa",
+     "district": 7,
+     "seed": 2,
+     "bye": false,
+     "record": "6-3",
+     "ovr": 20.12,
+     "off": 7.28,
+     "def": 12.84,
+     "ovr_rank": 74,
+     "class_rank": 11,
+     "slug": "odessa",
+     "logo": "https://raw.githubusercontent.com/AllMOSports/All_MO_Sports-Data/main/logos_main2/odessa.png",
+     "reach": [
+      1.0,
+      0.8836,
+      0.5339,
+      0.0021,
+      0.0006,
+      0.0002
+     ],
+     "reach_display": [
+      ">99%",
+      "88%",
+      "53%",
+      "<1%",
+      "<1%",
+      "<1%"
+     ]
+    },
+    {
+     "team": "Sikeston",
+     "district": 1,
+     "seed": 1,
+     "bye": true,
+     "record": "7-2",
+     "ovr": 14.91,
+     "off": 3.67,
+     "def": 11.24,
+     "ovr_rank": 89,
+     "class_rank": 14,
+     "slug": "sikeston",
+     "logo": "https://raw.githubusercontent.com/AllMOSports/All_MO_Sports-Data/main/logos_main2/sikeston.png",
+     "reach": [
+      1.0,
+      0.8248,
+      0.2067,
+      0.1161,
+      0.0253,
+      0.0001
+     ],
+     "reach_display": [
+      ">99%",
+      "82%",
+      "21%",
+      "12%",
+      "3%",
+      "<1%"
+     ]
+    },
+    {
+     "team": "Sullivan",
+     "district": 2,
+     "seed": 2,
+     "bye": false,
+     "record": "6-3",
+     "ovr": 12.42,
+     "off": 7.84,
+     "def": 4.58,
+     "ovr_rank": 97,
+     "class_rank": 18,
+     "slug": "sullivan",
+     "logo": "https://raw.githubusercontent.com/AllMOSports/All_MO_Sports-Data/main/logos_main2/sullivan.png",
+     "reach": [
+      0.9815,
+      0.7829,
+      0.3649,
+      0.0922,
+      0.015,
+      0.0001
+     ],
+     "reach_display": [
+      "98%",
+      "78%",
+      "36%",
+      "9%",
+      "2%",
+      "<1%"
+     ]
+    },
+    {
+     "team": "Union",
+     "district": 2,
+     "seed": 1,
+     "bye": true,
+     "record": "8-1",
+     "ovr": 13.61,
+     "off": 4.48,
+     "def": 9.13,
+     "ovr_rank": 95,
+     "class_rank": 17,
+     "slug": "union",
+     "logo": "https://raw.githubusercontent.com/AllMOSports/All_MO_Sports-Data/main/logos_main2/union.png",
+     "reach": [
+      1.0,
+      0.4875,
+      0.2874,
+      0.0785,
+      0.0141,
+      0.0001
+     ],
+     "reach_display": [
+      ">99%",
+      "49%",
+      "29%",
+      "8%",
+      "1%",
+      "<1%"
+     ]
+    },
+    {
+     "team": "Pleasant Hill",
+     "district": 7,
+     "seed": 4,
+     "bye": false,
+     "record": "5-4",
+     "ovr": 18.44,
+     "off": 5.09,
+     "def": 13.35,
+     "ovr_rank": 80,
+     "class_rank": 12,
+     "slug": "pleasant-hill",
+     "logo": "https://raw.githubusercontent.com/AllMOSports/All_MO_Sports-Data/main/logos_main2/pleasant-hill.png",
+     "reach": [
+      0.7739,
+      0.7731,
+      0.3871,
+      0.0008,
+      0.0003,
+      0.0001
+     ],
+     "reach_display": [
+      "77%",
+      "77%",
+      "39%",
+      "<1%",
+      "<1%",
+      "<1%"
+     ]
+    },
+    {
+     "team": "Moberly",
+     "district": 5,
+     "seed": 1,
+     "bye": true,
+     "record": "8-1",
+     "ovr": 20.98,
+     "off": 9.72,
+     "def": 11.26,
+     "ovr_rank": 72,
+     "class_rank": 10,
+     "slug": "moberly",
+     "logo": "https://raw.githubusercontent.com/AllMOSports/All_MO_Sports-Data/main/logos_main2/moberly.png",
+     "reach": [
+      1.0,
+      0.8736,
+      0.3028,
+      0.1014,
+      0.0001,
+      0.0001
+     ],
+     "reach_display": [
+      ">99%",
+      "87%",
+      "30%",
+      "10%",
+      "<1%",
+      "<1%"
+     ]
+    },
+    {
+     "team": "Bolivar",
+     "district": 6,
+     "seed": 3,
+     "bye": false,
+     "record": "5-4",
+     "ovr": 14.51,
+     "off": 6.61,
+     "def": 7.91,
+     "ovr_rank": 90,
+     "class_rank": 15,
+     "slug": "bolivar",
+     "logo": "https://raw.githubusercontent.com/AllMOSports/All_MO_Sports-Data/main/logos_main2/bolivar.png",
+     "reach": [
+      0.7799,
+      0.294,
+      0.052,
+      0.0137,
+      0.0001,
+      0.0001
+     ],
+     "reach_display": [
+      "78%",
+      "29%",
+      "5%",
+      "1%",
+      "<1%",
+      "<1%"
+     ]
+    },
+    {
+     "team": "Smithville",
+     "district": 8,
+     "seed": 3,
+     "bye": false,
+     "record": "6-3",
+     "ovr": 30.04,
+     "off": 16.34,
+     "def": 13.7,
+     "ovr_rank": 53,
+     "class_rank": 5,
+     "slug": "smithville",
+     "logo": "https://raw.githubusercontent.com/AllMOSports/All_MO_Sports-Data/main/logos_main2/smithville.png",
+     "reach": [
+      1.0,
+      0.1219,
+      0.0004,
+      0.0003,
+      0.0001,
+      0.0001
+     ],
+     "reach_display": [
+      ">99%",
+      "12%",
+      "<1%",
+      "<1%",
+      "<1%",
+      "<1%"
+     ]
+    },
+    {
+     "team": "Vianney",
+     "district": 2,
+     "seed": 4,
+     "bye": false,
+     "record": "2-7",
+     "ovr": 13.89,
+     "off": 15.23,
+     "def": -1.35,
+     "ovr_rank": 94,
+     "class_rank": 16,
+     "slug": "vianney",
+     "logo": "https://raw.githubusercontent.com/AllMOSports/All_MO_Sports-Data/main/logos_main2/vianney.png",
+     "reach": [
+      1.0,
+      0.5125,
+      0.3085,
+      0.0818,
+      0.0159,
+      0.0
+     ],
+     "reach_display": [
+      ">99%",
+      "51%",
+      "31%",
+      "8%",
+      "2%",
+      "0%"
+     ]
+    },
+    {
+     "team": "Parkway North",
+     "district": 4,
+     "seed": 2,
+     "bye": false,
+     "record": "4-5",
+     "ovr": 11.86,
+     "off": 0.52,
+     "def": 11.34,
+     "ovr_rank": 100,
+     "class_rank": 19,
+     "slug": "parkway-north",
+     "logo": "https://raw.githubusercontent.com/AllMOSports/All_MO_Sports-Data/main/logos_main2/parkway-north.png",
+     "reach": [
+      1.0,
+      0.8801,
+      0.2208,
+      0.0319,
+      0.0088,
+      0.0
+     ],
+     "reach_display": [
+      ">99%",
+      "88%",
+      "22%",
+      "3%",
+      "1%",
+      "0%"
+     ]
+    },
+    {
+     "team": "St. Charles West",
+     "district": 4,
+     "seed": 1,
+     "bye": true,
+     "record": "9-0",
+     "ovr": 5.42,
+     "off": -1.3,
+     "def": 6.72,
+     "ovr_rank": 121,
+     "class_rank": 22,
+     "slug": "st-charles-west",
+     "logo": "https://raw.githubusercontent.com/AllMOSports/All_MO_Sports-Data/main/logos_main2/st-charles-west.png",
+     "reach": [
+      1.0,
+      0.1272,
+      0.0515,
+      0.0048,
+      0.0009,
+      0.0
+     ],
+     "reach_display": [
+      ">99%",
+      "13%",
+      "5%",
+      "<1%",
+      "<1%",
+      "0%"
+     ]
+    },
+    {
+     "team": "University City",
+     "district": 3,
+     "seed": 1,
+     "bye": true,
+     "record": "9-0",
+     "ovr": 2.32,
+     "off": -6.39,
+     "def": 8.71,
+     "ovr_rank": 133,
+     "class_rank": 26,
+     "slug": "university-city",
+     "logo": "https://raw.githubusercontent.com/AllMOSports/All_MO_Sports-Data/main/logos_main2/university-city.png",
+     "reach": [
+      1.0,
+      0.8974,
+      0.0433,
+      0.0056,
+      0.0006,
+      0.0
+     ],
+     "reach_display": [
+      ">99%",
+      "90%",
+      "4%",
+      "1%",
+      "<1%",
+      "0%"
+     ]
+    },
+    {
+     "team": "North County",
+     "district": 1,
+     "seed": 4,
+     "bye": false,
+     "record": "5-4",
+     "ovr": 2.39,
+     "off": 7.27,
+     "def": -4.88,
+     "ovr_rank": 132,
+     "class_rank": 25,
+     "slug": "north-county",
+     "logo": "https://raw.githubusercontent.com/AllMOSports/All_MO_Sports-Data/main/logos_main2/north-county.png",
+     "reach": [
+      0.7041,
+      0.1482,
+      0.0115,
+      0.0031,
+      0.0003,
+      0.0
+     ],
+     "reach_display": [
+      "70%",
+      "15%",
+      "1%",
+      "<1%",
+      "<1%",
+      "0%"
+     ]
+    },
+    {
+     "team": "Westminster Christian Academy",
+     "district": 2,
+     "seed": 3,
+     "bye": false,
+     "record": "6-3",
+     "ovr": -0.98,
+     "off": -7.44,
+     "def": 6.47,
+     "ovr_rank": 150,
+     "class_rank": 31,
+     "slug": "westminster-christian-academy",
+     "logo": "https://raw.githubusercontent.com/AllMOSports/All_MO_Sports-Data/main/logos_main2/westminster-christian-academy.png",
+     "reach": [
+      0.9997,
+      0.216,
+      0.0393,
+      0.0031,
+      0.0001,
+      0.0
+     ],
+     "reach_display": [
+      ">99%",
+      "22%",
+      "4%",
+      "<1%",
+      "<1%",
+      "0%"
+     ]
+    },
+    {
+     "team": "Warrenton",
+     "district": 4,
+     "seed": 5,
+     "bye": false,
+     "record": "6-3",
+     "ovr": 1.64,
+     "off": -2.98,
+     "def": 4.62,
+     "ovr_rank": 142,
+     "class_rank": 30,
+     "slug": "warrenton",
+     "logo": "https://raw.githubusercontent.com/AllMOSports/All_MO_Sports-Data/main/logos_main2/warrenton.png",
+     "reach": [
+      0.0609,
+      0.0227,
+      0.0069,
+      0.0006,
+      0.0001,
+      0.0
+     ],
+     "reach_display": [
+      "6%",
+      "2%",
+      "1%",
+      "<1%",
+      "<1%",
+      "0%"
+     ]
+    },
+    {
+     "team": "Orchard Farm",
+     "district": 4,
+     "seed": 3,
+     "bye": false,
+     "record": "7-2",
+     "ovr": -4.87,
+     "off": -0.58,
+     "def": -4.29,
+     "ovr_rank": 162,
+     "class_rank": 34,
+     "slug": "orchard-farm",
+     "logo": "https://raw.githubusercontent.com/AllMOSports/All_MO_Sports-Data/main/logos_main2/orchard-farm.png",
+     "reach": [
+      0.7347,
+      0.1072,
+      0.007,
+      0.0004,
+      0.0001,
+      0.0
+     ],
+     "reach_display": [
+      "73%",
+      "11%",
+      "1%",
+      "<1%",
+      "<1%",
+      "0%"
+     ]
+    },
+    {
+     "team": "Monett",
+     "district": 6,
+     "seed": 4,
+     "bye": false,
+     "record": "4-5",
+     "ovr": 6.8,
+     "off": 15.93,
+     "def": -9.13,
+     "ovr_rank": 115,
+     "class_rank": 20,
+     "slug": "monett",
+     "logo": "https://raw.githubusercontent.com/AllMOSports/All_MO_Sports-Data/main/logos_main2/monett.png",
+     "reach": [
+      0.6861,
+      0.0421,
+      0.0106,
+      0.0013,
+      0.0,
+      0.0
+     ],
+     "reach_display": [
+      "69%",
+      "4%",
+      "1%",
+      "<1%",
+      "0%",
+      "0%"
+     ]
+    },
+    {
+     "team": "Kirksville",
+     "district": 5,
+     "seed": 4,
+     "bye": false,
+     "record": "2-7",
+     "ovr": 4.38,
+     "off": -6.79,
+     "def": 11.17,
+     "ovr_rank": 126,
+     "class_rank": 23,
+     "slug": "kirksville",
+     "logo": "https://raw.githubusercontent.com/AllMOSports/All_MO_Sports-Data/main/logos_main2/kirksville.png",
+     "reach": [
+      0.7812,
+      0.1183,
+      0.0106,
+      0.0008,
+      0.0,
+      0.0
+     ],
+     "reach_display": [
+      "78%",
+      "12%",
+      "1%",
+      "<1%",
+      "0%",
+      "0%"
+     ]
+    },
+    {
+     "team": "McDonald County",
+     "district": 6,
+     "seed": 6,
+     "bye": false,
+     "record": "3-6",
+     "ovr": 2.28,
+     "off": 5.04,
+     "def": -2.76,
+     "ovr_rank": 134,
+     "class_rank": 27,
+     "slug": "mcdonald-county",
+     "logo": "https://raw.githubusercontent.com/AllMOSports/All_MO_Sports-Data/main/logos_main2/mcdonald-county.png",
+     "reach": [
+      0.2202,
+      0.0337,
+      0.0018,
+      0.0003,
+      0.0,
+      0.0
+     ],
+     "reach_display": [
+      "22%",
+      "3%",
+      "<1%",
+      "<1%",
+      "0%",
+      "0%"
+     ]
+    },
+    {
+     "team": "Marshfield",
+     "district": 6,
+     "seed": 7,
+     "bye": false,
+     "record": "2-7",
+     "ovr": 3.9,
+     "off": -0.16,
+     "def": 4.06,
+     "ovr_rank": 128,
+     "class_rank": 24,
+     "slug": "marshfield",
+     "logo": "https://raw.githubusercontent.com/AllMOSports/All_MO_Sports-Data/main/logos_main2/marshfield.png",
+     "reach": [
+      0.1265,
+      0.0386,
+      0.0026,
+      0.0002,
+      0.0,
+      0.0
+     ],
+     "reach_display": [
+      "13%",
+      "4%",
+      "<1%",
+      "<1%",
+      "0%",
+      "0%"
+     ]
+    },
+    {
+     "team": "Harrisonville",
+     "district": 7,
+     "seed": 5,
+     "bye": false,
+     "record": "3-6",
+     "ovr": 6.14,
+     "off": 5.6,
+     "def": 0.53,
+     "ovr_rank": 118,
+     "class_rank": 21,
+     "slug": "harrisonville",
+     "logo": "https://raw.githubusercontent.com/AllMOSports/All_MO_Sports-Data/main/logos_main2/harrisonville.png",
+     "reach": [
+      0.2261,
+      0.2236,
+      0.0539,
+      0.0001,
+      0.0,
+      0.0
+     ],
+     "reach_display": [
+      "23%",
+      "22%",
+      "5%",
+      "<1%",
+      "0%",
+      "0%"
+     ]
+    },
+    {
+     "team": "Gateway with Soldan International Studies",
+     "district": 3,
+     "seed": 3,
+     "bye": false,
+     "record": "4-4",
+     "ovr": -7.32,
+     "off": 0.17,
+     "def": -7.5,
+     "ovr_rank": 168,
+     "class_rank": 37,
+     "slug": "gateway",
+     "logo": "https://raw.githubusercontent.com/AllMOSports/All_MO_Sports-Data/main/logos_main2/gateway.png",
+     "reach": [
+      0.9978,
+      0.0097,
+      0.0032,
+      0.0001,
+      0.0,
+      0.0
+     ],
+     "reach_display": [
+      ">99%",
+      "1%",
+      "<1%",
+      "<1%",
+      "0%",
+      "0%"
+     ]
+    },
+    {
+     "team": "Osage",
+     "district": 5,
+     "seed": 3,
+     "bye": false,
+     "record": "3-6",
+     "ovr": -2.58,
+     "off": 3.9,
+     "def": -6.48,
+     "ovr_rank": 154,
+     "class_rank": 33,
+     "slug": "osage",
+     "logo": "https://raw.githubusercontent.com/AllMOSports/All_MO_Sports-Data/main/logos_main2/osage.png",
+     "reach": [
+      0.9398,
+      0.0257,
+      0.0025,
+      0.0001,
+      0.0,
+      0.0
+     ],
+     "reach_display": [
+      "94%",
+      "3%",
+      "<1%",
+      "<1%",
+      "0%",
+      "0%"
+     ]
+    },
+    {
+     "team": "Hillcrest",
+     "district": 6,
+     "seed": 5,
+     "bye": false,
+     "record": "2-6",
+     "ovr": -0.99,
+     "off": 0.9,
+     "def": -1.9,
+     "ovr_rank": 151,
+     "class_rank": 32,
+     "slug": "hillcrest",
+     "logo": "https://raw.githubusercontent.com/AllMOSports/All_MO_Sports-Data/main/logos_main2/hillcrest.png",
+     "reach": [
+      0.3139,
+      0.0066,
+      0.0006,
+      0.0001,
+      0.0,
+      0.0
+     ],
+     "reach_display": [
+      "31%",
+      "1%",
+      "<1%",
+      "<1%",
+      "0%",
+      "0%"
+     ]
+    },
+    {
+     "team": "Raytown South",
+     "district": 7,
+     "seed": 3,
+     "bye": false,
+     "record": "3-6",
+     "ovr": 1.78,
+     "off": -8.62,
+     "def": 10.4,
+     "ovr_rank": 140,
+     "class_rank": 29,
+     "slug": "raytown-south",
+     "logo": "https://raw.githubusercontent.com/AllMOSports/All_MO_Sports-Data/main/logos_main2/raytown-south.png",
+     "reach": [
+      0.9123,
+      0.1157,
+      0.025,
+      0.0,
+      0.0,
+      0.0
+     ],
+     "reach_display": [
+      "91%",
+      "12%",
+      "3%",
+      "0%",
+      "0%",
+      "0%"
+     ]
+    },
+    {
+     "team": "Holt",
+     "district": 4,
+     "seed": 6,
+     "bye": false,
+     "record": "3-6",
+     "ovr": -14.96,
+     "off": 0.71,
+     "def": -15.67,
+     "ovr_rank": 190,
+     "class_rank": 39,
+     "slug": "holt",
+     "logo": "https://raw.githubusercontent.com/AllMOSports/All_MO_Sports-Data/main/logos_main2/holt.png",
+     "reach": [
+      0.2653,
+      0.0126,
+      0.0006,
+      0.0,
+      0.0,
+      0.0
+     ],
+     "reach_display": [
+      "27%",
+      "1%",
+      "<1%",
+      "0%",
+      "0%",
+      "0%"
+     ]
+    },
+    {
+     "team": "DeSoto",
+     "district": 1,
+     "seed": 5,
+     "bye": false,
+     "record": "5-4",
+     "ovr": -6.32,
+     "off": -4.75,
+     "def": -1.56,
+     "ovr_rank": 166,
+     "class_rank": 36,
+     "slug": "desoto",
+     "logo": "https://raw.githubusercontent.com/AllMOSports/All_MO_Sports-Data/main/logos_main2/desoto.png",
+     "reach": [
+      0.2959,
+      0.027,
+      0.0005,
+      0.0,
+      0.0,
+      0.0
+     ],
+     "reach_display": [
+      "30%",
+      "3%",
+      "<1%",
+      "0%",
+      "0%",
+      "0%"
+     ]
+    },
+    {
+     "team": "Riverview Gardens",
+     "district": 3,
+     "seed": 5,
+     "bye": false,
+     "record": "3-6",
+     "ovr": -16.66,
+     "off": -10.83,
+     "def": -5.83,
+     "ovr_rank": 195,
+     "class_rank": 40,
+     "slug": "riverview-gardens",
+     "logo": "https://raw.githubusercontent.com/AllMOSports/All_MO_Sports-Data/main/logos_main2/riverview-gardens.png",
+     "reach": [
+      0.5998,
+      0.0732,
+      0.0002,
+      0.0,
+      0.0,
+      0.0
+     ],
+     "reach_display": [
+      "60%",
+      "7%",
+      "<1%",
+      "0%",
+      "0%",
+      "0%"
+     ]
+    },
+    {
+     "team": "Jennings",
+     "district": 3,
+     "seed": 4,
+     "bye": false,
+     "record": "4-5",
+     "ovr": -20.67,
+     "off": -14.85,
+     "def": -5.82,
+     "ovr_rank": 211,
+     "class_rank": 43,
+     "slug": "jennings",
+     "logo": "https://raw.githubusercontent.com/AllMOSports/All_MO_Sports-Data/main/logos_main2/jennings.png",
+     "reach": [
+      0.4002,
+      0.0294,
+      0.0001,
+      0.0,
+      0.0,
+      0.0
+     ],
+     "reach_display": [
+      "40%",
+      "3%",
+      "<1%",
+      "0%",
+      "0%",
+      "0%"
+     ]
+    },
+    {
+     "team": "Mexico",
+     "district": 5,
+     "seed": 5,
+     "bye": false,
+     "record": "3-6",
+     "ovr": -8.05,
+     "off": -6.61,
+     "def": -1.44,
+     "ovr_rank": 170,
+     "class_rank": 38,
+     "slug": "mexico",
+     "logo": "https://raw.githubusercontent.com/AllMOSports/All_MO_Sports-Data/main/logos_main2/mexico.png",
+     "reach": [
+      0.2188,
+      0.008,
+      0.0001,
+      0.0,
+      0.0,
+      0.0
+     ],
+     "reach_display": [
+      "22%",
+      "1%",
+      "<1%",
+      "0%",
+      "0%",
+      "0%"
+     ]
+    },
+    {
+     "team": "University Academy Charter with Ewing Marion Kauffman",
+     "district": 7,
+     "seed": 6,
+     "bye": false,
+     "record": "2-7",
+     "ovr": -19.72,
+     "off": -8.38,
+     "def": -11.34,
+     "ovr_rank": 209,
+     "class_rank": 42,
+     "slug": "university-academy-charter",
+     "logo": "https://raw.githubusercontent.com/AllMOSports/All_MO_Sports-Data/main/logos_main2/university-academy-charter.png",
+     "reach": [
+      0.0877,
+      0.0007,
+      0.0001,
+      0.0,
+      0.0,
+      0.0
+     ],
+     "reach_display": [
+      "9%",
+      "<1%",
+      "<1%",
+      "0%",
+      "0%",
+      "0%"
+     ]
+    },
+    {
+     "team": "Windsor (Imperial)",
+     "district": 1,
+     "seed": 6,
+     "bye": false,
+     "record": "3-6",
+     "ovr": -29.79,
+     "off": -10.96,
+     "def": -18.83,
+     "ovr_rank": 239,
+     "class_rank": 46,
+     "slug": "windsor-imperial",
+     "logo": "https://raw.githubusercontent.com/AllMOSports/All_MO_Sports-Data/main/logos_main2/windsor-imperial.png",
+     "reach": [
+      0.0011,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+     ],
+     "reach_display": [
+      "<1%",
+      "0%",
+      "0%",
+      "0%",
+      "0%",
+      "0%"
+     ]
+    },
+    {
+     "team": "Affton",
+     "district": 2,
+     "seed": 5,
+     "bye": false,
+     "record": "3-6",
+     "ovr": -55.53,
+     "off": -25.72,
+     "def": -29.8,
+     "ovr_rank": 283,
+     "class_rank": 52,
+     "slug": "affton",
+     "logo": "https://raw.githubusercontent.com/AllMOSports/All_MO_Sports-Data/main/logos_main2/affton.png",
+     "reach": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+     ],
+     "reach_display": [
+      "0%",
+      "0%",
+      "0%",
+      "0%",
+      "0%",
+      "0%"
+     ]
+    },
+    {
+     "team": "Bayless with Hancock",
+     "district": 2,
+     "seed": 6,
+     "bye": false,
+     "record": "3-6",
+     "ovr": -54.39,
+     "off": -31.68,
+     "def": -22.71,
+     "ovr_rank": 280,
+     "class_rank": 51,
+     "slug": "bayless",
+     "logo": "https://raw.githubusercontent.com/AllMOSports/All_MO_Sports-Data/main/logos_main2/bayless.png",
+     "reach": [
+      0.0003,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+     ],
+     "reach_display": [
+      "<1%",
+      "0%",
+      "0%",
+      "0%",
+      "0%",
+      "0%"
+     ]
+    },
+    {
+     "team": "Pacific",
+     "district": 2,
+     "seed": 7,
+     "bye": false,
+     "record": "2-7",
+     "ovr": -21.71,
+     "off": -5.08,
+     "def": -16.63,
+     "ovr_rank": 217,
+     "class_rank": 44,
+     "slug": "pacific",
+     "logo": "https://raw.githubusercontent.com/AllMOSports/All_MO_Sports-Data/main/logos_main2/pacific.png",
+     "reach": [
+      0.0186,
+      0.0012,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+     ],
+     "reach_display": [
+      "2%",
+      "<1%",
+      "0%",
+      "0%",
+      "0%",
+      "0%"
+     ]
+    },
+    {
+     "team": "Clayton with Brentwood",
+     "district": 3,
+     "seed": 6,
+     "bye": false,
+     "record": "0-9",
+     "ovr": -51.33,
+     "off": -22.55,
+     "def": -28.78,
+     "ovr_rank": 277,
+     "class_rank": 50,
+     "slug": "clayton",
+     "logo": "https://raw.githubusercontent.com/AllMOSports/All_MO_Sports-Data/main/logos_main2/clayton.png",
+     "reach": [
+      0.0022,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+     ],
+     "reach_display": [
+      "<1%",
+      "0%",
+      "0%",
+      "0%",
+      "0%",
+      "0%"
+     ]
+    },
+    {
+     "team": "St. Charles",
+     "district": 4,
+     "seed": 7,
+     "bye": false,
+     "record": "2-7",
+     "ovr": -47.56,
+     "off": -28.47,
+     "def": -19.09,
+     "ovr_rank": 274,
+     "class_rank": 49,
+     "slug": "st-charles",
+     "logo": "https://raw.githubusercontent.com/AllMOSports/All_MO_Sports-Data/main/logos_main2/st-charles.png",
+     "reach": [
+      0.0001,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+     ],
+     "reach_display": [
+      "<1%",
+      "0%",
+      "0%",
+      "0%",
+      "0%",
+      "0%"
+     ]
+    },
+    {
+     "team": "Marshall",
+     "district": 5,
+     "seed": 6,
+     "bye": false,
+     "record": "1-8",
+     "ovr": -27.74,
+     "off": -15.74,
+     "def": -11.99,
+     "ovr_rank": 232,
+     "class_rank": 45,
+     "slug": "marshall",
+     "logo": "https://raw.githubusercontent.com/AllMOSports/All_MO_Sports-Data/main/logos_main2/marshall.png",
+     "reach": [
+      0.0602,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+     ],
+     "reach_display": [
+      "6%",
+      "0%",
+      "0%",
+      "0%",
+      "0%",
+      "0%"
+     ]
+    },
+    {
+     "team": "Knob Noster with Leeton",
+     "district": 5,
+     "seed": 7,
+     "bye": false,
+     "record": "1-8",
+     "ovr": -45.88,
+     "off": -21.75,
+     "def": -24.13,
+     "ovr_rank": 271,
+     "class_rank": 48,
+     "slug": "knob-noster",
+     "logo": "https://raw.githubusercontent.com/AllMOSports/All_MO_Sports-Data/main/logos_main2/knob-noster.png",
+     "reach": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+     ],
+     "reach_display": [
+      "0%",
+      "0%",
+      "0%",
+      "0%",
+      "0%",
+      "0%"
+     ]
+    },
+    {
+     "team": "Central (Kansas City)",
+     "district": 7,
+     "seed": 1,
+     "bye": true,
+     "record": "6-3",
+     "ovr": -30.91,
+     "off": -24.54,
+     "def": -6.37,
+     "ovr_rank": 245,
+     "class_rank": 47,
+     "slug": "central-kansas-city",
+     "logo": "https://raw.githubusercontent.com/AllMOSports/All_MO_Sports-Data/main/logos_main2/central-kansas-city.png",
+     "reach": [
+      1.0,
+      0.0032,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+     ],
+     "reach_display": [
+      ">99%",
+      "<1%",
+      "0%",
+      "0%",
+      "0%",
+      "0%"
+     ]
+    },
+    {
+     "team": "East (Kansas City)",
+     "district": 7,
+     "seed": 7,
+     "bye": false,
+     "record": "1-8",
+     "ovr": -84.35,
+     "off": -40.27,
+     "def": -44.07,
+     "ovr_rank": 299,
+     "class_rank": 54,
+     "slug": "east-kansas-city",
+     "logo": "https://raw.githubusercontent.com/AllMOSports/All_MO_Sports-Data/main/logos_main2/east-kansas-city.png",
+     "reach": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+     ],
+     "reach_display": [
+      "0%",
+      "0%",
+      "0%",
+      "0%",
+      "0%",
+      "0%"
+     ]
+    },
+    {
+     "team": "Benton",
+     "district": 8,
+     "seed": 4,
+     "bye": false,
+     "record": "5-4",
+     "ovr": 2.26,
+     "off": 2.88,
+     "def": -0.62,
+     "ovr_rank": 136,
+     "class_rank": 28,
+     "slug": "benton",
+     "logo": "https://raw.githubusercontent.com/AllMOSports/All_MO_Sports-Data/main/logos_main2/benton.png",
+     "reach": [
+      0.6808,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+     ],
+     "reach_display": [
+      "68%",
+      "0%",
+      "0%",
+      "0%",
+      "0%",
+      "0%"
+     ]
+    },
+    {
+     "team": "Van Horn",
+     "district": 8,
+     "seed": 5,
+     "bye": false,
+     "record": "4-5",
+     "ovr": -5.69,
+     "off": -6.07,
+     "def": 0.38,
+     "ovr_rank": 164,
+     "class_rank": 35,
+     "slug": "van-horn",
+     "logo": "https://raw.githubusercontent.com/AllMOSports/All_MO_Sports-Data/main/logos_main2/van-horn.png",
+     "reach": [
+      0.3191,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+     ],
+     "reach_display": [
+      "32%",
+      "0%",
+      "0%",
+      "0%",
+      "0%",
+      "0%"
+     ]
+    },
+    {
+     "team": "Northeast (Kansas City)",
+     "district": 8,
+     "seed": 6,
+     "bye": false,
+     "record": "2-7",
+     "ovr": -57.81,
+     "off": -29.56,
+     "def": -28.25,
+     "ovr_rank": 287,
+     "class_rank": 53,
+     "slug": "northeast-kansas-city",
+     "logo": "https://raw.githubusercontent.com/AllMOSports/All_MO_Sports-Data/main/logos_main2/northeast-kansas-city.png",
+     "reach": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+     ],
+     "reach_display": [
+      "0%",
+      "0%",
+      "0%",
+      "0%",
+      "0%",
+      "0%"
+     ]
+    },
+    {
+     "team": "Excelsior Springs",
+     "district": 8,
+     "seed": 7,
+     "bye": false,
+     "record": "2-7",
+     "ovr": -17.03,
+     "off": -15.43,
+     "def": -1.6,
+     "ovr_rank": 201,
+     "class_rank": 41,
+     "slug": "excelsior-springs",
+     "logo": "https://raw.githubusercontent.com/AllMOSports/All_MO_Sports-Data/main/logos_main2/excelsior-springs.png",
+     "reach": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+     ],
+     "reach_display": [
+      "0%",
+      "0%",
+      "0%",
+      "0%",
+      "0%",
+      "0%"
+     ]
+    }
+   ]
+  },
+  "5": {
+   "class": 5,
+   "state_bracket_order": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8
+   ],
+   "districts": {
+    "1": {
+     "seeds": [
+      "Farmington",
+      "Fox",
+      "St. Mary's South Side",
+      "Central (Cape Girardeau)",
+      "Poplar Bluff",
+      "Mehlville"
+     ],
+     "seed_status": "final"
+    },
+    "2": {
+     "seeds": [
+      "Eureka",
+      "Rockwood Summit",
+      "Parkway West",
+      "Parkway South",
+      "Webster Groves",
+      "Washington",
+      "Parkway Central"
+     ],
+     "seed_status": "final"
+    },
+    "3": {
+     "seeds": [
+      "Ladue Horton Watkins",
+      "Chaminade College Prep",
+      "McCluer North",
+      "Cardinal Ritter",
+      "McCluer",
+      "Hazelwood East",
+      "Hazelwood Central"
+     ],
+     "seed_status": "final"
+    },
+    "4": {
+     "seeds": [
+      "Timberland",
+      "Ft. Zumwalt North",
+      "St. Dominic",
+      "Ft. Zumwalt East",
+      "Ft. Zumwalt South",
+      "North Point"
+     ],
+     "seed_status": "final"
+    },
+    "5": {
+     "seeds": [
+      "Helias Catholic",
+      "Camdenton",
+      "West Plains",
+      "Glendale",
+      "Rolla",
+      "Jefferson City",
+      "Lebanon"
+     ],
+     "seed_status": "final"
+    },
+    "6": {
+     "seeds": [
+      "Republic",
+      "Neosho",
+      "Branson",
+      "Carthage",
+      "Webb City",
+      "Willard",
+      "Parkview"
+     ],
+     "seed_status": "final"
+    },
+    "7": {
+     "seeds": [
+      "Grain Valley",
+      "Smith-Cotton",
+      "Grandview",
+      "Belton",
+      "Capital City",
+      "Ruskin",
+      "Battle"
+     ],
+     "seed_status": "final"
+    },
+    "8": {
+     "seeds": [
+      "Platte County",
+      "Fort Osage",
+      "Raytown",
+      "Winnetonka",
+      "Lincoln College Prep",
+      "William Chrisman",
+      "Truman"
+     ],
+     "seed_status": "final"
+    }
+   },
+   "teams": [
+    {
+     "team": "Platte County",
+     "district": 8,
+     "seed": 1,
+     "bye": true,
+     "record": "7-2",
+     "ovr": 49.95,
+     "off": 20.18,
+     "def": 29.78,
+     "ovr_rank": 18,
+     "class_rank": 3,
+     "slug": "platte-county",
+     "logo": "https://raw.githubusercontent.com/AllMOSports/All_MO_Sports-Data/main/logos_main2/platte-county.png",
+     "reach": [
+      1.0,
+      0.9986,
+      0.8286,
+      0.6595,
+      0.3489,
+      0.2085
+     ],
+     "reach_display": [
+      ">99%",
+      ">99%",
+      "83%",
+      "66%",
+      "35%",
+      "21%"
+     ]
+    },
+    {
+     "team": "Cardinal Ritter",
+     "district": 3,
+     "seed": 4,
+     "bye": false,
+     "record": "4-5",
+     "ovr": 48.43,
+     "off": 24.17,
+     "def": 24.26,
+     "ovr_rank": 21,
+     "class_rank": 5,
+     "slug": "cardinal-ritter",
+     "logo": "https://raw.githubusercontent.com/AllMOSports/All_MO_Sports-Data/main/logos_main2/cardinal-ritter.png",
+     "reach": [
+      1.0,
+      0.8489,
+      0.6777,
+      0.6564,
+      0.3952,
+      0.194
+     ],
+     "reach_display": [
+      ">99%",
+      "85%",
+      "68%",
+      "66%",
+      "40%",
+      "19%"
+     ]
+    },
+    {
+     "team": "Farmington",
+     "district": 1,
+     "seed": 1,
+     "bye": true,
+     "record": "8-1",
+     "ovr": 48.56,
+     "off": 25.21,
+     "def": 23.35,
+     "ovr_rank": 20,
+     "class_rank": 4,
+     "slug": "farmington",
+     "logo": "https://raw.githubusercontent.com/AllMOSports/All_MO_Sports-Data/main/logos_main2/farmington.png",
+     "reach": [
+      1.0,
+      0.9913,
+      0.8037,
+      0.6327,
+      0.392,
+      0.1916
+     ],
+     "reach_display": [
+      ">99%",
+      "99%",
+      "80%",
+      "63%",
+      "39%",
+      "19%"
+     ]
+    },
+    {
+     "team": "Republic",
+     "district": 6,
+     "seed": 1,
+     "bye": true,
+     "record": "8-1",
+     "ovr": 53.28,
+     "off": 24.62,
+     "def": 28.66,
+     "ovr_rank": 13,
+     "class_rank": 1,
+     "slug": "republic",
+     "logo": "https://raw.githubusercontent.com/AllMOSports/All_MO_Sports-Data/main/logos_main2/republic.png",
+     "reach": [
+      1.0,
+      0.5886,
+      0.4237,
+      0.3094,
+      0.2061,
+      0.1391
+     ],
+     "reach_display": [
+      ">99%",
+      "59%",
+      "42%",
+      "31%",
+      "21%",
+      "14%"
+     ]
+    },
+    {
+     "team": "Helias Catholic",
+     "district": 5,
+     "seed": 1,
+     "bye": true,
+     "record": "9-0",
+     "ovr": 45.87,
+     "off": 19.89,
+     "def": 25.99,
+     "ovr_rank": 23,
+     "class_rank": 6,
+     "slug": "helias-catholic",
+     "logo": "https://raw.githubusercontent.com/AllMOSports/All_MO_Sports-Data/main/logos_main2/helias-catholic.png",
+     "reach": [
+      1.0,
+      0.9042,
+      0.7996,
+      0.3191,
+      0.162,
+      0.0819
+     ],
+     "reach_display": [
+      ">99%",
+      "90%",
+      "80%",
+      "32%",
+      "16%",
+      "8%"
+     ]
+    },
+    {
+     "team": "Carthage",
+     "district": 6,
+     "seed": 4,
+     "bye": false,
+     "record": "6-3",
+     "ovr": 51.98,
+     "off": 28.18,
+     "def": 23.8,
+     "ovr_rank": 15,
+     "class_rank": 2,
+     "slug": "carthage",
+     "logo": "https://raw.githubusercontent.com/AllMOSports/All_MO_Sports-Data/main/logos_main2/carthage.png",
+     "reach": [
+      0.7237,
+      0.3434,
+      0.2403,
+      0.172,
+      0.1109,
+      0.0703
+     ],
+     "reach_display": [
+      "72%",
+      "34%",
+      "24%",
+      "17%",
+      "11%",
+      "7%"
+     ]
+    },
+    {
+     "team": "Neosho",
+     "district": 6,
+     "seed": 2,
+     "bye": false,
+     "record": "8-1",
+     "ovr": 45.85,
+     "off": 31.81,
+     "def": 14.04,
+     "ovr_rank": 24,
+     "class_rank": 7,
+     "slug": "neosho",
+     "logo": "https://raw.githubusercontent.com/AllMOSports/All_MO_Sports-Data/main/logos_main2/neosho.png",
+     "reach": [
+      1.0,
+      0.6997,
+      0.2449,
+      0.1409,
+      0.0706,
+      0.0367
+     ],
+     "reach_display": [
+      ">99%",
+      "70%",
+      "24%",
+      "14%",
+      "7%",
+      "4%"
+     ]
+    },
+    {
+     "team": "Grain Valley",
+     "district": 7,
+     "seed": 1,
+     "bye": true,
+     "record": "7-2",
+     "ovr": 38.12,
+     "off": 20.61,
+     "def": 17.51,
+     "ovr_rank": 32,
+     "class_rank": 9,
+     "slug": "grain-valley",
+     "logo": "https://raw.githubusercontent.com/AllMOSports/All_MO_Sports-Data/main/logos_main2/grain-valley.png",
+     "reach": [
+      1.0,
+      0.9586,
+      0.8866,
+      0.2559,
+      0.0673,
+      0.0215
+     ],
+     "reach_display": [
+      ">99%",
+      "96%",
+      "89%",
+      "26%",
+      "7%",
+      "2%"
+     ]
+    },
+    {
+     "team": "Eureka",
+     "district": 2,
+     "seed": 1,
+     "bye": true,
+     "record": "7-2",
+     "ovr": 37.81,
+     "off": 22.34,
+     "def": 15.47,
+     "ovr_rank": 33,
+     "class_rank": 10,
+     "slug": "eureka",
+     "logo": "https://raw.githubusercontent.com/AllMOSports/All_MO_Sports-Data/main/logos_main2/eureka.png",
+     "reach": [
+      1.0,
+      0.9946,
+      0.7056,
+      0.2235,
+      0.0857,
+      0.0212
+     ],
+     "reach_display": [
+      ">99%",
+      "99%",
+      "71%",
+      "22%",
+      "9%",
+      "2%"
+     ]
+    },
+    {
+     "team": "Chaminade College Prep",
+     "district": 3,
+     "seed": 2,
+     "bye": false,
+     "record": "6-3",
+     "ovr": 35.05,
+     "off": 20.19,
+     "def": 14.86,
+     "ovr_rank": 42,
+     "class_rank": 14,
+     "slug": "chaminade-college-prep",
+     "logo": "https://raw.githubusercontent.com/AllMOSports/All_MO_Sports-Data/main/logos_main2/chaminade-college-prep.png",
+     "reach": [
+      0.9998,
+      0.9929,
+      0.26,
+      0.2216,
+      0.0681,
+      0.0145
+     ],
+     "reach_display": [
+      ">99%",
+      "99%",
+      "26%",
+      "22%",
+      "7%",
+      "1%"
+     ]
+    },
+    {
+     "team": "St. Mary's South Side",
+     "district": 1,
+     "seed": 3,
+     "bye": false,
+     "record": "6-3",
+     "ovr": 35.51,
+     "off": 11.65,
+     "def": 23.86,
+     "ovr_rank": 39,
+     "class_rank": 12,
+     "slug": "st-marys-south-side",
+     "logo": "https://raw.githubusercontent.com/AllMOSports/All_MO_Sports-Data/main/logos_main2/st-marys-south-side.png",
+     "reach": [
+      1.0,
+      0.9069,
+      0.1941,
+      0.0982,
+      0.0312,
+      0.0077
+     ],
+     "reach_display": [
+      ">99%",
+      "91%",
+      "19%",
+      "10%",
+      "3%",
+      "1%"
+     ]
+    },
+    {
+     "team": "Fort Osage",
+     "district": 8,
+     "seed": 2,
+     "bye": false,
+     "record": "4-5",
+     "ovr": 35.38,
+     "off": 16.44,
+     "def": 18.94,
+     "ovr_rank": 41,
+     "class_rank": 13,
+     "slug": "fort-osage",
+     "logo": "https://raw.githubusercontent.com/AllMOSports/All_MO_Sports-Data/main/logos_main2/fort-osage.png",
+     "reach": [
+      1.0,
+      0.9138,
+      0.1704,
+      0.0804,
+      0.0163,
+      0.0049
+     ],
+     "reach_display": [
+      ">99%",
+      "91%",
+      "17%",
+      "8%",
+      "2%",
+      "<1%"
+     ]
+    },
+    {
+     "team": "Webb City",
+     "district": 6,
+     "seed": 5,
+     "bye": false,
+     "record": "6-3",
+     "ovr": 42.54,
+     "off": 19.08,
+     "def": 23.46,
+     "ovr_rank": 27,
+     "class_rank": 8,
+     "slug": "webb-city",
+     "logo": "https://raw.githubusercontent.com/AllMOSports/All_MO_Sports-Data/main/logos_main2/webb-city.png",
+     "reach": [
+      0.2763,
+      0.068,
+      0.0345,
+      0.0177,
+      0.007,
+      0.0027
+     ],
+     "reach_display": [
+      "28%",
+      "7%",
+      "3%",
+      "2%",
+      "1%",
+      "<1%"
+     ]
+    },
+    {
+     "team": "Branson",
+     "district": 6,
+     "seed": 3,
+     "bye": false,
+     "record": "8-1",
+     "ovr": 37.65,
+     "off": 19.77,
+     "def": 17.88,
+     "ovr_rank": 34,
+     "class_rank": 11,
+     "slug": "branson",
+     "logo": "https://raw.githubusercontent.com/AllMOSports/All_MO_Sports-Data/main/logos_main2/branson.png",
+     "reach": [
+      0.9951,
+      0.3003,
+      0.0566,
+      0.0228,
+      0.0076,
+      0.0021
+     ],
+     "reach_display": [
+      ">99%",
+      "30%",
+      "6%",
+      "2%",
+      "1%",
+      "<1%"
+     ]
+    },
+    {
+     "team": "Ladue Horton Watkins",
+     "district": 3,
+     "seed": 1,
+     "bye": true,
+     "record": "9-0",
+     "ovr": 31.85,
+     "off": 17.71,
+     "def": 14.14,
+     "ovr_rank": 46,
+     "class_rank": 15,
+     "slug": "ladue-horton-watkins",
+     "logo": "https://raw.githubusercontent.com/AllMOSports/All_MO_Sports-Data/main/logos_main2/ladue-horton-watkins.png",
+     "reach": [
+      1.0,
+      0.151,
+      0.0623,
+      0.0503,
+      0.0116,
+      0.0015
+     ],
+     "reach_display": [
+      ">99%",
+      "15%",
+      "6%",
+      "5%",
+      "1%",
+      "<1%"
+     ]
+    },
+    {
+     "team": "Rockwood Summit",
+     "district": 2,
+     "seed": 2,
+     "bye": false,
+     "record": "5-4",
+     "ovr": 30.28,
+     "off": 11.55,
+     "def": 18.74,
+     "ovr_rank": 51,
+     "class_rank": 16,
+     "slug": "rockwood-summit",
+     "logo": "https://raw.githubusercontent.com/AllMOSports/All_MO_Sports-Data/main/logos_main2/rockwood-summit.png",
+     "reach": [
+      1.0,
+      0.8754,
+      0.2864,
+      0.0452,
+      0.0107,
+      0.0014
+     ],
+     "reach_display": [
+      ">99%",
+      "88%",
+      "29%",
+      "5%",
+      "1%",
+      "<1%"
+     ]
+    },
+    {
+     "team": "Camdenton",
+     "district": 5,
+     "seed": 2,
+     "bye": false,
+     "record": "7-2",
+     "ovr": 29.97,
+     "off": 14.27,
+     "def": 15.7,
+     "ovr_rank": 54,
+     "class_rank": 17,
+     "slug": "camdenton",
+     "logo": "https://raw.githubusercontent.com/AllMOSports/All_MO_Sports-Data/main/logos_main2/camdenton.png",
+     "reach": [
+      0.7665,
+      0.5564,
+      0.1136,
+      0.0131,
+      0.0027,
+      0.0003
+     ],
+     "reach_display": [
+      "77%",
+      "56%",
+      "11%",
+      "1%",
+      "<1%",
+      "<1%"
+     ]
+    },
+    {
+     "team": "St. Dominic",
+     "district": 4,
+     "seed": 3,
+     "bye": false,
+     "record": "6-3",
+     "ovr": 19.68,
+     "off": 3.57,
+     "def": 16.11,
+     "ovr_rank": 78,
+     "class_rank": 21,
+     "slug": "st-dominic",
+     "logo": "https://raw.githubusercontent.com/AllMOSports/All_MO_Sports-Data/main/logos_main2/st-dominic.png",
+     "reach": [
+      0.9623,
+      0.4742,
+      0.3676,
+      0.0323,
+      0.0027,
+      0.0001
+     ],
+     "reach_display": [
+      "96%",
+      "47%",
+      "37%",
+      "3%",
+      "<1%",
+      "<1%"
+     ]
+    },
+    {
+     "team": "West Plains",
+     "district": 5,
+     "seed": 3,
+     "bye": false,
+     "record": "7-2",
+     "ovr": 22.76,
+     "off": 7.44,
+     "def": 15.32,
+     "ovr_rank": 65,
+     "class_rank": 19,
+     "slug": "west-plains",
+     "logo": "https://raw.githubusercontent.com/AllMOSports/All_MO_Sports-Data/main/logos_main2/west-plains.png",
+     "reach": [
+      0.7463,
+      0.2932,
+      0.0294,
+      0.0015,
+      0.0002,
+      0.0001
+     ],
+     "reach_display": [
+      "75%",
+      "29%",
+      "3%",
+      "<1%",
+      "<1%",
+      "<1%"
+     ]
+    },
+    {
+     "team": "Ft. Zumwalt North",
+     "district": 4,
+     "seed": 2,
+     "bye": true,
+     "record": "6-3",
+     "ovr": 19.88,
+     "off": 4.68,
+     "def": 15.2,
+     "ovr_rank": 76,
+     "class_rank": 20,
+     "slug": "ft-zumwalt-north",
+     "logo": "https://raw.githubusercontent.com/AllMOSports/All_MO_Sports-Data/main/logos_main2/ft-zumwalt-north.png",
+     "reach": [
+      1.0,
+      0.5247,
+      0.4099,
+      0.0342,
+      0.0026,
+      0.0
+     ],
+     "reach_display": [
+      ">99%",
+      "52%",
+      "41%",
+      "3%",
+      "<1%",
+      "0%"
+     ]
+    },
+    {
+     "team": "Timberland",
+     "district": 4,
+     "seed": 1,
+     "bye": true,
+     "record": "7-2",
+     "ovr": 8.25,
+     "off": 10.69,
+     "def": -2.45,
+     "ovr_rank": 111,
+     "class_rank": 31,
+     "slug": "timberland",
+     "logo": "https://raw.githubusercontent.com/AllMOSports/All_MO_Sports-Data/main/logos_main2/timberland.png",
+     "reach": [
+      1.0,
+      0.9227,
+      0.2209,
+      0.0052,
+      0.0003,
+      0.0
+     ],
+     "reach_display": [
+      ">99%",
+      "92%",
+      "22%",
+      "1%",
+      "<1%",
+      "0%"
+     ]
+    },
+    {
+     "team": "Glendale",
+     "district": 5,
+     "seed": 4,
+     "bye": false,
+     "record": "5-4",
+     "ovr": 27.04,
+     "off": 15.59,
+     "def": 11.45,
+     "ovr_rank": 58,
+     "class_rank": 18,
+     "slug": "glendale",
+     "logo": "https://raw.githubusercontent.com/AllMOSports/All_MO_Sports-Data/main/logos_main2/glendale.png",
+     "reach": [
+      0.7279,
+      0.0841,
+      0.0449,
+      0.0034,
+      0.0003,
+      0.0
+     ],
+     "reach_display": [
+      "73%",
+      "8%",
+      "4%",
+      "<1%",
+      "<1%",
+      "0%"
+     ]
+    },
+    {
+     "team": "Smith-Cotton",
+     "district": 7,
+     "seed": 2,
+     "bye": false,
+     "record": "4-5",
+     "ovr": 15.34,
+     "off": 6.09,
+     "def": 9.25,
+     "ovr_rank": 87,
+     "class_rank": 24,
+     "slug": "smith-cotton",
+     "logo": "https://raw.githubusercontent.com/AllMOSports/All_MO_Sports-Data/main/logos_main2/smith-cotton.png",
+     "reach": [
+      0.9979,
+      0.9736,
+      0.0963,
+      0.0036,
+      0.0001,
+      0.0
+     ],
+     "reach_display": [
+      ">99%",
+      "97%",
+      "10%",
+      "<1%",
+      "<1%",
+      "0%"
+     ]
+    },
+    {
+     "team": "Capital City",
+     "district": 7,
+     "seed": 5,
+     "bye": false,
+     "record": "2-7",
+     "ovr": 11.97,
+     "off": 3.01,
+     "def": 8.97,
+     "ovr_rank": 99,
+     "class_rank": 29,
+     "slug": "capital-city",
+     "logo": "https://raw.githubusercontent.com/AllMOSports/All_MO_Sports-Data/main/logos_main2/capital-city.png",
+     "reach": [
+      0.6644,
+      0.035,
+      0.0154,
+      0.0004,
+      0.0,
+      0.0
+     ],
+     "reach_display": [
+      "66%",
+      "4%",
+      "2%",
+      "<1%",
+      "0%",
+      "0%"
+     ]
+    },
+    {
+     "team": "Lebanon",
+     "district": 5,
+     "seed": 7,
+     "bye": false,
+     "record": "3-6",
+     "ovr": 18.4,
+     "off": 15.02,
+     "def": 3.38,
+     "ovr_rank": 81,
+     "class_rank": 22,
+     "slug": "lebanon",
+     "logo": "https://raw.githubusercontent.com/AllMOSports/All_MO_Sports-Data/main/logos_main2/lebanon.png",
+     "reach": [
+      0.2334,
+      0.1048,
+      0.0071,
+      0.0002,
+      0.0,
+      0.0
+     ],
+     "reach_display": [
+      "23%",
+      "10%",
+      "1%",
+      "<1%",
+      "0%",
+      "0%"
+     ]
+    },
+    {
+     "team": "Fox",
+     "district": 1,
+     "seed": 2,
+     "bye": true,
+     "record": "5-4",
+     "ovr": 14.24,
+     "off": 3.92,
+     "def": 10.31,
+     "ovr_rank": 92,
+     "class_rank": 26,
+     "slug": "fox",
+     "logo": "https://raw.githubusercontent.com/AllMOSports/All_MO_Sports-Data/main/logos_main2/fox.png",
+     "reach": [
+      1.0,
+      0.0931,
+      0.0019,
+      0.0002,
+      0.0,
+      0.0
+     ],
+     "reach_display": [
+      ">99%",
+      "9%",
+      "<1%",
+      "<1%",
+      "0%",
+      "0%"
+     ]
+    },
+    {
+     "team": "Parkway West",
+     "district": 2,
+     "seed": 3,
+     "bye": false,
+     "record": "6-3",
+     "ovr": 13.6,
+     "off": 4.27,
+     "def": 9.34,
+     "ovr_rank": 96,
+     "class_rank": 27,
+     "slug": "parkway-west",
+     "logo": "https://raw.githubusercontent.com/AllMOSports/All_MO_Sports-Data/main/logos_main2/parkway-west.png",
+     "reach": [
+      0.7826,
+      0.1188,
+      0.0077,
+      0.0001,
+      0.0,
+      0.0
+     ],
+     "reach_display": [
+      "78%",
+      "12%",
+      "1%",
+      "<1%",
+      "0%",
+      "0%"
+     ]
+    },
+    {
+     "team": "Rolla",
+     "district": 5,
+     "seed": 5,
+     "bye": false,
+     "record": "5-4",
+     "ovr": 17.35,
+     "off": 11.67,
+     "def": 5.68,
+     "ovr_rank": 84,
+     "class_rank": 23,
+     "slug": "rolla",
+     "logo": "https://raw.githubusercontent.com/AllMOSports/All_MO_Sports-Data/main/logos_main2/rolla.png",
+     "reach": [
+      0.2721,
+      0.0117,
+      0.0039,
+      0.0001,
+      0.0,
+      0.0
+     ],
+     "reach_display": [
+      "27%",
+      "1%",
+      "<1%",
+      "<1%",
+      "0%",
+      "0%"
+     ]
+    },
+    {
+     "team": "Raytown",
+     "district": 8,
+     "seed": 3,
+     "bye": false,
+     "record": "6-3",
+     "ovr": 15.01,
+     "off": 1.62,
+     "def": 13.38,
+     "ovr_rank": 88,
+     "class_rank": 25,
+     "slug": "raytown",
+     "logo": "https://raw.githubusercontent.com/AllMOSports/All_MO_Sports-Data/main/logos_main2/raytown.png",
+     "reach": [
+      0.7933,
+      0.0822,
+      0.0011,
+      0.0001,
+      0.0,
+      0.0
+     ],
+     "reach_display": [
+      "79%",
+      "8%",
+      "<1%",
+      "<1%",
+      "0%",
+      "0%"
+     ]
+    },
+    {
+     "team": "Belton",
+     "district": 7,
+     "seed": 4,
+     "bye": false,
+     "record": "4-5",
+     "ovr": 5.04,
+     "off": 5.27,
+     "def": -0.23,
+     "ovr_rank": 124,
+     "class_rank": 32,
+     "slug": "belton",
+     "logo": "https://raw.githubusercontent.com/AllMOSports/All_MO_Sports-Data/main/logos_main2/belton.png",
+     "reach": [
+      0.3356,
+      0.0063,
+      0.0018,
+      0.0,
+      0.0,
+      0.0
+     ],
+     "reach_display": [
+      "34%",
+      "1%",
+      "<1%",
+      "0%",
+      "0%",
+      "0%"
+     ]
+    },
+    {
+     "team": "Jefferson City",
+     "district": 5,
+     "seed": 6,
+     "bye": false,
+     "record": "4-5",
+     "ovr": 12.08,
+     "off": 14.65,
+     "def": -2.57,
+     "ovr_rank": 98,
+     "class_rank": 28,
+     "slug": "jefferson-city",
+     "logo": "https://raw.githubusercontent.com/AllMOSports/All_MO_Sports-Data/main/logos_main2/jefferson-city.png",
+     "reach": [
+      0.2537,
+      0.0457,
+      0.0014,
+      0.0,
+      0.0,
+      0.0
+     ],
+     "reach_display": [
+      "25%",
+      "5%",
+      "<1%",
+      "0%",
+      "0%",
+      "0%"
+     ]
+    },
+    {
+     "team": "Ft. Zumwalt East",
+     "district": 4,
+     "seed": 4,
+     "bye": false,
+     "record": "3-6",
+     "ovr": -13.6,
+     "off": -4.26,
+     "def": -9.34,
+     "ovr_rank": 184,
+     "class_rank": 42,
+     "slug": "ft-zumwalt-east",
+     "logo": "https://raw.githubusercontent.com/AllMOSports/All_MO_Sports-Data/main/logos_main2/ft-zumwalt-east.png",
+     "reach": [
+      0.5343,
+      0.0439,
+      0.0008,
+      0.0,
+      0.0,
+      0.0
+     ],
+     "reach_display": [
+      "53%",
+      "4%",
+      "<1%",
+      "0%",
+      "0%",
+      "0%"
+     ]
+    },
+    {
+     "team": "Ft. Zumwalt South",
+     "district": 4,
+     "seed": 5,
+     "bye": false,
+     "record": "2-7",
+     "ovr": -15.19,
+     "off": -11.74,
+     "def": -3.45,
+     "ovr_rank": 191,
+     "class_rank": 44,
+     "slug": "ft-zumwalt-south",
+     "logo": "https://raw.githubusercontent.com/AllMOSports/All_MO_Sports-Data/main/logos_main2/ft-zumwalt-south.png",
+     "reach": [
+      0.4657,
+      0.0335,
+      0.0006,
+      0.0,
+      0.0,
+      0.0
+     ],
+     "reach_display": [
+      "47%",
+      "3%",
+      "<1%",
+      "0%",
+      "0%",
+      "0%"
+     ]
+    },
+    {
+     "team": "Central (Cape Girardeau)",
+     "district": 1,
+     "seed": 4,
+     "bye": false,
+     "record": "4-5",
+     "ovr": 11.17,
+     "off": 3.82,
+     "def": 7.35,
+     "ovr_rank": 101,
+     "class_rank": 30,
+     "slug": "central-cape-girardeau",
+     "logo": "https://raw.githubusercontent.com/AllMOSports/All_MO_Sports-Data/main/logos_main2/central-cape-girardeau.png",
+     "reach": [
+      0.7201,
+      0.0082,
+      0.0003,
+      0.0,
+      0.0,
+      0.0
+     ],
+     "reach_display": [
+      "72%",
+      "1%",
+      "<1%",
+      "0%",
+      "0%",
+      "0%"
+     ]
+    },
+    {
+     "team": "North Point",
+     "district": 4,
+     "seed": 6,
+     "bye": false,
+     "record": "1-8",
+     "ovr": -8.42,
+     "off": 2.21,
+     "def": -10.63,
+     "ovr_rank": 171,
+     "class_rank": 40,
+     "slug": "north-point",
+     "logo": "https://raw.githubusercontent.com/AllMOSports/All_MO_Sports-Data/main/logos_main2/north-point.png",
+     "reach": [
+      0.0377,
+      0.0011,
+      0.0003,
+      0.0,
+      0.0,
+      0.0
+     ],
+     "reach_display": [
+      "4%",
+      "<1%",
+      "<1%",
+      "0%",
+      "0%",
+      "0%"
+     ]
+    },
+    {
+     "team": "Parkway South",
+     "district": 2,
+     "seed": 4,
+     "bye": false,
+     "record": "6-3",
+     "ovr": -1.66,
+     "off": 1.98,
+     "def": -3.63,
+     "ovr_rank": 153,
+     "class_rank": 37,
+     "slug": "parkway-south",
+     "logo": "https://raw.githubusercontent.com/AllMOSports/All_MO_Sports-Data/main/logos_main2/parkway-south.png",
+     "reach": [
+      0.9574,
+      0.0054,
+      0.0002,
+      0.0,
+      0.0,
+      0.0
+     ],
+     "reach_display": [
+      "96%",
+      "1%",
+      "<1%",
+      "0%",
+      "0%",
+      "0%"
+     ]
+    },
+    {
+     "team": "Washington",
+     "district": 2,
+     "seed": 6,
+     "bye": false,
+     "record": "3-6",
+     "ovr": 0.91,
+     "off": 2.0,
+     "def": -1.09,
+     "ovr_rank": 143,
+     "class_rank": 36,
+     "slug": "washington",
+     "logo": "https://raw.githubusercontent.com/AllMOSports/All_MO_Sports-Data/main/logos_main2/washington.png",
+     "reach": [
+      0.2173,
+      0.0057,
+      0.0001,
+      0.0,
+      0.0,
+      0.0
+     ],
+     "reach_display": [
+      "22%",
+      "1%",
+      "<1%",
+      "0%",
+      "0%",
+      "0%"
+     ]
+    },
+    {
+     "team": "Poplar Bluff",
+     "district": 1,
+     "seed": 5,
+     "bye": false,
+     "record": "2-7",
+     "ovr": 1.77,
+     "off": -2.28,
+     "def": 4.05,
+     "ovr_rank": 141,
+     "class_rank": 35,
+     "slug": "poplar-bluff",
+     "logo": "https://raw.githubusercontent.com/AllMOSports/All_MO_Sports-Data/main/logos_main2/poplar-bluff.png",
+     "reach": [
+      0.2798,
+      0.0005,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+     ],
+     "reach_display": [
+      "28%",
+      "<1%",
+      "0%",
+      "0%",
+      "0%",
+      "0%"
+     ]
+    },
+    {
+     "team": "Mehlville",
+     "district": 1,
+     "seed": 6,
+     "bye": false,
+     "record": "0-9",
+     "ovr": -37.13,
+     "off": -17.6,
+     "def": -19.53,
+     "ovr_rank": 255,
+     "class_rank": 53,
+     "slug": "mehlville",
+     "logo": "https://raw.githubusercontent.com/AllMOSports/All_MO_Sports-Data/main/logos_main2/mehlville.png",
+     "reach": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+     ],
+     "reach_display": [
+      "0%",
+      "0%",
+      "0%",
+      "0%",
+      "0%",
+      "0%"
+     ]
+    },
+    {
+     "team": "Webster Groves",
+     "district": 2,
+     "seed": 5,
+     "bye": false,
+     "record": "3-5",
+     "ovr": -29.19,
+     "off": -20.4,
+     "def": -8.79,
+     "ovr_rank": 237,
+     "class_rank": 51,
+     "slug": "webster-groves",
+     "logo": "https://raw.githubusercontent.com/AllMOSports/All_MO_Sports-Data/main/logos_main2/webster-groves.png",
+     "reach": [
+      0.0427,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+     ],
+     "reach_display": [
+      "4%",
+      "0%",
+      "0%",
+      "0%",
+      "0%",
+      "0%"
+     ]
+    },
+    {
+     "team": "Parkway Central",
+     "district": 2,
+     "seed": 7,
+     "bye": false,
+     "record": "0-9",
+     "ovr": -29.06,
+     "off": -13.26,
+     "def": -15.81,
+     "ovr_rank": 236,
+     "class_rank": 50,
+     "slug": "parkway-central",
+     "logo": "https://raw.githubusercontent.com/AllMOSports/All_MO_Sports-Data/main/logos_main2/parkway-central.png",
+     "reach": [
+      0.0001,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+     ],
+     "reach_display": [
+      "<1%",
+      "0%",
+      "0%",
+      "0%",
+      "0%",
+      "0%"
+     ]
+    },
+    {
+     "team": "McCluer North",
+     "district": 3,
+     "seed": 3,
+     "bye": false,
+     "record": "6-3",
+     "ovr": -8.81,
+     "off": -7.06,
+     "def": -1.76,
+     "ovr_rank": 174,
+     "class_rank": 41,
+     "slug": "mccluer-north",
+     "logo": "https://raw.githubusercontent.com/AllMOSports/All_MO_Sports-Data/main/logos_main2/mccluer-north.png",
+     "reach": [
+      0.364,
+      0.0013,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+     ],
+     "reach_display": [
+      "36%",
+      "<1%",
+      "0%",
+      "0%",
+      "0%",
+      "0%"
+     ]
+    },
+    {
+     "team": "McCluer",
+     "district": 3,
+     "seed": 5,
+     "bye": false,
+     "record": "3-6",
+     "ovr": -26.22,
+     "off": -19.1,
+     "def": -7.12,
+     "ovr_rank": 229,
+     "class_rank": 49,
+     "slug": "mccluer",
+     "logo": "https://raw.githubusercontent.com/AllMOSports/All_MO_Sports-Data/main/logos_main2/mccluer.png",
+     "reach": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+     ],
+     "reach_display": [
+      "0%",
+      "0%",
+      "0%",
+      "0%",
+      "0%",
+      "0%"
+     ]
+    },
+    {
+     "team": "Hazelwood East",
+     "district": 3,
+     "seed": 6,
+     "bye": false,
+     "record": "1-8",
+     "ovr": -3.19,
+     "off": -6.88,
+     "def": 3.69,
+     "ovr_rank": 159,
+     "class_rank": 39,
+     "slug": "hazelwood-east",
+     "logo": "https://raw.githubusercontent.com/AllMOSports/All_MO_Sports-Data/main/logos_main2/hazelwood-east.png",
+     "reach": [
+      0.636,
+      0.0058,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+     ],
+     "reach_display": [
+      "64%",
+      "1%",
+      "0%",
+      "0%",
+      "0%",
+      "0%"
+     ]
+    },
+    {
+     "team": "Hazelwood Central",
+     "district": 3,
+     "seed": 7,
+     "bye": false,
+     "record": "1-8",
+     "ovr": -20.98,
+     "off": -13.15,
+     "def": -7.82,
+     "ovr_rank": 213,
+     "class_rank": 47,
+     "slug": "hazelwood-central",
+     "logo": "https://raw.githubusercontent.com/AllMOSports/All_MO_Sports-Data/main/logos_main2/hazelwood-central.png",
+     "reach": [
+      0.0002,
+      0.0001,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+     ],
+     "reach_display": [
+      "<1%",
+      "<1%",
+      "0%",
+      "0%",
+      "0%",
+      "0%"
+     ]
+    },
+    {
+     "team": "Willard",
+     "district": 6,
+     "seed": 6,
+     "bye": false,
+     "record": "1-8",
+     "ovr": -2.95,
+     "off": -0.06,
+     "def": -2.89,
+     "ovr_rank": 157,
+     "class_rank": 38,
+     "slug": "willard",
+     "logo": "https://raw.githubusercontent.com/AllMOSports/All_MO_Sports-Data/main/logos_main2/willard.png",
+     "reach": [
+      0.0049,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+     ],
+     "reach_display": [
+      "<1%",
+      "0%",
+      "0%",
+      "0%",
+      "0%",
+      "0%"
+     ]
+    },
+    {
+     "team": "Parkview",
+     "district": 6,
+     "seed": 7,
+     "bye": false,
+     "record": "0-9",
+     "ovr": -20.03,
+     "off": -8.68,
+     "def": -11.35,
+     "ovr_rank": 210,
+     "class_rank": 46,
+     "slug": "parkview",
+     "logo": "https://raw.githubusercontent.com/AllMOSports/All_MO_Sports-Data/main/logos_main2/parkview.png",
+     "reach": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+     ],
+     "reach_display": [
+      "0%",
+      "0%",
+      "0%",
+      "0%",
+      "0%",
+      "0%"
+     ]
+    },
+    {
+     "team": "Grandview",
+     "district": 7,
+     "seed": 3,
+     "bye": false,
+     "record": "4-5",
+     "ovr": -14.68,
+     "off": -5.75,
+     "def": -8.94,
+     "ovr_rank": 189,
+     "class_rank": 43,
+     "slug": "grandview",
+     "logo": "https://raw.githubusercontent.com/AllMOSports/All_MO_Sports-Data/main/logos_main2/grandview.png",
+     "reach": [
+      0.7518,
+      0.0251,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+     ],
+     "reach_display": [
+      "75%",
+      "3%",
+      "0%",
+      "0%",
+      "0%",
+      "0%"
+     ]
+    },
+    {
+     "team": "Ruskin",
+     "district": 7,
+     "seed": 6,
+     "bye": false,
+     "record": "2-7",
+     "ovr": -25.59,
+     "off": -12.01,
+     "def": -13.58,
+     "ovr_rank": 228,
+     "class_rank": 48,
+     "slug": "ruskin",
+     "logo": "https://raw.githubusercontent.com/AllMOSports/All_MO_Sports-Data/main/logos_main2/ruskin.png",
+     "reach": [
+      0.2482,
+      0.0008,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+     ],
+     "reach_display": [
+      "25%",
+      "<1%",
+      "0%",
+      "0%",
+      "0%",
+      "0%"
+     ]
+    },
+    {
+     "team": "Battle",
+     "district": 7,
+     "seed": 7,
+     "bye": false,
+     "record": "0-9",
+     "ovr": -30.01,
+     "off": -15.88,
+     "def": -14.13,
+     "ovr_rank": 240,
+     "class_rank": 52,
+     "slug": "battle",
+     "logo": "https://raw.githubusercontent.com/AllMOSports/All_MO_Sports-Data/main/logos_main2/battle.png",
+     "reach": [
+      0.0021,
+      0.0004,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+     ],
+     "reach_display": [
+      "<1%",
+      "<1%",
+      "0%",
+      "0%",
+      "0%",
+      "0%"
+     ]
+    },
+    {
+     "team": "Winnetonka",
+     "district": 8,
+     "seed": 4,
+     "bye": false,
+     "record": "4-5",
+     "ovr": 2.93,
+     "off": 6.88,
+     "def": -3.95,
+     "ovr_rank": 131,
+     "class_rank": 33,
+     "slug": "winnetonka",
+     "logo": "https://raw.githubusercontent.com/AllMOSports/All_MO_Sports-Data/main/logos_main2/winnetonka.png",
+     "reach": [
+      0.8935,
+      0.0014,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+     ],
+     "reach_display": [
+      "89%",
+      "<1%",
+      "0%",
+      "0%",
+      "0%",
+      "0%"
+     ]
+    },
+    {
+     "team": "Lincoln College Prep",
+     "district": 8,
+     "seed": 5,
+     "bye": false,
+     "record": "3-6",
+     "ovr": -16.88,
+     "off": -13.17,
+     "def": -3.71,
+     "ovr_rank": 197,
+     "class_rank": 45,
+     "slug": "lincoln-college-prep",
+     "logo": "https://raw.githubusercontent.com/AllMOSports/All_MO_Sports-Data/main/logos_main2/lincoln-college-prep.png",
+     "reach": [
+      0.1065,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+     ],
+     "reach_display": [
+      "11%",
+      "0%",
+      "0%",
+      "0%",
+      "0%",
+      "0%"
+     ]
+    },
+    {
+     "team": "William Chrisman",
+     "district": 8,
+     "seed": 6,
+     "bye": false,
+     "record": "3-6",
+     "ovr": 2.02,
+     "off": 2.84,
+     "def": -0.82,
+     "ovr_rank": 138,
+     "class_rank": 34,
+     "slug": "william-chrisman",
+     "logo": "https://raw.githubusercontent.com/AllMOSports/All_MO_Sports-Data/main/logos_main2/william-chrisman.png",
+     "reach": [
+      0.2067,
+      0.004,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+     ],
+     "reach_display": [
+      "21%",
+      "<1%",
+      "0%",
+      "0%",
+      "0%",
+      "0%"
+     ]
+    },
+    {
+     "team": "Truman",
+     "district": 8,
+     "seed": 7,
+     "bye": false,
+     "record": "0-9",
+     "ovr": -47.17,
+     "off": -21.03,
+     "def": -26.14,
+     "ovr_rank": 273,
+     "class_rank": 54,
+     "slug": "truman",
+     "logo": "https://raw.githubusercontent.com/AllMOSports/All_MO_Sports-Data/main/logos_main2/truman.png",
+     "reach": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+     ],
+     "reach_display": [
+      "0%",
+      "0%",
+      "0%",
+      "0%",
+      "0%",
+      "0%"
+     ]
+    }
+   ]
+  },
+  "6": {
+   "class": 6,
+   "state_bracket_order": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8
+   ],
+   "districts": {
+    "1": {
+     "seeds": [
+      "Jackson",
+      "Northwest (Cedar Hill)",
+      "Seckman",
+      "Oakville",
+      "Lindbergh"
+     ],
+     "seed_status": "final"
+    },
+    "2": {
+     "seeds": [
+      "Kirkwood",
+      "Christian Brothers College",
+      "De Smet Jesuit",
+      "Marquette",
+      "Lafayette (Wildwood)"
+     ],
+     "seed_status": "final"
+    },
+    "3": {
+     "seeds": [
+      "Pattonville",
+      "SLUH",
+      "Ritenour",
+      "Hazelwood West",
+      "Francis Howell North"
+     ],
+     "seed_status": "final"
+    },
+    "4": {
+     "seeds": [
+      "Troy Buchanan",
+      "Francis Howell",
+      "Ft. Zumwalt West",
+      "Liberty (Wentzville)",
+      "Francis Howell Central"
+     ],
+     "seed_status": "final"
+    },
+    "5": {
+     "seeds": [
+      "Nixa",
+      "Ozark",
+      "Joplin",
+      "Kickapoo",
+      "Waynesville"
+     ],
+     "seed_status": "final"
+    },
+    "6": {
+     "seeds": [
+      "Blue Springs",
+      "Rock Bridge",
+      "Lee's Summit North",
+      "Hickman",
+      "Lee's Summit",
+      "Blue Springs South"
+     ],
+     "seed_status": "final"
+    },
+    "7": {
+     "seeds": [
+      "Raymore-Peculiar",
+      "North Kansas City",
+      "Rockhurst",
+      "Lee's Summit West",
+      "Park Hill South"
+     ],
+     "seed_status": "final"
+    },
+    "8": {
+     "seeds": [
+      "Liberty North",
+      "Park Hill",
+      "Oak Park",
+      "Staley",
+      "Central (St. Joseph)",
+      "Liberty"
+     ],
+     "seed_status": "final"
+    }
+   },
+   "teams": [
+    {
+     "team": "Jackson",
+     "district": 1,
+     "seed": 1,
+     "bye": true,
+     "record": "9-0",
+     "ovr": 72.96,
+     "off": 36.92,
+     "def": 36.04,
+     "ovr_rank": 1,
+     "class_rank": 1,
+     "slug": "jackson",
+     "logo": "https://raw.githubusercontent.com/AllMOSports/All_MO_Sports-Data/main/logos_main2/jackson.png",
+     "reach": [
+      1.0,
+      0.9995,
+      0.9988,
+      0.9206,
+      0.9044,
+      0.6136
+     ],
+     "reach_display": [
+      ">99%",
+      ">99%",
+      ">99%",
+      "92%",
+      "90%",
+      "61%"
+     ]
+    },
+    {
+     "team": "Blue Springs",
+     "district": 6,
+     "seed": 1,
+     "bye": true,
+     "record": "7-2",
+     "ovr": 69.37,
+     "off": 36.01,
+     "def": 33.36,
+     "ovr_rank": 3,
+     "class_rank": 2,
+     "slug": "blue-springs",
+     "logo": "https://raw.githubusercontent.com/AllMOSports/All_MO_Sports-Data/main/logos_main2/blue-springs.png",
+     "reach": [
+      1.0,
+      0.7129,
+      0.498,
+      0.3218,
+      0.1997,
+      0.0898
+     ],
+     "reach_display": [
+      ">99%",
+      "71%",
+      "50%",
+      "32%",
+      "20%",
+      "9%"
+     ]
+    },
+    {
+     "team": "Nixa",
+     "district": 5,
+     "seed": 1,
+     "bye": true,
+     "record": "8-1",
+     "ovr": 63.79,
+     "off": 34.13,
+     "def": 29.66,
+     "ovr_rank": 7,
+     "class_rank": 6,
+     "slug": "nixa",
+     "logo": "https://raw.githubusercontent.com/AllMOSports/All_MO_Sports-Data/main/logos_main2/nixa.png",
+     "reach": [
+      1.0,
+      0.9997,
+      0.9844,
+      0.4472,
+      0.2165,
+      0.0712
+     ],
+     "reach_display": [
+      ">99%",
+      ">99%",
+      "98%",
+      "45%",
+      "22%",
+      "7%"
+     ]
+    },
+    {
+     "team": "North Kansas City",
+     "district": 7,
+     "seed": 2,
+     "bye": true,
+     "record": "7-2",
+     "ovr": 67.9,
+     "off": 35.49,
+     "def": 32.41,
+     "ovr_rank": 4,
+     "class_rank": 3,
+     "slug": "north-kansas-city",
+     "logo": "https://raw.githubusercontent.com/AllMOSports/All_MO_Sports-Data/main/logos_main2/north-kansas-city.png",
+     "reach": [
+      1.0,
+      0.6927,
+      0.3961,
+      0.2839,
+      0.1626,
+      0.0696
+     ],
+     "reach_display": [
+      ">99%",
+      "69%",
+      "40%",
+      "28%",
+      "16%",
+      "7%"
+     ]
+    },
+    {
+     "team": "Raymore-Peculiar",
+     "district": 7,
+     "seed": 1,
+     "bye": true,
+     "record": "7-2",
+     "ovr": 66.47,
+     "off": 32.31,
+     "def": 34.16,
+     "ovr_rank": 5,
+     "class_rank": 4,
+     "slug": "raymore-peculiar",
+     "logo": "https://raw.githubusercontent.com/AllMOSports/All_MO_Sports-Data/main/logos_main2/raymore-peculiar.png",
+     "reach": [
+      1.0,
+      0.9165,
+      0.4765,
+      0.3261,
+      0.1713,
+      0.0667
+     ],
+     "reach_display": [
+      ">99%",
+      "92%",
+      "48%",
+      "33%",
+      "17%",
+      "7%"
+     ]
+    },
+    {
+     "team": "Liberty North",
+     "district": 8,
+     "seed": 1,
+     "bye": true,
+     "record": "6-3",
+     "ovr": 61.33,
+     "off": 33.6,
+     "def": 27.73,
+     "ovr_rank": 8,
+     "class_rank": 7,
+     "slug": "liberty-north",
+     "logo": "https://raw.githubusercontent.com/AllMOSports/All_MO_Sports-Data/main/logos_main2/liberty-north.png",
+     "reach": [
+      1.0,
+      0.9409,
+      0.7956,
+      0.3045,
+      0.1227,
+      0.0367
+     ],
+     "reach_display": [
+      ">99%",
+      "94%",
+      "80%",
+      "30%",
+      "12%",
+      "4%"
+     ]
+    },
+    {
+     "team": "Lee's Summit North",
+     "district": 6,
+     "seed": 3,
+     "bye": false,
+     "record": "7-2",
+     "ovr": 63.84,
+     "off": 29.89,
+     "def": 33.94,
+     "ovr_rank": 6,
+     "class_rank": 5,
+     "slug": "lees-summit-north",
+     "logo": "https://raw.githubusercontent.com/AllMOSports/All_MO_Sports-Data/main/logos_main2/lees-summit-north.png",
+     "reach": [
+      0.6317,
+      0.5956,
+      0.2536,
+      0.132,
+      0.0643,
+      0.0226
+     ],
+     "reach_display": [
+      "63%",
+      "60%",
+      "25%",
+      "13%",
+      "6%",
+      "2%"
+     ]
+    },
+    {
+     "team": "Lee's Summit",
+     "district": 6,
+     "seed": 5,
+     "bye": false,
+     "record": "5-4",
+     "ovr": 60.62,
+     "off": 24.89,
+     "def": 35.73,
+     "ovr_rank": 9,
+     "class_rank": 8,
+     "slug": "lees-summit",
+     "logo": "https://raw.githubusercontent.com/AllMOSports/All_MO_Sports-Data/main/logos_main2/lees-summit.png",
+     "reach": [
+      0.9673,
+      0.2867,
+      0.1444,
+      0.062,
+      0.0247,
+      0.0066
+     ],
+     "reach_display": [
+      "97%",
+      "29%",
+      "14%",
+      "6%",
+      "2%",
+      "1%"
+     ]
+    },
+    {
+     "team": "De Smet Jesuit",
+     "district": 2,
+     "seed": 3,
+     "bye": true,
+     "record": "7-2",
+     "ovr": 52.77,
+     "off": 38.92,
+     "def": 13.84,
+     "ovr_rank": 14,
+     "class_rank": 11,
+     "slug": "de-smet-jesuit",
+     "logo": "https://raw.githubusercontent.com/AllMOSports/All_MO_Sports-Data/main/logos_main2/de-smet-jesuit.png",
+     "reach": [
+      1.0,
+      0.5375,
+      0.4392,
+      0.0439,
+      0.0357,
+      0.0065
+     ],
+     "reach_display": [
+      ">99%",
+      "54%",
+      "44%",
+      "4%",
+      "4%",
+      "1%"
+     ]
+    },
+    {
+     "team": "Rockhurst",
+     "district": 7,
+     "seed": 3,
+     "bye": true,
+     "record": "5-4",
+     "ovr": 60.22,
+     "off": 23.02,
+     "def": 37.19,
+     "ovr_rank": 10,
+     "class_rank": 9,
+     "slug": "rockhurst",
+     "logo": "https://raw.githubusercontent.com/AllMOSports/All_MO_Sports-Data/main/logos_main2/rockhurst.png",
+     "reach": [
+      1.0,
+      0.3073,
+      0.1192,
+      0.0635,
+      0.0231,
+      0.0065
+     ],
+     "reach_display": [
+      ">99%",
+      "31%",
+      "12%",
+      "6%",
+      "2%",
+      "1%"
+     ]
+    },
+    {
+     "team": "Christian Brothers College",
+     "district": 2,
+     "seed": 2,
+     "bye": true,
+     "record": "4-4",
+     "ovr": 51.26,
+     "off": 32.47,
+     "def": 18.79,
+     "ovr_rank": 16,
+     "class_rank": 12,
+     "slug": "christian-brothers-college",
+     "logo": "https://raw.githubusercontent.com/AllMOSports/All_MO_Sports-Data/main/logos_main2/christian-brothers-college.png",
+     "reach": [
+      1.0,
+      0.4625,
+      0.3686,
+      0.0321,
+      0.0247,
+      0.0052
+     ],
+     "reach_display": [
+      ">99%",
+      "46%",
+      "37%",
+      "3%",
+      "2%",
+      "1%"
+     ]
+    },
+    {
+     "team": "Blue Springs South",
+     "district": 6,
+     "seed": 6,
+     "bye": false,
+     "record": "4-5",
+     "ovr": 58.31,
+     "off": 31.3,
+     "def": 27.01,
+     "ovr_rank": 11,
+     "class_rank": 10,
+     "slug": "blue-springs-south",
+     "logo": "https://raw.githubusercontent.com/AllMOSports/All_MO_Sports-Data/main/logos_main2/blue-springs-south.png",
+     "reach": [
+      0.3684,
+      0.329,
+      0.101,
+      0.0364,
+      0.0123,
+      0.0031
+     ],
+     "reach_display": [
+      "37%",
+      "33%",
+      "10%",
+      "4%",
+      "1%",
+      "<1%"
+     ]
+    },
+    {
+     "team": "SLUH",
+     "district": 3,
+     "seed": 2,
+     "bye": true,
+     "record": "6-3",
+     "ovr": 42.4,
+     "off": 13.19,
+     "def": 29.21,
+     "ovr_rank": 28,
+     "class_rank": 16,
+     "slug": "sluh",
+     "logo": "https://raw.githubusercontent.com/AllMOSports/All_MO_Sports-Data/main/logos_main2/sluh.png",
+     "reach": [
+      1.0,
+      0.9832,
+      0.7665,
+      0.5161,
+      0.0233,
+      0.0016
+     ],
+     "reach_display": [
+      ">99%",
+      "98%",
+      "77%",
+      "52%",
+      "2%",
+      "<1%"
+     ]
+    },
+    {
+     "team": "Oak Park",
+     "district": 8,
+     "seed": 3,
+     "bye": false,
+     "record": "4-5",
+     "ovr": 46.97,
+     "off": 22.97,
+     "def": 24.0,
+     "ovr_rank": 22,
+     "class_rank": 13,
+     "slug": "oak-park",
+     "logo": "https://raw.githubusercontent.com/AllMOSports/All_MO_Sports-Data/main/logos_main2/oak-park.png",
+     "reach": [
+      0.8268,
+      0.4717,
+      0.1019,
+      0.0126,
+      0.0019,
+      0.0003
+     ],
+     "reach_display": [
+      "83%",
+      "47%",
+      "10%",
+      "1%",
+      "<1%",
+      "<1%"
+     ]
+    },
+    {
+     "team": "Troy Buchanan",
+     "district": 4,
+     "seed": 1,
+     "bye": true,
+     "record": "7-2",
+     "ovr": 36.65,
+     "off": 16.28,
+     "def": 20.37,
+     "ovr_rank": 37,
+     "class_rank": 20,
+     "slug": "troy-buchanan",
+     "logo": "https://raw.githubusercontent.com/AllMOSports/All_MO_Sports-Data/main/logos_main2/troy-buchanan.png",
+     "reach": [
+      1.0,
+      0.9809,
+      0.6417,
+      0.2798,
+      0.0067,
+      0.0001
+     ],
+     "reach_display": [
+      ">99%",
+      "98%",
+      "64%",
+      "28%",
+      "1%",
+      "<1%"
+     ]
+    },
+    {
+     "team": "Kirkwood",
+     "district": 2,
+     "seed": 1,
+     "bye": true,
+     "record": "7-1",
+     "ovr": 39.4,
+     "off": 21.28,
+     "def": 18.11,
+     "ovr_rank": 29,
+     "class_rank": 17,
+     "slug": "kirkwood",
+     "logo": "https://raw.githubusercontent.com/AllMOSports/All_MO_Sports-Data/main/logos_main2/kirkwood.png",
+     "reach": [
+      1.0,
+      0.8985,
+      0.1902,
+      0.0034,
+      0.0017,
+      0.0001
+     ],
+     "reach_display": [
+      ">99%",
+      "90%",
+      "19%",
+      "<1%",
+      "<1%",
+      "<1%"
+     ]
+    },
+    {
+     "team": "Pattonville",
+     "district": 3,
+     "seed": 1,
+     "bye": true,
+     "record": "8-1",
+     "ovr": 30.15,
+     "off": 17.25,
+     "def": 12.9,
+     "ovr_rank": 52,
+     "class_rank": 25,
+     "slug": "pattonville",
+     "logo": "https://raw.githubusercontent.com/AllMOSports/All_MO_Sports-Data/main/logos_main2/pattonville.png",
+     "reach": [
+      1.0,
+      0.9956,
+      0.2318,
+      0.0883,
+      0.0014,
+      0.0001
+     ],
+     "reach_display": [
+      ">99%",
+      ">99%",
+      "23%",
+      "9%",
+      "<1%",
+      "<1%"
+     ]
+    },
+    {
+     "team": "Park Hill",
+     "district": 8,
+     "seed": 2,
+     "bye": true,
+     "record": "4-5",
+     "ovr": 43.97,
+     "off": 19.16,
+     "def": 24.81,
+     "ovr_rank": 26,
+     "class_rank": 15,
+     "slug": "park-hill",
+     "logo": "https://raw.githubusercontent.com/AllMOSports/All_MO_Sports-Data/main/logos_main2/park-hill.png",
+     "reach": [
+      1.0,
+      0.49,
+      0.0824,
+      0.0065,
+      0.0008,
+      0.0001
+     ],
+     "reach_display": [
+      ">99%",
+      "49%",
+      "8%",
+      "1%",
+      "<1%",
+      "<1%"
+     ]
+    },
+    {
+     "team": "Francis Howell",
+     "district": 4,
+     "seed": 2,
+     "bye": true,
+     "record": "5-4",
+     "ovr": 32.4,
+     "off": 18.25,
+     "def": 14.15,
+     "ovr_rank": 44,
+     "class_rank": 21,
+     "slug": "francis-howell",
+     "logo": "https://raw.githubusercontent.com/AllMOSports/All_MO_Sports-Data/main/logos_main2/francis-howell.png",
+     "reach": [
+      1.0,
+      0.8561,
+      0.3427,
+      0.1147,
+      0.0019,
+      0.0
+     ],
+     "reach_display": [
+      ">99%",
+      "86%",
+      "34%",
+      "11%",
+      "<1%",
+      "0%"
+     ]
+    },
+    {
+     "team": "Lee's Summit West",
+     "district": 7,
+     "seed": 4,
+     "bye": false,
+     "record": "4-5",
+     "ovr": 45.18,
+     "off": 23.78,
+     "def": 21.4,
+     "ovr_rank": 25,
+     "class_rank": 14,
+     "slug": "lees-summit-west",
+     "logo": "https://raw.githubusercontent.com/AllMOSports/All_MO_Sports-Data/main/logos_main2/lees-summit-west.png",
+     "reach": [
+      0.9328,
+      0.0833,
+      0.0082,
+      0.0018,
+      0.0003,
+      0.0
+     ],
+     "reach_display": [
+      "93%",
+      "8%",
+      "1%",
+      "<1%",
+      "<1%",
+      "0%"
+     ]
+    },
+    {
+     "team": "Staley",
+     "district": 8,
+     "seed": 4,
+     "bye": false,
+     "record": "3-6",
+     "ovr": 37.26,
+     "off": 17.56,
+     "def": 19.7,
+     "ovr_rank": 35,
+     "class_rank": 19,
+     "slug": "staley",
+     "logo": "https://raw.githubusercontent.com/AllMOSports/All_MO_Sports-Data/main/logos_main2/staley.png",
+     "reach": [
+      0.8634,
+      0.0583,
+      0.0177,
+      0.0008,
+      0.0,
+      0.0
+     ],
+     "reach_display": [
+      "86%",
+      "6%",
+      "2%",
+      "<1%",
+      "0%",
+      "0%"
+     ]
+    },
+    {
+     "team": "Ft. Zumwalt West",
+     "district": 4,
+     "seed": 3,
+     "bye": true,
+     "record": "4-5",
+     "ovr": 15.41,
+     "off": 11.74,
+     "def": 3.67,
+     "ovr_rank": 86,
+     "class_rank": 35,
+     "slug": "ft-zumwalt-west",
+     "logo": "https://raw.githubusercontent.com/AllMOSports/All_MO_Sports-Data/main/logos_main2/ft-zumwalt-west.png",
+     "reach": [
+      1.0,
+      0.1439,
+      0.0147,
+      0.0008,
+      0.0,
+      0.0
+     ],
+     "reach_display": [
+      ">99%",
+      "14%",
+      "1%",
+      "<1%",
+      "0%",
+      "0%"
+     ]
+    },
+    {
+     "team": "Ozark",
+     "district": 5,
+     "seed": 2,
+     "bye": true,
+     "record": "4-5",
+     "ovr": 30.66,
+     "off": 14.01,
+     "def": 16.65,
+     "ovr_rank": 49,
+     "class_rank": 24,
+     "slug": "ozark",
+     "logo": "https://raw.githubusercontent.com/AllMOSports/All_MO_Sports-Data/main/logos_main2/ozark.png",
+     "reach": [
+      1.0,
+      0.5565,
+      0.0106,
+      0.0003,
+      0.0,
+      0.0
+     ],
+     "reach_display": [
+      ">99%",
+      "56%",
+      "1%",
+      "<1%",
+      "0%",
+      "0%"
+     ]
+    },
+    {
+     "team": "Rock Bridge",
+     "district": 6,
+     "seed": 2,
+     "bye": true,
+     "record": "7-2",
+     "ovr": 38.46,
+     "off": 17.19,
+     "def": 21.27,
+     "ovr_rank": 30,
+     "class_rank": 18,
+     "slug": "rock-bridge",
+     "logo": "https://raw.githubusercontent.com/AllMOSports/All_MO_Sports-Data/main/logos_main2/rock-bridge.png",
+     "reach": [
+      1.0,
+      0.0754,
+      0.0029,
+      0.0002,
+      0.0,
+      0.0
+     ],
+     "reach_display": [
+      ">99%",
+      "8%",
+      "<1%",
+      "<1%",
+      "0%",
+      "0%"
+     ]
+    },
+    {
+     "team": "Joplin",
+     "district": 5,
+     "seed": 3,
+     "bye": true,
+     "record": "3-6",
+     "ovr": 28.41,
+     "off": 14.3,
+     "def": 14.1,
+     "ovr_rank": 56,
+     "class_rank": 26,
+     "slug": "joplin",
+     "logo": "https://raw.githubusercontent.com/AllMOSports/All_MO_Sports-Data/main/logos_main2/joplin.png",
+     "reach": [
+      1.0,
+      0.4435,
+      0.005,
+      0.0001,
+      0.0,
+      0.0
+     ],
+     "reach_display": [
+      ">99%",
+      "44%",
+      "1%",
+      "<1%",
+      "0%",
+      "0%"
+     ]
+    },
+    {
+     "team": "Liberty",
+     "district": 8,
+     "seed": 6,
+     "bye": false,
+     "record": "1-8",
+     "ovr": 31.97,
+     "off": 18.52,
+     "def": 13.46,
+     "ovr_rank": 45,
+     "class_rank": 22,
+     "slug": "liberty",
+     "logo": "https://raw.githubusercontent.com/AllMOSports/All_MO_Sports-Data/main/logos_main2/liberty.png",
+     "reach": [
+      0.1732,
+      0.0382,
+      0.0023,
+      0.0001,
+      0.0,
+      0.0
+     ],
+     "reach_display": [
+      "17%",
+      "4%",
+      "<1%",
+      "<1%",
+      "0%",
+      "0%"
+     ]
+    },
+    {
+     "team": "Ritenour",
+     "district": 3,
+     "seed": 3,
+     "bye": true,
+     "record": "6-3",
+     "ovr": 8.35,
+     "off": 4.02,
+     "def": 4.33,
+     "ovr_rank": 110,
+     "class_rank": 36,
+     "slug": "ritenour",
+     "logo": "https://raw.githubusercontent.com/AllMOSports/All_MO_Sports-Data/main/logos_main2/ritenour.png",
+     "reach": [
+      1.0,
+      0.0168,
+      0.0016,
+      0.0001,
+      0.0,
+      0.0
+     ],
+     "reach_display": [
+      ">99%",
+      "2%",
+      "<1%",
+      "<1%",
+      "0%",
+      "0%"
+     ]
+    },
+    {
+     "team": "Marquette",
+     "district": 2,
+     "seed": 4,
+     "bye": false,
+     "record": "4-5",
+     "ovr": 20.51,
+     "off": 13.04,
+     "def": 7.48,
+     "ovr_rank": 73,
+     "class_rank": 31,
+     "slug": "marquette",
+     "logo": "https://raw.githubusercontent.com/AllMOSports/All_MO_Sports-Data/main/logos_main2/marquette.png",
+     "reach": [
+      0.5955,
+      0.0695,
+      0.0015,
+      0.0,
+      0.0,
+      0.0
+     ],
+     "reach_display": [
+      "60%",
+      "7%",
+      "<1%",
+      "0%",
+      "0%",
+      "0%"
+     ]
+    },
+    {
+     "team": "Northwest (Cedar Hill)",
+     "district": 1,
+     "seed": 2,
+     "bye": true,
+     "record": "8-1",
+     "ovr": 22.51,
+     "off": 9.25,
+     "def": 13.26,
+     "ovr_rank": 66,
+     "class_rank": 27,
+     "slug": "northwest-cedar-hill",
+     "logo": "https://raw.githubusercontent.com/AllMOSports/All_MO_Sports-Data/main/logos_main2/northwest-cedar-hill.png",
+     "reach": [
+      1.0,
+      0.5322,
+      0.0006,
+      0.0,
+      0.0,
+      0.0
+     ],
+     "reach_display": [
+      ">99%",
+      "53%",
+      "<1%",
+      "0%",
+      "0%",
+      "0%"
+     ]
+    },
+    {
+     "team": "Seckman",
+     "district": 1,
+     "seed": 3,
+     "bye": true,
+     "record": "7-2",
+     "ovr": 21.44,
+     "off": 7.56,
+     "def": 13.88,
+     "ovr_rank": 70,
+     "class_rank": 29,
+     "slug": "seckman",
+     "logo": "https://raw.githubusercontent.com/AllMOSports/All_MO_Sports-Data/main/logos_main2/seckman.png",
+     "reach": [
+      1.0,
+      0.4678,
+      0.0006,
+      0.0,
+      0.0,
+      0.0
+     ],
+     "reach_display": [
+      ">99%",
+      "47%",
+      "<1%",
+      "0%",
+      "0%",
+      "0%"
+     ]
+    },
+    {
+     "team": "Liberty (Wentzville)",
+     "district": 4,
+     "seed": 4,
+     "bye": false,
+     "record": "3-6",
+     "ovr": 5.35,
+     "off": -2.92,
+     "def": 8.28,
+     "ovr_rank": 123,
+     "class_rank": 38,
+     "slug": "liberty-wentzville",
+     "logo": "https://raw.githubusercontent.com/AllMOSports/All_MO_Sports-Data/main/logos_main2/liberty-wentzville.png",
+     "reach": [
+      0.6168,
+      0.0154,
+      0.0006,
+      0.0,
+      0.0,
+      0.0
+     ],
+     "reach_display": [
+      "62%",
+      "2%",
+      "<1%",
+      "0%",
+      "0%",
+      "0%"
+     ]
+    },
+    {
+     "team": "Lafayette (Wildwood)",
+     "district": 2,
+     "seed": 5,
+     "bye": false,
+     "record": "3-6",
+     "ovr": 16.9,
+     "off": 5.66,
+     "def": 11.24,
+     "ovr_rank": 85,
+     "class_rank": 34,
+     "slug": "lafayette-wildwood",
+     "logo": "https://raw.githubusercontent.com/AllMOSports/All_MO_Sports-Data/main/logos_main2/lafayette-wildwood.png",
+     "reach": [
+      0.4046,
+      0.0319,
+      0.0004,
+      0.0,
+      0.0,
+      0.0
+     ],
+     "reach_display": [
+      "40%",
+      "3%",
+      "<1%",
+      "0%",
+      "0%",
+      "0%"
+     ]
+    },
+    {
+     "team": "Francis Howell Central",
+     "district": 4,
+     "seed": 5,
+     "bye": false,
+     "record": "4-5",
+     "ovr": 0.62,
+     "off": -7.88,
+     "def": 8.5,
+     "ovr_rank": 145,
+     "class_rank": 39,
+     "slug": "francis-howell-central",
+     "logo": "https://raw.githubusercontent.com/AllMOSports/All_MO_Sports-Data/main/logos_main2/francis-howell-central.png",
+     "reach": [
+      0.3832,
+      0.0037,
+      0.0002,
+      0.0,
+      0.0,
+      0.0
+     ],
+     "reach_display": [
+      "38%",
+      "<1%",
+      "<1%",
+      "0%",
+      "0%",
+      "0%"
+     ]
+    },
+    {
+     "team": "Oakville",
+     "district": 1,
+     "seed": 4,
+     "bye": false,
+     "record": "7-2",
+     "ovr": 19.96,
+     "off": 8.84,
+     "def": 11.13,
+     "ovr_rank": 75,
+     "class_rank": 32,
+     "slug": "oakville",
+     "logo": "https://raw.githubusercontent.com/AllMOSports/All_MO_Sports-Data/main/logos_main2/oakville.png",
+     "reach": [
+      0.4428,
+      0.0003,
+      0.0001,
+      0.0,
+      0.0,
+      0.0
+     ],
+     "reach_display": [
+      "44%",
+      "<1%",
+      "<1%",
+      "0%",
+      "0%",
+      "0%"
+     ]
+    },
+    {
+     "team": "Hazelwood West",
+     "district": 3,
+     "seed": 4,
+     "bye": false,
+     "record": "3-6",
+     "ovr": -11.09,
+     "off": -1.29,
+     "def": -9.79,
+     "ovr_rank": 179,
+     "class_rank": 41,
+     "slug": "hazelwood-west",
+     "logo": "https://raw.githubusercontent.com/AllMOSports/All_MO_Sports-Data/main/logos_main2/hazelwood-west.png",
+     "reach": [
+      0.967,
+      0.0044,
+      0.0001,
+      0.0,
+      0.0,
+      0.0
+     ],
+     "reach_display": [
+      "97%",
+      "<1%",
+      "<1%",
+      "0%",
+      "0%",
+      "0%"
+     ]
+    },
+    {
+     "team": "Hickman",
+     "district": 6,
+     "seed": 4,
+     "bye": false,
+     "record": "5-4",
+     "ovr": 31.03,
+     "off": 13.66,
+     "def": 17.36,
+     "ovr_rank": 48,
+     "class_rank": 23,
+     "slug": "hickman",
+     "logo": "https://raw.githubusercontent.com/AllMOSports/All_MO_Sports-Data/main/logos_main2/hickman.png",
+     "reach": [
+      0.0328,
+      0.0003,
+      0.0001,
+      0.0,
+      0.0,
+      0.0
+     ],
+     "reach_display": [
+      "3%",
+      "<1%",
+      "<1%",
+      "0%",
+      "0%",
+      "0%"
+     ]
+    },
+    {
+     "team": "Lindbergh",
+     "district": 1,
+     "seed": 5,
+     "bye": false,
+     "record": "4-5",
+     "ovr": 22.42,
+     "off": 4.49,
+     "def": 17.94,
+     "ovr_rank": 67,
+     "class_rank": 28,
+     "slug": "lindbergh",
+     "logo": "https://raw.githubusercontent.com/AllMOSports/All_MO_Sports-Data/main/logos_main2/lindbergh.png",
+     "reach": [
+      0.5572,
+      0.0003,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+     ],
+     "reach_display": [
+      "56%",
+      "<1%",
+      "0%",
+      "0%",
+      "0%",
+      "0%"
+     ]
+    },
+    {
+     "team": "Francis Howell North",
+     "district": 3,
+     "seed": 5,
+     "bye": false,
+     "record": "1-8",
+     "ovr": -40.48,
+     "off": -23.61,
+     "def": -16.87,
+     "ovr_rank": 261,
+     "class_rank": 42,
+     "slug": "francis-howell-north",
+     "logo": "https://raw.githubusercontent.com/AllMOSports/All_MO_Sports-Data/main/logos_main2/francis-howell-north.png",
+     "reach": [
+      0.033,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+     ],
+     "reach_display": [
+      "3%",
+      "0%",
+      "0%",
+      "0%",
+      "0%",
+      "0%"
+     ]
+    },
+    {
+     "team": "Kickapoo",
+     "district": 5,
+     "seed": 4,
+     "bye": false,
+     "record": "2-7",
+     "ovr": 5.38,
+     "off": -2.78,
+     "def": 8.16,
+     "ovr_rank": 122,
+     "class_rank": 37,
+     "slug": "kickapoo",
+     "logo": "https://raw.githubusercontent.com/AllMOSports/All_MO_Sports-Data/main/logos_main2/kickapoo.png",
+     "reach": [
+      0.7005,
+      0.0003,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+     ],
+     "reach_display": [
+      "70%",
+      "<1%",
+      "0%",
+      "0%",
+      "0%",
+      "0%"
+     ]
+    },
+    {
+     "team": "Waynesville",
+     "district": 5,
+     "seed": 5,
+     "bye": false,
+     "record": "0-9",
+     "ovr": -3.04,
+     "off": -1.85,
+     "def": -1.19,
+     "ovr_rank": 158,
+     "class_rank": 40,
+     "slug": "waynesville",
+     "logo": "https://raw.githubusercontent.com/AllMOSports/All_MO_Sports-Data/main/logos_main2/waynesville.png",
+     "reach": [
+      0.2995,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+     ],
+     "reach_display": [
+      "30%",
+      "0%",
+      "0%",
+      "0%",
+      "0%",
+      "0%"
+     ]
+    },
+    {
+     "team": "Park Hill South",
+     "district": 7,
+     "seed": 5,
+     "bye": false,
+     "record": "3-6",
+     "ovr": 21.33,
+     "off": 9.51,
+     "def": 11.81,
+     "ovr_rank": 71,
+     "class_rank": 30,
+     "slug": "park-hill-south",
+     "logo": "https://raw.githubusercontent.com/AllMOSports/All_MO_Sports-Data/main/logos_main2/park-hill-south.png",
+     "reach": [
+      0.0672,
+      0.0002,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+     ],
+     "reach_display": [
+      "7%",
+      "<1%",
+      "0%",
+      "0%",
+      "0%",
+      "0%"
+     ]
+    },
+    {
+     "team": "Central (St. Joseph)",
+     "district": 8,
+     "seed": 5,
+     "bye": false,
+     "record": "3-6",
+     "ovr": 19.7,
+     "off": 12.65,
+     "def": 7.06,
+     "ovr_rank": 77,
+     "class_rank": 33,
+     "slug": "central-st-joseph",
+     "logo": "https://raw.githubusercontent.com/AllMOSports/All_MO_Sports-Data/main/logos_main2/central-st-joseph.png",
+     "reach": [
+      0.1366,
+      0.0008,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+     ],
+     "reach_display": [
+      "14%",
+      "<1%",
+      "0%",
+      "0%",
+      "0%",
+      "0%"
+     ]
+    }
+   ]
+  }
+ }
+}
