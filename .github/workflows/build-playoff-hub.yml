@@ -1,0 +1,87 @@
+# .github/workflows/build-playoff-hub.yml
+#
+# Runs build_playoff_hub_2026.py and commits playoff_hub_2026.json, the data
+# file behind the Playoff Hub page.
+#
+# Triggers:
+#   - push: when games, ratings, seeds or any script it uses change
+#     (so a new playoff score lands on the page within a couple of minutes)
+#   - repository_dispatch: cron-job.org can fire it via the GitHub API
+#     (event_type: build-playoff-hub), same pattern as the other workflows
+#   - workflow_dispatch: manual run from the Actions tab
+#
+# Reads only files in this repo plus schools.json / school_aliases.json from
+# All_MO_Sports-Data (for slugs + logos) -- never contacts MSHSAA.
+
+name: Build Playoff Hub
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - "football_games_2026_all.json"
+      - "football_games_2026_all_district_points.csv"
+      - "football_ratings_2026.json"
+      - "official_seeds_2026.json"
+      - "classifications.json"
+      - "out_of_state_classifications.json"
+      - "out_of_state_records.json"
+      - "manual_overrides.json"
+      - "build_playoff_hub_2026.py"
+      - "simulate_playoff_odds.py"
+      - "simulate_district_seeds.py"
+      - "build_district_points.py"
+  repository_dispatch:
+    types: [build-playoff-hub]
+  workflow_dispatch:
+    inputs:
+      sims:
+        description: "Number of simulations"
+        required: false
+        default: "20000"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: build-playoff-hub
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+
+    steps:
+      - name: Check out repo
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies
+        run: pip install numpy
+
+      - name: Build playoff hub data
+        env:
+          SIMS: ${{ github.event.inputs.sims || '20000' }}
+        run: python build_playoff_hub_2026.py --sims "$SIMS"
+
+      - name: Commit playoff hub data
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add playoff_hub_2026.json
+          if git diff --cached --quiet; then
+            echo "No changes to playoff hub data."
+            exit 0
+          fi
+          git commit -m "Update playoff hub ($(TZ=America/Chicago date +'%Y-%m-%d %H:%M CT'))"
+          for i in 1 2 3; do
+            git pull --rebase origin main && git push origin HEAD:main && exit 0
+            echo "Push failed (attempt $i), retrying..."
+            sleep 5
+          done
+          exit 1
