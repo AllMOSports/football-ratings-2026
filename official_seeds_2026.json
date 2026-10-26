@@ -1,0 +1,6 @@
+{
+  "_note": "MSHSAA district seeds, seed 1 first, team names exactly as in football_games_2026_all.json. Only districts where MSHSAA differs from the calculated seeds are listed (from the Week 10 schedule, 2026-10-26); add any other district here to lock it as official. C2 D1 and C2 D2: #1/#2 order (byes) not shown by the Week 10 games, kept from the calculated seeds. C2 D2: Miller Career Academy with Sumner is not in MSHSAA's bracket (6 teams).",
+  "class2_district1": ["St. Vincent", "Caruthersville", "Saxony Lutheran", "Kelly", "East Prairie", "Central (New Madrid County)"],
+  "class2_district2": ["Valle Catholic", "Jefferson (Festus)", "Montgomery County", "Duchesne", "Hermann", "Confluence Prep Academy Charter"],
+  "class2_district6": ["Hogan Prep Academy Charter", "KIPP KC Legacy", "Butler", "Lafayette County", "Holden", "Lexington", "Lone Jack with Kingsville"]
+}
