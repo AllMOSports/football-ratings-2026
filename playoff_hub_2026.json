@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-26T00:21:47",
+ "generated": "2026-10-26T00:25:33",
  "season": 2026,
  "ratings_last_updated": "October 25, 2026 at 10:51 PM",
  "simulations": 20000,
@@ -145,10 +145,10 @@
      "reach": [
       1.0,
       1.0,
-      0.9385,
-      0.8842,
-      0.8017,
-      0.7764
+      0.9374,
+      0.8839,
+      0.8002,
+      0.7729
      ],
      "reach_display": [
       ">99%",
@@ -156,7 +156,7 @@
       "94%",
       "88%",
       "80%",
-      "78%"
+      "77%"
      ]
     },
     {
@@ -182,16 +182,16 @@
      },
      "reach": [
       1.0,
-      0.915,
-      0.8115,
-      0.789,
-      0.1389,
-      0.1038
+      0.9169,
+      0.8165,
+      0.7928,
+      0.1396,
+      0.1041
      ],
      "reach_display": [
       ">99%",
       "92%",
-      "81%",
+      "82%",
       "79%",
       "14%",
       "10%"
@@ -220,18 +220,18 @@
      },
      "reach": [
       1.0,
-      0.9981,
-      0.9939,
-      0.8046,
-      0.6929,
-      0.0757
+      0.9988,
+      0.9934,
+      0.7987,
+      0.6838,
+      0.0768
      ],
      "reach_display": [
       ">99%",
       ">99%",
       "99%",
       "80%",
-      "69%",
+      "68%",
       "8%"
      ]
     },
@@ -258,16 +258,16 @@
      },
      "reach": [
       1.0,
-      0.9058,
-      0.5343,
-      0.0493,
-      0.022,
-      0.0142
+      0.9043,
+      0.5373,
+      0.0469,
+      0.0218,
+      0.0138
      ],
      "reach_display": [
       ">99%",
-      "91%",
-      "53%",
+      "90%",
+      "54%",
       "5%",
       "2%",
       "1%"
@@ -296,17 +296,17 @@
      },
      "reach": [
       1.0,
-      0.8297,
-      0.0602,
-      0.0348,
-      0.0173,
-      0.0115
+      0.8299,
+      0.0612,
+      0.0359,
+      0.0184,
+      0.0131
      ],
      "reach_display": [
       ">99%",
       "83%",
       "6%",
-      "3%",
+      "4%",
       "2%",
       "1%"
      ]
@@ -334,11 +334,11 @@
      },
      "reach": [
       1.0,
-      0.746,
-      0.3818,
-      0.0296,
-      0.0133,
-      0.0079
+      0.7517,
+      0.3804,
+      0.0314,
+      0.0136,
+      0.0088
      ],
      "reach_display": [
       ">99%",
@@ -372,11 +372,11 @@
      },
      "reach": [
       1.0,
-      0.8687,
-      0.6619,
-      0.1664,
-      0.1115,
-      0.0037
+      0.8691,
+      0.6611,
+      0.1684,
+      0.1134,
+      0.0043
      ],
      "reach_display": [
       ">99%",
@@ -384,44 +384,6 @@
       "66%",
       "17%",
       "11%",
-      "<1%"
-     ]
-    },
-    {
-     "team": "Carrollton",
-     "district": 5,
-     "seed": 1,
-     "bye": true,
-     "record": "8-1",
-     "ovr": -14.55,
-     "off": -3.14,
-     "def": -11.42,
-     "ovr_rank": 188,
-     "class_rank": 12,
-     "slug": "carrollton",
-     "logo": "https://raw.githubusercontent.com/AllMOSports/All_MO_Sports-Data/main/logos_main2/carrollton.png",
-     "history": {
-      "final_fours": 2,
-      "last_final_four": 1997,
-      "final_four_drought": 29,
-      "titles": 0,
-      "last_title": null,
-      "title_drought": null
-     },
-     "reach": [
-      1.0,
-      0.5808,
-      0.4673,
-      0.3051,
-      0.0734,
-      0.0025
-     ],
-     "reach_display": [
-      ">99%",
-      "58%",
-      "47%",
-      "31%",
-      "7%",
       "<1%"
      ]
     },
@@ -448,18 +410,56 @@
      },
      "reach": [
       1.0,
-      0.8595,
-      0.1472,
-      0.1157,
-      0.0047,
-      0.0018
+      0.8568,
+      0.1403,
+      0.1103,
+      0.0043,
+      0.0019
      ],
      "reach_display": [
       ">99%",
       "86%",
-      "15%",
-      "12%",
+      "14%",
+      "11%",
       "<1%",
+      "<1%"
+     ]
+    },
+    {
+     "team": "Carrollton",
+     "district": 5,
+     "seed": 1,
+     "bye": true,
+     "record": "8-1",
+     "ovr": -14.55,
+     "off": -3.14,
+     "def": -11.42,
+     "ovr_rank": 188,
+     "class_rank": 12,
+     "slug": "carrollton",
+     "logo": "https://raw.githubusercontent.com/AllMOSports/All_MO_Sports-Data/main/logos_main2/carrollton.png",
+     "history": {
+      "final_fours": 2,
+      "last_final_four": 1997,
+      "final_four_drought": 29,
+      "titles": 0,
+      "last_title": null,
+      "title_drought": null
+     },
+     "reach": [
+      1.0,
+      0.5794,
+      0.4666,
+      0.3046,
+      0.075,
+      0.0016
+     ],
+     "reach_display": [
+      ">99%",
+      "58%",
+      "47%",
+      "30%",
+      "8%",
       "<1%"
      ]
     },
@@ -485,12 +485,12 @@
       "title_drought": 28
      },
      "reach": [
-      0.9442,
-      0.417,
-      0.3191,
-      0.1875,
-      0.0364,
-      0.0009
+      0.941,
+      0.4176,
+      0.3207,
+      0.1907,
+      0.0399,
+      0.0012
      ],
      "reach_display": [
       "94%",
@@ -524,15 +524,15 @@
      },
      "reach": [
       1.0,
-      0.7776,
-      0.4483,
-      0.217,
-      0.0382,
-      0.0006
+      0.7744,
+      0.4467,
+      0.2188,
+      0.0397,
+      0.0009
      ],
      "reach_display": [
       ">99%",
-      "78%",
+      "77%",
       "45%",
       "22%",
       "4%",
@@ -562,56 +562,56 @@
      },
      "reach": [
       1.0,
-      0.5411,
-      0.263,
-      0.1115,
-      0.0158,
-      0.0004
+      0.5436,
+      0.2609,
+      0.1067,
+      0.0144,
+      0.0001
      ],
      "reach_display": [
       ">99%",
       "54%",
       "26%",
       "11%",
-      "2%",
+      "1%",
       "<1%"
      ]
     },
     {
-     "team": "Hayti",
-     "district": 1,
-     "seed": 4,
+     "team": "Gallatin with Tri-County",
+     "district": 6,
+     "seed": 3,
      "bye": false,
      "record": "5-4",
-     "ovr": -14.55,
-     "off": -5.13,
-     "def": -9.43,
-     "ovr_rank": 187,
-     "class_rank": 11,
-     "slug": "hayti",
-     "logo": "https://raw.githubusercontent.com/AllMOSports/All_MO_Sports-Data/main/logos_main2/hayti.png",
+     "ovr": -21.45,
+     "off": -16.28,
+     "def": -5.17,
+     "ovr_rank": 216,
+     "class_rank": 18,
+     "slug": "gallatin",
+     "logo": "https://raw.githubusercontent.com/AllMOSports/All_MO_Sports-Data/main/logos_main2/gallatin.png",
      "history": {
-      "final_fours": 5,
-      "last_final_four": 2025,
-      "final_four_drought": 1,
-      "titles": 1,
-      "last_title": 2018,
-      "title_drought": 8
+      "final_fours": 3,
+      "last_final_four": 2006,
+      "final_four_drought": 20,
+      "titles": 0,
+      "last_title": null,
+      "title_drought": null
      },
      "reach": [
-      0.9889,
-      0.085,
-      0.0367,
-      0.0272,
-      0.0008,
-      0.0003
+      0.9228,
+      0.452,
+      0.2185,
+      0.0886,
+      0.0122,
+      0.0001
      ],
      "reach_display": [
-      "99%",
-      "8%",
-      "4%",
-      "3%",
-      "<1%",
+      "92%",
+      "45%",
+      "22%",
+      "9%",
+      "1%",
       "<1%"
      ]
     },
@@ -637,16 +637,16 @@
       "title_drought": 40
      },
      "reach": [
-      0.998,
-      0.6081,
-      0.1996,
-      0.0215,
-      0.01,
+      0.9978,
+      0.601,
+      0.1978,
+      0.0232,
+      0.0101,
       0.0001
      ],
      "reach_display": [
       ">99%",
-      "61%",
+      "60%",
       "20%",
       "2%",
       "1%",
@@ -676,15 +676,15 @@
      },
      "reach": [
       1.0,
-      0.8281,
-      0.2047,
-      0.0726,
-      0.0062,
+      0.8228,
+      0.2018,
+      0.0706,
+      0.0065,
       0.0001
      ],
      "reach_display": [
       ">99%",
-      "83%",
+      "82%",
       "20%",
       "7%",
       "1%",
@@ -714,10 +714,10 @@
      },
      "reach": [
       1.0,
-      0.9988,
-      0.9014,
-      0.066,
-      0.0006,
+      0.9978,
+      0.9003,
+      0.0675,
+      0.0009,
       0.0001
      ],
      "reach_display": [
@@ -725,6 +725,44 @@
       ">99%",
       "90%",
       "7%",
+      "<1%",
+      "<1%"
+     ]
+    },
+    {
+     "team": "Hayti",
+     "district": 1,
+     "seed": 4,
+     "bye": false,
+     "record": "5-4",
+     "ovr": -14.55,
+     "off": -5.13,
+     "def": -9.43,
+     "ovr_rank": 187,
+     "class_rank": 11,
+     "slug": "hayti",
+     "logo": "https://raw.githubusercontent.com/AllMOSports/All_MO_Sports-Data/main/logos_main2/hayti.png",
+     "history": {
+      "final_fours": 5,
+      "last_final_four": 2025,
+      "final_four_drought": 1,
+      "titles": 1,
+      "last_title": 2018,
+      "title_drought": 8
+     },
+     "reach": [
+      0.9903,
+      0.0832,
+      0.0386,
+      0.0272,
+      0.0008,
+      0.0001
+     ],
+     "reach_display": [
+      "99%",
+      "8%",
+      "4%",
+      "3%",
       "<1%",
       "<1%"
      ]
@@ -751,11 +789,11 @@
       "title_drought": null
      },
      "reach": [
-      0.9645,
-      0.2535,
-      0.0693,
-      0.0019,
-      0.0006,
+      0.9647,
+      0.2482,
+      0.0689,
+      0.0015,
+      0.0003,
       0.0001
      ],
      "reach_display": [
@@ -765,44 +803,6 @@
       "<1%",
       "<1%",
       "<1%"
-     ]
-    },
-    {
-     "team": "Gallatin with Tri-County",
-     "district": 6,
-     "seed": 3,
-     "bye": false,
-     "record": "5-4",
-     "ovr": -21.45,
-     "off": -16.28,
-     "def": -5.17,
-     "ovr_rank": 216,
-     "class_rank": 18,
-     "slug": "gallatin",
-     "logo": "https://raw.githubusercontent.com/AllMOSports/All_MO_Sports-Data/main/logos_main2/gallatin.png",
-     "history": {
-      "final_fours": 3,
-      "last_final_four": 2006,
-      "final_four_drought": 20,
-      "titles": 0,
-      "last_title": null,
-      "title_drought": null
-     },
-     "reach": [
-      0.9234,
-      0.4524,
-      0.219,
-      0.0891,
-      0.0124,
-      0.0
-     ],
-     "reach_display": [
-      "92%",
-      "45%",
-      "22%",
-      "9%",
-      "1%",
-      "0%"
      ]
     },
     {
@@ -828,16 +828,16 @@
      },
      "reach": [
       1.0,
-      0.3918,
-      0.0927,
-      0.0056,
-      0.0019,
+      0.399,
+      0.0966,
+      0.0075,
+      0.0029,
       0.0
      ],
      "reach_display": [
       ">99%",
-      "39%",
-      "9%",
+      "40%",
+      "10%",
       "1%",
       "<1%",
       "0%"
@@ -865,15 +865,15 @@
       "title_drought": null
      },
      "reach": [
-      0.68,
-      0.1782,
-      0.0609,
-      0.0158,
-      0.0008,
+      0.6712,
+      0.1797,
+      0.063,
+      0.017,
+      0.0014,
       0.0
      ],
      "reach_display": [
-      "68%",
+      "67%",
       "18%",
       "6%",
       "2%",
@@ -904,16 +904,16 @@
      },
      "reach": [
       1.0,
-      0.1313,
-      0.0457,
-      0.0015,
-      0.0003,
+      0.1308,
+      0.0445,
+      0.0017,
+      0.0004,
       0.0
      ],
      "reach_display": [
       ">99%",
       "13%",
-      "5%",
+      "4%",
       "<1%",
       "<1%",
       "0%"
@@ -941,16 +941,92 @@
       "title_drought": 47
      },
      "reach": [
-      0.32,
-      0.0442,
-      0.0083,
-      0.001,
+      0.3288,
+      0.0459,
+      0.0105,
+      0.0018,
       0.0001,
       0.0
      ],
      "reach_display": [
-      "32%",
-      "4%",
+      "33%",
+      "5%",
+      "1%",
+      "<1%",
+      "<1%",
+      "0%"
+     ]
+    },
+    {
+     "team": "Sherwood",
+     "district": 5,
+     "seed": 3,
+     "bye": true,
+     "record": "4-5",
+     "ovr": -41.79,
+     "off": -25.14,
+     "def": -16.66,
+     "ovr_rank": 264,
+     "class_rank": 29,
+     "slug": "sherwood",
+     "logo": "https://raw.githubusercontent.com/AllMOSports/All_MO_Sports-Data/main/logos_main2/sherwood.png",
+     "history": {
+      "final_fours": 0,
+      "last_final_four": null,
+      "final_four_drought": null,
+      "titles": 0,
+      "last_title": null,
+      "title_drought": null
+     },
+     "reach": [
+      1.0,
+      0.1772,
+      0.0101,
+      0.0011,
+      0.0001,
+      0.0
+     ],
+     "reach_display": [
+      ">99%",
+      "18%",
+      "1%",
+      "<1%",
+      "<1%",
+      "0%"
+     ]
+    },
+    {
+     "team": "Westran",
+     "district": 7,
+     "seed": 2,
+     "bye": true,
+     "record": "4-5",
+     "ovr": -40.9,
+     "off": -18.52,
+     "def": -22.38,
+     "ovr_rank": 263,
+     "class_rank": 28,
+     "slug": "westran",
+     "logo": "https://raw.githubusercontent.com/AllMOSports/All_MO_Sports-Data/main/logos_main2/westran.png",
+     "history": {
+      "final_fours": 3,
+      "last_final_four": 2018,
+      "final_four_drought": 8,
+      "titles": 0,
+      "last_title": null,
+      "title_drought": null
+     },
+     "reach": [
+      1.0,
+      0.8092,
+      0.006,
+      0.0003,
+      0.0001,
+      0.0
+     ],
+     "reach_display": [
+      ">99%",
+      "81%",
       "1%",
       "<1%",
       "<1%",
@@ -980,9 +1056,9 @@
      },
      "reach": [
       1.0,
-      0.1703,
-      0.0013,
-      0.0001,
+      0.1701,
+      0.0014,
+      0.0003,
       0.0001,
       0.0
      ],
@@ -1017,55 +1093,17 @@
       "title_drought": null
      },
      "reach": [
-      0.983,
-      0.1406,
-      0.0045,
-      0.0019,
+      0.9855,
+      0.1432,
+      0.0046,
+      0.0016,
       0.0,
       0.0
      ],
      "reach_display": [
-      "98%",
+      "99%",
       "14%",
       "<1%",
-      "<1%",
-      "0%",
-      "0%"
-     ]
-    },
-    {
-     "team": "Sherwood",
-     "district": 5,
-     "seed": 3,
-     "bye": true,
-     "record": "4-5",
-     "ovr": -41.79,
-     "off": -25.14,
-     "def": -16.66,
-     "ovr_rank": 264,
-     "class_rank": 29,
-     "slug": "sherwood",
-     "logo": "https://raw.githubusercontent.com/AllMOSports/All_MO_Sports-Data/main/logos_main2/sherwood.png",
-     "history": {
-      "final_fours": 0,
-      "last_final_four": null,
-      "final_four_drought": null,
-      "titles": 0,
-      "last_title": null,
-      "title_drought": null
-     },
-     "reach": [
-      1.0,
-      0.1719,
-      0.0083,
-      0.0005,
-      0.0,
-      0.0
-     ],
-     "reach_display": [
-      ">99%",
-      "17%",
-      "1%",
       "<1%",
       "0%",
       "0%"
@@ -1094,54 +1132,16 @@
      },
      "reach": [
       1.0,
-      0.9643,
-      0.0984,
-      0.0003,
+      0.9679,
+      0.0994,
+      0.0006,
       0.0,
       0.0
      ],
      "reach_display": [
       ">99%",
-      "96%",
+      "97%",
       "10%",
-      "<1%",
-      "0%",
-      "0%"
-     ]
-    },
-    {
-     "team": "Westran",
-     "district": 7,
-     "seed": 2,
-     "bye": true,
-     "record": "4-5",
-     "ovr": -40.9,
-     "off": -18.52,
-     "def": -22.38,
-     "ovr_rank": 263,
-     "class_rank": 28,
-     "slug": "westran",
-     "logo": "https://raw.githubusercontent.com/AllMOSports/All_MO_Sports-Data/main/logos_main2/westran.png",
-     "history": {
-      "final_fours": 3,
-      "last_final_four": 2018,
-      "final_four_drought": 8,
-      "titles": 0,
-      "last_title": null,
-      "title_drought": null
-     },
-     "reach": [
-      1.0,
-      0.8175,
-      0.0049,
-      0.0003,
-      0.0,
-      0.0
-     ],
-     "reach_display": [
-      ">99%",
-      "82%",
-      "<1%",
       "<1%",
       "0%",
       "0%"
@@ -1170,15 +1170,15 @@
      },
      "reach": [
       1.0,
-      0.0943,
-      0.0146,
+      0.0957,
+      0.0134,
       0.0001,
       0.0,
       0.0
      ],
      "reach_display": [
       ">99%",
-      "9%",
+      "10%",
       "1%",
       "<1%",
       "0%",
@@ -1207,9 +1207,9 @@
       "title_drought": null
      },
      "reach": [
-      0.0558,
-      0.0022,
-      0.0005,
+      0.059,
+      0.003,
+      0.0008,
       0.0001,
       0.0,
       0.0
@@ -1245,10 +1245,10 @@
       "title_drought": null
      },
      "reach": [
-      0.7133,
-      0.0017,
-      0.0008,
-      0.0,
+      0.7067,
+      0.0011,
+      0.0005,
+      0.0001,
       0.0,
       0.0
      ],
@@ -1256,7 +1256,7 @@
       "71%",
       "<1%",
       "<1%",
-      "0%",
+      "<1%",
       "0%",
       "0%"
      ]
@@ -1283,54 +1283,16 @@
       "title_drought": null
      },
      "reach": [
-      0.0766,
-      0.0066,
-      0.0006,
+      0.0772,
+      0.0044,
+      0.0004,
       0.0,
       0.0,
       0.0
      ],
      "reach_display": [
       "8%",
-      "1%",
       "<1%",
-      "0%",
-      "0%",
-      "0%"
-     ]
-    },
-    {
-     "team": "Van-Far",
-     "district": 7,
-     "seed": 3,
-     "bye": true,
-     "record": "1-8",
-     "ovr": -55.22,
-     "off": -23.49,
-     "def": -31.74,
-     "ovr_rank": 282,
-     "class_rank": 36,
-     "slug": "van-far",
-     "logo": "https://raw.githubusercontent.com/AllMOSports/All_MO_Sports-Data/main/logos_main2/van-far.png",
-     "history": {
-      "final_fours": 0,
-      "last_final_four": null,
-      "final_four_drought": null,
-      "titles": 0,
-      "last_title": null,
-      "title_drought": null
-     },
-     "reach": [
-      1.0,
-      0.1825,
-      0.0003,
-      0.0,
-      0.0,
-      0.0
-     ],
-     "reach_display": [
-      ">99%",
-      "18%",
       "<1%",
       "0%",
       "0%",
@@ -1360,7 +1322,7 @@
      },
      "reach": [
       1.0,
-      0.0357,
+      0.0321,
       0.0001,
       0.0,
       0.0,
@@ -1368,7 +1330,7 @@
      ],
      "reach_display": [
       ">99%",
-      "4%",
+      "3%",
       "<1%",
       "0%",
       "0%",
@@ -1397,8 +1359,8 @@
       "title_drought": null
      },
      "reach": [
-      0.6424,
-      0.0011,
+      0.6385,
+      0.0017,
       0.0001,
       0.0,
       0.0,
@@ -1414,18 +1376,18 @@
      ]
     },
     {
-     "team": "Harrisburg",
+     "team": "Van-Far",
      "district": 7,
-     "seed": 4,
-     "bye": false,
-     "record": "2-7",
-     "ovr": -54.19,
-     "off": -31.63,
-     "def": -22.56,
-     "ovr_rank": 279,
-     "class_rank": 35,
-     "slug": "harrisburg",
-     "logo": "https://raw.githubusercontent.com/AllMOSports/All_MO_Sports-Data/main/logos_main2/harrisburg.png",
+     "seed": 3,
+     "bye": true,
+     "record": "1-8",
+     "ovr": -55.22,
+     "off": -23.49,
+     "def": -31.74,
+     "ovr_rank": 282,
+     "class_rank": 36,
+     "slug": "van-far",
+     "logo": "https://raw.githubusercontent.com/AllMOSports/All_MO_Sports-Data/main/logos_main2/van-far.png",
      "history": {
       "final_fours": 0,
       "last_final_four": null,
@@ -1435,16 +1397,16 @@
       "title_drought": null
      },
      "reach": [
-      0.2868,
-      0.0001,
+      1.0,
+      0.1908,
       0.0001,
       0.0,
       0.0,
       0.0
      ],
      "reach_display": [
-      "29%",
-      "<1%",
+      ">99%",
+      "19%",
       "<1%",
       "0%",
       "0%",
@@ -1473,7 +1435,7 @@
       "title_drought": null
      },
      "reach": [
-      0.0111,
+      0.0097,
       0.0,
       0.0,
       0.0,
@@ -1511,7 +1473,7 @@
       "title_drought": 58
      },
      "reach": [
-      0.0169,
+      0.0145,
       0.0,
       0.0,
       0.0,
@@ -1519,7 +1481,7 @@
       0.0
      ],
      "reach_display": [
-      "2%",
+      "1%",
       "0%",
       "0%",
       "0%",
@@ -1549,8 +1511,8 @@
       "title_drought": null
      },
      "reach": [
-      0.3576,
-      0.0001,
+      0.3615,
+      0.0005,
       0.0,
       0.0,
       0.0,
@@ -1587,8 +1549,8 @@
       "title_drought": null
      },
      "reach": [
-      0.0355,
-      0.0004,
+      0.0353,
+      0.0001,
       0.0,
       0.0,
       0.0,
@@ -1625,7 +1587,7 @@
       "title_drought": 6
      },
      "reach": [
-      0.9082,
+      0.9094,
       0.0,
       0.0,
       0.0,
@@ -1663,7 +1625,7 @@
       "title_drought": null
      },
      "reach": [
-      0.0919,
+      0.0906,
       0.0,
       0.0,
       0.0,
@@ -1673,6 +1635,44 @@
      "reach_display": [
       "9%",
       "0%",
+      "0%",
+      "0%",
+      "0%",
+      "0%"
+     ]
+    },
+    {
+     "team": "Harrisburg",
+     "district": 7,
+     "seed": 4,
+     "bye": false,
+     "record": "2-7",
+     "ovr": -54.19,
+     "off": -31.63,
+     "def": -22.56,
+     "ovr_rank": 279,
+     "class_rank": 35,
+     "slug": "harrisburg",
+     "logo": "https://raw.githubusercontent.com/AllMOSports/All_MO_Sports-Data/main/logos_main2/harrisburg.png",
+     "history": {
+      "final_fours": 0,
+      "last_final_four": null,
+      "final_four_drought": null,
+      "titles": 0,
+      "last_title": null,
+      "title_drought": null
+     },
+     "reach": [
+      0.2933,
+      0.0001,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+     ],
+     "reach_display": [
+      "29%",
+      "<1%",
       "0%",
       "0%",
       "0%",
@@ -1701,7 +1701,7 @@
       "title_drought": 33
      },
      "reach": [
-      0.0021,
+      0.0022,
       0.0,
       0.0,
       0.0,
@@ -1725,7 +1725,7 @@
      "away": "Malden",
      "home_seed": 4,
      "away_seed": 5,
-     "home_win": 0.9889,
+     "home_win": 0.9903,
      "minutes": 61,
      "miles": 42,
      "miles_estimated": false
@@ -1736,7 +1736,7 @@
      "away": "Cabool",
      "home_seed": 3,
      "away_seed": 6,
-     "home_win": 0.983,
+     "home_win": 0.9855,
      "minutes": 208,
      "miles": 175,
      "miles_estimated": false
@@ -1747,7 +1747,7 @@
      "away": "Grandview (Hillsboro)",
      "home_seed": 4,
      "away_seed": 5,
-     "home_win": 0.6424,
+     "home_win": 0.6385,
      "minutes": 83,
      "miles": 61,
      "miles_estimated": false
@@ -1758,7 +1758,7 @@
      "away": "Diamond",
      "home_seed": 4,
      "away_seed": 5,
-     "home_win": 0.9645,
+     "home_win": 0.9647,
      "minutes": 36,
      "miles": 18,
      "miles_estimated": false
@@ -1769,7 +1769,7 @@
      "away": "Linn",
      "home_seed": 4,
      "away_seed": 5,
-     "home_win": 0.9082,
+     "home_win": 0.9094,
      "minutes": 153,
      "miles": 106,
      "miles_estimated": false
@@ -1780,7 +1780,7 @@
      "away": "North Platte",
      "home_seed": 4,
      "away_seed": 5,
-     "home_win": 0.0558,
+     "home_win": 0.059,
      "minutes": 112,
      "miles": 93,
      "miles_estimated": false
@@ -1791,7 +1791,7 @@
      "away": "Maysville",
      "home_seed": 4,
      "away_seed": 5,
-     "home_win": 0.32,
+     "home_win": 0.3288,
      "minutes": 47,
      "miles": 28,
      "miles_estimated": false
@@ -1802,7 +1802,7 @@
      "away": "South Harrison",
      "home_seed": 3,
      "away_seed": 6,
-     "home_win": 0.9234,
+     "home_win": 0.9228,
      "minutes": 47,
      "miles": 37,
      "miles_estimated": false
@@ -1813,7 +1813,7 @@
      "away": "Fayette",
      "home_seed": 4,
      "away_seed": 5,
-     "home_win": 0.2868,
+     "home_win": 0.2933,
      "minutes": 22,
      "miles": 14,
      "miles_estimated": false
@@ -1824,7 +1824,7 @@
      "away": "Milan",
      "home_seed": 4,
      "away_seed": 5,
-     "home_win": 0.998,
+     "home_win": 0.9978,
      "minutes": 69,
      "miles": 48,
      "miles_estimated": false
@@ -1965,9 +1965,9 @@
       1.0,
       1.0,
       1.0,
-      0.9973,
-      0.8113,
-      0.6774
+      0.9977,
+      0.8131,
+      0.6791
      ],
      "reach_display": [
       ">99%",
@@ -2001,11 +2001,11 @@
      },
      "reach": [
       1.0,
-      0.9988,
-      0.9673,
-      0.967,
-      0.7977,
-      0.2001
+      0.9987,
+      0.9667,
+      0.9667,
+      0.8034,
+      0.2024
      ],
      "reach_display": [
       ">99%",
@@ -2039,11 +2039,11 @@
      },
      "reach": [
       1.0,
-      0.9997,
-      0.9691,
-      0.8321,
-      0.1819,
-      0.1092
+      0.9996,
+      0.9704,
+      0.8269,
+      0.1799,
+      0.104
      ],
      "reach_display": [
       ">99%",
@@ -2051,7 +2051,7 @@
       "97%",
       "83%",
       "18%",
-      "11%"
+      "10%"
      ]
     },
     {
@@ -2077,18 +2077,18 @@
      },
      "reach": [
       1.0,
-      0.9964,
-      0.7385,
-      0.4144,
-      0.0914,
-      0.0065
+      0.9952,
+      0.7343,
+      0.4075,
+      0.0849,
+      0.0063
      ],
      "reach_display": [
       ">99%",
       ">99%",
-      "74%",
+      "73%",
       "41%",
-      "9%",
+      "8%",
       "1%"
      ]
     },
@@ -2115,17 +2115,17 @@
      },
      "reach": [
       1.0,
-      0.9724,
-      0.9427,
-      0.4914,
-      0.0963,
-      0.0051
+      0.9737,
+      0.9454,
+      0.5008,
+      0.0965,
+      0.006
      ],
      "reach_display": [
       ">99%",
       "97%",
-      "94%",
-      "49%",
+      "95%",
+      "50%",
       "10%",
       "1%"
      ]
@@ -2152,12 +2152,12 @@
       "title_drought": null
      },
      "reach": [
-      0.9976,
-      0.9664,
-      0.8507,
-      0.1556,
+      0.9982,
+      0.9683,
+      0.8531,
+      0.1615,
       0.0066,
-      0.0014
+      0.0019
      ],
      "reach_display": [
       ">99%",
@@ -2191,18 +2191,56 @@
      },
      "reach": [
       1.0,
-      0.8635,
-      0.2544,
-      0.0904,
-      0.0084,
+      0.8616,
+      0.2576,
+      0.0883,
+      0.0083,
       0.0002
      ],
      "reach_display": [
       ">99%",
       "86%",
-      "25%",
+      "26%",
       "9%",
       "1%",
+      "<1%"
+     ]
+    },
+    {
+     "team": "Clever",
+     "district": 4,
+     "seed": 2,
+     "bye": false,
+     "record": "7-2",
+     "ovr": 9.2,
+     "off": -2.16,
+     "def": 11.35,
+     "ovr_rank": 106,
+     "class_rank": 8,
+     "slug": "clever",
+     "logo": "https://raw.githubusercontent.com/AllMOSports/All_MO_Sports-Data/main/logos_main2/clever.png",
+     "history": {
+      "final_fours": 0,
+      "last_final_four": null,
+      "final_four_drought": null,
+      "titles": 0,
+      "last_title": null,
+      "title_drought": null
+     },
+     "reach": [
+      0.9978,
+      0.6571,
+      0.0234,
+      0.0063,
+      0.0001,
+      0.0001
+     ],
+     "reach_display": [
+      ">99%",
+      "66%",
+      "2%",
+      "1%",
+      "<1%",
       "<1%"
      ]
     },
@@ -2228,20 +2266,20 @@
       "title_drought": null
      },
      "reach": [
-      0.9892,
-      0.6944,
-      0.028,
-      0.0272,
-      0.0058,
-      0.0001
+      0.9899,
+      0.7009,
+      0.0289,
+      0.0276,
+      0.0062,
+      0.0
      ],
      "reach_display": [
       "99%",
-      "69%",
+      "70%",
       "3%",
       "3%",
       "1%",
-      "<1%"
+      "0%"
      ]
     },
     {
@@ -2266,93 +2304,17 @@
       "title_drought": null
      },
      "reach": [
-      0.9028,
-      0.2999,
-      0.0044,
-      0.004,
-      0.0003,
+      0.9013,
+      0.294,
+      0.0042,
+      0.0039,
+      0.0006,
       0.0
      ],
      "reach_display": [
       "90%",
-      "30%",
+      "29%",
       "<1%",
-      "<1%",
-      "<1%",
-      "0%"
-     ]
-    },
-    {
-     "team": "Clever",
-     "district": 4,
-     "seed": 2,
-     "bye": false,
-     "record": "7-2",
-     "ovr": 9.2,
-     "off": -2.16,
-     "def": 11.35,
-     "ovr_rank": 106,
-     "class_rank": 8,
-     "slug": "clever",
-     "logo": "https://raw.githubusercontent.com/AllMOSports/All_MO_Sports-Data/main/logos_main2/clever.png",
-     "history": {
-      "final_fours": 0,
-      "last_final_four": null,
-      "final_four_drought": null,
-      "titles": 0,
-      "last_title": null,
-      "title_drought": null
-     },
-     "reach": [
-      0.9988,
-      0.6577,
-      0.0248,
-      0.0063,
-      0.0001,
-      0.0
-     ],
-     "reach_display": [
-      ">99%",
-      "66%",
-      "2%",
-      "1%",
-      "<1%",
-      "0%"
-     ]
-    },
-    {
-     "team": "Springfield Catholic",
-     "district": 3,
-     "seed": 1,
-     "bye": true,
-     "record": "9-0",
-     "ovr": 5.48,
-     "off": 4.28,
-     "def": 1.2,
-     "ovr_rank": 120,
-     "class_rank": 11,
-     "slug": "springfield-catholic",
-     "logo": "https://raw.githubusercontent.com/AllMOSports/All_MO_Sports-Data/main/logos_main2/springfield-catholic.png",
-     "history": {
-      "final_fours": 4,
-      "last_final_four": 2003,
-      "final_four_drought": 23,
-      "titles": 1,
-      "last_title": 1997,
-      "title_drought": 29
-     },
-     "reach": [
-      1.0,
-      0.6346,
-      0.1017,
-      0.0038,
-      0.0001,
-      0.0
-     ],
-     "reach_display": [
-      ">99%",
-      "63%",
-      "10%",
       "<1%",
       "<1%",
       "0%"
@@ -2381,9 +2343,9 @@
      },
      "reach": [
       1.0,
-      0.9149,
-      0.5233,
-      0.0019,
+      0.9137,
+      0.519,
+      0.0011,
       0.0001,
       0.0
      ],
@@ -2397,76 +2359,38 @@
      ]
     },
     {
-     "team": "East Newton",
-     "district": 4,
-     "seed": 3,
-     "bye": false,
-     "record": "3-6",
-     "ovr": 4.47,
-     "off": 4.42,
-     "def": 0.06,
-     "ovr_rank": 125,
-     "class_rank": 12,
-     "slug": "east-newton",
-     "logo": "https://raw.githubusercontent.com/AllMOSports/All_MO_Sports-Data/main/logos_main2/east-newton.png",
+     "team": "St. Vincent",
+     "district": 1,
+     "seed": 1,
+     "bye": true,
+     "record": "7-2",
+     "ovr": 4.36,
+     "off": -3.46,
+     "def": 7.83,
+     "ovr_rank": 127,
+     "class_rank": 13,
+     "slug": "st-vincent",
+     "logo": "https://raw.githubusercontent.com/AllMOSports/All_MO_Sports-Data/main/logos_main2/st-vincent.png",
      "history": {
-      "final_fours": 2,
-      "last_final_four": 2007,
-      "final_four_drought": 19,
-      "titles": 0,
-      "last_title": null,
-      "title_drought": null
+      "final_fours": 6,
+      "last_final_four": 2024,
+      "final_four_drought": 2,
+      "titles": 1,
+      "last_title": 2004,
+      "title_drought": 22
      },
      "reach": [
-      0.8777,
-      0.3324,
-      0.0061,
-      0.0012,
+      1.0,
+      0.9541,
+      0.4662,
+      0.0011,
       0.0001,
       0.0
      ],
      "reach_display": [
-      "88%",
-      "33%",
-      "1%",
-      "<1%",
-      "<1%",
-      "0%"
-     ]
-    },
-    {
-     "team": "Butler",
-     "district": 6,
-     "seed": 3,
-     "bye": false,
-     "record": "6-3",
-     "ovr": -19.59,
-     "off": -5.77,
-     "def": -13.82,
-     "ovr_rank": 208,
-     "class_rank": 32,
-     "slug": "butler",
-     "logo": "https://raw.githubusercontent.com/AllMOSports/All_MO_Sports-Data/main/logos_main2/butler.png",
-     "history": {
-      "final_fours": 1,
-      "last_final_four": 1989,
-      "final_four_drought": 37,
-      "titles": 0,
-      "last_title": null,
-      "title_drought": null
-     },
-     "reach": [
-      0.9901,
-      0.7922,
-      0.4331,
-      0.0008,
-      0.0001,
-      0.0
-     ],
-     "reach_display": [
-      "99%",
-      "79%",
-      "43%",
+      ">99%",
+      "95%",
+      "47%",
       "<1%",
       "<1%",
       "0%"
@@ -2494,17 +2418,283 @@
       "title_drought": 21
      },
      "reach": [
-      0.9922,
-      0.526,
-      0.0244,
-      0.0013,
-      0.0,
+      0.9932,
+      0.5257,
+      0.0232,
+      0.0011,
+      0.0001,
       0.0
      ],
      "reach_display": [
       "99%",
       "53%",
       "2%",
+      "<1%",
+      "<1%",
+      "0%"
+     ]
+    },
+    {
+     "team": "Lafayette County",
+     "district": 6,
+     "seed": 4,
+     "bye": false,
+     "record": "4-5",
+     "ovr": -18.51,
+     "off": -9.17,
+     "def": -9.34,
+     "ovr_rank": 205,
+     "class_rank": 30,
+     "slug": "lafayette-county",
+     "logo": "https://raw.githubusercontent.com/AllMOSports/All_MO_Sports-Data/main/logos_main2/lafayette-county.png",
+     "history": {
+      "final_fours": 4,
+      "last_final_four": 2021,
+      "final_four_drought": 5,
+      "titles": 0,
+      "last_title": null,
+      "title_drought": null
+     },
+     "reach": [
+      0.7757,
+      0.7685,
+      0.447,
+      0.0008,
+      0.0001,
+      0.0
+     ],
+     "reach_display": [
+      "78%",
+      "77%",
+      "45%",
+      "<1%",
+      "<1%",
+      "0%"
+     ]
+    },
+    {
+     "team": "South Callaway",
+     "district": 5,
+     "seed": 5,
+     "bye": false,
+     "record": "5-4",
+     "ovr": -10.66,
+     "off": -9.0,
+     "def": -1.66,
+     "ovr_rank": 177,
+     "class_rank": 22,
+     "slug": "south-callaway",
+     "logo": "https://raw.githubusercontent.com/AllMOSports/All_MO_Sports-Data/main/logos_main2/south-callaway.png",
+     "history": {
+      "final_fours": 1,
+      "last_final_four": 2014,
+      "final_four_drought": 12,
+      "titles": 0,
+      "last_title": null,
+      "title_drought": null
+     },
+     "reach": [
+      0.9518,
+      0.0013,
+      0.0002,
+      0.0001,
+      0.0001,
+      0.0
+     ],
+     "reach_display": [
+      "95%",
+      "<1%",
+      "<1%",
+      "<1%",
+      "<1%",
+      "0%"
+     ]
+    },
+    {
+     "team": "Springfield Catholic",
+     "district": 3,
+     "seed": 1,
+     "bye": true,
+     "record": "9-0",
+     "ovr": 5.48,
+     "off": 4.28,
+     "def": 1.2,
+     "ovr_rank": 120,
+     "class_rank": 11,
+     "slug": "springfield-catholic",
+     "logo": "https://raw.githubusercontent.com/AllMOSports/All_MO_Sports-Data/main/logos_main2/springfield-catholic.png",
+     "history": {
+      "final_fours": 4,
+      "last_final_four": 2003,
+      "final_four_drought": 23,
+      "titles": 1,
+      "last_title": 1997,
+      "title_drought": 29
+     },
+     "reach": [
+      1.0,
+      0.6395,
+      0.0987,
+      0.0032,
+      0.0,
+      0.0
+     ],
+     "reach_display": [
+      ">99%",
+      "64%",
+      "10%",
+      "<1%",
+      "0%",
+      "0%"
+     ]
+    },
+    {
+     "team": "East Newton",
+     "district": 4,
+     "seed": 3,
+     "bye": false,
+     "record": "3-6",
+     "ovr": 4.47,
+     "off": 4.42,
+     "def": 0.06,
+     "ovr_rank": 125,
+     "class_rank": 12,
+     "slug": "east-newton",
+     "logo": "https://raw.githubusercontent.com/AllMOSports/All_MO_Sports-Data/main/logos_main2/east-newton.png",
+     "history": {
+      "final_fours": 2,
+      "last_final_four": 2007,
+      "final_four_drought": 19,
+      "titles": 0,
+      "last_title": null,
+      "title_drought": null
+     },
+     "reach": [
+      0.877,
+      0.3331,
+      0.0062,
+      0.0011,
+      0.0,
+      0.0
+     ],
+     "reach_display": [
+      "88%",
+      "33%",
+      "1%",
+      "<1%",
+      "0%",
+      "0%"
+     ]
+    },
+    {
+     "team": "Bowling Green",
+     "district": 7,
+     "seed": 3,
+     "bye": false,
+     "record": "7-2",
+     "ovr": -2.93,
+     "off": 7.62,
+     "def": -10.55,
+     "ovr_rank": 156,
+     "class_rank": 16,
+     "slug": "bowling-green",
+     "logo": "https://raw.githubusercontent.com/AllMOSports/All_MO_Sports-Data/main/logos_main2/bowling-green.png",
+     "history": {
+      "final_fours": 5,
+      "last_final_four": 2024,
+      "final_four_drought": 2,
+      "titles": 0,
+      "last_title": null,
+      "title_drought": null
+     },
+     "reach": [
+      0.9997,
+      0.1384,
+      0.0078,
+      0.001,
+      0.0,
+      0.0
+     ],
+     "reach_display": [
+      ">99%",
+      "14%",
+      "1%",
+      "<1%",
+      "0%",
+      "0%"
+     ]
+    },
+    {
+     "team": "Butler",
+     "district": 6,
+     "seed": 3,
+     "bye": false,
+     "record": "6-3",
+     "ovr": -19.59,
+     "off": -5.77,
+     "def": -13.82,
+     "ovr_rank": 208,
+     "class_rank": 32,
+     "slug": "butler",
+     "logo": "https://raw.githubusercontent.com/AllMOSports/All_MO_Sports-Data/main/logos_main2/butler.png",
+     "history": {
+      "final_fours": 1,
+      "last_final_four": 1989,
+      "final_four_drought": 37,
+      "titles": 0,
+      "last_title": null,
+      "title_drought": null
+     },
+     "reach": [
+      0.9903,
+      0.7951,
+      0.432,
+      0.0009,
+      0.0,
+      0.0
+     ],
+     "reach_display": [
+      "99%",
+      "80%",
+      "43%",
+      "<1%",
+      "0%",
+      "0%"
+     ]
+    },
+    {
+     "team": "Liberty (Mountain View)",
+     "district": 3,
+     "seed": 4,
+     "bye": false,
+     "record": "7-2",
+     "ovr": 2.19,
+     "off": -2.81,
+     "def": 5.0,
+     "ovr_rank": 137,
+     "class_rank": 14,
+     "slug": "liberty-mountain-view",
+     "logo": "https://raw.githubusercontent.com/AllMOSports/All_MO_Sports-Data/main/logos_main2/liberty-mountain-view.png",
+     "history": {
+      "final_fours": 1,
+      "last_final_four": 2025,
+      "final_four_drought": 1,
+      "titles": 0,
+      "last_title": null,
+      "title_drought": null
+     },
+     "reach": [
+      0.6791,
+      0.2814,
+      0.0348,
+      0.0008,
+      0.0,
+      0.0
+     ],
+     "reach_display": [
+      "68%",
+      "28%",
+      "3%",
       "<1%",
       "0%",
       "0%"
@@ -2533,9 +2723,9 @@
      },
      "reach": [
       1.0,
-      0.4739,
-      0.0188,
-      0.0011,
+      0.4742,
+      0.0191,
+      0.0008,
       0.0,
       0.0
      ],
@@ -2543,158 +2733,6 @@
       ">99%",
       "47%",
       "2%",
-      "<1%",
-      "0%",
-      "0%"
-     ]
-    },
-    {
-     "team": "Liberty (Mountain View)",
-     "district": 3,
-     "seed": 4,
-     "bye": false,
-     "record": "7-2",
-     "ovr": 2.19,
-     "off": -2.81,
-     "def": 5.0,
-     "ovr_rank": 137,
-     "class_rank": 14,
-     "slug": "liberty-mountain-view",
-     "logo": "https://raw.githubusercontent.com/AllMOSports/All_MO_Sports-Data/main/logos_main2/liberty-mountain-view.png",
-     "history": {
-      "final_fours": 1,
-      "last_final_four": 2025,
-      "final_four_drought": 1,
-      "titles": 0,
-      "last_title": null,
-      "title_drought": null
-     },
-     "reach": [
-      0.6826,
-      0.2847,
-      0.0337,
-      0.0009,
-      0.0,
-      0.0
-     ],
-     "reach_display": [
-      "68%",
-      "28%",
-      "3%",
-      "<1%",
-      "0%",
-      "0%"
-     ]
-    },
-    {
-     "team": "St. Vincent",
-     "district": 1,
-     "seed": 1,
-     "bye": true,
-     "record": "7-2",
-     "ovr": 4.36,
-     "off": -3.46,
-     "def": 7.83,
-     "ovr_rank": 127,
-     "class_rank": 13,
-     "slug": "st-vincent",
-     "logo": "https://raw.githubusercontent.com/AllMOSports/All_MO_Sports-Data/main/logos_main2/st-vincent.png",
-     "history": {
-      "final_fours": 6,
-      "last_final_four": 2024,
-      "final_four_drought": 2,
-      "titles": 1,
-      "last_title": 2004,
-      "title_drought": 22
-     },
-     "reach": [
-      1.0,
-      0.9526,
-      0.4622,
-      0.0008,
-      0.0,
-      0.0
-     ],
-     "reach_display": [
-      ">99%",
-      "95%",
-      "46%",
-      "<1%",
-      "0%",
-      "0%"
-     ]
-    },
-    {
-     "team": "Bowling Green",
-     "district": 7,
-     "seed": 3,
-     "bye": false,
-     "record": "7-2",
-     "ovr": -2.93,
-     "off": 7.62,
-     "def": -10.55,
-     "ovr_rank": 156,
-     "class_rank": 16,
-     "slug": "bowling-green",
-     "logo": "https://raw.githubusercontent.com/AllMOSports/All_MO_Sports-Data/main/logos_main2/bowling-green.png",
-     "history": {
-      "final_fours": 5,
-      "last_final_four": 2024,
-      "final_four_drought": 2,
-      "titles": 0,
-      "last_title": null,
-      "title_drought": null
-     },
-     "reach": [
-      0.9996,
-      0.1365,
-      0.0068,
-      0.0008,
-      0.0,
-      0.0
-     ],
-     "reach_display": [
-      ">99%",
-      "14%",
-      "1%",
-      "<1%",
-      "0%",
-      "0%"
-     ]
-    },
-    {
-     "team": "Lafayette County",
-     "district": 6,
-     "seed": 4,
-     "bye": false,
-     "record": "4-5",
-     "ovr": -18.51,
-     "off": -9.17,
-     "def": -9.34,
-     "ovr_rank": 205,
-     "class_rank": 30,
-     "slug": "lafayette-county",
-     "logo": "https://raw.githubusercontent.com/AllMOSports/All_MO_Sports-Data/main/logos_main2/lafayette-county.png",
-     "history": {
-      "final_fours": 4,
-      "last_final_four": 2021,
-      "final_four_drought": 5,
-      "titles": 0,
-      "last_title": null,
-      "title_drought": null
-     },
-     "reach": [
-      0.7717,
-      0.7646,
-      0.4485,
-      0.0007,
-      0.0,
-      0.0
-     ],
-     "reach_display": [
-      "77%",
-      "76%",
-      "45%",
       "<1%",
       "0%",
       "0%"
@@ -2722,10 +2760,10 @@
       "title_drought": 19
      },
      "reach": [
-      0.668,
-      0.0236,
-      0.0126,
-      0.0006,
+      0.6691,
+      0.0223,
+      0.0115,
+      0.0003,
       0.0,
       0.0
      ],
@@ -2733,158 +2771,6 @@
       "67%",
       "2%",
       "1%",
-      "<1%",
-      "0%",
-      "0%"
-     ]
-    },
-    {
-     "team": "South Callaway",
-     "district": 5,
-     "seed": 5,
-     "bye": false,
-     "record": "5-4",
-     "ovr": -10.66,
-     "off": -9.0,
-     "def": -1.66,
-     "ovr_rank": 177,
-     "class_rank": 22,
-     "slug": "south-callaway",
-     "logo": "https://raw.githubusercontent.com/AllMOSports/All_MO_Sports-Data/main/logos_main2/south-callaway.png",
-     "history": {
-      "final_fours": 1,
-      "last_final_four": 2014,
-      "final_four_drought": 12,
-      "titles": 0,
-      "last_title": null,
-      "title_drought": null
-     },
-     "reach": [
-      0.9492,
-      0.0012,
-      0.0003,
-      0.0002,
-      0.0,
-      0.0
-     ],
-     "reach_display": [
-      "95%",
-      "<1%",
-      "<1%",
-      "<1%",
-      "0%",
-      "0%"
-     ]
-    },
-    {
-     "team": "Ava",
-     "district": 3,
-     "seed": 3,
-     "bye": false,
-     "record": "6-3",
-     "ovr": -6.15,
-     "off": -8.0,
-     "def": 1.84,
-     "ovr_rank": 165,
-     "class_rank": 18,
-     "slug": "ava",
-     "logo": "https://raw.githubusercontent.com/AllMOSports/All_MO_Sports-Data/main/logos_main2/ava.png",
-     "history": {
-      "final_fours": 1,
-      "last_final_four": 2019,
-      "final_four_drought": 7,
-      "titles": 0,
-      "last_title": null,
-      "title_drought": null
-     },
-     "reach": [
-      0.8715,
-      0.0324,
-      0.0091,
-      0.0001,
-      0.0,
-      0.0
-     ],
-     "reach_display": [
-      "87%",
-      "3%",
-      "1%",
-      "<1%",
-      "0%",
-      "0%"
-     ]
-    },
-    {
-     "team": "Forsyth",
-     "district": 3,
-     "seed": 5,
-     "bye": false,
-     "record": "4-5",
-     "ovr": -5.36,
-     "off": -2.71,
-     "def": -2.65,
-     "ovr_rank": 163,
-     "class_rank": 17,
-     "slug": "forsyth",
-     "logo": "https://raw.githubusercontent.com/AllMOSports/All_MO_Sports-Data/main/logos_main2/forsyth.png",
-     "history": {
-      "final_fours": 0,
-      "last_final_four": null,
-      "final_four_drought": null,
-      "titles": 0,
-      "last_title": null,
-      "title_drought": null
-     },
-     "reach": [
-      0.3174,
-      0.0807,
-      0.0048,
-      0.0001,
-      0.0,
-      0.0
-     ],
-     "reach_display": [
-      "32%",
-      "8%",
-      "<1%",
-      "<1%",
-      "0%",
-      "0%"
-     ]
-    },
-    {
-     "team": "Lathrop",
-     "district": 8,
-     "seed": 4,
-     "bye": false,
-     "record": "6-3",
-     "ovr": -13.99,
-     "off": -4.61,
-     "def": -9.39,
-     "ovr_rank": 185,
-     "class_rank": 23,
-     "slug": "lathrop",
-     "logo": "https://raw.githubusercontent.com/AllMOSports/All_MO_Sports-Data/main/logos_main2/lathrop.png",
-     "history": {
-      "final_fours": 3,
-      "last_final_four": 2019,
-      "final_four_drought": 7,
-      "titles": 0,
-      "last_title": null,
-      "title_drought": null
-     },
-     "reach": [
-      0.3321,
-      0.004,
-      0.0015,
-      0.0001,
-      0.0,
-      0.0
-     ],
-     "reach_display": [
-      "33%",
-      "<1%",
-      "<1%",
       "<1%",
       "0%",
       "0%"
@@ -2912,18 +2798,94 @@
       "title_drought": null
      },
      "reach": [
-      0.2283,
-      0.2162,
-      0.0654,
-      0.0,
+      0.2243,
+      0.2131,
+      0.0678,
+      0.0001,
       0.0,
       0.0
      ],
      "reach_display": [
-      "23%",
       "22%",
+      "21%",
       "7%",
+      "<1%",
       "0%",
+      "0%"
+     ]
+    },
+    {
+     "team": "Ava",
+     "district": 3,
+     "seed": 3,
+     "bye": false,
+     "record": "6-3",
+     "ovr": -6.15,
+     "off": -8.0,
+     "def": 1.84,
+     "ovr_rank": 165,
+     "class_rank": 18,
+     "slug": "ava",
+     "logo": "https://raw.githubusercontent.com/AllMOSports/All_MO_Sports-Data/main/logos_main2/ava.png",
+     "history": {
+      "final_fours": 1,
+      "last_final_four": 2019,
+      "final_four_drought": 7,
+      "titles": 0,
+      "last_title": null,
+      "title_drought": null
+     },
+     "reach": [
+      0.871,
+      0.031,
+      0.0086,
+      0.0001,
+      0.0,
+      0.0
+     ],
+     "reach_display": [
+      "87%",
+      "3%",
+      "1%",
+      "<1%",
+      "0%",
+      "0%"
+     ]
+    },
+    {
+     "team": "Lathrop",
+     "district": 8,
+     "seed": 4,
+     "bye": false,
+     "record": "6-3",
+     "ovr": -13.99,
+     "off": -4.61,
+     "def": -9.39,
+     "ovr_rank": 185,
+     "class_rank": 23,
+     "slug": "lathrop",
+     "logo": "https://raw.githubusercontent.com/AllMOSports/All_MO_Sports-Data/main/logos_main2/lathrop.png",
+     "history": {
+      "final_fours": 3,
+      "last_final_four": 2019,
+      "final_four_drought": 7,
+      "titles": 0,
+      "last_title": null,
+      "title_drought": null
+     },
+     "reach": [
+      0.331,
+      0.004,
+      0.0009,
+      0.0001,
+      0.0,
+      0.0
+     ],
+     "reach_display": [
+      "33%",
+      "<1%",
+      "<1%",
+      "<1%",
       "0%",
       "0%"
      ]
@@ -2950,16 +2912,16 @@
       "title_drought": null
      },
      "reach": [
-      0.9196,
-      0.2057,
-      0.0524,
+      0.9176,
+      0.2026,
+      0.0529,
       0.0,
       0.0,
       0.0
      ],
      "reach_display": [
       "92%",
-      "21%",
+      "20%",
       "5%",
       "0%",
       "0%",
@@ -2988,9 +2950,9 @@
       "title_drought": null
      },
      "reach": [
-      0.9998,
-      0.0852,
-      0.0113,
+      0.9995,
+      0.0862,
+      0.0114,
       0.0,
       0.0,
       0.0
@@ -2999,6 +2961,44 @@
       ">99%",
       "9%",
       "1%",
+      "0%",
+      "0%",
+      "0%"
+     ]
+    },
+    {
+     "team": "Forsyth",
+     "district": 3,
+     "seed": 5,
+     "bye": false,
+     "record": "4-5",
+     "ovr": -5.36,
+     "off": -2.71,
+     "def": -2.65,
+     "ovr_rank": 163,
+     "class_rank": 17,
+     "slug": "forsyth",
+     "logo": "https://raw.githubusercontent.com/AllMOSports/All_MO_Sports-Data/main/logos_main2/forsyth.png",
+     "history": {
+      "final_fours": 0,
+      "last_final_four": null,
+      "final_four_drought": null,
+      "titles": 0,
+      "last_title": null,
+      "title_drought": null
+     },
+     "reach": [
+      0.321,
+      0.079,
+      0.0047,
+      0.0,
+      0.0,
+      0.0
+     ],
+     "reach_display": [
+      "32%",
+      "8%",
+      "<1%",
       "0%",
       "0%",
       "0%"
@@ -3026,16 +3026,16 @@
       "title_drought": null
      },
      "reach": [
-      0.7729,
-      0.0452,
-      0.0032,
+      0.7692,
+      0.0435,
+      0.0034,
       0.0,
       0.0,
       0.0
      ],
      "reach_display": [
       "77%",
-      "5%",
+      "4%",
       "<1%",
       "0%",
       "0%",
@@ -3065,8 +3065,8 @@
      },
      "reach": [
       1.0,
-      0.0192,
-      0.0004,
+      0.0184,
+      0.0003,
       0.0,
       0.0,
       0.0
@@ -3102,15 +3102,15 @@
       "title_drought": 9
      },
      "reach": [
-      0.822,
-      0.0036,
+      0.825,
+      0.0047,
       0.0003,
       0.0,
       0.0,
       0.0
      ],
      "reach_display": [
-      "82%",
+      "83%",
       "<1%",
       "<1%",
       "0%",
@@ -3140,8 +3140,8 @@
       "title_drought": null
      },
      "reach": [
-      0.2271,
-      0.0022,
+      0.2308,
+      0.0024,
       0.0001,
       0.0,
       0.0,
@@ -3149,6 +3149,44 @@
      ],
      "reach_display": [
       "23%",
+      "<1%",
+      "<1%",
+      "0%",
+      "0%",
+      "0%"
+     ]
+    },
+    {
+     "team": "Houston",
+     "district": 3,
+     "seed": 7,
+     "bye": false,
+     "record": "2-7",
+     "ovr": -22.41,
+     "off": -10.05,
+     "def": -12.36,
+     "ovr_rank": 221,
+     "class_rank": 35,
+     "slug": "houston",
+     "logo": "https://raw.githubusercontent.com/AllMOSports/All_MO_Sports-Data/main/logos_main2/houston.png",
+     "history": {
+      "final_fours": 4,
+      "last_final_four": 2005,
+      "final_four_drought": 21,
+      "titles": 0,
+      "last_title": null,
+      "title_drought": null
+     },
+     "reach": [
+      0.0018,
+      0.0006,
+      0.0001,
+      0.0,
+      0.0,
+      0.0
+     ],
+     "reach_display": [
+      "<1%",
       "<1%",
       "<1%",
       "0%",
@@ -3178,8 +3216,8 @@
       "title_drought": 31
      },
      "reach": [
-      0.0804,
-      0.0016,
+      0.0824,
+      0.0011,
       0.0001,
       0.0,
       0.0,
@@ -3216,7 +3254,7 @@
       "title_drought": null
      },
      "reach": [
-      0.0003,
+      0.0005,
       0.0,
       0.0,
       0.0,
@@ -3255,7 +3293,7 @@
      },
      "reach": [
       1.0,
-      0.6821,
+      0.6841,
       0.0,
       0.0,
       0.0,
@@ -3292,8 +3330,8 @@
       "title_drought": null
      },
      "reach": [
-      0.9072,
-      0.3138,
+      0.9095,
+      0.3123,
       0.0,
       0.0,
       0.0,
@@ -3330,7 +3368,7 @@
       "title_drought": null
      },
      "reach": [
-      0.0159,
+      0.015,
       0.0,
       0.0,
       0.0,
@@ -3368,7 +3406,7 @@
       "title_drought": null
      },
      "reach": [
-      0.9841,
+      0.985,
       0.0,
       0.0,
       0.0,
@@ -3406,8 +3444,8 @@
       "title_drought": null
      },
      "reach": [
-      0.0929,
-      0.0042,
+      0.0905,
+      0.0037,
       0.0,
       0.0,
       0.0,
@@ -3482,8 +3520,8 @@
       "title_drought": null
      },
      "reach": [
-      0.1285,
-      0.0004,
+      0.129,
+      0.0001,
       0.0,
       0.0,
       0.0,
@@ -3491,44 +3529,6 @@
      ],
      "reach_display": [
       "13%",
-      "<1%",
-      "0%",
-      "0%",
-      "0%",
-      "0%"
-     ]
-    },
-    {
-     "team": "Houston",
-     "district": 3,
-     "seed": 7,
-     "bye": false,
-     "record": "2-7",
-     "ovr": -22.41,
-     "off": -10.05,
-     "def": -12.36,
-     "ovr_rank": 221,
-     "class_rank": 35,
-     "slug": "houston",
-     "logo": "https://raw.githubusercontent.com/AllMOSports/All_MO_Sports-Data/main/logos_main2/houston.png",
-     "history": {
-      "final_fours": 4,
-      "last_final_four": 2005,
-      "final_four_drought": 21,
-      "titles": 0,
-      "last_title": null,
-      "title_drought": null
-     },
-     "reach": [
-      0.0024,
-      0.0008,
-      0.0,
-      0.0,
-      0.0,
-      0.0
-     ],
-     "reach_display": [
-      "<1%",
       "<1%",
       "0%",
       "0%",
@@ -3558,7 +3558,7 @@
       "title_drought": 33
      },
      "reach": [
-      0.5024,
+      0.5007,
       0.0001,
       0.0,
       0.0,
@@ -3596,8 +3596,8 @@
       "title_drought": null
      },
      "reach": [
-      0.4975,
-      0.0002,
+      0.4993,
+      0.0003,
       0.0,
       0.0,
       0.0,
@@ -3634,7 +3634,7 @@
       "title_drought": null
      },
      "reach": [
-      0.1223,
+      0.123,
       0.0098,
       0.0,
       0.0,
@@ -3672,7 +3672,7 @@
       "title_drought": null
      },
      "reach": [
-      0.0012,
+      0.0022,
       0.0,
       0.0,
       0.0,
@@ -3710,7 +3710,7 @@
       "title_drought": null
      },
      "reach": [
-      0.0508,
+      0.0482,
       0.0,
       0.0,
       0.0,
@@ -3748,8 +3748,8 @@
       "title_drought": null
      },
      "reach": [
-      0.0108,
-      0.0004,
+      0.0101,
+      0.0007,
       0.0,
       0.0,
       0.0,
@@ -3786,8 +3786,8 @@
       "title_drought": 29
      },
      "reach": [
-      0.0972,
-      0.0053,
+      0.0987,
+      0.0044,
       0.0,
       0.0,
       0.0,
@@ -3795,7 +3795,7 @@
      ],
      "reach_display": [
       "10%",
-      "1%",
+      "<1%",
       "0%",
       "0%",
       "0%",
@@ -3824,8 +3824,8 @@
       "title_drought": null
      },
      "reach": [
-      0.0099,
-      0.0005,
+      0.0097,
+      0.0011,
       0.0,
       0.0,
       0.0,
@@ -3862,7 +3862,7 @@
       "title_drought": 18
      },
      "reach": [
-      0.178,
+      0.1749,
       0.0001,
       0.0,
       0.0,
@@ -3870,7 +3870,7 @@
       0.0
      ],
      "reach_display": [
-      "18%",
+      "17%",
       "<1%",
       "0%",
       "0%",
@@ -3900,7 +3900,7 @@
       "title_drought": null
      },
      "reach": [
-      0.0004,
+      0.0003,
       0.0,
       0.0,
       0.0,
@@ -3976,7 +3976,7 @@
       "title_drought": null
      },
      "reach": [
-      0.0077,
+      0.0068,
       0.0001,
       0.0,
       0.0,
@@ -4000,7 +4000,7 @@
      "away": "Central (New Madrid County)",
      "home_seed": 4,
      "away_seed": 5,
-     "home_win": 0.7729,
+     "home_win": 0.7692,
      "minutes": 49,
      "miles": 40,
      "miles_estimated": false
@@ -4011,7 +4011,7 @@
      "away": "East Prairie",
      "home_seed": 3,
      "away_seed": 6,
-     "home_win": 0.9998,
+     "home_win": 0.9995,
      "minutes": 71,
      "miles": 59,
      "miles_estimated": false
@@ -4022,7 +4022,7 @@
      "away": "Hermann",
      "home_seed": 4,
      "away_seed": 5,
-     "home_win": 0.0159,
+     "home_win": 0.015,
      "minutes": 110,
      "miles": 72,
      "miles_estimated": false
@@ -4044,7 +4044,7 @@
      "away": "Miller Career Academy with Sumner",
      "home_seed": 3,
      "away_seed": 6,
-     "home_win": 0.9072,
+     "home_win": 0.9095,
      "minutes": 98,
      "miles": 78,
      "miles_estimated": false
@@ -4055,7 +4055,7 @@
      "away": "Forsyth",
      "home_seed": 4,
      "away_seed": 5,
-     "home_win": 0.6826,
+     "home_win": 0.6791,
      "minutes": 161,
      "miles": 133,
      "miles_estimated": false
@@ -4066,7 +4066,7 @@
      "away": "Houston",
      "home_seed": 2,
      "away_seed": 7,
-     "home_win": 0.9976,
+     "home_win": 0.9982,
      "minutes": 122,
      "miles": 90,
      "miles_estimated": false
@@ -4077,7 +4077,7 @@
      "away": "Willow Springs",
      "home_seed": 3,
      "away_seed": 6,
-     "home_win": 0.8715,
+     "home_win": 0.871,
      "minutes": 70,
      "miles": 54,
      "miles_estimated": false
@@ -4088,7 +4088,7 @@
      "away": "Sarcoxie",
      "home_seed": 4,
      "away_seed": 5,
-     "home_win": 0.5024,
+     "home_win": 0.5007,
      "minutes": 161,
      "miles": 132,
      "miles_estimated": false
@@ -4099,7 +4099,7 @@
      "away": "El Dorado Springs",
      "home_seed": 2,
      "away_seed": 7,
-     "home_win": 0.9988,
+     "home_win": 0.9978,
      "minutes": 121,
      "miles": 94,
      "miles_estimated": false
@@ -4110,7 +4110,7 @@
      "away": "Stockton with Sheldon",
      "home_seed": 3,
      "away_seed": 6,
-     "home_win": 0.8777,
+     "home_win": 0.877,
      "minutes": 127,
      "miles": 83,
      "miles_estimated": false
@@ -4121,7 +4121,7 @@
      "away": "South Callaway",
      "home_seed": 4,
      "away_seed": 5,
-     "home_win": 0.0508,
+     "home_win": 0.0482,
      "minutes": 127,
      "miles": 84,
      "miles_estimated": false
@@ -4132,7 +4132,7 @@
      "away": "California",
      "home_seed": 2,
      "away_seed": 7,
-     "home_win": 0.9028,
+     "home_win": 0.9013,
      "minutes": 61,
      "miles": 50,
      "miles_estimated": false
@@ -4143,7 +4143,7 @@
      "away": "Versailles",
      "home_seed": 3,
      "away_seed": 6,
-     "home_win": 0.9892,
+     "home_win": 0.9899,
      "minutes": 97,
      "miles": 74,
      "miles_estimated": false
@@ -4154,7 +4154,7 @@
      "away": "Holden",
      "home_seed": 4,
      "away_seed": 5,
-     "home_win": 0.7717,
+     "home_win": 0.7757,
      "minutes": 59,
      "miles": 39,
      "miles_estimated": false
@@ -4165,7 +4165,7 @@
      "away": "Lexington",
      "home_seed": 2,
      "away_seed": 7,
-     "home_win": 0.9196,
+     "home_win": 0.9176,
      "minutes": 69,
      "miles": 53,
      "miles_estimated": false
@@ -4176,7 +4176,7 @@
      "away": "Lone Jack with Kingsville",
      "home_seed": 3,
      "away_seed": 6,
-     "home_win": 0.9901,
+     "home_win": 0.9903,
      "minutes": 75,
      "miles": 55,
      "miles_estimated": false
@@ -4187,7 +4187,7 @@
      "away": "Clark County",
      "home_seed": 4,
      "away_seed": 5,
-     "home_win": 0.822,
+     "home_win": 0.825,
      "minutes": 91,
      "miles": 72,
      "miles_estimated": false
@@ -4209,7 +4209,7 @@
      "away": "Mark Twain",
      "home_seed": 3,
      "away_seed": 6,
-     "home_win": 0.9996,
+     "home_win": 0.9997,
      "minutes": 39,
      "miles": 30,
      "miles_estimated": false
@@ -4220,7 +4220,7 @@
      "away": "Lawson",
      "home_seed": 4,
      "away_seed": 5,
-     "home_win": 0.3321,
+     "home_win": 0.331,
      "minutes": 24,
      "miles": 14,
      "miles_estimated": false
@@ -4231,7 +4231,7 @@
      "away": "Trenton",
      "home_seed": 3,
      "away_seed": 6,
-     "home_win": 0.9922,
+     "home_win": 0.9932,
      "minutes": 133,
      "miles": 104,
      "miles_estimated": false
@@ -4370,11 +4370,11 @@
      },
      "reach": [
       1.0,
-      0.9985,
-      0.8972,
-      0.8907,
-      0.8241,
-      0.8074
+      0.9986,
+      0.8962,
+      0.8888,
+      0.8216,
+      0.8043
      ],
      "reach_display": [
       ">99%",
@@ -4382,7 +4382,7 @@
       "90%",
       "89%",
       "82%",
-      "81%"
+      "80%"
      ]
     },
     {
@@ -4408,17 +4408,17 @@
      },
      "reach": [
       1.0,
-      0.9484,
-      0.5599,
-      0.4867,
-      0.0727,
-      0.0553
+      0.9476,
+      0.5553,
+      0.4814,
+      0.0722,
+      0.0568
      ],
      "reach_display": [
       ">99%",
       "95%",
       "56%",
-      "49%",
+      "48%",
       "7%",
       "6%"
      ]
@@ -4446,18 +4446,18 @@
      },
      "reach": [
       1.0,
-      0.9711,
-      0.1026,
-      0.093,
-      0.0536,
-      0.0427
+      0.971,
+      0.1037,
+      0.0939,
+      0.0563,
+      0.0446
      ],
      "reach_display": [
       ">99%",
       "97%",
       "10%",
       "9%",
-      "5%",
+      "6%",
       "4%"
      ]
     },
@@ -4484,15 +4484,15 @@
      },
      "reach": [
       1.0,
-      0.9845,
-      0.9294,
-      0.889,
-      0.5485,
-      0.0365
+      0.9857,
+      0.9344,
+      0.8917,
+      0.5521,
+      0.0385
      ],
      "reach_display": [
       ">99%",
-      "98%",
+      "99%",
       "93%",
       "89%",
       "55%",
@@ -4522,16 +4522,16 @@
      },
      "reach": [
       1.0,
-      0.9451,
-      0.4318,
-      0.3582,
-      0.0418,
-      0.0319
+      0.9458,
+      0.4361,
+      0.3602,
+      0.042,
+      0.0297
      ],
      "reach_display": [
       ">99%",
       "95%",
-      "43%",
+      "44%",
       "36%",
       "4%",
       "3%"
@@ -4560,57 +4560,19 @@
      },
      "reach": [
       1.0,
-      0.8423,
-      0.8414,
-      0.6396,
-      0.3385,
-      0.0213
+      0.8395,
+      0.8386,
+      0.6323,
+      0.3346,
+      0.0209
      ],
      "reach_display": [
       ">99%",
       "84%",
       "84%",
-      "64%",
-      "34%",
+      "63%",
+      "33%",
       "2%"
-     ]
-    },
-    {
-     "team": "Southern Boone",
-     "district": 4,
-     "seed": 1,
-     "bye": true,
-     "record": "7-2",
-     "ovr": 14.02,
-     "off": 5.84,
-     "def": 8.18,
-     "ovr_rank": 93,
-     "class_rank": 9,
-     "slug": "southern-boone",
-     "logo": "https://raw.githubusercontent.com/AllMOSports/All_MO_Sports-Data/main/logos_main2/southern-boone.png",
-     "history": {
-      "final_fours": 0,
-      "last_final_four": null,
-      "final_four_drought": null,
-      "titles": 0,
-      "last_title": null,
-      "title_drought": null
-     },
-     "reach": [
-      1.0,
-      0.972,
-      0.6097,
-      0.2059,
-      0.0645,
-      0.0016
-     ],
-     "reach_display": [
-      ">99%",
-      "97%",
-      "61%",
-      "21%",
-      "6%",
-      "<1%"
      ]
     },
     {
@@ -4636,18 +4598,56 @@
      },
      "reach": [
       1.0,
-      0.9856,
-      0.9528,
-      0.1526,
-      0.0046,
-      0.0015
+      0.9867,
+      0.9559,
+      0.1553,
+      0.0047,
+      0.0019
      ],
      "reach_display": [
       ">99%",
       "99%",
-      "95%",
-      "15%",
+      "96%",
+      "16%",
       "<1%",
+      "<1%"
+     ]
+    },
+    {
+     "team": "Southern Boone",
+     "district": 4,
+     "seed": 1,
+     "bye": true,
+     "record": "7-2",
+     "ovr": 14.02,
+     "off": 5.84,
+     "def": 8.18,
+     "ovr_rank": 93,
+     "class_rank": 9,
+     "slug": "southern-boone",
+     "logo": "https://raw.githubusercontent.com/AllMOSports/All_MO_Sports-Data/main/logos_main2/southern-boone.png",
+     "history": {
+      "final_fours": 0,
+      "last_final_four": null,
+      "final_four_drought": null,
+      "titles": 0,
+      "last_title": null,
+      "title_drought": null
+     },
+     "reach": [
+      1.0,
+      0.9727,
+      0.6062,
+      0.2077,
+      0.0653,
+      0.0014
+     ],
+     "reach_display": [
+      ">99%",
+      "97%",
+      "61%",
+      "21%",
+      "7%",
       "<1%"
      ]
     },
@@ -4674,16 +4674,16 @@
      },
      "reach": [
       1.0,
-      0.7428,
-      0.5861,
-      0.0143,
-      0.0029,
-      0.0013
+      0.7419,
+      0.5784,
+      0.0146,
+      0.0031,
+      0.0009
      ],
      "reach_display": [
       ">99%",
       "74%",
-      "59%",
+      "58%",
       "1%",
       "<1%",
       "<1%"
@@ -4711,133 +4711,19 @@
       "title_drought": null
      },
      "reach": [
-      0.9992,
-      0.748,
-      0.3345,
-      0.0907,
-      0.0238,
-      0.0004
+      0.9989,
+      0.753,
+      0.3363,
+      0.0945,
+      0.0246,
+      0.0006
      ],
      "reach_display": [
       ">99%",
       "75%",
-      "33%",
+      "34%",
       "9%",
       "2%",
-      "<1%"
-     ]
-    },
-    {
-     "team": "St. Francis Borgia",
-     "district": 4,
-     "seed": 2,
-     "bye": false,
-     "record": "5-4",
-     "ovr": 0.31,
-     "off": -3.18,
-     "def": 3.49,
-     "ovr_rank": 146,
-     "class_rank": 21,
-     "slug": "st-francis-borgia",
-     "logo": "https://raw.githubusercontent.com/AllMOSports/All_MO_Sports-Data/main/logos_main2/st-francis-borgia.png",
-     "history": {
-      "final_fours": 3,
-      "last_final_four": 2007,
-      "final_four_drought": 19,
-      "titles": 1,
-      "last_title": 1993,
-      "title_drought": 33
-     },
-     "reach": [
-      0.9912,
-      0.252,
-      0.0541,
-      0.0047,
-      0.0004,
-      0.0001
-     ],
-     "reach_display": [
-      "99%",
-      "25%",
-      "5%",
-      "<1%",
-      "<1%",
-      "<1%"
-     ]
-    },
-    {
-     "team": "Summit Christian Academy",
-     "district": 7,
-     "seed": 2,
-     "bye": false,
-     "record": "7-2",
-     "ovr": 8.48,
-     "off": 3.66,
-     "def": 4.82,
-     "ovr_rank": 109,
-     "class_rank": 15,
-     "slug": "summit-christian-academy",
-     "logo": "https://raw.githubusercontent.com/AllMOSports/All_MO_Sports-Data/main/logos_main2/summit-christian-academy.png",
-     "history": {
-      "final_fours": 0,
-      "last_final_four": null,
-      "final_four_drought": null,
-      "titles": 0,
-      "last_title": null,
-      "title_drought": null
-     },
-     "reach": [
-      0.7963,
-      0.4612,
-      0.1453,
-      0.001,
-      0.0003,
-      0.0001
-     ],
-     "reach_display": [
-      "80%",
-      "46%",
-      "15%",
-      "<1%",
-      "<1%",
-      "<1%"
-     ]
-    },
-    {
-     "team": "Center",
-     "district": 7,
-     "seed": 4,
-     "bye": false,
-     "record": "5-4",
-     "ovr": 10.26,
-     "off": 7.33,
-     "def": 2.93,
-     "ovr_rank": 103,
-     "class_rank": 11,
-     "slug": "center",
-     "logo": "https://raw.githubusercontent.com/AllMOSports/All_MO_Sports-Data/main/logos_main2/center.png",
-     "history": {
-      "final_fours": 4,
-      "last_final_four": 1988,
-      "final_four_drought": 38,
-      "titles": 0,
-      "last_title": null,
-      "title_drought": null
-     },
-     "reach": [
-      0.593,
-      0.1711,
-      0.0995,
-      0.0003,
-      0.0001,
-      0.0001
-     ],
-     "reach_display": [
-      "59%",
-      "17%",
-      "10%",
-      "<1%",
-      "<1%",
       "<1%"
      ]
     },
@@ -4864,19 +4750,19 @@
      },
      "reach": [
       0.998,
-      0.1578,
-      0.1543,
-      0.059,
-      0.0128,
-      0.0
+      0.1605,
+      0.1573,
+      0.0586,
+      0.0117,
+      0.0002
      ],
      "reach_display": [
       ">99%",
       "16%",
-      "15%",
+      "16%",
       "6%",
       "1%",
-      "0%"
+      "<1%"
      ]
     },
     {
@@ -4902,17 +4788,93 @@
      },
      "reach": [
       1.0,
-      0.9347,
-      0.0651,
-      0.0367,
-      0.004,
-      0.0
+      0.9328,
+      0.0606,
+      0.0338,
+      0.0038,
+      0.0001
      ],
      "reach_display": [
       ">99%",
       "93%",
-      "7%",
-      "4%",
+      "6%",
+      "3%",
+      "<1%",
+      "<1%"
+     ]
+    },
+    {
+     "team": "Center",
+     "district": 7,
+     "seed": 4,
+     "bye": false,
+     "record": "5-4",
+     "ovr": 10.26,
+     "off": 7.33,
+     "def": 2.93,
+     "ovr_rank": 103,
+     "class_rank": 11,
+     "slug": "center",
+     "logo": "https://raw.githubusercontent.com/AllMOSports/All_MO_Sports-Data/main/logos_main2/center.png",
+     "history": {
+      "final_fours": 4,
+      "last_final_four": 1988,
+      "final_four_drought": 38,
+      "titles": 0,
+      "last_title": null,
+      "title_drought": null
+     },
+     "reach": [
+      0.6097,
+      0.1734,
+      0.103,
+      0.0009,
+      0.0001,
+      0.0001
+     ],
+     "reach_display": [
+      "61%",
+      "17%",
+      "10%",
+      "<1%",
+      "<1%",
+      "<1%"
+     ]
+    },
+    {
+     "team": "Ste. Genevieve",
+     "district": 1,
+     "seed": 2,
+     "bye": false,
+     "record": "6-3",
+     "ovr": -1.19,
+     "off": -2.88,
+     "def": 1.7,
+     "ovr_rank": 152,
+     "class_rank": 24,
+     "slug": "ste-genevieve",
+     "logo": "https://raw.githubusercontent.com/AllMOSports/All_MO_Sports-Data/main/logos_main2/ste-genevieve.png",
+     "history": {
+      "final_fours": 7,
+      "last_final_four": 2006,
+      "final_four_drought": 20,
+      "titles": 1,
+      "last_title": 1992,
+      "title_drought": 34
+     },
+     "reach": [
+      0.9999,
+      0.602,
+      0.3448,
+      0.028,
+      0.0034,
+      0.0
+     ],
+     "reach_display": [
+      ">99%",
+      "60%",
+      "34%",
+      "3%",
       "<1%",
       "0%"
      ]
@@ -4940,54 +4902,16 @@
      },
      "reach": [
       1.0,
-      0.9082,
-      0.4493,
-      0.0328,
-      0.0033,
+      0.9092,
+      0.4495,
+      0.0343,
+      0.0029,
       0.0
      ],
      "reach_display": [
       ">99%",
       "91%",
       "45%",
-      "3%",
-      "<1%",
-      "0%"
-     ]
-    },
-    {
-     "team": "Ste. Genevieve",
-     "district": 1,
-     "seed": 2,
-     "bye": false,
-     "record": "6-3",
-     "ovr": -1.19,
-     "off": -2.88,
-     "def": 1.7,
-     "ovr_rank": 152,
-     "class_rank": 24,
-     "slug": "ste-genevieve",
-     "logo": "https://raw.githubusercontent.com/AllMOSports/All_MO_Sports-Data/main/logos_main2/ste-genevieve.png",
-     "history": {
-      "final_fours": 7,
-      "last_final_four": 2006,
-      "final_four_drought": 20,
-      "titles": 1,
-      "last_title": 1992,
-      "title_drought": 34
-     },
-     "reach": [
-      1.0,
-      0.5965,
-      0.3432,
-      0.0283,
-      0.0029,
-      0.0
-     ],
-     "reach_display": [
-      ">99%",
-      "60%",
-      "34%",
       "3%",
       "<1%",
       "0%"
@@ -5015,17 +4939,55 @@
       "title_drought": null
      },
      "reach": [
-      0.9452,
-      0.402,
-      0.1981,
-      0.0116,
-      0.0011,
+      0.9488,
+      0.396,
+      0.1958,
+      0.0105,
+      0.0008,
       0.0
      ],
      "reach_display": [
       "95%",
       "40%",
       "20%",
+      "1%",
+      "<1%",
+      "0%"
+     ]
+    },
+    {
+     "team": "St. Francis Borgia",
+     "district": 4,
+     "seed": 2,
+     "bye": false,
+     "record": "5-4",
+     "ovr": 0.31,
+     "off": -3.18,
+     "def": 3.49,
+     "ovr_rank": 146,
+     "class_rank": 21,
+     "slug": "st-francis-borgia",
+     "logo": "https://raw.githubusercontent.com/AllMOSports/All_MO_Sports-Data/main/logos_main2/st-francis-borgia.png",
+     "history": {
+      "final_fours": 3,
+      "last_final_four": 2007,
+      "final_four_drought": 19,
+      "titles": 1,
+      "last_title": 1993,
+      "title_drought": 33
+     },
+     "reach": [
+      0.991,
+      0.247,
+      0.0556,
+      0.0067,
+      0.0008,
+      0.0
+     ],
+     "reach_display": [
+      "99%",
+      "25%",
+      "6%",
       "1%",
       "<1%",
       "0%"
@@ -5053,10 +5015,10 @@
       "title_drought": 3
      },
      "reach": [
-      0.608,
-      0.0118,
-      0.0043,
-      0.0011,
+      0.6065,
+      0.0109,
+      0.0039,
+      0.0013,
       0.0001,
       0.0
      ],
@@ -5064,6 +5026,82 @@
       "61%",
       "1%",
       "<1%",
+      "<1%",
+      "<1%",
+      "0%"
+     ]
+    },
+    {
+     "team": "Summit Christian Academy",
+     "district": 7,
+     "seed": 2,
+     "bye": false,
+     "record": "7-2",
+     "ovr": 8.48,
+     "off": 3.66,
+     "def": 4.82,
+     "ovr_rank": 109,
+     "class_rank": 15,
+     "slug": "summit-christian-academy",
+     "logo": "https://raw.githubusercontent.com/AllMOSports/All_MO_Sports-Data/main/logos_main2/summit-christian-academy.png",
+     "history": {
+      "final_fours": 0,
+      "last_final_four": null,
+      "final_four_drought": null,
+      "titles": 0,
+      "last_title": null,
+      "title_drought": null
+     },
+     "reach": [
+      0.799,
+      0.4577,
+      0.1436,
+      0.001,
+      0.0001,
+      0.0
+     ],
+     "reach_display": [
+      "80%",
+      "46%",
+      "14%",
+      "<1%",
+      "<1%",
+      "0%"
+     ]
+    },
+    {
+     "team": "Boonville",
+     "district": 7,
+     "seed": 3,
+     "bye": false,
+     "record": "6-3",
+     "ovr": 6.92,
+     "off": 9.92,
+     "def": -3.0,
+     "ovr_rank": 114,
+     "class_rank": 17,
+     "slug": "boonville",
+     "logo": "https://raw.githubusercontent.com/AllMOSports/All_MO_Sports-Data/main/logos_main2/boonville.png",
+     "history": {
+      "final_fours": 3,
+      "last_final_four": 1998,
+      "final_four_drought": 28,
+      "titles": 2,
+      "last_title": 1998,
+      "title_drought": 28
+     },
+     "reach": [
+      0.6018,
+      0.313,
+      0.0882,
+      0.0006,
+      0.0001,
+      0.0
+     ],
+     "reach_display": [
+      "60%",
+      "31%",
+      "9%",
       "<1%",
       "<1%",
       "0%"
@@ -5091,10 +5129,10 @@
       "title_drought": 48
      },
      "reach": [
-      0.9811,
-      0.0517,
-      0.0046,
-      0.0013,
+      0.9825,
+      0.0524,
+      0.0043,
+      0.0015,
       0.0,
       0.0
      ],
@@ -5129,10 +5167,10 @@
       "title_drought": null
      },
      "reach": [
-      0.8758,
-      0.0545,
-      0.0037,
-      0.0013,
+      0.8838,
+      0.0537,
+      0.0043,
+      0.0014,
       0.0,
       0.0
      ],
@@ -5146,38 +5184,38 @@
      ]
     },
     {
-     "team": "Boonville",
-     "district": 7,
-     "seed": 3,
+     "team": "Strafford",
+     "district": 5,
+     "seed": 2,
      "bye": false,
-     "record": "6-3",
-     "ovr": 6.92,
-     "off": 9.92,
-     "def": -3.0,
-     "ovr_rank": 114,
-     "class_rank": 17,
-     "slug": "boonville",
-     "logo": "https://raw.githubusercontent.com/AllMOSports/All_MO_Sports-Data/main/logos_main2/boonville.png",
+     "record": "4-5",
+     "ovr": -11.15,
+     "off": -8.32,
+     "def": -2.83,
+     "ovr_rank": 180,
+     "class_rank": 30,
+     "slug": "strafford",
+     "logo": "https://raw.githubusercontent.com/AllMOSports/All_MO_Sports-Data/main/logos_main2/strafford.png",
      "history": {
-      "final_fours": 3,
-      "last_final_four": 1998,
-      "final_four_drought": 28,
-      "titles": 2,
-      "last_title": 1998,
-      "title_drought": 28
+      "final_fours": 0,
+      "last_final_four": null,
+      "final_four_drought": null,
+      "titles": 0,
+      "last_title": null,
+      "title_drought": null
      },
      "reach": [
-      0.597,
-      0.31,
-      0.0854,
+      0.9998,
+      0.8944,
+      0.0391,
       0.0003,
       0.0,
       0.0
      ],
      "reach_display": [
-      "60%",
-      "31%",
-      "9%",
+      ">99%",
+      "89%",
+      "4%",
       "<1%",
       "0%",
       "0%"
@@ -5205,9 +5243,9 @@
       "title_drought": null
      },
      "reach": [
-      0.392,
-      0.0037,
-      0.0008,
+      0.3935,
+      0.0034,
+      0.001,
       0.0003,
       0.0,
       0.0
@@ -5243,54 +5281,16 @@
       "title_drought": 12
      },
      "reach": [
-      0.407,
-      0.0862,
-      0.0418,
-      0.0001,
+      0.3903,
+      0.0847,
+      0.0442,
+      0.0002,
       0.0,
       0.0
      ],
      "reach_display": [
-      "41%",
-      "9%",
-      "4%",
-      "<1%",
-      "0%",
-      "0%"
-     ]
-    },
-    {
-     "team": "Strafford",
-     "district": 5,
-     "seed": 2,
-     "bye": false,
-     "record": "4-5",
-     "ovr": -11.15,
-     "off": -8.32,
-     "def": -2.83,
-     "ovr_rank": 180,
-     "class_rank": 30,
-     "slug": "strafford",
-     "logo": "https://raw.githubusercontent.com/AllMOSports/All_MO_Sports-Data/main/logos_main2/strafford.png",
-     "history": {
-      "final_fours": 0,
-      "last_final_four": null,
-      "final_four_drought": null,
-      "titles": 0,
-      "last_title": null,
-      "title_drought": null
-     },
-     "reach": [
-      0.9999,
-      0.8942,
-      0.0415,
-      0.0001,
-      0.0,
-      0.0
-     ],
-     "reach_display": [
-      ">99%",
-      "89%",
+      "39%",
+      "8%",
       "4%",
       "<1%",
       "0%",
@@ -5319,16 +5319,16 @@
       "title_drought": null
      },
      "reach": [
-      0.4029,
-      0.1742,
-      0.0369,
+      0.3982,
+      0.1759,
+      0.0375,
       0.0001,
       0.0,
       0.0
      ],
      "reach_display": [
       "40%",
-      "17%",
+      "18%",
       "4%",
       "<1%",
       "0%",
@@ -5357,16 +5357,16 @@
       "title_drought": null
      },
      "reach": [
-      0.6712,
-      0.077,
-      0.0088,
+      0.6637,
+      0.0747,
+      0.0089,
       0.0001,
       0.0,
       0.0
      ],
      "reach_display": [
-      "67%",
-      "8%",
+      "66%",
+      "7%",
       "1%",
       "<1%",
       "0%",
@@ -5396,7 +5396,7 @@
      },
      "reach": [
       1.0,
-      0.5361,
+      0.5385,
       0.0022,
       0.0001,
       0.0,
@@ -5412,37 +5412,37 @@
      ]
     },
     {
-     "team": "Fulton",
-     "district": 4,
-     "seed": 5,
+     "team": "John Burroughs",
+     "district": 3,
+     "seed": 4,
      "bye": false,
-     "record": "2-7",
-     "ovr": -15.46,
-     "off": -8.28,
-     "def": -7.17,
-     "ovr_rank": 192,
-     "class_rank": 32,
-     "slug": "fulton",
-     "logo": "https://raw.githubusercontent.com/AllMOSports/All_MO_Sports-Data/main/logos_main2/fulton.png",
+     "record": "4-3",
+     "ovr": -24.49,
+     "off": -12.67,
+     "def": -11.82,
+     "ovr_rank": 225,
+     "class_rank": 38,
+     "slug": "john-burroughs",
+     "logo": "https://raw.githubusercontent.com/AllMOSports/All_MO_Sports-Data/main/logos_main2/john-burroughs.png",
      "history": {
-      "final_fours": 2,
-      "last_final_four": 1976,
-      "final_four_drought": 50,
-      "titles": 0,
-      "last_title": null,
-      "title_drought": null
+      "final_fours": 19,
+      "last_final_four": 2015,
+      "final_four_drought": 11,
+      "titles": 9,
+      "last_title": 2015,
+      "title_drought": 11
      },
      "reach": [
-      0.8294,
-      0.0277,
-      0.0018,
+      0.6898,
+      0.363,
+      0.0016,
       0.0001,
       0.0,
       0.0
      ],
      "reach_display": [
-      "83%",
-      "3%",
+      "69%",
+      "36%",
       "<1%",
       "<1%",
       "0%",
@@ -5471,9 +5471,9 @@
       "title_drought": null
      },
      "reach": [
-      0.9303,
-      0.0651,
-      0.0004,
+      0.9293,
+      0.0672,
+      0.0001,
       0.0001,
       0.0,
       0.0
@@ -5483,82 +5483,6 @@
       "7%",
       "<1%",
       "<1%",
-      "0%",
-      "0%"
-     ]
-    },
-    {
-     "team": "Richmond",
-     "district": 8,
-     "seed": 3,
-     "bye": false,
-     "record": "7-2",
-     "ovr": 6.14,
-     "off": 8.32,
-     "def": -2.18,
-     "ovr_rank": 119,
-     "class_rank": 19,
-     "slug": "richmond",
-     "logo": "https://raw.githubusercontent.com/AllMOSports/All_MO_Sports-Data/main/logos_main2/richmond.png",
-     "history": {
-      "final_fours": 5,
-      "last_final_four": 2021,
-      "final_four_drought": 5,
-      "titles": 2,
-      "last_title": 2010,
-      "title_drought": 16
-     },
-     "reach": [
-      0.9323,
-      0.0289,
-      0.0001,
-      0.0001,
-      0.0,
-      0.0
-     ],
-     "reach_display": [
-      "93%",
-      "3%",
-      "<1%",
-      "<1%",
-      "0%",
-      "0%"
-     ]
-    },
-    {
-     "team": "Buffalo",
-     "district": 5,
-     "seed": 5,
-     "bye": false,
-     "record": "3-6",
-     "ovr": -16.94,
-     "off": -1.64,
-     "def": -15.3,
-     "ovr_rank": 200,
-     "class_rank": 33,
-     "slug": "buffalo",
-     "logo": "https://raw.githubusercontent.com/AllMOSports/All_MO_Sports-Data/main/logos_main2/buffalo.png",
-     "history": {
-      "final_fours": 0,
-      "last_final_four": null,
-      "final_four_drought": null,
-      "titles": 0,
-      "last_title": null,
-      "title_drought": null
-     },
-     "reach": [
-      0.9147,
-      0.0144,
-      0.0054,
-      0.0,
-      0.0,
-      0.0
-     ],
-     "reach_display": [
-      "91%",
-      "1%",
-      "1%",
-      "0%",
       "0%",
       "0%"
      ]
@@ -5585,9 +5509,9 @@
       "title_drought": null
      },
      "reach": [
-      0.2037,
-      0.0546,
-      0.005,
+      0.201,
+      0.0534,
+      0.0052,
       0.0,
       0.0,
       0.0
@@ -5595,6 +5519,44 @@
      "reach_display": [
       "20%",
       "5%",
+      "1%",
+      "0%",
+      "0%",
+      "0%"
+     ]
+    },
+    {
+     "team": "Buffalo",
+     "district": 5,
+     "seed": 5,
+     "bye": false,
+     "record": "3-6",
+     "ovr": -16.94,
+     "off": -1.64,
+     "def": -15.3,
+     "ovr_rank": 200,
+     "class_rank": 33,
+     "slug": "buffalo",
+     "logo": "https://raw.githubusercontent.com/AllMOSports/All_MO_Sports-Data/main/logos_main2/buffalo.png",
+     "history": {
+      "final_fours": 0,
+      "last_final_four": null,
+      "final_four_drought": null,
+      "titles": 0,
+      "last_title": null,
+      "title_drought": null
+     },
+     "reach": [
+      0.9206,
+      0.0134,
+      0.0047,
+      0.0,
+      0.0,
+      0.0
+     ],
+     "reach_display": [
+      "92%",
+      "1%",
       "<1%",
       "0%",
       "0%",
@@ -5602,37 +5564,37 @@
      ]
     },
     {
-     "team": "John Burroughs",
-     "district": 3,
-     "seed": 4,
+     "team": "Fulton",
+     "district": 4,
+     "seed": 5,
      "bye": false,
-     "record": "4-3",
-     "ovr": -24.49,
-     "off": -12.67,
-     "def": -11.82,
-     "ovr_rank": 225,
-     "class_rank": 38,
-     "slug": "john-burroughs",
-     "logo": "https://raw.githubusercontent.com/AllMOSports/All_MO_Sports-Data/main/logos_main2/john-burroughs.png",
+     "record": "2-7",
+     "ovr": -15.46,
+     "off": -8.28,
+     "def": -7.17,
+     "ovr_rank": 192,
+     "class_rank": 32,
+     "slug": "fulton",
+     "logo": "https://raw.githubusercontent.com/AllMOSports/All_MO_Sports-Data/main/logos_main2/fulton.png",
      "history": {
-      "final_fours": 19,
-      "last_final_four": 2015,
-      "final_four_drought": 11,
-      "titles": 9,
-      "last_title": 2015,
-      "title_drought": 11
+      "final_fours": 2,
+      "last_final_four": 1976,
+      "final_four_drought": 50,
+      "titles": 0,
+      "last_title": null,
+      "title_drought": null
      },
      "reach": [
-      0.6885,
-      0.3594,
-      0.0019,
+      0.8275,
+      0.0269,
+      0.0018,
       0.0,
       0.0,
       0.0
      ],
      "reach_display": [
-      "69%",
-      "36%",
+      "83%",
+      "3%",
       "<1%",
       "0%",
       "0%",
@@ -5661,16 +5623,16 @@
       "title_drought": 58
      },
      "reach": [
-      0.3288,
-      0.0147,
-      0.0006,
+      0.3363,
+      0.0161,
+      0.0008,
       0.0,
       0.0,
       0.0
      ],
      "reach_display": [
-      "33%",
-      "1%",
+      "34%",
+      "2%",
       "<1%",
       "0%",
       "0%",
@@ -5699,8 +5661,8 @@
       "title_drought": null
      },
      "reach": [
-      0.3115,
-      0.1045,
+      0.3101,
+      0.0984,
       0.0002,
       0.0,
       0.0,
@@ -5716,18 +5678,56 @@
      ]
     },
     {
-     "team": "Wright City",
-     "district": 4,
-     "seed": 4,
+     "team": "Salem",
+     "district": 5,
+     "seed": 6,
      "bye": false,
-     "record": "3-6",
-     "ovr": -30.55,
-     "off": -15.08,
-     "def": -15.47,
-     "ovr_rank": 243,
-     "class_rank": 42,
-     "slug": "wright-city",
-     "logo": "https://raw.githubusercontent.com/AllMOSports/All_MO_Sports-Data/main/logos_main2/wright-city.png",
+     "record": "2-7",
+     "ovr": -31.5,
+     "off": -16.08,
+     "def": -15.41,
+     "ovr_rank": 246,
+     "class_rank": 44,
+     "slug": "salem",
+     "logo": "https://raw.githubusercontent.com/AllMOSports/All_MO_Sports-Data/main/logos_main2/salem.png",
+     "history": {
+      "final_fours": 5,
+      "last_final_four": 2002,
+      "final_four_drought": 24,
+      "titles": 0,
+      "last_title": null,
+      "title_drought": null
+     },
+     "reach": [
+      0.4817,
+      0.0485,
+      0.0002,
+      0.0,
+      0.0,
+      0.0
+     ],
+     "reach_display": [
+      "48%",
+      "5%",
+      "<1%",
+      "0%",
+      "0%",
+      "0%"
+     ]
+    },
+    {
+     "team": "Scott City with Chaffee",
+     "district": 1,
+     "seed": 6,
+     "bye": false,
+     "record": "2-7",
+     "ovr": -30.23,
+     "off": -15.61,
+     "def": -14.61,
+     "ovr_rank": 241,
+     "class_rank": 41,
+     "slug": "scott-city",
+     "logo": "https://raw.githubusercontent.com/AllMOSports/All_MO_Sports-Data/main/logos_main2/scott-city.png",
      "history": {
       "final_fours": 0,
       "last_final_four": null,
@@ -5737,15 +5737,15 @@
       "title_drought": null
      },
      "reach": [
-      0.1706,
-      0.0003,
+      0.0512,
+      0.002,
       0.0001,
       0.0,
       0.0,
       0.0
      ],
      "reach_display": [
-      "17%",
+      "5%",
       "<1%",
       "<1%",
       "0%",
@@ -5775,8 +5775,8 @@
       "title_drought": null
      },
      "reach": [
-      0.5203,
-      0.0547,
+      0.5183,
+      0.0571,
       0.0001,
       0.0,
       0.0,
@@ -5784,122 +5784,8 @@
      ],
      "reach_display": [
       "52%",
-      "5%",
+      "6%",
       "<1%",
-      "0%",
-      "0%",
-      "0%"
-     ]
-    },
-    {
-     "team": "Salem",
-     "district": 5,
-     "seed": 6,
-     "bye": false,
-     "record": "2-7",
-     "ovr": -31.5,
-     "off": -16.08,
-     "def": -15.41,
-     "ovr_rank": 246,
-     "class_rank": 44,
-     "slug": "salem",
-     "logo": "https://raw.githubusercontent.com/AllMOSports/All_MO_Sports-Data/main/logos_main2/salem.png",
-     "history": {
-      "final_fours": 5,
-      "last_final_four": 2002,
-      "final_four_drought": 24,
-      "titles": 0,
-      "last_title": null,
-      "title_drought": null
-     },
-     "reach": [
-      0.4797,
-      0.0512,
-      0.0001,
-      0.0,
-      0.0,
-      0.0
-     ],
-     "reach_display": [
-      "48%",
-      "5%",
-      "<1%",
-      "0%",
-      "0%",
-      "0%"
-     ]
-    },
-    {
-     "team": "Macon",
-     "district": 8,
-     "seed": 4,
-     "bye": false,
-     "record": "7-2",
-     "ovr": 9.26,
-     "off": 0.76,
-     "def": 8.51,
-     "ovr_rank": 105,
-     "class_rank": 13,
-     "slug": "macon",
-     "logo": "https://raw.githubusercontent.com/AllMOSports/All_MO_Sports-Data/main/logos_main2/macon.png",
-     "history": {
-      "final_fours": 2,
-      "last_final_four": 2010,
-      "final_four_drought": 16,
-      "titles": 0,
-      "last_title": null,
-      "title_drought": null
-     },
-     "reach": [
-      0.732,
-      0.0014,
-      0.0001,
-      0.0,
-      0.0,
-      0.0
-     ],
-     "reach_display": [
-      "73%",
-      "<1%",
-      "<1%",
-      "0%",
-      "0%",
-      "0%"
-     ]
-    },
-    {
-     "team": "Scott City with Chaffee",
-     "district": 1,
-     "seed": 6,
-     "bye": false,
-     "record": "2-7",
-     "ovr": -30.23,
-     "off": -15.61,
-     "def": -14.61,
-     "ovr_rank": 241,
-     "class_rank": 41,
-     "slug": "scott-city",
-     "logo": "https://raw.githubusercontent.com/AllMOSports/All_MO_Sports-Data/main/logos_main2/scott-city.png",
-     "history": {
-      "final_fours": 0,
-      "last_final_four": null,
-      "final_four_drought": null,
-      "titles": 0,
-      "last_title": null,
-      "title_drought": null
-     },
-     "reach": [
-      0.0548,
-      0.0015,
-      0.0,
-      0.0,
-      0.0,
-      0.0
-     ],
-     "reach_display": [
-      "5%",
-      "<1%",
-      "0%",
       "0%",
       "0%",
       "0%"
@@ -5927,7 +5813,7 @@
       "title_drought": null
      },
      "reach": [
-      0.0,
+      0.0001,
       0.0,
       0.0,
       0.0,
@@ -5935,7 +5821,7 @@
       0.0
      ],
      "reach_display": [
-      "0%",
+      "<1%",
       "0%",
       "0%",
       "0%",
@@ -5965,8 +5851,8 @@
       "title_drought": null
      },
      "reach": [
-      0.0697,
-      0.0001,
+      0.0707,
+      0.0,
       0.0,
       0.0,
       0.0,
@@ -5974,7 +5860,7 @@
      ],
      "reach_display": [
       "7%",
-      "<1%",
+      "0%",
       "0%",
       "0%",
       "0%",
@@ -6003,7 +5889,7 @@
       "title_drought": 53
      },
      "reach": [
-      0.0021,
+      0.002,
       0.0,
       0.0,
       0.0,
@@ -6058,6 +5944,44 @@
      ]
     },
     {
+     "team": "Wright City",
+     "district": 4,
+     "seed": 4,
+     "bye": false,
+     "record": "3-6",
+     "ovr": -30.55,
+     "off": -15.08,
+     "def": -15.47,
+     "ovr_rank": 243,
+     "class_rank": 42,
+     "slug": "wright-city",
+     "logo": "https://raw.githubusercontent.com/AllMOSports/All_MO_Sports-Data/main/logos_main2/wright-city.png",
+     "history": {
+      "final_fours": 0,
+      "last_final_four": null,
+      "final_four_drought": null,
+      "titles": 0,
+      "last_title": null,
+      "title_drought": null
+     },
+     "reach": [
+      0.1725,
+      0.0004,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+     ],
+     "reach_display": [
+      "17%",
+      "<1%",
+      "0%",
+      "0%",
+      "0%",
+      "0%"
+     ]
+    },
+    {
      "team": "Eldon",
      "district": 4,
      "seed": 6,
@@ -6079,7 +6003,7 @@
       "title_drought": null
      },
      "reach": [
-      0.0008,
+      0.0011,
       0.0,
       0.0,
       0.0,
@@ -6117,7 +6041,7 @@
       "title_drought": null
      },
      "reach": [
-      0.0088,
+      0.009,
       0.0,
       0.0,
       0.0,
@@ -6155,7 +6079,7 @@
       "title_drought": null
      },
      "reach": [
-      0.0853,
+      0.0794,
       0.0,
       0.0,
       0.0,
@@ -6163,7 +6087,7 @@
       0.0
      ],
      "reach_display": [
-      "9%",
+      "8%",
       "0%",
       "0%",
       "0%",
@@ -6193,7 +6117,7 @@
       "title_drought": null
      },
      "reach": [
-      0.0001,
+      0.0003,
       0.0,
       0.0,
       0.0,
@@ -6231,7 +6155,7 @@
       "title_drought": null
      },
      "reach": [
-      0.0188,
+      0.0175,
       0.0,
       0.0,
       0.0,
@@ -6269,8 +6193,8 @@
       "title_drought": 27
      },
      "reach": [
-      0.1242,
-      0.0004,
+      0.1163,
+      0.0006,
       0.0,
       0.0,
       0.0,
@@ -6324,6 +6248,82 @@
      ]
     },
     {
+     "team": "Richmond",
+     "district": 8,
+     "seed": 3,
+     "bye": false,
+     "record": "7-2",
+     "ovr": 6.14,
+     "off": 8.32,
+     "def": -2.18,
+     "ovr_rank": 119,
+     "class_rank": 19,
+     "slug": "richmond",
+     "logo": "https://raw.githubusercontent.com/AllMOSports/All_MO_Sports-Data/main/logos_main2/richmond.png",
+     "history": {
+      "final_fours": 5,
+      "last_final_four": 2021,
+      "final_four_drought": 5,
+      "titles": 2,
+      "last_title": 2010,
+      "title_drought": 16
+     },
+     "reach": [
+      0.9323,
+      0.029,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+     ],
+     "reach_display": [
+      "93%",
+      "3%",
+      "0%",
+      "0%",
+      "0%",
+      "0%"
+     ]
+    },
+    {
+     "team": "Macon",
+     "district": 8,
+     "seed": 4,
+     "bye": false,
+     "record": "7-2",
+     "ovr": 9.26,
+     "off": 0.76,
+     "def": 8.51,
+     "ovr_rank": 105,
+     "class_rank": 13,
+     "slug": "macon",
+     "logo": "https://raw.githubusercontent.com/AllMOSports/All_MO_Sports-Data/main/logos_main2/macon.png",
+     "history": {
+      "final_fours": 2,
+      "last_final_four": 2010,
+      "final_four_drought": 16,
+      "titles": 0,
+      "last_title": null,
+      "title_drought": null
+     },
+     "reach": [
+      0.7281,
+      0.0013,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+     ],
+     "reach_display": [
+      "73%",
+      "<1%",
+      "0%",
+      "0%",
+      "0%",
+      "0%"
+     ]
+    },
+    {
      "team": "Chillicothe",
      "district": 8,
      "seed": 5,
@@ -6345,7 +6345,7 @@
       "title_drought": 35
      },
      "reach": [
-      0.268,
+      0.2718,
       0.0001,
       0.0,
       0.0,
@@ -6383,8 +6383,8 @@
       "title_drought": 21
      },
      "reach": [
-      0.0678,
-      0.0,
+      0.0677,
+      0.0001,
       0.0,
       0.0,
       0.0,
@@ -6392,7 +6392,7 @@
      ],
      "reach_display": [
       "7%",
-      "0%",
+      "<1%",
       "0%",
       "0%",
       "0%",
@@ -6407,7 +6407,7 @@
      "away": "Fredericktown",
      "home_seed": 4,
      "away_seed": 5,
-     "home_win": 0.3288,
+     "home_win": 0.3363,
      "minutes": 51,
      "miles": 30,
      "miles_estimated": false
@@ -6418,7 +6418,7 @@
      "away": "Doniphan",
      "home_seed": 2,
      "away_seed": 7,
-     "home_win": 1.0,
+     "home_win": 0.9999,
      "minutes": 179,
      "miles": 137,
      "miles_estimated": false
@@ -6429,7 +6429,7 @@
      "away": "Scott City with Chaffee",
      "home_seed": 3,
      "away_seed": 6,
-     "home_win": 0.9452,
+     "home_win": 0.9488,
      "minutes": 60,
      "miles": 51,
      "miles_estimated": false
@@ -6440,7 +6440,7 @@
      "away": "Potosi",
      "home_seed": 4,
      "away_seed": 5,
-     "home_win": 0.608,
+     "home_win": 0.6065,
      "minutes": 28,
      "miles": 18,
      "miles_estimated": false
@@ -6451,7 +6451,7 @@
      "away": "Lutheran South",
      "home_seed": 3,
      "away_seed": 6,
-     "home_win": 0.9303,
+     "home_win": 0.9293,
      "minutes": 31,
      "miles": 23,
      "miles_estimated": false
@@ -6462,7 +6462,7 @@
      "away": "Winfield",
      "home_seed": 4,
      "away_seed": 5,
-     "home_win": 0.6885,
+     "home_win": 0.6898,
      "minutes": 55,
      "miles": 41,
      "miles_estimated": false
@@ -6495,7 +6495,7 @@
      "away": "Fulton",
      "home_seed": 4,
      "away_seed": 5,
-     "home_win": 0.1706,
+     "home_win": 0.1725,
      "minutes": 66,
      "miles": 57,
      "miles_estimated": false
@@ -6506,7 +6506,7 @@
      "away": "Owensville",
      "home_seed": 2,
      "away_seed": 7,
-     "home_win": 0.9912,
+     "home_win": 0.991,
      "minutes": 50,
      "miles": 35,
      "miles_estimated": false
@@ -6517,7 +6517,7 @@
      "away": "Eldon",
      "home_seed": 3,
      "away_seed": 6,
-     "home_win": 0.9992,
+     "home_win": 0.9989,
      "minutes": 86,
      "miles": 72,
      "miles_estimated": false
@@ -6528,7 +6528,7 @@
      "away": "Buffalo",
      "home_seed": 4,
      "away_seed": 5,
-     "home_win": 0.0853,
+     "home_win": 0.0794,
      "minutes": 130,
      "miles": 109,
      "miles_estimated": false
@@ -6539,7 +6539,7 @@
      "away": "Pleasant Hope with Halfway, Marion C. Early",
      "home_seed": 2,
      "away_seed": 7,
-     "home_win": 0.9999,
+     "home_win": 0.9998,
      "minutes": 36,
      "miles": 23,
      "miles_estimated": false
@@ -6550,7 +6550,7 @@
      "away": "Salem",
      "home_seed": 3,
      "away_seed": 6,
-     "home_win": 0.5203,
+     "home_win": 0.5183,
      "minutes": 52,
      "miles": 30,
      "miles_estimated": false
@@ -6561,7 +6561,7 @@
      "away": "Reeds Spring",
      "home_seed": 4,
      "away_seed": 5,
-     "home_win": 0.9811,
+     "home_win": 0.9825,
      "minutes": 78,
      "miles": 49,
      "miles_estimated": false
@@ -6583,7 +6583,7 @@
      "away": "Aurora",
      "home_seed": 3,
      "away_seed": 6,
-     "home_win": 0.8758,
+     "home_win": 0.8838,
      "minutes": 116,
      "miles": 98,
      "miles_estimated": false
@@ -6594,7 +6594,7 @@
      "away": "Oak Grove",
      "home_seed": 4,
      "away_seed": 5,
-     "home_win": 0.593,
+     "home_win": 0.6097,
      "minutes": 42,
      "miles": 32,
      "miles_estimated": false
@@ -6605,7 +6605,7 @@
      "away": "Clinton",
      "home_seed": 2,
      "away_seed": 7,
-     "home_win": 0.7963,
+     "home_win": 0.799,
      "minutes": 74,
      "miles": 59,
      "miles_estimated": false
@@ -6616,7 +6616,7 @@
      "away": "St. Michael the Archangel",
      "home_seed": 3,
      "away_seed": 6,
-     "home_win": 0.597,
+     "home_win": 0.6018,
      "minutes": 107,
      "miles": 93,
      "miles_estimated": false
@@ -6627,7 +6627,7 @@
      "away": "Chillicothe",
      "home_seed": 4,
      "away_seed": 5,
-     "home_win": 0.732,
+     "home_win": 0.7281,
      "minutes": 75,
      "miles": 61,
      "miles_estimated": false
@@ -6778,10 +6778,10 @@
      "reach": [
       1.0,
       1.0,
-      0.9374,
-      0.9369,
-      0.9339,
-      0.9315
+      0.9355,
+      0.9351,
+      0.9312,
+      0.9278
      ],
      "reach_display": [
       ">99%",
@@ -6815,18 +6815,18 @@
      },
      "reach": [
       1.0,
-      0.8804,
+      0.8783,
+      0.064,
       0.062,
-      0.0604,
-      0.0534,
-      0.0487
+      0.0558,
+      0.05
      ],
      "reach_display": [
       ">99%",
       "88%",
       "6%",
       "6%",
-      "5%",
+      "6%",
       "5%"
      ]
     },
@@ -6853,16 +6853,16 @@
      },
      "reach": [
       1.0,
-      0.9909,
-      0.9567,
-      0.6516,
-      0.4486,
-      0.0079
+      0.99,
+      0.9533,
+      0.6521,
+      0.4516,
+      0.0092
      ],
      "reach_display": [
       ">99%",
       "99%",
-      "96%",
+      "95%",
       "65%",
       "45%",
       "1%"
@@ -6891,17 +6891,17 @@
      },
      "reach": [
       1.0,
-      0.948,
-      0.7361,
-      0.4668,
-      0.0068,
-      0.0037
+      0.9496,
+      0.7349,
+      0.4647,
+      0.0076,
+      0.0044
      ],
      "reach_display": [
       ">99%",
       "95%",
-      "74%",
-      "47%",
+      "73%",
+      "46%",
       "1%",
       "<1%"
      ]
@@ -6929,17 +6929,17 @@
      },
      "reach": [
       1.0,
-      0.7405,
-      0.6131,
-      0.5101,
-      0.2569,
-      0.0031
+      0.7409,
+      0.6161,
+      0.5176,
+      0.2592,
+      0.0039
      ],
      "reach_display": [
       ">99%",
       "74%",
-      "61%",
-      "51%",
+      "62%",
+      "52%",
       "26%",
       "<1%"
      ]
@@ -6966,11 +6966,11 @@
       "title_drought": null
      },
      "reach": [
-      0.9397,
-      0.8478,
-      0.7089,
-      0.3031,
-      0.186,
+      0.9369,
+      0.8489,
+      0.7119,
+      0.3021,
+      0.1799,
       0.0021
      ],
      "reach_display": [
@@ -6978,7 +6978,7 @@
       "85%",
       "71%",
       "30%",
-      "19%",
+      "18%",
       "<1%"
      ]
     },
@@ -7005,17 +7005,55 @@
      },
      "reach": [
       1.0,
-      0.9746,
-      0.6805,
-      0.3332,
-      0.0035,
-      0.0019
+      0.9737,
+      0.6811,
+      0.3391,
+      0.0037,
+      0.0016
      ],
      "reach_display": [
       ">99%",
       "97%",
       "68%",
-      "33%",
+      "34%",
+      "<1%",
+      "<1%"
+     ]
+    },
+    {
+     "team": "Smithville",
+     "district": 8,
+     "seed": 3,
+     "bye": false,
+     "record": "6-3",
+     "ovr": 30.04,
+     "off": 16.34,
+     "def": 13.7,
+     "ovr_rank": 53,
+     "class_rank": 5,
+     "slug": "smithville",
+     "logo": "https://raw.githubusercontent.com/AllMOSports/All_MO_Sports-Data/main/logos_main2/smithville.png",
+     "history": {
+      "final_fours": 5,
+      "last_final_four": 2022,
+      "final_four_drought": 4,
+      "titles": 1,
+      "last_title": 2021,
+      "title_drought": 5
+     },
+     "reach": [
+      1.0,
+      0.1217,
+      0.0004,
+      0.0004,
+      0.0003,
+      0.0003
+     ],
+     "reach_display": [
+      ">99%",
+      "12%",
+      "<1%",
+      "<1%",
       "<1%",
       "<1%"
      ]
@@ -7042,12 +7080,12 @@
       "title_drought": null
      },
      "reach": [
-      0.9984,
-      0.2596,
-      0.162,
-      0.1041,
-      0.0284,
-      0.0003
+      0.999,
+      0.2591,
+      0.1623,
+      0.1017,
+      0.0278,
+      0.0001
      ],
      "reach_display": [
       ">99%",
@@ -7055,44 +7093,6 @@
       "16%",
       "10%",
       "3%",
-      "<1%"
-     ]
-    },
-    {
-     "team": "Moberly",
-     "district": 5,
-     "seed": 1,
-     "bye": true,
-     "record": "8-1",
-     "ovr": 20.98,
-     "off": 9.72,
-     "def": 11.26,
-     "ovr_rank": 72,
-     "class_rank": 10,
-     "slug": "moberly",
-     "logo": "https://raw.githubusercontent.com/AllMOSports/All_MO_Sports-Data/main/logos_main2/moberly.png",
-     "history": {
-      "final_fours": 0,
-      "last_final_four": null,
-      "final_four_drought": null,
-      "titles": 0,
-      "last_title": null,
-      "title_drought": null
-     },
-     "reach": [
-      1.0,
-      0.8741,
-      0.307,
-      0.1023,
-      0.0008,
-      0.0003
-     ],
-     "reach_display": [
-      ">99%",
-      "87%",
-      "31%",
-      "10%",
-      "<1%",
       "<1%"
      ]
     },
@@ -7119,17 +7119,17 @@
      },
      "reach": [
       1.0,
-      0.507,
-      0.3043,
-      0.0858,
-      0.0161,
+      0.5,
+      0.2997,
+      0.0844,
+      0.017,
       0.0001
      ],
      "reach_display": [
       ">99%",
-      "51%",
+      "50%",
       "30%",
-      "9%",
+      "8%",
       "2%",
       "<1%"
      ]
@@ -7157,17 +7157,93 @@
      },
      "reach": [
       1.0,
-      0.493,
-      0.2939,
-      0.0811,
-      0.0149,
+      0.5,
+      0.2955,
+      0.0832,
+      0.0151,
       0.0001
      ],
      "reach_display": [
       ">99%",
-      "49%",
-      "29%",
+      "50%",
+      "30%",
       "8%",
+      "2%",
+      "<1%"
+     ]
+    },
+    {
+     "team": "Sullivan",
+     "district": 2,
+     "seed": 2,
+     "bye": false,
+     "record": "6-3",
+     "ovr": 12.42,
+     "off": 7.84,
+     "def": 4.58,
+     "ovr_rank": 97,
+     "class_rank": 18,
+     "slug": "sullivan",
+     "logo": "https://raw.githubusercontent.com/AllMOSports/All_MO_Sports-Data/main/logos_main2/sullivan.png",
+     "history": {
+      "final_fours": 3,
+      "last_final_four": 2022,
+      "final_four_drought": 4,
+      "titles": 0,
+      "last_title": null,
+      "title_drought": null
+     },
+     "reach": [
+      0.9852,
+      0.7903,
+      0.3679,
+      0.0912,
+      0.0146,
+      0.0001
+     ],
+     "reach_display": [
+      "99%",
+      "79%",
+      "37%",
+      "9%",
+      "1%",
+      "<1%"
+     ]
+    },
+    {
+     "team": "Parkway North",
+     "district": 4,
+     "seed": 2,
+     "bye": false,
+     "record": "4-5",
+     "ovr": 11.86,
+     "off": 0.52,
+     "def": 11.34,
+     "ovr_rank": 100,
+     "class_rank": 19,
+     "slug": "parkway-north",
+     "logo": "https://raw.githubusercontent.com/AllMOSports/All_MO_Sports-Data/main/logos_main2/parkway-north.png",
+     "history": {
+      "final_fours": 2,
+      "last_final_four": 2016,
+      "final_four_drought": 10,
+      "titles": 0,
+      "last_title": null,
+      "title_drought": null
+     },
+     "reach": [
+      1.0,
+      0.878,
+      0.2215,
+      0.034,
+      0.0094,
+      0.0001
+     ],
+     "reach_display": [
+      ">99%",
+      "88%",
+      "22%",
+      "3%",
       "1%",
       "<1%"
      ]
@@ -7194,18 +7270,56 @@
       "title_drought": null
      },
      "reach": [
-      0.872,
-      0.6355,
-      0.1956,
-      0.0809,
-      0.0005,
+      0.8672,
+      0.6303,
+      0.1953,
+      0.0786,
+      0.0004,
       0.0001
      ],
      "reach_display": [
       "87%",
-      "64%",
+      "63%",
       "20%",
       "8%",
+      "<1%",
+      "<1%"
+     ]
+    },
+    {
+     "team": "Moberly",
+     "district": 5,
+     "seed": 1,
+     "bye": true,
+     "record": "8-1",
+     "ovr": 20.98,
+     "off": 9.72,
+     "def": 11.26,
+     "ovr_rank": 72,
+     "class_rank": 10,
+     "slug": "moberly",
+     "logo": "https://raw.githubusercontent.com/AllMOSports/All_MO_Sports-Data/main/logos_main2/moberly.png",
+     "history": {
+      "final_fours": 0,
+      "last_final_four": null,
+      "final_four_drought": null,
+      "titles": 0,
+      "last_title": null,
+      "title_drought": null
+     },
+     "reach": [
+      1.0,
+      0.8711,
+      0.3064,
+      0.1006,
+      0.0003,
+      0.0001
+     ],
+     "reach_display": [
+      ">99%",
+      "87%",
+      "31%",
+      "10%",
       "<1%",
       "<1%"
      ]
@@ -7233,10 +7347,10 @@
      },
      "reach": [
       1.0,
-      0.8858,
-      0.5296,
-      0.0013,
-      0.0004,
+      0.8866,
+      0.5283,
+      0.0015,
+      0.0003,
       0.0001
      ],
      "reach_display": [
@@ -7270,55 +7384,17 @@
       "title_drought": null
      },
      "reach": [
-      0.7786,
-      0.7779,
-      0.3957,
-      0.0011,
+      0.7783,
+      0.7773,
+      0.3945,
+      0.0009,
       0.0003,
       0.0001
      ],
      "reach_display": [
       "78%",
       "78%",
-      "40%",
-      "<1%",
-      "<1%",
-      "<1%"
-     ]
-    },
-    {
-     "team": "Smithville",
-     "district": 8,
-     "seed": 3,
-     "bye": false,
-     "record": "6-3",
-     "ovr": 30.04,
-     "off": 16.34,
-     "def": 13.7,
-     "ovr_rank": 53,
-     "class_rank": 5,
-     "slug": "smithville",
-     "logo": "https://raw.githubusercontent.com/AllMOSports/All_MO_Sports-Data/main/logos_main2/smithville.png",
-     "history": {
-      "final_fours": 5,
-      "last_final_four": 2022,
-      "final_four_drought": 4,
-      "titles": 1,
-      "last_title": 2021,
-      "title_drought": 5
-     },
-     "reach": [
-      1.0,
-      0.1196,
-      0.0006,
-      0.0003,
-      0.0002,
-      0.0001
-     ],
-     "reach_display": [
-      ">99%",
-      "12%",
-      "<1%",
+      "39%",
       "<1%",
       "<1%",
       "<1%"
@@ -7347,10 +7423,10 @@
      },
      "reach": [
       1.0,
-      0.8197,
-      0.2117,
-      0.1184,
-      0.0234,
+      0.8249,
+      0.2092,
+      0.1153,
+      0.0238,
       0.0
      ],
      "reach_display": [
@@ -7359,82 +7435,6 @@
       "21%",
       "12%",
       "2%",
-      "0%"
-     ]
-    },
-    {
-     "team": "Sullivan",
-     "district": 2,
-     "seed": 2,
-     "bye": false,
-     "record": "6-3",
-     "ovr": 12.42,
-     "off": 7.84,
-     "def": 4.58,
-     "ovr_rank": 97,
-     "class_rank": 18,
-     "slug": "sullivan",
-     "logo": "https://raw.githubusercontent.com/AllMOSports/All_MO_Sports-Data/main/logos_main2/sullivan.png",
-     "history": {
-      "final_fours": 3,
-      "last_final_four": 2022,
-      "final_four_drought": 4,
-      "titles": 0,
-      "last_title": null,
-      "title_drought": null
-     },
-     "reach": [
-      0.9843,
-      0.7869,
-      0.3642,
-      0.0935,
-      0.0135,
-      0.0
-     ],
-     "reach_display": [
-      "98%",
-      "79%",
-      "36%",
-      "9%",
-      "1%",
-      "0%"
-     ]
-    },
-    {
-     "team": "Parkway North",
-     "district": 4,
-     "seed": 2,
-     "bye": false,
-     "record": "4-5",
-     "ovr": 11.86,
-     "off": 0.52,
-     "def": 11.34,
-     "ovr_rank": 100,
-     "class_rank": 19,
-     "slug": "parkway-north",
-     "logo": "https://raw.githubusercontent.com/AllMOSports/All_MO_Sports-Data/main/logos_main2/parkway-north.png",
-     "history": {
-      "final_fours": 2,
-      "last_final_four": 2016,
-      "final_four_drought": 10,
-      "titles": 0,
-      "last_title": null,
-      "title_drought": null
-     },
-     "reach": [
-      1.0,
-      0.8786,
-      0.2258,
-      0.0351,
-      0.0103,
-      0.0
-     ],
-     "reach_display": [
-      ">99%",
-      "88%",
-      "23%",
-      "4%",
-      "1%",
       "0%"
      ]
     },
@@ -7461,10 +7461,10 @@
      },
      "reach": [
       1.0,
-      0.898,
-      0.0403,
-      0.0054,
-      0.0008,
+      0.8997,
+      0.043,
+      0.0062,
+      0.0006,
       0.0
      ],
      "reach_display": [
@@ -7499,10 +7499,10 @@
      },
      "reach": [
       1.0,
-      0.129,
-      0.0507,
-      0.0038,
-      0.0006,
+      0.1253,
+      0.052,
+      0.0047,
+      0.0005,
       0.0
      ],
      "reach_display": [
@@ -7536,11 +7536,11 @@
       "title_drought": null
      },
      "reach": [
-      0.7069,
-      0.1542,
-      0.0125,
-      0.0033,
-      0.0004,
+      0.7091,
+      0.1486,
+      0.0117,
+      0.0032,
+      0.0003,
       0.0
      ],
      "reach_display": [
@@ -7574,10 +7574,10 @@
       "title_drought": null
      },
      "reach": [
-      0.7801,
-      0.2905,
-      0.052,
-      0.0142,
+      0.7809,
+      0.2904,
+      0.0532,
+      0.014,
       0.0001,
       0.0
      ],
@@ -7612,10 +7612,10 @@
       "title_drought": null
      },
      "reach": [
-      0.9991,
-      0.2112,
-      0.0377,
-      0.0034,
+      0.9995,
+      0.2086,
+      0.0369,
+      0.0032,
       0.0001,
       0.0
      ],
@@ -7623,6 +7623,44 @@
       ">99%",
       "21%",
       "4%",
+      "<1%",
+      "<1%",
+      "0%"
+     ]
+    },
+    {
+     "team": "Warrenton",
+     "district": 4,
+     "seed": 5,
+     "bye": false,
+     "record": "6-3",
+     "ovr": 1.64,
+     "off": -2.98,
+     "def": 4.62,
+     "ovr_rank": 142,
+     "class_rank": 30,
+     "slug": "warrenton",
+     "logo": "https://raw.githubusercontent.com/AllMOSports/All_MO_Sports-Data/main/logos_main2/warrenton.png",
+     "history": {
+      "final_fours": 3,
+      "last_final_four": 2024,
+      "final_four_drought": 2,
+      "titles": 0,
+      "last_title": null,
+      "title_drought": null
+     },
+     "reach": [
+      0.063,
+      0.0257,
+      0.0082,
+      0.0006,
+      0.0001,
+      0.0
+     ],
+     "reach_display": [
+      "6%",
+      "3%",
+      "1%",
       "<1%",
       "<1%",
       "0%"
@@ -7650,15 +7688,15 @@
       "title_drought": 10
      },
      "reach": [
-      0.6832,
-      0.0437,
-      0.0103,
-      0.0015,
+      0.6883,
+      0.0441,
+      0.0109,
+      0.0016,
       0.0,
       0.0
      ],
      "reach_display": [
-      "68%",
+      "69%",
       "4%",
       "1%",
       "<1%",
@@ -7688,10 +7726,10 @@
       "title_drought": null
      },
      "reach": [
-      0.7812,
-      0.1178,
-      0.0097,
-      0.0006,
+      0.7841,
+      0.1216,
+      0.0088,
+      0.0008,
       0.0,
       0.0
      ],
@@ -7705,38 +7743,38 @@
      ]
     },
     {
-     "team": "Warrenton",
-     "district": 4,
-     "seed": 5,
+     "team": "Marshfield",
+     "district": 6,
+     "seed": 7,
      "bye": false,
-     "record": "6-3",
-     "ovr": 1.64,
-     "off": -2.98,
-     "def": 4.62,
-     "ovr_rank": 142,
-     "class_rank": 30,
-     "slug": "warrenton",
-     "logo": "https://raw.githubusercontent.com/AllMOSports/All_MO_Sports-Data/main/logos_main2/warrenton.png",
+     "record": "2-7",
+     "ovr": 3.9,
+     "off": -0.16,
+     "def": 4.06,
+     "ovr_rank": 128,
+     "class_rank": 24,
+     "slug": "marshfield",
+     "logo": "https://raw.githubusercontent.com/AllMOSports/All_MO_Sports-Data/main/logos_main2/marshfield.png",
      "history": {
-      "final_fours": 3,
-      "last_final_four": 2024,
-      "final_four_drought": 2,
+      "final_fours": 0,
+      "last_final_four": null,
+      "final_four_drought": null,
       "titles": 0,
       "last_title": null,
       "title_drought": null
      },
      "reach": [
-      0.0603,
-      0.0231,
-      0.0079,
-      0.0006,
+      0.1328,
+      0.043,
+      0.0029,
+      0.0003,
       0.0,
       0.0
      ],
      "reach_display": [
-      "6%",
-      "2%",
-      "1%",
+      "13%",
+      "4%",
+      "<1%",
       "<1%",
       "0%",
       "0%"
@@ -7764,15 +7802,15 @@
       "title_drought": null
      },
      "reach": [
-      0.7339,
-      0.11,
-      0.0066,
-      0.0003,
+      0.7409,
+      0.1107,
+      0.0062,
+      0.0001,
       0.0,
       0.0
      ],
      "reach_display": [
-      "73%",
+      "74%",
       "11%",
       "1%",
       "<1%",
@@ -7781,36 +7819,36 @@
      ]
     },
     {
-     "team": "McDonald County",
-     "district": 6,
-     "seed": 6,
+     "team": "Osage",
+     "district": 5,
+     "seed": 3,
      "bye": false,
      "record": "3-6",
-     "ovr": 2.28,
-     "off": 5.04,
-     "def": -2.76,
-     "ovr_rank": 134,
-     "class_rank": 27,
-     "slug": "mcdonald-county",
-     "logo": "https://raw.githubusercontent.com/AllMOSports/All_MO_Sports-Data/main/logos_main2/mcdonald-county.png",
+     "ovr": -2.58,
+     "off": 3.9,
+     "def": -6.48,
+     "ovr_rank": 154,
+     "class_rank": 33,
+     "slug": "osage",
+     "logo": "https://raw.githubusercontent.com/AllMOSports/All_MO_Sports-Data/main/logos_main2/osage.png",
      "history": {
-      "final_fours": 0,
-      "last_final_four": null,
-      "final_four_drought": null,
+      "final_fours": 1,
+      "last_final_four": 2011,
+      "final_four_drought": 15,
       "titles": 0,
       "last_title": null,
       "title_drought": null
      },
      "reach": [
-      0.2199,
-      0.0345,
-      0.0024,
-      0.0002,
+      0.9426,
+      0.0262,
+      0.0034,
+      0.0001,
       0.0,
       0.0
      ],
      "reach_display": [
-      "22%",
+      "94%",
       "3%",
       "<1%",
       "<1%",
@@ -7840,9 +7878,9 @@
       "title_drought": null
      },
      "reach": [
-      0.9969,
-      0.0092,
-      0.0027,
+      0.9968,
+      0.01,
+      0.0032,
       0.0001,
       0.0,
       0.0
@@ -7857,56 +7895,18 @@
      ]
     },
     {
-     "team": "Osage",
-     "district": 5,
-     "seed": 3,
+     "team": "McDonald County",
+     "district": 6,
+     "seed": 6,
      "bye": false,
      "record": "3-6",
-     "ovr": -2.58,
-     "off": 3.9,
-     "def": -6.48,
-     "ovr_rank": 154,
-     "class_rank": 33,
-     "slug": "osage",
-     "logo": "https://raw.githubusercontent.com/AllMOSports/All_MO_Sports-Data/main/logos_main2/osage.png",
-     "history": {
-      "final_fours": 1,
-      "last_final_four": 2011,
-      "final_four_drought": 15,
-      "titles": 0,
-      "last_title": null,
-      "title_drought": null
-     },
-     "reach": [
-      0.94,
-      0.0254,
-      0.0026,
-      0.0001,
-      0.0,
-      0.0
-     ],
-     "reach_display": [
-      "94%",
-      "3%",
-      "<1%",
-      "<1%",
-      "0%",
-      "0%"
-     ]
-    },
-    {
-     "team": "Marshfield",
-     "district": 6,
-     "seed": 7,
-     "bye": false,
-     "record": "2-7",
-     "ovr": 3.9,
-     "off": -0.16,
-     "def": 4.06,
-     "ovr_rank": 128,
-     "class_rank": 24,
-     "slug": "marshfield",
-     "logo": "https://raw.githubusercontent.com/AllMOSports/All_MO_Sports-Data/main/logos_main2/marshfield.png",
+     "ovr": 2.28,
+     "off": 5.04,
+     "def": -2.76,
+     "ovr_rank": 134,
+     "class_rank": 27,
+     "slug": "mcdonald-county",
+     "logo": "https://raw.githubusercontent.com/AllMOSports/All_MO_Sports-Data/main/logos_main2/mcdonald-county.png",
      "history": {
       "final_fours": 0,
       "last_final_four": null,
@@ -7916,15 +7916,15 @@
       "title_drought": null
      },
      "reach": [
-      0.128,
-      0.0394,
-      0.0022,
+      0.2192,
+      0.0362,
+      0.0019,
       0.0001,
       0.0,
       0.0
      ],
      "reach_display": [
-      "13%",
+      "22%",
       "4%",
       "<1%",
       "<1%",
@@ -7954,8 +7954,8 @@
       "title_drought": null
      },
      "reach": [
-      0.293,
-      0.0261,
+      0.2908,
+      0.0265,
       0.0008,
       0.0001,
       0.0,
@@ -7992,9 +7992,9 @@
       "title_drought": 10
      },
      "reach": [
-      0.2214,
-      0.2188,
-      0.0519,
+      0.2217,
+      0.219,
+      0.0546,
       0.0,
       0.0,
       0.0
@@ -8030,15 +8030,15 @@
       "title_drought": null
      },
      "reach": [
-      0.915,
-      0.1139,
+      0.9073,
+      0.1124,
       0.0226,
       0.0,
       0.0,
       0.0
      ],
      "reach_display": [
-      "92%",
+      "91%",
       "11%",
       "2%",
       "0%",
@@ -8068,15 +8068,15 @@
       "title_drought": null
      },
      "reach": [
-      0.3168,
-      0.0082,
-      0.0013,
+      0.3118,
+      0.0063,
+      0.0009,
       0.0,
       0.0,
       0.0
      ],
      "reach_display": [
-      "32%",
+      "31%",
       "1%",
       "<1%",
       "0%",
@@ -8106,9 +8106,9 @@
       "title_drought": 28
      },
      "reach": [
-      0.5979,
-      0.0726,
-      0.0003,
+      0.5996,
+      0.0707,
+      0.0006,
       0.0,
       0.0,
       0.0
@@ -8116,82 +8116,6 @@
      "reach_display": [
       "60%",
       "7%",
-      "<1%",
-      "0%",
-      "0%",
-      "0%"
-     ]
-    },
-    {
-     "team": "Jennings",
-     "district": 3,
-     "seed": 4,
-     "bye": false,
-     "record": "4-5",
-     "ovr": -20.67,
-     "off": -14.85,
-     "def": -5.82,
-     "ovr_rank": 211,
-     "class_rank": 43,
-     "slug": "jennings",
-     "logo": "https://raw.githubusercontent.com/AllMOSports/All_MO_Sports-Data/main/logos_main2/jennings.png",
-     "history": {
-      "final_fours": 0,
-      "last_final_four": null,
-      "final_four_drought": null,
-      "titles": 0,
-      "last_title": null,
-      "title_drought": null
-     },
-     "reach": [
-      0.4021,
-      0.0295,
-      0.0001,
-      0.0,
-      0.0,
-      0.0
-     ],
-     "reach_display": [
-      "40%",
-      "3%",
-      "<1%",
-      "0%",
-      "0%",
-      "0%"
-     ]
-    },
-    {
-     "team": "Holt",
-     "district": 4,
-     "seed": 6,
-     "bye": false,
-     "record": "3-6",
-     "ovr": -14.96,
-     "off": 0.71,
-     "def": -15.67,
-     "ovr_rank": 190,
-     "class_rank": 39,
-     "slug": "holt",
-     "logo": "https://raw.githubusercontent.com/AllMOSports/All_MO_Sports-Data/main/logos_main2/holt.png",
-     "history": {
-      "final_fours": 2,
-      "last_final_four": 2021,
-      "final_four_drought": 5,
-      "titles": 0,
-      "last_title": null,
-      "title_drought": null
-     },
-     "reach": [
-      0.2661,
-      0.0114,
-      0.0001,
-      0.0,
-      0.0,
-      0.0
-     ],
-     "reach_display": [
-      "27%",
-      "1%",
       "<1%",
       "0%",
       "0%",
@@ -8220,9 +8144,9 @@
       "title_drought": null
      },
      "reach": [
-      0.2188,
-      0.008,
-      0.0001,
+      0.216,
+      0.0073,
+      0.0003,
       0.0,
       0.0,
       0.0
@@ -8237,18 +8161,56 @@
      ]
     },
     {
-     "team": "University Academy Charter with Ewing Marion Kauffman",
-     "district": 7,
+     "team": "Holt",
+     "district": 4,
      "seed": 6,
      "bye": false,
+     "record": "3-6",
+     "ovr": -14.96,
+     "off": 0.71,
+     "def": -15.67,
+     "ovr_rank": 190,
+     "class_rank": 39,
+     "slug": "holt",
+     "logo": "https://raw.githubusercontent.com/AllMOSports/All_MO_Sports-Data/main/logos_main2/holt.png",
+     "history": {
+      "final_fours": 2,
+      "last_final_four": 2021,
+      "final_four_drought": 5,
+      "titles": 0,
+      "last_title": null,
+      "title_drought": null
+     },
+     "reach": [
+      0.2591,
+      0.0114,
+      0.0002,
+      0.0,
+      0.0,
+      0.0
+     ],
+     "reach_display": [
+      "26%",
+      "1%",
+      "<1%",
+      "0%",
+      "0%",
+      "0%"
+     ]
+    },
+    {
+     "team": "Pacific",
+     "district": 2,
+     "seed": 7,
+     "bye": false,
      "record": "2-7",
-     "ovr": -19.72,
-     "off": -8.38,
-     "def": -11.34,
-     "ovr_rank": 209,
-     "class_rank": 42,
-     "slug": "university-academy-charter",
-     "logo": "https://raw.githubusercontent.com/AllMOSports/All_MO_Sports-Data/main/logos_main2/university-academy-charter.png",
+     "ovr": -21.71,
+     "off": -5.08,
+     "def": -16.63,
+     "ovr_rank": 217,
+     "class_rank": 44,
+     "slug": "pacific",
+     "logo": "https://raw.githubusercontent.com/AllMOSports/All_MO_Sports-Data/main/logos_main2/pacific.png",
      "history": {
       "final_fours": 0,
       "last_final_four": null,
@@ -8258,16 +8220,54 @@
       "title_drought": null
      },
      "reach": [
-      0.085,
-      0.0004,
+      0.0148,
+      0.0011,
       0.0001,
       0.0,
       0.0,
       0.0
      ],
      "reach_display": [
-      "8%",
+      "1%",
       "<1%",
+      "<1%",
+      "0%",
+      "0%",
+      "0%"
+     ]
+    },
+    {
+     "team": "Jennings",
+     "district": 3,
+     "seed": 4,
+     "bye": false,
+     "record": "4-5",
+     "ovr": -20.67,
+     "off": -14.85,
+     "def": -5.82,
+     "ovr_rank": 211,
+     "class_rank": 43,
+     "slug": "jennings",
+     "logo": "https://raw.githubusercontent.com/AllMOSports/All_MO_Sports-Data/main/logos_main2/jennings.png",
+     "history": {
+      "final_fours": 0,
+      "last_final_four": null,
+      "final_four_drought": null,
+      "titles": 0,
+      "last_title": null,
+      "title_drought": null
+     },
+     "reach": [
+      0.4004,
+      0.0295,
+      0.0001,
+      0.0,
+      0.0,
+      0.0
+     ],
+     "reach_display": [
+      "40%",
+      "3%",
       "<1%",
       "0%",
       "0%",
@@ -8296,7 +8296,7 @@
       "title_drought": null
      },
      "reach": [
-      0.0016,
+      0.0009,
       0.0,
       0.0,
       0.0,
@@ -8372,7 +8372,7 @@
       "title_drought": null
      },
      "reach": [
-      0.0008,
+      0.0005,
       0.0,
       0.0,
       0.0,
@@ -8382,44 +8382,6 @@
      "reach_display": [
       "<1%",
       "0%",
-      "0%",
-      "0%",
-      "0%",
-      "0%"
-     ]
-    },
-    {
-     "team": "Pacific",
-     "district": 2,
-     "seed": 7,
-     "bye": false,
-     "record": "2-7",
-     "ovr": -21.71,
-     "off": -5.08,
-     "def": -16.63,
-     "ovr_rank": 217,
-     "class_rank": 44,
-     "slug": "pacific",
-     "logo": "https://raw.githubusercontent.com/AllMOSports/All_MO_Sports-Data/main/logos_main2/pacific.png",
-     "history": {
-      "final_fours": 0,
-      "last_final_four": null,
-      "final_four_drought": null,
-      "titles": 0,
-      "last_title": null,
-      "title_drought": null
-     },
-     "reach": [
-      0.0157,
-      0.0019,
-      0.0,
-      0.0,
-      0.0,
-      0.0
-     ],
-     "reach_display": [
-      "2%",
-      "<1%",
       "0%",
       "0%",
       "0%",
@@ -8524,7 +8486,7 @@
       "title_drought": 40
      },
      "reach": [
-      0.06,
+      0.0573,
       0.0001,
       0.0,
       0.0,
@@ -8601,7 +8563,7 @@
      },
      "reach": [
       1.0,
-      0.0032,
+      0.0036,
       0.0,
       0.0,
       0.0,
@@ -8609,6 +8571,44 @@
      ],
      "reach_display": [
       ">99%",
+      "<1%",
+      "0%",
+      "0%",
+      "0%",
+      "0%"
+     ]
+    },
+    {
+     "team": "University Academy Charter with Ewing Marion Kauffman",
+     "district": 7,
+     "seed": 6,
+     "bye": false,
+     "record": "2-7",
+     "ovr": -19.72,
+     "off": -8.38,
+     "def": -11.34,
+     "ovr_rank": 209,
+     "class_rank": 42,
+     "slug": "university-academy-charter",
+     "logo": "https://raw.githubusercontent.com/AllMOSports/All_MO_Sports-Data/main/logos_main2/university-academy-charter.png",
+     "history": {
+      "final_fours": 0,
+      "last_final_four": null,
+      "final_four_drought": null,
+      "titles": 0,
+      "last_title": null,
+      "title_drought": null
+     },
+     "reach": [
+      0.0927,
+      0.0009,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+     ],
+     "reach_display": [
+      "9%",
       "<1%",
       "0%",
       "0%",
@@ -8676,7 +8676,7 @@
       "title_drought": null
      },
      "reach": [
-      0.6871,
+      0.6882,
       0.0,
       0.0,
       0.0,
@@ -8714,7 +8714,7 @@
       "title_drought": null
      },
      "reach": [
-      0.3129,
+      0.3118,
       0.0,
       0.0,
       0.0,
@@ -8790,7 +8790,7 @@
       "title_drought": 30
      },
      "reach": [
-      0.0,
+      0.0001,
       0.0,
       0.0,
       0.0,
@@ -8798,7 +8798,7 @@
       0.0
      ],
      "reach_display": [
-      "0%",
+      "<1%",
       "0%",
       "0%",
       "0%",
@@ -8814,7 +8814,7 @@
      "away": "DeSoto",
      "home_seed": 4,
      "away_seed": 5,
-     "home_win": 0.7069,
+     "home_win": 0.7091,
      "minutes": 31,
      "miles": 17,
      "miles_estimated": false
@@ -8825,7 +8825,7 @@
      "away": "Windsor (Imperial)",
      "home_seed": 3,
      "away_seed": 6,
-     "home_win": 0.9984,
+     "home_win": 0.999,
      "minutes": 26,
      "miles": 17,
      "miles_estimated": false
@@ -8847,7 +8847,7 @@
      "away": "Pacific",
      "home_seed": 2,
      "away_seed": 7,
-     "home_win": 0.9843,
+     "home_win": 0.9852,
      "minutes": 37,
      "miles": 32,
      "miles_estimated": false
@@ -8858,7 +8858,7 @@
      "away": "Bayless with Hancock",
      "home_seed": 3,
      "away_seed": 6,
-     "home_win": 0.9991,
+     "home_win": 0.9995,
      "minutes": 29,
      "miles": 18,
      "miles_estimated": false
@@ -8869,7 +8869,7 @@
      "away": "Riverview Gardens",
      "home_seed": 4,
      "away_seed": 5,
-     "home_win": 0.4021,
+     "home_win": 0.4004,
      "minutes": 8,
      "miles": 4,
      "miles_estimated": false
@@ -8880,7 +8880,7 @@
      "away": "Clayton with Brentwood",
      "home_seed": 3,
      "away_seed": 6,
-     "home_win": 0.9969,
+     "home_win": 0.9968,
      "minutes": 11,
      "miles": 5,
      "miles_estimated": false
@@ -8891,7 +8891,7 @@
      "away": "Warrenton",
      "home_seed": 4,
      "away_seed": 5,
-     "home_win": 0.9397,
+     "home_win": 0.9369,
      "minutes": 109,
      "miles": 82,
      "miles_estimated": false
@@ -8913,7 +8913,7 @@
      "away": "Holt",
      "home_seed": 3,
      "away_seed": 6,
-     "home_win": 0.7339,
+     "home_win": 0.7409,
      "minutes": 32,
      "miles": 23,
      "miles_estimated": false
@@ -8924,7 +8924,7 @@
      "away": "Mexico",
      "home_seed": 4,
      "away_seed": 5,
-     "home_win": 0.7812,
+     "home_win": 0.7841,
      "minutes": 118,
      "miles": 94,
      "miles_estimated": false
@@ -8946,7 +8946,7 @@
      "away": "Marshall",
      "home_seed": 3,
      "away_seed": 6,
-     "home_win": 0.94,
+     "home_win": 0.9426,
      "minutes": 132,
      "miles": 100,
      "miles_estimated": false
@@ -8957,7 +8957,7 @@
      "away": "Hillcrest",
      "home_seed": 4,
      "away_seed": 5,
-     "home_win": 0.6832,
+     "home_win": 0.6883,
      "minutes": 66,
      "miles": 45,
      "miles_estimated": false
@@ -8968,7 +8968,7 @@
      "away": "Marshfield",
      "home_seed": 2,
      "away_seed": 7,
-     "home_win": 0.872,
+     "home_win": 0.8672,
      "minutes": 121,
      "miles": 105,
      "miles_estimated": false
@@ -8979,7 +8979,7 @@
      "away": "McDonald County",
      "home_seed": 3,
      "away_seed": 6,
-     "home_win": 0.7801,
+     "home_win": 0.7809,
      "minutes": 141,
      "miles": 123,
      "miles_estimated": false
@@ -8990,7 +8990,7 @@
      "away": "Harrisonville",
      "home_seed": 4,
      "away_seed": 5,
-     "home_win": 0.7786,
+     "home_win": 0.7783,
      "minutes": 29,
      "miles": 12,
      "miles_estimated": false
@@ -9012,7 +9012,7 @@
      "away": "University Academy Charter with Ewing Marion Kauffman",
      "home_seed": 3,
      "away_seed": 6,
-     "home_win": 0.915,
+     "home_win": 0.9073,
      "minutes": 16,
      "miles": 8,
      "miles_estimated": false
@@ -9023,7 +9023,7 @@
      "away": "Van Horn",
      "home_seed": 4,
      "away_seed": 5,
-     "home_win": 0.6871,
+     "home_win": 0.6882,
      "minutes": 70,
      "miles": 60,
      "miles_estimated": false
@@ -9184,11 +9184,11 @@
      },
      "reach": [
       1.0,
-      0.9989,
-      0.8287,
-      0.6573,
-      0.3498,
-      0.2057
+      0.9988,
+      0.8309,
+      0.656,
+      0.347,
+      0.2044
      ],
      "reach_display": [
       ">99%",
@@ -9196,7 +9196,7 @@
       "83%",
       "66%",
       "35%",
-      "21%"
+      "20%"
      ]
     },
     {
@@ -9222,17 +9222,17 @@
      },
      "reach": [
       1.0,
-      0.9929,
-      0.8083,
-      0.6349,
-      0.3898,
-      0.1958
+      0.9928,
+      0.8085,
+      0.6372,
+      0.3923,
+      0.1983
      ],
      "reach_display": [
       ">99%",
       "99%",
       "81%",
-      "63%",
+      "64%",
       "39%",
       "20%"
      ]
@@ -9260,11 +9260,11 @@
      },
      "reach": [
       1.0,
-      0.8485,
-      0.6778,
-      0.6582,
-      0.3962,
-      0.1941
+      0.8482,
+      0.6834,
+      0.6642,
+      0.3992,
+      0.1973
      ],
      "reach_display": [
       ">99%",
@@ -9272,7 +9272,7 @@
       "68%",
       "66%",
       "40%",
-      "19%"
+      "20%"
      ]
     },
     {
@@ -9298,11 +9298,11 @@
      },
      "reach": [
       1.0,
-      0.5941,
-      0.4309,
-      0.3148,
-      0.2107,
-      0.1429
+      0.5935,
+      0.4305,
+      0.3149,
+      0.212,
+      0.1404
      ],
      "reach_display": [
       ">99%",
@@ -9336,16 +9336,16 @@
      },
      "reach": [
       1.0,
-      0.9071,
-      0.8022,
-      0.3232,
-      0.1618,
-      0.0805
+      0.9009,
+      0.7936,
+      0.3206,
+      0.1622,
+      0.0804
      ],
      "reach_display": [
       ">99%",
-      "91%",
-      "80%",
+      "90%",
+      "79%",
       "32%",
       "16%",
       "8%"
@@ -9373,19 +9373,19 @@
       "title_drought": 7
      },
      "reach": [
-      0.7202,
-      0.3372,
-      0.2385,
-      0.165,
-      0.106,
-      0.0678
+      0.7235,
+      0.3356,
+      0.2354,
+      0.1645,
+      0.105,
+      0.0674
      ],
      "reach_display": [
       "72%",
       "34%",
       "24%",
       "16%",
-      "11%",
+      "10%",
       "7%"
      ]
     },
@@ -9412,57 +9412,19 @@
      },
      "reach": [
       1.0,
-      0.6944,
-      0.2412,
-      0.1372,
-      0.0684,
-      0.0355
+      0.6987,
+      0.2442,
+      0.1409,
+      0.0717,
+      0.0348
      ],
      "reach_display": [
       ">99%",
-      "69%",
+      "70%",
       "24%",
       "14%",
       "7%",
-      "4%"
-     ]
-    },
-    {
-     "team": "Eureka",
-     "district": 2,
-     "seed": 1,
-     "bye": true,
-     "record": "7-2",
-     "ovr": 37.81,
-     "off": 22.34,
-     "def": 15.47,
-     "ovr_rank": 33,
-     "class_rank": 10,
-     "slug": "eureka",
-     "logo": "https://raw.githubusercontent.com/AllMOSports/All_MO_Sports-Data/main/logos_main2/eureka.png",
-     "history": {
-      "final_fours": 3,
-      "last_final_four": 2017,
-      "final_four_drought": 9,
-      "titles": 0,
-      "last_title": null,
-      "title_drought": null
-     },
-     "reach": [
-      1.0,
-      0.9938,
-      0.7114,
-      0.2239,
-      0.0862,
-      0.0221
-     ],
-     "reach_display": [
-      ">99%",
-      "99%",
-      "71%",
-      "22%",
-      "9%",
-      "2%"
+      "3%"
      ]
     },
     {
@@ -9488,11 +9450,11 @@
      },
      "reach": [
       1.0,
-      0.9604,
-      0.8892,
-      0.2571,
-      0.0684,
-      0.0214
+      0.9627,
+      0.893,
+      0.26,
+      0.0677,
+      0.0222
      ],
      "reach_display": [
       ">99%",
@@ -9500,6 +9462,44 @@
       "89%",
       "26%",
       "7%",
+      "2%"
+     ]
+    },
+    {
+     "team": "Eureka",
+     "district": 2,
+     "seed": 1,
+     "bye": true,
+     "record": "7-2",
+     "ovr": 37.81,
+     "off": 22.34,
+     "def": 15.47,
+     "ovr_rank": 33,
+     "class_rank": 10,
+     "slug": "eureka",
+     "logo": "https://raw.githubusercontent.com/AllMOSports/All_MO_Sports-Data/main/logos_main2/eureka.png",
+     "history": {
+      "final_fours": 3,
+      "last_final_four": 2017,
+      "final_four_drought": 9,
+      "titles": 0,
+      "last_title": null,
+      "title_drought": null
+     },
+     "reach": [
+      1.0,
+      0.9937,
+      0.7122,
+      0.219,
+      0.0845,
+      0.0216
+     ],
+     "reach_display": [
+      ">99%",
+      "99%",
+      "71%",
+      "22%",
+      "8%",
       "2%"
      ]
     },
@@ -9525,19 +9525,19 @@
       "title_drought": null
      },
      "reach": [
-      0.9999,
-      0.9933,
-      0.2586,
-      0.2218,
-      0.0683,
-      0.0143
+      0.9998,
+      0.9929,
+      0.2535,
+      0.2172,
+      0.0636,
+      0.0127
      ],
      "reach_display": [
       ">99%",
       "99%",
-      "26%",
+      "25%",
       "22%",
-      "7%",
+      "6%",
       "1%"
      ]
     },
@@ -9564,17 +9564,17 @@
      },
      "reach": [
       1.0,
-      0.9085,
-      0.1885,
-      0.0924,
-      0.0297,
-      0.0067
+      0.9072,
+      0.1892,
+      0.0954,
+      0.0315,
+      0.0076
      ],
      "reach_display": [
       ">99%",
       "91%",
       "19%",
-      "9%",
+      "10%",
       "3%",
       "1%"
      ]
@@ -9602,11 +9602,11 @@
      },
      "reach": [
       1.0,
-      0.9154,
-      0.1699,
-      0.081,
-      0.0176,
-      0.0043
+      0.9151,
+      0.168,
+      0.0815,
+      0.017,
+      0.0039
      ],
      "reach_display": [
       ">99%",
@@ -9639,18 +9639,56 @@
       "title_drought": 5
      },
      "reach": [
-      0.2798,
-      0.0687,
-      0.0333,
-      0.0175,
-      0.0074,
-      0.0029
+      0.2765,
+      0.071,
+      0.0341,
+      0.0176,
+      0.0076,
+      0.0032
      ],
      "reach_display": [
       "28%",
       "7%",
       "3%",
       "2%",
+      "1%",
+      "<1%"
+     ]
+    },
+    {
+     "team": "Ladue Horton Watkins",
+     "district": 3,
+     "seed": 1,
+     "bye": true,
+     "record": "9-0",
+     "ovr": 31.85,
+     "off": 17.71,
+     "def": 14.14,
+     "ovr_rank": 46,
+     "class_rank": 15,
+     "slug": "ladue-horton-watkins",
+     "logo": "https://raw.githubusercontent.com/AllMOSports/All_MO_Sports-Data/main/logos_main2/ladue-horton-watkins.png",
+     "history": {
+      "final_fours": 9,
+      "last_final_four": 2019,
+      "final_four_drought": 7,
+      "titles": 1,
+      "last_title": 2018,
+      "title_drought": 8
+     },
+     "reach": [
+      1.0,
+      0.1517,
+      0.0631,
+      0.0524,
+      0.0127,
+      0.0021
+     ],
+     "reach_display": [
+      ">99%",
+      "15%",
+      "6%",
+      "5%",
       "1%",
       "<1%"
      ]
@@ -9677,16 +9715,16 @@
       "title_drought": 39
      },
      "reach": [
-      0.9936,
-      0.3056,
-      0.0561,
-      0.0222,
-      0.0069,
-      0.0024
+      0.9949,
+      0.3013,
+      0.0558,
+      0.0216,
+      0.0068,
+      0.0019
      ],
      "reach_display": [
       "99%",
-      "31%",
+      "30%",
       "6%",
       "2%",
       "1%",
@@ -9716,54 +9754,16 @@
      },
      "reach": [
       0.9999,
-      0.8801,
-      0.28,
-      0.0484,
-      0.0121,
-      0.0018
+      0.8762,
+      0.2811,
+      0.0478,
+      0.0118,
+      0.0014
      ],
      "reach_display": [
       ">99%",
       "88%",
       "28%",
-      "5%",
-      "1%",
-      "<1%"
-     ]
-    },
-    {
-     "team": "Ladue Horton Watkins",
-     "district": 3,
-     "seed": 1,
-     "bye": true,
-     "record": "9-0",
-     "ovr": 31.85,
-     "off": 17.71,
-     "def": 14.14,
-     "ovr_rank": 46,
-     "class_rank": 15,
-     "slug": "ladue-horton-watkins",
-     "logo": "https://raw.githubusercontent.com/AllMOSports/All_MO_Sports-Data/main/logos_main2/ladue-horton-watkins.png",
-     "history": {
-      "final_fours": 9,
-      "last_final_four": 2019,
-      "final_four_drought": 7,
-      "titles": 1,
-      "last_title": 2018,
-      "title_drought": 8
-     },
-     "reach": [
-      1.0,
-      0.1515,
-      0.0635,
-      0.0508,
-      0.0116,
-      0.001
-     ],
-     "reach_display": [
-      ">99%",
-      "15%",
-      "6%",
       "5%",
       "1%",
       "<1%"
@@ -9791,56 +9791,18 @@
       "title_drought": 21
      },
      "reach": [
-      0.7621,
-      0.547,
-      0.1114,
-      0.014,
-      0.0024,
-      0.0005
+      0.7684,
+      0.5564,
+      0.1157,
+      0.0135,
+      0.0022,
+      0.0003
      ],
      "reach_display": [
-      "76%",
-      "55%",
-      "11%",
+      "77%",
+      "56%",
+      "12%",
       "1%",
-      "<1%",
-      "<1%"
-     ]
-    },
-    {
-     "team": "Glendale",
-     "district": 5,
-     "seed": 4,
-     "bye": false,
-     "record": "5-4",
-     "ovr": 27.04,
-     "off": 15.59,
-     "def": 11.45,
-     "ovr_rank": 58,
-     "class_rank": 18,
-     "slug": "glendale",
-     "logo": "https://raw.githubusercontent.com/AllMOSports/All_MO_Sports-Data/main/logos_main2/glendale.png",
-     "history": {
-      "final_fours": 0,
-      "last_final_four": null,
-      "final_four_drought": null,
-      "titles": 0,
-      "last_title": null,
-      "title_drought": null
-     },
-     "reach": [
-      0.7248,
-      0.0834,
-      0.0441,
-      0.0039,
-      0.0005,
-      0.0001
-     ],
-     "reach_display": [
-      "72%",
-      "8%",
-      "4%",
-      "<1%",
       "<1%",
       "<1%"
      ]
@@ -9867,20 +9829,20 @@
       "title_drought": null
      },
      "reach": [
-      0.9613,
-      0.4752,
-      0.3654,
-      0.0314,
-      0.0031,
-      0.0
+      0.9624,
+      0.4839,
+      0.3785,
+      0.03,
+      0.0022,
+      0.0001
      ],
      "reach_display": [
       "96%",
       "48%",
-      "37%",
+      "38%",
       "3%",
       "<1%",
-      "0%"
+      "<1%"
      ]
     },
     {
@@ -9906,17 +9868,131 @@
      },
      "reach": [
       1.0,
-      0.5225,
-      0.4068,
+      0.5143,
+      0.3995,
+      0.0317,
+      0.0019,
+      0.0001
+     ],
+     "reach_display": [
+      ">99%",
+      "51%",
+      "40%",
+      "3%",
+      "<1%",
+      "<1%"
+     ]
+    },
+    {
+     "team": "Glendale",
+     "district": 5,
+     "seed": 4,
+     "bye": false,
+     "record": "5-4",
+     "ovr": 27.04,
+     "off": 15.59,
+     "def": 11.45,
+     "ovr_rank": 58,
+     "class_rank": 18,
+     "slug": "glendale",
+     "logo": "https://raw.githubusercontent.com/AllMOSports/All_MO_Sports-Data/main/logos_main2/glendale.png",
+     "history": {
+      "final_fours": 0,
+      "last_final_four": null,
+      "final_four_drought": null,
+      "titles": 0,
+      "last_title": null,
+      "title_drought": null
+     },
+     "reach": [
+      0.7247,
+      0.0893,
+      0.0459,
+      0.004,
+      0.0004,
+      0.0001
+     ],
+     "reach_display": [
+      "72%",
+      "9%",
+      "5%",
+      "<1%",
+      "<1%",
+      "<1%"
+     ]
+    },
+    {
+     "team": "West Plains",
+     "district": 5,
+     "seed": 3,
+     "bye": false,
+     "record": "7-2",
+     "ovr": 22.76,
+     "off": 7.44,
+     "def": 15.32,
+     "ovr_rank": 65,
+     "class_rank": 19,
+     "slug": "west-plains",
+     "logo": "https://raw.githubusercontent.com/AllMOSports/All_MO_Sports-Data/main/logos_main2/west-plains.png",
+     "history": {
+      "final_fours": 2,
+      "last_final_four": 2022,
+      "final_four_drought": 4,
+      "titles": 0,
+      "last_title": null,
+      "title_drought": null
+     },
+     "reach": [
+      0.7489,
+      0.2928,
       0.0328,
-      0.0029,
+      0.0018,
+      0.0002,
+      0.0001
+     ],
+     "reach_display": [
+      "75%",
+      "29%",
+      "3%",
+      "<1%",
+      "<1%",
+      "<1%"
+     ]
+    },
+    {
+     "team": "Timberland",
+     "district": 4,
+     "seed": 1,
+     "bye": true,
+     "record": "7-2",
+     "ovr": 8.25,
+     "off": 10.69,
+     "def": -2.45,
+     "ovr_rank": 111,
+     "class_rank": 31,
+     "slug": "timberland",
+     "logo": "https://raw.githubusercontent.com/AllMOSports/All_MO_Sports-Data/main/logos_main2/timberland.png",
+     "history": {
+      "final_fours": 0,
+      "last_final_four": null,
+      "final_four_drought": null,
+      "titles": 0,
+      "last_title": null,
+      "title_drought": null
+     },
+     "reach": [
+      1.0,
+      0.9191,
+      0.2203,
+      0.0046,
+      0.0001,
       0.0
      ],
      "reach_display": [
       ">99%",
-      "52%",
-      "41%",
-      "3%",
+      "92%",
+      "22%",
+      "<1%",
       "<1%",
       "0%"
      ]
@@ -9943,11 +10019,11 @@
       "title_drought": null
      },
      "reach": [
-      0.9975,
-      0.9711,
-      0.0943,
-      0.004,
-      0.0001,
+      0.9978,
+      0.9734,
+      0.0905,
+      0.0022,
+      0.0,
       0.0
      ],
      "reach_display": [
@@ -9955,82 +10031,6 @@
       "97%",
       "9%",
       "<1%",
-      "<1%",
-      "0%"
-     ]
-    },
-    {
-     "team": "West Plains",
-     "district": 5,
-     "seed": 3,
-     "bye": false,
-     "record": "7-2",
-     "ovr": 22.76,
-     "off": 7.44,
-     "def": 15.32,
-     "ovr_rank": 65,
-     "class_rank": 19,
-     "slug": "west-plains",
-     "logo": "https://raw.githubusercontent.com/AllMOSports/All_MO_Sports-Data/main/logos_main2/west-plains.png",
-     "history": {
-      "final_fours": 2,
-      "last_final_four": 2022,
-      "final_four_drought": 4,
-      "titles": 0,
-      "last_title": null,
-      "title_drought": null
-     },
-     "reach": [
-      0.758,
-      0.2997,
-      0.0308,
-      0.0018,
-      0.0001,
-      0.0
-     ],
-     "reach_display": [
-      "76%",
-      "30%",
-      "3%",
-      "<1%",
-      "<1%",
-      "0%"
-     ]
-    },
-    {
-     "team": "Timberland",
-     "district": 4,
-     "seed": 1,
-     "bye": true,
-     "record": "7-2",
-     "ovr": 8.25,
-     "off": 10.69,
-     "def": -2.45,
-     "ovr_rank": 111,
-     "class_rank": 31,
-     "slug": "timberland",
-     "logo": "https://raw.githubusercontent.com/AllMOSports/All_MO_Sports-Data/main/logos_main2/timberland.png",
-     "history": {
-      "final_fours": 0,
-      "last_final_four": null,
-      "final_four_drought": null,
-      "titles": 0,
-      "last_title": null,
-      "title_drought": null
-     },
-     "reach": [
-      1.0,
-      0.9242,
-      0.2263,
-      0.0052,
-      0.0,
-      0.0
-     ],
-     "reach_display": [
-      ">99%",
-      "92%",
-      "23%",
-      "1%",
       "0%",
       "0%"
      ]
@@ -10057,17 +10057,17 @@
       "title_drought": null
      },
      "reach": [
-      0.6764,
-      0.0336,
-      0.0154,
-      0.0005,
+      0.6631,
+      0.031,
+      0.0144,
+      0.0003,
       0.0,
       0.0
      ],
      "reach_display": [
-      "68%",
+      "66%",
       "3%",
-      "2%",
+      "1%",
       "<1%",
       "0%",
       "0%"
@@ -10095,15 +10095,15 @@
       "title_drought": null
      },
      "reach": [
-      0.2379,
-      0.1086,
-      0.0072,
+      0.2316,
+      0.1057,
+      0.0073,
       0.0003,
       0.0,
       0.0
      ],
      "reach_display": [
-      "24%",
+      "23%",
       "11%",
       "1%",
       "<1%",
@@ -10134,8 +10134,8 @@
      },
      "reach": [
       1.0,
-      0.0915,
-      0.0024,
+      0.0928,
+      0.0016,
       0.0003,
       0.0,
       0.0
@@ -10171,16 +10171,16 @@
       "title_drought": null
      },
      "reach": [
-      0.787,
-      0.1124,
-      0.0085,
+      0.7882,
+      0.1168,
+      0.0066,
       0.0001,
       0.0,
       0.0
      ],
      "reach_display": [
       "79%",
-      "11%",
+      "12%",
       "1%",
       "<1%",
       "0%",
@@ -10209,9 +10209,9 @@
       "title_drought": null
      },
      "reach": [
-      0.2752,
-      0.0095,
-      0.0031,
+      0.2753,
+      0.0097,
+      0.0033,
       0.0001,
       0.0,
       0.0
@@ -10221,82 +10221,6 @@
       "1%",
       "<1%",
       "<1%",
-      "0%",
-      "0%"
-     ]
-    },
-    {
-     "team": "Winnetonka",
-     "district": 8,
-     "seed": 4,
-     "bye": false,
-     "record": "4-5",
-     "ovr": 2.93,
-     "off": 6.88,
-     "def": -3.95,
-     "ovr_rank": 131,
-     "class_rank": 33,
-     "slug": "winnetonka",
-     "logo": "https://raw.githubusercontent.com/AllMOSports/All_MO_Sports-Data/main/logos_main2/winnetonka.png",
-     "history": {
-      "final_fours": 0,
-      "last_final_four": null,
-      "final_four_drought": null,
-      "titles": 0,
-      "last_title": null,
-      "title_drought": null
-     },
-     "reach": [
-      0.8905,
-      0.0011,
-      0.0001,
-      0.0001,
-      0.0,
-      0.0
-     ],
-     "reach_display": [
-      "89%",
-      "<1%",
-      "<1%",
-      "<1%",
-      "0%",
-      "0%"
-     ]
-    },
-    {
-     "team": "Jefferson City",
-     "district": 5,
-     "seed": 6,
-     "bye": false,
-     "record": "4-5",
-     "ovr": 12.08,
-     "off": 14.65,
-     "def": -2.57,
-     "ovr_rank": 98,
-     "class_rank": 28,
-     "slug": "jefferson-city",
-     "logo": "https://raw.githubusercontent.com/AllMOSports/All_MO_Sports-Data/main/logos_main2/jefferson-city.png",
-     "history": {
-      "final_fours": 24,
-      "last_final_four": 2023,
-      "final_four_drought": 3,
-      "titles": 10,
-      "last_title": 1997,
-      "title_drought": 29
-     },
-     "reach": [
-      0.242,
-      0.0447,
-      0.0013,
-      0.0,
-      0.0,
-      0.0
-     ],
-     "reach_display": [
-      "24%",
-      "4%",
-      "<1%",
-      "0%",
       "0%",
       "0%"
      ]
@@ -10323,56 +10247,18 @@
       "title_drought": null
      },
      "reach": [
-      0.7907,
-      0.0808,
-      0.0013,
-      0.0,
+      0.796,
+      0.0813,
+      0.001,
+      0.0001,
       0.0,
       0.0
      ],
      "reach_display": [
-      "79%",
+      "80%",
       "8%",
       "<1%",
-      "0%",
-      "0%",
-      "0%"
-     ]
-    },
-    {
-     "team": "Belton",
-     "district": 7,
-     "seed": 4,
-     "bye": false,
-     "record": "4-5",
-     "ovr": 5.04,
-     "off": 5.27,
-     "def": -0.23,
-     "ovr_rank": 124,
-     "class_rank": 32,
-     "slug": "belton",
-     "logo": "https://raw.githubusercontent.com/AllMOSports/All_MO_Sports-Data/main/logos_main2/belton.png",
-     "history": {
-      "final_fours": 2,
-      "last_final_four": 2007,
-      "final_four_drought": 19,
-      "titles": 0,
-      "last_title": null,
-      "title_drought": null
-     },
-     "reach": [
-      0.3236,
-      0.006,
-      0.001,
-      0.0,
-      0.0,
-      0.0
-     ],
-     "reach_display": [
-      "32%",
-      "1%",
       "<1%",
-      "0%",
       "0%",
       "0%"
      ]
@@ -10399,16 +10285,92 @@
       "title_drought": null
      },
      "reach": [
-      0.7238,
-      0.0066,
+      0.7256,
+      0.0067,
       0.0008,
+      0.0001,
+      0.0,
+      0.0
+     ],
+     "reach_display": [
+      "73%",
+      "1%",
+      "<1%",
+      "<1%",
+      "0%",
+      "0%"
+     ]
+    },
+    {
+     "team": "Belton",
+     "district": 7,
+     "seed": 4,
+     "bye": false,
+     "record": "4-5",
+     "ovr": 5.04,
+     "off": 5.27,
+     "def": -0.23,
+     "ovr_rank": 124,
+     "class_rank": 32,
+     "slug": "belton",
+     "logo": "https://raw.githubusercontent.com/AllMOSports/All_MO_Sports-Data/main/logos_main2/belton.png",
+     "history": {
+      "final_fours": 2,
+      "last_final_four": 2007,
+      "final_four_drought": 19,
+      "titles": 0,
+      "last_title": null,
+      "title_drought": null
+     },
+     "reach": [
+      0.3369,
+      0.0063,
+      0.0022,
       0.0,
       0.0,
       0.0
      ],
      "reach_display": [
-      "72%",
+      "34%",
       "1%",
+      "<1%",
+      "0%",
+      "0%",
+      "0%"
+     ]
+    },
+    {
+     "team": "Jefferson City",
+     "district": 5,
+     "seed": 6,
+     "bye": false,
+     "record": "4-5",
+     "ovr": 12.08,
+     "off": 14.65,
+     "def": -2.57,
+     "ovr_rank": 98,
+     "class_rank": 28,
+     "slug": "jefferson-city",
+     "logo": "https://raw.githubusercontent.com/AllMOSports/All_MO_Sports-Data/main/logos_main2/jefferson-city.png",
+     "history": {
+      "final_fours": 24,
+      "last_final_four": 2023,
+      "final_four_drought": 3,
+      "titles": 10,
+      "last_title": 1997,
+      "title_drought": 29
+     },
+     "reach": [
+      0.2511,
+      0.0451,
+      0.0013,
+      0.0,
+      0.0,
+      0.0
+     ],
+     "reach_display": [
+      "25%",
+      "5%",
       "<1%",
       "0%",
       "0%",
@@ -10437,16 +10399,16 @@
       "title_drought": null
      },
      "reach": [
-      0.5438,
-      0.0447,
-      0.0008,
+      0.5335,
+      0.0488,
+      0.0009,
       0.0,
       0.0,
       0.0
      ],
      "reach_display": [
-      "54%",
-      "4%",
+      "53%",
+      "5%",
       "<1%",
       "0%",
       "0%",
@@ -10475,15 +10437,15 @@
       "title_drought": null
      },
      "reach": [
-      0.4562,
-      0.0312,
+      0.4665,
+      0.0322,
       0.0004,
       0.0,
       0.0,
       0.0
      ],
      "reach_display": [
-      "46%",
+      "47%",
       "3%",
       "<1%",
       "0%",
@@ -10513,8 +10475,8 @@
       "title_drought": null
      },
      "reach": [
-      0.0387,
-      0.0024,
+      0.0377,
+      0.0017,
       0.0003,
       0.0,
       0.0,
@@ -10551,7 +10513,7 @@
       "title_drought": null
      },
      "reach": [
-      0.9573,
+      0.958,
       0.0063,
       0.0001,
       0.0,
@@ -10589,8 +10551,8 @@
       "title_drought": 53
      },
      "reach": [
-      0.213,
-      0.0075,
+      0.2118,
+      0.007,
       0.0001,
       0.0,
       0.0,
@@ -10599,44 +10561,6 @@
      "reach_display": [
       "21%",
       "1%",
-      "<1%",
-      "0%",
-      "0%",
-      "0%"
-     ]
-    },
-    {
-     "team": "Grandview",
-     "district": 7,
-     "seed": 3,
-     "bye": false,
-     "record": "4-5",
-     "ovr": -14.68,
-     "off": -5.75,
-     "def": -8.94,
-     "ovr_rank": 189,
-     "class_rank": 43,
-     "slug": "grandview",
-     "logo": "https://raw.githubusercontent.com/AllMOSports/All_MO_Sports-Data/main/logos_main2/grandview.png",
-     "history": {
-      "final_fours": 1,
-      "last_final_four": 1984,
-      "final_four_drought": 42,
-      "titles": 0,
-      "last_title": null,
-      "title_drought": null
-     },
-     "reach": [
-      0.7516,
-      0.027,
-      0.0001,
-      0.0,
-      0.0,
-      0.0
-     ],
-     "reach_display": [
-      "75%",
-      "3%",
       "<1%",
       "0%",
       "0%",
@@ -10665,15 +10589,15 @@
       "title_drought": null
      },
      "reach": [
-      0.2762,
-      0.0004,
+      0.2745,
+      0.0005,
       0.0,
       0.0,
       0.0,
       0.0
      ],
      "reach_display": [
-      "28%",
+      "27%",
       "<1%",
       "0%",
       "0%",
@@ -10741,7 +10665,7 @@
       "title_drought": 17
      },
      "reach": [
-      0.0427,
+      0.042,
       0.0,
       0.0,
       0.0,
@@ -10817,8 +10741,8 @@
       "title_drought": null
      },
      "reach": [
-      0.3597,
-      0.0012,
+      0.3603,
+      0.0014,
       0.0,
       0.0,
       0.0,
@@ -10893,8 +10817,8 @@
       "title_drought": 18
      },
      "reach": [
-      0.6403,
-      0.0054,
+      0.6397,
+      0.0057,
       0.0,
       0.0,
       0.0,
@@ -10931,8 +10855,8 @@
       "title_drought": 17
      },
      "reach": [
-      0.0001,
-      0.0001,
+      0.0003,
+      0.0,
       0.0,
       0.0,
       0.0,
@@ -10940,7 +10864,7 @@
      ],
      "reach_display": [
       "<1%",
-      "<1%",
+      "0%",
       "0%",
       "0%",
       "0%",
@@ -10969,7 +10893,7 @@
       "title_drought": null
      },
      "reach": [
-      0.0064,
+      0.0052,
       0.0,
       0.0,
       0.0,
@@ -11024,6 +10948,44 @@
      ]
     },
     {
+     "team": "Grandview",
+     "district": 7,
+     "seed": 3,
+     "bye": false,
+     "record": "4-5",
+     "ovr": -14.68,
+     "off": -5.75,
+     "def": -8.94,
+     "ovr_rank": 189,
+     "class_rank": 43,
+     "slug": "grandview",
+     "logo": "https://raw.githubusercontent.com/AllMOSports/All_MO_Sports-Data/main/logos_main2/grandview.png",
+     "history": {
+      "final_fours": 1,
+      "last_final_four": 1984,
+      "final_four_drought": 42,
+      "titles": 0,
+      "last_title": null,
+      "title_drought": null
+     },
+     "reach": [
+      0.7488,
+      0.0242,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+     ],
+     "reach_display": [
+      "75%",
+      "2%",
+      "0%",
+      "0%",
+      "0%",
+      "0%"
+     ]
+    },
+    {
      "team": "Ruskin",
      "district": 7,
      "seed": 6,
@@ -11045,8 +11007,8 @@
       "title_drought": null
      },
      "reach": [
-      0.2484,
-      0.0014,
+      0.2512,
+      0.0019,
       0.0,
       0.0,
       0.0,
@@ -11083,8 +11045,8 @@
       "title_drought": 12
      },
      "reach": [
-      0.0025,
-      0.0006,
+      0.0022,
+      0.0005,
       0.0,
       0.0,
       0.0,
@@ -11092,6 +11054,44 @@
      ],
      "reach_display": [
       "<1%",
+      "<1%",
+      "0%",
+      "0%",
+      "0%",
+      "0%"
+     ]
+    },
+    {
+     "team": "Winnetonka",
+     "district": 8,
+     "seed": 4,
+     "bye": false,
+     "record": "4-5",
+     "ovr": 2.93,
+     "off": 6.88,
+     "def": -3.95,
+     "ovr_rank": 131,
+     "class_rank": 33,
+     "slug": "winnetonka",
+     "logo": "https://raw.githubusercontent.com/AllMOSports/All_MO_Sports-Data/main/logos_main2/winnetonka.png",
+     "history": {
+      "final_fours": 0,
+      "last_final_four": null,
+      "final_four_drought": null,
+      "titles": 0,
+      "last_title": null,
+      "title_drought": null
+     },
+     "reach": [
+      0.8925,
+      0.0013,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+     ],
+     "reach_display": [
+      "89%",
       "<1%",
       "0%",
       "0%",
@@ -11121,7 +11121,7 @@
       "title_drought": null
      },
      "reach": [
-      0.1095,
+      0.1075,
       0.0,
       0.0,
       0.0,
@@ -11159,15 +11159,15 @@
       "title_drought": null
      },
      "reach": [
-      0.2093,
-      0.0038,
+      0.2041,
+      0.0037,
       0.0,
       0.0,
       0.0,
       0.0
      ],
      "reach_display": [
-      "21%",
+      "20%",
       "<1%",
       "0%",
       "0%",
@@ -11221,7 +11221,7 @@
      "away": "Poplar Bluff",
      "home_seed": 4,
      "away_seed": 5,
-     "home_win": 0.7238,
+     "home_win": 0.7256,
      "minutes": 94,
      "miles": 81,
      "miles_estimated": false
@@ -11243,7 +11243,7 @@
      "away": "Webster Groves",
      "home_seed": 4,
      "away_seed": 5,
-     "home_win": 0.9573,
+     "home_win": 0.958,
      "minutes": 19,
      "miles": 12,
      "miles_estimated": false
@@ -11265,7 +11265,7 @@
      "away": "Washington",
      "home_seed": 3,
      "away_seed": 6,
-     "home_win": 0.787,
+     "home_win": 0.7882,
      "minutes": 51,
      "miles": 33,
      "miles_estimated": false
@@ -11287,7 +11287,7 @@
      "away": "Hazelwood Central",
      "home_seed": 2,
      "away_seed": 7,
-     "home_win": 0.9999,
+     "home_win": 0.9998,
      "minutes": 29,
      "miles": 16,
      "miles_estimated": false
@@ -11298,7 +11298,7 @@
      "away": "Hazelwood East",
      "home_seed": 3,
      "away_seed": 6,
-     "home_win": 0.3597,
+     "home_win": 0.3603,
      "minutes": 17,
      "miles": 8,
      "miles_estimated": false
@@ -11309,7 +11309,7 @@
      "away": "Ft. Zumwalt South",
      "home_seed": 4,
      "away_seed": 5,
-     "home_win": 0.5438,
+     "home_win": 0.5335,
      "minutes": 10,
      "miles": 5,
      "miles_estimated": false
@@ -11320,7 +11320,7 @@
      "away": "North Point",
      "home_seed": 3,
      "away_seed": 6,
-     "home_win": 0.9613,
+     "home_win": 0.9624,
      "minutes": 17,
      "miles": 11,
      "miles_estimated": false
@@ -11331,7 +11331,7 @@
      "away": "Rolla",
      "home_seed": 4,
      "away_seed": 5,
-     "home_win": 0.7248,
+     "home_win": 0.7247,
      "minutes": 125,
      "miles": 110,
      "miles_estimated": false
@@ -11342,7 +11342,7 @@
      "away": "Lebanon",
      "home_seed": 2,
      "away_seed": 7,
-     "home_win": 0.7621,
+     "home_win": 0.7684,
      "minutes": 36,
      "miles": 25,
      "miles_estimated": false
@@ -11353,7 +11353,7 @@
      "away": "Jefferson City",
      "home_seed": 3,
      "away_seed": 6,
-     "home_win": 0.758,
+     "home_win": 0.7489,
      "minutes": 205,
      "miles": 158,
      "miles_estimated": false
@@ -11364,7 +11364,7 @@
      "away": "Webb City",
      "home_seed": 4,
      "away_seed": 5,
-     "home_win": 0.7202,
+     "home_win": 0.7235,
      "minutes": 18,
      "miles": 11,
      "miles_estimated": false
@@ -11386,7 +11386,7 @@
      "away": "Willard",
      "home_seed": 3,
      "away_seed": 6,
-     "home_win": 0.9936,
+     "home_win": 0.9949,
      "minutes": 66,
      "miles": 52,
      "miles_estimated": false
@@ -11397,7 +11397,7 @@
      "away": "Capital City",
      "home_seed": 4,
      "away_seed": 5,
-     "home_win": 0.3236,
+     "home_win": 0.3369,
      "minutes": 179,
      "miles": 142,
      "miles_estimated": false
@@ -11408,7 +11408,7 @@
      "away": "Battle",
      "home_seed": 2,
      "away_seed": 7,
-     "home_win": 0.9975,
+     "home_win": 0.9978,
      "minutes": 89,
      "miles": 74,
      "miles_estimated": false
@@ -11419,7 +11419,7 @@
      "away": "Ruskin",
      "home_seed": 3,
      "away_seed": 6,
-     "home_win": 0.7516,
+     "home_win": 0.7488,
      "minutes": 9,
      "miles": 4,
      "miles_estimated": false
@@ -11430,7 +11430,7 @@
      "away": "Lincoln College Prep",
      "home_seed": 4,
      "away_seed": 5,
-     "home_win": 0.8905,
+     "home_win": 0.8925,
      "minutes": 14,
      "miles": 10,
      "miles_estimated": false
@@ -11452,7 +11452,7 @@
      "away": "William Chrisman",
      "home_seed": 3,
      "away_seed": 6,
-     "home_win": 0.7907,
+     "home_win": 0.796,
      "minutes": 16,
      "miles": 8,
      "miles_estimated": false
@@ -11579,11 +11579,11 @@
      },
      "reach": [
       1.0,
-      0.9993,
-      0.9984,
-      0.9183,
-      0.9014,
-      0.6093
+      0.9992,
+      0.9982,
+      0.9171,
+      0.8988,
+      0.6108
      ],
      "reach_display": [
       ">99%",
@@ -11617,17 +11617,17 @@
      },
      "reach": [
       1.0,
-      0.7173,
-      0.5049,
-      0.3228,
-      0.1991,
-      0.0938
+      0.7157,
+      0.4979,
+      0.3252,
+      0.2008,
+      0.0923
      ],
      "reach_display": [
       ">99%",
       "72%",
       "50%",
-      "32%",
+      "33%",
       "20%",
       "9%"
      ]
@@ -11656,10 +11656,10 @@
      "reach": [
       1.0,
       0.9999,
-      0.9833,
-      0.45,
-      0.2173,
-      0.0736
+      0.9828,
+      0.4472,
+      0.2208,
+      0.0728
      ],
      "reach_display": [
       ">99%",
@@ -11667,44 +11667,6 @@
       "98%",
       "45%",
       "22%",
-      "7%"
-     ]
-    },
-    {
-     "team": "North Kansas City",
-     "district": 7,
-     "seed": 2,
-     "bye": true,
-     "record": "7-2",
-     "ovr": 67.9,
-     "off": 35.49,
-     "def": 32.41,
-     "ovr_rank": 4,
-     "class_rank": 3,
-     "slug": "north-kansas-city",
-     "logo": "https://raw.githubusercontent.com/AllMOSports/All_MO_Sports-Data/main/logos_main2/north-kansas-city.png",
-     "history": {
-      "final_fours": 0,
-      "last_final_four": null,
-      "final_four_drought": null,
-      "titles": 0,
-      "last_title": null,
-      "title_drought": null
-     },
-     "reach": [
-      1.0,
-      0.6816,
-      0.39,
-      0.2793,
-      0.1603,
-      0.0683
-     ],
-     "reach_display": [
-      ">99%",
-      "68%",
-      "39%",
-      "28%",
-      "16%",
       "7%"
      ]
     },
@@ -11731,11 +11693,11 @@
      },
      "reach": [
       1.0,
-      0.9145,
-      0.4779,
-      0.3281,
-      0.1729,
-      0.0675
+      0.9136,
+      0.4829,
+      0.3285,
+      0.1737,
+      0.0696
      ],
      "reach_display": [
       ">99%",
@@ -11744,6 +11706,44 @@
       "33%",
       "17%",
       "7%"
+     ]
+    },
+    {
+     "team": "North Kansas City",
+     "district": 7,
+     "seed": 2,
+     "bye": true,
+     "record": "7-2",
+     "ovr": 67.9,
+     "off": 35.49,
+     "def": 32.41,
+     "ovr_rank": 4,
+     "class_rank": 3,
+     "slug": "north-kansas-city",
+     "logo": "https://raw.githubusercontent.com/AllMOSports/All_MO_Sports-Data/main/logos_main2/north-kansas-city.png",
+     "history": {
+      "final_fours": 0,
+      "last_final_four": null,
+      "final_four_drought": null,
+      "titles": 0,
+      "last_title": null,
+      "title_drought": null
+     },
+     "reach": [
+      1.0,
+      0.6871,
+      0.3857,
+      0.2756,
+      0.1543,
+      0.0649
+     ],
+     "reach_display": [
+      ">99%",
+      "69%",
+      "39%",
+      "28%",
+      "15%",
+      "6%"
      ]
     },
     {
@@ -11769,11 +11769,11 @@
      },
      "reach": [
       1.0,
-      0.9432,
-      0.7951,
-      0.3054,
-      0.1235,
-      0.0348
+      0.9427,
+      0.7982,
+      0.3083,
+      0.1242,
+      0.0365
      ],
      "reach_display": [
       ">99%",
@@ -11781,7 +11781,7 @@
       "80%",
       "31%",
       "12%",
-      "3%"
+      "4%"
      ]
     },
     {
@@ -11806,17 +11806,17 @@
       "title_drought": null
      },
      "reach": [
-      0.633,
-      0.5967,
-      0.2534,
+      0.6405,
+      0.6056,
+      0.2595,
       0.13,
-      0.0622,
-      0.0204
+      0.0619,
+      0.0211
      ],
      "reach_display": [
-      "63%",
-      "60%",
-      "25%",
+      "64%",
+      "61%",
+      "26%",
       "13%",
       "6%",
       "2%"
@@ -11845,11 +11845,11 @@
      },
      "reach": [
       1.0,
-      0.5374,
-      0.4402,
-      0.0469,
-      0.0376,
-      0.0077
+      0.5365,
+      0.4388,
+      0.0462,
+      0.0371,
+      0.0086
      ],
      "reach_display": [
       ">99%",
@@ -11857,6 +11857,44 @@
       "44%",
       "5%",
       "4%",
+      "1%"
+     ]
+    },
+    {
+     "team": "Lee's Summit",
+     "district": 6,
+     "seed": 5,
+     "bye": false,
+     "record": "5-4",
+     "ovr": 60.62,
+     "off": 24.89,
+     "def": 35.73,
+     "ovr_rank": 9,
+     "class_rank": 8,
+     "slug": "lees-summit",
+     "logo": "https://raw.githubusercontent.com/AllMOSports/All_MO_Sports-Data/main/logos_main2/lees-summit.png",
+     "history": {
+      "final_fours": 2,
+      "last_final_four": 2025,
+      "final_four_drought": 1,
+      "titles": 1,
+      "last_title": 2025,
+      "title_drought": 1
+     },
+     "reach": [
+      0.9673,
+      0.2843,
+      0.1416,
+      0.06,
+      0.0238,
+      0.0064
+     ],
+     "reach_display": [
+      "97%",
+      "28%",
+      "14%",
+      "6%",
+      "2%",
       "1%"
      ]
     },
@@ -11883,55 +11921,17 @@
      },
      "reach": [
       1.0,
-      0.3184,
-      0.1234,
-      0.0654,
-      0.0251,
-      0.0076
+      0.313,
+      0.122,
+      0.0658,
+      0.0246,
+      0.0062
      ],
      "reach_display": [
       ">99%",
-      "32%",
+      "31%",
       "12%",
       "7%",
-      "3%",
-      "1%"
-     ]
-    },
-    {
-     "team": "Lee's Summit",
-     "district": 6,
-     "seed": 5,
-     "bye": false,
-     "record": "5-4",
-     "ovr": 60.62,
-     "off": 24.89,
-     "def": 35.73,
-     "ovr_rank": 9,
-     "class_rank": 8,
-     "slug": "lees-summit",
-     "logo": "https://raw.githubusercontent.com/AllMOSports/All_MO_Sports-Data/main/logos_main2/lees-summit.png",
-     "history": {
-      "final_fours": 2,
-      "last_final_four": 2025,
-      "final_four_drought": 1,
-      "titles": 1,
-      "last_title": 2025,
-      "title_drought": 1
-     },
-     "reach": [
-      0.9678,
-      0.2823,
-      0.1429,
-      0.0603,
-      0.0236,
-      0.0064
-     ],
-     "reach_display": [
-      "97%",
-      "28%",
-      "14%",
-      "6%",
       "2%",
       "1%"
      ]
@@ -11959,11 +11959,11 @@
      },
      "reach": [
       1.0,
-      0.4626,
-      0.3649,
-      0.0314,
-      0.0244,
-      0.0043
+      0.4635,
+      0.3648,
+      0.0326,
+      0.0247,
+      0.0045
      ],
      "reach_display": [
       ">99%",
@@ -11996,16 +11996,16 @@
       "title_drought": 11
      },
      "reach": [
-      0.367,
-      0.3257,
-      0.0958,
-      0.0364,
-      0.0133,
-      0.0032
+      0.3594,
+      0.3223,
+      0.0985,
+      0.0374,
+      0.0128,
+      0.003
      ],
      "reach_display": [
-      "37%",
-      "33%",
+      "36%",
+      "32%",
       "10%",
       "4%",
       "1%",
@@ -12035,10 +12035,10 @@
      },
      "reach": [
       1.0,
-      0.9823,
-      0.7696,
-      0.5237,
-      0.0244,
+      0.9818,
+      0.7667,
+      0.5224,
+      0.0268,
       0.0023
      ],
      "reach_display": [
@@ -12046,7 +12046,7 @@
       "98%",
       "77%",
       "52%",
-      "2%",
+      "3%",
       "<1%"
      ]
     },
@@ -12073,17 +12073,17 @@
      },
      "reach": [
       1.0,
-      0.9811,
-      0.6313,
-      0.2696,
-      0.0076,
-      0.0003
+      0.9798,
+      0.6383,
+      0.2764,
+      0.0083,
+      0.0005
      ],
      "reach_display": [
       ">99%",
       "98%",
-      "63%",
-      "27%",
+      "64%",
+      "28%",
       "1%",
       "<1%"
      ]
@@ -12110,11 +12110,11 @@
       "title_drought": null
      },
      "reach": [
-      0.8294,
-      0.4785,
-      0.102,
+      0.8271,
+      0.4769,
+      0.1026,
       0.0127,
-      0.0018,
+      0.0021,
       0.0003
      ],
      "reach_display": [
@@ -12122,44 +12122,6 @@
       "48%",
       "10%",
       "1%",
-      "<1%",
-      "<1%"
-     ]
-    },
-    {
-     "team": "Francis Howell",
-     "district": 4,
-     "seed": 2,
-     "bye": true,
-     "record": "5-4",
-     "ovr": 32.4,
-     "off": 18.25,
-     "def": 14.15,
-     "ovr_rank": 44,
-     "class_rank": 21,
-     "slug": "francis-howell",
-     "logo": "https://raw.githubusercontent.com/AllMOSports/All_MO_Sports-Data/main/logos_main2/francis-howell.png",
-     "history": {
-      "final_fours": 4,
-      "last_final_four": 2022,
-      "final_four_drought": 4,
-      "titles": 1,
-      "last_title": 2022,
-      "title_drought": 4
-     },
-     "reach": [
-      1.0,
-      0.857,
-      0.3527,
-      0.1191,
-      0.0019,
-      0.0001
-     ],
-     "reach_display": [
-      ">99%",
-      "86%",
-      "35%",
-      "12%",
       "<1%",
       "<1%"
      ]
@@ -12187,10 +12149,10 @@
      },
      "reach": [
       1.0,
-      0.8955,
-      0.1927,
-      0.0032,
-      0.0015,
+      0.8968,
+      0.1942,
+      0.0038,
+      0.0019,
       0.0001
      ],
      "reach_display": [
@@ -12198,6 +12160,44 @@
       "90%",
       "19%",
       "<1%",
+      "<1%",
+      "<1%"
+     ]
+    },
+    {
+     "team": "Francis Howell",
+     "district": 4,
+     "seed": 2,
+     "bye": true,
+     "record": "5-4",
+     "ovr": 32.4,
+     "off": 18.25,
+     "def": 14.15,
+     "ovr_rank": 44,
+     "class_rank": 21,
+     "slug": "francis-howell",
+     "logo": "https://raw.githubusercontent.com/AllMOSports/All_MO_Sports-Data/main/logos_main2/francis-howell.png",
+     "history": {
+      "final_fours": 4,
+      "last_final_four": 2022,
+      "final_four_drought": 4,
+      "titles": 1,
+      "last_title": 2022,
+      "title_drought": 4
+     },
+     "reach": [
+      1.0,
+      0.8552,
+      0.3457,
+      0.1115,
+      0.0014,
+      0.0001
+     ],
+     "reach_display": [
+      ">99%",
+      "86%",
+      "35%",
+      "11%",
       "<1%",
       "<1%"
      ]
@@ -12225,11 +12225,11 @@
      },
      "reach": [
       1.0,
-      0.995,
-      0.2286,
-      0.0866,
-      0.0011,
-      0.0
+      0.9953,
+      0.232,
+      0.0886,
+      0.0009,
+      0.0001
      ],
      "reach_display": [
       ">99%",
@@ -12237,7 +12237,7 @@
       "23%",
       "9%",
       "<1%",
-      "0%"
+      "<1%"
      ]
     },
     {
@@ -12263,11 +12263,11 @@
      },
      "reach": [
       1.0,
-      0.4839,
-      0.0833,
-      0.0065,
-      0.0006,
-      0.0
+      0.4847,
+      0.0799,
+      0.006,
+      0.0007,
+      0.0001
      ],
      "reach_display": [
       ">99%",
@@ -12275,7 +12275,7 @@
       "8%",
       "1%",
       "<1%",
-      "0%"
+      "<1%"
      ]
     },
     {
@@ -12300,9 +12300,9 @@
       "title_drought": 13
      },
      "reach": [
-      0.9301,
-      0.0853,
-      0.0088,
+      0.9331,
+      0.0862,
+      0.0095,
       0.0022,
       0.0003,
       0.0
@@ -12317,38 +12317,76 @@
      ]
     },
     {
-     "team": "Ozark",
-     "district": 5,
+     "team": "Northwest (Cedar Hill)",
+     "district": 1,
      "seed": 2,
      "bye": true,
-     "record": "4-5",
-     "ovr": 30.66,
-     "off": 14.01,
-     "def": 16.65,
-     "ovr_rank": 49,
-     "class_rank": 24,
-     "slug": "ozark",
-     "logo": "https://raw.githubusercontent.com/AllMOSports/All_MO_Sports-Data/main/logos_main2/ozark.png",
+     "record": "8-1",
+     "ovr": 22.51,
+     "off": 9.25,
+     "def": 13.26,
+     "ovr_rank": 66,
+     "class_rank": 27,
+     "slug": "northwest-cedar-hill",
+     "logo": "https://raw.githubusercontent.com/AllMOSports/All_MO_Sports-Data/main/logos_main2/northwest-cedar-hill.png",
      "history": {
-      "final_fours": 3,
-      "last_final_four": 2012,
-      "final_four_drought": 14,
+      "final_fours": 0,
+      "last_final_four": null,
+      "final_four_drought": null,
       "titles": 0,
       "last_title": null,
       "title_drought": null
      },
      "reach": [
       1.0,
-      0.5592,
-      0.0106,
-      0.0004,
+      0.5246,
+      0.0007,
+      0.0001,
       0.0001,
       0.0
      ],
      "reach_display": [
       ">99%",
+      "52%",
+      "<1%",
+      "<1%",
+      "<1%",
+      "0%"
+     ]
+    },
+    {
+     "team": "Lindbergh",
+     "district": 1,
+     "seed": 5,
+     "bye": false,
+     "record": "4-5",
+     "ovr": 22.42,
+     "off": 4.49,
+     "def": 17.94,
+     "ovr_rank": 67,
+     "class_rank": 28,
+     "slug": "lindbergh",
+     "logo": "https://raw.githubusercontent.com/AllMOSports/All_MO_Sports-Data/main/logos_main2/lindbergh.png",
+     "history": {
+      "final_fours": 2,
+      "last_final_four": 2003,
+      "final_four_drought": 23,
+      "titles": 0,
+      "last_title": null,
+      "title_drought": null
+     },
+     "reach": [
+      0.5627,
+      0.0006,
+      0.0003,
+      0.0001,
+      0.0001,
+      0.0
+     ],
+     "reach_display": [
       "56%",
-      "1%",
+      "<1%",
+      "<1%",
       "<1%",
       "<1%",
       "0%"
@@ -12377,9 +12415,9 @@
      },
      "reach": [
       1.0,
-      0.1429,
-      0.014,
-      0.0009,
+      0.1448,
+      0.0146,
+      0.001,
       0.0,
       0.0
      ],
@@ -12414,10 +12452,10 @@
       "title_drought": 9
      },
      "reach": [
-      0.8591,
-      0.0563,
-      0.0176,
-      0.0004,
+      0.8636,
+      0.0565,
+      0.0173,
+      0.0008,
       0.0,
       0.0
      ],
@@ -12431,37 +12469,37 @@
      ]
     },
     {
-     "team": "Joplin",
+     "team": "Ozark",
      "district": 5,
-     "seed": 3,
+     "seed": 2,
      "bye": true,
-     "record": "3-6",
-     "ovr": 28.41,
-     "off": 14.3,
-     "def": 14.1,
-     "ovr_rank": 56,
-     "class_rank": 26,
-     "slug": "joplin",
-     "logo": "https://raw.githubusercontent.com/AllMOSports/All_MO_Sports-Data/main/logos_main2/joplin.png",
+     "record": "4-5",
+     "ovr": 30.66,
+     "off": 14.01,
+     "def": 16.65,
+     "ovr_rank": 49,
+     "class_rank": 24,
+     "slug": "ozark",
+     "logo": "https://raw.githubusercontent.com/AllMOSports/All_MO_Sports-Data/main/logos_main2/ozark.png",
      "history": {
-      "final_fours": 2,
-      "last_final_four": 2019,
-      "final_four_drought": 7,
+      "final_fours": 3,
+      "last_final_four": 2012,
+      "final_four_drought": 14,
       "titles": 0,
       "last_title": null,
       "title_drought": null
      },
      "reach": [
       1.0,
-      0.4408,
-      0.006,
+      0.5561,
+      0.0102,
       0.0001,
       0.0,
       0.0
      ],
      "reach_display": [
       ">99%",
-      "44%",
+      "56%",
       "1%",
       "<1%",
       "0%",
@@ -12491,15 +12529,53 @@
      },
      "reach": [
       1.0,
-      0.0776,
-      0.0031,
+      0.0721,
+      0.0025,
       0.0001,
       0.0,
       0.0
      ],
      "reach_display": [
       ">99%",
-      "8%",
+      "7%",
+      "<1%",
+      "<1%",
+      "0%",
+      "0%"
+     ]
+    },
+    {
+     "team": "Liberty",
+     "district": 8,
+     "seed": 6,
+     "bye": false,
+     "record": "1-8",
+     "ovr": 31.97,
+     "off": 18.52,
+     "def": 13.46,
+     "ovr_rank": 45,
+     "class_rank": 22,
+     "slug": "liberty",
+     "logo": "https://raw.githubusercontent.com/AllMOSports/All_MO_Sports-Data/main/logos_main2/liberty.png",
+     "history": {
+      "final_fours": 2,
+      "last_final_four": 2024,
+      "final_four_drought": 2,
+      "titles": 0,
+      "last_title": null,
+      "title_drought": null
+     },
+     "reach": [
+      0.1729,
+      0.0384,
+      0.0022,
+      0.0001,
+      0.0,
+      0.0
+     ],
+     "reach_display": [
+      "17%",
+      "4%",
       "<1%",
       "<1%",
       "0%",
@@ -12529,8 +12605,8 @@
      },
      "reach": [
       1.0,
-      0.0177,
-      0.0017,
+      0.0182,
+      0.0014,
       0.0001,
       0.0,
       0.0
@@ -12538,44 +12614,6 @@
      "reach_display": [
       ">99%",
       "2%",
-      "<1%",
-      "<1%",
-      "0%",
-      "0%"
-     ]
-    },
-    {
-     "team": "Northwest (Cedar Hill)",
-     "district": 1,
-     "seed": 2,
-     "bye": true,
-     "record": "8-1",
-     "ovr": 22.51,
-     "off": 9.25,
-     "def": 13.26,
-     "ovr_rank": 66,
-     "class_rank": 27,
-     "slug": "northwest-cedar-hill",
-     "logo": "https://raw.githubusercontent.com/AllMOSports/All_MO_Sports-Data/main/logos_main2/northwest-cedar-hill.png",
-     "history": {
-      "final_fours": 0,
-      "last_final_four": null,
-      "final_four_drought": null,
-      "titles": 0,
-      "last_title": null,
-      "title_drought": null
-     },
-     "reach": [
-      1.0,
-      0.5303,
-      0.0008,
-      0.0001,
-      0.0,
-      0.0
-     ],
-     "reach_display": [
-      ">99%",
-      "53%",
       "<1%",
       "<1%",
       "0%",
@@ -12605,15 +12643,15 @@
      },
      "reach": [
       1.0,
-      0.4697,
-      0.0004,
+      0.4754,
+      0.0006,
       0.0001,
       0.0,
       0.0
      ],
      "reach_display": [
       ">99%",
-      "47%",
+      "48%",
       "<1%",
       "<1%",
       "0%",
@@ -12621,38 +12659,38 @@
      ]
     },
     {
-     "team": "Liberty",
-     "district": 8,
-     "seed": 6,
-     "bye": false,
-     "record": "1-8",
-     "ovr": 31.97,
-     "off": 18.52,
-     "def": 13.46,
-     "ovr_rank": 45,
-     "class_rank": 22,
-     "slug": "liberty",
-     "logo": "https://raw.githubusercontent.com/AllMOSports/All_MO_Sports-Data/main/logos_main2/liberty.png",
+     "team": "Joplin",
+     "district": 5,
+     "seed": 3,
+     "bye": true,
+     "record": "3-6",
+     "ovr": 28.41,
+     "off": 14.3,
+     "def": 14.1,
+     "ovr_rank": 56,
+     "class_rank": 26,
+     "slug": "joplin",
+     "logo": "https://raw.githubusercontent.com/AllMOSports/All_MO_Sports-Data/main/logos_main2/joplin.png",
      "history": {
       "final_fours": 2,
-      "last_final_four": 2024,
-      "final_four_drought": 2,
+      "last_final_four": 2019,
+      "final_four_drought": 7,
       "titles": 0,
       "last_title": null,
       "title_drought": null
      },
      "reach": [
-      0.1706,
-      0.0376,
-      0.002,
+      1.0,
+      0.4439,
+      0.007,
       0.0,
       0.0,
       0.0
      ],
      "reach_display": [
-      "17%",
-      "4%",
-      "<1%",
+      ">99%",
+      "44%",
+      "1%",
       "0%",
       "0%",
       "0%"
@@ -12680,8 +12718,8 @@
       "title_drought": null
      },
      "reach": [
-      0.5902,
-      0.0723,
+      0.5893,
+      0.0698,
       0.0016,
       0.0,
       0.0,
@@ -12718,9 +12756,9 @@
       "title_drought": null
      },
      "reach": [
-      0.6193,
+      0.6159,
       0.0149,
-      0.0016,
+      0.001,
       0.0,
       0.0,
       0.0
@@ -12756,8 +12794,8 @@
       "title_drought": null
      },
      "reach": [
-      0.4098,
-      0.0322,
+      0.4107,
+      0.0335,
       0.0006,
       0.0,
       0.0,
@@ -12766,44 +12804,6 @@
      "reach_display": [
       "41%",
       "3%",
-      "<1%",
-      "0%",
-      "0%",
-      "0%"
-     ]
-    },
-    {
-     "team": "Lindbergh",
-     "district": 1,
-     "seed": 5,
-     "bye": false,
-     "record": "4-5",
-     "ovr": 22.42,
-     "off": 4.49,
-     "def": 17.94,
-     "ovr_rank": 67,
-     "class_rank": 28,
-     "slug": "lindbergh",
-     "logo": "https://raw.githubusercontent.com/AllMOSports/All_MO_Sports-Data/main/logos_main2/lindbergh.png",
-     "history": {
-      "final_fours": 2,
-      "last_final_four": 2003,
-      "final_four_drought": 23,
-      "titles": 0,
-      "last_title": null,
-      "title_drought": null
-     },
-     "reach": [
-      0.5636,
-      0.0004,
-      0.0003,
-      0.0,
-      0.0,
-      0.0
-     ],
-     "reach_display": [
-      "56%",
-      "<1%",
       "<1%",
       "0%",
       "0%",
@@ -12832,54 +12832,16 @@
       "title_drought": null
      },
      "reach": [
-      0.3807,
-      0.004,
-      0.0003,
+      0.3841,
+      0.0053,
+      0.0004,
       0.0,
       0.0,
       0.0
      ],
      "reach_display": [
       "38%",
-      "<1%",
-      "<1%",
-      "0%",
-      "0%",
-      "0%"
-     ]
-    },
-    {
-     "team": "Central (St. Joseph)",
-     "district": 8,
-     "seed": 5,
-     "bye": false,
-     "record": "3-6",
-     "ovr": 19.7,
-     "off": 12.65,
-     "def": 7.06,
-     "ovr_rank": 77,
-     "class_rank": 33,
-     "slug": "central-st-joseph",
-     "logo": "https://raw.githubusercontent.com/AllMOSports/All_MO_Sports-Data/main/logos_main2/central-st-joseph.png",
-     "history": {
-      "final_fours": 0,
-      "last_final_four": null,
-      "final_four_drought": null,
-      "titles": 0,
-      "last_title": null,
-      "title_drought": null
-     },
-     "reach": [
-      0.1409,
-      0.0005,
-      0.0001,
-      0.0,
-      0.0,
-      0.0
-     ],
-     "reach_display": [
-      "14%",
-      "<1%",
+      "1%",
       "<1%",
       "0%",
       "0%",
@@ -12908,9 +12870,9 @@
       "title_drought": null
      },
      "reach": [
-      0.4364,
-      0.0003,
-      0.0,
+      0.4373,
+      0.0002,
+      0.0001,
       0.0,
       0.0,
       0.0
@@ -12918,7 +12880,7 @@
      "reach_display": [
       "44%",
       "<1%",
-      "0%",
+      "<1%",
       "0%",
       "0%",
       "0%"
@@ -12946,8 +12908,8 @@
       "title_drought": null
      },
      "reach": [
-      0.965,
-      0.005,
+      0.9667,
+      0.0046,
       0.0,
       0.0,
       0.0,
@@ -12955,7 +12917,7 @@
      ],
      "reach_display": [
       "97%",
-      "0%",
+      "<1%",
       "0%",
       "0%",
       "0%",
@@ -12984,7 +12946,7 @@
       "title_drought": null
      },
      "reach": [
-      0.035,
+      0.0333,
       0.0,
       0.0,
       0.0,
@@ -13022,7 +12984,7 @@
       "title_drought": null
      },
      "reach": [
-      0.6979,
+      0.6989,
       0.0001,
       0.0,
       0.0,
@@ -13060,7 +13022,7 @@
       "title_drought": 19
      },
      "reach": [
-      0.302,
+      0.301,
       0.0001,
       0.0,
       0.0,
@@ -13098,8 +13060,8 @@
       "title_drought": 22
      },
      "reach": [
-      0.0322,
-      0.0004,
+      0.0328,
+      0.0001,
       0.0,
       0.0,
       0.0,
@@ -13136,7 +13098,7 @@
       "title_drought": null
      },
      "reach": [
-      0.0699,
+      0.0669,
       0.0001,
       0.0,
       0.0,
@@ -13145,6 +13107,44 @@
      ],
      "reach_display": [
       "7%",
+      "<1%",
+      "0%",
+      "0%",
+      "0%",
+      "0%"
+     ]
+    },
+    {
+     "team": "Central (St. Joseph)",
+     "district": 8,
+     "seed": 5,
+     "bye": false,
+     "record": "3-6",
+     "ovr": 19.7,
+     "off": 12.65,
+     "def": 7.06,
+     "ovr_rank": 77,
+     "class_rank": 33,
+     "slug": "central-st-joseph",
+     "logo": "https://raw.githubusercontent.com/AllMOSports/All_MO_Sports-Data/main/logos_main2/central-st-joseph.png",
+     "history": {
+      "final_fours": 0,
+      "last_final_four": null,
+      "final_four_drought": null,
+      "titles": 0,
+      "last_title": null,
+      "title_drought": null
+     },
+     "reach": [
+      0.1364,
+      0.0008,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+     ],
+     "reach_display": [
+      "14%",
       "<1%",
       "0%",
       "0%",
@@ -13160,7 +13160,7 @@
      "away": "Lindbergh",
      "home_seed": 4,
      "away_seed": 5,
-     "home_win": 0.4364,
+     "home_win": 0.4373,
      "minutes": 12,
      "miles": 7,
      "miles_estimated": false
@@ -13171,7 +13171,7 @@
      "away": "Lafayette (Wildwood)",
      "home_seed": 4,
      "away_seed": 5,
-     "home_win": 0.5902,
+     "home_win": 0.5893,
      "minutes": 11,
      "miles": 5,
      "miles_estimated": false
@@ -13182,7 +13182,7 @@
      "away": "Francis Howell North",
      "home_seed": 4,
      "away_seed": 5,
-     "home_win": 0.965,
+     "home_win": 0.9667,
      "minutes": 19,
      "miles": 13,
      "miles_estimated": false
@@ -13193,7 +13193,7 @@
      "away": "Francis Howell Central",
      "home_seed": 4,
      "away_seed": 5,
-     "home_win": 0.6193,
+     "home_win": 0.6159,
      "minutes": 17,
      "miles": 11,
      "miles_estimated": false
@@ -13204,7 +13204,7 @@
      "away": "Waynesville",
      "home_seed": 4,
      "away_seed": 5,
-     "home_win": 0.6979,
+     "home_win": 0.6989,
      "minutes": 101,
      "miles": 88,
      "miles_estimated": false
@@ -13215,7 +13215,7 @@
      "away": "Lee's Summit",
      "home_seed": 4,
      "away_seed": 5,
-     "home_win": 0.0322,
+     "home_win": 0.0328,
      "minutes": 135,
      "miles": 121,
      "miles_estimated": false
@@ -13226,7 +13226,7 @@
      "away": "Blue Springs South",
      "home_seed": 3,
      "away_seed": 6,
-     "home_win": 0.633,
+     "home_win": 0.6405,
      "minutes": 20,
      "miles": 12,
      "miles_estimated": false
@@ -13237,7 +13237,7 @@
      "away": "Park Hill South",
      "home_seed": 4,
      "away_seed": 5,
-     "home_win": 0.9301,
+     "home_win": 0.9331,
      "minutes": 47,
      "miles": 30,
      "miles_estimated": false
@@ -13248,7 +13248,7 @@
      "away": "Central (St. Joseph)",
      "home_seed": 4,
      "away_seed": 5,
-     "home_win": 0.8591,
+     "home_win": 0.8636,
      "minutes": 55,
      "miles": 45,
      "miles_estimated": false
@@ -13259,7 +13259,7 @@
      "away": "Liberty",
      "home_seed": 3,
      "away_seed": 6,
-     "home_win": 0.8294,
+     "home_win": 0.8271,
      "minutes": 14,
      "miles": 8,
      "miles_estimated": false
