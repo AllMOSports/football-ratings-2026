@@ -77,7 +77,7 @@ SEEDS_PATH = "district_seed_projections_2026.json"
 METRICS_PATH = "schedule_metrics_2026.json"
 PER_CAPITA_PATH = "per_capita_football_2026.json"
 PLAYOFF_HUB_PATH = "playoff_hub_2026.json"
-
+ 
 # Playoff rounds: (label, date, week). Dates are each round's usual Friday --
 # edit here if MSHSAA's 2026 calendar differs. A date already in
 # football_games_2026_all.json for that game overrides this.
@@ -541,7 +541,7 @@ def headline_seed(cond):
  
 def playoff_games(hub, games):
     """Bracket games with both teams known and no real result yet.
-
+ 
     Returns dicts shaped like games-file rows plus playoff fields:
     round, round_index, seeds [seed1, seed2] (district rounds), home, class, district.
     """
@@ -551,16 +551,16 @@ def playoff_games(hub, games):
         if sds._parse_date(str(g["date"])) <= regular_end:
             continue
         real[frozenset((g["team1"], g["team2"]))] = g
-
+ 
     def winner(a, b):
         g = real.get(frozenset((a, b)))
         if not g or g["score1"] is None or g["score2"] is None or g["score1"] == g["score2"]:
             return None
         return g["team1"] if g["score1"] > g["score2"] else g["team2"]
-
+ 
     order = hub.get("district_bracket_order", [1, 8, 4, 5, 2, 7, 3, 6])
     out = []
-
+ 
     def emit(round_i, cls, dist, a, b, seed_of):
         """a, b: team names (a = better seed when seeds exist)."""
         label, date, week = PLAYOFF_ROUNDS[round_i]
@@ -575,7 +575,7 @@ def playoff_games(hub, games):
                     "district": dist if round_i <= 2 else None,
                     "seeds": [sa, sb] if (round_i <= 2 and sa is not None and sb is not None) else None,
                     "home": a if round_i <= 2 else None})
-
+ 
     for cls_key, c in hub.get("classes", {}).items():
         cls = c.get("class", int(cls_key))
         champs = {}
@@ -624,8 +624,8 @@ def playoff_games(hub, games):
             alive = nxt
             round_i += 1
     return out
-
-
+ 
+ 
 def build_tags(g, A, B, proj, h2h, stakes):
     """Auto storylines, best first. Each: {kind, label, text}."""
     tags = []
@@ -734,9 +734,11 @@ def main():
         pairs = {frozenset((g["team1"], g["team2"])) for g in bracket}
         # the bracket version carries round / seed / host info, so it replaces any
         # unscored copy of the same playoff game in the games file
+        # after the regular season, only bracket games are previewed: that drops unscored
+        # copies of bracket games (the bracket version carries round / seed / host info) and
+        # non-playoff games such as the Kirkwood-Webster Groves Thanksgiving game
         upcoming = [g for g in upcoming
-                    if not (sds._parse_date(str(g["date"])) > sds.REGULAR_SEASON_END
-                            and frozenset((g["team1"], g["team2"])) in pairs)] + bracket
+                    if sds._parse_date(str(g["date"])) <= sds.REGULAR_SEASON_END] + bracket
         print(f"Playoff games from {PLAYOFF_HUB_PATH}: {len(bracket)}")
     print(f"Upcoming games: {len(upcoming)}   (simulating {len(season.remaining)} regular-season games, "
           f"{args.sims} sims, sigma {args.sigma})")
