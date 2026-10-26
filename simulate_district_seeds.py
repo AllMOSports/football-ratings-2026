@@ -247,6 +247,11 @@ class Season:
             gi, a, b = [], [], []
             for g_i in range(len(self.all_games)):
                 t1, t2 = self.g_t1[g_i], self.g_t2[g_i]
+                # forfeits don't count for the head-to-head switch: MSHSAA seeded
+                # Farmington #4 in 2026 C5 D1 ahead of Poplar Bluff even though
+                # Poplar Bluff holds a (week-4, ineligible-player) forfeit win over it
+                if self.all_games[g_i].get("forfeit"):
+                    continue
                 if t1 in local and t2 in local:
                     gi.append(g_i); a.append(local[t1]); b.append(local[t2])
             self.h2h[key] = (np.array(gi, dtype=np.int64), np.array(a, dtype=np.int64),
@@ -314,8 +319,8 @@ def break_ties(rng, pts):
  
 def beat_matrix(margin, h2h, k):
     """beats[s, x, y] = True if, in sim s, district team x has beaten team y
-    head-to-head (more wins over y than y has over x). Forfeits count as wins,
-    since the CSV stores the forfeit winner with the higher score."""
+    head-to-head (more wins over y than y has over x). Forfeits are left out of
+    season.h2h, so they never trigger a switch (see Season.__init__)."""
     n = margin.shape[0]
     wins = np.zeros((n, k, k), dtype=np.int16)
     gi, a, b = h2h

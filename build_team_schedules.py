@@ -179,6 +179,8 @@ def main():
     team_class, team_district = load_classifications(CLASS_PATH)
     oos_class = load_out_of_state_classifications(OOS_CLASS_PATH)
     games = load_games(GAMES_PATH)
+    from build_district_points import apply_forfeit_overrides   # MSHSAA forfeits (manual_overrides.json)
+    apply_forfeit_overrides(games)
     overrides = load_manual_overrides(MANUAL_OVERRIDES_PATH)
     ot_applied, ot_unmatched = apply_overtime_overrides(games, overrides)
     print(f"Manual overtime overrides applied: {ot_applied}")

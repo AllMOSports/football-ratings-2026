@@ -86,6 +86,15 @@ CLASS_PATH = "classifications.json"
 OOS_CLASS_PATH = "out_of_state_classifications.json"
 OOS_RECORDS_PATH = "out_of_state_records.json"
 MANUAL_OVERRIDES_PATH = "manual_overrides.json"
+
+# Games MSHSAA changed to forfeits after they were played (e.g. ineligible players).
+# Listed under "forfeits" in manual_overrides.json as {"date", "winner", "loser"};
+# load_games() rewrites each one as a FORFEIT_SCORE forfeit win for "winner", so every
+# script that loads games through it (district points, seed projections, playoff odds,
+# Playoff Hub) scores it the MSHSAA way. 13-0 reproduces MSHSAA's published totals
+# (checked on Farmington's 2026 forfeits: Poplar Bluff 22.98 and St. Mary's South Side
+# 38.04 exactly; Farmington 26.04 vs 26.09, Cape Central 34.56 vs 34.63).
+FORFEIT_SCORE = (13, 0)
 OUTPUT_PATH = "district_points_2026.json"
 OUTPUT_CSV_PATH = "district_points_2026.csv"
  
@@ -208,6 +217,42 @@ def apply_overtime_overrides(games, overrides):
  
  
  
+def load_forfeit_overrides(path=None):
+    """[{"date", "winner", "loser"}, ...] from manual_overrides.json (empty if none)."""
+    try:
+        data = json.load(open(path or MANUAL_OVERRIDES_PATH))
+    except FileNotFoundError:
+        return []
+    return data.get("forfeits", [])
+
+
+def apply_forfeit_overrides(games, forfeits=None, quiet=False):
+    """Turns each listed game into a forfeit win for "winner": forfeit=True,
+    winner FORFEIT_SCORE[0], loser FORFEIT_SCORE[1]. Works on any list of game dicts
+    with date/team1/team2/score1/score2/forfeit keys (CSV or scraper JSON shape).
+    Returns (applied, unmatched entries)."""
+    if forfeits is None:
+        forfeits = load_forfeit_overrides()
+    want = {(_normalize_date(f["date"]), frozenset((f["winner"], f["loser"]))): f for f in forfeits}
+    hit = set()
+    for g in games:
+        key = (_normalize_date(str(g["date"])), frozenset((g["team1"], g["team2"])))
+        f = want.get(key)
+        if not f:
+            continue
+        w_first = g["team1"] == f["winner"]
+        g["score1"], g["score2"] = FORFEIT_SCORE if w_first else FORFEIT_SCORE[::-1]
+        g["forfeit"] = True
+        hit.add(key)
+    unmatched = [f for k, f in want.items() if k not in hit]
+    if not quiet:
+        if hit:
+            print(f"Applied {len(hit)} manual forfeit override(s) from {MANUAL_OVERRIDES_PATH}")
+        for f in unmatched:
+            print(f"WARNING: forfeit override matched no game: {f['date']} {f['winner']} over {f['loser']}")
+    return len(hit), unmatched
+
+
 def load_games(path):
     """
     Every row from the games CSV, both-classified or not -- classification
@@ -228,6 +273,7 @@ def load_games(path):
                 "forfeit": _to_bool(row["forfeit"]),
                 "overtime": _to_bool(row["overtime"]),
             })
+    apply_forfeit_overrides(games)
     return games
  
  
