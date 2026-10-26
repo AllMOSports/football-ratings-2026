@@ -13,9 +13,9 @@
 # Reads repo files plus public All_MO_Sports-Data files from GitHub raw
 # (schools.json, school_aliases.json, football_history.json, and the
 # 2010-2025 football schedule files) -- never contacts MSHSAA.
-
+ 
 name: Build Matchup Previews
-
+ 
 on:
   push:
     branches: [main]
@@ -27,9 +27,19 @@ on:
       - "schedule_metrics_2026.json"
       - "per_capita_football_2026.json"
       - "out_of_state_records.json"
+      - "playoff_hub_2026.json"
       - "build_matchup_previews_2026.py"
       - "simulate_district_seeds.py"
       - "simulate_playoff_odds.py"
+  # Commits made by GitHub's own bot don't fire "push" triggers, so also
+  # rebuild whenever the workflows that write the inputs finish.
+  workflow_run:
+    workflows:
+      - "2026 Football Ratings (No Past)"
+      - "Simulate District Seeds"
+      - "Calculate Schedule Metrics (SOS/SOV/Records)"
+      - "Build Playoff Hub"           # seeded brackets -> playoff games
+    types: [completed]
   repository_dispatch:
     types: [build-matchup-previews]
   workflow_dispatch:
@@ -42,37 +52,39 @@ on:
         description: "Margin standard deviation (points)"
         required: false
         default: "16"
-
+ 
 permissions:
   contents: write
-
+ 
 concurrency:
   group: build-matchup-previews
   cancel-in-progress: true
-
+ 
 jobs:
   build:
     runs-on: ubuntu-latest
     timeout-minutes: 15
-
+ 
     steps:
       - name: Check out repo
         uses: actions/checkout@v4
-
+        with:
+          ref: main            # workflow_run runs start on the triggering commit; build from the latest
+ 
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
           python-version: "3.12"
-
+ 
       - name: Install dependencies
         run: pip install numpy
-
+ 
       - name: Build matchup previews
         env:
           SIMS: ${{ github.event.inputs.sims || '20000' }}
           SIGMA: ${{ github.event.inputs.sigma || '16' }}
         run: python build_matchup_previews_2026.py --sims "$SIMS" --sigma "$SIGMA"
-
+ 
       - name: Commit matchup previews
         run: |
           git config user.name "github-actions[bot]"
