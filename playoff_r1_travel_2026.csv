@@ -1,109 +1,109 @@
 class,district,home_seed,home,away_seed,away,miles,miles_estimated,drive_minutes,home_win_prob
-1,1,4,Hayti,5,Malden,42,False,61,0.9903
-1,1,3,Charleston,6,Cabool,175,False,208,0.9855
-1,2,4,Veritas Christian Academy,5,Grandview (Hillsboro),61,False,83,0.6385
-1,3,4,Pierce City,5,Diamond,18,False,36,0.9647
-1,4,4,Windsor,5,Linn,106,False,153,0.9094
-1,5,4,Crest Ridge with Chilhowee,5,North Platte,93,False,112,0.059
-1,6,4,Plattsburg,5,Maysville,28,False,47,0.3288
-1,6,3,Gallatin with Tri-County,6,South Harrison,37,False,47,0.9228
-1,7,4,Harrisburg,5,Fayette,14,False,22,0.2933
-1,8,4,Marceline,5,Milan,48,False,69,0.9978
-2,1,4,Kelly,5,Central (New Madrid County),40,False,49,0.7692
-2,1,3,Saxony Lutheran,6,East Prairie,59,False,71,0.9995
-2,2,4,Duchesne,5,Hermann,72,False,110,0.015
+1,1,4,Hayti,5,Malden,42,False,61,0.9893
+1,1,3,Charleston,6,Cabool,175,False,208,0.986
+1,2,4,Veritas Christian Academy,5,Grandview (Hillsboro),61,False,83,0.6397
+1,3,4,Pierce City,5,Diamond,18,False,36,0.9619
+1,4,4,Windsor,5,Linn,106,False,153,0.9041
+1,5,4,Crest Ridge with Chilhowee,5,North Platte,93,False,112,0.0575
+1,6,4,Plattsburg,5,Maysville,28,False,47,0.3267
+1,6,3,Gallatin with Tri-County,6,South Harrison,37,False,47,0.9256
+1,7,4,Harrisburg,5,Fayette,14,False,22,0.2942
+1,8,4,Marceline,5,Milan,48,False,69,0.9973
+2,1,4,Kelly,5,Central (New Madrid County),40,False,49,0.7702
+2,1,3,Saxony Lutheran,6,East Prairie,59,False,71,0.9993
+2,2,4,Duchesne,5,Hermann,72,False,110,0.0138
 2,2,2,Jefferson (Festus),7,Confluence Prep Academy Charter,38,False,47,1.0
-2,2,3,Montgomery County,6,Miller Career Academy with Sumner,78,False,98,0.9095
-2,3,4,Liberty (Mountain View),5,Forsyth,133,False,161,0.6791
-2,3,2,Fair Grove,7,Houston,90,False,122,0.9982
-2,3,3,Ava,6,Willow Springs,54,False,70,0.871
-2,4,4,Warsaw,5,Sarcoxie,132,False,161,0.5007
-2,4,2,Clever,7,El Dorado Springs,94,False,121,0.9978
-2,4,3,East Newton,6,Stockton with Sheldon,83,False,127,0.877
-2,5,4,Cole Camp,5,South Callaway,84,False,127,0.0482
-2,5,2,Father Tolton,7,California,50,False,61,0.9013
-2,5,3,North Callaway,6,Versailles,74,False,97,0.9899
-2,6,4,Lafayette County,5,Holden,39,False,59,0.7757
-2,6,2,Hogan Prep Academy Charter,7,Lexington,53,False,69,0.9176
-2,6,3,Butler,6,Lone Jack with Kingsville,55,False,75,0.9903
-2,7,4,Monroe City,5,Clark County,72,False,91,0.825
+2,2,3,Montgomery County,6,Miller Career Academy with Sumner,78,False,98,0.9077
+2,3,4,Liberty (Mountain View),5,Forsyth,133,False,161,0.6839
+2,3,2,Fair Grove,7,Houston,90,False,122,0.998
+2,3,3,Ava,6,Willow Springs,54,False,70,0.8714
+2,4,4,Warsaw,5,Sarcoxie,132,False,161,0.501
+2,4,2,Clever,7,El Dorado Springs,94,False,121,0.9974
+2,4,3,East Newton,6,Stockton with Sheldon,83,False,127,0.8788
+2,5,4,Cole Camp,5,South Callaway,84,False,127,0.0505
+2,5,2,Father Tolton,7,California,50,False,61,0.9025
+2,5,3,North Callaway,6,Versailles,74,False,97,0.9892
+2,6,4,Lafayette County,5,Holden,39,False,59,0.7775
+2,6,2,Hogan Prep Academy Charter,7,Lexington,53,False,69,0.9179
+2,6,3,Butler,6,Lone Jack with Kingsville,55,False,75,0.9909
+2,7,4,Monroe City,5,Clark County,72,False,91,0.8263
 2,7,2,Palmyra,7,Highland,30,False,44,1.0
-2,7,3,Bowling Green,6,Mark Twain,30,False,39,0.9997
-2,8,4,Lathrop,5,Lawson,14,False,24,0.331
-2,8,3,West Platte,6,Trenton,104,False,133,0.9932
-3,1,4,Perryville,5,Fredericktown,30,False,51,0.3363
-3,1,2,Ste. Genevieve,7,Doniphan,137,False,179,0.9999
-3,1,3,Dexter,6,Scott City with Chaffee,51,False,60,0.9488
-3,2,4,Central (Park Hills),5,Potosi,18,False,28,0.6065
-3,2,3,Herculaneum,6,Lutheran South,23,False,31,0.9293
-3,3,4,John Burroughs,5,Winfield,41,False,55,0.6898
+2,7,3,Bowling Green,6,Mark Twain,30,False,39,0.9996
+2,8,4,Lathrop,5,Lawson,14,False,24,0.3262
+2,8,3,West Platte,6,Trenton,104,False,133,0.9935
+3,1,4,Perryville,5,Fredericktown,30,False,51,0.3347
+3,1,2,Ste. Genevieve,7,Doniphan,137,False,179,1.0
+3,1,3,Dexter,6,Scott City with Chaffee,51,False,60,0.9459
+3,2,4,Central (Park Hills),5,Potosi,18,False,28,0.6063
+3,2,3,Herculaneum,6,Lutheran South,23,False,31,0.9273
+3,3,4,John Burroughs,5,Winfield,41,False,55,0.6901
 3,3,2,Lutheran North,7,Lutheran St. Charles,22,False,30,1.0
-3,3,3,MICDS,6,Priory,7,False,13,0.998
-3,4,4,Wright City,5,Fulton,57,False,66,0.1725
-3,4,2,St. Francis Borgia,7,Owensville,35,False,50,0.991
-3,4,3,Hallsville,6,Eldon,72,False,86,0.9989
-3,5,4,Cuba with Steelville,5,Buffalo,109,False,130,0.0794
-3,5,2,Strafford,7,"Pleasant Hope with Halfway, Marion C. Early",23,False,36,0.9998
-3,5,3,St. James,6,Salem,30,False,52,0.5183
-3,6,4,Mt. Vernon,5,Reeds Spring,49,False,78,0.9825
+3,3,3,MICDS,6,Priory,7,False,13,0.9979
+3,4,4,Wright City,5,Fulton,57,False,66,0.1724
+3,4,2,St. Francis Borgia,7,Owensville,35,False,50,0.9919
+3,4,3,Hallsville,6,Eldon,72,False,86,0.9993
+3,5,4,Cuba with Steelville,5,Buffalo,109,False,130,0.083
+3,5,2,Strafford,7,"Pleasant Hope with Halfway, Marion C. Early",23,False,36,0.9999
+3,5,3,St. James,6,Salem,30,False,52,0.5192
+3,6,4,Mt. Vernon,5,Reeds Spring,49,False,78,0.9815
 3,6,2,Seneca,7,Hollister,101,False,159,1.0
-3,6,3,Nevada,6,Aurora,98,False,116,0.8838
-3,7,4,Center,5,Oak Grove,32,False,42,0.6097
-3,7,2,Summit Christian Academy,7,Clinton,59,False,74,0.799
-3,7,3,Boonville,6,St. Michael the Archangel,93,False,107,0.6018
-3,8,4,Macon,5,Chillicothe,61,False,75,0.7281
-3,8,3,Richmond,6,Cameron,43,False,61,0.9323
-4,1,4,North County,5,DeSoto,17,False,31,0.7091
-4,1,3,Hillsboro,6,Windsor (Imperial),17,False,26,0.999
+3,6,3,Nevada,6,Aurora,98,False,116,0.8783
+3,7,4,Center,5,Oak Grove,32,False,42,0.5937
+3,7,2,Summit Christian Academy,7,Clinton,59,False,74,0.7942
+3,7,3,Boonville,6,St. Michael the Archangel,93,False,107,0.5908
+3,8,4,Macon,5,Chillicothe,61,False,75,0.723
+3,8,3,Richmond,6,Cameron,43,False,61,0.9357
+4,1,4,North County,5,DeSoto,17,False,31,0.7108
+4,1,3,Hillsboro,6,Windsor (Imperial),17,False,26,0.9986
 4,2,4,Vianney,5,Affton,6,False,12,1.0
-4,2,2,Sullivan,7,Pacific,32,False,37,0.9852
-4,2,3,Westminster Christian Academy,6,Bayless with Hancock,18,False,29,0.9995
-4,3,4,Jennings,5,Riverview Gardens,4,False,8,0.4004
-4,3,3,Gateway with Soldan International Studies,6,Clayton with Brentwood,5,False,11,0.9968
-4,4,4,Hannibal,5,Warrenton,82,False,109,0.9369
-4,4,2,Parkway North,7,St. Charles,10,False,16,1.0
-4,4,3,Orchard Farm,6,Holt,23,False,32,0.7409
-4,5,4,Kirksville,5,Mexico,94,False,118,0.7841
+4,2,2,Sullivan,7,Pacific,32,False,37,0.9824
+4,2,3,Westminster Christian Academy,6,Bayless with Hancock,18,False,29,0.9994
+4,3,4,Jennings,5,Riverview Gardens,4,False,8,0.4006
+4,3,3,Gateway with Soldan International Studies,6,Clayton with Brentwood,5,False,11,0.9963
+4,4,4,Hannibal,5,Warrenton,82,False,109,0.9421
+4,4,2,Parkway North,7,St. Charles,10,False,16,0.9999
+4,4,3,Orchard Farm,6,Holt,23,False,32,0.7286
+4,5,4,Kirksville,5,Mexico,94,False,118,0.7853
 4,5,2,Warrensburg,7,Knob Noster with Leeton,10,False,16,1.0
-4,5,3,Osage,6,Marshall,100,False,132,0.9426
-4,6,4,Monett,5,Hillcrest,45,False,66,0.6883
-4,6,2,Carl Junction,7,Marshfield,105,False,121,0.8672
-4,6,3,Bolivar,6,McDonald County,123,False,141,0.7809
-4,7,4,Pleasant Hill,5,Harrisonville,12,False,29,0.7783
+4,5,3,Osage,6,Marshall,100,False,132,0.94
+4,6,4,Monett,5,Hillcrest,45,False,66,0.6925
+4,6,2,Carl Junction,7,Marshfield,105,False,121,0.8686
+4,6,3,Bolivar,6,McDonald County,123,False,141,0.7823
+4,7,4,Pleasant Hill,5,Harrisonville,12,False,29,0.7802
 4,7,2,Odessa,7,East (Kansas City),34,False,43,1.0
-4,7,3,Raytown South,6,University Academy Charter with Ewing Marion Kauffman,8,False,16,0.9073
-4,8,4,Benton,5,Van Horn,60,False,70,0.6882
+4,7,3,Raytown South,6,University Academy Charter with Ewing Marion Kauffman,8,False,16,0.9129
+4,8,4,Benton,5,Van Horn,60,False,70,0.6897
 4,8,2,Savannah,7,Excelsior Springs,75,False,89,1.0
 4,8,3,Smithville,6,Northeast (Kansas City),23,False,33,1.0
-5,1,4,Central (Cape Girardeau),5,Poplar Bluff,81,False,94,0.7256
-5,1,3,St. Mary's South Side,6,Mehlville,7,False,12,1.0
+5,1,4,Farmington,5,Poplar Bluff,80,False,94,0.9979
+5,1,3,Central (Cape Girardeau),6,Mehlville,105,False,116,0.9984
 5,2,4,Parkway South,5,Webster Groves,12,False,19,0.958
-5,2,2,Rockwood Summit,7,Parkway Central,13,False,23,0.9999
-5,2,3,Parkway West,6,Washington,33,False,51,0.7882
+5,2,2,Rockwood Summit,7,Parkway Central,13,False,23,0.9998
+5,2,3,Parkway West,6,Washington,33,False,51,0.7844
 5,3,4,Cardinal Ritter,5,McCluer,12,False,22,1.0
-5,3,2,Chaminade College Prep,7,Hazelwood Central,16,False,29,0.9998
-5,3,3,McCluer North,6,Hazelwood East,8,False,17,0.3603
-5,4,4,Ft. Zumwalt East,5,Ft. Zumwalt South,5,False,10,0.5335
-5,4,3,St. Dominic,6,North Point,11,False,17,0.9624
-5,5,4,Glendale,5,Rolla,110,False,125,0.7247
-5,5,2,Camdenton,7,Lebanon,25,False,36,0.7684
-5,5,3,West Plains,6,Jefferson City,158,False,205,0.7489
-5,6,4,Carthage,5,Webb City,11,False,18,0.7235
+5,3,2,Chaminade College Prep,7,Hazelwood Central,16,False,29,0.9999
+5,3,3,McCluer North,6,Hazelwood East,8,False,17,0.3656
+5,4,4,Ft. Zumwalt East,5,Ft. Zumwalt South,5,False,10,0.5389
+5,4,3,St. Dominic,6,North Point,11,False,17,0.9599
+5,5,4,Glendale,5,Rolla,110,False,125,0.7235
+5,5,2,Camdenton,7,Lebanon,25,False,36,0.7644
+5,5,3,West Plains,6,Jefferson City,158,False,205,0.7518
+5,6,4,Carthage,5,Webb City,11,False,18,0.7249
 5,6,2,Neosho,7,Parkview,79,False,97,1.0
-5,6,3,Branson,6,Willard,52,False,66,0.9949
-5,7,4,Belton,5,Capital City,142,False,179,0.3369
-5,7,2,Smith-Cotton,7,Battle,74,False,89,0.9978
-5,7,3,Grandview,6,Ruskin,4,False,9,0.7488
-5,8,4,Winnetonka,5,Lincoln College Prep,10,False,14,0.8925
+5,6,3,Branson,6,Willard,52,False,66,0.9946
+5,7,4,Belton,5,Capital City,142,False,179,0.3356
+5,7,2,Smith-Cotton,7,Battle,74,False,89,0.9976
+5,7,3,Grandview,6,Ruskin,4,False,9,0.7559
+5,8,4,Winnetonka,5,Lincoln College Prep,10,False,14,0.8932
 5,8,2,Fort Osage,7,Truman,13,False,20,1.0
-5,8,3,Raytown,6,William Chrisman,8,False,16,0.796
-6,1,4,Oakville,5,Lindbergh,7,False,12,0.4373
-6,2,4,Marquette,5,Lafayette (Wildwood),5,False,11,0.5893
-6,3,4,Hazelwood West,5,Francis Howell North,13,False,19,0.9667
-6,4,4,Liberty (Wentzville),5,Francis Howell Central,11,False,17,0.6159
-6,5,4,Kickapoo,5,Waynesville,88,False,101,0.6989
-6,6,4,Hickman,5,Lee's Summit,121,False,135,0.0328
-6,6,3,Lee's Summit North,6,Blue Springs South,12,False,20,0.6405
-6,7,4,Lee's Summit West,5,Park Hill South,30,False,47,0.9331
-6,8,4,Staley,5,Central (St. Joseph),45,False,55,0.8636
-6,8,3,Oak Park,6,Liberty,8,False,14,0.8271
+5,8,3,Raytown,6,William Chrisman,8,False,16,0.7933
+6,1,4,Oakville,5,Lindbergh,7,False,12,0.4404
+6,2,4,Marquette,5,Lafayette (Wildwood),5,False,11,0.5878
+6,3,4,Hazelwood West,5,Francis Howell North,13,False,19,0.9661
+6,4,4,Liberty (Wentzville),5,Francis Howell Central,11,False,17,0.6179
+6,5,4,Kickapoo,5,Waynesville,88,False,101,0.7012
+6,6,4,Hickman,5,Lee's Summit,121,False,135,0.0325
+6,6,3,Lee's Summit North,6,Blue Springs South,12,False,20,0.6344
+6,7,4,Lee's Summit West,5,Park Hill South,30,False,47,0.9292
+6,8,4,Staley,5,Central (St. Joseph),45,False,55,0.8586
+6,8,3,Oak Park,6,Liberty,8,False,14,0.8247
