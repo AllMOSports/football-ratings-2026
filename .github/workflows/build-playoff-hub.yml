@@ -10,11 +10,13 @@
 #     (event_type: build-playoff-hub), same pattern as the other workflows
 #   - workflow_dispatch: manual run from the Actions tab
 #
-# Reads only files in this repo plus schools.json / school_aliases.json from
-# All_MO_Sports-Data (for slugs + logos) -- never contacts MSHSAA.
-
+# Reads files in this repo plus schools.json, school_aliases.json and
+# state_tournament_history.json from All_MO_Sports-Data, and asks OSRM for
+# road miles of any new first-round pairing (cached in drive_distances_2026.json).
+# Never contacts MSHSAA.
+ 
 name: Build Playoff Hub
-
+ 
 on:
   push:
     branches: [main]
@@ -31,6 +33,7 @@ on:
       - "simulate_playoff_odds.py"
       - "simulate_district_seeds.py"
       - "build_district_points.py"
+      - "drive_times/**"
   repository_dispatch:
     types: [build-playoff-hub]
   workflow_dispatch:
@@ -39,41 +42,42 @@ on:
         description: "Number of simulations"
         required: false
         default: "20000"
-
+ 
 permissions:
   contents: write
-
+ 
 concurrency:
   group: build-playoff-hub
   cancel-in-progress: true
-
+ 
 jobs:
   build:
     runs-on: ubuntu-latest
     timeout-minutes: 10
-
+ 
     steps:
       - name: Check out repo
         uses: actions/checkout@v4
-
+ 
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
           python-version: "3.12"
-
+ 
       - name: Install dependencies
         run: pip install numpy
-
+ 
       - name: Build playoff hub data
         env:
           SIMS: ${{ github.event.inputs.sims || '20000' }}
         run: python build_playoff_hub_2026.py --sims "$SIMS"
-
+ 
       - name: Commit playoff hub data
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add playoff_hub_2026.json
+          git add playoff_hub_2026.json playoff_r1_travel_2026.csv playoff_droughts_2026.csv
+          [ -f drive_distances_2026.json ] && git add drive_distances_2026.json
           if git diff --cached --quiet; then
             echo "No changes to playoff hub data."
             exit 0
