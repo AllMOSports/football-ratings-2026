@@ -1,7 +1,14 @@
 """
-Matchup Previews - nightly data builder (v2)
+Matchup Previews - nightly data builder (v3)
 ============================================
 v2: projected score + win probability now use the Matchup Predictor v8 calculation.
+v3: PLAYOFF GAMES come from playoff_hub_2026.json (build_playoff_hub_2026.py):
+    the seeded district brackets for all six classes. Every bracket game whose
+    two teams are known and that has no real result yet is added - round 1
+    from the seeds, later rounds as winners appear in football_games_2026_all.json
+    (byes advance automatically). The higher seed is listed first and hosts
+    district games. Dates come from PLAYOFF_ROUNDS below unless the games file
+    already has that game scheduled, in which case its date wins.
  
  
 Writes matchup_previews_2026.json: everything the Matchup Preview snippet needs
@@ -69,6 +76,19 @@ GAMES_PATH = "football_games_2026_all.json"
 SEEDS_PATH = "district_seed_projections_2026.json"
 METRICS_PATH = "schedule_metrics_2026.json"
 PER_CAPITA_PATH = "per_capita_football_2026.json"
+PLAYOFF_HUB_PATH = "playoff_hub_2026.json"
+
+# Playoff rounds: (label, date, week). Dates are each round's usual Friday --
+# edit here if MSHSAA's 2026 calendar differs. A date already in
+# football_games_2026_all.json for that game overrides this.
+PLAYOFF_ROUNDS = [
+    ("District first round", "2026-10-30", 10),
+    ("District semifinal",   "2026-11-06", 11),
+    ("District final",       "2026-11-13", 12),
+    ("State quarterfinal",   "2026-11-20", 13),
+    ("State semifinal",      "2026-11-27", 14),
+    ("State championship",   "2026-12-05", 15),
+]
  
 DATA_RAW = "https://raw.githubusercontent.com/AllMOSports/All_MO_Sports-Data/main/"
 LOGO_URL = DATA_RAW + "logos_main2/{slug}.png"
@@ -519,6 +539,93 @@ def headline_seed(cond):
     return i + 1
  
  
+def playoff_games(hub, games):
+    """Bracket games with both teams known and no real result yet.
+
+    Returns dicts shaped like games-file rows plus playoff fields:
+    round, round_index, seeds [seed1, seed2] (district rounds), home, class, district.
+    """
+    regular_end = sds.REGULAR_SEASON_END
+    real = {}            # frozenset(pair) -> games-file row, playoff period only
+    for g in games:
+        if sds._parse_date(str(g["date"])) <= regular_end:
+            continue
+        real[frozenset((g["team1"], g["team2"]))] = g
+
+    def winner(a, b):
+        g = real.get(frozenset((a, b)))
+        if not g or g["score1"] is None or g["score2"] is None or g["score1"] == g["score2"]:
+            return None
+        return g["team1"] if g["score1"] > g["score2"] else g["team2"]
+
+    order = hub.get("district_bracket_order", [1, 8, 4, 5, 2, 7, 3, 6])
+    out = []
+
+    def emit(round_i, cls, dist, a, b, seed_of):
+        """a, b: team names (a = better seed when seeds exist)."""
+        label, date, week = PLAYOFF_ROUNDS[round_i]
+        sa, sb = seed_of.get(a), seed_of.get(b)
+        if sa is not None and sb is not None and sb < sa:
+            a, b, sa, sb = b, a, sb, sa
+        sched = real.get(frozenset((a, b)))
+        if sched:
+            date = sds.bdp._normalize_date(str(sched["date"]))
+        out.append({"date": date, "week": week, "team1": a, "team2": b, "score1": None, "score2": None,
+                    "round": label, "round_index": round_i, "class": cls,
+                    "district": dist if round_i <= 2 else None,
+                    "seeds": [sa, sb] if (round_i <= 2 and sa is not None and sb is not None) else None,
+                    "home": a if round_i <= 2 else None})
+
+    for cls_key, c in hub.get("classes", {}).items():
+        cls = c.get("class", int(cls_key))
+        champs = {}
+        for dist_key, d in c.get("districts", {}).items():
+            dist = int(dist_key)
+            seeds = d.get("seeds", [])
+            seed_of = {t: i + 1 for i, t in enumerate(seeds)}
+            # slots in bracket order; None = bye (seed not in this district)
+            alive = [seeds[s - 1] if s <= len(seeds) else None for s in order]
+            round_i = 0
+            while len(alive) > 1:
+                nxt = []
+                for j in range(0, len(alive), 2):
+                    a, b = alive[j], alive[j + 1]
+                    if a is None or b is None:            # bye (or the other side is still undecided)
+                        nxt.append(a if b is None else b if a is None else None)
+                        continue
+                    if a == "?" or b == "?":
+                        nxt.append("?")
+                        continue
+                    w = winner(a, b)
+                    if w is None:
+                        emit(round_i, cls, dist, a, b, seed_of)
+                        nxt.append("?")
+                    else:
+                        nxt.append(w)
+                alive = [x for x in nxt]
+                round_i += 1
+            champs[dist] = alive[0] if alive and alive[0] not in (None, "?") else None
+        # state bracket: district champions in state_bracket_order, adjacent pairs
+        alive = [champs.get(dn) or "?" for dn in c.get("state_bracket_order", sorted(champs))]
+        round_i = 3
+        while len(alive) > 1 and round_i < len(PLAYOFF_ROUNDS):
+            nxt = []
+            for j in range(0, len(alive), 2):
+                a, b = alive[j], alive[j + 1]
+                if a == "?" or b == "?":
+                    nxt.append("?")
+                    continue
+                w = winner(a, b)
+                if w is None:
+                    emit(round_i, cls, None, a, b, {})
+                    nxt.append("?")
+                else:
+                    nxt.append(w)
+            alive = nxt
+            round_i += 1
+    return out
+
+
 def build_tags(g, A, B, proj, h2h, stakes):
     """Auto storylines, best first. Each: {kind, label, text}."""
     tags = []
@@ -622,9 +729,19 @@ def main():
     strength = {season.names[i]: float(s) for i, s in enumerate(season.strength)}
  
     upcoming = [g for g in games if g["score1"] is None or g["score2"] is None]
+    if os.path.exists(PLAYOFF_HUB_PATH):
+        bracket = playoff_games(load_json(PLAYOFF_HUB_PATH), games)
+        pairs = {frozenset((g["team1"], g["team2"])) for g in bracket}
+        # the bracket version carries round / seed / host info, so it replaces any
+        # unscored copy of the same playoff game in the games file
+        upcoming = [g for g in upcoming
+                    if not (sds._parse_date(str(g["date"])) > sds.REGULAR_SEASON_END
+                            and frozenset((g["team1"], g["team2"])) in pairs)] + bracket
+        print(f"Playoff games from {PLAYOFF_HUB_PATH}: {len(bracket)}")
     print(f"Upcoming games: {len(upcoming)}   (simulating {len(season.remaining)} regular-season games, "
           f"{args.sims} sims, sigma {args.sigma})")
-    cond = conditional_odds(season, args.sims, args.sigma, args.seed)
+    # stakes only exist for remaining regular-season games; skip the sims once those are done
+    cond = conditional_odds(season, args.sims, args.sigma, args.seed) if season.remaining else {}
     rem_index = {}
     for i, g in enumerate(season.remaining):
         rem_index[(sds.bdp._normalize_date(g["date"]), g["team1"], g["team2"])] = i
@@ -660,6 +777,7 @@ def main():
  
         district_game = bool(A.get("class") and A.get("class") == B.get("class")
                              and A.get("district") == B.get("district"))
+        playoff = g.get("round") is not None
  
         stakes = None
         ri = rem_index.get((date, a, b))
@@ -677,9 +795,13 @@ def main():
             "id": f"{date}-{slug_a}-vs-{slug_b}",
             "date": date, "week": g.get("week"),
             "teams": [a, b],
-            "class": A.get("class") if district_game else None,
-            "district": A.get("district") if district_game else None,
+            "class": g.get("class") if playoff else (A.get("class") if district_game else None),
+            "district": g.get("district") if playoff else (A.get("district") if district_game else None),
             "district_game": district_game,
+            "postseason": playoff,
+            "round": g.get("round"),
+            "seeds": g.get("seeds"),
+            "home": g.get("home"),
             "projection": proj,
             "stakes": stakes,
             "common": common_block(a, b, results),
