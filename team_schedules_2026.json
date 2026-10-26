@@ -17591,11 +17591,11 @@
         "opponent_type": "in_state",
         "opponent_class": 5,
         "played": true,
-        "my_score": 3,
-        "opp_score": 48,
-        "won": false,
+        "my_score": 13,
+        "opp_score": 0,
+        "won": true,
         "overtime": false,
-        "forfeit": false
+        "forfeit": true
       },
       {
         "date": "9/4/2026",
@@ -18299,11 +18299,11 @@
         "opponent_type": "in_state",
         "opponent_class": 5,
         "played": true,
-        "my_score": 0,
-        "opp_score": 55,
-        "won": false,
+        "my_score": 13,
+        "opp_score": 0,
+        "won": true,
         "overtime": false,
-        "forfeit": false
+        "forfeit": true
       },
       {
         "date": "9/11/2026",
@@ -23507,11 +23507,11 @@
         "opponent_type": "in_state",
         "opponent_class": 5,
         "played": true,
-        "my_score": 2,
-        "opp_score": 42,
-        "won": false,
+        "my_score": 13,
+        "opp_score": 0,
+        "won": true,
         "overtime": false,
-        "forfeit": false
+        "forfeit": true
       },
       {
         "date": "9/18/2026",
@@ -23599,11 +23599,11 @@
         "opponent_type": "in_state",
         "opponent_class": 4,
         "played": true,
-        "my_score": 48,
-        "opp_score": 3,
-        "won": true,
+        "my_score": 0,
+        "opp_score": 13,
+        "won": false,
         "overtime": false,
-        "forfeit": false
+        "forfeit": true
       },
       {
         "date": "9/4/2026",
@@ -23611,11 +23611,11 @@
         "opponent_type": "in_state",
         "opponent_class": 4,
         "played": true,
-        "my_score": 55,
-        "opp_score": 0,
-        "won": true,
+        "my_score": 0,
+        "opp_score": 13,
+        "won": false,
         "overtime": false,
-        "forfeit": false
+        "forfeit": true
       },
       {
         "date": "9/11/2026",
@@ -23623,11 +23623,11 @@
         "opponent_type": "in_state",
         "opponent_class": 5,
         "played": true,
-        "my_score": 42,
-        "opp_score": 2,
-        "won": true,
+        "my_score": 0,
+        "opp_score": 13,
+        "won": false,
         "overtime": false,
-        "forfeit": false
+        "forfeit": true
       },
       {
         "date": "9/18/2026",
@@ -23635,11 +23635,11 @@
         "opponent_type": "in_state",
         "opponent_class": 5,
         "played": true,
-        "my_score": 48,
-        "opp_score": 0,
-        "won": true,
+        "my_score": 0,
+        "opp_score": 13,
+        "won": false,
         "overtime": false,
-        "forfeit": false
+        "forfeit": true
       },
       {
         "date": "9/25/2026",
@@ -23983,11 +23983,11 @@
         "opponent_type": "in_state",
         "opponent_class": 5,
         "played": true,
-        "my_score": 0,
-        "opp_score": 48,
-        "won": false,
+        "my_score": 13,
+        "opp_score": 0,
+        "won": true,
         "overtime": false,
-        "forfeit": false
+        "forfeit": true
       },
       {
         "date": "9/25/2026",
