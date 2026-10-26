@@ -37,6 +37,23 @@ ODDS
     [5] State champion
   Every probability also gets a display string (never "100%", ">99%" instead).
 
+DROUGHTS (v2)
+  From output/state_tournament_history.json (All_MO_Sports-Data, MSHSAA's
+  state series back to 1968): each team's Final Four appearances and state
+  titles, the last year of each, and the drought length. A co-op uses its
+  base school's history ("Tipton with Bunceton" -> Tipton); a team with no
+  football entry has never reached a Final Four. HISTORY_ALIASES covers
+  renamed schools.
+
+FIRST-ROUND TRAVEL (v2)
+  Every district first-round game, with the higher seed hosting. Drive time
+  comes from the drive_times/class_N.json cache (OSRM, same as the bracket
+  optimizer). Road miles come from OSRM's route service and are cached in
+  drive_distances_2026.json, so each pair is only requested once; if OSRM
+  can't be reached, miles fall back to straight-line distance x 1.2 and the
+  game is flagged "miles_estimated". Also writes playoff_r1_travel_2026.csv
+  and playoff_droughts_2026.csv for graphics.
+
 Usage:
     python3 build_playoff_hub_2026.py
     python3 build_playoff_hub_2026.py --sims 20000 --sigma 16 --seed 7
@@ -46,9 +63,12 @@ and build_matchup_previews_2026.py (slug lookup) in the same folder.
 """
 import argparse
 import datetime
+import csv
 import json
 import math
 import os
+import time
+import urllib.request
 from collections import defaultdict
 
 import numpy as np
@@ -65,6 +85,14 @@ RATINGS_PATH = "football_ratings_2026.json"
 DEFAULT_SIMS = 20000
 DEFAULT_SIGMA = spo.DEFAULT_SIGMA
 SEED_SIMS = 4000                       # only used if regular-season games are missing
+DISTANCE_CACHE_PATH = "drive_distances_2026.json"
+TRAVEL_CSV_PATH = "playoff_r1_travel_2026.csv"
+DROUGHT_CSV_PATH = "playoff_droughts_2026.csv"
+OSRM_URL = os.environ.get("OSRM_URL", "https://router.project-osrm.org").rstrip("/")
+ROAD_FACTOR = 1.2                      # straight line -> road miles, fallback only
+METERS_PER_MILE = 1609.344
+SEASON = 2026
+HISTORY_ALIASES = {"De Smet Jesuit": "DeSmet", "Father Tolton": "Father Tolton Regional Catholic"}
 STAGES = ["District semifinal", "District final", "District champion",
           "Final Four", "State final", "State champion"]
 
@@ -175,6 +203,103 @@ def playoff_results(season, json_games):
     return locked, shown
 
 
+# --------------------------------------------------------------------------
+# Droughts
+
+def team_history(name, sth):
+    """Final Four / state title history for a 2026 team name."""
+    cands = [HISTORY_ALIASES.get(name, name), name.split(" with ")[0]]
+    rec = None
+    for c in cands:
+        if "football" in sth.get(c, {}):
+            rec = sth[c]["football"]
+            break
+    def years(key):
+        if not rec:
+            return []
+        return sorted({int(str(y["year"])[:4]) for y in rec.get(key, {}).get("years", [])})
+    ff, titles = years("final_four_appearances"), years("state_championships")
+    return {
+        "final_fours": len(ff), "last_final_four": ff[-1] if ff else None,
+        "final_four_drought": (SEASON - ff[-1]) if ff else None,
+        "titles": len(titles), "last_title": titles[-1] if titles else None,
+        "title_drought": (SEASON - titles[-1]) if titles else None,
+    }
+
+
+# --------------------------------------------------------------------------
+# First-round travel
+
+def haversine_miles(a, b):
+    la1, lo1, la2, lo2 = map(math.radians, (a[0], a[1], b[0], b[1]))
+    h = math.sin((la2 - la1) / 2) ** 2 + math.cos(la1) * math.cos(la2) * math.sin((lo2 - lo1) / 2) ** 2
+    return 3958.8 * 2 * math.asin(math.sqrt(h))
+
+
+def osrm_route_meters(a, b):
+    url = f"{OSRM_URL}/route/v1/driving/{a[1]:.5f},{a[0]:.5f};{b[1]:.5f},{b[0]:.5f}?overview=false"
+    for attempt in range(3):
+        try:
+            req = urllib.request.Request(url, headers={"User-Agent": "AllMOSports-PlayoffHub/2.0"})
+            with urllib.request.urlopen(req, timeout=30) as r:
+                js = json.loads(r.read().decode("utf-8"))
+            if js.get("code") == "Ok":
+                return js["routes"][0]["distance"]
+        except Exception:
+            time.sleep(3 * (attempt + 1))
+    return None
+
+
+class Travel:
+    """Drive time from the optimizer's cache, road miles from OSRM (cached)."""
+
+    def __init__(self):
+        self.sec, self.coords = {}, {}
+        for cls in range(1, 7):
+            path = f"drive_times/class_{cls}.json"
+            if not os.path.exists(path):
+                continue
+            doc = json.load(open(path))
+            self.sec.update(doc["seconds"])
+            for name, lat, lon in doc["key"]:
+                self.coords[name] = (lat, lon)
+        self.cache = json.load(open(DISTANCE_CACHE_PATH)) if os.path.exists(DISTANCE_CACHE_PATH) else {}
+        self.osrm_ok = True
+        self.fetched = 0
+
+    def game(self, home, away):
+        out = {"minutes": None, "miles": None, "miles_estimated": False}
+        s = self.sec.get(f"{away}|{home}") or self.sec.get(f"{home}|{away}")
+        if s is not None:
+            out["minutes"] = round(s / 60)
+        a, b = self.coords.get(away), self.coords.get(home)
+        if not a or not b:
+            return out
+        key = f"{away}|{home}|{a[0]:.5f},{a[1]:.5f}|{b[0]:.5f},{b[1]:.5f}"
+        m = self.cache.get(key)
+        if m is None and self.osrm_ok:
+            m = osrm_route_meters(a, b)
+            if m is None:
+                self.osrm_ok = False           # don't wait on every game if OSRM is down
+                print("NOTE: OSRM unreachable; using estimated miles for uncached games.")
+            else:
+                self.cache[key] = m
+                self.fetched += 1
+                time.sleep(1)
+        if m is not None:
+            out["miles"] = round(m / METERS_PER_MILE)
+        else:
+            out["miles"] = round(haversine_miles(a, b) * ROAD_FACTOR)
+            out["miles_estimated"] = True
+        return out
+
+    def save(self):
+        if self.fetched:
+            with open(DISTANCE_CACHE_PATH, "w") as f:
+                json.dump(self.cache, f, indent=0, sort_keys=True)
+            print(f"Fetched {self.fetched} new road distances from OSRM")
+
+
 def fmt(p):
     if p <= 0:
         return "0%"
@@ -261,6 +386,13 @@ def main():
         print(f"NOTE: slug lookup unavailable ({e}); writing no slugs/logos.")
         resolver = lambda name: None
 
+    try:
+        sth = load_data_file("output/state_tournament_history.json")["teams"]
+    except Exception as e:
+        print(f"NOTE: state tournament history unavailable ({e}); no drought data.")
+        sth = None
+    travel = Travel()
+
     out = {
         "generated": datetime.datetime.now().isoformat(timespec="seconds"),
         "season": 2026,
@@ -297,17 +429,53 @@ def main():
                     "ovr_rank": r.get("ovr_rank"),
                     "class_rank": cr[0] if cr else None,
                     "slug": slug, "logo": LOGO_URL.format(slug=slug) if slug else None,
+                    "history": team_history(name, sth) if sth is not None else None,
                     "reach": [round(x, 4) for x in pr],
                     "reach_display": [fmt(x) for x in pr],
                 })
             districts[str(dist)] = {"seeds": names, "seed_status": status}
         teams.sort(key=lambda t: (-t["reach"][5], -t["reach"][4], -t["reach"][3], -t["reach"][2]))
+        # first-round travel: higher seed hosts
+        by_team = {t["team"]: t for t in teams}
+        r1 = []
+        for dist in sorted(by_class[cls]):
+            names = districts[str(dist)]["seeds"]
+            for hi, lo in ((1, 8), (4, 5), (2, 7), (3, 6)):
+                if lo > len(names):
+                    continue
+                home, away = names[hi - 1], names[lo - 1]
+                g = {"district": dist, "home": home, "away": away, "home_seed": hi, "away_seed": lo,
+                     "home_win": by_team[home]["reach"][0]}
+                g.update(travel.game(home, away))
+                r1.append(g)
         out["classes"][str(cls)] = {"class": cls, "state_bracket_order": order_d,
-                                    "districts": districts, "teams": teams}
+                                    "districts": districts, "teams": teams, "r1_travel": r1}
 
+    travel.save()
     with open(OUTPUT_PATH, "w") as f:
         json.dump(out, f, indent=1)
     print(f"Wrote {OUTPUT_PATH}")
+
+    with open(TRAVEL_CSV_PATH, "w", newline="") as f:
+        w = csv.writer(f)
+        w.writerow(["class", "district", "home_seed", "home", "away_seed", "away", "miles",
+                    "miles_estimated", "drive_minutes", "home_win_prob"])
+        for cls, c in out["classes"].items():
+            for g in c["r1_travel"]:
+                w.writerow([cls, g["district"], g["home_seed"], g["home"], g["away_seed"], g["away"],
+                            g["miles"], g["miles_estimated"], g["minutes"], g["home_win"]])
+    with open(DROUGHT_CSV_PATH, "w", newline="") as f:
+        w = csv.writer(f)
+        w.writerow(["class", "district", "seed", "team", "record", "final_fours", "last_final_four",
+                    "final_four_drought", "final_four_odds", "titles", "last_title", "title_drought",
+                    "title_odds"])
+        for cls, c in out["classes"].items():
+            for t in c["teams"]:
+                h = t["history"] or {}
+                w.writerow([cls, t["district"], t["seed"], t["team"], t["record"], h.get("final_fours"),
+                            h.get("last_final_four"), h.get("final_four_drought"), t["reach"][3],
+                            h.get("titles"), h.get("last_title"), h.get("title_drought"), t["reach"][5]])
+    print(f"Wrote {TRAVEL_CSV_PATH} and {DROUGHT_CSV_PATH}")
     for cls, c in out["classes"].items():
         ts = c["teams"]
         st = defaultdict(int)
