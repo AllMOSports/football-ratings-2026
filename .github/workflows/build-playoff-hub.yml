@@ -34,6 +34,7 @@ on:
       - "simulate_district_seeds.py"
       - "build_district_points.py"
       - "drive_times/**"
+      - "calibration.csv"
   repository_dispatch:
     types: [build-playoff-hub]
   workflow_dispatch:
