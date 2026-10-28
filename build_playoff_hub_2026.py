@@ -48,7 +48,12 @@ DROUGHTS (v2)
 FIRST-ROUND TRAVEL (v2)
   Every district first-round game, with the higher seed hosting. Drive time
   comes from the drive_times/class_N.json cache (OSRM, same as the bracket
-  optimizer). Road miles come from OSRM's route service and are cached in
+  optimizer), scaled by a real-world correction: OSRM's car speeds run slow
+  on rural Missouri highways, so calibration.csv (team_a,team_b,minutes from
+  Google Maps checks, the same file the optimizer's --factor auto uses) gives
+  the median Google/OSRM ratio, and every OSRM time is multiplied by it. A
+  pair that's in calibration.csv uses its checked minutes directly. With no
+  calibration file the factor is 1.0. Road miles come from OSRM's route service and are cached in
   drive_distances_2026.json, so each pair is only requested once; if OSRM
   can't be reached, miles fall back to straight-line distance x 1.2 and the
   game is flagged "miles_estimated". Also writes playoff_r1_travel_2026.csv
@@ -67,6 +72,7 @@ import csv
 import json
 import math
 import os
+import statistics
 import time
 import urllib.request
 from collections import defaultdict
@@ -87,6 +93,7 @@ DEFAULT_SIGMA = spo.DEFAULT_SIGMA
 SEED_SIMS = 4000                       # only used if regular-season games are missing
 DISTANCE_CACHE_PATH = "drive_distances_2026.json"
 TRAVEL_CSV_PATH = "playoff_r1_travel_2026.csv"
+CALIBRATION_PATH = "calibration.csv"   # Google Maps checks: team_a,team_b,minutes
 DROUGHT_CSV_PATH = "playoff_droughts_2026.csv"
 OSRM_URL = os.environ.get("OSRM_URL", "https://router.project-osrm.org").rstrip("/")
 ROAD_FACTOR = 1.2                      # straight line -> road miles, fallback only
@@ -263,15 +270,47 @@ class Travel:
             self.sec.update(doc["seconds"])
             for name, lat, lon in doc["key"]:
                 self.coords[name] = (lat, lon)
+        self.checked, self.factor = {}, 1.0
+        self.load_calibration()
         self.cache = json.load(open(DISTANCE_CACHE_PATH)) if os.path.exists(DISTANCE_CACHE_PATH) else {}
         self.osrm_ok = True
         self.fetched = 0
 
+    def osrm_minutes(self, a, b):
+        """Raw OSRM minutes, longer direction (same basis as the optimizer)."""
+        v = [s for s in (self.sec.get(f"{a}|{b}"), self.sec.get(f"{b}|{a}")) if s is not None]
+        return max(v) / 60 if v else None
+
+    def load_calibration(self):
+        """Median Google/OSRM ratio from calibration.csv, as the optimizer's calibrate()."""
+        if not os.path.exists(CALIBRATION_PATH):
+            print(f"NOTE: {CALIBRATION_PATH} not found; drive times are raw OSRM.")
+            return
+        ratios = []
+        with open(CALIBRATION_PATH, newline="") as f:
+            for r in csv.DictReader(f):
+                if not (r.get("minutes") or "").strip():
+                    continue
+                a, b, m = r["team_a"].strip(), r["team_b"].strip(), float(r["minutes"])
+                self.checked[frozenset((a, b))] = m
+                o = self.osrm_minutes(a, b)
+                if o:
+                    ratios.append(m / o)
+                else:
+                    print(f"  calibration: {a} / {b} not in the drive-time cache, skipped")
+        if ratios:
+            self.factor = round(statistics.median(ratios), 3)
+            print(f"Drive-time factor {self.factor} (median of {len(ratios)} Google checks, "
+                  f"range {min(ratios):.2f}-{max(ratios):.2f})")
+
     def game(self, home, away):
         out = {"minutes": None, "miles": None, "miles_estimated": False}
-        s = self.sec.get(f"{away}|{home}") or self.sec.get(f"{home}|{away}")
-        if s is not None:
-            out["minutes"] = round(s / 60)
+        checked = self.checked.get(frozenset((home, away)))
+        o = self.osrm_minutes(away, home)
+        if checked is not None:
+            out["minutes"] = round(checked)
+        elif o is not None:
+            out["minutes"] = round(o * self.factor)
         a, b = self.coords.get(away), self.coords.get(home)
         if not a or not b:
             return out
@@ -399,6 +438,7 @@ def main():
         "ratings_last_updated": ratings_doc.get("last_updated"),
         "simulations": args.sims,
         "sigma": args.sigma,
+        "drive_time_factor": travel.factor,
         "stages": STAGES,
         "district_bracket_order": spo.DISTRICT_BRACKET_ORDER,
         "results": shown,
