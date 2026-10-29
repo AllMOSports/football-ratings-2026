@@ -64,6 +64,7 @@ import math
 import os
 import urllib.request
 from collections import defaultdict
+from zoneinfo import ZoneInfo
  
 import numpy as np
  
@@ -77,7 +78,7 @@ SEEDS_PATH = "district_seed_projections_2026.json"
 METRICS_PATH = "schedule_metrics_2026.json"
 PER_CAPITA_PATH = "per_capita_football_2026.json"
 PLAYOFF_HUB_PATH = "playoff_hub_2026.json"
-
+ 
 # Playoff rounds: (label, date, week). Dates are each round's usual Friday --
 # edit here if MSHSAA's 2026 calendar differs. A date already in
 # football_games_2026_all.json for that game overrides this.
@@ -196,6 +197,20 @@ def predictor_projection(off_a, def_a, off_b, def_b):
         else:
             score_a = next_lower_typical_score(score_a)
     return formula_a, formula_b, score_a, score_b, win_prob_from_margin(margin)
+ 
+ 
+ 
+def central_time(stamp):
+    """The ratings scripts stamp last_updated with the GitHub runner's clock, which is
+    UTC ("October 29, 2026 at 09:44 AM"). Show it in Central time instead, with CDT/CST
+    picked automatically: "October 29, 2026 at 4:44 AM CDT". Anything that isn't in that
+    format is passed through unchanged."""
+    try:
+        dt = datetime.datetime.strptime(stamp, "%B %d, %Y at %I:%M %p").replace(tzinfo=datetime.timezone.utc)
+    except (TypeError, ValueError):
+        return stamp
+    c = dt.astimezone(ZoneInfo("America/Chicago"))
+    return f"{c.strftime('%B')} {c.day}, {c.year} at {c.strftime('%I:%M %p').lstrip('0')} {c.strftime('%Z')}"
  
  
 def r1(x):
@@ -541,7 +556,7 @@ def headline_seed(cond):
  
 def playoff_games(hub, games):
     """Bracket games with both teams known and no real result yet.
-
+ 
     Returns dicts shaped like games-file rows plus playoff fields:
     round, round_index, seeds [seed1, seed2] (district rounds), home, class, district.
     """
@@ -551,16 +566,16 @@ def playoff_games(hub, games):
         if sds._parse_date(str(g["date"])) <= regular_end:
             continue
         real[frozenset((g["team1"], g["team2"]))] = g
-
+ 
     def winner(a, b):
         g = real.get(frozenset((a, b)))
         if not g or g["score1"] is None or g["score2"] is None or g["score1"] == g["score2"]:
             return None
         return g["team1"] if g["score1"] > g["score2"] else g["team2"]
-
+ 
     order = hub.get("district_bracket_order", [1, 8, 4, 5, 2, 7, 3, 6])
     out = []
-
+ 
     def emit(round_i, cls, dist, a, b, seed_of):
         """a, b: team names (a = better seed when seeds exist)."""
         label, date, week = PLAYOFF_ROUNDS[round_i]
@@ -575,7 +590,7 @@ def playoff_games(hub, games):
                     "district": dist if round_i <= 2 else None,
                     "seeds": [sa, sb] if (round_i <= 2 and sa is not None and sb is not None) else None,
                     "home": a if round_i <= 2 else None})
-
+ 
     for cls_key, c in hub.get("classes", {}).items():
         cls = c.get("class", int(cls_key))
         champs = {}
@@ -624,8 +639,8 @@ def playoff_games(hub, games):
             alive = nxt
             round_i += 1
     return out
-
-
+ 
+ 
 def build_tags(g, A, B, proj, h2h, stakes):
     """Auto storylines, best first. Each: {kind, label, text}."""
     tags = []
@@ -821,7 +836,7 @@ def main():
     out = {
         "generated": datetime.datetime.now().isoformat(timespec="seconds"),
         "season": 2026,
-        "ratings_last_updated": ratings_doc.get("last_updated"),
+        "ratings_last_updated": central_time(ratings_doc.get("last_updated")),
         "league_average": L,
         "simulations": args.sims,
         "sigma": args.sigma,
