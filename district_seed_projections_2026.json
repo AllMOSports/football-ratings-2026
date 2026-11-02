@@ -1,8 +1,8 @@
 {
-  "generated": "2026-11-02T14:38:41",
+  "generated": "2026-11-02T14:42:06",
   "ratings_last_updated": "November 02, 2026 at 02:20 PM",
   "simulations": 10000,
-  "sigma": 15.0,
+  "sigma": 16.0,
   "remaining_games_simulated": 0,
   "districts": {
     "class1_district1": {
