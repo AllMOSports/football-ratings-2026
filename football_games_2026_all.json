@@ -15752,7 +15752,7 @@
     "team2": "Macon",
     "team2_classified": true,
     "score2": 13,
-    "forfeit": false,
+    "forfeit": true,
     "overtime": false
   },
   {
@@ -16760,7 +16760,7 @@
     "team2": "Montgomery County",
     "team2_classified": true,
     "score2": 13,
-    "forfeit": false,
+    "forfeit": true,
     "overtime": false
   },
   {

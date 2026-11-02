@@ -2624,7 +2624,7 @@
     "score1": 13,
     "team2": "Cameron",
     "score2": 0,
-    "forfeit": false,
+    "forfeit": true,
     "overtime": false
   },
   {
@@ -3794,7 +3794,7 @@
     "score1": 13,
     "team2": "Aurora",
     "score2": 0,
-    "forfeit": false,
+    "forfeit": true,
     "overtime": false
   },
   {
@@ -7659,6 +7659,15 @@
     "overtime": false
   },
   {
+    "date": "2026-10-02",
+    "team1": "University City",
+    "score1": 13,
+    "team2": "Clayton with Brentwood",
+    "score2": 0,
+    "forfeit": true,
+    "overtime": false
+  },
+  {
     "date": "2026-10-08",
     "team1": "Seneca",
     "score1": 58,
@@ -7781,7 +7790,7 @@
     "score1": 0,
     "team2": "Cassville",
     "score2": 13,
-    "forfeit": false,
+    "forfeit": true,
     "overtime": false
   },
   {
@@ -8897,7 +8906,7 @@
     "score1": 0,
     "team2": "University City",
     "score2": 13,
-    "forfeit": false,
+    "forfeit": true,
     "overtime": false
   },
   {
@@ -11021,7 +11030,7 @@
     "score1": 0,
     "team2": "Macon",
     "score2": 13,
-    "forfeit": false,
+    "forfeit": true,
     "overtime": false
   },
   {
@@ -11759,7 +11768,7 @@
     "score1": 0,
     "team2": "Montgomery County",
     "score2": 13,
-    "forfeit": false,
+    "forfeit": true,
     "overtime": false
   },
   {
