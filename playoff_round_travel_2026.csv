@@ -1,97 +1,97 @@
 class,round,district,home_seed,home,away_seed,away,miles,miles_estimated,drive_minutes,home_win_prob
-1,District semifinal,1,1,Thayer,4,Hayti,122,True,141,0.9271
-1,District semifinal,1,2,Portageville,3,Charleston,47,True,45,0.8448
-1,District semifinal,2,1,Louisiana,4,Veritas Christian Academy,57,True,62,0.9956
-1,District semifinal,2,2,Crystal City,3,Principia,33,True,37,0.0386
-1,District semifinal,3,1,Marionville,4,Pierce City,25,True,36,0.7245
-1,District semifinal,3,2,Miller,3,Ash Grove,19,True,33,0.9063
-1,District semifinal,4,1,Tipton with Bunceton,4,Windsor,49,True,61,1.0
-1,District semifinal,4,2,Skyline,3,Russellville,70,True,82,0.8378
-1,District semifinal,5,1,Carrollton,5,North Platte,83,True,101,0.5631
-1,District semifinal,5,2,Adrian,3,Sherwood,20,True,38,0.8277
-1,District semifinal,6,1,East Buchanan,4,Plattsburg,10,True,12,0.8386
-1,District semifinal,6,2,Penney,3,Gallatin with Tri-County,13,True,16,0.4963
-1,District semifinal,7,1,Salisbury,5,Fayette,24,True,35,0.9973
-1,District semifinal,7,2,Westran,3,Van-Far,68,True,80,0.8141
-1,District semifinal,8,1,Scotland County,4,Marceline,78,True,110,0.4225
-1,District semifinal,8,2,Putnam County,3,South Shelby,85,True,106,0.8756
-2,District semifinal,1,1,St. Vincent,4,Saxony Lutheran,31,True,33,0.8808
-2,District semifinal,1,2,Caruthersville,3,Kelly,73,True,69,0.9538
-2,District semifinal,2,1,Valle Catholic,5,Hermann,107,True,130,1.0
-2,District semifinal,2,2,Jefferson (Festus),3,Montgomery County,93,True,101,0.6748
-2,District semifinal,3,1,Springfield Catholic,4,Liberty (Mountain View),102,True,99,0.4679
-2,District semifinal,3,2,Fair Grove,3,Ava,48,True,68,0.9542
-2,District semifinal,4,1,Lamar,5,Sarcoxie,37,True,42,0.9996
-2,District semifinal,4,2,Clever,3,East Newton,52,True,59,0.5174
-2,District semifinal,5,1,Blair Oaks,5,South Callaway,25,True,45,0.9984
+1,District semifinal,1,1,Thayer,4,Hayti,133,False,141,0.9271
+1,District semifinal,1,2,Portageville,3,Charleston,47,False,45,0.8448
+1,District semifinal,2,1,Louisiana,4,Veritas Christian Academy,55,False,62,0.9956
+1,District semifinal,2,2,Crystal City,3,Principia,34,False,37,0.0386
+1,District semifinal,3,1,Marionville,4,Pierce City,25,False,36,0.7245
+1,District semifinal,3,2,Miller,3,Ash Grove,26,False,33,0.9063
+1,District semifinal,4,1,Tipton with Bunceton,4,Windsor,52,False,61,1.0
+1,District semifinal,4,2,Skyline,3,Russellville,79,False,82,0.8378
+1,District semifinal,5,1,Carrollton,5,North Platte,97,False,101,0.5631
+1,District semifinal,5,2,Adrian,3,Sherwood,34,False,38,0.8277
+1,District semifinal,6,1,East Buchanan,4,Plattsburg,10,False,12,0.8386
+1,District semifinal,6,2,Penney,3,Gallatin with Tri-County,13,False,16,0.4963
+1,District semifinal,7,1,Salisbury,5,Fayette,26,False,35,0.9973
+1,District semifinal,7,2,Westran,3,Van-Far,71,False,80,0.8141
+1,District semifinal,8,1,Scotland County,4,Marceline,108,False,110,0.4225
+1,District semifinal,8,2,Putnam County,3,South Shelby,100,False,106,0.8756
+2,District semifinal,1,1,St. Vincent,4,Saxony Lutheran,32,False,33,0.8808
+2,District semifinal,1,2,Caruthersville,3,Kelly,74,False,69,0.9538
+2,District semifinal,2,1,Valle Catholic,5,Hermann,114,False,130,1.0
+2,District semifinal,2,2,Jefferson (Festus),3,Montgomery County,102,False,101,0.6748
+2,District semifinal,3,1,Springfield Catholic,4,Liberty (Mountain View),100,False,99,0.4679
+2,District semifinal,3,2,Fair Grove,3,Ava,58,False,68,0.9542
+2,District semifinal,4,1,Lamar,5,Sarcoxie,43,False,42,0.9996
+2,District semifinal,4,2,Clever,3,East Newton,51,False,59,0.5174
+2,District semifinal,5,1,Blair Oaks,5,South Callaway,30,False,45,0.9984
 2,District semifinal,5,3,North Callaway,7,California,57,False,59,0.9336
-2,District semifinal,6,1,Hogan Prep Academy Charter,4,Lafayette County,54,True,54,0.1872
+2,District semifinal,6,1,Hogan Prep Academy Charter,4,Lafayette County,54,False,54,0.1872
 2,District semifinal,6,3,Butler,7,Lone Jack with Kingsville,55,False,60,0.9896
-2,District semifinal,7,1,Centralia,4,Monroe City,46,True,68,0.9913
-2,District semifinal,7,2,Palmyra,3,Bowling Green,43,True,44,0.8634
-2,District semifinal,8,1,Mid-Buchanan,5,Lawson,42,True,58,0.9612
-2,District semifinal,8,2,Brookfield,3,West Platte,119,True,120,0.4624
-3,District semifinal,1,1,Kennett,4,Perryville,124,True,122,0.9279
-3,District semifinal,1,2,Ste. Genevieve,3,Dexter,99,True,109,0.5827
-3,District semifinal,2,1,St. Pius X (Festus),4,Central (Park Hills),31,True,32,0.9788
-3,District semifinal,2,2,St. Clair,3,Herculaneum,39,True,53,0.8998
-3,District semifinal,3,1,Normandy Collaborative,5,Winfield,39,True,41,0.611
-3,District semifinal,3,2,Lutheran North,3,MICDS,9,True,14,0.8109
-3,District semifinal,4,1,Southern Boone,5,Fulton,22,True,36,0.9588
-3,District semifinal,4,2,St. Francis Borgia,3,Hallsville,90,True,104,0.2285
-3,District semifinal,5,1,Mountain Grove,5,Buffalo,69,True,90,0.9874
-3,District semifinal,5,2,Strafford,6,Salem,109,True,120,0.8508
-3,District semifinal,6,1,Cassville,4,Mt. Vernon,36,True,53,0.9545
-3,District semifinal,6,2,Seneca,3,Nevada,84,True,84,0.9386
-3,District semifinal,7,1,Pembroke Hill,5,Oak Grove,31,True,34,0.6158
+2,District semifinal,7,1,Centralia,4,Monroe City,50,False,68,0.9913
+2,District semifinal,7,2,Palmyra,3,Bowling Green,41,False,44,0.8634
+2,District semifinal,8,1,Mid-Buchanan,5,Lawson,48,False,58,0.9612
+2,District semifinal,8,2,Brookfield,3,West Platte,125,False,120,0.4624
+3,District semifinal,1,1,Kennett,4,Perryville,133,False,122,0.9279
+3,District semifinal,1,2,Ste. Genevieve,3,Dexter,117,False,109,0.5827
+3,District semifinal,2,1,St. Pius X (Festus),4,Central (Park Hills),31,False,32,0.9788
+3,District semifinal,2,2,St. Clair,3,Herculaneum,45,False,53,0.8998
+3,District semifinal,3,1,Normandy Collaborative,5,Winfield,39,False,41,0.611
+3,District semifinal,3,2,Lutheran North,3,MICDS,10,False,14,0.8109
+3,District semifinal,4,1,Southern Boone,5,Fulton,28,False,36,0.9588
+3,District semifinal,4,2,St. Francis Borgia,3,Hallsville,102,False,104,0.2285
+3,District semifinal,5,1,Mountain Grove,5,Buffalo,83,False,90,0.9874
+3,District semifinal,5,2,Strafford,6,Salem,127,False,120,0.8508
+3,District semifinal,6,1,Cassville,4,Mt. Vernon,44,False,53,0.9545
+3,District semifinal,6,2,Seneca,3,Nevada,89,False,84,0.9386
+3,District semifinal,7,1,Pembroke Hill,5,Oak Grove,30,False,34,0.6158
 3,District semifinal,7,3,Boonville,7,Clinton,91,False,98,0.7048
-3,District semifinal,8,1,St. Pius X (Kansas City),5,Chillicothe,83,True,82,0.9997
-3,District semifinal,8,2,Maryville,3,Richmond,105,True,118,0.9597
-4,District semifinal,1,1,Festus,5,DeSoto,13,True,19,0.9817
-4,District semifinal,1,2,Sikeston,3,Hillsboro,130,True,110,0.4281
-4,District semifinal,2,1,Union,4,Vianney,41,True,38,0.4791
-4,District semifinal,2,2,Sullivan,3,Westminster Christian Academy,54,True,55,0.8227
-4,District semifinal,3,1,University City,4,Jennings,7,True,13,0.9648
-4,District semifinal,3,2,Lift for Life Academy Charter,3,Gateway with Soldan International Studies,5,True,7,0.99
-4,District semifinal,4,1,St. Charles West,4,Hannibal,94,True,94,0.0902
-4,District semifinal,4,2,Parkway North,3,Orchard Farm,12,True,17,0.8454
-4,District semifinal,5,1,Moberly,4,Kirksville,66,True,58,0.8533
-4,District semifinal,5,2,Warrensburg,3,Osage,87,True,108,0.9706
-4,District semifinal,6,1,Logan-Rogersville,4,Monett,56,True,63,0.8816
-4,District semifinal,6,2,Carl Junction,3,Bolivar,86,True,103,0.6748
-4,District semifinal,7,1,Central (Kansas City),4,Pleasant Hill,30,True,40,0.0012
-4,District semifinal,7,2,Odessa,3,Raytown South,32,True,37,0.8903
-4,District semifinal,8,1,Kearney,4,Benton,44,True,55,1.0
-4,District semifinal,8,2,Savannah,3,Smithville,49,True,51,0.8771
-5,District semifinal,1,1,Fox,4,Farmington,56,True,54,0.016
-5,District semifinal,1,2,St. Mary's South Side,3,Central (Cape Girardeau),116,True,100,0.9388
-5,District semifinal,2,1,Eureka,4,Parkway South,9,True,14,0.9935
-5,District semifinal,2,2,Rockwood Summit,3,Parkway West,11,True,17,0.8479
-5,District semifinal,3,1,Ladue Horton Watkins,4,Cardinal Ritter,10,True,13,0.1561
-5,District semifinal,3,2,Chaminade College Prep,6,Hazelwood East,19,True,29,0.9879
-5,District semifinal,4,1,Timberland,5,Ft. Zumwalt South,12,True,16,0.91
-5,District semifinal,4,2,Ft. Zumwalt North,3,St. Dominic,3,True,7,0.502
-5,District semifinal,5,1,Helias Catholic,4,Glendale,135,True,128,0.9353
-5,District semifinal,5,2,Camdenton,6,Jefferson City,59,True,58,0.8406
-5,District semifinal,6,1,Republic,4,Carthage,59,True,55,0.5468
-5,District semifinal,6,2,Neosho,3,Branson,77,True,100,0.6781
-5,District semifinal,7,1,Grain Valley,5,Capital City,132,True,124,0.8847
-5,District semifinal,7,2,Smith-Cotton,6,Ruskin,84,True,76,0.9925
-5,District semifinal,8,1,Platte County,5,Lincoln College Prep,26,True,26,1.0
-5,District semifinal,8,2,Fort Osage,3,Raytown,15,True,24,0.8809
-6,District semifinal,1,1,Jackson,5,Lindbergh,106,True,91,0.9989
-6,District semifinal,1,2,Northwest (Cedar Hill),3,Seckman,13,True,23,0.5147
-6,District semifinal,2,1,Kirkwood,4,Marquette,11,True,17,0.8875
-6,District semifinal,2,2,Christian Brothers College,3,De Smet Jesuit,2,True,6,0.4627
-6,District semifinal,3,1,Pattonville,4,Hazelwood West,6,True,11,0.9964
-6,District semifinal,3,2,SLUH,3,Ritenour,9,True,13,0.982
-6,District semifinal,4,1,Troy Buchanan,4,Liberty (Wentzville),21,True,22,0.9741
-6,District semifinal,4,2,Francis Howell,3,Ft. Zumwalt West,7,True,13,0.8481
-6,District semifinal,5,1,Nixa,5,Waynesville,96,True,88,1.0
-6,District semifinal,5,2,Ozark,3,Joplin,85,True,81,0.5525
-6,District semifinal,6,1,Blue Springs,5,Lee's Summit,12,True,17,0.6976
-6,District semifinal,6,2,Rock Bridge,6,Blue Springs South,124,True,102,0.1278
-6,District semifinal,7,1,Raymore-Peculiar,4,Lee's Summit West,11,True,20,0.9076
-6,District semifinal,7,2,North Kansas City,3,Rockhurst,16,True,24,0.6763
-6,District semifinal,8,1,Liberty North,4,Staley,7,True,12,0.9282
-6,District semifinal,8,2,Park Hill,3,Oak Park,6,True,11,0.4166
+3,District semifinal,8,1,St. Pius X (Kansas City),5,Chillicothe,86,False,82,0.9997
+3,District semifinal,8,2,Maryville,3,Richmond,112,False,118,0.9597
+4,District semifinal,1,1,Festus,5,DeSoto,16,False,19,0.9817
+4,District semifinal,1,2,Sikeston,3,Hillsboro,121,False,110,0.4281
+4,District semifinal,2,1,Union,4,Vianney,38,False,38,0.4791
+4,District semifinal,2,2,Sullivan,3,Westminster Christian Academy,57,False,55,0.8227
+4,District semifinal,3,1,University City,4,Jennings,7,False,13,0.9648
+4,District semifinal,3,2,Lift for Life Academy Charter,3,Gateway with Soldan International Studies,5,False,7,0.99
+4,District semifinal,4,1,St. Charles West,4,Hannibal,94,False,94,0.0902
+4,District semifinal,4,2,Parkway North,3,Orchard Farm,13,False,17,0.8454
+4,District semifinal,5,1,Moberly,4,Kirksville,59,False,58,0.8533
+4,District semifinal,5,2,Warrensburg,3,Osage,101,False,108,0.9706
+4,District semifinal,6,1,Logan-Rogersville,4,Monett,54,False,63,0.8816
+4,District semifinal,6,2,Carl Junction,3,Bolivar,107,False,103,0.6748
+4,District semifinal,7,1,Central (Kansas City),4,Pleasant Hill,31,False,40,0.0012
+4,District semifinal,7,2,Odessa,3,Raytown South,34,False,37,0.8903
+4,District semifinal,8,1,Kearney,4,Benton,52,False,55,1.0
+4,District semifinal,8,2,Savannah,3,Smithville,47,False,51,0.8771
+5,District semifinal,1,1,Fox,4,Farmington,54,False,54,0.016
+5,District semifinal,1,2,St. Mary's South Side,3,Central (Cape Girardeau),110,False,100,0.9388
+5,District semifinal,2,1,Eureka,4,Parkway South,12,False,14,0.9935
+5,District semifinal,2,2,Rockwood Summit,3,Parkway West,11,False,17,0.8479
+5,District semifinal,3,1,Ladue Horton Watkins,4,Cardinal Ritter,10,False,13,0.1561
+5,District semifinal,3,2,Chaminade College Prep,6,Hazelwood East,23,False,29,0.9879
+5,District semifinal,4,1,Timberland,5,Ft. Zumwalt South,11,False,16,0.91
+5,District semifinal,4,2,Ft. Zumwalt North,3,St. Dominic,4,False,7,0.502
+5,District semifinal,5,1,Helias Catholic,4,Glendale,135,False,128,0.9353
+5,District semifinal,5,2,Camdenton,6,Jefferson City,59,False,58,0.8406
+5,District semifinal,6,1,Republic,4,Carthage,55,False,55,0.5468
+5,District semifinal,6,2,Neosho,3,Branson,79,False,100,0.6781
+5,District semifinal,7,1,Grain Valley,5,Capital City,126,False,124,0.8847
+5,District semifinal,7,2,Smith-Cotton,6,Ruskin,76,False,76,0.9925
+5,District semifinal,8,1,Platte County,5,Lincoln College Prep,26,False,26,1.0
+5,District semifinal,8,2,Fort Osage,3,Raytown,19,False,24,0.8809
+6,District semifinal,1,1,Jackson,5,Lindbergh,98,False,91,0.9989
+6,District semifinal,1,2,Northwest (Cedar Hill),3,Seckman,17,False,23,0.5147
+6,District semifinal,2,1,Kirkwood,4,Marquette,14,False,17,0.8875
+6,District semifinal,2,2,Christian Brothers College,3,De Smet Jesuit,2,False,6,0.4627
+6,District semifinal,3,1,Pattonville,4,Hazelwood West,6,False,11,0.9964
+6,District semifinal,3,2,SLUH,3,Ritenour,11,False,13,0.982
+6,District semifinal,4,1,Troy Buchanan,4,Liberty (Wentzville),20,False,22,0.9741
+6,District semifinal,4,2,Francis Howell,3,Ft. Zumwalt West,10,False,13,0.8481
+6,District semifinal,5,1,Nixa,5,Waynesville,94,False,88,1.0
+6,District semifinal,5,2,Ozark,3,Joplin,83,False,81,0.5525
+6,District semifinal,6,1,Blue Springs,5,Lee's Summit,14,False,17,0.6976
+6,District semifinal,6,2,Rock Bridge,6,Blue Springs South,110,False,102,0.1278
+6,District semifinal,7,1,Raymore-Peculiar,4,Lee's Summit West,11,False,20,0.9076
+6,District semifinal,7,2,North Kansas City,3,Rockhurst,17,False,24,0.6763
+6,District semifinal,8,1,Liberty North,4,Staley,7,False,12,0.9282
+6,District semifinal,8,2,Park Hill,3,Oak Park,6,False,11,0.4166
