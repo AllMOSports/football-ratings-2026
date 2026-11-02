@@ -162,9 +162,13 @@ class Season:
         self.team_class = team_class
         played, remaining = [], []
         for g in games:
+            # Postseason games never count toward district points or seeding.
+            # (Playoff results are read separately by the playoff scripts.)
+            if _parse_date(g["date"]) > REGULAR_SEASON_END:
+                continue
             if g["score1"] is not None and g["score2"] is not None:
                 played.append(g)
-            elif include_remaining and _parse_date(g["date"]) <= REGULAR_SEASON_END:
+            elif include_remaining:
                 remaining.append(g)
         self.played, self.remaining = played, remaining
         self.all_games = played + remaining

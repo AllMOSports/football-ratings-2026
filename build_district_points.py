@@ -82,6 +82,7 @@ import json
 from collections import defaultdict
  
 GAMES_PATH = "football_games_2026_all_district_points.csv"
+REGULAR_SEASON_END = datetime.date(2026, 10, 24)   # games after this are playoffs
 CLASS_PATH = "classifications.json"
 OOS_CLASS_PATH = "out_of_state_classifications.json"
 OOS_RECORDS_PATH = "out_of_state_records.json"
@@ -498,6 +499,9 @@ def main():
     oos_class = load_out_of_state_classifications(OOS_CLASS_PATH)
     oos_records = load_out_of_state_records(OOS_RECORDS_PATH)
     games = load_games(GAMES_PATH)
+    # Postseason games never count toward district points.
+    games = [g for g in games
+             if datetime.datetime.strptime(_normalize_date(g["date"]), "%Y-%m-%d").date() <= REGULAR_SEASON_END]
  
     overtime_overrides = load_manual_overrides(MANUAL_OVERRIDES_PATH)
     ot_applied, ot_unmatched = apply_overtime_overrides(games, overtime_overrides)
