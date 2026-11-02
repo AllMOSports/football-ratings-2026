@@ -45,6 +45,11 @@ DROUGHTS (v2)
   football entry has never reached a Final Four. HISTORY_ALIASES covers
   renamed schools.
 
+CURRENT-ROUND TRAVEL (v3)
+  round_travel per class: the next unplayed round's games (district semifinals,
+  finals, then state quarterfinals and semifinals), with drive time and miles for
+  the road team. Also written to playoff_round_travel_2026.csv.
+
 FIRST-ROUND TRAVEL (v2)
   Every district first-round game, with the higher seed hosting. Drive time
   comes from the drive_times/class_N.json cache (OSRM, same as the bracket
@@ -93,6 +98,7 @@ DEFAULT_SIGMA = spo.DEFAULT_SIGMA
 SEED_SIMS = 4000                       # only used if regular-season games are missing
 DISTANCE_CACHE_PATH = "drive_distances_2026.json"
 TRAVEL_CSV_PATH = "playoff_r1_travel_2026.csv"
+ROUND_TRAVEL_CSV_PATH = "playoff_round_travel_2026.csv"
 CALIBRATION_PATH = "calibration.csv"   # Google Maps checks: team_a,team_b,minutes
 DROUGHT_CSV_PATH = "playoff_droughts_2026.csv"
 OSRM_URL = os.environ.get("OSRM_URL", "https://router.project-osrm.org").rstrip("/")
@@ -339,6 +345,84 @@ class Travel:
             print(f"Fetched {self.fetched} new road distances from OSRM")
 
 
+# --------------------------------------------------------------------------
+# Current-round travel
+
+ROUND_NAMES = ["District first round", "District semifinal", "District final",
+               "Quarterfinal", "Semifinal", "State championship"]
+
+
+def current_round(cls, districts, order_d, by_team, results, travel, sigma):
+    """The next unplayed round in this class, from the bracket and real results.
+    District games: the better seed hosts. Quarterfinals and semifinals: the team
+    with fewer playoff home games hosts; a tie goes to the team lower on the bracket.
+    The championship is at a neutral site, so it has no road trip here."""
+    res = {frozenset(r["teams"]): r for r in results}
+
+    def winner(a, b):
+        r = res.get(frozenset((a, b)))
+        if not r:
+            return None
+        return r["teams"][0] if r["score"][0] > r["score"][1] else r["teams"][1]
+
+    rounds = defaultdict(list)          # round index -> [(district, top, bottom, host)]
+    home_games = defaultdict(int)
+    champs = []
+    for d in order_d:
+        s = districts[str(d)]["seeds"]
+        seed = {n: i for i, n in enumerate(s, 1)}
+        by_seed = lambda k: s[k - 1] if k <= len(s) else None
+
+        def play(rnd, a, b):
+            if a is None or b is None:
+                return None
+            if a == "BYE":
+                return b
+            if b == "BYE":
+                return a
+            host = a if seed[a] < seed[b] else b
+            w = winner(a, b)
+            rounds[rnd].append((d, a, b, host, w))
+            if w is not None:
+                home_games[host] += 1
+            return w
+        slot = lambda k: by_seed(k) or "BYE"
+        r1 = [play(0, slot(1), slot(8)), play(0, slot(4), slot(5)),
+              play(0, slot(2), slot(7)), play(0, slot(3), slot(6))]
+        sf = [play(1, r1[0], r1[1]), play(1, r1[2], r1[3])]
+        champs.append(play(2, sf[0], sf[1]))
+
+    def state_play(rnd, a, b, d):
+        if a is None or b is None:
+            return None
+        ha, hb = home_games[a], home_games[b]
+        host = a if ha < hb else b               # tie -> the team lower on the bracket (b)
+        w = winner(a, b)
+        rounds[rnd].append((d, a, b, host, w))
+        if w is not None:
+            home_games[host] += 1
+        return w
+    qf = [state_play(3, champs[2 * k], champs[2 * k + 1], None) for k in range(len(champs) // 2)]
+    sfs = [state_play(4, qf[2 * k], qf[2 * k + 1], None) for k in range(len(qf) // 2)]
+
+    for rnd in range(5):
+        open_games = [g for g in rounds[rnd] if g[4] is None]
+        if open_games:
+            break
+    else:
+        return {"round": ROUND_NAMES[5], "round_index": 5, "games": []}
+    games = []
+    for d, a, b, host, _ in open_games:
+        away = b if host == a else a
+        H, A = by_team[host], by_team[away]
+        g = {"district": d if d is not None else H["district"], "away_district": A["district"],
+             "home": host, "away": away, "home_seed": H["seed"], "away_seed": A["seed"],
+             "home_win": round(0.5 * (1 + math.erf((H["ovr"] - A["ovr"]) / (sigma * math.sqrt(2)))), 4)}
+        g.update(travel.game(host, away))
+        games.append(g)
+    return {"round": ROUND_NAMES[rnd], "round_index": rnd, "games": games}
+
+
 def fmt(p):
     if p <= 0:
         return "0%"
@@ -488,8 +572,10 @@ def main():
                      "home_win": by_team[home]["reach"][0]}
                 g.update(travel.game(home, away))
                 r1.append(g)
+        rt = current_round(cls, districts, order_d, by_team, shown, travel, args.sigma)
         out["classes"][str(cls)] = {"class": cls, "state_bracket_order": order_d,
-                                    "districts": districts, "teams": teams, "r1_travel": r1}
+                                    "districts": districts, "teams": teams, "r1_travel": r1,
+                                    "round_travel": rt}
 
     travel.save()
     with open(OUTPUT_PATH, "w") as f:
@@ -504,6 +590,15 @@ def main():
             for g in c["r1_travel"]:
                 w.writerow([cls, g["district"], g["home_seed"], g["home"], g["away_seed"], g["away"],
                             g["miles"], g["miles_estimated"], g["minutes"], g["home_win"]])
+    with open(ROUND_TRAVEL_CSV_PATH, "w", newline="") as f:
+        w = csv.writer(f)
+        w.writerow(["class", "round", "district", "home_seed", "home", "away_seed", "away", "miles",
+                    "miles_estimated", "drive_minutes", "home_win_prob"])
+        for cls, c in out["classes"].items():
+            rt = c["round_travel"]
+            for g in rt["games"]:
+                w.writerow([cls, rt["round"], g["district"], g["home_seed"], g["home"], g["away_seed"], g["away"],
+                            g["miles"], g["miles_estimated"], g["minutes"], g["home_win"]])
     with open(DROUGHT_CSV_PATH, "w", newline="") as f:
         w = csv.writer(f)
         w.writerow(["class", "district", "seed", "team", "record", "final_fours", "last_final_four",
@@ -515,7 +610,7 @@ def main():
                 w.writerow([cls, t["district"], t["seed"], t["team"], t["record"], h.get("final_fours"),
                             h.get("last_final_four"), h.get("final_four_drought"), t["reach"][3],
                             h.get("titles"), h.get("last_title"), h.get("title_drought"), t["reach"][5]])
-    print(f"Wrote {TRAVEL_CSV_PATH} and {DROUGHT_CSV_PATH}")
+    print(f"Wrote {TRAVEL_CSV_PATH}, {ROUND_TRAVEL_CSV_PATH} and {DROUGHT_CSV_PATH}")
     for cls, c in out["classes"].items():
         ts = c["teams"]
         st = defaultdict(int)
