@@ -1,165 +1,159 @@
 # Football Class 1 travel-limited bracket
 
-42 teams on a 64-line bracket (8 districts), 22 first-round byes (district bye rule). Priority: balance. Drive-time factor 1.0. District limit 3.0 h; district champions re-seeded after districts.
+42 teams on a 64-line bracket (8 districts), 22 first-round byes (statewide bye rule). Priority: balance. Drive-time factor 0.82. District limit 4.0 h; district champions re-seeded after districts.
 
-**Travel-limit violations: 1** (proven minimum)
+**Travel-limit violations: 0** (proven minimum)
 
 ## Scorecard
 
 | Measure | This bracket | MSHSAA districts |
 |---|---|---|
-| Avg district-round trip, expected matchups (min) | 92.2 | 92.5 |
-| Longest district-round trip, expected matchups (min) | 194.3 | 227.4 |
-| Avg district-round trip, simulated (min) | 92.5 | 91.7 |
-| Chance any district game is over the limit | 0.595 | 1.0 |
-| Longest first post-district trip, expected (min) | 402.4 | 335.7 |
-| Top-tier seed pairs sharing a district | 2 | 4 |
-| Strong-team pairs (top 2x tier) sharing a district | 12 | 14 |
-| Weakest district's best seed | 22 | 21 |
-| Spread of district top-team ratings (SD) | 15.4 | 15.47 |
-| Expected top-8 seeds reaching the quarterfinals | 5.64 | 4.63 |
-| Expected top-4 seeds reaching the final four | 2.77 | 1.91 |
-| Chance #1 and #2 meet in the final | 0.586 | 0.0 |
-| Chance the #1 seed wins | 0.896 | 0.816 |
+| Avg district-round trip, expected matchups (min) | 97.5 | 74.3 |
+| Longest district-round trip, expected matchups (min) | 229.2 | 186.5 |
+| Avg district-round trip, simulated (min) | 101.1 | 73.3 |
+| Chance any district game is over the limit | 0.0 | 0.0 |
+| Longest first post-district trip, expected (min) | 301.9 | 275.3 |
+| Top-tier seed pairs sharing a district | 0 | 5 |
+| Strong-team pairs (top 2x tier) sharing a district | 9 | 14 |
+| Weakest district's best seed | 8 | 18 |
+| Spread of district top-team ratings (SD) | 11.05 | 15.51 |
+| Expected top-8 seeds reaching the quarterfinals | 6.9 | 3.97 |
+| Expected top-4 seeds reaching the final four | 3.02 | 1.89 |
+| Chance #1 and #2 meet in the final | 0.561 | 0.0 |
+| Chance the #1 seed wins | 0.904 | 0.84 |
 
-## District 1  (longest possible trip 2h 45m)
+## District 1  (longest possible trip 2h 16m)
 
 | Line | Seed | Team | First round |
 |---|---|---|---|
 | 1 | 1 | Tipton with Bunceton | Bye |
-| 3 | 34 | Van-Far | vs #38 Linn (2h 04m) |
-| 4 | 38 | Linn | vs #34 Van-Far (2h 04m) |
-| 5 | 11 | Russellville | Bye |
-| 7 | 21 | Louisiana | vs #40 Veritas Christian Academy (1h 17m) |
-| 8 | 40 | Veritas Christian Academy | vs #21 Louisiana (1h 17m) |
+| 3 | 32 | Fayette | vs #35 Harrisburg (0h 18m) |
+| 4 | 35 | Harrisburg | vs #32 Fayette (0h 18m) |
+| 5 | 18 | Louisiana | Bye |
+| 7 | 24 | South Shelby | vs #36 Van-Far (1h 09m) |
+| 8 | 36 | Van-Far | vs #24 South Shelby (1h 09m) |
 
-## District 2  (longest possible trip 2h 56m)
-
-| Line | Seed | Team | First round |
-|---|---|---|---|
-| 9 | 22 | Charleston | Bye |
-| 11 | 42 | Crystal City | Bye |
-| 13 | 30 | Principia | Bye |
-| 15 | 41 | Grandview (Hillsboro) | Bye |
-
-## District 3  (longest possible trip 2h 14m)
+## District 2  (longest possible trip 2h 26m)
 
 | Line | Seed | Team | First round |
 |---|---|---|---|
-| 17 | 5 | Salisbury | Bye |
-| 19 | 24 | South Shelby | vs #28 Westran (1h 08m) |
-| 20 | 28 | Westran | vs #24 South Shelby (1h 08m) |
-| 21 | 14 | Carrollton | vs #35 Harrisburg (1h 55m) |
-| 22 | 35 | Harrisburg | vs #14 Carrollton (1h 55m) |
-| 23 | 17 | Marceline | vs #29 Fayette (1h 18m) |
-| 24 | 29 | Fayette | vs #17 Marceline (1h 18m) |
+| 9 | 8 | Portageville | Bye |
+| 11 | 34 | Malden | vs #41 Crystal City (2h 26m) |
+| 12 | 41 | Crystal City | vs #34 Malden (2h 26m) |
+| 13 | 12 | Hayti | Bye |
+| 15 | 21 | Charleston | Bye |
 
-## District 4  (longest possible trip 2h 41m)
+## District 3  (longest possible trip 3h 53m)
 
 | Line | Seed | Team | First round |
 |---|---|---|---|
-| 25 | 6 | Marionville | Bye |
-| 27 | 32 | Diamond | vs #37 Cabool (2h 41m) |
-| 28 | 37 | Cabool | vs #32 Diamond (2h 41m) |
-| 29 | 7 | Pierce City | Bye |
-| 31 | 15 | Ash Grove | Bye |
+| 17 | 4 | Miller | Bye |
+| 19 | 30 | Sherwood | vs #33 South Harrison (2h 13m) |
+| 20 | 33 | South Harrison | vs #30 Sherwood (2h 13m) |
+| 21 | 13 | North Platte | Bye |
+| 23 | 17 | Penney | Bye |
 
-## District 5  (longest possible trip 3h 14m)
+## District 4  (longest possible trip 3h 29m)
+
+| Line | Seed | Team | First round |
+|---|---|---|---|
+| 25 | 5 | Marionville | Bye |
+| 27 | 26 | Diamond | vs #38 Cabool (2h 12m) |
+| 28 | 38 | Cabool | vs #26 Diamond (2h 12m) |
+| 29 | 14 | Ash Grove | Bye |
+| 31 | 22 | Adrian | Bye |
+
+## District 5  (longest possible trip 3h 54m)
 
 | Line | Seed | Team | First round |
 |---|---|---|---|
 | 33 | 2 | Thayer | Bye |
-| 35 | 36 | Malden | Bye |
-| 37 | 9 | Portageville | Bye |
-| 39 | 12 | Hayti | Bye |
+| 35 | 37 | Linn | vs #39 Veritas Christian Academy (1h 45m) |
+| 36 | 39 | Veritas Christian Academy | vs #37 Linn (1h 45m) |
+| 37 | 9 | Russellville | Bye |
+| 39 | 29 | Principia | vs #42 Grandview (Hillsboro) (0h 46m) |
+| 40 | 42 | Grandview (Hillsboro) | vs #29 Principia (0h 46m) |
 
-## District 6  (longest possible trip 2h 24m)
+## District 6  (longest possible trip 3h 50m)
 
 | Line | Seed | Team | First round |
 |---|---|---|---|
-| 41 | 10 | North Platte | Bye |
-| 43 | 18 | Gallatin with Tri-County | vs #23 Maysville (0h 39m) |
-| 44 | 23 | Maysville | vs #18 Gallatin with Tri-County (0h 39m) |
-| 45 | 13 | East Buchanan | vs #33 Crest Ridge with Chilhowee (1h 56m) |
-| 46 | 33 | Crest Ridge with Chilhowee | vs #13 East Buchanan (1h 56m) |
-| 47 | 16 | Penney | vs #26 Plattsburg (0h 47m) |
-| 48 | 26 | Plattsburg | vs #16 Penney (0h 47m) |
+| 41 | 7 | Pierce City | Bye |
+| 43 | 23 | Maysville | vs #25 Plattsburg (0h 38m) |
+| 44 | 25 | Plattsburg | vs #23 Maysville (0h 38m) |
+| 45 | 15 | East Buchanan | Bye |
+| 47 | 16 | Gallatin with Tri-County | Bye |
 
-## District 7  (longest possible trip 2h 41m)
+## District 7  (longest possible trip 2h 46m)
 
 | Line | Seed | Team | First round |
 |---|---|---|---|
 | 49 | 3 | Skyline | Bye |
-| 51 | 27 | Windsor | vs #31 Sherwood (0h 56m) |
-| 52 | 31 | Sherwood | vs #27 Windsor (0h 56m) |
-| 53 | 4 | Miller | Bye |
-| 55 | 19 | Adrian | Bye |
+| 51 | 28 | Windsor | vs #31 Crest Ridge with Chilhowee (0h 46m) |
+| 52 | 31 | Crest Ridge with Chilhowee | vs #28 Windsor (0h 46m) |
+| 53 | 11 | Carrollton | Bye |
+| 55 | 19 | Marceline | Bye |
 
-## District 8  (longest possible trip 2h 45m)
+## District 8  (longest possible trip 2h 14m)
 
 | Line | Seed | Team | First round |
 |---|---|---|---|
-| 57 | 8 | Putnam County | Bye |
-| 59 | 39 | Milan | Bye |
-| 61 | 20 | Scotland County | Bye |
-| 63 | 25 | South Harrison | Bye |
+| 57 | 6 | Salisbury | Bye |
+| 59 | 27 | Westran | vs #40 Milan (1h 47m) |
+| 60 | 40 | Milan | vs #27 Westran (1h 47m) |
+| 61 | 10 | Putnam County | Bye |
+| 63 | 20 | Scotland County | Bye |
 
 ## Quarterfinal pairings
 
-- District 1 champion vs District 2 champion (longest possible trip 5h 45m)
-- District 3 champion vs District 4 champion (longest possible trip 5h 51m)
-- District 5 champion vs District 6 champion (longest possible trip 9h 00m)
-- District 7 champion vs District 8 champion (longest possible trip 6h 33m)
-
-## Possible matchups over the limit
-
-| Round | Team | Team | Drive |
-|---|---|---|---|
-| District rounds | Thayer | Portageville | 3h 14m |
+- District 1 champion vs District 2 champion (longest possible trip 5h 14m)
+- District 3 champion vs District 4 champion (longest possible trip 5h 12m)
+- District 5 champion vs District 6 champion (longest possible trip 5h 57m)
+- District 7 champion vs District 8 champion (longest possible trip 4h 11m)
 
 ## Seeds
 
 | Seed | Team | OVR | Rating rank |
 |---|---|---|---|
-| 1 | Tipton with Bunceton | 25.95 | 1 |
-| 2 | Thayer | 8.37 | 2 |
-| 3 | Skyline | 4.35 | 3 |
-| 4 | Miller | 0.83 | 4 |
-| 5 | Salisbury | -0.1 | 5 |
-| 6 | Marionville | -0.27 | 6 |
-| 7 | Pierce City | -6.42 | 7 |
-| 8 | Putnam County | -12.26 | 8 |
-| 9 | Portageville | -12.31 | 9 |
-| 10 | North Platte | -12.56 | 10 |
-| 11 | Russellville | -14.97 | 11 |
-| 12 | Hayti | -15.37 | 12 |
-| 13 | East Buchanan | -15.9 | 13 |
-| 14 | Carrollton | -16.0 | 14 |
-| 15 | Ash Grove | -16.12 | 15 |
-| 16 | Penney | -19.57 | 16 |
-| 17 | Marceline | -21.6 | 17 |
-| 18 | Gallatin with Tri-County | -22.7 | 18 |
-| 19 | Adrian | -24.81 | 19 |
-| 20 | Scotland County | -25.82 | 20 |
-| 21 | Louisiana | -27.28 | 21 |
-| 22 | Charleston | -29.27 | 22 |
-| 23 | Maysville | -30.79 | 23 |
-| 24 | South Shelby | -32.67 | 24 |
-| 25 | South Harrison | -34.74 | 25 |
-| 26 | Plattsburg | -35.52 | 26 |
-| 27 | Windsor | -37.37 | 27 |
-| 28 | Westran | -40.83 | 28 |
-| 29 | Fayette | -41.79 | 29 |
-| 30 | Principia | -42.47 | 30 |
-| 31 | Sherwood | -43.44 | 31 |
-| 32 | Diamond | -43.53 | 32 |
-| 33 | Crest Ridge with Chilhowee | -45.16 | 33 |
-| 34 | Van-Far | -54.34 | 34 |
-| 35 | Harrisburg | -57.52 | 35 |
-| 36 | Malden | -59.04 | 36 |
-| 37 | Cabool | -61.18 | 37 |
-| 38 | Linn | -62.68 | 38 |
-| 39 | Milan | -64.72 | 39 |
-| 40 | Veritas Christian Academy | -65.11 | 40 |
-| 41 | Grandview (Hillsboro) | -68.25 | 41 |
-| 42 | Crystal City | -72.32 | 42 |
+| 1 | Tipton with Bunceton | 27.53 | 1 |
+| 2 | Thayer | 8.47 | 2 |
+| 3 | Skyline | 3.99 | 3 |
+| 4 | Miller | 3.11 | 4 |
+| 5 | Marionville | 0.71 | 5 |
+| 6 | Salisbury | -1.09 | 6 |
+| 7 | Pierce City | -8.83 | 7 |
+| 8 | Portageville | -10.53 | 8 |
+| 9 | Russellville | -11.78 | 9 |
+| 10 | Putnam County | -12.05 | 10 |
+| 11 | Carrollton | -14.29 | 11 |
+| 12 | Hayti | -14.8 | 12 |
+| 13 | North Platte | -16.83 | 13 |
+| 14 | Ash Grove | -17.98 | 14 |
+| 15 | East Buchanan | -18.43 | 15 |
+| 16 | Gallatin with Tri-County | -20.79 | 16 |
+| 17 | Penney | -20.94 | 17 |
+| 18 | Louisiana | -22.39 | 18 |
+| 19 | Marceline | -22.62 | 19 |
+| 20 | Scotland County | -25.75 | 20 |
+| 21 | Charleston | -26.76 | 21 |
+| 22 | Adrian | -27.51 | 22 |
+| 23 | Maysville | -30.38 | 23 |
+| 24 | South Shelby | -30.5 | 24 |
+| 25 | Plattsburg | -34.25 | 25 |
+| 26 | Diamond | -37.48 | 26 |
+| 27 | Westran | -40.98 | 27 |
+| 28 | Windsor | -41.62 | 28 |
+| 29 | Principia | -42.46 | 29 |
+| 30 | Sherwood | -42.63 | 30 |
+| 31 | Crest Ridge with Chilhowee | -42.88 | 31 |
+| 32 | Fayette | -45.54 | 32 |
+| 33 | South Harrison | -47.68 | 33 |
+| 34 | Malden | -52.13 | 34 |
+| 35 | Harrisburg | -53.47 | 35 |
+| 36 | Van-Far | -55.27 | 36 |
+| 37 | Linn | -59.25 | 37 |
+| 38 | Cabool | -62.67 | 38 |
+| 39 | Veritas Christian Academy | -64.26 | 39 |
+| 40 | Milan | -66.72 | 40 |
+| 41 | Crystal City | -70.73 | 41 |
+| 42 | Grandview (Hillsboro) | -76.34 | 42 |
