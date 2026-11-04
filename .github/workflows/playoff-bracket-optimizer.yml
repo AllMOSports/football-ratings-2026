@@ -1,5 +1,5 @@
 name: Playoff Bracket Optimizer - Football
- 
+
 on:
   workflow_dispatch:
     inputs:
@@ -33,40 +33,40 @@ on:
         description: "Max drive (hours) between teams in districts that meet in the Quarterfinal"
         default: "4.0"
         required: true
-      travel_slack_pct:
-        description: "% extra over-limit travel allowed to improve balance (classes with zero violations stay at zero)"
-        default: "50"
+      points_weight:
+        description: "Seeding blend: share from MSHSAA district points, 0-1 (0 = OVR only, 0.5 = even blend, 0.33 = 2/3 OVR)"
+        default: "0"
         required: true
       time_limit:
         description: "Solver seconds per class (per limit if sweeping)"
         default: "300"
         required: true
       extra_args:
-        description: "Optional extra options, e.g. --sweep 2.5,3,3.5,4  --factor 0.85  --calibration calibration.csv --factor auto"
+        description: "Optional extra options, e.g. --factor 0.82  --travel-slack-pct 50  --blend-method rank  --sweep 2.5,3,3.5,4"
         default: ""
         required: false
- 
+
 permissions:
   contents: write
- 
+
 concurrency:
   group: playoff-bracket-optimizer
   cancel-in-progress: false
- 
+
 jobs:
   build:
     runs-on: ubuntu-latest
     timeout-minutes: 340
     steps:
       - uses: actions/checkout@v4
- 
+
       - uses: actions/setup-python@v5
         with:
           python-version: "3.11"
- 
+
       - name: Install dependencies
         run: pip install ortools requests
- 
+
       - name: Build brackets
         run: >
           python playoff_bracket_optimizer.py
@@ -76,12 +76,12 @@ jobs:
           --bye-rule "${{ inputs.bye_rule }}"
           --district-limit "${{ inputs.district_limit }}"
           --next-limit "${{ inputs.next_limit }}"
-          --travel-slack-pct "${{ inputs.travel_slack_pct }}"
+          ${{ inputs.points_weight != '0' && inputs.points_weight != '' && format('--blend-points district_points_2026.json --points-weight {0}', inputs.points_weight) || '' }}
           --time-limit "${{ inputs.time_limit }}"
           ${{ inputs.reseed && '--reseed' || '' }}
           ${{ inputs.h2h_jumps == false && '--no-jumps' || '' }}
           ${{ inputs.extra_args }}
- 
+
       - name: Commit results
         run: |
           git config user.name "github-actions[bot]"
