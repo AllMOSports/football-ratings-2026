@@ -1,6 +1,6 @@
 """
 All MO Sports - travel-limited playoff bracket optimizer, v2 (football and boys basketball).
- 
+
 What it does for each class
   1. Geocodes every school (U.S. Census batch geocoder; ZIP-center fallback).
   2. Pulls a full drive-time table from OSRM (chunked, so 100+ team classes work).
@@ -19,11 +19,11 @@ What it does for each class
      byes; first round is best-vs-worst inside each district.
   6. Scores the result AND MSHSAA's actual districts the same way
      (travel + competitive balance via Monte Carlo on the ratings).
- 
+
 Bracket size
   64 lines / 8 districts (<= 64 teams):  District QF/SF/Final, Quarterfinal, Semifinal, Championship
   128 lines / 16 districts (65-128):     District QF/SF/Final, Sectional, Quarterfinal, Semifinal, Championship
- 
+
 Main options
   --sport football|boys_basketball
   --district-limit H     max hours between any two teams in a district (default 3.0)
@@ -37,11 +37,16 @@ Main options
   --reseed               after districts, re-seed champions by seed (no geographic pairing)
   --bye-rule district|statewide
   --no-jumps / --games-through YYYY-MM-DD
+  --blend-points FILE    seed by a blend of OVR rating and MSHSAA district points, e.g.
+                         district_points_2026.json. Seeds decide byes, hosting and bracket
+                         placement; keeping strong teams apart still uses OVR rating.
+  --points-weight W      share of the blend from district points, 0-1 (default 0.5)
+  --blend-method z|rank  z = standardized scores (default); rank = weighted rank average
   --factor F|auto        scale OSRM times; 'auto' uses --calibration
   --calibration FILE     CSV team_a,team_b,minutes (e.g. Google Maps checks) -> recommended factor
   --sims N               Monte Carlo runs per bracket for the scorecard (default 4000)
   --sigma S              point-margin std dev for win probabilities (default: football 14, basketball 11)
- 
+
 Inputs / outputs per sport
   football        football_ratings_2026.json, football_games_2026_all.json,
                   football_school_addresses.csv -> playoff_brackets/
@@ -53,14 +58,14 @@ Inputs / outputs per sport
   Set OSRM_URL to use your own OSRM server.
 """
 import argparse, csv, io, itertools, json, math, os, random, statistics, sys, time
- 
+
 import requests
 from ortools.sat.python import cp_model
- 
+
 OSRM_URL = os.environ.get('OSRM_URL', 'https://router.project-osrm.org').rstrip('/')
 CENSUS_BATCH = 'https://geocoding.geo.census.gov/geocoder/locations/addressbatch'
 OSRM_CHUNK = 50
- 
+
 SPORTS = {
     'football': {
         'label': 'Football', 'sigma': 14.0,
@@ -77,37 +82,37 @@ SPORTS = {
         'out_dir': 'playoff_brackets_boys_basketball', 'cache_prefix': 'boys_basketball_',
     },
 }
- 
+
 PRESETS = {  # objective weights for stage 2 (travel term is in minutes)
     'balance':    {'top': 5000, 'pairs': 40, 'tiers': 200, 'travel': 1},
     'travel':     {'top': 500,  'pairs': 5,  'tiers': 50,  'travel': 8},
     'geographic': {'top': 0,    'pairs': 0,  'tiers': 0,   'travel': 10},
 }
- 
- 
+
+
 def log(*a):
     print(*a, flush=True)
- 
- 
+
+
 # =========================================================================== data
 def load_json(p, default=None):
     if os.path.exists(p):
         with open(p) as f:
             return json.load(f)
     return default
- 
- 
+
+
 def save_json(p, obj):
     os.makedirs(os.path.dirname(p) or '.', exist_ok=True)
     with open(p, 'w') as f:
         json.dump(obj, f, indent=1)
- 
- 
+
+
 def load_addresses(path):
     with open(path, newline='') as f:
         return {r['team']: r for r in csv.DictReader(f)}
- 
- 
+
+
 def load_ratings(path, season=None):
     js = load_json(path)
     if js is None:
@@ -123,8 +128,8 @@ def load_ratings(path, season=None):
             sys.exit(f'Season {season} not in {path}; available: {[s["year"] for s in seasons]}')
         s = hits[0]
     return s['teams'], s['year']
- 
- 
+
+
 def load_games(path):
     js = load_json(path)
     if js is None:
@@ -146,22 +151,22 @@ def load_games(path):
             games.append({'date': g.get('date'), 'team1': team, 'team2': opp, 'score1': ts, 'score2': os_,
                           'forfeit': bool(g.get('forfeit'))})
     return games
- 
- 
+
+
 # =========================================================================== geocoding
 def addr_key(a):
     return f"{a['street']}|{a['city']}|{a['zip']}".upper()
- 
- 
+
+
 def geocode(teams, addresses, cache_path='school_coords.json'):
     cache = load_json(cache_path, {})
     for t, (lat, lon) in load_json('coord_overrides.json', {}).items():
         cache[t] = {'lat': lat, 'lon': lon, 'source': 'override'}
- 
+
     def ok(t):
         c = cache.get(t)
         return c is not None and (c.get('source') == 'override' or c.get('addr', addr_key(addresses[t])) == addr_key(addresses[t]))
- 
+
     need = [t for t in teams if not ok(t)]
     if need:
         log(f'Geocoding {len(need)} schools with the Census batch geocoder...')
@@ -200,8 +205,8 @@ def geocode(teams, addresses, cache_path='school_coords.json'):
             log(f'  {fallback} schools had no street match (PO Box or rural route); using ZIP center')
         save_json(cache_path, cache)
     return {t: cache[t] for t in teams}
- 
- 
+
+
 # =========================================================================== drive times
 def osrm_table(points, src_idx, dst_idx):
     pts = ';'.join(f'{lon:.5f},{lat:.5f}' for lat, lon in points)
@@ -222,8 +227,8 @@ def osrm_table(points, src_idx, dst_idx):
             log(f'  OSRM attempt {attempt + 1} failed ({e}); retrying in {wait}s')
             time.sleep(wait)
     sys.exit(f'Could not get drive times from {OSRM_URL}')
- 
- 
+
+
 def drive_matrix(cls, teams, coords, prefix):
     path = f'drive_times/{prefix}class_{cls}.json'
     teams = sorted(teams)
@@ -248,8 +253,8 @@ def drive_matrix(cls, teams, coords, prefix):
             time.sleep(2)
     save_json(path, {'key': key, 'seconds': sec})
     return sec
- 
- 
+
+
 def calibrate(path, matrices):
     """CSV team_a,team_b,minutes (real-world drive time). Returns median real/OSRM ratio."""
     ratios, rows = [], []
@@ -271,12 +276,48 @@ def calibrate(path, matrices):
     f = statistics.median(ratios)
     log(f'Calibration: {len(ratios)} pairs, median real/OSRM = {f:.3f} (range {min(ratios):.2f}-{max(ratios):.2f})')
     return round(f, 3), rows
- 
- 
+
+
 # =========================================================================== seeding
-def make_seeds(cls, ratings, games, use_jumps=True):
+BLEND = {}   # team -> {'district_points', 'points_rank', 'blend_score'} when --blend-points is used
+
+
+def load_points(path):
+    """District points file: {key: [rows]} or [rows]; each row has team and total_points."""
+    d = json.load(open(path))
+    rows = [r for v in d.values() for r in v] if isinstance(d, dict) else d
+    return {r['team']: float(r['total_points']) for r in rows if r.get('total_points') is not None}
+
+
+def make_seeds(cls, ratings, games, use_jumps=True, points=None, points_weight=0.5, blend_method='z'):
     teams = sorted([t for t in ratings if t['classification'] == cls], key=lambda t: -t['ovr_rating'])
     order = [t['school'] for t in teams]
+    seeds = order[:]
+    if points is not None:
+        # Blend OVR rating with MSHSAA district points; ties go to the better OVR rank.
+        missing = [t for t in order if t not in points]
+        if missing:
+            log(f'Class {cls}: no district points for {missing}; they rank last on points')
+        by_pts = sorted(order, key=lambda t: (-points.get(t, float('-inf')), order.index(t)))
+        prank = {t: i + 1 for i, t in enumerate(by_pts)}
+        w = points_weight
+        if blend_method == 'rank':
+            # lower is better: weighted average of the two ranks
+            blend = {t: (1 - w) * (order.index(t) + 1) + w * prank[t] for t in order}
+            seeds = sorted(order, key=lambda t: (blend[t], order.index(t)))
+        else:
+            # higher is better: weighted average of standardized scores (value - class mean) / class SD
+            ov = [r['ovr_rating'] for r in teams]
+            pv = [points[t] for t in order if t in points]
+            mo, so = statistics.mean(ov), statistics.pstdev(ov) or 1
+            mp, sp = statistics.mean(pv), statistics.pstdev(pv) or 1
+            zr = {r['school']: (r['ovr_rating'] - mo) / so for r in teams}
+            low = (min(pv) - mp) / sp - 1 if pv else -1   # teams with no points rank last on points
+            zp = {t: (points[t] - mp) / sp if t in points else low for t in order}
+            blend = {t: (1 - w) * zr[t] + w * zp[t] for t in order}
+            seeds = sorted(order, key=lambda t: (-blend[t], order.index(t)))
+        for t in order:
+            BLEND[t] = {'district_points': points.get(t), 'points_rank': prank[t], 'blend_score': round(blend[t], 4)}
     wins, h2h = {}, {}
     for g in games:
         if g.get('score1') is None or g.get('score2') is None or g['score1'] == g['score2']:
@@ -286,7 +327,7 @@ def make_seeds(cls, ratings, games, use_jumps=True):
         h2h.setdefault((w, l), []).append(
             f"{g['date']}: {g['team1']} {g['score1']}, {g['team2']} {g['score2']}" + (' (forfeit)' if g.get('forfeit') else ''))
     beat = lambda a, b: wins.get((a, b), 0) > wins.get((b, a), 0)
-    seeds, moved, jumps, p = order[:], set(), [], 0
+    moved, jumps, p = set(), [], 0
     while use_jumps and p < len(seeds):
         top = seeds[p]
         cand = [q for q in range(p + 1, min(p + 6, len(seeds))) if seeds[q] not in moved and beat(seeds[q], top)]
@@ -302,8 +343,8 @@ def make_seeds(cls, ratings, games, use_jumps=True):
     rating = {t['school']: t['ovr_rating'] for t in teams}
     mshsaa_district = {t['school']: t.get('district') for t in teams}
     return seeds, order, rating, jumps, mshsaa_district
- 
- 
+
+
 # =========================================================================== bracket
 def bracket_order(n):
     o = [1]
@@ -311,8 +352,8 @@ def bracket_order(n):
         m = len(o) * 2 + 1
         o = [x for s in o for x in (s, m - s)]
     return o
- 
- 
+
+
 class Bracket:
     def __init__(self, n_teams):
         if n_teams <= 64:
@@ -334,18 +375,21 @@ class Bracket:
                            'Sectional', 'Quarterfinal', 'Semifinal', 'Championship']
             self.next_name = 'Sectional'
         self.byes = self.lines - n_teams
- 
- 
-def optimize_districts(seeds, tt, args, B, limit, next_lim, weights):
+
+
+def optimize_districts(seeds, tt, args, B, limit, next_lim, weights, strength=None):
+    """strength: teams best-first by OVR rating. Balance terms (keep strong teams apart)
+    use it; seeds decide byes. Without it, balance uses the seeds."""
     N = len(seeds)
     D = B.D
     seed = {t: i + 1 for i, t in enumerate(seeds)}
+    srank = {t: i + 1 for i, t in enumerate(strength or seeds)}
     pairs = list(itertools.combinations(seeds, 2))  # (better, worse) by seed
     hrs = {p: tt(*p) for p in pairs}
-    top = [t for t in seeds if seed[t] <= D]
-    strong = [t for t in seeds if seed[t] <= 2 * D]
+    top = [t for t in seeds if srank[t] <= D]
+    strong = [t for t in seeds if srank[t] <= 2 * D]
     n_tiers = math.ceil(N / D)
- 
+
     def build(full):
         m = cp_model.CpModel()
         y = {(t, d): m.NewBoolVar('') for t in seeds for d in range(D)}
@@ -379,7 +423,7 @@ def optimize_districts(seeds, tt, args, B, limit, next_lim, weights):
                 viol.append((w, a, b, B.next_name, h))
                 nxt[p] = w
         return m, y, z, over_terms, viol, nxt
- 
+
     def run(m, secs, must=True):
         s = cp_model.CpSolver()
         s.parameters.max_time_in_seconds = secs
@@ -389,7 +433,7 @@ def optimize_districts(seeds, tt, args, B, limit, next_lim, weights):
         if st not in (cp_model.OPTIMAL, cp_model.FEASIBLE) and must:
             sys.exit('Solver found no bracket at all (try a longer --time-limit)')
         return s, st
- 
+
     # ---- Stage 1: travel
     m, y, z, over, viol, nxt = build(full=False)
     m.Minimize(sum(over) if over else 0)
@@ -400,7 +444,7 @@ def optimize_districts(seeds, tt, args, B, limit, next_lim, weights):
     dist1 = {t: d for (t, d), v in hint.items() if v}
     stage1_districts = [sorted([t for t in seeds if dist1[t] == d], key=lambda t: seed[t]) for d in range(D)]
     stage1_viol = [{'team_a': a, 'team_b': b, 'round': r, 'hours': round(h, 2)} for v, a, b, r, h in viol if s1.Value(v)]
- 
+
     # ---- Stage 2: balance + compactness, travel held at best (+ slack)
     m, y, z, over, viol, nxt = build(full=True)
     pair_of = {}
@@ -423,11 +467,11 @@ def optimize_districts(seeds, tt, args, B, limit, next_lim, weights):
             groups.append((e, top, d))
     if weights['pairs']:
         for p in itertools.combinations(strong, 2):
-            wgt = (2 * D + 1 - seed[p[0]]) + (2 * D + 1 - seed[p[1]])
+            wgt = (2 * D + 1 - srank[p[0]]) + (2 * D + 1 - srank[p[1]])
             terms.append(weights['pairs'] * wgt * z[p])
     if weights['tiers']:
         for k in range(n_tiers):
-            tier = [t for t in seeds if k * D < seed[t] <= (k + 1) * D]
+            tier = [t for t in seeds if k * D < srank[t] <= (k + 1) * D]
             if len(tier) < 2:
                 continue
             for d in range(D):
@@ -455,8 +499,8 @@ def optimize_districts(seeds, tt, args, B, limit, next_lim, weights):
             'travel_allowance_used': allowance,
             'solve_seconds': round(s1.WallTime() + s.WallTime(), 1)}
     return districts, violations, info
- 
- 
+
+
 def order_districts(districts, seed, B, reseed):
     """Put district blocks on the bracket so top seeds follow standard seeding.
     Without reseed, solver-chosen district pairs (which share the next-round travel
@@ -477,8 +521,8 @@ def order_districts(districts, seed, B, reseed):
         k_hi, k_lo = sorted((2 * j, 2 * j + 1), key=lambda k: ideal[k])
         out[k_hi], out[k_lo] = districts[hi], districts[lo]
     return out
- 
- 
+
+
 def place_lines(districts, seed, bye_rule, B):
     line = {}
     for d, mem in enumerate(districts):
@@ -492,8 +536,8 @@ def place_lines(districts, seed, bye_rule, B):
             line[p[0]] = play[i]
             line[p[1]] = play[-1 - i]
     return line
- 
- 
+
+
 def mshsaa_districts(seeds, mdist, B):
     """MSHSAA's actual districts (from the ratings file), in district-number order."""
     groups = {}
@@ -507,22 +551,23 @@ def mshsaa_districts(seeds, mdist, B):
         return None, 'an MSHSAA district has more than 8 teams'
     seed = {t: i + 1 for i, t in enumerate(seeds)}
     return [sorted(groups[k], key=lambda t: seed[t]) for k in sorted(groups)], None
- 
- 
+
+
 # =========================================================================== scorecard
-def scorecard(line, seeds, rating, tt, B, limit, next_lim, sims, sigma, rng):
+def scorecard(line, seeds, rating, tt, B, limit, next_lim, sims, sigma, rng, strength=None):
     seed = {t: i + 1 for i, t in enumerate(seeds)}
+    srank = {t: i + 1 for i, t in enumerate(strength or seeds)}
     teams = [line.get(k) for k in range(B.lines)]
     D = B.D
     district_of = {t: k // 8 for k, t in enumerate(teams) if t}
     phi = lambda x: 0.5 * (1 + math.erf(x / math.sqrt(2)))
     pw = {}
- 
+
     def p_win(a, b):
         if (a, b) not in pw:
             pw[(a, b)] = phi((rating[a] - rating[b]) / sigma)
         return pw[(a, b)]
- 
+
     # chalk (higher seed always wins)
     chalk_d, chalk_n = [], []
     ent = teams[:]
@@ -537,8 +582,8 @@ def scorecard(line, seeds, rating, tt, B, limit, next_lim, sims, sigma, rng):
                 nxt.append(a or b)
         ent = nxt
     # Monte Carlo
-    top8 = {t for t in seeds if seed[t] <= 8}
-    top4 = {t for t in seeds if seed[t] <= 4}
+    top8 = {t for t in seeds if srank[t] <= 8}
+    top4 = {t for t in seeds if srank[t] <= 4}
     s1, s2 = seeds[0], seeds[1] if len(seeds) > 1 else None
     tot_d = n_d = tot_n = n_n = 0
     any_over = e_top8 = e_top4 = meet12 = champ1 = 0
@@ -570,8 +615,8 @@ def scorecard(line, seeds, rating, tt, B, limit, next_lim, sims, sigma, rng):
             ent = nxt
         champ1 += ent[0] == s1
         any_over += over
-    top_t = [t for t in seeds if seed[t] <= D]
-    strong = [t for t in seeds if seed[t] <= 2 * D]
+    top_t = [t for t in seeds if srank[t] <= D]
+    strong = [t for t in seeds if srank[t] <= 2 * D]
     dist_best = {}
     for t in teams:
         if t:
@@ -595,8 +640,8 @@ def scorecard(line, seeds, rating, tt, B, limit, next_lim, sims, sigma, rng):
         'p_1_vs_2_final': round(meet12 / sims, 3),
         'p_top_seed_champion': round(champ1 / sims, 3),
     }
- 
- 
+
+
 SC_LABELS = [
     ('chalk_district_game_avg_min', 'Avg district-round trip, expected matchups (min)', 'low'),
     ('chalk_district_game_max_min', 'Longest district-round trip, expected matchups (min)', 'low'),
@@ -612,14 +657,14 @@ SC_LABELS = [
     ('p_1_vs_2_final', 'Chance #1 and #2 meet in the final', 'high'),
     ('p_top_seed_champion', 'Chance the #1 seed wins', 'info'),
 ]
- 
- 
+
+
 # =========================================================================== reporting
 def fmt_h(h):
     mins = int(round(h * 60))
     return f'{mins // 60}h {mins % 60:02d}m'
- 
- 
+
+
 def write_outputs(cfg, out_dir, cls, season, seeds, order, rating, jumps, districts, line, violations, info,
                   tt, args, B, limit, next_lim, weights, sc, base_sc, base_line, base_note, factor):
     seed = {t: i + 1 for i, t in enumerate(seeds)}
@@ -632,7 +677,10 @@ def write_outputs(cfg, out_dir, cls, season, seeds, order, rating, jumps, distri
            'limits_hours': {'district_rounds': limit, B.next_name.lower(): None if args.reseed else next_lim},
            **info, 'violations': violations, 'scorecard': sc, 'mshsaa_scorecard': base_sc,
            'mshsaa_note': base_note,
-           'seeds': [{'seed': seed[t], 'team': t, 'ovr_rating': rating[t], 'rating_rank': order.index(t) + 1} for t in seeds],
+           'seeding': ({'method': 'blend', 'blend_method': args.blend_method, 'points_weight': args.points_weight,
+                        'points_file': args.blend_points, 'balance_by': 'OVR rating'} if BLEND else {'method': 'OVR rating'}),
+           'seeds': [dict({'seed': seed[t], 'team': t, 'ovr_rating': rating[t], 'rating_rank': order.index(t) + 1}, **BLEND.get(t, {}))
+                     for t in seeds],
            'jumps': jumps, 'districts': [], next_key: [], 'lines': [],
            'mshsaa_lines': [{'line': k + 1, 'team': base_line.get(k)} for k in range(B.lines)] if base_line else None}
     md = [f"# {cfg['label']} Class {cls} travel-limited bracket", '',
@@ -692,8 +740,8 @@ def write_outputs(cfg, out_dir, cls, season, seeds, order, rating, jumps, distri
     save_json(f'{out_dir}/class_{cls}.json', out)
     with open(f'{out_dir}/class_{cls}.md', 'w') as f:
         f.write('\n'.join(md) + '\n')
- 
- 
+
+
 # =========================================================================== main
 def parse_weights(args):
     w = dict(PRESETS[args.priority])
@@ -704,8 +752,8 @@ def parse_weights(args):
                 sys.exit(f'Unknown weight {k}; use top, pairs, tiers, travel')
             w[k.strip()] = int(float(v))
     return w
- 
- 
+
+
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument('--sport', choices=list(SPORTS), default='football')
@@ -726,6 +774,12 @@ def main():
     ap.add_argument('--reseed', action='store_true', help='re-seed district champions by seed after districts')
     ap.add_argument('--bye-rule', choices=['statewide', 'district'], default='district')
     ap.add_argument('--no-jumps', action='store_true')
+    ap.add_argument('--blend-points', metavar='FILE',
+                    help='seed by a blend of OVR rating and MSHSAA district points (e.g. district_points_2026.json)')
+    ap.add_argument('--points-weight', type=float, default=0.5,
+                    help='share of the blend from district points, 0-1 (default 0.5; 0.33 = 2/3 OVR)')
+    ap.add_argument('--blend-method', choices=['z', 'rank'], default='z',
+                    help='z = standardized scores (default); rank = weighted average of the two ranks')
     ap.add_argument('--games-through')
     ap.add_argument('--sims', type=int, default=4000)
     ap.add_argument('--sigma', type=float)
@@ -734,12 +788,13 @@ def main():
     ap.add_argument('--addresses')
     ap.add_argument('--season', type=int)
     args = ap.parse_args()
- 
+
     cfg = dict(SPORTS[args.sport])
     sigma = args.sigma or cfg['sigma']
     weights = parse_weights(args)
     ratings, season = load_ratings(args.ratings or cfg['ratings'], args.season)
     games = load_games(args.games or cfg['games'])
+    points = load_points(args.blend_points) if args.blend_points else None
     if args.games_through:
         games = [g for g in games if g.get('date') and str(g['date'])[:10] <= args.games_through]
     addresses = load_addresses(args.addresses or cfg['addresses'])
@@ -747,11 +802,12 @@ def main():
     limits = [float(x) for x in args.sweep.split(',')] if args.sweep else [args.district_limit]
     log(f"{cfg['label']}: {len(ratings)} rated teams" + (f' (season {season})' if season else '') +
         f', {len(games)} games for head-to-head; priority {args.priority} {weights}')
- 
+
     # ---- Phase 1: seeds, coordinates, drive times for every class
     prep, matrices = {}, {}
     for cls in classes:
-        seeds, order, rating, jumps, mdist = make_seeds(cls, ratings, games, use_jumps=not args.no_jumps)
+        seeds, order, rating, jumps, mdist = make_seeds(cls, ratings, games, use_jumps=not args.no_jumps, points=points,
+                                                        points_weight=args.points_weight, blend_method=args.blend_method)
         if not seeds:
             log(f'Class {cls}: no teams, skipping')
             continue
@@ -761,7 +817,7 @@ def main():
         coords = geocode(seeds, addresses)
         matrices[cls] = drive_matrix(cls, seeds, coords, cfg['cache_prefix'])
         prep[cls] = (seeds, order, rating, jumps, mdist)
- 
+
     calib_rows = None
     if args.factor == 'auto':
         if not args.calibration:
@@ -772,7 +828,7 @@ def main():
         if args.calibration:
             rec, calib_rows = calibrate(args.calibration, matrices)
             log(f'  (recommended --factor {rec}; using {factor})')
- 
+
     # ---- Phase 2: optimize + score
     summary = [f"# {cfg['label']} travel-limited playoff brackets", '',
                f'Priority {args.priority} {weights}. Travel slack {args.travel_slack_pct:g}% (+{args.travel_slack:g} min). Bye rule {args.bye_rule}. Reseed after districts: {args.reseed}. '
@@ -786,19 +842,20 @@ def main():
         tt = lambda a, b, sec=sec: max(sec[a + '|' + b], sec[b + '|' + a]) * factor / 3600
         B = Bracket(len(seeds))
         seed = {t: i + 1 for i, t in enumerate(seeds)}
+        strength = order if args.blend_points else None   # balance by OVR when seeds are blended
         base, base_note = mshsaa_districts(seeds, mdist, B)
         base_line = place_lines(base, seed, 'district', B) if base else None
         for limit in limits:
             out_dir = cfg['out_dir'] if len(limits) == 1 else f"{cfg['out_dir']}/limit_{limit:g}"
             log(f'Class {cls}: {B.D} districts, {len(seeds)} teams, district limit {limit} h '
                 f'(up to {args.time_limit:.0f}s)...')
-            districts, violations, info = optimize_districts(seeds, tt, args, B, limit, args.next_limit, weights)
+            districts, violations, info = optimize_districts(seeds, tt, args, B, limit, args.next_limit, weights, strength)
             districts = order_districts(districts, seed, B, args.reseed)
             line = place_lines(districts, seed, args.bye_rule, B)
             rng = random.Random(cls * 1000 + int(limit * 10))
-            sc = scorecard(line, seeds, rating, tt, B, limit, args.next_limit, args.sims, sigma, rng)
+            sc = scorecard(line, seeds, rating, tt, B, limit, args.next_limit, args.sims, sigma, rng, strength)
             base_sc = scorecard(base_line, seeds, rating, tt, B, limit, args.next_limit, args.sims, sigma,
-                                random.Random(cls * 1000 + int(limit * 10))) if base_line else None
+                                random.Random(cls * 1000 + int(limit * 10)), strength) if base_line else None
             write_outputs(cfg, out_dir, cls, season, seeds, order, rating, jumps, districts, line, violations, info,
                           tt, args, B, limit, args.next_limit, weights, sc, base_sc, base_line, base_note, factor)
             log(f"Class {cls} @ {limit} h: {len(violations)} violations, avg district trip {sc['chalk_district_game_avg_min']} min, "
@@ -818,7 +875,7 @@ def main():
     with open(f"{cfg['out_dir']}/README.md", 'w') as f:
         f.write('\n'.join(summary) + '\n')
     log(f"Done. See {cfg['out_dir']}/.")
- 
- 
+
+
 if __name__ == '__main__':
     main()
