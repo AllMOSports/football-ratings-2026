@@ -23,9 +23,9 @@
   "tiers": 200,
   "travel": 1
  },
- "drive_time_factor": 1.0,
+ "drive_time_factor": 0.82,
  "limits_hours": {
-  "district_rounds": 4.0,
+  "district_rounds": 3.5,
   "quarterfinal": null
  },
  "solver_status": "stage1 OPTIMAL, stage2 FEASIBLE",
@@ -35,367 +35,564 @@
  "solve_seconds": 360.1,
  "violations": [],
  "scorecard": {
-  "chalk_district_game_avg_min": 82.9,
-  "chalk_district_game_max_min": 220.6,
+  "chalk_district_game_avg_min": 69.4,
+  "chalk_district_game_max_min": 176.6,
   "chalk_district_games_over_limit": 0,
-  "chalk_next_round_max_min": 383.1,
-  "expected_district_game_min": 82.1,
-  "expected_next_round_game_min": 272.1,
+  "chalk_next_round_max_min": 272.1,
+  "expected_district_game_min": 67.4,
+  "expected_next_round_game_min": 168.2,
   "p_any_district_game_over_limit": 0.0,
   "top_seed_pairs_same_district": 0,
   "strong_pairs_same_district": 9,
   "weakest_district_best_seed": 8,
-  "district_best_rating_sd": 14.52,
-  "exp_top8_in_quarterfinals": 6.85,
-  "exp_top4_in_final_four": 2.92,
-  "p_1_vs_2_final": 0.835,
-  "p_top_seed_champion": 0.953
+  "district_best_rating_sd": 19.51,
+  "exp_top8_in_quarterfinals": 6.74,
+  "exp_top4_in_final_four": 2.41,
+  "p_1_vs_2_final": 0.855,
+  "p_top_seed_champion": 0.955
  },
  "mshsaa_scorecard": {
-  "chalk_district_game_avg_min": 64.7,
-  "chalk_district_game_max_min": 154.4,
+  "chalk_district_game_avg_min": 57.8,
+  "chalk_district_game_max_min": 178.1,
   "chalk_district_games_over_limit": 0,
-  "chalk_next_round_max_min": 171.4,
-  "expected_district_game_min": 65.8,
-  "expected_next_round_game_min": 117.1,
+  "chalk_next_round_max_min": 140.5,
+  "expected_district_game_min": 56.3,
+  "expected_next_round_game_min": 97.0,
   "p_any_district_game_over_limit": 0.0,
   "top_seed_pairs_same_district": 3,
   "strong_pairs_same_district": 11,
-  "weakest_district_best_seed": 15,
-  "district_best_rating_sd": 15.91,
-  "exp_top8_in_quarterfinals": 5.03,
-  "exp_top4_in_final_four": 1.62,
+  "weakest_district_best_seed": 18,
+  "district_best_rating_sd": 19.2,
+  "exp_top8_in_quarterfinals": 4.94,
+  "exp_top4_in_final_four": 1.61,
   "p_1_vs_2_final": 0.0,
-  "p_top_seed_champion": 0.947
+  "p_top_seed_champion": 0.945
  },
  "mshsaa_note": null,
+ "seeding": {
+  "method": "blend",
+  "blend_method": "z",
+  "points_weight": 0.5,
+  "points_file": "district_points_2026.json",
+  "balance_by": "OVR rating"
+ },
  "seeds": [
   {
    "seed": 1,
    "team": "Kearney",
    "ovr_rating": 71.45,
-   "rating_rank": 1
+   "rating_rank": 1,
+   "district_points": 56.1667,
+   "points_rank": 1,
+   "blend_score": 2.4384
   },
   {
    "seed": 2,
    "team": "Savannah",
    "ovr_rating": 48.66,
-   "rating_rank": 2
+   "rating_rank": 2,
+   "district_points": 48.3571,
+   "points_rank": 4,
+   "blend_score": 1.6486
   },
   {
    "seed": 3,
-   "team": "Lift for Life Academy Charter",
-   "ovr_rating": 30.66,
-   "rating_rank": 3
+   "team": "Logan-Rogersville",
+   "ovr_rating": 29.25,
+   "rating_rank": 5,
+   "district_points": 47.2926,
+   "points_rank": 5,
+   "blend_score": 1.2559
   },
   {
    "seed": 4,
-   "team": "Smithville",
-   "ovr_rating": 30.09,
-   "rating_rank": 4
+   "team": "Warrensburg",
+   "ovr_rating": 29.22,
+   "rating_rank": 6,
+   "district_points": 45.1944,
+   "points_rank": 7,
+   "blend_score": 1.1502
   },
   {
    "seed": 5,
-   "team": "Logan-Rogersville",
-   "ovr_rating": 29.25,
-   "rating_rank": 5
+   "team": "Festus",
+   "ovr_rating": 29.2,
+   "rating_rank": 7,
+   "district_points": 44.7222,
+   "points_rank": 8,
+   "blend_score": 1.1262
   },
   {
    "seed": 6,
-   "team": "Warrensburg",
-   "ovr_rating": 29.22,
-   "rating_rank": 6
+   "team": "University City",
+   "ovr_rating": 9.61,
+   "rating_rank": 21,
+   "district_points": 50.5238,
+   "points_rank": 2,
+   "blend_score": 1.0744
   },
   {
    "seed": 7,
-   "team": "Festus",
-   "ovr_rating": 29.2,
-   "rating_rank": 7
+   "team": "St. Charles West",
+   "ovr_rating": 5.85,
+   "rating_rank": 23,
+   "district_points": 50.0417,
+   "points_rank": 3,
+   "blend_score": 0.9845
   },
   {
    "seed": 8,
-   "team": "Hannibal",
-   "ovr_rating": 27.28,
-   "rating_rank": 8
+   "team": "Smithville",
+   "ovr_rating": 30.09,
+   "rating_rank": 4,
+   "district_points": 41.3016,
+   "points_rank": 12,
+   "blend_score": 0.9703
   },
   {
    "seed": 9,
-   "team": "Moberly",
-   "ovr_rating": 22.18,
-   "rating_rank": 9
+   "team": "Union",
+   "ovr_rating": 13.33,
+   "rating_rank": 17,
+   "district_points": 46.4306,
+   "points_rank": 6,
+   "blend_score": 0.9343
   },
   {
    "seed": 10,
-   "team": "Odessa",
-   "ovr_rating": 21.82,
-   "rating_rank": 10
+   "team": "Moberly",
+   "ovr_rating": 22.18,
+   "rating_rank": 9,
+   "district_points": 43.3175,
+   "points_rank": 11,
+   "blend_score": 0.9331
   },
   {
    "seed": 11,
-   "team": "Carl Junction",
-   "ovr_rating": 20.99,
-   "rating_rank": 11
+   "team": "Sikeston",
+   "ovr_rating": 15.32,
+   "rating_rank": 14,
+   "district_points": 44.4861,
+   "points_rank": 9,
+   "blend_score": 0.8717
   },
   {
    "seed": 12,
-   "team": "Pleasant Hill",
-   "ovr_rating": 18.84,
-   "rating_rank": 12
+   "team": "Hannibal",
+   "ovr_rating": 27.28,
+   "rating_rank": 8,
+   "district_points": 39.5694,
+   "points_rank": 16,
+   "blend_score": 0.8344
   },
   {
    "seed": 13,
-   "team": "Hillsboro",
-   "ovr_rating": 18.22,
-   "rating_rank": 13
+   "team": "Lift for Life Academy Charter",
+   "ovr_rating": 30.66,
+   "rating_rank": 3,
+   "district_points": 37.746,
+   "points_rank": 18,
+   "blend_score": 0.8021
   },
   {
    "seed": 14,
-   "team": "Sikeston",
-   "ovr_rating": 15.32,
-   "rating_rank": 14
+   "team": "Parkway North",
+   "ovr_rating": 11.8,
+   "rating_rank": 19,
+   "district_points": 43.625,
+   "points_rank": 10,
+   "blend_score": 0.767
   },
   {
    "seed": 15,
-   "team": "Vianney",
-   "ovr_rating": 14.17,
-   "rating_rank": 15
+   "team": "Hillsboro",
+   "ovr_rating": 18.22,
+   "rating_rank": 13,
+   "district_points": 40.1389,
+   "points_rank": 15,
+   "blend_score": 0.7045
   },
   {
    "seed": 16,
-   "team": "Bolivar",
-   "ovr_rating": 13.74,
-   "rating_rank": 16
+   "team": "Sullivan",
+   "ovr_rating": 13.09,
+   "rating_rank": 18,
+   "district_points": 40.4167,
+   "points_rank": 14,
+   "blend_score": 0.6288
   },
   {
    "seed": 17,
-   "team": "Union",
-   "ovr_rating": 13.33,
-   "rating_rank": 17
+   "team": "Carl Junction",
+   "ovr_rating": 20.99,
+   "rating_rank": 11,
+   "district_points": 37.3224,
+   "points_rank": 19,
+   "blend_score": 0.6118
   },
   {
    "seed": 18,
-   "team": "Sullivan",
-   "ovr_rating": 13.09,
-   "rating_rank": 18
+   "team": "Odessa",
+   "ovr_rating": 21.82,
+   "rating_rank": 10,
+   "district_points": 36.2598,
+   "points_rank": 23,
+   "blend_score": 0.5731
   },
   {
    "seed": 19,
-   "team": "Parkway North",
-   "ovr_rating": 11.8,
-   "rating_rank": 19
+   "team": "Pleasant Hill",
+   "ovr_rating": 18.84,
+   "rating_rank": 12,
+   "district_points": 34.4167,
+   "points_rank": 27,
+   "blend_score": 0.4286
   },
   {
    "seed": 20,
-   "team": "Monett",
-   "ovr_rating": 10.32,
-   "rating_rank": 20
+   "team": "Bolivar",
+   "ovr_rating": 13.74,
+   "rating_rank": 16,
+   "district_points": 35.2332,
+   "points_rank": 25,
+   "blend_score": 0.3804
   },
   {
    "seed": 21,
-   "team": "University City",
-   "ovr_rating": 9.61,
-   "rating_rank": 21
+   "team": "Orchard Farm",
+   "ovr_rating": -4.47,
+   "rating_rank": 34,
+   "district_points": 40.4583,
+   "points_rank": 13,
+   "blend_score": 0.3238
   },
   {
    "seed": 22,
-   "team": "Harrisonville",
-   "ovr_rating": 8.92,
-   "rating_rank": 22
+   "team": "Warrenton",
+   "ovr_rating": 2.05,
+   "rating_rank": 27,
+   "district_points": 38.7778,
+   "points_rank": 17,
+   "blend_score": 0.3536
   },
   {
    "seed": 23,
-   "team": "St. Charles West",
-   "ovr_rating": 5.85,
-   "rating_rank": 23
+   "team": "Vianney",
+   "ovr_rating": 14.17,
+   "rating_rank": 15,
+   "district_points": 33.2379,
+   "points_rank": 30,
+   "blend_score": 0.2879
   },
   {
    "seed": 24,
-   "team": "Kirksville",
-   "ovr_rating": 5.37,
-   "rating_rank": 24
+   "team": "North County",
+   "ovr_rating": 1.35,
+   "rating_rank": 29,
+   "district_points": 36.6111,
+   "points_rank": 22,
+   "blend_score": 0.2328
   },
   {
    "seed": 25,
-   "team": "Benton",
-   "ovr_rating": 2.4,
-   "rating_rank": 25
+   "team": "Raytown South",
+   "ovr_rating": 2.17,
+   "rating_rank": 26,
+   "district_points": 35.8611,
+   "points_rank": 24,
+   "blend_score": 0.2096
   },
   {
    "seed": 26,
-   "team": "Raytown South",
-   "ovr_rating": 2.17,
-   "rating_rank": 26
+   "team": "Westminster Christian Academy",
+   "ovr_rating": -1.72,
+   "rating_rank": 32,
+   "district_points": 36.6473,
+   "points_rank": 21,
+   "blend_score": 0.1809
   },
   {
    "seed": 27,
-   "team": "Warrenton",
-   "ovr_rating": 2.05,
-   "rating_rank": 27
+   "team": "Benton",
+   "ovr_rating": 2.4,
+   "rating_rank": 25,
+   "district_points": 33.7183,
+   "points_rank": 28,
+   "blend_score": 0.1062
   },
   {
    "seed": 28,
-   "team": "McDonald County",
-   "ovr_rating": 1.69,
-   "rating_rank": 28
+   "team": "Gateway with Soldan International Studies",
+   "ovr_rating": -6.57,
+   "rating_rank": 36,
+   "district_points": 34.9008,
+   "points_rank": 26,
+   "blend_score": 0.0086
   },
   {
    "seed": 29,
-   "team": "North County",
-   "ovr_rating": 1.35,
-   "rating_rank": 29
+   "team": "Monett",
+   "ovr_rating": 10.32,
+   "rating_rank": 20,
+   "district_points": 27.5368,
+   "points_rank": 34,
+   "blend_score": -0.0651
   },
   {
    "seed": 30,
-   "team": "Marshfield",
-   "ovr_rating": 0.22,
-   "rating_rank": 30
+   "team": "DeSoto",
+   "ovr_rating": -4.24,
+   "rating_rank": 33,
+   "district_points": 32.1111,
+   "points_rank": 31,
+   "blend_score": -0.0904
   },
   {
    "seed": 31,
-   "team": "Osage",
-   "ovr_rating": -1.02,
-   "rating_rank": 31
+   "team": "Jennings",
+   "ovr_rating": -19.34,
+   "rating_rank": 41,
+   "district_points": 33.381,
+   "points_rank": 29,
+   "blend_score": -0.2908
   },
   {
    "seed": 32,
-   "team": "Westminster Christian Academy",
-   "ovr_rating": -1.72,
-   "rating_rank": 32
+   "team": "Harrisonville",
+   "ovr_rating": 8.92,
+   "rating_rank": 22,
+   "district_points": 23.4127,
+   "points_rank": 43,
+   "blend_score": -0.2963
   },
   {
    "seed": 33,
-   "team": "DeSoto",
-   "ovr_rating": -4.24,
-   "rating_rank": 33
+   "team": "Central (Kansas City)",
+   "ovr_rating": -29.76,
+   "rating_rank": 47,
+   "district_points": 36.746,
+   "points_rank": 20,
+   "blend_score": -0.3044
   },
   {
    "seed": 34,
-   "team": "Orchard Farm",
-   "ovr_rating": -4.47,
-   "rating_rank": 34
+   "team": "Van Horn",
+   "ovr_rating": -9.03,
+   "rating_rank": 38,
+   "district_points": 29.5,
+   "points_rank": 33,
+   "blend_score": -0.305
   },
   {
    "seed": 35,
-   "team": "Hillcrest",
-   "ovr_rating": -6.45,
-   "rating_rank": 35
+   "team": "Osage",
+   "ovr_rating": -1.02,
+   "rating_rank": 31,
+   "district_points": 26.3333,
+   "points_rank": 37,
+   "blend_score": -0.3237
   },
   {
    "seed": 36,
-   "team": "Gateway with Soldan International Studies",
-   "ovr_rating": -6.57,
-   "rating_rank": 36
+   "team": "Kirksville",
+   "ovr_rating": 5.37,
+   "rating_rank": 24,
+   "district_points": 22.9722,
+   "points_rank": 45,
+   "blend_score": -0.3804
   },
   {
    "seed": 37,
-   "team": "Mexico",
-   "ovr_rating": -7.0,
-   "rating_rank": 37
+   "team": "McDonald County",
+   "ovr_rating": 1.69,
+   "rating_rank": 28,
+   "district_points": 23.4554,
+   "points_rank": 42,
+   "blend_score": -0.4205
   },
   {
    "seed": 38,
-   "team": "Van Horn",
-   "ovr_rating": -9.03,
-   "rating_rank": 38
+   "team": "Hillcrest",
+   "ovr_rating": -6.45,
+   "rating_rank": 35,
+   "district_points": 25.5312,
+   "points_rank": 38,
+   "blend_score": -0.4588
   },
   {
    "seed": 39,
-   "team": "Holt",
-   "ovr_rating": -13.99,
-   "rating_rank": 39
+   "team": "Marshfield",
+   "ovr_rating": 0.22,
+   "rating_rank": 30,
+   "district_points": 24.6776,
+   "points_rank": 40,
+   "blend_score": -0.385
   },
   {
    "seed": 40,
    "team": "Riverview Gardens",
    "ovr_rating": -19.04,
-   "rating_rank": 40
+   "rating_rank": 40,
+   "district_points": 29.9624,
+   "points_rank": 32,
+   "blend_score": -0.4569
   },
   {
    "seed": 41,
-   "team": "Jennings",
-   "ovr_rating": -19.34,
-   "rating_rank": 41
+   "team": "Mexico",
+   "ovr_rating": -7.0,
+   "rating_rank": 37,
+   "district_points": 24.7361,
+   "points_rank": 39,
+   "blend_score": -0.5083
   },
   {
    "seed": 42,
-   "team": "Excelsior Springs",
-   "ovr_rating": -19.4,
-   "rating_rank": 42
+   "team": "Holt",
+   "ovr_rating": -13.99,
+   "rating_rank": 39,
+   "district_points": 26.9583,
+   "points_rank": 35,
+   "blend_score": -0.5191
   },
   {
    "seed": 43,
-   "team": "Pacific",
-   "ovr_rating": -22.88,
-   "rating_rank": 43
+   "team": "Excelsior Springs",
+   "ovr_rating": -19.4,
+   "rating_rank": 42,
+   "district_points": 21.9484,
+   "points_rank": 48,
+   "blend_score": -0.8648
   },
   {
    "seed": 44,
-   "team": "University Academy Charter with Ewing Marion Kauffman",
-   "ovr_rating": -23.23,
-   "rating_rank": 44
+   "team": "Windsor (Imperial)",
+   "ovr_rating": -28.72,
+   "rating_rank": 46,
+   "district_points": 23.8571,
+   "points_rank": 41,
+   "blend_score": -0.9321
   },
   {
    "seed": 45,
-   "team": "Marshall",
-   "ovr_rating": -27.08,
-   "rating_rank": 45
+   "team": "University Academy Charter with Ewing Marion Kauffman",
+   "ovr_rating": -23.23,
+   "rating_rank": 44,
+   "district_points": 21.385,
+   "points_rank": 49,
+   "blend_score": -0.96
   },
   {
    "seed": 46,
-   "team": "Windsor (Imperial)",
-   "ovr_rating": -28.72,
-   "rating_rank": 46
+   "team": "Pacific",
+   "ovr_rating": -22.88,
+   "rating_rank": 43,
+   "district_points": 21.1667,
+   "points_rank": 50,
+   "blend_score": -0.9648
   },
   {
    "seed": 47,
-   "team": "Central (Kansas City)",
-   "ovr_rating": -29.76,
-   "rating_rank": 47
+   "team": "Marshall",
+   "ovr_rating": -27.08,
+   "rating_rank": 45,
+   "district_points": 18.3611,
+   "points_rank": 51,
+   "blend_score": -1.1788
   },
   {
    "seed": 48,
-   "team": "Knob Noster with Leeton",
-   "ovr_rating": -44.23,
-   "rating_rank": 48
+   "team": "Affton",
+   "ovr_rating": -55.43,
+   "rating_rank": 52,
+   "district_points": 26.77,
+   "points_rank": 36,
+   "blend_score": -1.2531
   },
   {
    "seed": 49,
    "team": "St. Charles",
    "ovr_rating": -45.2,
-   "rating_rank": 49
+   "rating_rank": 49,
+   "district_points": 22.8472,
+   "points_rank": 46,
+   "blend_score": -1.2708
   },
   {
    "seed": 50,
-   "team": "Clayton with Brentwood",
-   "ovr_rating": -51.55,
-   "rating_rank": 50
+   "team": "Bayless with Hancock",
+   "ovr_rating": -53.2,
+   "rating_rank": 51,
+   "district_points": 22.7361,
+   "points_rank": 47,
+   "blend_score": -1.4163
   },
   {
    "seed": 51,
-   "team": "Bayless with Hancock",
-   "ovr_rating": -53.2,
-   "rating_rank": 51
+   "team": "Northeast (Kansas City)",
+   "ovr_rating": -58.19,
+   "rating_rank": 53,
+   "district_points": 23.2222,
+   "points_rank": 44,
+   "blend_score": -1.4792
   },
   {
    "seed": 52,
-   "team": "Affton",
-   "ovr_rating": -55.43,
-   "rating_rank": 52
+   "team": "Knob Noster with Leeton",
+   "ovr_rating": -44.23,
+   "rating_rank": 48,
+   "district_points": 15.6528,
+   "points_rank": 53,
+   "blend_score": -1.6144
   },
   {
    "seed": 53,
-   "team": "Northeast (Kansas City)",
-   "ovr_rating": -58.19,
-   "rating_rank": 53
+   "team": "Clayton with Brentwood",
+   "ovr_rating": -51.55,
+   "rating_rank": 50,
+   "district_points": 16.3056,
+   "points_rank": 52,
+   "blend_score": -1.7097
   },
   {
    "seed": 54,
    "team": "East (Kansas City)",
    "ovr_rating": -84.64,
-   "rating_rank": 54
+   "rating_rank": 54,
+   "district_points": 14.6111,
+   "points_rank": 54,
+   "blend_score": -2.3731
   }
  ],
- "jumps": [],
+ "jumps": [
+  {
+   "team": "Orchard Farm",
+   "jumped": "Warrenton",
+   "from_seed": 22,
+   "to_seed": 21,
+   "result": [
+    "2026-10-02: Warrenton 40, Orchard Farm 41"
+   ]
+  },
+  {
+   "team": "McDonald County",
+   "jumped": "Marshfield",
+   "from_seed": 38,
+   "to_seed": 37,
+   "result": [
+    "2026-08-28: McDonald County 26, Marshfield 22"
+   ]
+  },
+  {
+   "team": "Hillcrest",
+   "jumped": "Marshfield",
+   "from_seed": 40,
+   "to_seed": 38,
+   "result": [
+    "2026-10-09: Marshfield 13, Hillcrest 34"
+   ]
+  }
+ ],
  "districts": [
   {
    "district": 1,
@@ -405,24 +602,24 @@
      "team": "Kearney"
     },
     {
-     "seed": 9,
+     "seed": 10,
      "team": "Moberly"
     },
     {
-     "seed": 24,
-     "team": "Kirksville"
-    },
-    {
-     "seed": 31,
+     "seed": 35,
      "team": "Osage"
     },
     {
-     "seed": 45,
-     "team": "Marshall"
+     "seed": 36,
+     "team": "Kirksville"
     },
     {
-     "seed": 48,
-     "team": "Knob Noster with Leeton"
+     "seed": 41,
+     "team": "Mexico"
+    },
+    {
+     "seed": 47,
+     "team": "Marshall"
     }
    ],
    "byes": [
@@ -431,98 +628,44 @@
    ],
    "dqf_games": [
     {
-     "home": "Osage",
-     "away": "Marshall",
-     "drive_h": 2.2
+     "home": "Kirksville",
+     "away": "Mexico",
+     "drive_h": 1.62
     },
     {
-     "home": "Kirksville",
-     "away": "Knob Noster with Leeton",
-     "drive_h": 3.47
+     "home": "Osage",
+     "away": "Marshall",
+     "drive_h": 1.81
     }
    ],
-   "max_drive_h": 3.68
+   "max_drive_h": 3.02
   },
   {
    "district": 2,
    "teams": [
     {
      "seed": 8,
-     "team": "Hannibal"
-    },
-    {
-     "seed": 15,
-     "team": "Vianney"
-    },
-    {
-     "seed": 19,
-     "team": "Parkway North"
-    },
-    {
-     "seed": 23,
-     "team": "St. Charles West"
-    },
-    {
-     "seed": 32,
-     "team": "Westminster Christian Academy"
-    },
-    {
-     "seed": 34,
-     "team": "Orchard Farm"
-    },
-    {
-     "seed": 50,
-     "team": "Clayton with Brentwood"
-    }
-   ],
-   "byes": [
-    "Hannibal"
-   ],
-   "dqf_games": [
-    {
-     "home": "St. Charles West",
-     "away": "Westminster Christian Academy",
-     "drive_h": 0.38
-    },
-    {
-     "home": "Vianney",
-     "away": "Clayton with Brentwood",
-     "drive_h": 0.27
-    },
-    {
-     "home": "Parkway North",
-     "away": "Orchard Farm",
-     "drive_h": 0.36
-    }
-   ],
-   "max_drive_h": 2.27
-  },
-  {
-   "district": 3,
-   "teams": [
-    {
-     "seed": 4,
      "team": "Smithville"
     },
     {
-     "seed": 12,
+     "seed": 19,
      "team": "Pleasant Hill"
     },
     {
-     "seed": 22,
-     "team": "Harrisonville"
-    },
-    {
-     "seed": 26,
+     "seed": 25,
      "team": "Raytown South"
     },
     {
-     "seed": 44,
+     "seed": 32,
+     "team": "Harrisonville"
+    },
+    {
+     "seed": 45,
      "team": "University Academy Charter with Ewing Marion Kauffman"
     },
     {
-     "seed": 47,
-     "team": "Central (Kansas City)"
+     "seed": 52,
+     "team": "Knob Noster with Leeton"
     },
     {
      "seed": 54,
@@ -534,152 +677,98 @@
    ],
    "dqf_games": [
     {
-     "home": "Raytown South",
+     "home": "Harrisonville",
      "away": "University Academy Charter with Ewing Marion Kauffman",
-     "drive_h": 0.26
+     "drive_h": 0.55
     },
     {
      "home": "Pleasant Hill",
      "away": "East (Kansas City)",
-     "drive_h": 0.84
+     "drive_h": 0.69
     },
     {
-     "home": "Harrisonville",
-     "away": "Central (Kansas City)",
-     "drive_h": 0.79
+     "home": "Raytown South",
+     "away": "Knob Noster with Leeton",
+     "drive_h": 0.94
     }
    ],
-   "max_drive_h": 1.28
+   "max_drive_h": 1.51
+  },
+  {
+   "district": 3,
+   "teams": [
+    {
+     "seed": 4,
+     "team": "Warrensburg"
+    },
+    {
+     "seed": 9,
+     "team": "Union"
+    },
+    {
+     "seed": 22,
+     "team": "Warrenton"
+    },
+    {
+     "seed": 42,
+     "team": "Holt"
+    },
+    {
+     "seed": 46,
+     "team": "Pacific"
+    },
+    {
+     "seed": 53,
+     "team": "Clayton with Brentwood"
+    }
+   ],
+   "byes": [
+    "Warrensburg",
+    "Union"
+   ],
+   "dqf_games": [
+    {
+     "home": "Holt",
+     "away": "Pacific",
+     "drive_h": 0.8
+    },
+    {
+     "home": "Warrenton",
+     "away": "Clayton with Brentwood",
+     "drive_h": 0.98
+    }
+   ],
+   "max_drive_h": 3.41
   },
   {
    "district": 4,
    "teams": [
     {
      "seed": 5,
-     "team": "Logan-Rogersville"
-    },
-    {
-     "seed": 11,
-     "team": "Carl Junction"
-    },
-    {
-     "seed": 16,
-     "team": "Bolivar"
-    },
-    {
-     "seed": 20,
-     "team": "Monett"
-    },
-    {
-     "seed": 28,
-     "team": "McDonald County"
-    },
-    {
-     "seed": 30,
-     "team": "Marshfield"
-    },
-    {
-     "seed": 35,
-     "team": "Hillcrest"
-    }
-   ],
-   "byes": [
-    "Logan-Rogersville"
-   ],
-   "dqf_games": [
-    {
-     "home": "Monett",
-     "away": "McDonald County",
-     "drive_h": 1.03
-    },
-    {
-     "home": "Carl Junction",
-     "away": "Hillcrest",
-     "drive_h": 1.57
-    },
-    {
-     "home": "Bolivar",
-     "away": "Marshfield",
-     "drive_h": 1.08
-    }
-   ],
-   "max_drive_h": 2.36
-  },
-  {
-   "district": 5,
-   "teams": [
-    {
-     "seed": 2,
-     "team": "Savannah"
-    },
-    {
-     "seed": 10,
-     "team": "Odessa"
-    },
-    {
-     "seed": 25,
-     "team": "Benton"
-    },
-    {
-     "seed": 38,
-     "team": "Van Horn"
-    },
-    {
-     "seed": 42,
-     "team": "Excelsior Springs"
-    },
-    {
-     "seed": 53,
-     "team": "Northeast (Kansas City)"
-    }
-   ],
-   "byes": [
-    "Savannah",
-    "Odessa"
-   ],
-   "dqf_games": [
-    {
-     "home": "Van Horn",
-     "away": "Excelsior Springs",
-     "drive_h": 0.6
-    },
-    {
-     "home": "Benton",
-     "away": "Northeast (Kansas City)",
-     "drive_h": 1.1
-    }
-   ],
-   "max_drive_h": 2.04
-  },
-  {
-   "district": 6,
-   "teams": [
-    {
-     "seed": 7,
      "team": "Festus"
     },
     {
-     "seed": 13,
+     "seed": 15,
      "team": "Hillsboro"
     },
     {
-     "seed": 18,
+     "seed": 16,
      "team": "Sullivan"
     },
     {
-     "seed": 29,
+     "seed": 24,
      "team": "North County"
     },
     {
-     "seed": 33,
+     "seed": 30,
      "team": "DeSoto"
     },
     {
-     "seed": 46,
+     "seed": 44,
      "team": "Windsor (Imperial)"
     },
     {
-     "seed": 51,
+     "seed": 50,
      "team": "Bayless with Hancock"
     }
    ],
@@ -690,101 +779,101 @@
     {
      "home": "North County",
      "away": "DeSoto",
-     "drive_h": 0.52
+     "drive_h": 0.42
     },
     {
      "home": "Hillsboro",
      "away": "Bayless with Hancock",
-     "drive_h": 0.69
+     "drive_h": 0.56
     },
     {
      "home": "Sullivan",
      "away": "Windsor (Imperial)",
-     "drive_h": 1.3
+     "drive_h": 1.06
     }
    ],
-   "max_drive_h": 1.53
+   "max_drive_h": 1.25
   },
   {
-   "district": 7,
+   "district": 5,
    "teams": [
     {
-     "seed": 3,
-     "team": "Lift for Life Academy Charter"
+     "seed": 2,
+     "team": "Savannah"
     },
     {
-     "seed": 14,
-     "team": "Sikeston"
-    },
-    {
-     "seed": 21,
-     "team": "University City"
-    },
-    {
-     "seed": 36,
-     "team": "Gateway with Soldan International Studies"
-    },
-    {
-     "seed": 40,
-     "team": "Riverview Gardens"
-    },
-    {
-     "seed": 41,
-     "team": "Jennings"
-    },
-    {
-     "seed": 52,
-     "team": "Affton"
-    }
-   ],
-   "byes": [
-    "Lift for Life Academy Charter"
-   ],
-   "dqf_games": [
-    {
-     "home": "Gateway with Soldan International Studies",
-     "away": "Riverview Gardens",
-     "drive_h": 0.4
-    },
-    {
-     "home": "Sikeston",
-     "away": "Affton",
-     "drive_h": 2.56
-    },
-    {
-     "home": "University City",
-     "away": "Jennings",
-     "drive_h": 0.27
-    }
-   ],
-   "max_drive_h": 2.98
-  },
-  {
-   "district": 8,
-   "teams": [
-    {
-     "seed": 6,
-     "team": "Warrensburg"
-    },
-    {
-     "seed": 17,
-     "team": "Union"
+     "seed": 18,
+     "team": "Odessa"
     },
     {
      "seed": 27,
-     "team": "Warrenton"
+     "team": "Benton"
     },
     {
-     "seed": 37,
-     "team": "Mexico"
+     "seed": 33,
+     "team": "Central (Kansas City)"
     },
     {
-     "seed": 39,
-     "team": "Holt"
+     "seed": 34,
+     "team": "Van Horn"
     },
     {
      "seed": 43,
-     "team": "Pacific"
+     "team": "Excelsior Springs"
+    },
+    {
+     "seed": 51,
+     "team": "Northeast (Kansas City)"
+    }
+   ],
+   "byes": [
+    "Savannah"
+   ],
+   "dqf_games": [
+    {
+     "home": "Central (Kansas City)",
+     "away": "Van Horn",
+     "drive_h": 0.17
+    },
+    {
+     "home": "Odessa",
+     "away": "Northeast (Kansas City)",
+     "drive_h": 0.64
+    },
+    {
+     "home": "Benton",
+     "away": "Excelsior Springs",
+     "drive_h": 1.02
+    }
+   ],
+   "max_drive_h": 1.67
+  },
+  {
+   "district": 6,
+   "teams": [
+    {
+     "seed": 7,
+     "team": "St. Charles West"
+    },
+    {
+     "seed": 12,
+     "team": "Hannibal"
+    },
+    {
+     "seed": 14,
+     "team": "Parkway North"
+    },
+    {
+     "seed": 21,
+     "team": "Orchard Farm"
+    },
+    {
+     "seed": 23,
+     "team": "Vianney"
+    },
+    {
+     "seed": 26,
+     "team": "Westminster Christian Academy"
     },
     {
      "seed": 49,
@@ -792,26 +881,134 @@
     }
    ],
    "byes": [
-    "Warrensburg"
+    "St. Charles West"
    ],
    "dqf_games": [
     {
-     "home": "Mexico",
-     "away": "Holt",
-     "drive_h": 1.58
+     "home": "Orchard Farm",
+     "away": "Vianney",
+     "drive_h": 0.47
     },
     {
-     "home": "Union",
+     "home": "Hannibal",
      "away": "St. Charles",
-     "drive_h": 1.22
+     "drive_h": 1.63
     },
     {
-     "home": "Warrenton",
-     "away": "Pacific",
-     "drive_h": 0.98
+     "home": "Parkway North",
+     "away": "Westminster Christian Academy",
+     "drive_h": 0.13
     }
    ],
-   "max_drive_h": 3.94
+   "max_drive_h": 1.85
+  },
+  {
+   "district": 7,
+   "teams": [
+    {
+     "seed": 3,
+     "team": "Logan-Rogersville"
+    },
+    {
+     "seed": 17,
+     "team": "Carl Junction"
+    },
+    {
+     "seed": 20,
+     "team": "Bolivar"
+    },
+    {
+     "seed": 29,
+     "team": "Monett"
+    },
+    {
+     "seed": 37,
+     "team": "McDonald County"
+    },
+    {
+     "seed": 38,
+     "team": "Hillcrest"
+    },
+    {
+     "seed": 39,
+     "team": "Marshfield"
+    }
+   ],
+   "byes": [
+    "Logan-Rogersville"
+   ],
+   "dqf_games": [
+    {
+     "home": "Monett",
+     "away": "McDonald County",
+     "drive_h": 0.85
+    },
+    {
+     "home": "Carl Junction",
+     "away": "Marshfield",
+     "drive_h": 1.65
+    },
+    {
+     "home": "Bolivar",
+     "away": "Hillcrest",
+     "drive_h": 0.53
+    }
+   ],
+   "max_drive_h": 1.93
+  },
+  {
+   "district": 8,
+   "teams": [
+    {
+     "seed": 6,
+     "team": "University City"
+    },
+    {
+     "seed": 11,
+     "team": "Sikeston"
+    },
+    {
+     "seed": 13,
+     "team": "Lift for Life Academy Charter"
+    },
+    {
+     "seed": 28,
+     "team": "Gateway with Soldan International Studies"
+    },
+    {
+     "seed": 31,
+     "team": "Jennings"
+    },
+    {
+     "seed": 40,
+     "team": "Riverview Gardens"
+    },
+    {
+     "seed": 48,
+     "team": "Affton"
+    }
+   ],
+   "byes": [
+    "University City"
+   ],
+   "dqf_games": [
+    {
+     "home": "Gateway with Soldan International Studies",
+     "away": "Jennings",
+     "drive_h": 0.26
+    },
+    {
+     "home": "Sikeston",
+     "away": "Affton",
+     "drive_h": 2.1
+    },
+    {
+     "home": "Lift for Life Academy Charter",
+     "away": "Riverview Gardens",
+     "drive_h": 0.29
+    }
+   ],
+   "max_drive_h": 2.45
   }
  ],
  "quarterfinals": [
@@ -820,28 +1017,28 @@
     1,
     2
    ],
-   "max_drive_h": 4.91
+   "max_drive_h": 3.44
   },
   {
    "districts": [
     3,
     4
    ],
-   "max_drive_h": 4.13
+   "max_drive_h": 4.17
   },
   {
    "districts": [
     5,
     6
    ],
-   "max_drive_h": 6.85
+   "max_drive_h": 4.8
   },
   {
    "districts": [
     7,
     8
    ],
-   "max_drive_h": 6.65
+   "max_drive_h": 5.21
   }
  ],
  "lines": [
@@ -860,20 +1057,20 @@
   {
    "line": 3,
    "ideal_seed": 32,
-   "team": "Osage",
-   "seed": 31
+   "team": "Kirksville",
+   "seed": 36
   },
   {
    "line": 4,
    "ideal_seed": 33,
-   "team": "Marshall",
-   "seed": 45
+   "team": "Mexico",
+   "seed": 41
   },
   {
    "line": 5,
    "ideal_seed": 16,
    "team": "Moberly",
-   "seed": 9
+   "seed": 10
   },
   {
    "line": 6,
@@ -884,19 +1081,19 @@
   {
    "line": 7,
    "ideal_seed": 17,
-   "team": "Kirksville",
-   "seed": 24
+   "team": "Osage",
+   "seed": 35
   },
   {
    "line": 8,
    "ideal_seed": 48,
-   "team": "Knob Noster with Leeton",
-   "seed": 48
+   "team": "Marshall",
+   "seed": 47
   },
   {
    "line": 9,
    "ideal_seed": 8,
-   "team": "Hannibal",
+   "team": "Smithville",
    "seed": 8
   },
   {
@@ -908,43 +1105,43 @@
   {
    "line": 11,
    "ideal_seed": 25,
-   "team": "St. Charles West",
-   "seed": 23
+   "team": "Harrisonville",
+   "seed": 32
   },
   {
    "line": 12,
    "ideal_seed": 40,
-   "team": "Westminster Christian Academy",
-   "seed": 32
+   "team": "University Academy Charter with Ewing Marion Kauffman",
+   "seed": 45
   },
   {
    "line": 13,
    "ideal_seed": 9,
-   "team": "Vianney",
-   "seed": 15
+   "team": "Pleasant Hill",
+   "seed": 19
   },
   {
    "line": 14,
    "ideal_seed": 56,
-   "team": "Clayton with Brentwood",
-   "seed": 50
+   "team": "East (Kansas City)",
+   "seed": 54
   },
   {
    "line": 15,
    "ideal_seed": 24,
-   "team": "Parkway North",
-   "seed": 19
+   "team": "Raytown South",
+   "seed": 25
   },
   {
    "line": 16,
    "ideal_seed": 41,
-   "team": "Orchard Farm",
-   "seed": 34
+   "team": "Knob Noster with Leeton",
+   "seed": 52
   },
   {
    "line": 17,
    "ideal_seed": 4,
-   "team": "Smithville",
+   "team": "Warrensburg",
    "seed": 4
   },
   {
@@ -956,43 +1153,43 @@
   {
    "line": 19,
    "ideal_seed": 29,
-   "team": "Raytown South",
-   "seed": 26
+   "team": "Holt",
+   "seed": 42
   },
   {
    "line": 20,
    "ideal_seed": 36,
-   "team": "University Academy Charter with Ewing Marion Kauffman",
-   "seed": 44
+   "team": "Pacific",
+   "seed": 46
   },
   {
    "line": 21,
    "ideal_seed": 13,
-   "team": "Pleasant Hill",
-   "seed": 12
+   "team": "Union",
+   "seed": 9
   },
   {
    "line": 22,
    "ideal_seed": 52,
-   "team": "East (Kansas City)",
-   "seed": 54
+   "team": null,
+   "seed": null
   },
   {
    "line": 23,
    "ideal_seed": 20,
-   "team": "Harrisonville",
+   "team": "Warrenton",
    "seed": 22
   },
   {
    "line": 24,
    "ideal_seed": 45,
-   "team": "Central (Kansas City)",
-   "seed": 47
+   "team": "Clayton with Brentwood",
+   "seed": 53
   },
   {
    "line": 25,
    "ideal_seed": 5,
-   "team": "Logan-Rogersville",
+   "team": "Festus",
    "seed": 5
   },
   {
@@ -1004,38 +1201,38 @@
   {
    "line": 27,
    "ideal_seed": 28,
-   "team": "Monett",
-   "seed": 20
+   "team": "North County",
+   "seed": 24
   },
   {
    "line": 28,
    "ideal_seed": 37,
-   "team": "McDonald County",
-   "seed": 28
+   "team": "DeSoto",
+   "seed": 30
   },
   {
    "line": 29,
    "ideal_seed": 12,
-   "team": "Carl Junction",
-   "seed": 11
+   "team": "Hillsboro",
+   "seed": 15
   },
   {
    "line": 30,
    "ideal_seed": 53,
-   "team": "Hillcrest",
-   "seed": 35
+   "team": "Bayless with Hancock",
+   "seed": 50
   },
   {
    "line": 31,
    "ideal_seed": 21,
-   "team": "Bolivar",
+   "team": "Sullivan",
    "seed": 16
   },
   {
    "line": 32,
    "ideal_seed": 44,
-   "team": "Marshfield",
-   "seed": 30
+   "team": "Windsor (Imperial)",
+   "seed": 44
   },
   {
    "line": 33,
@@ -1052,43 +1249,43 @@
   {
    "line": 35,
    "ideal_seed": 31,
-   "team": "Van Horn",
-   "seed": 38
+   "team": "Central (Kansas City)",
+   "seed": 33
   },
   {
    "line": 36,
    "ideal_seed": 34,
-   "team": "Excelsior Springs",
-   "seed": 42
+   "team": "Van Horn",
+   "seed": 34
   },
   {
    "line": 37,
    "ideal_seed": 15,
    "team": "Odessa",
-   "seed": 10
+   "seed": 18
   },
   {
    "line": 38,
    "ideal_seed": 50,
-   "team": null,
-   "seed": null
+   "team": "Northeast (Kansas City)",
+   "seed": 51
   },
   {
    "line": 39,
    "ideal_seed": 18,
    "team": "Benton",
-   "seed": 25
+   "seed": 27
   },
   {
    "line": 40,
    "ideal_seed": 47,
-   "team": "Northeast (Kansas City)",
-   "seed": 53
+   "team": "Excelsior Springs",
+   "seed": 43
   },
   {
    "line": 41,
    "ideal_seed": 7,
-   "team": "Festus",
+   "team": "St. Charles West",
    "seed": 7
   },
   {
@@ -1100,43 +1297,43 @@
   {
    "line": 43,
    "ideal_seed": 26,
-   "team": "North County",
-   "seed": 29
+   "team": "Orchard Farm",
+   "seed": 21
   },
   {
    "line": 44,
    "ideal_seed": 39,
-   "team": "DeSoto",
-   "seed": 33
+   "team": "Vianney",
+   "seed": 23
   },
   {
    "line": 45,
    "ideal_seed": 10,
-   "team": "Hillsboro",
-   "seed": 13
+   "team": "Hannibal",
+   "seed": 12
   },
   {
    "line": 46,
    "ideal_seed": 55,
-   "team": "Bayless with Hancock",
-   "seed": 51
+   "team": "St. Charles",
+   "seed": 49
   },
   {
    "line": 47,
    "ideal_seed": 23,
-   "team": "Sullivan",
-   "seed": 18
+   "team": "Parkway North",
+   "seed": 14
   },
   {
    "line": 48,
    "ideal_seed": 42,
-   "team": "Windsor (Imperial)",
-   "seed": 46
+   "team": "Westminster Christian Academy",
+   "seed": 26
   },
   {
    "line": 49,
    "ideal_seed": 3,
-   "team": "Lift for Life Academy Charter",
+   "team": "Logan-Rogersville",
    "seed": 3
   },
   {
@@ -1148,43 +1345,43 @@
   {
    "line": 51,
    "ideal_seed": 30,
-   "team": "Gateway with Soldan International Studies",
-   "seed": 36
+   "team": "Monett",
+   "seed": 29
   },
   {
    "line": 52,
    "ideal_seed": 35,
-   "team": "Riverview Gardens",
-   "seed": 40
+   "team": "McDonald County",
+   "seed": 37
   },
   {
    "line": 53,
    "ideal_seed": 14,
-   "team": "Sikeston",
-   "seed": 14
+   "team": "Carl Junction",
+   "seed": 17
   },
   {
    "line": 54,
    "ideal_seed": 51,
-   "team": "Affton",
-   "seed": 52
+   "team": "Marshfield",
+   "seed": 39
   },
   {
    "line": 55,
    "ideal_seed": 19,
-   "team": "University City",
-   "seed": 21
+   "team": "Bolivar",
+   "seed": 20
   },
   {
    "line": 56,
    "ideal_seed": 46,
-   "team": "Jennings",
-   "seed": 41
+   "team": "Hillcrest",
+   "seed": 38
   },
   {
    "line": 57,
    "ideal_seed": 6,
-   "team": "Warrensburg",
+   "team": "University City",
    "seed": 6
   },
   {
@@ -1196,38 +1393,38 @@
   {
    "line": 59,
    "ideal_seed": 27,
-   "team": "Mexico",
-   "seed": 37
+   "team": "Gateway with Soldan International Studies",
+   "seed": 28
   },
   {
    "line": 60,
    "ideal_seed": 38,
-   "team": "Holt",
-   "seed": 39
+   "team": "Jennings",
+   "seed": 31
   },
   {
    "line": 61,
    "ideal_seed": 11,
-   "team": "Union",
-   "seed": 17
+   "team": "Sikeston",
+   "seed": 11
   },
   {
    "line": 62,
    "ideal_seed": 54,
-   "team": "St. Charles",
-   "seed": 49
+   "team": "Affton",
+   "seed": 48
   },
   {
    "line": 63,
    "ideal_seed": 22,
-   "team": "Warrenton",
-   "seed": 27
+   "team": "Lift for Life Academy Charter",
+   "seed": 13
   },
   {
    "line": 64,
    "ideal_seed": 43,
-   "team": "Pacific",
-   "seed": 43
+   "team": "Riverview Gardens",
+   "seed": 40
   }
  ],
  "mshsaa_lines": [
@@ -1249,7 +1446,7 @@
   },
   {
    "line": 5,
-   "team": "Hillsboro"
+   "team": "Sikeston"
   },
   {
    "line": 6,
@@ -1257,7 +1454,7 @@
   },
   {
    "line": 7,
-   "team": "Sikeston"
+   "team": "Hillsboro"
   },
   {
    "line": 8,
@@ -1265,7 +1462,7 @@
   },
   {
    "line": 9,
-   "team": "Vianney"
+   "team": "Union"
   },
   {
    "line": 10,
@@ -1281,23 +1478,23 @@
   },
   {
    "line": 13,
-   "team": "Union"
-  },
-  {
-   "line": 14,
-   "team": "Affton"
-  },
-  {
-   "line": 15,
    "team": "Sullivan"
   },
   {
-   "line": 16,
+   "line": 14,
    "team": "Bayless with Hancock"
   },
   {
+   "line": 15,
+   "team": "Vianney"
+  },
+  {
+   "line": 16,
+   "team": "Affton"
+  },
+  {
    "line": 17,
-   "team": "Lift for Life Academy Charter"
+   "team": "University City"
   },
   {
    "line": 18,
@@ -1305,15 +1502,15 @@
   },
   {
    "line": 19,
-   "team": "Riverview Gardens"
-  },
-  {
-   "line": 20,
    "team": "Jennings"
   },
   {
+   "line": 20,
+   "team": "Riverview Gardens"
+  },
+  {
    "line": 21,
-   "team": "University City"
+   "team": "Lift for Life Academy Charter"
   },
   {
    "line": 22,
@@ -1329,7 +1526,7 @@
   },
   {
    "line": 25,
-   "team": "Hannibal"
+   "team": "St. Charles West"
   },
   {
    "line": 26,
@@ -1337,15 +1534,15 @@
   },
   {
    "line": 27,
-   "team": "Warrenton"
-  },
-  {
-   "line": 28,
    "team": "Orchard Farm"
   },
   {
+   "line": 28,
+   "team": "Warrenton"
+  },
+  {
    "line": 29,
-   "team": "Parkway North"
+   "team": "Hannibal"
   },
   {
    "line": 30,
@@ -1353,7 +1550,7 @@
   },
   {
    "line": 31,
-   "team": "St. Charles West"
+   "team": "Parkway North"
   },
   {
    "line": 32,
@@ -1369,7 +1566,7 @@
   },
   {
    "line": 35,
-   "team": "Osage"
+   "team": "Kirksville"
   },
   {
    "line": 36,
@@ -1385,7 +1582,7 @@
   },
   {
    "line": 39,
-   "team": "Kirksville"
+   "team": "Osage"
   },
   {
    "line": 40,
@@ -1413,7 +1610,7 @@
   },
   {
    "line": 46,
-   "team": "Hillcrest"
+   "team": "Marshfield"
   },
   {
    "line": 47,
@@ -1421,7 +1618,7 @@
   },
   {
    "line": 48,
-   "team": "Marshfield"
+   "team": "Hillcrest"
   },
   {
    "line": 49,
@@ -1433,11 +1630,11 @@
   },
   {
    "line": 51,
-   "team": "Raytown South"
+   "team": "Harrisonville"
   },
   {
    "line": 52,
-   "team": "University Academy Charter with Ewing Marion Kauffman"
+   "team": "Central (Kansas City)"
   },
   {
    "line": 53,
@@ -1449,11 +1646,11 @@
   },
   {
    "line": 55,
-   "team": "Harrisonville"
+   "team": "Raytown South"
   },
   {
    "line": 56,
-   "team": "Central (Kansas City)"
+   "team": "University Academy Charter with Ewing Marion Kauffman"
   },
   {
    "line": 57,

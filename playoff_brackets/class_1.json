@@ -25,7 +25,7 @@
  },
  "drive_time_factor": 0.82,
  "limits_hours": {
-  "district_rounds": 4.0,
+  "district_rounds": 3.5,
   "quarterfinal": null
  },
  "solver_status": "stage1 OPTIMAL, stage2 FEASIBLE",
@@ -35,295 +35,537 @@
  "solve_seconds": 360.1,
  "violations": [],
  "scorecard": {
-  "chalk_district_game_avg_min": 97.5,
-  "chalk_district_game_max_min": 229.2,
+  "chalk_district_game_avg_min": 98.6,
+  "chalk_district_game_max_min": 191.6,
   "chalk_district_games_over_limit": 0,
-  "chalk_next_round_max_min": 301.9,
-  "expected_district_game_min": 101.1,
-  "expected_next_round_game_min": 182.1,
+  "chalk_next_round_max_min": 156.6,
+  "expected_district_game_min": 99.8,
+  "expected_next_round_game_min": 135.6,
   "p_any_district_game_over_limit": 0.0,
-  "top_seed_pairs_same_district": 0,
+  "top_seed_pairs_same_district": 1,
   "strong_pairs_same_district": 9,
-  "weakest_district_best_seed": 8,
-  "district_best_rating_sd": 11.05,
-  "exp_top8_in_quarterfinals": 6.9,
-  "exp_top4_in_final_four": 3.02,
-  "p_1_vs_2_final": 0.561,
-  "p_top_seed_champion": 0.904
+  "weakest_district_best_seed": 15,
+  "district_best_rating_sd": 13.25,
+  "exp_top8_in_quarterfinals": 6.04,
+  "exp_top4_in_final_four": 3.04,
+  "p_1_vs_2_final": 0.559,
+  "p_top_seed_champion": 0.895
  },
  "mshsaa_scorecard": {
-  "chalk_district_game_avg_min": 74.3,
-  "chalk_district_game_max_min": 186.5,
+  "chalk_district_game_avg_min": 70.4,
+  "chalk_district_game_max_min": 182.0,
   "chalk_district_games_over_limit": 0,
   "chalk_next_round_max_min": 275.3,
-  "expected_district_game_min": 73.3,
-  "expected_next_round_game_min": 152.1,
+  "expected_district_game_min": 70.6,
+  "expected_next_round_game_min": 152.7,
   "p_any_district_game_over_limit": 0.0,
   "top_seed_pairs_same_district": 5,
   "strong_pairs_same_district": 14,
-  "weakest_district_best_seed": 18,
-  "district_best_rating_sd": 15.51,
+  "weakest_district_best_seed": 15,
+  "district_best_rating_sd": 16.9,
   "exp_top8_in_quarterfinals": 3.97,
-  "exp_top4_in_final_four": 1.89,
+  "exp_top4_in_final_four": 1.9,
   "p_1_vs_2_final": 0.0,
-  "p_top_seed_champion": 0.84
+  "p_top_seed_champion": 0.835
  },
  "mshsaa_note": null,
+ "seeding": {
+  "method": "blend",
+  "blend_method": "z",
+  "points_weight": 0.5,
+  "points_file": "district_points_2026.json",
+  "balance_by": "OVR rating"
+ },
  "seeds": [
   {
    "seed": 1,
    "team": "Tipton with Bunceton",
    "ovr_rating": 27.53,
-   "rating_rank": 1
+   "rating_rank": 1,
+   "district_points": 52.0278,
+   "points_rank": 2,
+   "blend_score": 2.0969
   },
   {
    "seed": 2,
    "team": "Thayer",
    "ovr_rating": 8.47,
-   "rating_rank": 2
+   "rating_rank": 2,
+   "district_points": 51.0752,
+   "points_rank": 3,
+   "blend_score": 1.6402
   },
   {
    "seed": 3,
    "team": "Skyline",
    "ovr_rating": 3.99,
-   "rating_rank": 3
+   "rating_rank": 3,
+   "district_points": 47.0485,
+   "points_rank": 6,
+   "blend_score": 1.341
   },
   {
    "seed": 4,
-   "team": "Miller",
-   "ovr_rating": 3.11,
-   "rating_rank": 4
+   "team": "Marionville",
+   "ovr_rating": 0.71,
+   "rating_rank": 5,
+   "district_points": 43.8858,
+   "points_rank": 9,
+   "blend_score": 1.1111
   },
   {
    "seed": 5,
-   "team": "Marionville",
-   "ovr_rating": 0.71,
-   "rating_rank": 5
+   "team": "Miller",
+   "ovr_rating": 3.11,
+   "rating_rank": 4,
+   "district_points": 42.241,
+   "points_rank": 11,
+   "blend_score": 1.0796
   },
   {
    "seed": 6,
-   "team": "Salisbury",
-   "ovr_rating": -1.09,
-   "rating_rank": 6
+   "team": "Carrollton",
+   "ovr_rating": -14.29,
+   "rating_rank": 11,
+   "district_points": 54.625,
+   "points_rank": 1,
+   "blend_score": 1.3312
   },
   {
    "seed": 7,
-   "team": "Pierce City",
-   "ovr_rating": -8.83,
-   "rating_rank": 7
+   "team": "Salisbury",
+   "ovr_rating": -1.09,
+   "rating_rank": 6,
+   "district_points": 46.9855,
+   "points_rank": 7,
+   "blend_score": 1.2289
   },
   {
    "seed": 8,
-   "team": "Portageville",
-   "ovr_rating": -10.53,
-   "rating_rank": 8
+   "team": "Hayti",
+   "ovr_rating": -14.8,
+   "rating_rank": 12,
+   "district_points": 37.8406,
+   "points_rank": 16,
+   "blend_score": 0.4736
   },
   {
    "seed": 9,
-   "team": "Russellville",
-   "ovr_rating": -11.78,
-   "rating_rank": 9
+   "team": "Portageville",
+   "ovr_rating": -10.53,
+   "rating_rank": 8,
+   "district_points": 49.3365,
+   "points_rank": 4,
+   "blend_score": 1.145
   },
   {
    "seed": 10,
-   "team": "Putnam County",
-   "ovr_rating": -12.05,
-   "rating_rank": 10
+   "team": "Russellville",
+   "ovr_rating": -11.78,
+   "rating_rank": 9,
+   "district_points": 45.9346,
+   "points_rank": 8,
+   "blend_score": 0.9466
   },
   {
    "seed": 11,
-   "team": "Carrollton",
-   "ovr_rating": -14.29,
-   "rating_rank": 11
+   "team": "Louisiana",
+   "ovr_rating": -22.39,
+   "rating_rank": 18,
+   "district_points": 48.3889,
+   "points_rank": 5,
+   "blend_score": 0.8429
   },
   {
    "seed": 12,
-   "team": "Hayti",
-   "ovr_rating": -14.8,
-   "rating_rank": 12
+   "team": "Scotland County",
+   "ovr_rating": -25.75,
+   "rating_rank": 20,
+   "district_points": 41.0625,
+   "points_rank": 13,
+   "blend_score": 0.4013
   },
   {
    "seed": 13,
-   "team": "North Platte",
-   "ovr_rating": -16.83,
-   "rating_rank": 13
+   "team": "Putnam County",
+   "ovr_rating": -12.05,
+   "rating_rank": 10,
+   "district_points": 42.5873,
+   "points_rank": 10,
+   "blend_score": 0.772
   },
   {
    "seed": 14,
-   "team": "Ash Grove",
-   "ovr_rating": -17.98,
-   "rating_rank": 14
+   "team": "North Platte",
+   "ovr_rating": -16.83,
+   "rating_rank": 13,
+   "district_points": 34.1667,
+   "points_rank": 22,
+   "blend_score": 0.2447
   },
   {
    "seed": 15,
    "team": "East Buchanan",
    "ovr_rating": -18.43,
-   "rating_rank": 15
+   "rating_rank": 15,
+   "district_points": 40.25,
+   "points_rank": 14,
+   "blend_score": 0.5173
   },
   {
    "seed": 16,
-   "team": "Gallatin with Tri-County",
-   "ovr_rating": -20.79,
-   "rating_rank": 16
+   "team": "Charleston",
+   "ovr_rating": -26.76,
+   "rating_rank": 21,
+   "district_points": 41.7887,
+   "points_rank": 12,
+   "blend_score": 0.4163
   },
   {
    "seed": 17,
-   "team": "Penney",
-   "ovr_rating": -20.94,
-   "rating_rank": 17
+   "team": "Ash Grove",
+   "ovr_rating": -17.98,
+   "rating_rank": 14,
+   "district_points": 34.3036,
+   "points_rank": 20,
+   "blend_score": 0.227
   },
   {
    "seed": 18,
-   "team": "Louisiana",
-   "ovr_rating": -22.39,
-   "rating_rank": 18
+   "team": "Pierce City",
+   "ovr_rating": -8.83,
+   "rating_rank": 7,
+   "district_points": 32.7746,
+   "points_rank": 24,
+   "blend_score": 0.3461
   },
   {
    "seed": 19,
    "team": "Marceline",
    "ovr_rating": -22.62,
-   "rating_rank": 19
+   "rating_rank": 19,
+   "district_points": 36.5149,
+   "points_rank": 18,
+   "blend_score": 0.239
   },
   {
    "seed": 20,
-   "team": "Scotland County",
-   "ovr_rating": -25.75,
-   "rating_rank": 20
+   "team": "Adrian",
+   "ovr_rating": -27.51,
+   "rating_rank": 22,
+   "district_points": 38.1667,
+   "points_rank": 15,
+   "blend_score": 0.2175
   },
   {
    "seed": 21,
-   "team": "Charleston",
-   "ovr_rating": -26.76,
-   "rating_rank": 21
+   "team": "Penney",
+   "ovr_rating": -20.94,
+   "rating_rank": 17,
+   "district_points": 29.9722,
+   "points_rank": 30,
+   "blend_score": -0.055
   },
   {
    "seed": 22,
-   "team": "Adrian",
-   "ovr_rating": -27.51,
-   "rating_rank": 22
+   "team": "Gallatin with Tri-County",
+   "ovr_rating": -20.79,
+   "rating_rank": 16,
+   "district_points": 33.4992,
+   "points_rank": 23,
+   "blend_score": 0.1262
   },
   {
    "seed": 23,
-   "team": "Maysville",
-   "ovr_rating": -30.38,
-   "rating_rank": 23
+   "team": "South Shelby",
+   "ovr_rating": -30.5,
+   "rating_rank": 24,
+   "district_points": 36.875,
+   "points_rank": 17,
+   "blend_score": 0.0882
   },
   {
    "seed": 24,
-   "team": "South Shelby",
-   "ovr_rating": -30.5,
-   "rating_rank": 24
+   "team": "Sherwood",
+   "ovr_rating": -42.63,
+   "rating_rank": 30,
+   "district_points": 34.8889,
+   "points_rank": 19,
+   "blend_score": -0.2721
   },
   {
    "seed": 25,
-   "team": "Plattsburg",
-   "ovr_rating": -34.25,
-   "rating_rank": 25
+   "team": "Crest Ridge with Chilhowee",
+   "ovr_rating": -42.88,
+   "rating_rank": 31,
+   "district_points": 34.2361,
+   "points_rank": 21,
+   "blend_score": -0.3103
   },
   {
    "seed": 26,
-   "team": "Diamond",
-   "ovr_rating": -37.48,
-   "rating_rank": 26
+   "team": "Plattsburg",
+   "ovr_rating": -34.25,
+   "rating_rank": 25,
+   "district_points": 28.5694,
+   "points_rank": 31,
+   "blend_score": -0.4111
   },
   {
    "seed": 27,
-   "team": "Westran",
-   "ovr_rating": -40.98,
-   "rating_rank": 27
+   "team": "Windsor",
+   "ovr_rating": -41.62,
+   "rating_rank": 28,
+   "district_points": 30.4444,
+   "points_rank": 29,
+   "blend_score": -0.4746
   },
   {
    "seed": 28,
-   "team": "Windsor",
-   "ovr_rating": -41.62,
-   "rating_rank": 28
+   "team": "Maysville",
+   "ovr_rating": -30.38,
+   "rating_rank": 23,
+   "district_points": 27.6479,
+   "points_rank": 33,
+   "blend_score": -0.3746
   },
   {
    "seed": 29,
    "team": "Principia",
    "ovr_rating": -42.46,
-   "rating_rank": 29
+   "rating_rank": 29,
+   "district_points": 30.8708,
+   "points_rank": 27,
+   "blend_score": -0.4711
   },
   {
    "seed": 30,
-   "team": "Sherwood",
-   "ovr_rating": -42.63,
-   "rating_rank": 30
+   "team": "Westran",
+   "ovr_rating": -40.98,
+   "rating_rank": 27,
+   "district_points": 28.5587,
+   "points_rank": 32,
+   "blend_score": -0.556
   },
   {
    "seed": 31,
-   "team": "Crest Ridge with Chilhowee",
-   "ovr_rating": -42.88,
-   "rating_rank": 31
+   "team": "Malden",
+   "ovr_rating": -52.13,
+   "rating_rank": 34,
+   "district_points": 31.8472,
+   "points_rank": 25,
+   "blend_score": -0.6292
   },
   {
    "seed": 32,
    "team": "Fayette",
    "ovr_rating": -45.54,
-   "rating_rank": 32
+   "rating_rank": 32,
+   "district_points": 23.0,
+   "points_rank": 37,
+   "blend_score": -0.9342
   },
   {
    "seed": 33,
-   "team": "South Harrison",
-   "ovr_rating": -47.68,
-   "rating_rank": 33
+   "team": "Veritas Christian Academy",
+   "ovr_rating": -64.26,
+   "rating_rank": 39,
+   "district_points": 30.6531,
+   "points_rank": 28,
+   "blend_score": -0.9495
   },
   {
    "seed": 34,
-   "team": "Malden",
-   "ovr_rating": -52.13,
-   "rating_rank": 34
+   "team": "Diamond",
+   "ovr_rating": -37.48,
+   "rating_rank": 26,
+   "district_points": 18.8125,
+   "points_rank": 40,
+   "blend_score": -0.9726
   },
   {
    "seed": 35,
-   "team": "Harrisburg",
-   "ovr_rating": -53.47,
-   "rating_rank": 35
+   "team": "Crystal City",
+   "ovr_rating": -70.73,
+   "rating_rank": 41,
+   "district_points": 31.0435,
+   "points_rank": 26,
+   "blend_score": -1.0686
   },
   {
    "seed": 36,
    "team": "Van-Far",
    "ovr_rating": -55.27,
-   "rating_rank": 36
+   "rating_rank": 36,
+   "district_points": 24.1667,
+   "points_rank": 35,
+   "blend_score": -1.084
   },
   {
    "seed": 37,
-   "team": "Linn",
-   "ovr_rating": -59.25,
-   "rating_rank": 37
+   "team": "South Harrison",
+   "ovr_rating": -47.68,
+   "rating_rank": 33,
+   "district_points": 20.6557,
+   "points_rank": 39,
+   "blend_score": -1.0983
   },
   {
    "seed": 38,
-   "team": "Cabool",
-   "ovr_rating": -62.67,
-   "rating_rank": 38
+   "team": "Harrisburg",
+   "ovr_rating": -53.47,
+   "rating_rank": 35,
+   "district_points": 22.1389,
+   "points_rank": 38,
+   "blend_score": -1.1477
   },
   {
    "seed": 39,
-   "team": "Veritas Christian Academy",
-   "ovr_rating": -64.26,
-   "rating_rank": 39
+   "team": "Cabool",
+   "ovr_rating": -62.67,
+   "rating_rank": 38,
+   "district_points": 25.9444,
+   "points_rank": 34,
+   "blend_score": -1.153
   },
   {
    "seed": 40,
-   "team": "Milan",
-   "ovr_rating": -66.72,
-   "rating_rank": 40
+   "team": "Linn",
+   "ovr_rating": -59.25,
+   "rating_rank": 37,
+   "district_points": 17.5556,
+   "points_rank": 41,
+   "blend_score": -1.5028
   },
   {
    "seed": 41,
-   "team": "Crystal City",
-   "ovr_rating": -70.73,
-   "rating_rank": 41
+   "team": "Grandview (Hillsboro)",
+   "ovr_rating": -76.34,
+   "rating_rank": 42,
+   "district_points": 23.8651,
+   "points_rank": 36,
+   "blend_score": -1.551
   },
   {
    "seed": 42,
-   "team": "Grandview (Hillsboro)",
-   "ovr_rating": -76.34,
-   "rating_rank": 42
+   "team": "Milan",
+   "ovr_rating": -66.72,
+   "rating_rank": 40,
+   "district_points": 14.5,
+   "points_rank": 42,
+   "blend_score": -1.8171
   }
  ],
- "jumps": [],
+ "jumps": [
+  {
+   "team": "Miller",
+   "jumped": "Skyline",
+   "from_seed": 8,
+   "to_seed": 3,
+   "result": [
+    "2026-10-16: Miller 22, Skyline 19"
+   ]
+  },
+  {
+   "team": "Marionville",
+   "jumped": "Miller",
+   "from_seed": 8,
+   "to_seed": 3,
+   "result": [
+    "2026-10-02: Miller 6, Marionville 26"
+   ]
+  },
+  {
+   "team": "Skyline",
+   "jumped": "Marionville",
+   "from_seed": 5,
+   "to_seed": 3,
+   "result": [
+    "2026-09-11: Marionville 14, Skyline 40"
+   ]
+  },
+  {
+   "team": "Hayti",
+   "jumped": "Portageville",
+   "from_seed": 13,
+   "to_seed": 8,
+   "result": [
+    "2026-09-18: Portageville 34, Hayti 36"
+   ]
+  },
+  {
+   "team": "Scotland County",
+   "jumped": "Putnam County",
+   "from_seed": 15,
+   "to_seed": 12,
+   "result": [
+    "2026-08-28: Putnam County 8, Scotland County 14"
+   ]
+  },
+  {
+   "team": "North Platte",
+   "jumped": "East Buchanan",
+   "from_seed": 17,
+   "to_seed": 14,
+   "result": [
+    "2026-09-25: North Platte 51, East Buchanan 21"
+   ]
+  },
+  {
+   "team": "Ash Grove",
+   "jumped": "Pierce City",
+   "from_seed": 19,
+   "to_seed": 17,
+   "result": [
+    "2026-10-02: Pierce City 6, Ash Grove 12"
+   ]
+  },
+  {
+   "team": "Penney",
+   "jumped": "Gallatin with Tri-County",
+   "from_seed": 23,
+   "to_seed": 21,
+   "result": [
+    "2026-09-04: Penney 20, Gallatin with Tri-County 7"
+   ]
+  },
+  {
+   "team": "Windsor",
+   "jumped": "Sherwood",
+   "from_seed": 29,
+   "to_seed": 24,
+   "result": [
+    "2026-09-04: Sherwood 0, Windsor 14"
+   ]
+  },
+  {
+   "team": "Crest Ridge with Chilhowee",
+   "jumped": "Windsor",
+   "from_seed": 26,
+   "to_seed": 24,
+   "result": [
+    "2026-10-23: Windsor 6, Crest Ridge with Chilhowee 14"
+   ]
+  },
+  {
+   "team": "Sherwood",
+   "jumped": "Crest Ridge with Chilhowee",
+   "from_seed": 26,
+   "to_seed": 24,
+   "result": [
+    "2026-08-28: Crest Ridge with Chilhowee 6, Sherwood 19"
+   ]
+  },
+  {
+   "team": "Plattsburg",
+   "jumped": "Windsor",
+   "from_seed": 28,
+   "to_seed": 26,
+   "result": [
+    "2026-08-28: Windsor 12, Plattsburg 28"
+   ]
+  }
+ ],
  "districts": [
   {
    "district": 1,
@@ -333,24 +575,24 @@
      "team": "Tipton with Bunceton"
     },
     {
-     "seed": 18,
+     "seed": 11,
      "team": "Louisiana"
     },
     {
-     "seed": 24,
-     "team": "South Shelby"
+     "seed": 29,
+     "team": "Principia"
     },
     {
-     "seed": 32,
-     "team": "Fayette"
-    },
-    {
-     "seed": 35,
-     "team": "Harrisburg"
+     "seed": 33,
+     "team": "Veritas Christian Academy"
     },
     {
      "seed": 36,
      "team": "Van-Far"
+    },
+    {
+     "seed": 41,
+     "team": "Grandview (Hillsboro)"
     }
    ],
    "byes": [
@@ -359,45 +601,205 @@
    ],
    "dqf_games": [
     {
-     "home": "Fayette",
-     "away": "Harrisburg",
-     "drive_h": 0.3
+     "home": "Veritas Christian Academy",
+     "away": "Van-Far",
+     "drive_h": 1.3
     },
     {
-     "home": "South Shelby",
-     "away": "Van-Far",
-     "drive_h": 1.15
+     "home": "Principia",
+     "away": "Grandview (Hillsboro)",
+     "drive_h": 0.77
     }
    ],
-   "max_drive_h": 2.26
+   "max_drive_h": 2.6
   },
   {
    "district": 2,
    "teams": [
     {
-     "seed": 8,
-     "team": "Portageville"
-    },
-    {
-     "seed": 12,
-     "team": "Hayti"
+     "seed": 15,
+     "team": "East Buchanan"
     },
     {
      "seed": 21,
-     "team": "Charleston"
+     "team": "Penney"
+    },
+    {
+     "seed": 22,
+     "team": "Gallatin with Tri-County"
+    },
+    {
+     "seed": 28,
+     "team": "Maysville"
+    },
+    {
+     "seed": 37,
+     "team": "South Harrison"
+    }
+   ],
+   "byes": [
+    "East Buchanan",
+    "Penney",
+    "Gallatin with Tri-County"
+   ],
+   "dqf_games": [
+    {
+     "home": "Maysville",
+     "away": "South Harrison",
+     "drive_h": 0.72
+    }
+   ],
+   "max_drive_h": 1.19
+  },
+  {
+   "district": 3,
+   "teams": [
+    {
+     "seed": 4,
+     "team": "Marionville"
+    },
+    {
+     "seed": 10,
+     "team": "Russellville"
+    },
+    {
+     "seed": 25,
+     "team": "Crest Ridge with Chilhowee"
+    },
+    {
+     "seed": 27,
+     "team": "Windsor"
+    },
+    {
+     "seed": 38,
+     "team": "Harrisburg"
+    },
+    {
+     "seed": 40,
+     "team": "Linn"
+    }
+   ],
+   "byes": [
+    "Marionville",
+    "Russellville"
+   ],
+   "dqf_games": [
+    {
+     "home": "Windsor",
+     "away": "Harrisburg",
+     "drive_h": 1.71
+    },
+    {
+     "home": "Crest Ridge with Chilhowee",
+     "away": "Linn",
+     "drive_h": 2.18
+    }
+   ],
+   "max_drive_h": 3.45
+  },
+  {
+   "district": 4,
+   "teams": [
+    {
+     "seed": 5,
+     "team": "Miller"
+    },
+    {
+     "seed": 14,
+     "team": "North Platte"
+    },
+    {
+     "seed": 20,
+     "team": "Adrian"
+    },
+    {
+     "seed": 24,
+     "team": "Sherwood"
+    },
+    {
+     "seed": 26,
+     "team": "Plattsburg"
+    }
+   ],
+   "byes": [
+    "Miller",
+    "North Platte",
+    "Adrian"
+   ],
+   "dqf_games": [
+    {
+     "home": "Sherwood",
+     "away": "Plattsburg",
+     "drive_h": 1.63
+    }
+   ],
+   "max_drive_h": 3.3
+  },
+  {
+   "district": 5,
+   "teams": [
+    {
+     "seed": 2,
+     "team": "Thayer"
+    },
+    {
+     "seed": 17,
+     "team": "Ash Grove"
+    },
+    {
+     "seed": 18,
+     "team": "Pierce City"
     },
     {
      "seed": 34,
+     "team": "Diamond"
+    },
+    {
+     "seed": 39,
+     "team": "Cabool"
+    }
+   ],
+   "byes": [
+    "Thayer",
+    "Ash Grove",
+    "Pierce City"
+   ],
+   "dqf_games": [
+    {
+     "home": "Diamond",
+     "away": "Cabool",
+     "drive_h": 2.2
+    }
+   ],
+   "max_drive_h": 3.18
+  },
+  {
+   "district": 6,
+   "teams": [
+    {
+     "seed": 8,
+     "team": "Hayti"
+    },
+    {
+     "seed": 9,
+     "team": "Portageville"
+    },
+    {
+     "seed": 16,
+     "team": "Charleston"
+    },
+    {
+     "seed": 31,
      "team": "Malden"
     },
     {
-     "seed": 41,
+     "seed": 35,
      "team": "Crystal City"
     }
    ],
    "byes": [
-    "Portageville",
     "Hayti",
+    "Portageville",
     "Charleston"
    ],
    "dqf_games": [
@@ -410,166 +812,6 @@
    "max_drive_h": 2.43
   },
   {
-   "district": 3,
-   "teams": [
-    {
-     "seed": 4,
-     "team": "Miller"
-    },
-    {
-     "seed": 13,
-     "team": "North Platte"
-    },
-    {
-     "seed": 17,
-     "team": "Penney"
-    },
-    {
-     "seed": 30,
-     "team": "Sherwood"
-    },
-    {
-     "seed": 33,
-     "team": "South Harrison"
-    }
-   ],
-   "byes": [
-    "Miller",
-    "North Platte",
-    "Penney"
-   ],
-   "dqf_games": [
-    {
-     "home": "Sherwood",
-     "away": "South Harrison",
-     "drive_h": 2.22
-    }
-   ],
-   "max_drive_h": 3.88
-  },
-  {
-   "district": 4,
-   "teams": [
-    {
-     "seed": 5,
-     "team": "Marionville"
-    },
-    {
-     "seed": 14,
-     "team": "Ash Grove"
-    },
-    {
-     "seed": 22,
-     "team": "Adrian"
-    },
-    {
-     "seed": 26,
-     "team": "Diamond"
-    },
-    {
-     "seed": 38,
-     "team": "Cabool"
-    }
-   ],
-   "byes": [
-    "Marionville",
-    "Ash Grove",
-    "Adrian"
-   ],
-   "dqf_games": [
-    {
-     "home": "Diamond",
-     "away": "Cabool",
-     "drive_h": 2.2
-    }
-   ],
-   "max_drive_h": 3.48
-  },
-  {
-   "district": 5,
-   "teams": [
-    {
-     "seed": 2,
-     "team": "Thayer"
-    },
-    {
-     "seed": 9,
-     "team": "Russellville"
-    },
-    {
-     "seed": 29,
-     "team": "Principia"
-    },
-    {
-     "seed": 37,
-     "team": "Linn"
-    },
-    {
-     "seed": 39,
-     "team": "Veritas Christian Academy"
-    },
-    {
-     "seed": 42,
-     "team": "Grandview (Hillsboro)"
-    }
-   ],
-   "byes": [
-    "Thayer",
-    "Russellville"
-   ],
-   "dqf_games": [
-    {
-     "home": "Linn",
-     "away": "Veritas Christian Academy",
-     "drive_h": 1.75
-    },
-    {
-     "home": "Principia",
-     "away": "Grandview (Hillsboro)",
-     "drive_h": 0.77
-    }
-   ],
-   "max_drive_h": 3.9
-  },
-  {
-   "district": 6,
-   "teams": [
-    {
-     "seed": 7,
-     "team": "Pierce City"
-    },
-    {
-     "seed": 15,
-     "team": "East Buchanan"
-    },
-    {
-     "seed": 16,
-     "team": "Gallatin with Tri-County"
-    },
-    {
-     "seed": 23,
-     "team": "Maysville"
-    },
-    {
-     "seed": 25,
-     "team": "Plattsburg"
-    }
-   ],
-   "byes": [
-    "Pierce City",
-    "East Buchanan",
-    "Gallatin with Tri-County"
-   ],
-   "dqf_games": [
-    {
-     "home": "Maysville",
-     "away": "Plattsburg",
-     "drive_h": 0.64
-    }
-   ],
-   "max_drive_h": 3.84
-  },
-  {
    "district": 7,
    "teams": [
     {
@@ -577,7 +819,7 @@
      "team": "Skyline"
     },
     {
-     "seed": 11,
+     "seed": 6,
      "team": "Carrollton"
     },
     {
@@ -585,12 +827,12 @@
      "team": "Marceline"
     },
     {
-     "seed": 28,
-     "team": "Windsor"
+     "seed": 23,
+     "team": "South Shelby"
     },
     {
-     "seed": 31,
-     "team": "Crest Ridge with Chilhowee"
+     "seed": 32,
+     "team": "Fayette"
     }
    ],
    "byes": [
@@ -600,41 +842,41 @@
    ],
    "dqf_games": [
     {
-     "home": "Windsor",
-     "away": "Crest Ridge with Chilhowee",
-     "drive_h": 0.77
+     "home": "South Shelby",
+     "away": "Fayette",
+     "drive_h": 1.43
     }
    ],
-   "max_drive_h": 2.77
+   "max_drive_h": 3.13
   },
   {
    "district": 8,
    "teams": [
     {
-     "seed": 6,
+     "seed": 7,
      "team": "Salisbury"
     },
     {
-     "seed": 10,
-     "team": "Putnam County"
-    },
-    {
-     "seed": 20,
+     "seed": 12,
      "team": "Scotland County"
     },
     {
-     "seed": 27,
+     "seed": 13,
+     "team": "Putnam County"
+    },
+    {
+     "seed": 30,
      "team": "Westran"
     },
     {
-     "seed": 40,
+     "seed": 42,
      "team": "Milan"
     }
    ],
    "byes": [
     "Salisbury",
-    "Putnam County",
-    "Scotland County"
+    "Scotland County",
+    "Putnam County"
    ],
    "dqf_games": [
     {
@@ -652,21 +894,21 @@
     1,
     2
    ],
-   "max_drive_h": 5.23
+   "max_drive_h": 5.28
   },
   {
    "districts": [
     3,
     4
    ],
-   "max_drive_h": 5.21
+   "max_drive_h": 3.77
   },
   {
    "districts": [
     5,
     6
    ],
-   "max_drive_h": 5.95
+   "max_drive_h": 5.27
   },
   {
    "districts": [
@@ -692,20 +934,20 @@
   {
    "line": 3,
    "ideal_seed": 32,
-   "team": "Fayette",
-   "seed": 32
+   "team": "Veritas Christian Academy",
+   "seed": 33
   },
   {
    "line": 4,
    "ideal_seed": 33,
-   "team": "Harrisburg",
-   "seed": 35
+   "team": "Van-Far",
+   "seed": 36
   },
   {
    "line": 5,
    "ideal_seed": 16,
    "team": "Louisiana",
-   "seed": 18
+   "seed": 11
   },
   {
    "line": 6,
@@ -716,20 +958,20 @@
   {
    "line": 7,
    "ideal_seed": 17,
-   "team": "South Shelby",
-   "seed": 24
+   "team": "Principia",
+   "seed": 29
   },
   {
    "line": 8,
    "ideal_seed": 48,
-   "team": "Van-Far",
-   "seed": 36
+   "team": "Grandview (Hillsboro)",
+   "seed": 41
   },
   {
    "line": 9,
    "ideal_seed": 8,
-   "team": "Portageville",
-   "seed": 8
+   "team": "East Buchanan",
+   "seed": 15
   },
   {
    "line": 10,
@@ -740,20 +982,20 @@
   {
    "line": 11,
    "ideal_seed": 25,
-   "team": "Malden",
-   "seed": 34
+   "team": "Maysville",
+   "seed": 28
   },
   {
    "line": 12,
    "ideal_seed": 40,
-   "team": "Crystal City",
-   "seed": 41
+   "team": "South Harrison",
+   "seed": 37
   },
   {
    "line": 13,
    "ideal_seed": 9,
-   "team": "Hayti",
-   "seed": 12
+   "team": "Penney",
+   "seed": 21
   },
   {
    "line": 14,
@@ -764,8 +1006,8 @@
   {
    "line": 15,
    "ideal_seed": 24,
-   "team": "Charleston",
-   "seed": 21
+   "team": "Gallatin with Tri-County",
+   "seed": 22
   },
   {
    "line": 16,
@@ -776,7 +1018,7 @@
   {
    "line": 17,
    "ideal_seed": 4,
-   "team": "Miller",
+   "team": "Marionville",
    "seed": 4
   },
   {
@@ -788,20 +1030,20 @@
   {
    "line": 19,
    "ideal_seed": 29,
-   "team": "Sherwood",
-   "seed": 30
+   "team": "Windsor",
+   "seed": 27
   },
   {
    "line": 20,
    "ideal_seed": 36,
-   "team": "South Harrison",
-   "seed": 33
+   "team": "Harrisburg",
+   "seed": 38
   },
   {
    "line": 21,
    "ideal_seed": 13,
-   "team": "North Platte",
-   "seed": 13
+   "team": "Russellville",
+   "seed": 10
   },
   {
    "line": 22,
@@ -812,19 +1054,19 @@
   {
    "line": 23,
    "ideal_seed": 20,
-   "team": "Penney",
-   "seed": 17
+   "team": "Crest Ridge with Chilhowee",
+   "seed": 25
   },
   {
    "line": 24,
    "ideal_seed": 45,
-   "team": null,
-   "seed": null
+   "team": "Linn",
+   "seed": 40
   },
   {
    "line": 25,
    "ideal_seed": 5,
-   "team": "Marionville",
+   "team": "Miller",
    "seed": 5
   },
   {
@@ -836,19 +1078,19 @@
   {
    "line": 27,
    "ideal_seed": 28,
-   "team": "Diamond",
-   "seed": 26
+   "team": "Sherwood",
+   "seed": 24
   },
   {
    "line": 28,
    "ideal_seed": 37,
-   "team": "Cabool",
-   "seed": 38
+   "team": "Plattsburg",
+   "seed": 26
   },
   {
    "line": 29,
    "ideal_seed": 12,
-   "team": "Ash Grove",
+   "team": "North Platte",
    "seed": 14
   },
   {
@@ -861,7 +1103,7 @@
    "line": 31,
    "ideal_seed": 21,
    "team": "Adrian",
-   "seed": 22
+   "seed": 20
   },
   {
    "line": 32,
@@ -884,20 +1126,20 @@
   {
    "line": 35,
    "ideal_seed": 31,
-   "team": "Linn",
-   "seed": 37
+   "team": "Diamond",
+   "seed": 34
   },
   {
    "line": 36,
    "ideal_seed": 34,
-   "team": "Veritas Christian Academy",
+   "team": "Cabool",
    "seed": 39
   },
   {
    "line": 37,
    "ideal_seed": 15,
-   "team": "Russellville",
-   "seed": 9
+   "team": "Ash Grove",
+   "seed": 17
   },
   {
    "line": 38,
@@ -908,20 +1150,20 @@
   {
    "line": 39,
    "ideal_seed": 18,
-   "team": "Principia",
-   "seed": 29
+   "team": "Pierce City",
+   "seed": 18
   },
   {
    "line": 40,
    "ideal_seed": 47,
-   "team": "Grandview (Hillsboro)",
-   "seed": 42
+   "team": null,
+   "seed": null
   },
   {
    "line": 41,
    "ideal_seed": 7,
-   "team": "Pierce City",
-   "seed": 7
+   "team": "Hayti",
+   "seed": 8
   },
   {
    "line": 42,
@@ -932,20 +1174,20 @@
   {
    "line": 43,
    "ideal_seed": 26,
-   "team": "Maysville",
-   "seed": 23
+   "team": "Malden",
+   "seed": 31
   },
   {
    "line": 44,
    "ideal_seed": 39,
-   "team": "Plattsburg",
-   "seed": 25
+   "team": "Crystal City",
+   "seed": 35
   },
   {
    "line": 45,
    "ideal_seed": 10,
-   "team": "East Buchanan",
-   "seed": 15
+   "team": "Portageville",
+   "seed": 9
   },
   {
    "line": 46,
@@ -956,7 +1198,7 @@
   {
    "line": 47,
    "ideal_seed": 23,
-   "team": "Gallatin with Tri-County",
+   "team": "Charleston",
    "seed": 16
   },
   {
@@ -980,20 +1222,20 @@
   {
    "line": 51,
    "ideal_seed": 30,
-   "team": "Windsor",
-   "seed": 28
+   "team": "South Shelby",
+   "seed": 23
   },
   {
    "line": 52,
    "ideal_seed": 35,
-   "team": "Crest Ridge with Chilhowee",
-   "seed": 31
+   "team": "Fayette",
+   "seed": 32
   },
   {
    "line": 53,
    "ideal_seed": 14,
    "team": "Carrollton",
-   "seed": 11
+   "seed": 6
   },
   {
    "line": 54,
@@ -1017,7 +1259,7 @@
    "line": 57,
    "ideal_seed": 6,
    "team": "Salisbury",
-   "seed": 6
+   "seed": 7
   },
   {
    "line": 58,
@@ -1029,19 +1271,19 @@
    "line": 59,
    "ideal_seed": 27,
    "team": "Westran",
-   "seed": 27
+   "seed": 30
   },
   {
    "line": 60,
    "ideal_seed": 38,
    "team": "Milan",
-   "seed": 40
+   "seed": 42
   },
   {
    "line": 61,
    "ideal_seed": 11,
-   "team": "Putnam County",
-   "seed": 10
+   "team": "Scotland County",
+   "seed": 12
   },
   {
    "line": 62,
@@ -1052,8 +1294,8 @@
   {
    "line": 63,
    "ideal_seed": 22,
-   "team": "Scotland County",
-   "seed": 20
+   "team": "Putnam County",
+   "seed": 13
   },
   {
    "line": 64,
@@ -1081,7 +1323,7 @@
   },
   {
    "line": 5,
-   "team": "Portageville"
+   "team": "Hayti"
   },
   {
    "line": 6,
@@ -1089,7 +1331,7 @@
   },
   {
    "line": 7,
-   "team": "Hayti"
+   "team": "Portageville"
   },
   {
    "line": 8,
@@ -1129,7 +1371,7 @@
   },
   {
    "line": 17,
-   "team": "Miller"
+   "team": "Marionville"
   },
   {
    "line": 18,
@@ -1137,7 +1379,7 @@
   },
   {
    "line": 19,
-   "team": "Ash Grove"
+   "team": "Pierce City"
   },
   {
    "line": 20,
@@ -1145,7 +1387,7 @@
   },
   {
    "line": 21,
-   "team": "Marionville"
+   "team": "Miller"
   },
   {
    "line": 22,
@@ -1153,7 +1395,7 @@
   },
   {
    "line": 23,
-   "team": "Pierce City"
+   "team": "Ash Grove"
   },
   {
    "line": 24,
@@ -1233,15 +1475,15 @@
   },
   {
    "line": 43,
-   "team": "Maysville"
-  },
-  {
-   "line": 44,
    "team": "Plattsburg"
   },
   {
+   "line": 44,
+   "team": "Maysville"
+  },
+  {
    "line": 45,
-   "team": "Gallatin with Tri-County"
+   "team": "Penney"
   },
   {
    "line": 46,
@@ -1249,7 +1491,7 @@
   },
   {
    "line": 47,
-   "team": "Penney"
+   "team": "Gallatin with Tri-County"
   },
   {
    "line": 48,
@@ -1265,11 +1507,11 @@
   },
   {
    "line": 51,
-   "team": "Harrisburg"
+   "team": "Van-Far"
   },
   {
    "line": 52,
-   "team": "Van-Far"
+   "team": "Harrisburg"
   },
   {
    "line": 53,
@@ -1289,7 +1531,7 @@
   },
   {
    "line": 57,
-   "team": "Putnam County"
+   "team": "Scotland County"
   },
   {
    "line": 58,
@@ -1305,7 +1547,7 @@
   },
   {
    "line": 61,
-   "team": "Marceline"
+   "team": "Putnam County"
   },
   {
    "line": 62,
@@ -1313,7 +1555,7 @@
   },
   {
    "line": 63,
-   "team": "Scotland County"
+   "team": "Marceline"
   },
   {
    "line": 64,
