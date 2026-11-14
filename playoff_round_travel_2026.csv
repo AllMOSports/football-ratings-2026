@@ -1,49 +1,22 @@
 class,round,district,home_seed,home,away_seed,away,miles,miles_estimated,drive_minutes,home_win_prob
-1,District final,1,1,Thayer,2,Portageville,149,False,157,0.9463
-1,District final,2,1,Louisiana,2,Crystal City,115,False,115,0.9994
-1,District final,3,1,Marionville,2,Miller,26,False,36,0.4015
-1,District final,4,1,Tipton with Bunceton,2,Skyline,86,False,91,0.9068
-1,District final,5,2,Adrian,5,North Platte,90,False,93,0.2562
-1,District final,6,1,East Buchanan,2,Penney,48,False,49,0.5707
-1,District final,7,1,Salisbury,2,Westran,15,False,21,0.9952
-1,District final,8,2,Putnam County,4,Marceline,70,False,84,0.6669
-2,District final,1,1,St. Vincent,3,Kelly,56,False,53,0.9233
-2,District final,2,1,Valle Catholic,2,Jefferson (Festus),30,False,32,1.0
-2,District final,3,1,Springfield Catholic,2,Fair Grove,17,False,20,0.1518
-2,District final,4,1,Lamar,3,East Newton,52,False,54,0.9787
-2,District final,5,1,Blair Oaks,3,North Callaway,40,False,43,0.9385
-2,District final,6,3,Butler,4,Lafayette County,98,False,97,0.489
-2,District final,7,1,Centralia,2,Palmyra,69,False,87,0.6965
-2,District final,8,2,Brookfield,5,Lawson,85,False,84,0.4671
-3,District final,1,1,Kennett,3,Dexter,44,False,54,0.4833
-3,District final,2,1,St. Pius X (Festus),2,St. Clair,43,False,53,0.9164
+1,Quarterfinal,2,1,Louisiana,1,Thayer,269,False,271,0.0225
+1,Quarterfinal,3,2,Miller,1,Tipton with Bunceton,164,False,162,0.0926
+1,Quarterfinal,5,5,North Platte,1,East Buchanan,17,False,22,0.5416
+1,Quarterfinal,8,2,Putnam County,1,Salisbury,99,False,120,0.1832
+2,Quarterfinal,2,1,Valle Catholic,1,St. Vincent,28,False,29,0.9962
+2,Quarterfinal,4,1,Lamar,2,Fair Grove,96,False,92,0.8653
+2,Quarterfinal,5,1,Blair Oaks,3,Butler,141,False,165,0.9997
+2,Quarterfinal,8,5,Lawson,1,Centralia,145,False,148,0.0359
 3,District final,3,3,MICDS,5,Winfield,38,False,40,0.9926
-3,District final,4,1,Southern Boone,3,Hallsville,27,False,29,0.5749
-3,District final,5,1,Mountain Grove,2,Strafford,63,False,65,0.9697
-3,District final,6,1,Cassville,2,Seneca,58,False,68,0.6248
-3,District final,7,1,Pembroke Hill,3,Boonville,105,False,99,0.7492
-3,District final,8,1,St. Pius X (Kansas City),2,Maryville,89,False,82,0.8595
-4,District final,1,1,Festus,2,Sikeston,113,False,100,0.7545
-4,District final,2,2,Sullivan,4,Vianney,53,False,49,0.4146
-4,District final,3,1,University City,2,Lift for Life Academy Charter,12,False,16,0.1514
-4,District final,4,2,Parkway North,4,Hannibal,101,False,100,0.1841
-4,District final,5,1,Moberly,2,Warrensburg,130,False,121,0.358
-4,District final,6,1,Logan-Rogersville,3,Bolivar,48,False,56,0.8738
-4,District final,7,2,Odessa,4,Pleasant Hill,32,False,43,0.5797
-4,District final,8,1,Kearney,2,Savannah,65,False,67,0.8925
-5,District final,1,2,St. Mary's South Side,4,Farmington,66,False,65,0.1826
-5,District final,2,1,Eureka,2,Rockwood Summit,13,False,16,0.6824
-5,District final,3,2,Chaminade College Prep,4,Cardinal Ritter,12,False,14,0.1783
-5,District final,4,1,Timberland,2,Ft. Zumwalt North,15,False,18,0.1474
-5,District final,5,1,Helias Catholic,2,Camdenton,59,False,57,0.8176
-5,District final,6,1,Republic,2,Neosho,62,False,70,0.6917
-5,District final,7,1,Grain Valley,2,Smith-Cotton,70,False,70,0.8318
-5,District final,8,1,Platte County,2,Fort Osage,37,False,42,0.8251
-6,District final,1,1,Jackson,3,Seckman,89,False,86,0.9979
-6,District final,2,1,Kirkwood,2,Christian Brothers College,6,False,11,0.2732
-6,District final,3,1,Pattonville,2,SLUH,20,False,23,0.2755
-6,District final,4,1,Troy Buchanan,3,Ft. Zumwalt West,22,False,26,0.88
-6,District final,5,1,Nixa,2,Ozark,6,False,10,0.9747
-6,District final,6,1,Blue Springs,6,Blue Springs South,3,False,6,0.7527
-6,District final,7,1,Raymore-Peculiar,3,Rockhurst,22,False,24,0.605
-6,District final,8,1,Liberty North,3,Oak Park,11,False,16,0.8136
+4,Quarterfinal,2,4,Vianney,1,Festus,30,False,30,0.2166
+4,Quarterfinal,4,4,Hannibal,2,Lift for Life Academy Charter,118,False,118,0.4364
+4,Quarterfinal,6,3,Bolivar,2,Warrensburg,90,False,92,0.1743
+4,Quarterfinal,7,4,Pleasant Hill,1,Kearney,53,False,60,0.0005
+5,Quarterfinal,1,4,Farmington,1,Eureka,67,False,72,0.6893
+5,Quarterfinal,4,2,Ft. Zumwalt North,4,Cardinal Ritter,31,False,35,0.0885
+5,Quarterfinal,6,1,Republic,1,Helias Catholic,147,False,138,0.4773
+5,Quarterfinal,8,1,Platte County,1,Grain Valley,50,False,49,0.7926
+6,Quarterfinal,2,2,Christian Brothers College,1,Jackson,109,False,103,0.1123
+6,Quarterfinal,3,2,SLUH,1,Troy Buchanan,52,False,54,0.6139
+6,Quarterfinal,6,1,Blue Springs,1,Nixa,176,False,179,0.7174
+6,Quarterfinal,7,3,Rockhurst,1,Liberty North,32,False,34,0.4793
