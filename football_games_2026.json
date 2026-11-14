@@ -13894,5 +13894,14 @@
     "score2": 41,
     "forfeit": false,
     "overtime": false
+  },
+  {
+    "date": "2026-11-14",
+    "team1": "Winfield",
+    "score1": 8,
+    "team2": "MICDS",
+    "score2": 52,
+    "forfeit": false,
+    "overtime": false
   }
 ]

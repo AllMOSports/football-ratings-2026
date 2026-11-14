@@ -19596,6 +19596,18 @@
     "overtime": false
   },
   {
+    "date": "2026-11-14",
+    "week": 12,
+    "team1": "Winfield",
+    "team1_classified": true,
+    "score1": 8,
+    "team2": "MICDS",
+    "team2_classified": true,
+    "score2": 52,
+    "forfeit": false,
+    "overtime": false
+  },
+  {
     "date": "2026-11-26",
     "week": 14,
     "team1": "Kirkwood",
