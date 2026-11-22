@@ -1,7 +1,7 @@
 {
   "season": 2026,
   "sport": "football",
-  "last_updated": "November 14, 2026 at 05:27 PM",
+  "last_updated": "November 22, 2026 at 03:52 PM",
   "ratings_last_updated": "November 14, 2026 at 05:17 PM",
   "method": "Opponent quads use the 75th/50th/25th percentile OVR rating of the team's own class. Current ratings. Regular season + postseason. Out-of-state opponents and forfeits not counted.",
   "cutoffs": {
@@ -49,11 +49,11 @@
       "district": 4,
       "ovr_rank": 52,
       "ovr_rating": 30.85,
-      "q1": "5-0",
+      "q1": "6-0",
       "q2": "1-0",
       "q3": "2-0",
       "q4": "3-0",
-      "q1_wins": 5,
+      "q1_wins": 6,
       "q1_losses": 0,
       "q2_wins": 1,
       "q2_losses": 0,
@@ -171,6 +171,16 @@
           "quad": "Q1",
           "result": "W",
           "score": "76-22"
+        },
+        {
+          "date": "2026-11-20",
+          "week": 13,
+          "opponent": "Miller",
+          "opp_class": 1,
+          "opp_ovr": 4.26,
+          "quad": "Q1",
+          "result": "W",
+          "score": "58-18"
         }
       ]
     },
@@ -181,12 +191,12 @@
       "ovr_rank": 96,
       "ovr_rating": 14.44,
       "q1": "2-2",
-      "q2": "3-0",
+      "q2": "4-0",
       "q3": "1-0",
       "q4": "1-0",
       "q1_wins": 2,
       "q1_losses": 2,
-      "q2_wins": 3,
+      "q2_wins": 4,
       "q2_losses": 0,
       "q3_wins": 1,
       "q3_losses": 0,
@@ -282,6 +292,16 @@
           "quad": "Q1",
           "result": "W",
           "score": "66-20"
+        },
+        {
+          "date": "2026-11-20",
+          "week": 13,
+          "opponent": "Louisiana",
+          "opp_class": 1,
+          "opp_ovr": -20.94,
+          "quad": "Q2",
+          "result": "W",
+          "score": "37-20"
         }
       ]
     },
@@ -291,12 +311,12 @@
       "district": 3,
       "ovr_rank": 124,
       "ovr_rating": 4.26,
-      "q1": "5-2",
+      "q1": "5-3",
       "q2": "2-0",
       "q3": "1-0",
       "q4": "1-0",
       "q1_wins": 5,
-      "q1_losses": 2,
+      "q1_losses": 3,
       "q2_wins": 2,
       "q2_losses": 0,
       "q3_wins": 1,
@@ -413,6 +433,16 @@
           "quad": "Q1",
           "result": "W",
           "score": "24-16"
+        },
+        {
+          "date": "2026-11-20",
+          "week": 13,
+          "opponent": "Tipton with Bunceton",
+          "opp_class": 1,
+          "opp_ovr": 30.85,
+          "quad": "Q1",
+          "result": "L",
+          "score": "18-58"
         }
       ]
     },
@@ -553,11 +583,11 @@
       "district": 7,
       "ovr_rank": 136,
       "ovr_rating": 1.41,
-      "q1": "0-0",
+      "q1": "1-0",
       "q2": "1-0",
       "q3": "5-0",
       "q4": "5-0",
-      "q1_wins": 0,
+      "q1_wins": 1,
       "q1_losses": 0,
       "q2_wins": 1,
       "q2_losses": 0,
@@ -675,6 +705,16 @@
           "quad": "Q3",
           "result": "W",
           "score": "60-12"
+        },
+        {
+          "date": "2026-11-20",
+          "week": 13,
+          "opponent": "Putnam County",
+          "opp_class": 1,
+          "opp_ovr": -11.22,
+          "quad": "Q1",
+          "result": "W",
+          "score": "22-0"
         }
       ]
     },
@@ -946,12 +986,12 @@
       "district": 8,
       "ovr_rank": 180,
       "ovr_rating": -11.22,
-      "q1": "1-1",
+      "q1": "1-2",
       "q2": "3-0",
       "q3": "2-1",
       "q4": "3-0",
       "q1_wins": 1,
-      "q1_losses": 1,
+      "q1_losses": 2,
       "q2_wins": 3,
       "q2_losses": 0,
       "q3_wins": 2,
@@ -1068,6 +1108,16 @@
           "quad": "Q2",
           "result": "W",
           "score": "38-7"
+        },
+        {
+          "date": "2026-11-20",
+          "week": 13,
+          "opponent": "Salisbury",
+          "opp_class": 1,
+          "opp_ovr": 1.41,
+          "quad": "Q1",
+          "result": "L",
+          "score": "0-22"
         }
       ]
     },
@@ -1320,13 +1370,13 @@
       "ovr_rank": 194,
       "ovr_rating": -15.63,
       "q1": "0-4",
-      "q2": "4-1",
+      "q2": "4-2",
       "q3": "3-0",
       "q4": "0-0",
       "q1_wins": 0,
       "q1_losses": 4,
       "q2_wins": 4,
-      "q2_losses": 1,
+      "q2_losses": 2,
       "q3_wins": 3,
       "q3_losses": 0,
       "q4_wins": 0,
@@ -1451,6 +1501,16 @@
           "quad": "Q2",
           "result": "W",
           "score": "36-26"
+        },
+        {
+          "date": "2026-11-20",
+          "week": 13,
+          "opponent": "East Buchanan",
+          "opp_class": 1,
+          "opp_ovr": -16.89,
+          "quad": "Q2",
+          "result": "L",
+          "score": "19-22"
         }
       ]
     },
@@ -1460,11 +1520,11 @@
       "district": 6,
       "ovr_rank": 199,
       "ovr_rating": -16.89,
-      "q1": "2-3",
+      "q1": "3-3",
       "q2": "2-0",
       "q3": "2-0",
       "q4": "2-0",
-      "q1_wins": 2,
+      "q1_wins": 3,
       "q1_losses": 3,
       "q2_wins": 2,
       "q2_losses": 0,
@@ -1582,6 +1642,16 @@
           "quad": "Q2",
           "result": "W",
           "score": "36-28"
+        },
+        {
+          "date": "2026-11-20",
+          "week": 13,
+          "opponent": "North Platte",
+          "opp_class": 1,
+          "opp_ovr": -15.63,
+          "quad": "Q1",
+          "result": "W",
+          "score": "22-19"
         }
       ]
     },
@@ -1944,12 +2014,12 @@
       "district": 2,
       "ovr_rank": 212,
       "ovr_rating": -20.94,
-      "q1": "0-2",
+      "q1": "0-3",
       "q2": "1-0",
       "q3": "2-0",
       "q4": "6-0",
       "q1_wins": 0,
-      "q1_losses": 2,
+      "q1_losses": 3,
       "q2_wins": 1,
       "q2_losses": 0,
       "q3_wins": 2,
@@ -2066,6 +2136,16 @@
           "quad": "Q4",
           "result": "W",
           "score": "55-6"
+        },
+        {
+          "date": "2026-11-20",
+          "week": 13,
+          "opponent": "Thayer",
+          "opp_class": 1,
+          "opp_ovr": 14.44,
+          "quad": "Q1",
+          "result": "L",
+          "score": "20-37"
         }
       ]
     },
@@ -5231,11 +5311,11 @@
       "district": 2,
       "ovr_rank": 22,
       "ovr_rating": 47.04,
-      "q1": "3-0",
+      "q1": "4-0",
       "q2": "3-0",
       "q3": "4-0",
       "q4": "1-0",
-      "q1_wins": 3,
+      "q1_wins": 4,
       "q1_losses": 0,
       "q2_wins": 3,
       "q2_losses": 0,
@@ -5353,6 +5433,16 @@
           "quad": "Q3",
           "result": "W",
           "score": "55-7"
+        },
+        {
+          "date": "2026-11-20",
+          "week": 13,
+          "opponent": "St. Vincent",
+          "opp_class": 2,
+          "opp_ovr": 4.52,
+          "quad": "Q1",
+          "result": "W",
+          "score": "54-7"
         }
       ]
     },
@@ -5363,12 +5453,12 @@
       "ovr_rank": 28,
       "ovr_rating": 41.05,
       "q1": "5-1",
-      "q2": "3-0",
+      "q2": "4-0",
       "q3": "1-0",
       "q4": "1-0",
       "q1_wins": 5,
       "q1_losses": 1,
-      "q2_wins": 3,
+      "q2_wins": 4,
       "q2_losses": 0,
       "q3_wins": 1,
       "q3_losses": 0,
@@ -5484,6 +5574,16 @@
           "quad": "Q1",
           "result": "W",
           "score": "55-0"
+        },
+        {
+          "date": "2026-11-20",
+          "week": 13,
+          "opponent": "Butler",
+          "opp_class": 2,
+          "opp_ovr": -14.33,
+          "quad": "Q2",
+          "result": "W",
+          "score": "59-8"
         }
       ]
     },
@@ -5493,11 +5593,11 @@
       "district": 4,
       "ovr_rank": 30,
       "ovr_rating": 40.66,
-      "q1": "8-0",
+      "q1": "9-0",
       "q2": "2-0",
       "q3": "0-0",
       "q4": "0-0",
-      "q1_wins": 8,
+      "q1_wins": 9,
       "q1_losses": 0,
       "q2_wins": 2,
       "q2_losses": 0,
@@ -5605,6 +5705,16 @@
           "quad": "Q1",
           "result": "W",
           "score": "66-20"
+        },
+        {
+          "date": "2026-11-20",
+          "week": 13,
+          "opponent": "Fair Grove",
+          "opp_class": 2,
+          "opp_ovr": 23.49,
+          "quad": "Q1",
+          "result": "W",
+          "score": "43-0"
         }
       ]
     },
@@ -5615,12 +5725,12 @@
       "ovr_rank": 59,
       "ovr_rating": 27.36,
       "q1": "4-0",
-      "q2": "3-0",
+      "q2": "4-0",
       "q3": "2-0",
       "q4": "2-0",
       "q1_wins": 4,
       "q1_losses": 0,
-      "q2_wins": 3,
+      "q2_wins": 4,
       "q2_losses": 0,
       "q3_wins": 2,
       "q3_losses": 0,
@@ -5736,6 +5846,16 @@
           "quad": "Q1",
           "result": "W",
           "score": "36-0"
+        },
+        {
+          "date": "2026-11-20",
+          "week": 13,
+          "opponent": "Lawson",
+          "opp_class": 2,
+          "opp_ovr": -4.47,
+          "quad": "Q2",
+          "result": "W",
+          "score": "38-14"
         }
       ]
     },
@@ -5745,12 +5865,12 @@
       "district": 3,
       "ovr_rank": 64,
       "ovr_rating": 23.49,
-      "q1": "3-1",
+      "q1": "3-2",
       "q2": "4-0",
       "q3": "3-0",
       "q4": "1-0",
       "q1_wins": 3,
-      "q1_losses": 1,
+      "q1_losses": 2,
       "q2_wins": 4,
       "q2_losses": 0,
       "q3_wins": 3,
@@ -5877,6 +5997,16 @@
           "quad": "Q1",
           "result": "W",
           "score": "47-7"
+        },
+        {
+          "date": "2026-11-20",
+          "week": 13,
+          "opponent": "Lamar",
+          "opp_class": 2,
+          "opp_ovr": 40.66,
+          "quad": "Q1",
+          "result": "L",
+          "score": "0-43"
         }
       ]
     },
@@ -6692,12 +6822,12 @@
       "district": 1,
       "ovr_rank": 123,
       "ovr_rating": 4.52,
-      "q1": "0-1",
+      "q1": "0-2",
       "q2": "2-0",
       "q3": "4-1",
       "q4": "3-0",
       "q1_wins": 0,
-      "q1_losses": 1,
+      "q1_losses": 2,
       "q2_wins": 2,
       "q2_losses": 0,
       "q3_wins": 4,
@@ -6814,6 +6944,16 @@
           "quad": "Q3",
           "result": "W",
           "score": "42-25"
+        },
+        {
+          "date": "2026-11-20",
+          "week": 13,
+          "opponent": "Valle Catholic",
+          "opp_class": 2,
+          "opp_ovr": 47.04,
+          "quad": "Q1",
+          "result": "L",
+          "score": "7-54"
         }
       ]
     },
@@ -7297,12 +7437,12 @@
       "district": 8,
       "ovr_rank": 161,
       "ovr_rating": -4.47,
-      "q1": "1-1",
+      "q1": "1-2",
       "q2": "3-1",
       "q3": "5-1",
       "q4": "0-0",
       "q1_wins": 1,
-      "q1_losses": 1,
+      "q1_losses": 2,
       "q2_wins": 3,
       "q2_losses": 1,
       "q3_wins": 5,
@@ -7429,6 +7569,16 @@
           "quad": "Q2",
           "result": "W",
           "score": "29-28"
+        },
+        {
+          "date": "2026-11-20",
+          "week": 13,
+          "opponent": "Centralia",
+          "opp_class": 2,
+          "opp_ovr": 27.36,
+          "quad": "Q1",
+          "result": "L",
+          "score": "14-38"
         }
       ]
     },
@@ -8335,12 +8485,12 @@
       "district": 6,
       "ovr_rank": 189,
       "ovr_rating": -14.33,
-      "q1": "0-1",
+      "q1": "0-2",
       "q2": "0-0",
       "q3": "3-2",
       "q4": "6-0",
       "q1_wins": 0,
-      "q1_losses": 1,
+      "q1_losses": 2,
       "q2_wins": 0,
       "q2_losses": 0,
       "q3_wins": 3,
@@ -8467,6 +8617,16 @@
           "quad": "Q3",
           "result": "W",
           "score": "52-8"
+        },
+        {
+          "date": "2026-11-20",
+          "week": 13,
+          "opponent": "Blair Oaks",
+          "opp_class": 2,
+          "opp_ovr": 41.05,
+          "quad": "Q1",
+          "result": "L",
+          "score": "8-59"
         }
       ]
     },
@@ -11845,11 +12005,11 @@
       "district": 8,
       "ovr_rank": 13,
       "ovr_rating": 54.96,
-      "q1": "5-2",
+      "q1": "6-2",
       "q2": "2-0",
       "q3": "0-0",
       "q4": "0-0",
-      "q1_wins": 5,
+      "q1_wins": 6,
       "q1_losses": 2,
       "q2_wins": 2,
       "q2_losses": 0,
@@ -11947,6 +12107,16 @@
           "quad": "Q1",
           "result": "W",
           "score": "49-35"
+        },
+        {
+          "date": "2026-11-20",
+          "week": 13,
+          "opponent": "Pembroke Hill",
+          "opp_class": 3,
+          "opp_ovr": 19.8,
+          "quad": "Q1",
+          "result": "W",
+          "score": "54-13"
         }
       ]
     },
@@ -11956,11 +12126,11 @@
       "district": 6,
       "ovr_rank": 27,
       "ovr_rating": 41.36,
-      "q1": "2-1",
+      "q1": "3-1",
       "q2": "6-0",
       "q3": "1-0",
       "q4": "0-0",
-      "q1_wins": 2,
+      "q1_wins": 3,
       "q1_losses": 1,
       "q2_wins": 6,
       "q2_losses": 0,
@@ -12068,6 +12238,16 @@
           "quad": "Q1",
           "result": "W",
           "score": "30-6"
+        },
+        {
+          "date": "2026-11-20",
+          "week": 13,
+          "opponent": "Mountain Grove",
+          "opp_class": 3,
+          "opp_ovr": 20.98,
+          "quad": "Q1",
+          "result": "W",
+          "score": "19-7"
         }
       ]
     },
@@ -12340,12 +12520,12 @@
       "ovr_rank": 65,
       "ovr_rating": 23.39,
       "q1": "1-2",
-      "q2": "2-0",
+      "q2": "3-0",
       "q3": "2-0",
       "q4": "3-0",
       "q1_wins": 1,
       "q1_losses": 2,
-      "q2_wins": 2,
+      "q2_wins": 3,
       "q2_losses": 0,
       "q3_wins": 2,
       "q3_losses": 0,
@@ -12451,6 +12631,16 @@
           "quad": "Q2",
           "result": "W",
           "score": "44-6"
+        },
+        {
+          "date": "2026-11-20",
+          "week": 13,
+          "opponent": "Dexter",
+          "opp_class": 3,
+          "opp_ovr": -0.94,
+          "quad": "Q2",
+          "result": "W",
+          "score": "48-24"
         }
       ]
     },
@@ -12460,12 +12650,12 @@
       "district": 5,
       "ovr_rank": 70,
       "ovr_rating": 20.98,
-      "q1": "1-2",
+      "q1": "1-3",
       "q2": "1-0",
       "q3": "5-0",
       "q4": "2-0",
       "q1_wins": 1,
-      "q1_losses": 2,
+      "q1_losses": 3,
       "q2_wins": 1,
       "q2_losses": 0,
       "q3_wins": 5,
@@ -12582,6 +12772,16 @@
           "quad": "Q3",
           "result": "W",
           "score": "46-7"
+        },
+        {
+          "date": "2026-11-20",
+          "week": 13,
+          "opponent": "Cassville",
+          "opp_class": 3,
+          "opp_ovr": 41.36,
+          "quad": "Q1",
+          "result": "L",
+          "score": "7-19"
         }
       ]
     },
@@ -12591,12 +12791,12 @@
       "district": 7,
       "ovr_rank": 73,
       "ovr_rating": 19.8,
-      "q1": "2-0",
+      "q1": "2-1",
       "q2": "2-0",
       "q3": "3-0",
       "q4": "2-0",
       "q1_wins": 2,
-      "q1_losses": 0,
+      "q1_losses": 1,
       "q2_wins": 2,
       "q2_losses": 0,
       "q3_wins": 3,
@@ -12693,6 +12893,16 @@
           "quad": "Q1",
           "result": "W",
           "score": "42-27"
+        },
+        {
+          "date": "2026-11-20",
+          "week": 13,
+          "opponent": "St. Pius X (Kansas City)",
+          "opp_class": 3,
+          "opp_ovr": 54.96,
+          "quad": "Q1",
+          "result": "L",
+          "score": "13-54"
         }
       ]
     },
@@ -12813,12 +13023,12 @@
       "district": 4,
       "ovr_rank": 93,
       "ovr_rating": 15.3,
-      "q1": "2-2",
+      "q1": "2-3",
       "q2": "3-0",
       "q3": "3-0",
       "q4": "1-0",
       "q1_wins": 2,
-      "q1_losses": 2,
+      "q1_losses": 3,
       "q2_wins": 3,
       "q2_losses": 0,
       "q3_wins": 3,
@@ -12935,6 +13145,16 @@
           "quad": "Q1",
           "result": "W",
           "score": "42-35"
+        },
+        {
+          "date": "2026-11-20",
+          "week": 13,
+          "opponent": "MICDS",
+          "opp_class": 3,
+          "opp_ovr": 10.5,
+          "quad": "Q1",
+          "result": "L",
+          "score": "41-42"
         }
       ]
     },
@@ -13085,11 +13305,11 @@
       "district": 3,
       "ovr_rank": 103,
       "ovr_rating": 10.5,
-      "q1": "1-4",
+      "q1": "2-4",
       "q2": "2-0",
       "q3": "1-0",
       "q4": "4-0",
-      "q1_wins": 1,
+      "q1_wins": 2,
       "q1_losses": 4,
       "q2_wins": 2,
       "q2_losses": 0,
@@ -13217,6 +13437,16 @@
           "quad": "Q4",
           "result": "W",
           "score": "52-8"
+        },
+        {
+          "date": "2026-11-20",
+          "week": 13,
+          "opponent": "Southern Boone",
+          "opp_class": 3,
+          "opp_ovr": 15.3,
+          "quad": "Q1",
+          "result": "W",
+          "score": "42-41"
         }
       ]
     },
@@ -14718,12 +14948,12 @@
       "district": 1,
       "ovr_rank": 149,
       "ovr_rating": -0.94,
-      "q1": "0-2",
+      "q1": "0-3",
       "q2": "2-2",
       "q3": "2-0",
       "q4": "4-0",
       "q1_wins": 0,
-      "q1_losses": 2,
+      "q1_losses": 3,
       "q2_wins": 2,
       "q2_losses": 2,
       "q3_wins": 2,
@@ -14850,6 +15080,16 @@
           "quad": "Q2",
           "result": "W",
           "score": "27-18"
+        },
+        {
+          "date": "2026-11-20",
+          "week": 13,
+          "opponent": "St. Pius X (Festus)",
+          "opp_class": 3,
+          "opp_ovr": 23.39,
+          "quad": "Q1",
+          "result": "L",
+          "score": "24-48"
         }
       ]
     },
@@ -18529,11 +18769,11 @@
       "district": 8,
       "ovr_rank": 2,
       "ovr_rating": 71.8,
-      "q1": "5-0",
+      "q1": "6-0",
       "q2": "3-0",
       "q3": "2-0",
       "q4": "1-0",
-      "q1_wins": 5,
+      "q1_wins": 6,
       "q1_losses": 0,
       "q2_wins": 3,
       "q2_losses": 0,
@@ -18651,6 +18891,16 @@
           "quad": "Q1",
           "result": "W",
           "score": "31-14"
+        },
+        {
+          "date": "2026-11-20",
+          "week": 13,
+          "opponent": "Pleasant Hill",
+          "opp_class": 4,
+          "opp_ovr": 20.32,
+          "quad": "Q1",
+          "result": "W",
+          "score": "45-0"
         }
       ]
     },
@@ -18791,11 +19041,11 @@
       "district": 5,
       "ovr_rank": 47,
       "ovr_rating": 31.93,
-      "q1": "4-1",
+      "q1": "5-1",
       "q2": "3-0",
       "q3": "3-0",
       "q4": "1-0",
-      "q1_wins": 4,
+      "q1_wins": 5,
       "q1_losses": 1,
       "q2_wins": 3,
       "q2_losses": 0,
@@ -18923,6 +19173,16 @@
           "quad": "Q1",
           "result": "W",
           "score": "34-14"
+        },
+        {
+          "date": "2026-11-20",
+          "week": 13,
+          "opponent": "Bolivar",
+          "opp_class": 4,
+          "opp_ovr": 17.68,
+          "quad": "Q1",
+          "result": "W",
+          "score": "48-34"
         }
       ]
     },
@@ -19063,11 +19323,11 @@
       "district": 3,
       "ovr_rank": 55,
       "ovr_rating": 29.75,
-      "q1": "1-5",
+      "q1": "2-5",
       "q2": "1-0",
       "q3": "1-0",
       "q4": "1-0",
-      "q1_wins": 1,
+      "q1_wins": 2,
       "q1_losses": 5,
       "q2_wins": 1,
       "q2_losses": 0,
@@ -19165,6 +19425,16 @@
           "quad": "Q2",
           "result": "W",
           "score": "24-6"
+        },
+        {
+          "date": "2026-11-20",
+          "week": 13,
+          "opponent": "Hannibal",
+          "opp_class": 4,
+          "opp_ovr": 28.26,
+          "quad": "Q1",
+          "result": "W",
+          "score": "34-20"
         }
       ]
     },
@@ -19295,11 +19565,11 @@
       "district": 1,
       "ovr_rank": 57,
       "ovr_rating": 28.72,
-      "q1": "1-2",
+      "q1": "2-2",
       "q2": "4-0",
       "q3": "3-0",
       "q4": "1-0",
-      "q1_wins": 1,
+      "q1_wins": 2,
       "q1_losses": 2,
       "q2_wins": 4,
       "q2_losses": 0,
@@ -19417,6 +19687,16 @@
           "quad": "Q2",
           "result": "W",
           "score": "33-13"
+        },
+        {
+          "date": "2026-11-20",
+          "week": 13,
+          "opponent": "Vianney",
+          "opp_class": 4,
+          "opp_ovr": 17.24,
+          "quad": "Q1",
+          "result": "W",
+          "score": "48-28"
         }
       ]
     },
@@ -19426,12 +19706,12 @@
       "district": 4,
       "ovr_rank": 58,
       "ovr_rating": 28.26,
-      "q1": "2-4",
+      "q1": "2-5",
       "q2": "4-1",
       "q3": "1-0",
       "q4": "0-0",
       "q1_wins": 2,
-      "q1_losses": 4,
+      "q1_losses": 5,
       "q2_wins": 4,
       "q2_losses": 1,
       "q3_wins": 1,
@@ -19558,6 +19838,16 @@
           "quad": "Q2",
           "result": "W",
           "score": "57-19"
+        },
+        {
+          "date": "2026-11-20",
+          "week": 13,
+          "opponent": "Lift for Life Academy Charter",
+          "opp_class": 4,
+          "opp_ovr": 29.75,
+          "quad": "Q1",
+          "result": "L",
+          "score": "20-34"
         }
       ]
     },
@@ -19960,12 +20250,12 @@
       "district": 7,
       "ovr_rank": 72,
       "ovr_rating": 20.32,
-      "q1": "1-4",
+      "q1": "1-5",
       "q2": "5-0",
       "q3": "1-0",
       "q4": "1-0",
       "q1_wins": 1,
-      "q1_losses": 4,
+      "q1_losses": 5,
       "q2_wins": 5,
       "q2_losses": 0,
       "q3_wins": 1,
@@ -20092,6 +20382,16 @@
           "quad": "Q1",
           "result": "W",
           "score": "10-0"
+        },
+        {
+          "date": "2026-11-20",
+          "week": 13,
+          "opponent": "Kearney",
+          "opp_class": 4,
+          "opp_ovr": 71.8,
+          "quad": "Q1",
+          "result": "L",
+          "score": "0-45"
         }
       ]
     },
@@ -20101,12 +20401,12 @@
       "district": 6,
       "ovr_rank": 82,
       "ovr_rating": 17.68,
-      "q1": "2-4",
+      "q1": "2-5",
       "q2": "1-0",
       "q3": "4-0",
       "q4": "1-0",
       "q1_wins": 2,
-      "q1_losses": 4,
+      "q1_losses": 5,
       "q2_wins": 1,
       "q2_losses": 0,
       "q3_wins": 4,
@@ -20233,6 +20533,16 @@
           "quad": "Q1",
           "result": "W",
           "score": "26-14"
+        },
+        {
+          "date": "2026-11-20",
+          "week": 13,
+          "opponent": "Warrensburg",
+          "opp_class": 4,
+          "opp_ovr": 31.93,
+          "quad": "Q1",
+          "result": "L",
+          "score": "34-48"
         }
       ]
     },
@@ -20242,12 +20552,12 @@
       "district": 2,
       "ovr_rank": 87,
       "ovr_rating": 17.24,
-      "q1": "1-6",
+      "q1": "1-7",
       "q2": "2-1",
       "q3": "0-0",
       "q4": "2-0",
       "q1_wins": 1,
-      "q1_losses": 6,
+      "q1_losses": 7,
       "q2_wins": 2,
       "q2_losses": 1,
       "q3_wins": 0,
@@ -20374,6 +20684,16 @@
           "quad": "Q2",
           "result": "W",
           "score": "35-14"
+        },
+        {
+          "date": "2026-11-20",
+          "week": 13,
+          "opponent": "Festus",
+          "opp_class": 4,
+          "opp_ovr": 28.72,
+          "quad": "Q1",
+          "result": "L",
+          "score": "28-48"
         }
       ]
     },
@@ -25193,12 +25513,12 @@
       "district": 6,
       "ovr_rank": 14,
       "ovr_rating": 53.1,
-      "q1": "5-1",
+      "q1": "5-2",
       "q2": "3-0",
       "q3": "2-0",
       "q4": "0-0",
       "q1_wins": 5,
-      "q1_losses": 1,
+      "q1_losses": 2,
       "q2_wins": 3,
       "q2_losses": 0,
       "q3_wins": 2,
@@ -25315,6 +25635,16 @@
           "quad": "Q1",
           "result": "W",
           "score": "56-13"
+        },
+        {
+          "date": "2026-11-20",
+          "week": 13,
+          "opponent": "Helias Catholic",
+          "opp_class": 5,
+          "opp_ovr": 51.62,
+          "quad": "Q1",
+          "result": "L",
+          "score": "16-26"
         }
       ]
     },
@@ -25324,11 +25654,11 @@
       "district": 5,
       "ovr_rank": 17,
       "ovr_rating": 51.62,
-      "q1": "3-0",
+      "q1": "4-0",
       "q2": "6-0",
       "q3": "0-0",
       "q4": "2-0",
-      "q1_wins": 3,
+      "q1_wins": 4,
       "q1_losses": 0,
       "q2_wins": 6,
       "q2_losses": 0,
@@ -25446,6 +25776,16 @@
           "quad": "Q1",
           "result": "W",
           "score": "30-8"
+        },
+        {
+          "date": "2026-11-20",
+          "week": 13,
+          "opponent": "Republic",
+          "opp_class": 5,
+          "opp_ovr": 53.1,
+          "quad": "Q1",
+          "result": "W",
+          "score": "26-16"
         }
       ]
     },
@@ -25456,12 +25796,12 @@
       "ovr_rank": 18,
       "ovr_rating": 49.63,
       "q1": "1-2",
-      "q2": "4-0",
+      "q2": "5-0",
       "q3": "0-0",
       "q4": "1-0",
       "q1_wins": 1,
       "q1_losses": 2,
-      "q2_wins": 4,
+      "q2_wins": 5,
       "q2_losses": 0,
       "q3_wins": 0,
       "q3_losses": 0,
@@ -25547,6 +25887,16 @@
           "quad": "Q2",
           "result": "W",
           "score": "60-33"
+        },
+        {
+          "date": "2026-11-20",
+          "week": 13,
+          "opponent": "Ft. Zumwalt North",
+          "opp_class": 5,
+          "opp_ovr": 26.0,
+          "quad": "Q2",
+          "result": "W",
+          "score": "30-15"
         }
       ]
     },
@@ -25556,12 +25906,12 @@
       "district": 8,
       "ovr_rank": 19,
       "ovr_rating": 48.54,
-      "q1": "2-2",
+      "q1": "2-3",
       "q2": "2-0",
       "q3": "3-0",
       "q4": "2-0",
       "q1_wins": 2,
-      "q1_losses": 2,
+      "q1_losses": 3,
       "q2_wins": 2,
       "q2_losses": 0,
       "q3_wins": 3,
@@ -25678,6 +26028,16 @@
           "quad": "Q1",
           "result": "W",
           "score": "18-8"
+        },
+        {
+          "date": "2026-11-20",
+          "week": 13,
+          "opponent": "Grain Valley",
+          "opp_class": 5,
+          "opp_ovr": 38.88,
+          "quad": "Q1",
+          "result": "L",
+          "score": "20-35"
         }
       ]
     },
@@ -25818,12 +26178,12 @@
       "district": 1,
       "ovr_rank": 24,
       "ovr_rating": 45.52,
-      "q1": "1-1",
+      "q1": "1-2",
       "q2": "3-0",
       "q3": "7-0",
       "q4": "0-0",
       "q1_wins": 1,
-      "q1_losses": 1,
+      "q1_losses": 2,
       "q2_wins": 3,
       "q2_losses": 0,
       "q3_wins": 7,
@@ -25950,6 +26310,16 @@
           "quad": "Q1",
           "result": "W",
           "score": "29-25"
+        },
+        {
+          "date": "2026-11-20",
+          "week": 13,
+          "opponent": "Eureka",
+          "opp_class": 5,
+          "opp_ovr": 39.35,
+          "quad": "Q1",
+          "result": "L",
+          "score": "33-37"
         }
       ]
     },
@@ -26221,11 +26591,11 @@
       "district": 2,
       "ovr_rank": 34,
       "ovr_rating": 39.35,
-      "q1": "2-0",
+      "q1": "3-0",
       "q2": "5-2",
       "q3": "2-0",
       "q4": "0-0",
-      "q1_wins": 2,
+      "q1_wins": 3,
       "q1_losses": 0,
       "q2_wins": 5,
       "q2_losses": 2,
@@ -26343,6 +26713,16 @@
           "quad": "Q2",
           "result": "W",
           "score": "38-21"
+        },
+        {
+          "date": "2026-11-20",
+          "week": 13,
+          "opponent": "Farmington",
+          "opp_class": 5,
+          "opp_ovr": 45.52,
+          "quad": "Q1",
+          "result": "W",
+          "score": "37-33"
         }
       ]
     },
@@ -26352,11 +26732,11 @@
       "district": 7,
       "ovr_rank": 35,
       "ovr_rating": 38.88,
-      "q1": "2-1",
+      "q1": "3-1",
       "q2": "3-1",
       "q3": "2-0",
       "q4": "2-0",
-      "q1_wins": 2,
+      "q1_wins": 3,
       "q1_losses": 1,
       "q2_wins": 3,
       "q2_losses": 1,
@@ -26474,6 +26854,16 @@
           "quad": "Q2",
           "result": "W",
           "score": "52-7"
+        },
+        {
+          "date": "2026-11-20",
+          "week": 13,
+          "opponent": "Platte County",
+          "opp_class": 5,
+          "opp_ovr": 48.54,
+          "quad": "Q1",
+          "result": "W",
+          "score": "35-20"
         }
       ]
     },
@@ -27380,12 +27770,12 @@
       "district": 4,
       "ovr_rank": 60,
       "ovr_rating": 26.0,
-      "q1": "1-0",
+      "q1": "1-1",
       "q2": "2-2",
       "q3": "3-1",
       "q4": "2-0",
       "q1_wins": 1,
-      "q1_losses": 0,
+      "q1_losses": 1,
       "q2_wins": 2,
       "q2_losses": 2,
       "q3_wins": 3,
@@ -27502,6 +27892,16 @@
           "quad": "Q3",
           "result": "W",
           "score": "58-28"
+        },
+        {
+          "date": "2026-11-20",
+          "week": 13,
+          "opponent": "Cardinal Ritter",
+          "opp_class": 5,
+          "opp_ovr": 49.63,
+          "quad": "Q1",
+          "result": "L",
+          "score": "15-30"
         }
       ]
     },
@@ -31897,11 +32297,11 @@
       "district": 6,
       "ovr_rank": 1,
       "ovr_rating": 71.83,
-      "q1": "6-2",
+      "q1": "7-2",
       "q2": "2-0",
       "q3": "1-0",
       "q4": "0-0",
-      "q1_wins": 6,
+      "q1_wins": 7,
       "q1_losses": 2,
       "q2_wins": 2,
       "q2_losses": 0,
@@ -32019,6 +32419,16 @@
           "quad": "Q1",
           "result": "W",
           "score": "44-17"
+        },
+        {
+          "date": "2026-11-20",
+          "week": 13,
+          "opponent": "Nixa",
+          "opp_class": 6,
+          "opp_ovr": 58.89,
+          "quad": "Q1",
+          "result": "W",
+          "score": "42-14"
         }
       ]
     },
@@ -32028,11 +32438,11 @@
       "district": 1,
       "ovr_rank": 3,
       "ovr_rating": 70.86,
-      "q1": "0-0",
+      "q1": "1-0",
       "q2": "3-0",
       "q3": "3-0",
       "q4": "3-0",
-      "q1_wins": 0,
+      "q1_wins": 1,
       "q1_losses": 0,
       "q2_wins": 3,
       "q2_losses": 0,
@@ -32130,6 +32540,16 @@
           "quad": "Q3",
           "result": "W",
           "score": "47-7"
+        },
+        {
+          "date": "2026-11-20",
+          "week": 13,
+          "opponent": "Christian Brothers College",
+          "opp_class": 6,
+          "opp_ovr": 55.56,
+          "quad": "Q1",
+          "result": "W",
+          "score": "45-28"
         }
       ]
     },
@@ -32381,11 +32801,11 @@
       "district": 7,
       "ovr_rank": 6,
       "ovr_rating": 63.52,
-      "q1": "4-2",
+      "q1": "5-2",
       "q2": "1-0",
       "q3": "0-0",
       "q4": "0-0",
-      "q1_wins": 4,
+      "q1_wins": 5,
       "q1_losses": 2,
       "q2_wins": 1,
       "q2_losses": 0,
@@ -32463,6 +32883,16 @@
           "quad": "Q1",
           "result": "W",
           "score": "24-16"
+        },
+        {
+          "date": "2026-11-20",
+          "week": 13,
+          "opponent": "Liberty North",
+          "opp_class": 6,
+          "opp_ovr": 63.42,
+          "quad": "Q1",
+          "result": "W",
+          "score": "17-12"
         }
       ]
     },
@@ -32472,12 +32902,12 @@
       "district": 8,
       "ovr_rank": 7,
       "ovr_rating": 63.42,
-      "q1": "3-2",
+      "q1": "3-3",
       "q2": "4-1",
       "q3": "1-0",
       "q4": "0-0",
       "q1_wins": 3,
-      "q1_losses": 2,
+      "q1_losses": 3,
       "q2_wins": 4,
       "q2_losses": 1,
       "q3_wins": 1,
@@ -32594,6 +33024,16 @@
           "quad": "Q2",
           "result": "W",
           "score": "41-14"
+        },
+        {
+          "date": "2026-11-20",
+          "week": 13,
+          "opponent": "Rockhurst",
+          "opp_class": 6,
+          "opp_ovr": 63.52,
+          "quad": "Q1",
+          "result": "L",
+          "score": "12-17"
         }
       ]
     },
@@ -32835,12 +33275,12 @@
       "district": 5,
       "ovr_rank": 10,
       "ovr_rating": 58.89,
-      "q1": "0-0",
+      "q1": "0-1",
       "q2": "2-1",
       "q3": "4-0",
       "q4": "4-0",
       "q1_wins": 0,
-      "q1_losses": 0,
+      "q1_losses": 1,
       "q2_wins": 2,
       "q2_losses": 1,
       "q3_wins": 4,
@@ -32957,6 +33397,16 @@
           "quad": "Q3",
           "result": "W",
           "score": "34-27"
+        },
+        {
+          "date": "2026-11-20",
+          "week": 13,
+          "opponent": "Blue Springs",
+          "opp_class": 6,
+          "opp_ovr": 71.83,
+          "quad": "Q1",
+          "result": "L",
+          "score": "14-42"
         }
       ]
     },
@@ -33107,12 +33557,12 @@
       "district": 2,
       "ovr_rank": 12,
       "ovr_rating": 55.56,
-      "q1": "0-0",
+      "q1": "0-1",
       "q2": "4-1",
       "q3": "1-0",
       "q4": "1-0",
       "q1_wins": 0,
-      "q1_losses": 0,
+      "q1_losses": 1,
       "q2_wins": 4,
       "q2_losses": 1,
       "q3_wins": 1,
@@ -33189,6 +33639,16 @@
           "quad": "Q2",
           "result": "W",
           "score": "36-6"
+        },
+        {
+          "date": "2026-11-20",
+          "week": 13,
+          "opponent": "Jackson",
+          "opp_class": 6,
+          "opp_ovr": 70.86,
+          "quad": "Q1",
+          "result": "L",
+          "score": "28-45"
         }
       ]
     },
@@ -33592,12 +34052,12 @@
       "ovr_rank": 25,
       "ovr_rating": 43.08,
       "q1": "0-2",
-      "q2": "0-1",
+      "q2": "1-1",
       "q3": "3-0",
       "q4": "5-0",
       "q1_wins": 0,
       "q1_losses": 2,
-      "q2_wins": 0,
+      "q2_wins": 1,
       "q2_losses": 1,
       "q3_wins": 3,
       "q3_losses": 0,
@@ -33711,6 +34171,16 @@
           "opp_class": 6,
           "opp_ovr": 31.13,
           "quad": "Q3",
+          "result": "W",
+          "score": "28-14"
+        },
+        {
+          "date": "2026-11-20",
+          "week": 13,
+          "opponent": "Troy Buchanan",
+          "opp_class": 6,
+          "opp_ovr": 38.27,
+          "quad": "Q2",
           "result": "W",
           "score": "28-14"
         }
@@ -34086,13 +34556,13 @@
       "ovr_rank": 37,
       "ovr_rating": 38.27,
       "q1": "0-0",
-      "q2": "0-1",
+      "q2": "0-2",
       "q3": "2-1",
       "q4": "6-0",
       "q1_wins": 0,
       "q1_losses": 0,
       "q2_wins": 0,
-      "q2_losses": 1,
+      "q2_losses": 2,
       "q3_wins": 2,
       "q3_losses": 1,
       "q4_wins": 6,
@@ -34197,6 +34667,16 @@
           "quad": "Q4",
           "result": "W",
           "score": "42-14"
+        },
+        {
+          "date": "2026-11-20",
+          "week": 13,
+          "opponent": "SLUH",
+          "opp_class": 6,
+          "opp_ovr": 43.08,
+          "quad": "Q2",
+          "result": "L",
+          "score": "14-28"
         }
       ]
     },
