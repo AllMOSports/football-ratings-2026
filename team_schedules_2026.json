@@ -252,6 +252,18 @@
         "won": true,
         "overtime": false,
         "forfeit": false
+      },
+      {
+        "date": "11/6/2026",
+        "opponent": "Portageville",
+        "opponent_type": "in_state",
+        "opponent_class": 1,
+        "played": true,
+        "my_score": 44,
+        "opp_score": 48,
+        "won": false,
+        "overtime": false,
+        "forfeit": false
       }
     ]
   },
@@ -378,6 +390,18 @@
         "my_score": 54,
         "opp_score": 12,
         "won": true,
+        "overtime": false,
+        "forfeit": false
+      },
+      {
+        "date": "11/6/2026",
+        "opponent": "Thayer",
+        "opponent_type": "in_state",
+        "opponent_class": 1,
+        "played": true,
+        "my_score": 0,
+        "opp_score": 54,
+        "won": false,
         "overtime": false,
         "forfeit": false
       }
@@ -624,6 +648,30 @@
         "won": true,
         "overtime": false,
         "forfeit": false
+      },
+      {
+        "date": "11/6/2026",
+        "opponent": "Charleston",
+        "opponent_type": "in_state",
+        "opponent_class": 1,
+        "played": true,
+        "my_score": 48,
+        "opp_score": 44,
+        "won": true,
+        "overtime": false,
+        "forfeit": false
+      },
+      {
+        "date": "11/13/2026",
+        "opponent": "Thayer",
+        "opponent_type": "in_state",
+        "opponent_class": 1,
+        "played": true,
+        "my_score": 20,
+        "opp_score": 66,
+        "won": false,
+        "overtime": false,
+        "forfeit": false
       }
     ]
   },
@@ -740,6 +788,42 @@
         "won": false,
         "overtime": false,
         "forfeit": false
+      },
+      {
+        "date": "11/6/2026",
+        "opponent": "Hayti",
+        "opponent_type": "in_state",
+        "opponent_class": 1,
+        "played": true,
+        "my_score": 54,
+        "opp_score": 0,
+        "won": true,
+        "overtime": false,
+        "forfeit": false
+      },
+      {
+        "date": "11/13/2026",
+        "opponent": "Portageville",
+        "opponent_type": "in_state",
+        "opponent_class": 1,
+        "played": true,
+        "my_score": 66,
+        "opp_score": 20,
+        "won": true,
+        "overtime": false,
+        "forfeit": false
+      },
+      {
+        "date": "11/20/2026",
+        "opponent": "Louisiana",
+        "opponent_type": "in_state",
+        "opponent_class": 1,
+        "played": true,
+        "my_score": 37,
+        "opp_score": 20,
+        "won": true,
+        "overtime": false,
+        "forfeit": false
       }
     ]
   },
@@ -854,6 +938,30 @@
         "my_score": 28,
         "opp_score": 8,
         "won": true,
+        "overtime": false,
+        "forfeit": false
+      },
+      {
+        "date": "11/6/2026",
+        "opponent": "Principia",
+        "opponent_type": "in_state",
+        "opponent_class": 1,
+        "played": true,
+        "my_score": 13,
+        "opp_score": 0,
+        "won": true,
+        "overtime": false,
+        "forfeit": true
+      },
+      {
+        "date": "11/13/2026",
+        "opponent": "Louisiana",
+        "opponent_type": "in_state",
+        "opponent_class": 1,
+        "played": true,
+        "my_score": 6,
+        "opp_score": 55,
+        "won": false,
         "overtime": false,
         "forfeit": false
       }
@@ -1100,6 +1208,42 @@
         "won": true,
         "overtime": false,
         "forfeit": false
+      },
+      {
+        "date": "11/6/2026",
+        "opponent": "Veritas Christian Academy",
+        "opponent_type": "in_state",
+        "opponent_class": 1,
+        "played": true,
+        "my_score": 72,
+        "opp_score": 0,
+        "won": true,
+        "overtime": false,
+        "forfeit": false
+      },
+      {
+        "date": "11/13/2026",
+        "opponent": "Crystal City",
+        "opponent_type": "in_state",
+        "opponent_class": 1,
+        "played": true,
+        "my_score": 55,
+        "opp_score": 6,
+        "won": true,
+        "overtime": false,
+        "forfeit": false
+      },
+      {
+        "date": "11/20/2026",
+        "opponent": "Thayer",
+        "opponent_type": "in_state",
+        "opponent_class": 1,
+        "played": true,
+        "my_score": 20,
+        "opp_score": 37,
+        "won": false,
+        "overtime": false,
+        "forfeit": false
       }
     ]
   },
@@ -1204,6 +1348,18 @@
         "won": false,
         "overtime": false,
         "forfeit": false
+      },
+      {
+        "date": "11/6/2026",
+        "opponent": "Crystal City",
+        "opponent_type": "in_state",
+        "opponent_class": 1,
+        "played": true,
+        "my_score": 0,
+        "opp_score": 13,
+        "won": false,
+        "overtime": false,
+        "forfeit": true
       }
     ]
   },
@@ -1306,6 +1462,18 @@
         "my_score": 49,
         "opp_score": 14,
         "won": true,
+        "overtime": false,
+        "forfeit": false
+      },
+      {
+        "date": "11/6/2026",
+        "opponent": "Louisiana",
+        "opponent_type": "in_state",
+        "opponent_class": 1,
+        "played": true,
+        "my_score": 0,
+        "opp_score": 72,
+        "won": false,
         "overtime": false,
         "forfeit": false
       }
@@ -1421,6 +1589,18 @@
         "played": true,
         "my_score": 8,
         "opp_score": 32,
+        "won": false,
+        "overtime": false,
+        "forfeit": false
+      },
+      {
+        "date": "11/6/2026",
+        "opponent": "Miller",
+        "opponent_type": "in_state",
+        "opponent_class": 1,
+        "played": true,
+        "my_score": 0,
+        "opp_score": 34,
         "won": false,
         "overtime": false,
         "forfeit": false
@@ -1656,6 +1836,30 @@
         "won": true,
         "overtime": false,
         "forfeit": false
+      },
+      {
+        "date": "11/6/2026",
+        "opponent": "Pierce City",
+        "opponent_type": "in_state",
+        "opponent_class": 1,
+        "played": true,
+        "my_score": 30,
+        "opp_score": 27,
+        "won": true,
+        "overtime": false,
+        "forfeit": false
+      },
+      {
+        "date": "11/13/2026",
+        "opponent": "Miller",
+        "opponent_type": "in_state",
+        "opponent_class": 1,
+        "played": true,
+        "my_score": 16,
+        "opp_score": 24,
+        "won": false,
+        "overtime": false,
+        "forfeit": false
       }
     ]
   },
@@ -1770,6 +1974,42 @@
         "my_score": 28,
         "opp_score": 14,
         "won": true,
+        "overtime": false,
+        "forfeit": false
+      },
+      {
+        "date": "11/6/2026",
+        "opponent": "Ash Grove",
+        "opponent_type": "in_state",
+        "opponent_class": 1,
+        "played": true,
+        "my_score": 34,
+        "opp_score": 0,
+        "won": true,
+        "overtime": false,
+        "forfeit": false
+      },
+      {
+        "date": "11/13/2026",
+        "opponent": "Marionville",
+        "opponent_type": "in_state",
+        "opponent_class": 1,
+        "played": true,
+        "my_score": 24,
+        "opp_score": 16,
+        "won": true,
+        "overtime": false,
+        "forfeit": false
+      },
+      {
+        "date": "11/20/2026",
+        "opponent": "Tipton with Bunceton",
+        "opponent_type": "in_state",
+        "opponent_class": 1,
+        "played": true,
+        "my_score": 18,
+        "opp_score": 58,
+        "won": false,
         "overtime": false,
         "forfeit": false
       }
@@ -1898,6 +2138,18 @@
         "my_score": 41,
         "opp_score": 14,
         "won": true,
+        "overtime": false,
+        "forfeit": false
+      },
+      {
+        "date": "11/6/2026",
+        "opponent": "Marionville",
+        "opponent_type": "in_state",
+        "opponent_class": 1,
+        "played": true,
+        "my_score": 27,
+        "opp_score": 30,
+        "won": false,
         "overtime": false,
         "forfeit": false
       }
@@ -2144,6 +2396,18 @@
         "won": false,
         "overtime": false,
         "forfeit": false
+      },
+      {
+        "date": "11/6/2026",
+        "opponent": "Skyline",
+        "opponent_type": "in_state",
+        "opponent_class": 1,
+        "played": true,
+        "my_score": 32,
+        "opp_score": 50,
+        "won": false,
+        "overtime": false,
+        "forfeit": false
       }
     ]
   },
@@ -2260,6 +2524,30 @@
         "won": true,
         "overtime": false,
         "forfeit": false
+      },
+      {
+        "date": "11/6/2026",
+        "opponent": "Russellville",
+        "opponent_type": "in_state",
+        "opponent_class": 1,
+        "played": true,
+        "my_score": 50,
+        "opp_score": 32,
+        "won": true,
+        "overtime": false,
+        "forfeit": false
+      },
+      {
+        "date": "11/13/2026",
+        "opponent": "Tipton with Bunceton",
+        "opponent_type": "in_state",
+        "opponent_class": 1,
+        "played": true,
+        "my_score": 22,
+        "opp_score": 76,
+        "won": false,
+        "overtime": false,
+        "forfeit": false
       }
     ]
   },
@@ -2373,6 +2661,42 @@
         "played": true,
         "my_score": 41,
         "opp_score": 12,
+        "won": true,
+        "overtime": false,
+        "forfeit": false
+      },
+      {
+        "date": "11/6/2026",
+        "opponent": "Windsor",
+        "opponent_type": "in_state",
+        "opponent_class": 1,
+        "played": true,
+        "my_score": 56,
+        "opp_score": 14,
+        "won": true,
+        "overtime": false,
+        "forfeit": false
+      },
+      {
+        "date": "11/13/2026",
+        "opponent": "Skyline",
+        "opponent_type": "in_state",
+        "opponent_class": 1,
+        "played": true,
+        "my_score": 76,
+        "opp_score": 22,
+        "won": true,
+        "overtime": false,
+        "forfeit": false
+      },
+      {
+        "date": "11/20/2026",
+        "opponent": "Miller",
+        "opponent_type": "in_state",
+        "opponent_class": 1,
+        "played": true,
+        "my_score": 58,
+        "opp_score": 18,
         "won": true,
         "overtime": false,
         "forfeit": false
@@ -2504,6 +2828,18 @@
         "won": true,
         "overtime": false,
         "forfeit": false
+      },
+      {
+        "date": "11/6/2026",
+        "opponent": "Tipton with Bunceton",
+        "opponent_type": "in_state",
+        "opponent_class": 1,
+        "played": true,
+        "my_score": 14,
+        "opp_score": 56,
+        "won": false,
+        "overtime": false,
+        "forfeit": false
       }
     ]
   },
@@ -2617,6 +2953,30 @@
         "played": true,
         "my_score": 14,
         "opp_score": 17,
+        "won": false,
+        "overtime": false,
+        "forfeit": false
+      },
+      {
+        "date": "11/6/2026",
+        "opponent": "Sherwood",
+        "opponent_type": "in_state",
+        "opponent_class": 1,
+        "played": true,
+        "my_score": 37,
+        "opp_score": 8,
+        "won": true,
+        "overtime": false,
+        "forfeit": false
+      },
+      {
+        "date": "11/13/2026",
+        "opponent": "North Platte",
+        "opponent_type": "in_state",
+        "opponent_class": 1,
+        "played": true,
+        "my_score": 26,
+        "opp_score": 36,
         "won": false,
         "overtime": false,
         "forfeit": false
@@ -2734,6 +3094,18 @@
         "my_score": 44,
         "opp_score": 30,
         "won": true,
+        "overtime": false,
+        "forfeit": false
+      },
+      {
+        "date": "11/6/2026",
+        "opponent": "North Platte",
+        "opponent_type": "in_state",
+        "opponent_class": 1,
+        "played": true,
+        "my_score": 34,
+        "opp_score": 46,
+        "won": false,
         "overtime": false,
         "forfeit": false
       }
@@ -2992,6 +3364,42 @@
         "won": true,
         "overtime": false,
         "forfeit": false
+      },
+      {
+        "date": "11/6/2026",
+        "opponent": "Carrollton",
+        "opponent_type": "in_state",
+        "opponent_class": 1,
+        "played": true,
+        "my_score": 46,
+        "opp_score": 34,
+        "won": true,
+        "overtime": false,
+        "forfeit": false
+      },
+      {
+        "date": "11/13/2026",
+        "opponent": "Adrian",
+        "opponent_type": "in_state",
+        "opponent_class": 1,
+        "played": true,
+        "my_score": 36,
+        "opp_score": 26,
+        "won": true,
+        "overtime": false,
+        "forfeit": false
+      },
+      {
+        "date": "11/20/2026",
+        "opponent": "East Buchanan",
+        "opponent_type": "in_state",
+        "opponent_class": 1,
+        "played": true,
+        "my_score": 19,
+        "opp_score": 22,
+        "won": false,
+        "overtime": false,
+        "forfeit": false
       }
     ]
   },
@@ -3108,6 +3516,18 @@
         "won": true,
         "overtime": false,
         "forfeit": false
+      },
+      {
+        "date": "11/6/2026",
+        "opponent": "Adrian",
+        "opponent_type": "in_state",
+        "opponent_class": 1,
+        "played": true,
+        "my_score": 8,
+        "opp_score": 37,
+        "won": false,
+        "overtime": false,
+        "forfeit": false
       }
     ]
   },
@@ -3221,6 +3641,42 @@
         "played": true,
         "my_score": 33,
         "opp_score": 20,
+        "won": true,
+        "overtime": false,
+        "forfeit": false
+      },
+      {
+        "date": "11/6/2026",
+        "opponent": "Plattsburg",
+        "opponent_type": "in_state",
+        "opponent_class": 1,
+        "played": true,
+        "my_score": 34,
+        "opp_score": 7,
+        "won": true,
+        "overtime": false,
+        "forfeit": false
+      },
+      {
+        "date": "11/13/2026",
+        "opponent": "Penney",
+        "opponent_type": "in_state",
+        "opponent_class": 1,
+        "played": true,
+        "my_score": 36,
+        "opp_score": 28,
+        "won": true,
+        "overtime": false,
+        "forfeit": false
+      },
+      {
+        "date": "11/20/2026",
+        "opponent": "North Platte",
+        "opponent_type": "in_state",
+        "opponent_class": 1,
+        "played": true,
+        "my_score": 22,
+        "opp_score": 19,
         "won": true,
         "overtime": false,
         "forfeit": false
@@ -3350,6 +3806,18 @@
         "my_score": 47,
         "opp_score": 0,
         "won": true,
+        "overtime": false,
+        "forfeit": false
+      },
+      {
+        "date": "11/6/2026",
+        "opponent": "Penney",
+        "opponent_type": "in_state",
+        "opponent_class": 1,
+        "played": true,
+        "my_score": 32,
+        "opp_score": 40,
+        "won": false,
         "overtime": false,
         "forfeit": false
       }
@@ -3596,6 +4064,30 @@
         "won": false,
         "overtime": false,
         "forfeit": false
+      },
+      {
+        "date": "11/6/2026",
+        "opponent": "Gallatin with Tri-County",
+        "opponent_type": "in_state",
+        "opponent_class": 1,
+        "played": true,
+        "my_score": 40,
+        "opp_score": 32,
+        "won": true,
+        "overtime": false,
+        "forfeit": false
+      },
+      {
+        "date": "11/13/2026",
+        "opponent": "East Buchanan",
+        "opponent_type": "in_state",
+        "opponent_class": 1,
+        "played": true,
+        "my_score": 28,
+        "opp_score": 36,
+        "won": false,
+        "overtime": false,
+        "forfeit": false
       }
     ]
   },
@@ -3722,6 +4214,18 @@
         "my_score": 27,
         "opp_score": 20,
         "won": true,
+        "overtime": false,
+        "forfeit": false
+      },
+      {
+        "date": "11/6/2026",
+        "opponent": "East Buchanan",
+        "opponent_type": "in_state",
+        "opponent_class": 1,
+        "played": true,
+        "my_score": 7,
+        "opp_score": 34,
+        "won": false,
         "overtime": false,
         "forfeit": false
       }
@@ -3980,6 +4484,18 @@
         "won": true,
         "overtime": false,
         "forfeit": false
+      },
+      {
+        "date": "11/6/2026",
+        "opponent": "Salisbury",
+        "opponent_type": "in_state",
+        "opponent_class": 1,
+        "played": true,
+        "my_score": 0,
+        "opp_score": 64,
+        "won": false,
+        "overtime": false,
+        "forfeit": false
       }
     ]
   },
@@ -4224,6 +4740,42 @@
         "won": true,
         "overtime": false,
         "forfeit": false
+      },
+      {
+        "date": "11/6/2026",
+        "opponent": "Fayette",
+        "opponent_type": "in_state",
+        "opponent_class": 1,
+        "played": true,
+        "my_score": 64,
+        "opp_score": 0,
+        "won": true,
+        "overtime": false,
+        "forfeit": false
+      },
+      {
+        "date": "11/13/2026",
+        "opponent": "Westran",
+        "opponent_type": "in_state",
+        "opponent_class": 1,
+        "played": true,
+        "my_score": 60,
+        "opp_score": 12,
+        "won": true,
+        "overtime": false,
+        "forfeit": false
+      },
+      {
+        "date": "11/20/2026",
+        "opponent": "Putnam County",
+        "opponent_type": "in_state",
+        "opponent_class": 1,
+        "played": true,
+        "my_score": 22,
+        "opp_score": 0,
+        "won": true,
+        "overtime": false,
+        "forfeit": false
       }
     ]
   },
@@ -4340,6 +4892,18 @@
         "won": false,
         "overtime": false,
         "forfeit": false
+      },
+      {
+        "date": "11/6/2026",
+        "opponent": "Westran",
+        "opponent_type": "in_state",
+        "opponent_class": 1,
+        "played": true,
+        "my_score": 8,
+        "opp_score": 27,
+        "won": false,
+        "overtime": false,
+        "forfeit": false
       }
     ]
   },
@@ -4453,6 +5017,30 @@
         "played": true,
         "my_score": 8,
         "opp_score": 50,
+        "won": false,
+        "overtime": false,
+        "forfeit": false
+      },
+      {
+        "date": "11/6/2026",
+        "opponent": "Van-Far",
+        "opponent_type": "in_state",
+        "opponent_class": 1,
+        "played": true,
+        "my_score": 27,
+        "opp_score": 8,
+        "won": true,
+        "overtime": false,
+        "forfeit": false
+      },
+      {
+        "date": "11/13/2026",
+        "opponent": "Salisbury",
+        "opponent_type": "in_state",
+        "opponent_class": 1,
+        "played": true,
+        "my_score": 12,
+        "opp_score": 60,
         "won": false,
         "overtime": false,
         "forfeit": false
@@ -4582,6 +5170,30 @@
         "my_score": 54,
         "opp_score": 13,
         "won": true,
+        "overtime": false,
+        "forfeit": false
+      },
+      {
+        "date": "11/6/2026",
+        "opponent": "Scotland County",
+        "opponent_type": "in_state",
+        "opponent_class": 1,
+        "played": true,
+        "my_score": 35,
+        "opp_score": 12,
+        "won": true,
+        "overtime": false,
+        "forfeit": false
+      },
+      {
+        "date": "11/13/2026",
+        "opponent": "Putnam County",
+        "opponent_type": "in_state",
+        "opponent_class": 1,
+        "played": true,
+        "my_score": 7,
+        "opp_score": 38,
+        "won": false,
         "overtime": false,
         "forfeit": false
       }
@@ -4816,6 +5428,42 @@
         "won": true,
         "overtime": false,
         "forfeit": false
+      },
+      {
+        "date": "11/6/2026",
+        "opponent": "South Shelby",
+        "opponent_type": "in_state",
+        "opponent_class": 1,
+        "played": true,
+        "my_score": 14,
+        "opp_score": 12,
+        "won": true,
+        "overtime": false,
+        "forfeit": false
+      },
+      {
+        "date": "11/13/2026",
+        "opponent": "Marceline",
+        "opponent_type": "in_state",
+        "opponent_class": 1,
+        "played": true,
+        "my_score": 38,
+        "opp_score": 7,
+        "won": true,
+        "overtime": false,
+        "forfeit": false
+      },
+      {
+        "date": "11/20/2026",
+        "opponent": "Salisbury",
+        "opponent_type": "in_state",
+        "opponent_class": 1,
+        "played": true,
+        "my_score": 0,
+        "opp_score": 22,
+        "won": false,
+        "overtime": false,
+        "forfeit": false
       }
     ]
   },
@@ -4916,6 +5564,18 @@
         "opponent_class": 2,
         "played": true,
         "my_score": 34,
+        "opp_score": 35,
+        "won": false,
+        "overtime": false,
+        "forfeit": false
+      },
+      {
+        "date": "11/6/2026",
+        "opponent": "Marceline",
+        "opponent_type": "in_state",
+        "opponent_class": 1,
+        "played": true,
+        "my_score": 12,
         "opp_score": 35,
         "won": false,
         "overtime": false,
@@ -5036,6 +5696,18 @@
         "won": false,
         "overtime": false,
         "forfeit": false
+      },
+      {
+        "date": "11/6/2026",
+        "opponent": "Putnam County",
+        "opponent_type": "in_state",
+        "opponent_class": 1,
+        "played": true,
+        "my_score": 12,
+        "opp_score": 14,
+        "won": false,
+        "overtime": false,
+        "forfeit": false
       }
     ]
   },
@@ -5150,6 +5822,18 @@
         "my_score": 34,
         "opp_score": 14,
         "won": true,
+        "overtime": false,
+        "forfeit": false
+      },
+      {
+        "date": "11/6/2026",
+        "opponent": "Kelly",
+        "opponent_type": "in_state",
+        "opponent_class": 2,
+        "played": true,
+        "my_score": 8,
+        "opp_score": 19,
+        "won": false,
         "overtime": false,
         "forfeit": false
       }
@@ -5536,6 +6220,30 @@
         "won": true,
         "overtime": false,
         "forfeit": false
+      },
+      {
+        "date": "11/6/2026",
+        "opponent": "Caruthersville",
+        "opponent_type": "in_state",
+        "opponent_class": 2,
+        "played": true,
+        "my_score": 19,
+        "opp_score": 8,
+        "won": true,
+        "overtime": false,
+        "forfeit": false
+      },
+      {
+        "date": "11/13/2026",
+        "opponent": "St. Vincent",
+        "opponent_type": "in_state",
+        "opponent_class": 2,
+        "played": true,
+        "my_score": 25,
+        "opp_score": 42,
+        "won": false,
+        "overtime": false,
+        "forfeit": false
       }
     ]
   },
@@ -5652,6 +6360,18 @@
         "won": true,
         "overtime": false,
         "forfeit": false
+      },
+      {
+        "date": "11/6/2026",
+        "opponent": "St. Vincent",
+        "opponent_type": "in_state",
+        "opponent_class": 2,
+        "played": true,
+        "my_score": 10,
+        "opp_score": 40,
+        "won": false,
+        "overtime": false,
+        "forfeit": false
       }
     ]
   },
@@ -5765,6 +6485,42 @@
         "played": true,
         "my_score": 14,
         "opp_score": 23,
+        "won": false,
+        "overtime": false,
+        "forfeit": false
+      },
+      {
+        "date": "11/6/2026",
+        "opponent": "Saxony Lutheran",
+        "opponent_type": "in_state",
+        "opponent_class": 2,
+        "played": true,
+        "my_score": 40,
+        "opp_score": 10,
+        "won": true,
+        "overtime": false,
+        "forfeit": false
+      },
+      {
+        "date": "11/13/2026",
+        "opponent": "Kelly",
+        "opponent_type": "in_state",
+        "opponent_class": 2,
+        "played": true,
+        "my_score": 42,
+        "opp_score": 25,
+        "won": true,
+        "overtime": false,
+        "forfeit": false
+      },
+      {
+        "date": "11/20/2026",
+        "opponent": "Valle Catholic",
+        "opponent_type": "in_state",
+        "opponent_class": 2,
+        "played": true,
+        "my_score": 7,
+        "opp_score": 54,
         "won": false,
         "overtime": false,
         "forfeit": false
@@ -6140,6 +6896,18 @@
         "won": true,
         "overtime": false,
         "forfeit": false
+      },
+      {
+        "date": "11/6/2026",
+        "opponent": "Valle Catholic",
+        "opponent_type": "in_state",
+        "opponent_class": 2,
+        "played": true,
+        "my_score": 14,
+        "opp_score": 54,
+        "won": false,
+        "overtime": false,
+        "forfeit": false
       }
     ]
   },
@@ -6254,6 +7022,30 @@
         "my_score": 23,
         "opp_score": 14,
         "won": true,
+        "overtime": false,
+        "forfeit": false
+      },
+      {
+        "date": "11/6/2026",
+        "opponent": "Montgomery County",
+        "opponent_type": "in_state",
+        "opponent_class": 2,
+        "played": true,
+        "my_score": 14,
+        "opp_score": 12,
+        "won": true,
+        "overtime": false,
+        "forfeit": false
+      },
+      {
+        "date": "11/13/2026",
+        "opponent": "Valle Catholic",
+        "opponent_type": "in_state",
+        "opponent_class": 2,
+        "played": true,
+        "my_score": 7,
+        "opp_score": 55,
+        "won": false,
         "overtime": false,
         "forfeit": false
       }
@@ -6500,6 +7292,18 @@
         "won": true,
         "overtime": false,
         "forfeit": true
+      },
+      {
+        "date": "11/6/2026",
+        "opponent": "Jefferson (Festus)",
+        "opponent_type": "in_state",
+        "opponent_class": 2,
+        "played": true,
+        "my_score": 12,
+        "opp_score": 14,
+        "won": false,
+        "overtime": false,
+        "forfeit": false
       }
     ]
   },
@@ -6613,6 +7417,42 @@
         "played": true,
         "my_score": 52,
         "opp_score": 6,
+        "won": true,
+        "overtime": false,
+        "forfeit": false
+      },
+      {
+        "date": "11/6/2026",
+        "opponent": "Hermann",
+        "opponent_type": "in_state",
+        "opponent_class": 2,
+        "played": true,
+        "my_score": 54,
+        "opp_score": 14,
+        "won": true,
+        "overtime": false,
+        "forfeit": false
+      },
+      {
+        "date": "11/13/2026",
+        "opponent": "Jefferson (Festus)",
+        "opponent_type": "in_state",
+        "opponent_class": 2,
+        "played": true,
+        "my_score": 55,
+        "opp_score": 7,
+        "won": true,
+        "overtime": false,
+        "forfeit": false
+      },
+      {
+        "date": "11/20/2026",
+        "opponent": "St. Vincent",
+        "opponent_type": "in_state",
+        "opponent_class": 2,
+        "played": true,
+        "my_score": 54,
+        "opp_score": 7,
         "won": true,
         "overtime": false,
         "forfeit": false
@@ -6744,6 +7584,18 @@
         "won": true,
         "overtime": false,
         "forfeit": false
+      },
+      {
+        "date": "11/6/2026",
+        "opponent": "Fair Grove",
+        "opponent_type": "in_state",
+        "opponent_class": 2,
+        "played": true,
+        "my_score": 21,
+        "opp_score": 53,
+        "won": false,
+        "overtime": false,
+        "forfeit": false
       }
     ]
   },
@@ -6870,6 +7722,42 @@
         "my_score": 42,
         "opp_score": 13,
         "won": true,
+        "overtime": false,
+        "forfeit": false
+      },
+      {
+        "date": "11/6/2026",
+        "opponent": "Ava",
+        "opponent_type": "in_state",
+        "opponent_class": 2,
+        "played": true,
+        "my_score": 53,
+        "opp_score": 21,
+        "won": true,
+        "overtime": false,
+        "forfeit": false
+      },
+      {
+        "date": "11/13/2026",
+        "opponent": "Springfield Catholic",
+        "opponent_type": "in_state",
+        "opponent_class": 2,
+        "played": true,
+        "my_score": 47,
+        "opp_score": 7,
+        "won": true,
+        "overtime": false,
+        "forfeit": false
+      },
+      {
+        "date": "11/20/2026",
+        "opponent": "Lamar",
+        "opponent_type": "in_state",
+        "opponent_class": 2,
+        "played": true,
+        "my_score": 0,
+        "opp_score": 43,
+        "won": false,
         "overtime": false,
         "forfeit": false
       }
@@ -7256,6 +8144,18 @@
         "won": true,
         "overtime": false,
         "forfeit": false
+      },
+      {
+        "date": "11/6/2026",
+        "opponent": "Springfield Catholic",
+        "opponent_type": "in_state",
+        "opponent_class": 2,
+        "played": true,
+        "my_score": 28,
+        "opp_score": 29,
+        "won": false,
+        "overtime": false,
+        "forfeit": false
       }
     ]
   },
@@ -7370,6 +8270,30 @@
         "my_score": 34,
         "opp_score": 33,
         "won": true,
+        "overtime": false,
+        "forfeit": false
+      },
+      {
+        "date": "11/6/2026",
+        "opponent": "Liberty (Mountain View)",
+        "opponent_type": "in_state",
+        "opponent_class": 2,
+        "played": true,
+        "my_score": 29,
+        "opp_score": 28,
+        "won": true,
+        "overtime": false,
+        "forfeit": false
+      },
+      {
+        "date": "11/13/2026",
+        "opponent": "Fair Grove",
+        "opponent_type": "in_state",
+        "opponent_class": 2,
+        "played": true,
+        "my_score": 7,
+        "opp_score": 47,
+        "won": false,
         "overtime": false,
         "forfeit": false
       }
@@ -7628,6 +8552,18 @@
         "won": true,
         "overtime": false,
         "forfeit": false
+      },
+      {
+        "date": "11/6/2026",
+        "opponent": "East Newton",
+        "opponent_type": "in_state",
+        "opponent_class": 2,
+        "played": true,
+        "my_score": 26,
+        "opp_score": 35,
+        "won": false,
+        "overtime": false,
+        "forfeit": false
       }
     ]
   },
@@ -7754,6 +8690,30 @@
         "my_score": 55,
         "opp_score": 22,
         "won": true,
+        "overtime": false,
+        "forfeit": false
+      },
+      {
+        "date": "11/6/2026",
+        "opponent": "Clever",
+        "opponent_type": "in_state",
+        "opponent_class": 2,
+        "played": true,
+        "my_score": 35,
+        "opp_score": 26,
+        "won": true,
+        "overtime": false,
+        "forfeit": false
+      },
+      {
+        "date": "11/13/2026",
+        "opponent": "Lamar",
+        "opponent_type": "in_state",
+        "opponent_class": 2,
+        "played": true,
+        "my_score": 20,
+        "opp_score": 66,
+        "won": false,
         "overtime": false,
         "forfeit": false
       }
@@ -8000,6 +8960,42 @@
         "won": true,
         "overtime": false,
         "forfeit": false
+      },
+      {
+        "date": "11/6/2026",
+        "opponent": "Sarcoxie",
+        "opponent_type": "in_state",
+        "opponent_class": 2,
+        "played": true,
+        "my_score": 55,
+        "opp_score": 0,
+        "won": true,
+        "overtime": false,
+        "forfeit": false
+      },
+      {
+        "date": "11/13/2026",
+        "opponent": "East Newton",
+        "opponent_type": "in_state",
+        "opponent_class": 2,
+        "played": true,
+        "my_score": 66,
+        "opp_score": 20,
+        "won": true,
+        "overtime": false,
+        "forfeit": false
+      },
+      {
+        "date": "11/20/2026",
+        "opponent": "Fair Grove",
+        "opponent_type": "in_state",
+        "opponent_class": 2,
+        "played": true,
+        "my_score": 43,
+        "opp_score": 0,
+        "won": true,
+        "overtime": false,
+        "forfeit": false
       }
     ]
   },
@@ -8126,6 +9122,18 @@
         "my_score": 42,
         "opp_score": 21,
         "won": true,
+        "overtime": false,
+        "forfeit": false
+      },
+      {
+        "date": "11/6/2026",
+        "opponent": "Lamar",
+        "opponent_type": "in_state",
+        "opponent_class": 2,
+        "played": true,
+        "my_score": 0,
+        "opp_score": 55,
+        "won": false,
         "overtime": false,
         "forfeit": false
       }
@@ -8500,6 +9508,42 @@
         "won": true,
         "overtime": false,
         "forfeit": false
+      },
+      {
+        "date": "11/6/2026",
+        "opponent": "South Callaway",
+        "opponent_type": "in_state",
+        "opponent_class": 2,
+        "played": true,
+        "my_score": 49,
+        "opp_score": 7,
+        "won": true,
+        "overtime": false,
+        "forfeit": false
+      },
+      {
+        "date": "11/13/2026",
+        "opponent": "North Callaway",
+        "opponent_type": "in_state",
+        "opponent_class": 2,
+        "played": true,
+        "my_score": 55,
+        "opp_score": 0,
+        "won": true,
+        "overtime": false,
+        "forfeit": false
+      },
+      {
+        "date": "11/20/2026",
+        "opponent": "Butler",
+        "opponent_type": "in_state",
+        "opponent_class": 2,
+        "played": true,
+        "my_score": 59,
+        "opp_score": 8,
+        "won": true,
+        "overtime": false,
+        "forfeit": false
       }
     ]
   },
@@ -8626,6 +9670,18 @@
         "my_score": 18,
         "opp_score": 13,
         "won": true,
+        "overtime": false,
+        "forfeit": false
+      },
+      {
+        "date": "11/6/2026",
+        "opponent": "North Callaway",
+        "opponent_type": "in_state",
+        "opponent_class": 2,
+        "played": true,
+        "my_score": 18,
+        "opp_score": 60,
+        "won": false,
         "overtime": false,
         "forfeit": false
       }
@@ -9012,6 +10068,30 @@
         "won": true,
         "overtime": false,
         "forfeit": false
+      },
+      {
+        "date": "11/6/2026",
+        "opponent": "California",
+        "opponent_type": "in_state",
+        "opponent_class": 2,
+        "played": true,
+        "my_score": 60,
+        "opp_score": 18,
+        "won": true,
+        "overtime": false,
+        "forfeit": false
+      },
+      {
+        "date": "11/13/2026",
+        "opponent": "Blair Oaks",
+        "opponent_type": "in_state",
+        "opponent_class": 2,
+        "played": true,
+        "my_score": 0,
+        "opp_score": 55,
+        "won": false,
+        "overtime": false,
+        "forfeit": false
       }
     ]
   },
@@ -9138,6 +10218,18 @@
         "my_score": 50,
         "opp_score": 8,
         "won": true,
+        "overtime": false,
+        "forfeit": false
+      },
+      {
+        "date": "11/6/2026",
+        "opponent": "Blair Oaks",
+        "opponent_type": "in_state",
+        "opponent_class": 2,
+        "played": true,
+        "my_score": 7,
+        "opp_score": 49,
+        "won": false,
         "overtime": false,
         "forfeit": false
       }
@@ -9396,6 +10488,42 @@
         "won": true,
         "overtime": false,
         "forfeit": false
+      },
+      {
+        "date": "11/6/2026",
+        "opponent": "Lone Jack with Kingsville",
+        "opponent_type": "in_state",
+        "opponent_class": 2,
+        "played": true,
+        "my_score": 70,
+        "opp_score": 14,
+        "won": true,
+        "overtime": false,
+        "forfeit": false
+      },
+      {
+        "date": "11/13/2026",
+        "opponent": "Lafayette County",
+        "opponent_type": "in_state",
+        "opponent_class": 2,
+        "played": true,
+        "my_score": 52,
+        "opp_score": 8,
+        "won": true,
+        "overtime": false,
+        "forfeit": false
+      },
+      {
+        "date": "11/20/2026",
+        "opponent": "Blair Oaks",
+        "opponent_type": "in_state",
+        "opponent_class": 2,
+        "played": true,
+        "my_score": 8,
+        "opp_score": 59,
+        "won": false,
+        "overtime": false,
+        "forfeit": false
       }
     ]
   },
@@ -9498,6 +10626,18 @@
         "my_score": 32,
         "opp_score": 8,
         "won": true,
+        "overtime": false,
+        "forfeit": false
+      },
+      {
+        "date": "11/6/2026",
+        "opponent": "Lafayette County",
+        "opponent_type": "in_state",
+        "opponent_class": 2,
+        "played": true,
+        "my_score": 20,
+        "opp_score": 31,
+        "won": false,
         "overtime": false,
         "forfeit": false
       }
@@ -9884,6 +11024,30 @@
         "won": true,
         "overtime": false,
         "forfeit": false
+      },
+      {
+        "date": "11/6/2026",
+        "opponent": "Hogan Prep Academy Charter",
+        "opponent_type": "in_state",
+        "opponent_class": 2,
+        "played": true,
+        "my_score": 31,
+        "opp_score": 20,
+        "won": true,
+        "overtime": false,
+        "forfeit": false
+      },
+      {
+        "date": "11/13/2026",
+        "opponent": "Butler",
+        "opponent_type": "in_state",
+        "opponent_class": 2,
+        "played": true,
+        "my_score": 8,
+        "opp_score": 52,
+        "won": false,
+        "overtime": false,
+        "forfeit": false
       }
     ]
   },
@@ -10140,6 +11304,18 @@
         "won": true,
         "overtime": false,
         "forfeit": false
+      },
+      {
+        "date": "11/6/2026",
+        "opponent": "Butler",
+        "opponent_type": "in_state",
+        "opponent_class": 2,
+        "played": true,
+        "my_score": 14,
+        "opp_score": 70,
+        "won": false,
+        "overtime": false,
+        "forfeit": false
       }
     ]
   },
@@ -10268,6 +11444,18 @@
         "won": true,
         "overtime": false,
         "forfeit": false
+      },
+      {
+        "date": "11/6/2026",
+        "opponent": "Palmyra",
+        "opponent_type": "in_state",
+        "opponent_class": 2,
+        "played": true,
+        "my_score": 20,
+        "opp_score": 43,
+        "won": false,
+        "overtime": false,
+        "forfeit": false
       }
     ]
   },
@@ -10381,6 +11569,42 @@
         "played": true,
         "my_score": 48,
         "opp_score": 16,
+        "won": true,
+        "overtime": false,
+        "forfeit": false
+      },
+      {
+        "date": "11/6/2026",
+        "opponent": "Monroe City",
+        "opponent_type": "in_state",
+        "opponent_class": 2,
+        "played": true,
+        "my_score": 46,
+        "opp_score": 6,
+        "won": true,
+        "overtime": false,
+        "forfeit": false
+      },
+      {
+        "date": "11/13/2026",
+        "opponent": "Palmyra",
+        "opponent_type": "in_state",
+        "opponent_class": 2,
+        "played": true,
+        "my_score": 36,
+        "opp_score": 0,
+        "won": true,
+        "overtime": false,
+        "forfeit": false
+      },
+      {
+        "date": "11/20/2026",
+        "opponent": "Lawson",
+        "opponent_type": "in_state",
+        "opponent_class": 2,
+        "played": true,
+        "my_score": 38,
+        "opp_score": 14,
         "won": true,
         "overtime": false,
         "forfeit": false
@@ -10896,6 +12120,18 @@
         "won": true,
         "overtime": false,
         "forfeit": false
+      },
+      {
+        "date": "11/6/2026",
+        "opponent": "Centralia",
+        "opponent_type": "in_state",
+        "opponent_class": 2,
+        "played": true,
+        "my_score": 6,
+        "opp_score": 46,
+        "won": false,
+        "overtime": false,
+        "forfeit": false
       }
     ]
   },
@@ -11024,6 +12260,30 @@
         "won": true,
         "overtime": false,
         "forfeit": false
+      },
+      {
+        "date": "11/6/2026",
+        "opponent": "Bowling Green",
+        "opponent_type": "in_state",
+        "opponent_class": 2,
+        "played": true,
+        "my_score": 43,
+        "opp_score": 20,
+        "won": true,
+        "overtime": false,
+        "forfeit": false
+      },
+      {
+        "date": "11/13/2026",
+        "opponent": "Centralia",
+        "opponent_type": "in_state",
+        "opponent_class": 2,
+        "played": true,
+        "my_score": 0,
+        "opp_score": 36,
+        "won": false,
+        "overtime": false,
+        "forfeit": false
       }
     ]
   },
@@ -11137,6 +12397,30 @@
         "played": true,
         "my_score": 12,
         "opp_score": 15,
+        "won": false,
+        "overtime": false,
+        "forfeit": false
+      },
+      {
+        "date": "11/6/2026",
+        "opponent": "West Platte",
+        "opponent_type": "in_state",
+        "opponent_class": 2,
+        "played": true,
+        "my_score": 38,
+        "opp_score": 14,
+        "won": true,
+        "overtime": false,
+        "forfeit": false
+      },
+      {
+        "date": "11/13/2026",
+        "opponent": "Lawson",
+        "opponent_type": "in_state",
+        "opponent_class": 2,
+        "played": true,
+        "my_score": 28,
+        "opp_score": 29,
         "won": false,
         "overtime": false,
         "forfeit": false
@@ -11396,6 +12680,42 @@
         "won": true,
         "overtime": false,
         "forfeit": false
+      },
+      {
+        "date": "11/6/2026",
+        "opponent": "Mid-Buchanan",
+        "opponent_type": "in_state",
+        "opponent_class": 2,
+        "played": true,
+        "my_score": 19,
+        "opp_score": 18,
+        "won": true,
+        "overtime": false,
+        "forfeit": false
+      },
+      {
+        "date": "11/13/2026",
+        "opponent": "Brookfield",
+        "opponent_type": "in_state",
+        "opponent_class": 2,
+        "played": true,
+        "my_score": 29,
+        "opp_score": 28,
+        "won": true,
+        "overtime": false,
+        "forfeit": false
+      },
+      {
+        "date": "11/20/2026",
+        "opponent": "Centralia",
+        "opponent_type": "in_state",
+        "opponent_class": 2,
+        "played": true,
+        "my_score": 14,
+        "opp_score": 38,
+        "won": false,
+        "overtime": false,
+        "forfeit": false
       }
     ]
   },
@@ -11510,6 +12830,18 @@
         "my_score": 61,
         "opp_score": 0,
         "won": true,
+        "overtime": false,
+        "forfeit": false
+      },
+      {
+        "date": "11/6/2026",
+        "opponent": "Lawson",
+        "opponent_type": "in_state",
+        "opponent_class": 2,
+        "played": true,
+        "my_score": 18,
+        "opp_score": 19,
+        "won": false,
         "overtime": false,
         "forfeit": false
       }
@@ -11768,6 +13100,18 @@
         "won": true,
         "overtime": false,
         "forfeit": false
+      },
+      {
+        "date": "11/6/2026",
+        "opponent": "Brookfield",
+        "opponent_type": "in_state",
+        "opponent_class": 2,
+        "played": true,
+        "my_score": 14,
+        "opp_score": 38,
+        "won": false,
+        "overtime": false,
+        "forfeit": false
       }
     ]
   },
@@ -11894,6 +13238,42 @@
         "my_score": 33,
         "opp_score": 7,
         "won": true,
+        "overtime": false,
+        "forfeit": false
+      },
+      {
+        "date": "11/6/2026",
+        "opponent": "Ste. Genevieve",
+        "opponent_type": "in_state",
+        "opponent_class": 3,
+        "played": true,
+        "my_score": 28,
+        "opp_score": 13,
+        "won": true,
+        "overtime": false,
+        "forfeit": false
+      },
+      {
+        "date": "11/13/2026",
+        "opponent": "Kennett",
+        "opponent_type": "in_state",
+        "opponent_class": 3,
+        "played": true,
+        "my_score": 27,
+        "opp_score": 18,
+        "won": true,
+        "overtime": false,
+        "forfeit": false
+      },
+      {
+        "date": "11/20/2026",
+        "opponent": "St. Pius X (Festus)",
+        "opponent_type": "in_state",
+        "opponent_class": 3,
+        "played": true,
+        "my_score": 24,
+        "opp_score": 48,
+        "won": false,
         "overtime": false,
         "forfeit": false
       }
@@ -12268,6 +13648,30 @@
         "won": true,
         "overtime": false,
         "forfeit": false
+      },
+      {
+        "date": "11/6/2026",
+        "opponent": "Perryville",
+        "opponent_type": "in_state",
+        "opponent_class": 3,
+        "played": true,
+        "my_score": 56,
+        "opp_score": 28,
+        "won": true,
+        "overtime": false,
+        "forfeit": false
+      },
+      {
+        "date": "11/13/2026",
+        "opponent": "Dexter",
+        "opponent_type": "in_state",
+        "opponent_class": 3,
+        "played": true,
+        "my_score": 18,
+        "opp_score": 27,
+        "won": false,
+        "overtime": false,
+        "forfeit": false
       }
     ]
   },
@@ -12394,6 +13798,18 @@
         "my_score": 17,
         "opp_score": 6,
         "won": true,
+        "overtime": false,
+        "forfeit": false
+      },
+      {
+        "date": "11/6/2026",
+        "opponent": "Kennett",
+        "opponent_type": "in_state",
+        "opponent_class": 3,
+        "played": true,
+        "my_score": 28,
+        "opp_score": 56,
+        "won": false,
         "overtime": false,
         "forfeit": false
       }
@@ -12652,6 +14068,18 @@
         "won": true,
         "overtime": false,
         "forfeit": false
+      },
+      {
+        "date": "11/6/2026",
+        "opponent": "Dexter",
+        "opponent_type": "in_state",
+        "opponent_class": 3,
+        "played": true,
+        "my_score": 13,
+        "opp_score": 28,
+        "won": false,
+        "overtime": false,
+        "forfeit": false
       }
     ]
   },
@@ -12780,6 +14208,18 @@
         "won": true,
         "overtime": false,
         "forfeit": false
+      },
+      {
+        "date": "11/6/2026",
+        "opponent": "St. Pius X (Festus)",
+        "opponent_type": "in_state",
+        "opponent_class": 3,
+        "played": true,
+        "my_score": 17,
+        "opp_score": 40,
+        "won": false,
+        "overtime": false,
+        "forfeit": false
       }
     ]
   },
@@ -12906,6 +14346,18 @@
         "my_score": 49,
         "opp_score": 7,
         "won": true,
+        "overtime": false,
+        "forfeit": false
+      },
+      {
+        "date": "11/6/2026",
+        "opponent": "St. Clair",
+        "opponent_type": "in_state",
+        "opponent_class": 3,
+        "played": true,
+        "my_score": 0,
+        "opp_score": 41,
+        "won": false,
         "overtime": false,
         "forfeit": false
       }
@@ -13280,6 +14732,30 @@
         "won": false,
         "overtime": false,
         "forfeit": false
+      },
+      {
+        "date": "11/6/2026",
+        "opponent": "Herculaneum",
+        "opponent_type": "in_state",
+        "opponent_class": 3,
+        "played": true,
+        "my_score": 41,
+        "opp_score": 0,
+        "won": true,
+        "overtime": false,
+        "forfeit": false
+      },
+      {
+        "date": "11/13/2026",
+        "opponent": "St. Pius X (Festus)",
+        "opponent_type": "in_state",
+        "opponent_class": 3,
+        "played": true,
+        "my_score": 6,
+        "opp_score": 44,
+        "won": false,
+        "overtime": false,
+        "forfeit": false
       }
     ]
   },
@@ -13394,6 +14870,42 @@
         "my_score": 6,
         "opp_score": 52,
         "won": false,
+        "overtime": false,
+        "forfeit": false
+      },
+      {
+        "date": "11/6/2026",
+        "opponent": "Central (Park Hills)",
+        "opponent_type": "in_state",
+        "opponent_class": 3,
+        "played": true,
+        "my_score": 40,
+        "opp_score": 17,
+        "won": true,
+        "overtime": false,
+        "forfeit": false
+      },
+      {
+        "date": "11/13/2026",
+        "opponent": "St. Clair",
+        "opponent_type": "in_state",
+        "opponent_class": 3,
+        "played": true,
+        "my_score": 44,
+        "opp_score": 6,
+        "won": true,
+        "overtime": false,
+        "forfeit": false
+      },
+      {
+        "date": "11/20/2026",
+        "opponent": "Dexter",
+        "opponent_type": "in_state",
+        "opponent_class": 3,
+        "played": true,
+        "my_score": 48,
+        "opp_score": 24,
+        "won": true,
         "overtime": false,
         "forfeit": false
       }
@@ -13614,6 +15126,18 @@
         "my_score": 57,
         "opp_score": 14,
         "won": true,
+        "overtime": false,
+        "forfeit": false
+      },
+      {
+        "date": "11/6/2026",
+        "opponent": "MICDS",
+        "opponent_type": "in_state",
+        "opponent_class": 3,
+        "played": true,
+        "my_score": 34,
+        "opp_score": 49,
+        "won": false,
         "overtime": false,
         "forfeit": false
       }
@@ -13872,6 +15396,42 @@
         "won": true,
         "overtime": false,
         "forfeit": false
+      },
+      {
+        "date": "11/6/2026",
+        "opponent": "Lutheran North",
+        "opponent_type": "in_state",
+        "opponent_class": 3,
+        "played": true,
+        "my_score": 49,
+        "opp_score": 34,
+        "won": true,
+        "overtime": false,
+        "forfeit": false
+      },
+      {
+        "date": "11/14/2026",
+        "opponent": "Winfield",
+        "opponent_type": "in_state",
+        "opponent_class": 3,
+        "played": true,
+        "my_score": 52,
+        "opp_score": 8,
+        "won": true,
+        "overtime": false,
+        "forfeit": false
+      },
+      {
+        "date": "11/20/2026",
+        "opponent": "Southern Boone",
+        "opponent_type": "in_state",
+        "opponent_class": 3,
+        "played": true,
+        "my_score": 42,
+        "opp_score": 41,
+        "won": true,
+        "overtime": false,
+        "forfeit": false
       }
     ]
   },
@@ -13986,6 +15546,18 @@
         "my_score": 36,
         "opp_score": 7,
         "won": true,
+        "overtime": false,
+        "forfeit": false
+      },
+      {
+        "date": "11/6/2026",
+        "opponent": "Winfield",
+        "opponent_type": "in_state",
+        "opponent_class": 3,
+        "played": true,
+        "my_score": 6,
+        "opp_score": 7,
+        "won": false,
         "overtime": false,
         "forfeit": false
       }
@@ -14244,6 +15816,30 @@
         "won": true,
         "overtime": false,
         "forfeit": false
+      },
+      {
+        "date": "11/6/2026",
+        "opponent": "Normandy Collaborative",
+        "opponent_type": "in_state",
+        "opponent_class": 3,
+        "played": true,
+        "my_score": 7,
+        "opp_score": 6,
+        "won": true,
+        "overtime": false,
+        "forfeit": false
+      },
+      {
+        "date": "11/14/2026",
+        "opponent": "MICDS",
+        "opponent_type": "in_state",
+        "opponent_class": 3,
+        "played": true,
+        "my_score": 8,
+        "opp_score": 52,
+        "won": false,
+        "overtime": false,
+        "forfeit": false
       }
     ]
   },
@@ -14500,6 +16096,18 @@
         "won": true,
         "overtime": false,
         "forfeit": false
+      },
+      {
+        "date": "11/6/2026",
+        "opponent": "Southern Boone",
+        "opponent_type": "in_state",
+        "opponent_class": 3,
+        "played": true,
+        "my_score": 14,
+        "opp_score": 42,
+        "won": false,
+        "overtime": false,
+        "forfeit": false
       }
     ]
   },
@@ -14626,6 +16234,30 @@
         "my_score": 42,
         "opp_score": 7,
         "won": true,
+        "overtime": false,
+        "forfeit": false
+      },
+      {
+        "date": "11/6/2026",
+        "opponent": "St. Francis Borgia",
+        "opponent_type": "in_state",
+        "opponent_class": 3,
+        "played": true,
+        "my_score": 27,
+        "opp_score": 16,
+        "won": true,
+        "overtime": false,
+        "forfeit": false
+      },
+      {
+        "date": "11/13/2026",
+        "opponent": "Southern Boone",
+        "opponent_type": "in_state",
+        "opponent_class": 3,
+        "played": true,
+        "my_score": 35,
+        "opp_score": 42,
+        "won": false,
         "overtime": false,
         "forfeit": false
       }
@@ -14872,6 +16504,42 @@
         "won": true,
         "overtime": false,
         "forfeit": false
+      },
+      {
+        "date": "11/6/2026",
+        "opponent": "Fulton",
+        "opponent_type": "in_state",
+        "opponent_class": 3,
+        "played": true,
+        "my_score": 42,
+        "opp_score": 14,
+        "won": true,
+        "overtime": false,
+        "forfeit": false
+      },
+      {
+        "date": "11/13/2026",
+        "opponent": "Hallsville",
+        "opponent_type": "in_state",
+        "opponent_class": 3,
+        "played": true,
+        "my_score": 42,
+        "opp_score": 35,
+        "won": true,
+        "overtime": false,
+        "forfeit": false
+      },
+      {
+        "date": "11/20/2026",
+        "opponent": "MICDS",
+        "opponent_type": "in_state",
+        "opponent_class": 3,
+        "played": true,
+        "my_score": 41,
+        "opp_score": 42,
+        "won": false,
+        "overtime": false,
+        "forfeit": false
       }
     ]
   },
@@ -14998,6 +16666,18 @@
         "my_score": 37,
         "opp_score": 0,
         "won": true,
+        "overtime": false,
+        "forfeit": false
+      },
+      {
+        "date": "11/6/2026",
+        "opponent": "Hallsville",
+        "opponent_type": "in_state",
+        "opponent_class": 3,
+        "played": true,
+        "my_score": 16,
+        "opp_score": 27,
+        "won": false,
         "overtime": false,
         "forfeit": false
       }
@@ -15256,6 +16936,18 @@
         "won": true,
         "overtime": false,
         "forfeit": false
+      },
+      {
+        "date": "11/6/2026",
+        "opponent": "Mountain Grove",
+        "opponent_type": "in_state",
+        "opponent_class": 3,
+        "played": true,
+        "my_score": 10,
+        "opp_score": 56,
+        "won": false,
+        "overtime": false,
+        "forfeit": false
       }
     ]
   },
@@ -15498,6 +17190,42 @@
         "my_score": 28,
         "opp_score": 14,
         "won": true,
+        "overtime": false,
+        "forfeit": false
+      },
+      {
+        "date": "11/6/2026",
+        "opponent": "Buffalo",
+        "opponent_type": "in_state",
+        "opponent_class": 3,
+        "played": true,
+        "my_score": 56,
+        "opp_score": 10,
+        "won": true,
+        "overtime": false,
+        "forfeit": false
+      },
+      {
+        "date": "11/13/2026",
+        "opponent": "Strafford",
+        "opponent_type": "in_state",
+        "opponent_class": 3,
+        "played": true,
+        "my_score": 46,
+        "opp_score": 7,
+        "won": true,
+        "overtime": false,
+        "forfeit": false
+      },
+      {
+        "date": "11/20/2026",
+        "opponent": "Cassville",
+        "opponent_type": "in_state",
+        "opponent_class": 3,
+        "played": true,
+        "my_score": 7,
+        "opp_score": 19,
+        "won": false,
         "overtime": false,
         "forfeit": false
       }
@@ -15756,6 +17484,18 @@
         "won": true,
         "overtime": false,
         "forfeit": false
+      },
+      {
+        "date": "11/6/2026",
+        "opponent": "Strafford",
+        "opponent_type": "in_state",
+        "opponent_class": 3,
+        "played": true,
+        "my_score": 7,
+        "opp_score": 45,
+        "won": false,
+        "overtime": false,
+        "forfeit": false
       }
     ]
   },
@@ -16012,6 +17752,30 @@
         "won": true,
         "overtime": false,
         "forfeit": false
+      },
+      {
+        "date": "11/6/2026",
+        "opponent": "Salem",
+        "opponent_type": "in_state",
+        "opponent_class": 3,
+        "played": true,
+        "my_score": 45,
+        "opp_score": 7,
+        "won": true,
+        "overtime": false,
+        "forfeit": false
+      },
+      {
+        "date": "11/13/2026",
+        "opponent": "Mountain Grove",
+        "opponent_type": "in_state",
+        "opponent_class": 3,
+        "played": true,
+        "my_score": 7,
+        "opp_score": 46,
+        "won": false,
+        "overtime": false,
+        "forfeit": false
       }
     ]
   },
@@ -16253,6 +18017,42 @@
         "played": true,
         "my_score": 28,
         "opp_score": 0,
+        "won": true,
+        "overtime": false,
+        "forfeit": false
+      },
+      {
+        "date": "11/6/2026",
+        "opponent": "Mt. Vernon",
+        "opponent_type": "in_state",
+        "opponent_class": 3,
+        "played": true,
+        "my_score": 62,
+        "opp_score": 0,
+        "won": true,
+        "overtime": false,
+        "forfeit": false
+      },
+      {
+        "date": "11/13/2026",
+        "opponent": "Seneca",
+        "opponent_type": "in_state",
+        "opponent_class": 3,
+        "played": true,
+        "my_score": 30,
+        "opp_score": 6,
+        "won": true,
+        "overtime": false,
+        "forfeit": false
+      },
+      {
+        "date": "11/20/2026",
+        "opponent": "Mountain Grove",
+        "opponent_type": "in_state",
+        "opponent_class": 3,
+        "played": true,
+        "my_score": 19,
+        "opp_score": 7,
         "won": true,
         "overtime": false,
         "forfeit": false
@@ -16512,6 +18312,18 @@
         "won": true,
         "overtime": false,
         "forfeit": false
+      },
+      {
+        "date": "11/6/2026",
+        "opponent": "Cassville",
+        "opponent_type": "in_state",
+        "opponent_class": 3,
+        "played": true,
+        "my_score": 0,
+        "opp_score": 62,
+        "won": false,
+        "overtime": false,
+        "forfeit": false
       }
     ]
   },
@@ -16638,6 +18450,18 @@
         "my_score": 20,
         "opp_score": 14,
         "won": true,
+        "overtime": false,
+        "forfeit": false
+      },
+      {
+        "date": "11/6/2026",
+        "opponent": "Seneca",
+        "opponent_type": "in_state",
+        "opponent_class": 3,
+        "played": true,
+        "my_score": 12,
+        "opp_score": 44,
+        "won": false,
         "overtime": false,
         "forfeit": false
       }
@@ -16884,6 +18708,30 @@
         "won": true,
         "overtime": false,
         "forfeit": false
+      },
+      {
+        "date": "11/6/2026",
+        "opponent": "Nevada",
+        "opponent_type": "in_state",
+        "opponent_class": 3,
+        "played": true,
+        "my_score": 44,
+        "opp_score": 12,
+        "won": true,
+        "overtime": false,
+        "forfeit": false
+      },
+      {
+        "date": "11/13/2026",
+        "opponent": "Cassville",
+        "opponent_type": "in_state",
+        "opponent_class": 3,
+        "played": true,
+        "my_score": 6,
+        "opp_score": 30,
+        "won": false,
+        "overtime": false,
+        "forfeit": false
       }
     ]
   },
@@ -17010,6 +18858,30 @@
         "my_score": 38,
         "opp_score": 21,
         "won": true,
+        "overtime": false,
+        "forfeit": false
+      },
+      {
+        "date": "11/6/2026",
+        "opponent": "Clinton",
+        "opponent_type": "in_state",
+        "opponent_class": 3,
+        "played": true,
+        "my_score": 14,
+        "opp_score": 7,
+        "won": true,
+        "overtime": false,
+        "forfeit": false
+      },
+      {
+        "date": "11/13/2026",
+        "opponent": "Pembroke Hill",
+        "opponent_type": "in_state",
+        "opponent_class": 3,
+        "played": true,
+        "my_score": 27,
+        "opp_score": 42,
+        "won": false,
         "overtime": false,
         "forfeit": false
       }
@@ -17268,6 +19140,18 @@
         "won": true,
         "overtime": false,
         "forfeit": false
+      },
+      {
+        "date": "11/6/2026",
+        "opponent": "Boonville",
+        "opponent_type": "in_state",
+        "opponent_class": 3,
+        "played": true,
+        "my_score": 7,
+        "opp_score": 14,
+        "won": false,
+        "overtime": false,
+        "forfeit": false
       }
     ]
   },
@@ -17396,6 +19280,18 @@
         "won": true,
         "overtime": false,
         "forfeit": false
+      },
+      {
+        "date": "11/6/2026",
+        "opponent": "Pembroke Hill",
+        "opponent_type": "in_state",
+        "opponent_class": 3,
+        "played": true,
+        "my_score": 10,
+        "opp_score": 33,
+        "won": false,
+        "overtime": false,
+        "forfeit": false
       }
     ]
   },
@@ -17510,6 +19406,42 @@
         "my_score": 49,
         "opp_score": 14,
         "won": true,
+        "overtime": false,
+        "forfeit": false
+      },
+      {
+        "date": "11/6/2026",
+        "opponent": "Oak Grove",
+        "opponent_type": "in_state",
+        "opponent_class": 3,
+        "played": true,
+        "my_score": 33,
+        "opp_score": 10,
+        "won": true,
+        "overtime": false,
+        "forfeit": false
+      },
+      {
+        "date": "11/13/2026",
+        "opponent": "Boonville",
+        "opponent_type": "in_state",
+        "opponent_class": 3,
+        "played": true,
+        "my_score": 42,
+        "opp_score": 27,
+        "won": true,
+        "overtime": false,
+        "forfeit": false
+      },
+      {
+        "date": "11/20/2026",
+        "opponent": "St. Pius X (Kansas City)",
+        "opponent_type": "in_state",
+        "opponent_class": 3,
+        "played": true,
+        "my_score": 13,
+        "opp_score": 54,
+        "won": false,
         "overtime": false,
         "forfeit": false
       }
@@ -18012,6 +19944,18 @@
         "won": true,
         "overtime": false,
         "forfeit": false
+      },
+      {
+        "date": "11/6/2026",
+        "opponent": "St. Pius X (Kansas City)",
+        "opponent_type": "in_state",
+        "opponent_class": 3,
+        "played": true,
+        "my_score": 0,
+        "opp_score": 49,
+        "won": false,
+        "overtime": false,
+        "forfeit": false
       }
     ]
   },
@@ -18256,6 +20200,30 @@
         "won": true,
         "overtime": false,
         "forfeit": false
+      },
+      {
+        "date": "11/6/2026",
+        "opponent": "Richmond",
+        "opponent_type": "in_state",
+        "opponent_class": 3,
+        "played": true,
+        "my_score": 63,
+        "opp_score": 30,
+        "won": true,
+        "overtime": false,
+        "forfeit": false
+      },
+      {
+        "date": "11/13/2026",
+        "opponent": "St. Pius X (Kansas City)",
+        "opponent_type": "in_state",
+        "opponent_class": 3,
+        "played": true,
+        "my_score": 35,
+        "opp_score": 49,
+        "won": false,
+        "overtime": false,
+        "forfeit": false
       }
     ]
   },
@@ -18384,6 +20352,18 @@
         "won": true,
         "overtime": false,
         "forfeit": false
+      },
+      {
+        "date": "11/6/2026",
+        "opponent": "Maryville",
+        "opponent_type": "in_state",
+        "opponent_class": 3,
+        "played": true,
+        "my_score": 30,
+        "opp_score": 63,
+        "won": false,
+        "overtime": false,
+        "forfeit": false
       }
     ]
   },
@@ -18497,6 +20477,42 @@
         "played": true,
         "my_score": 34,
         "opp_score": 28,
+        "won": true,
+        "overtime": false,
+        "forfeit": false
+      },
+      {
+        "date": "11/6/2026",
+        "opponent": "Chillicothe",
+        "opponent_type": "in_state",
+        "opponent_class": 3,
+        "played": true,
+        "my_score": 49,
+        "opp_score": 0,
+        "won": true,
+        "overtime": false,
+        "forfeit": false
+      },
+      {
+        "date": "11/13/2026",
+        "opponent": "Maryville",
+        "opponent_type": "in_state",
+        "opponent_class": 3,
+        "played": true,
+        "my_score": 49,
+        "opp_score": 35,
+        "won": true,
+        "overtime": false,
+        "forfeit": false
+      },
+      {
+        "date": "11/20/2026",
+        "opponent": "Pembroke Hill",
+        "opponent_type": "in_state",
+        "opponent_class": 3,
+        "played": true,
+        "my_score": 54,
+        "opp_score": 13,
         "won": true,
         "overtime": false,
         "forfeit": false
@@ -18628,6 +20644,18 @@
         "won": true,
         "overtime": false,
         "forfeit": false
+      },
+      {
+        "date": "11/6/2026",
+        "opponent": "Festus",
+        "opponent_type": "in_state",
+        "opponent_class": 4,
+        "played": true,
+        "my_score": 6,
+        "opp_score": 34,
+        "won": false,
+        "overtime": false,
+        "forfeit": false
       }
     ]
   },
@@ -18741,6 +20769,42 @@
         "played": true,
         "my_score": 14,
         "opp_score": 7,
+        "won": true,
+        "overtime": false,
+        "forfeit": false
+      },
+      {
+        "date": "11/6/2026",
+        "opponent": "DeSoto",
+        "opponent_type": "in_state",
+        "opponent_class": 4,
+        "played": true,
+        "my_score": 34,
+        "opp_score": 6,
+        "won": true,
+        "overtime": false,
+        "forfeit": false
+      },
+      {
+        "date": "11/13/2026",
+        "opponent": "Sikeston",
+        "opponent_type": "in_state",
+        "opponent_class": 4,
+        "played": true,
+        "my_score": 33,
+        "opp_score": 13,
+        "won": true,
+        "overtime": false,
+        "forfeit": false
+      },
+      {
+        "date": "11/20/2026",
+        "opponent": "Vianney",
+        "opponent_type": "in_state",
+        "opponent_class": 4,
+        "played": true,
+        "my_score": 48,
+        "opp_score": 28,
         "won": true,
         "overtime": false,
         "forfeit": false
@@ -18870,6 +20934,18 @@
         "my_score": 54,
         "opp_score": 16,
         "won": true,
+        "overtime": false,
+        "forfeit": false
+      },
+      {
+        "date": "11/6/2026",
+        "opponent": "Sikeston",
+        "opponent_type": "in_state",
+        "opponent_class": 4,
+        "played": true,
+        "my_score": 10,
+        "opp_score": 15,
+        "won": false,
         "overtime": false,
         "forfeit": false
       }
@@ -19114,6 +21190,30 @@
         "my_score": 42,
         "opp_score": 0,
         "won": true,
+        "overtime": false,
+        "forfeit": false
+      },
+      {
+        "date": "11/6/2026",
+        "opponent": "Hillsboro",
+        "opponent_type": "in_state",
+        "opponent_class": 4,
+        "played": true,
+        "my_score": 15,
+        "opp_score": 10,
+        "won": true,
+        "overtime": false,
+        "forfeit": false
+      },
+      {
+        "date": "11/13/2026",
+        "opponent": "Festus",
+        "opponent_type": "in_state",
+        "opponent_class": 4,
+        "played": true,
+        "my_score": 13,
+        "opp_score": 33,
+        "won": false,
         "overtime": false,
         "forfeit": false
       }
@@ -19756,6 +21856,30 @@
         "won": true,
         "overtime": false,
         "forfeit": false
+      },
+      {
+        "date": "11/6/2026",
+        "opponent": "Westminster Christian Academy",
+        "opponent_type": "in_state",
+        "opponent_class": 4,
+        "played": true,
+        "my_score": 21,
+        "opp_score": 17,
+        "won": true,
+        "overtime": false,
+        "forfeit": false
+      },
+      {
+        "date": "11/13/2026",
+        "opponent": "Vianney",
+        "opponent_type": "in_state",
+        "opponent_class": 4,
+        "played": true,
+        "my_score": 14,
+        "opp_score": 35,
+        "won": false,
+        "overtime": false,
+        "forfeit": false
       }
     ]
   },
@@ -19870,6 +21994,18 @@
         "my_score": 28,
         "opp_score": 7,
         "won": true,
+        "overtime": false,
+        "forfeit": false
+      },
+      {
+        "date": "11/6/2026",
+        "opponent": "Vianney",
+        "opponent_type": "in_state",
+        "opponent_class": 4,
+        "played": true,
+        "my_score": 39,
+        "opp_score": 56,
+        "won": false,
         "overtime": false,
         "forfeit": false
       }
@@ -20000,6 +22136,42 @@
         "won": true,
         "overtime": false,
         "forfeit": false
+      },
+      {
+        "date": "11/6/2026",
+        "opponent": "Union",
+        "opponent_type": "in_state",
+        "opponent_class": 4,
+        "played": true,
+        "my_score": 56,
+        "opp_score": 39,
+        "won": true,
+        "overtime": false,
+        "forfeit": false
+      },
+      {
+        "date": "11/13/2026",
+        "opponent": "Sullivan",
+        "opponent_type": "in_state",
+        "opponent_class": 4,
+        "played": true,
+        "my_score": 35,
+        "opp_score": 14,
+        "won": true,
+        "overtime": false,
+        "forfeit": false
+      },
+      {
+        "date": "11/20/2026",
+        "opponent": "Festus",
+        "opponent_type": "in_state",
+        "opponent_class": 4,
+        "played": true,
+        "my_score": 28,
+        "opp_score": 48,
+        "won": false,
+        "overtime": false,
+        "forfeit": false
       }
     ]
   },
@@ -20126,6 +22298,18 @@
         "my_score": 50,
         "opp_score": 7,
         "won": true,
+        "overtime": false,
+        "forfeit": false
+      },
+      {
+        "date": "11/6/2026",
+        "opponent": "Sullivan",
+        "opponent_type": "in_state",
+        "opponent_class": 4,
+        "played": true,
+        "my_score": 17,
+        "opp_score": 21,
+        "won": false,
         "overtime": false,
         "forfeit": false
       }
@@ -20372,6 +22556,18 @@
         "won": true,
         "overtime": false,
         "forfeit": false
+      },
+      {
+        "date": "11/6/2026",
+        "opponent": "Lift for Life Academy Charter",
+        "opponent_type": "in_state",
+        "opponent_class": 4,
+        "played": true,
+        "my_score": 8,
+        "opp_score": 38,
+        "won": false,
+        "overtime": false,
+        "forfeit": false
       }
     ]
   },
@@ -20500,6 +22696,18 @@
         "won": true,
         "overtime": false,
         "forfeit": false
+      },
+      {
+        "date": "11/6/2026",
+        "opponent": "University City",
+        "opponent_type": "in_state",
+        "opponent_class": 4,
+        "played": true,
+        "my_score": 0,
+        "opp_score": 42,
+        "won": false,
+        "overtime": false,
+        "forfeit": false
       }
     ]
   },
@@ -20613,6 +22821,42 @@
         "played": true,
         "my_score": 18,
         "opp_score": 13,
+        "won": true,
+        "overtime": false,
+        "forfeit": false
+      },
+      {
+        "date": "11/6/2026",
+        "opponent": "Gateway with Soldan International Studies",
+        "opponent_type": "in_state",
+        "opponent_class": 4,
+        "played": true,
+        "my_score": 38,
+        "opp_score": 8,
+        "won": true,
+        "overtime": false,
+        "forfeit": false
+      },
+      {
+        "date": "11/13/2026",
+        "opponent": "University City",
+        "opponent_type": "in_state",
+        "opponent_class": 4,
+        "played": true,
+        "my_score": 24,
+        "opp_score": 6,
+        "won": true,
+        "overtime": false,
+        "forfeit": false
+      },
+      {
+        "date": "11/20/2026",
+        "opponent": "Hannibal",
+        "opponent_type": "in_state",
+        "opponent_class": 4,
+        "played": true,
+        "my_score": 34,
+        "opp_score": 20,
         "won": true,
         "overtime": false,
         "forfeit": false
@@ -20860,6 +23104,30 @@
         "won": true,
         "overtime": false,
         "forfeit": false
+      },
+      {
+        "date": "11/6/2026",
+        "opponent": "Jennings",
+        "opponent_type": "in_state",
+        "opponent_class": 4,
+        "played": true,
+        "my_score": 42,
+        "opp_score": 0,
+        "won": true,
+        "overtime": false,
+        "forfeit": false
+      },
+      {
+        "date": "11/13/2026",
+        "opponent": "Lift for Life Academy Charter",
+        "opponent_type": "in_state",
+        "opponent_class": 4,
+        "played": true,
+        "my_score": 6,
+        "opp_score": 24,
+        "won": false,
+        "overtime": false,
+        "forfeit": false
       }
     ]
   },
@@ -20986,6 +23254,42 @@
         "my_score": 46,
         "opp_score": 21,
         "won": true,
+        "overtime": false,
+        "forfeit": false
+      },
+      {
+        "date": "11/6/2026",
+        "opponent": "St. Charles West",
+        "opponent_type": "in_state",
+        "opponent_class": 4,
+        "played": true,
+        "my_score": 40,
+        "opp_score": 29,
+        "won": true,
+        "overtime": false,
+        "forfeit": false
+      },
+      {
+        "date": "11/13/2026",
+        "opponent": "Parkway North",
+        "opponent_type": "in_state",
+        "opponent_class": 4,
+        "played": true,
+        "my_score": 57,
+        "opp_score": 19,
+        "won": true,
+        "overtime": false,
+        "forfeit": false
+      },
+      {
+        "date": "11/20/2026",
+        "opponent": "Lift for Life Academy Charter",
+        "opponent_type": "in_state",
+        "opponent_class": 4,
+        "played": true,
+        "my_score": 20,
+        "opp_score": 34,
+        "won": false,
         "overtime": false,
         "forfeit": false
       }
@@ -21244,6 +23548,18 @@
         "won": true,
         "overtime": false,
         "forfeit": false
+      },
+      {
+        "date": "11/6/2026",
+        "opponent": "Parkway North",
+        "opponent_type": "in_state",
+        "opponent_class": 4,
+        "played": true,
+        "my_score": 35,
+        "opp_score": 41,
+        "won": false,
+        "overtime": false,
+        "forfeit": false
       }
     ]
   },
@@ -21370,6 +23686,30 @@
         "my_score": 45,
         "opp_score": 6,
         "won": true,
+        "overtime": false,
+        "forfeit": false
+      },
+      {
+        "date": "11/6/2026",
+        "opponent": "Orchard Farm",
+        "opponent_type": "in_state",
+        "opponent_class": 4,
+        "played": true,
+        "my_score": 41,
+        "opp_score": 35,
+        "won": true,
+        "overtime": false,
+        "forfeit": false
+      },
+      {
+        "date": "11/13/2026",
+        "opponent": "Hannibal",
+        "opponent_type": "in_state",
+        "opponent_class": 4,
+        "played": true,
+        "my_score": 19,
+        "opp_score": 57,
+        "won": false,
         "overtime": false,
         "forfeit": false
       }
@@ -21614,6 +23954,18 @@
         "my_score": 52,
         "opp_score": 28,
         "won": true,
+        "overtime": false,
+        "forfeit": false
+      },
+      {
+        "date": "11/6/2026",
+        "opponent": "Hannibal",
+        "opponent_type": "in_state",
+        "opponent_class": 4,
+        "played": true,
+        "my_score": 29,
+        "opp_score": 40,
+        "won": false,
         "overtime": false,
         "forfeit": false
       }
@@ -21870,6 +24222,18 @@
         "my_score": 26,
         "opp_score": 12,
         "won": true,
+        "overtime": false,
+        "forfeit": false
+      },
+      {
+        "date": "11/6/2026",
+        "opponent": "Moberly",
+        "opponent_type": "in_state",
+        "opponent_class": 4,
+        "played": true,
+        "my_score": 0,
+        "opp_score": 42,
+        "won": false,
         "overtime": false,
         "forfeit": false
       }
@@ -22372,6 +24736,30 @@
         "won": true,
         "overtime": false,
         "forfeit": false
+      },
+      {
+        "date": "11/6/2026",
+        "opponent": "Kirksville",
+        "opponent_type": "in_state",
+        "opponent_class": 4,
+        "played": true,
+        "my_score": 42,
+        "opp_score": 0,
+        "won": true,
+        "overtime": false,
+        "forfeit": false
+      },
+      {
+        "date": "11/13/2026",
+        "opponent": "Warrensburg",
+        "opponent_type": "in_state",
+        "opponent_class": 4,
+        "played": true,
+        "my_score": 14,
+        "opp_score": 34,
+        "won": false,
+        "overtime": false,
+        "forfeit": false
       }
     ]
   },
@@ -22500,6 +24888,18 @@
         "won": true,
         "overtime": false,
         "forfeit": false
+      },
+      {
+        "date": "11/6/2026",
+        "opponent": "Warrensburg",
+        "opponent_type": "in_state",
+        "opponent_class": 4,
+        "played": true,
+        "my_score": 6,
+        "opp_score": 53,
+        "won": false,
+        "overtime": false,
+        "forfeit": false
       }
     ]
   },
@@ -22625,6 +25025,42 @@
         "played": true,
         "my_score": 54,
         "opp_score": 6,
+        "won": true,
+        "overtime": false,
+        "forfeit": false
+      },
+      {
+        "date": "11/6/2026",
+        "opponent": "Osage",
+        "opponent_type": "in_state",
+        "opponent_class": 4,
+        "played": true,
+        "my_score": 53,
+        "opp_score": 6,
+        "won": true,
+        "overtime": false,
+        "forfeit": false
+      },
+      {
+        "date": "11/13/2026",
+        "opponent": "Moberly",
+        "opponent_type": "in_state",
+        "opponent_class": 4,
+        "played": true,
+        "my_score": 34,
+        "opp_score": 14,
+        "won": true,
+        "overtime": false,
+        "forfeit": false
+      },
+      {
+        "date": "11/20/2026",
+        "opponent": "Bolivar",
+        "opponent_type": "in_state",
+        "opponent_class": 4,
+        "played": true,
+        "my_score": 48,
+        "opp_score": 34,
         "won": true,
         "overtime": false,
         "forfeit": false
@@ -22756,6 +25192,42 @@
         "won": true,
         "overtime": false,
         "forfeit": false
+      },
+      {
+        "date": "11/6/2026",
+        "opponent": "Carl Junction",
+        "opponent_type": "in_state",
+        "opponent_class": 4,
+        "played": true,
+        "my_score": 14,
+        "opp_score": 10,
+        "won": true,
+        "overtime": false,
+        "forfeit": false
+      },
+      {
+        "date": "11/13/2026",
+        "opponent": "Logan-Rogersville",
+        "opponent_type": "in_state",
+        "opponent_class": 4,
+        "played": true,
+        "my_score": 26,
+        "opp_score": 14,
+        "won": true,
+        "overtime": false,
+        "forfeit": false
+      },
+      {
+        "date": "11/20/2026",
+        "opponent": "Warrensburg",
+        "opponent_type": "in_state",
+        "opponent_class": 4,
+        "played": true,
+        "my_score": 34,
+        "opp_score": 48,
+        "won": false,
+        "overtime": false,
+        "forfeit": false
       }
     ]
   },
@@ -22882,6 +25354,18 @@
         "my_score": 49,
         "opp_score": 14,
         "won": true,
+        "overtime": false,
+        "forfeit": false
+      },
+      {
+        "date": "11/6/2026",
+        "opponent": "Bolivar",
+        "opponent_type": "in_state",
+        "opponent_class": 4,
+        "played": true,
+        "my_score": 10,
+        "opp_score": 14,
+        "won": false,
         "overtime": false,
         "forfeit": false
       }
@@ -23113,6 +25597,30 @@
         "played": true,
         "my_score": 21,
         "opp_score": 28,
+        "won": false,
+        "overtime": false,
+        "forfeit": false
+      },
+      {
+        "date": "11/6/2026",
+        "opponent": "Monett",
+        "opponent_type": "in_state",
+        "opponent_class": 4,
+        "played": true,
+        "my_score": 85,
+        "opp_score": 26,
+        "won": true,
+        "overtime": false,
+        "forfeit": false
+      },
+      {
+        "date": "11/13/2026",
+        "opponent": "Bolivar",
+        "opponent_type": "in_state",
+        "opponent_class": 4,
+        "played": true,
+        "my_score": 14,
+        "opp_score": 26,
         "won": false,
         "overtime": false,
         "forfeit": false
@@ -23500,6 +26008,18 @@
         "won": true,
         "overtime": false,
         "forfeit": false
+      },
+      {
+        "date": "11/6/2026",
+        "opponent": "Logan-Rogersville",
+        "opponent_type": "in_state",
+        "opponent_class": 4,
+        "played": true,
+        "my_score": 26,
+        "opp_score": 85,
+        "won": false,
+        "overtime": false,
+        "forfeit": false
       }
     ]
   },
@@ -23614,6 +26134,18 @@
         "my_score": 50,
         "opp_score": 14,
         "won": true,
+        "overtime": false,
+        "forfeit": false
+      },
+      {
+        "date": "11/6/2026",
+        "opponent": "Pleasant Hill",
+        "opponent_type": "in_state",
+        "opponent_class": 4,
+        "played": true,
+        "my_score": 7,
+        "opp_score": 42,
+        "won": false,
         "overtime": false,
         "forfeit": false
       }
@@ -24000,6 +26532,30 @@
         "won": true,
         "overtime": false,
         "forfeit": false
+      },
+      {
+        "date": "11/6/2026",
+        "opponent": "Raytown South",
+        "opponent_type": "in_state",
+        "opponent_class": 4,
+        "played": true,
+        "my_score": 30,
+        "opp_score": 12,
+        "won": true,
+        "overtime": false,
+        "forfeit": false
+      },
+      {
+        "date": "11/13/2026",
+        "opponent": "Pleasant Hill",
+        "opponent_type": "in_state",
+        "opponent_class": 4,
+        "played": true,
+        "my_score": 0,
+        "opp_score": 10,
+        "won": false,
+        "overtime": false,
+        "forfeit": false
       }
     ]
   },
@@ -24128,6 +26684,42 @@
         "won": true,
         "overtime": false,
         "forfeit": false
+      },
+      {
+        "date": "11/6/2026",
+        "opponent": "Central (Kansas City)",
+        "opponent_type": "in_state",
+        "opponent_class": 4,
+        "played": true,
+        "my_score": 42,
+        "opp_score": 7,
+        "won": true,
+        "overtime": false,
+        "forfeit": false
+      },
+      {
+        "date": "11/13/2026",
+        "opponent": "Odessa",
+        "opponent_type": "in_state",
+        "opponent_class": 4,
+        "played": true,
+        "my_score": 10,
+        "opp_score": 0,
+        "won": true,
+        "overtime": false,
+        "forfeit": false
+      },
+      {
+        "date": "11/20/2026",
+        "opponent": "Kearney",
+        "opponent_type": "in_state",
+        "opponent_class": 4,
+        "played": true,
+        "my_score": 0,
+        "opp_score": 45,
+        "won": false,
+        "overtime": false,
+        "forfeit": false
       }
     ]
   },
@@ -24254,6 +26846,18 @@
         "my_score": 42,
         "opp_score": 0,
         "won": true,
+        "overtime": false,
+        "forfeit": false
+      },
+      {
+        "date": "11/6/2026",
+        "opponent": "Odessa",
+        "opponent_type": "in_state",
+        "opponent_class": 4,
+        "played": true,
+        "my_score": 12,
+        "opp_score": 30,
+        "won": false,
         "overtime": false,
         "forfeit": false
       }
@@ -24512,6 +27116,18 @@
         "won": true,
         "overtime": false,
         "forfeit": false
+      },
+      {
+        "date": "11/6/2026",
+        "opponent": "Kearney",
+        "opponent_type": "in_state",
+        "opponent_class": 4,
+        "played": true,
+        "my_score": 7,
+        "opp_score": 56,
+        "won": false,
+        "overtime": false,
+        "forfeit": false
       }
     ]
   },
@@ -24752,6 +27368,42 @@
         "opponent_class": 5,
         "played": true,
         "my_score": 50,
+        "opp_score": 0,
+        "won": true,
+        "overtime": false,
+        "forfeit": false
+      },
+      {
+        "date": "11/6/2026",
+        "opponent": "Benton",
+        "opponent_type": "in_state",
+        "opponent_class": 4,
+        "played": true,
+        "my_score": 56,
+        "opp_score": 7,
+        "won": true,
+        "overtime": false,
+        "forfeit": false
+      },
+      {
+        "date": "11/13/2026",
+        "opponent": "Savannah",
+        "opponent_type": "in_state",
+        "opponent_class": 4,
+        "played": true,
+        "my_score": 31,
+        "opp_score": 14,
+        "won": true,
+        "overtime": false,
+        "forfeit": false
+      },
+      {
+        "date": "11/20/2026",
+        "opponent": "Pleasant Hill",
+        "opponent_type": "in_state",
+        "opponent_class": 4,
+        "played": true,
+        "my_score": 45,
         "opp_score": 0,
         "won": true,
         "overtime": false,
@@ -25012,6 +27664,30 @@
         "won": true,
         "overtime": false,
         "forfeit": false
+      },
+      {
+        "date": "11/6/2026",
+        "opponent": "Smithville",
+        "opponent_type": "in_state",
+        "opponent_class": 4,
+        "played": true,
+        "my_score": 45,
+        "opp_score": 7,
+        "won": true,
+        "overtime": false,
+        "forfeit": false
+      },
+      {
+        "date": "11/13/2026",
+        "opponent": "Kearney",
+        "opponent_type": "in_state",
+        "opponent_class": 4,
+        "played": true,
+        "my_score": 14,
+        "opp_score": 31,
+        "won": false,
+        "overtime": false,
+        "forfeit": false
       }
     ]
   },
@@ -25138,6 +27814,18 @@
         "my_score": 81,
         "opp_score": 7,
         "won": true,
+        "overtime": false,
+        "forfeit": false
+      },
+      {
+        "date": "11/6/2026",
+        "opponent": "Savannah",
+        "opponent_type": "in_state",
+        "opponent_class": 4,
+        "played": true,
+        "my_score": 7,
+        "opp_score": 45,
+        "won": false,
         "overtime": false,
         "forfeit": false
       }
@@ -25396,6 +28084,18 @@
         "won": true,
         "overtime": false,
         "forfeit": false
+      },
+      {
+        "date": "11/6/2026",
+        "opponent": "St. Mary's South Side",
+        "opponent_type": "in_state",
+        "opponent_class": 5,
+        "played": true,
+        "my_score": 14,
+        "opp_score": 19,
+        "won": false,
+        "overtime": false,
+        "forfeit": false
       }
     ]
   },
@@ -25524,6 +28224,42 @@
         "won": true,
         "overtime": false,
         "forfeit": false
+      },
+      {
+        "date": "11/6/2026",
+        "opponent": "Fox",
+        "opponent_type": "in_state",
+        "opponent_class": 5,
+        "played": true,
+        "my_score": 28,
+        "opp_score": 7,
+        "won": true,
+        "overtime": false,
+        "forfeit": false
+      },
+      {
+        "date": "11/13/2026",
+        "opponent": "St. Mary's South Side",
+        "opponent_type": "in_state",
+        "opponent_class": 5,
+        "played": true,
+        "my_score": 29,
+        "opp_score": 25,
+        "won": true,
+        "overtime": false,
+        "forfeit": false
+      },
+      {
+        "date": "11/20/2026",
+        "opponent": "Eureka",
+        "opponent_type": "in_state",
+        "opponent_class": 5,
+        "played": true,
+        "my_score": 33,
+        "opp_score": 37,
+        "won": false,
+        "overtime": false,
+        "forfeit": false
       }
     ]
   },
@@ -25638,6 +28374,18 @@
         "my_score": 42,
         "opp_score": 14,
         "won": true,
+        "overtime": false,
+        "forfeit": false
+      },
+      {
+        "date": "11/6/2026",
+        "opponent": "Farmington",
+        "opponent_type": "in_state",
+        "opponent_class": 5,
+        "played": true,
+        "my_score": 7,
+        "opp_score": 28,
+        "won": false,
         "overtime": false,
         "forfeit": false
       }
@@ -26012,6 +28760,30 @@
         "won": false,
         "overtime": false,
         "forfeit": false
+      },
+      {
+        "date": "11/6/2026",
+        "opponent": "Central (Cape Girardeau)",
+        "opponent_type": "in_state",
+        "opponent_class": 5,
+        "played": true,
+        "my_score": 19,
+        "opp_score": 14,
+        "won": true,
+        "overtime": false,
+        "forfeit": false
+      },
+      {
+        "date": "11/13/2026",
+        "opponent": "Farmington",
+        "opponent_type": "in_state",
+        "opponent_class": 5,
+        "played": true,
+        "my_score": 25,
+        "opp_score": 29,
+        "won": false,
+        "overtime": false,
+        "forfeit": false
       }
     ]
   },
@@ -26125,6 +28897,42 @@
         "played": true,
         "my_score": 14,
         "opp_score": 13,
+        "won": true,
+        "overtime": false,
+        "forfeit": false
+      },
+      {
+        "date": "11/6/2026",
+        "opponent": "Parkway South",
+        "opponent_type": "in_state",
+        "opponent_class": 5,
+        "played": true,
+        "my_score": 55,
+        "opp_score": 6,
+        "won": true,
+        "overtime": false,
+        "forfeit": false
+      },
+      {
+        "date": "11/13/2026",
+        "opponent": "Rockwood Summit",
+        "opponent_type": "in_state",
+        "opponent_class": 5,
+        "played": true,
+        "my_score": 38,
+        "opp_score": 21,
+        "won": true,
+        "overtime": false,
+        "forfeit": false
+      },
+      {
+        "date": "11/20/2026",
+        "opponent": "Farmington",
+        "opponent_type": "in_state",
+        "opponent_class": 5,
+        "played": true,
+        "my_score": 37,
+        "opp_score": 33,
         "won": true,
         "overtime": false,
         "forfeit": false
@@ -26384,6 +29192,18 @@
         "won": true,
         "overtime": false,
         "forfeit": false
+      },
+      {
+        "date": "11/6/2026",
+        "opponent": "Eureka",
+        "opponent_type": "in_state",
+        "opponent_class": 5,
+        "played": true,
+        "my_score": 6,
+        "opp_score": 55,
+        "won": false,
+        "overtime": false,
+        "forfeit": false
       }
     ]
   },
@@ -26512,6 +29332,18 @@
         "won": true,
         "overtime": false,
         "forfeit": false
+      },
+      {
+        "date": "11/6/2026",
+        "opponent": "Rockwood Summit",
+        "opponent_type": "in_state",
+        "opponent_class": 5,
+        "played": true,
+        "my_score": 25,
+        "opp_score": 47,
+        "won": false,
+        "overtime": false,
+        "forfeit": false
       }
     ]
   },
@@ -26638,6 +29470,30 @@
         "my_score": 61,
         "opp_score": 0,
         "won": true,
+        "overtime": false,
+        "forfeit": false
+      },
+      {
+        "date": "11/6/2026",
+        "opponent": "Parkway West",
+        "opponent_type": "in_state",
+        "opponent_class": 5,
+        "played": true,
+        "my_score": 47,
+        "opp_score": 25,
+        "won": true,
+        "overtime": false,
+        "forfeit": false
+      },
+      {
+        "date": "11/13/2026",
+        "opponent": "Eureka",
+        "opponent_type": "in_state",
+        "opponent_class": 5,
+        "played": true,
+        "my_score": 21,
+        "opp_score": 38,
+        "won": false,
         "overtime": false,
         "forfeit": false
       }
@@ -27024,6 +29880,42 @@
         "won": true,
         "overtime": false,
         "forfeit": false
+      },
+      {
+        "date": "11/6/2026",
+        "opponent": "Ladue Horton Watkins",
+        "opponent_type": "in_state",
+        "opponent_class": 5,
+        "played": true,
+        "my_score": 36,
+        "opp_score": 21,
+        "won": true,
+        "overtime": false,
+        "forfeit": false
+      },
+      {
+        "date": "11/13/2026",
+        "opponent": "Chaminade College Prep",
+        "opponent_type": "in_state",
+        "opponent_class": 5,
+        "played": true,
+        "my_score": 60,
+        "opp_score": 33,
+        "won": true,
+        "overtime": false,
+        "forfeit": false
+      },
+      {
+        "date": "11/20/2026",
+        "opponent": "Ft. Zumwalt North",
+        "opponent_type": "in_state",
+        "opponent_class": 5,
+        "played": true,
+        "my_score": 30,
+        "opp_score": 15,
+        "won": true,
+        "overtime": false,
+        "forfeit": false
       }
     ]
   },
@@ -27150,6 +30042,30 @@
         "my_score": 41,
         "opp_score": 18,
         "won": true,
+        "overtime": false,
+        "forfeit": false
+      },
+      {
+        "date": "11/6/2026",
+        "opponent": "Hazelwood East",
+        "opponent_type": "in_state",
+        "opponent_class": 5,
+        "played": true,
+        "my_score": 33,
+        "opp_score": 14,
+        "won": true,
+        "overtime": false,
+        "forfeit": false
+      },
+      {
+        "date": "11/13/2026",
+        "opponent": "Cardinal Ritter",
+        "opponent_type": "in_state",
+        "opponent_class": 5,
+        "played": true,
+        "my_score": 33,
+        "opp_score": 60,
+        "won": false,
         "overtime": false,
         "forfeit": false
       }
@@ -27408,6 +30324,18 @@
         "won": true,
         "overtime": false,
         "forfeit": false
+      },
+      {
+        "date": "11/6/2026",
+        "opponent": "Chaminade College Prep",
+        "opponent_type": "in_state",
+        "opponent_class": 5,
+        "played": true,
+        "my_score": 14,
+        "opp_score": 33,
+        "won": false,
+        "overtime": false,
+        "forfeit": false
       }
     ]
   },
@@ -27522,6 +30450,18 @@
         "my_score": 20,
         "opp_score": 14,
         "won": true,
+        "overtime": false,
+        "forfeit": false
+      },
+      {
+        "date": "11/6/2026",
+        "opponent": "Cardinal Ritter",
+        "opponent_type": "in_state",
+        "opponent_class": 5,
+        "played": true,
+        "my_score": 21,
+        "opp_score": 36,
+        "won": false,
         "overtime": false,
         "forfeit": false
       }
@@ -28024,6 +30964,42 @@
         "won": true,
         "overtime": false,
         "forfeit": false
+      },
+      {
+        "date": "11/6/2026",
+        "opponent": "St. Dominic",
+        "opponent_type": "in_state",
+        "opponent_class": 5,
+        "played": true,
+        "my_score": 42,
+        "opp_score": 0,
+        "won": true,
+        "overtime": false,
+        "forfeit": false
+      },
+      {
+        "date": "11/13/2026",
+        "opponent": "Timberland",
+        "opponent_type": "in_state",
+        "opponent_class": 5,
+        "played": true,
+        "my_score": 58,
+        "opp_score": 28,
+        "won": true,
+        "overtime": false,
+        "forfeit": false
+      },
+      {
+        "date": "11/20/2026",
+        "opponent": "Cardinal Ritter",
+        "opponent_type": "in_state",
+        "opponent_class": 5,
+        "played": true,
+        "my_score": 15,
+        "opp_score": 30,
+        "won": false,
+        "overtime": false,
+        "forfeit": false
       }
     ]
   },
@@ -28150,6 +31126,18 @@
         "my_score": 42,
         "opp_score": 21,
         "won": true,
+        "overtime": false,
+        "forfeit": false
+      },
+      {
+        "date": "11/6/2026",
+        "opponent": "Timberland",
+        "opponent_type": "in_state",
+        "opponent_class": 5,
+        "played": true,
+        "my_score": 22,
+        "opp_score": 26,
+        "won": false,
         "overtime": false,
         "forfeit": false
       }
@@ -28408,6 +31396,18 @@
         "won": true,
         "overtime": false,
         "forfeit": false
+      },
+      {
+        "date": "11/6/2026",
+        "opponent": "Ft. Zumwalt North",
+        "opponent_type": "in_state",
+        "opponent_class": 5,
+        "played": true,
+        "my_score": 0,
+        "opp_score": 42,
+        "won": false,
+        "overtime": false,
+        "forfeit": false
       }
     ]
   },
@@ -28521,6 +31521,30 @@
         "played": true,
         "my_score": 14,
         "opp_score": 21,
+        "won": false,
+        "overtime": false,
+        "forfeit": false
+      },
+      {
+        "date": "11/6/2026",
+        "opponent": "Ft. Zumwalt South",
+        "opponent_type": "in_state",
+        "opponent_class": 5,
+        "played": true,
+        "my_score": 26,
+        "opp_score": 22,
+        "won": true,
+        "overtime": false,
+        "forfeit": false
+      },
+      {
+        "date": "11/13/2026",
+        "opponent": "Ft. Zumwalt North",
+        "opponent_type": "in_state",
+        "opponent_class": 5,
+        "played": true,
+        "my_score": 28,
+        "opp_score": 58,
         "won": false,
         "overtime": false,
         "forfeit": false
@@ -28652,6 +31676,30 @@
         "won": true,
         "overtime": false,
         "forfeit": false
+      },
+      {
+        "date": "11/6/2026",
+        "opponent": "Jefferson City",
+        "opponent_type": "in_state",
+        "opponent_class": 5,
+        "played": true,
+        "my_score": 57,
+        "opp_score": 14,
+        "won": true,
+        "overtime": false,
+        "forfeit": false
+      },
+      {
+        "date": "11/13/2026",
+        "opponent": "Helias Catholic",
+        "opponent_type": "in_state",
+        "opponent_class": 5,
+        "played": true,
+        "my_score": 8,
+        "opp_score": 30,
+        "won": false,
+        "overtime": false,
+        "forfeit": false
       }
     ]
   },
@@ -28780,6 +31828,18 @@
         "won": true,
         "overtime": false,
         "forfeit": false
+      },
+      {
+        "date": "11/6/2026",
+        "opponent": "Helias Catholic",
+        "opponent_type": "in_state",
+        "opponent_class": 5,
+        "played": true,
+        "my_score": 13,
+        "opp_score": 52,
+        "won": false,
+        "overtime": false,
+        "forfeit": false
       }
     ]
   },
@@ -28893,6 +31953,42 @@
         "played": true,
         "my_score": 56,
         "opp_score": 6,
+        "won": true,
+        "overtime": false,
+        "forfeit": false
+      },
+      {
+        "date": "11/6/2026",
+        "opponent": "Glendale",
+        "opponent_type": "in_state",
+        "opponent_class": 5,
+        "played": true,
+        "my_score": 52,
+        "opp_score": 13,
+        "won": true,
+        "overtime": false,
+        "forfeit": false
+      },
+      {
+        "date": "11/13/2026",
+        "opponent": "Camdenton",
+        "opponent_type": "in_state",
+        "opponent_class": 5,
+        "played": true,
+        "my_score": 30,
+        "opp_score": 8,
+        "won": true,
+        "overtime": false,
+        "forfeit": false
+      },
+      {
+        "date": "11/20/2026",
+        "opponent": "Republic",
+        "opponent_type": "in_state",
+        "opponent_class": 5,
+        "played": true,
+        "my_score": 26,
+        "opp_score": 16,
         "won": true,
         "overtime": false,
         "forfeit": false
@@ -29022,6 +32118,18 @@
         "my_score": 43,
         "opp_score": 20,
         "won": true,
+        "overtime": false,
+        "forfeit": false
+      },
+      {
+        "date": "11/6/2026",
+        "opponent": "Camdenton",
+        "opponent_type": "in_state",
+        "opponent_class": 5,
+        "played": true,
+        "my_score": 14,
+        "opp_score": 57,
+        "won": false,
         "overtime": false,
         "forfeit": false
       }
@@ -29536,6 +32644,18 @@
         "won": true,
         "overtime": false,
         "forfeit": false
+      },
+      {
+        "date": "11/6/2026",
+        "opponent": "Neosho",
+        "opponent_type": "in_state",
+        "opponent_class": 5,
+        "played": true,
+        "my_score": 31,
+        "opp_score": 34,
+        "won": false,
+        "overtime": false,
+        "forfeit": false
       }
     ]
   },
@@ -29664,6 +32784,18 @@
         "won": true,
         "overtime": false,
         "forfeit": false
+      },
+      {
+        "date": "11/6/2026",
+        "opponent": "Republic",
+        "opponent_type": "in_state",
+        "opponent_class": 5,
+        "played": true,
+        "my_score": 30,
+        "opp_score": 32,
+        "won": false,
+        "overtime": false,
+        "forfeit": false
       }
     ]
   },
@@ -29790,6 +32922,30 @@
         "my_score": 69,
         "opp_score": 20,
         "won": true,
+        "overtime": false,
+        "forfeit": false
+      },
+      {
+        "date": "11/6/2026",
+        "opponent": "Branson",
+        "opponent_type": "in_state",
+        "opponent_class": 5,
+        "played": true,
+        "my_score": 34,
+        "opp_score": 31,
+        "won": true,
+        "overtime": false,
+        "forfeit": false
+      },
+      {
+        "date": "11/13/2026",
+        "opponent": "Republic",
+        "opponent_type": "in_state",
+        "opponent_class": 5,
+        "played": true,
+        "my_score": 13,
+        "opp_score": 56,
+        "won": false,
         "overtime": false,
         "forfeit": false
       }
@@ -30034,6 +33190,42 @@
         "my_score": 42,
         "opp_score": 15,
         "won": true,
+        "overtime": false,
+        "forfeit": false
+      },
+      {
+        "date": "11/6/2026",
+        "opponent": "Carthage",
+        "opponent_type": "in_state",
+        "opponent_class": 5,
+        "played": true,
+        "my_score": 32,
+        "opp_score": 30,
+        "won": true,
+        "overtime": false,
+        "forfeit": false
+      },
+      {
+        "date": "11/13/2026",
+        "opponent": "Neosho",
+        "opponent_type": "in_state",
+        "opponent_class": 5,
+        "played": true,
+        "my_score": 56,
+        "opp_score": 13,
+        "won": true,
+        "overtime": false,
+        "forfeit": false
+      },
+      {
+        "date": "11/20/2026",
+        "opponent": "Helias Catholic",
+        "opponent_type": "in_state",
+        "opponent_class": 5,
+        "played": true,
+        "my_score": 16,
+        "opp_score": 26,
+        "won": false,
         "overtime": false,
         "forfeit": false
       }
@@ -30676,6 +33868,18 @@
         "won": true,
         "overtime": false,
         "forfeit": false
+      },
+      {
+        "date": "11/6/2026",
+        "opponent": "Grain Valley",
+        "opponent_type": "in_state",
+        "opponent_class": 5,
+        "played": true,
+        "my_score": 12,
+        "opp_score": 21,
+        "won": false,
+        "overtime": false,
+        "forfeit": false
       }
     ]
   },
@@ -30789,6 +33993,42 @@
         "played": true,
         "my_score": 42,
         "opp_score": 6,
+        "won": true,
+        "overtime": false,
+        "forfeit": false
+      },
+      {
+        "date": "11/6/2026",
+        "opponent": "Capital City",
+        "opponent_type": "in_state",
+        "opponent_class": 5,
+        "played": true,
+        "my_score": 21,
+        "opp_score": 12,
+        "won": true,
+        "overtime": false,
+        "forfeit": false
+      },
+      {
+        "date": "11/13/2026",
+        "opponent": "Smith-Cotton",
+        "opponent_type": "in_state",
+        "opponent_class": 5,
+        "played": true,
+        "my_score": 52,
+        "opp_score": 7,
+        "won": true,
+        "overtime": false,
+        "forfeit": false
+      },
+      {
+        "date": "11/20/2026",
+        "opponent": "Platte County",
+        "opponent_type": "in_state",
+        "opponent_class": 5,
+        "played": true,
+        "my_score": 35,
+        "opp_score": 20,
         "won": true,
         "overtime": false,
         "forfeit": false
@@ -31048,6 +34288,18 @@
         "won": true,
         "overtime": false,
         "forfeit": false
+      },
+      {
+        "date": "11/6/2026",
+        "opponent": "Smith-Cotton",
+        "opponent_type": "in_state",
+        "opponent_class": 5,
+        "played": true,
+        "my_score": 6,
+        "opp_score": 48,
+        "won": false,
+        "overtime": false,
+        "forfeit": false
       }
     ]
   },
@@ -31174,6 +34426,30 @@
         "my_score": 55,
         "opp_score": 0,
         "won": true,
+        "overtime": false,
+        "forfeit": false
+      },
+      {
+        "date": "11/6/2026",
+        "opponent": "Ruskin",
+        "opponent_type": "in_state",
+        "opponent_class": 5,
+        "played": true,
+        "my_score": 48,
+        "opp_score": 6,
+        "won": true,
+        "overtime": false,
+        "forfeit": false
+      },
+      {
+        "date": "11/13/2026",
+        "opponent": "Grain Valley",
+        "opponent_type": "in_state",
+        "opponent_class": 5,
+        "played": true,
+        "my_score": 7,
+        "opp_score": 52,
+        "won": false,
         "overtime": false,
         "forfeit": false
       }
@@ -31304,6 +34580,30 @@
         "won": true,
         "overtime": false,
         "forfeit": false
+      },
+      {
+        "date": "11/6/2026",
+        "opponent": "Raytown",
+        "opponent_type": "in_state",
+        "opponent_class": 5,
+        "played": true,
+        "my_score": 34,
+        "opp_score": 14,
+        "won": true,
+        "overtime": false,
+        "forfeit": false
+      },
+      {
+        "date": "11/13/2026",
+        "opponent": "Platte County",
+        "opponent_type": "in_state",
+        "opponent_class": 5,
+        "played": true,
+        "my_score": 8,
+        "opp_score": 18,
+        "won": false,
+        "overtime": false,
+        "forfeit": false
       }
     ]
   },
@@ -31432,6 +34732,18 @@
         "won": true,
         "overtime": false,
         "forfeit": false
+      },
+      {
+        "date": "11/6/2026",
+        "opponent": "Platte County",
+        "opponent_type": "in_state",
+        "opponent_class": 5,
+        "played": true,
+        "my_score": 7,
+        "opp_score": 49,
+        "won": false,
+        "overtime": false,
+        "forfeit": false
       }
     ]
   },
@@ -31546,6 +34858,42 @@
         "my_score": 49,
         "opp_score": 0,
         "won": true,
+        "overtime": false,
+        "forfeit": false
+      },
+      {
+        "date": "11/6/2026",
+        "opponent": "Lincoln College Prep",
+        "opponent_type": "in_state",
+        "opponent_class": 5,
+        "played": true,
+        "my_score": 49,
+        "opp_score": 7,
+        "won": true,
+        "overtime": false,
+        "forfeit": false
+      },
+      {
+        "date": "11/13/2026",
+        "opponent": "Fort Osage",
+        "opponent_type": "in_state",
+        "opponent_class": 5,
+        "played": true,
+        "my_score": 18,
+        "opp_score": 8,
+        "won": true,
+        "overtime": false,
+        "forfeit": false
+      },
+      {
+        "date": "11/20/2026",
+        "opponent": "Grain Valley",
+        "opponent_type": "in_state",
+        "opponent_class": 5,
+        "played": true,
+        "my_score": 20,
+        "opp_score": 35,
+        "won": false,
         "overtime": false,
         "forfeit": false
       }
@@ -31674,6 +35022,18 @@
         "my_score": 35,
         "opp_score": 7,
         "won": true,
+        "overtime": false,
+        "forfeit": false
+      },
+      {
+        "date": "11/6/2026",
+        "opponent": "Fort Osage",
+        "opponent_type": "in_state",
+        "opponent_class": 5,
+        "played": true,
+        "my_score": 14,
+        "opp_score": 34,
+        "won": false,
         "overtime": false,
         "forfeit": false
       }
@@ -32176,6 +35536,42 @@
         "won": true,
         "overtime": false,
         "forfeit": false
+      },
+      {
+        "date": "11/6/2026",
+        "opponent": "Lindbergh",
+        "opponent_type": "in_state",
+        "opponent_class": 6,
+        "played": true,
+        "my_score": 49,
+        "opp_score": 7,
+        "won": true,
+        "overtime": false,
+        "forfeit": false
+      },
+      {
+        "date": "11/13/2026",
+        "opponent": "Seckman",
+        "opponent_type": "in_state",
+        "opponent_class": 6,
+        "played": true,
+        "my_score": 47,
+        "opp_score": 7,
+        "won": true,
+        "overtime": false,
+        "forfeit": false
+      },
+      {
+        "date": "11/20/2026",
+        "opponent": "Christian Brothers College",
+        "opponent_type": "in_state",
+        "opponent_class": 6,
+        "played": true,
+        "my_score": 45,
+        "opp_score": 28,
+        "won": true,
+        "overtime": false,
+        "forfeit": false
       }
     ]
   },
@@ -32304,6 +35700,18 @@
         "won": true,
         "overtime": false,
         "forfeit": false
+      },
+      {
+        "date": "11/6/2026",
+        "opponent": "Jackson",
+        "opponent_type": "in_state",
+        "opponent_class": 6,
+        "played": true,
+        "my_score": 7,
+        "opp_score": 49,
+        "won": false,
+        "overtime": false,
+        "forfeit": false
       }
     ]
   },
@@ -32418,6 +35826,18 @@
         "my_score": 22,
         "opp_score": 21,
         "won": true,
+        "overtime": false,
+        "forfeit": false
+      },
+      {
+        "date": "11/6/2026",
+        "opponent": "Seckman",
+        "opponent_type": "in_state",
+        "opponent_class": 6,
+        "played": true,
+        "my_score": 7,
+        "opp_score": 38,
+        "won": false,
         "overtime": false,
         "forfeit": false
       }
@@ -32664,6 +36084,30 @@
         "won": false,
         "overtime": false,
         "forfeit": false
+      },
+      {
+        "date": "11/6/2026",
+        "opponent": "Northwest (Cedar Hill)",
+        "opponent_type": "in_state",
+        "opponent_class": 6,
+        "played": true,
+        "my_score": 38,
+        "opp_score": 7,
+        "won": true,
+        "overtime": false,
+        "forfeit": false
+      },
+      {
+        "date": "11/13/2026",
+        "opponent": "Jackson",
+        "opponent_type": "in_state",
+        "opponent_class": 6,
+        "played": true,
+        "my_score": 7,
+        "opp_score": 47,
+        "won": false,
+        "overtime": false,
+        "forfeit": false
       }
     ]
   },
@@ -32765,6 +36209,42 @@
         "played": true,
         "my_score": 20,
         "opp_score": 30,
+        "won": false,
+        "overtime": false,
+        "forfeit": false
+      },
+      {
+        "date": "11/6/2026",
+        "opponent": "De Smet Jesuit",
+        "opponent_type": "in_state",
+        "opponent_class": 6,
+        "played": true,
+        "my_score": 38,
+        "opp_score": 28,
+        "won": true,
+        "overtime": false,
+        "forfeit": false
+      },
+      {
+        "date": "11/13/2026",
+        "opponent": "Kirkwood",
+        "opponent_type": "in_state",
+        "opponent_class": 6,
+        "played": true,
+        "my_score": 36,
+        "opp_score": 6,
+        "won": true,
+        "overtime": false,
+        "forfeit": false
+      },
+      {
+        "date": "11/20/2026",
+        "opponent": "Jackson",
+        "opponent_type": "in_state",
+        "opponent_class": 6,
+        "played": true,
+        "my_score": 28,
+        "opp_score": 45,
         "won": false,
         "overtime": false,
         "forfeit": false
@@ -32884,6 +36364,18 @@
         "won": true,
         "overtime": false,
         "forfeit": false
+      },
+      {
+        "date": "11/6/2026",
+        "opponent": "Christian Brothers College",
+        "opponent_type": "in_state",
+        "opponent_class": 6,
+        "played": true,
+        "my_score": 28,
+        "opp_score": 38,
+        "won": false,
+        "overtime": false,
+        "forfeit": false
       }
     ]
   },
@@ -32986,6 +36478,30 @@
         "my_score": 35,
         "opp_score": 7,
         "won": true,
+        "overtime": false,
+        "forfeit": false
+      },
+      {
+        "date": "11/6/2026",
+        "opponent": "Marquette",
+        "opponent_type": "in_state",
+        "opponent_class": 6,
+        "played": true,
+        "my_score": 35,
+        "opp_score": 0,
+        "won": true,
+        "overtime": false,
+        "forfeit": false
+      },
+      {
+        "date": "11/13/2026",
+        "opponent": "Christian Brothers College",
+        "opponent_type": "in_state",
+        "opponent_class": 6,
+        "played": true,
+        "my_score": 6,
+        "opp_score": 36,
+        "won": false,
         "overtime": false,
         "forfeit": false
       },
@@ -33256,6 +36772,18 @@
         "won": true,
         "overtime": false,
         "forfeit": false
+      },
+      {
+        "date": "11/6/2026",
+        "opponent": "Kirkwood",
+        "opponent_type": "in_state",
+        "opponent_class": 6,
+        "played": true,
+        "my_score": 0,
+        "opp_score": 35,
+        "won": false,
+        "overtime": false,
+        "forfeit": false
       }
     ]
   },
@@ -33512,6 +37040,18 @@
         "won": true,
         "overtime": false,
         "forfeit": false
+      },
+      {
+        "date": "11/6/2026",
+        "opponent": "Pattonville",
+        "opponent_type": "in_state",
+        "opponent_class": 6,
+        "played": true,
+        "my_score": 12,
+        "opp_score": 52,
+        "won": false,
+        "overtime": false,
+        "forfeit": false
       }
     ]
   },
@@ -33626,6 +37166,30 @@
         "my_score": 39,
         "opp_score": 31,
         "won": true,
+        "overtime": false,
+        "forfeit": false
+      },
+      {
+        "date": "11/6/2026",
+        "opponent": "Hazelwood West",
+        "opponent_type": "in_state",
+        "opponent_class": 6,
+        "played": true,
+        "my_score": 52,
+        "opp_score": 12,
+        "won": true,
+        "overtime": false,
+        "forfeit": false
+      },
+      {
+        "date": "11/13/2026",
+        "opponent": "SLUH",
+        "opponent_type": "in_state",
+        "opponent_class": 6,
+        "played": true,
+        "my_score": 14,
+        "opp_score": 28,
+        "won": false,
         "overtime": false,
         "forfeit": false
       }
@@ -33744,6 +37308,18 @@
         "won": true,
         "overtime": false,
         "forfeit": false
+      },
+      {
+        "date": "11/6/2026",
+        "opponent": "SLUH",
+        "opponent_type": "in_state",
+        "opponent_class": 6,
+        "played": true,
+        "my_score": 0,
+        "opp_score": 35,
+        "won": false,
+        "overtime": false,
+        "forfeit": false
       }
     ]
   },
@@ -33860,6 +37436,42 @@
         "won": false,
         "overtime": false,
         "forfeit": false
+      },
+      {
+        "date": "11/6/2026",
+        "opponent": "Ritenour",
+        "opponent_type": "in_state",
+        "opponent_class": 6,
+        "played": true,
+        "my_score": 35,
+        "opp_score": 0,
+        "won": true,
+        "overtime": false,
+        "forfeit": false
+      },
+      {
+        "date": "11/13/2026",
+        "opponent": "Pattonville",
+        "opponent_type": "in_state",
+        "opponent_class": 6,
+        "played": true,
+        "my_score": 28,
+        "opp_score": 14,
+        "won": true,
+        "overtime": false,
+        "forfeit": false
+      },
+      {
+        "date": "11/20/2026",
+        "opponent": "Troy Buchanan",
+        "opponent_type": "in_state",
+        "opponent_class": 6,
+        "played": true,
+        "my_score": 28,
+        "opp_score": 14,
+        "won": true,
+        "overtime": false,
+        "forfeit": false
       }
     ]
   },
@@ -33973,6 +37585,18 @@
         "played": true,
         "my_score": 42,
         "opp_score": 55,
+        "won": false,
+        "overtime": false,
+        "forfeit": false
+      },
+      {
+        "date": "11/6/2026",
+        "opponent": "Ft. Zumwalt West",
+        "opponent_type": "in_state",
+        "opponent_class": 6,
+        "played": true,
+        "my_score": 35,
+        "opp_score": 36,
         "won": false,
         "overtime": false,
         "forfeit": false
@@ -34220,6 +37844,30 @@
         "won": false,
         "overtime": false,
         "forfeit": false
+      },
+      {
+        "date": "11/6/2026",
+        "opponent": "Francis Howell",
+        "opponent_type": "in_state",
+        "opponent_class": 6,
+        "played": true,
+        "my_score": 36,
+        "opp_score": 35,
+        "won": true,
+        "overtime": false,
+        "forfeit": false
+      },
+      {
+        "date": "11/13/2026",
+        "opponent": "Troy Buchanan",
+        "opponent_type": "in_state",
+        "opponent_class": 6,
+        "played": true,
+        "my_score": 14,
+        "opp_score": 42,
+        "won": false,
+        "overtime": false,
+        "forfeit": false
       }
     ]
   },
@@ -34348,6 +37996,18 @@
         "won": true,
         "overtime": false,
         "forfeit": false
+      },
+      {
+        "date": "11/6/2026",
+        "opponent": "Troy Buchanan",
+        "opponent_type": "in_state",
+        "opponent_class": 6,
+        "played": true,
+        "my_score": 21,
+        "opp_score": 41,
+        "won": false,
+        "overtime": false,
+        "forfeit": false
       }
     ]
   },
@@ -34464,6 +38124,42 @@
         "won": false,
         "overtime": false,
         "forfeit": false
+      },
+      {
+        "date": "11/6/2026",
+        "opponent": "Liberty (Wentzville)",
+        "opponent_type": "in_state",
+        "opponent_class": 6,
+        "played": true,
+        "my_score": 41,
+        "opp_score": 21,
+        "won": true,
+        "overtime": false,
+        "forfeit": false
+      },
+      {
+        "date": "11/13/2026",
+        "opponent": "Ft. Zumwalt West",
+        "opponent_type": "in_state",
+        "opponent_class": 6,
+        "played": true,
+        "my_score": 42,
+        "opp_score": 14,
+        "won": true,
+        "overtime": false,
+        "forfeit": false
+      },
+      {
+        "date": "11/20/2026",
+        "opponent": "SLUH",
+        "opponent_type": "in_state",
+        "opponent_class": 6,
+        "played": true,
+        "my_score": 14,
+        "opp_score": 28,
+        "won": false,
+        "overtime": false,
+        "forfeit": false
       }
     ]
   },
@@ -34577,6 +38273,18 @@
         "played": true,
         "my_score": 35,
         "opp_score": 42,
+        "won": false,
+        "overtime": false,
+        "forfeit": false
+      },
+      {
+        "date": "11/6/2026",
+        "opponent": "Ozark",
+        "opponent_type": "in_state",
+        "opponent_class": 6,
+        "played": true,
+        "my_score": 28,
+        "opp_score": 49,
         "won": false,
         "overtime": false,
         "forfeit": false
@@ -34824,6 +38532,42 @@
         "won": true,
         "overtime": false,
         "forfeit": false
+      },
+      {
+        "date": "11/6/2026",
+        "opponent": "Waynesville",
+        "opponent_type": "in_state",
+        "opponent_class": 6,
+        "played": true,
+        "my_score": 49,
+        "opp_score": 0,
+        "won": true,
+        "overtime": false,
+        "forfeit": false
+      },
+      {
+        "date": "11/13/2026",
+        "opponent": "Ozark",
+        "opponent_type": "in_state",
+        "opponent_class": 6,
+        "played": true,
+        "my_score": 34,
+        "opp_score": 27,
+        "won": true,
+        "overtime": false,
+        "forfeit": false
+      },
+      {
+        "date": "11/20/2026",
+        "opponent": "Blue Springs",
+        "opponent_type": "in_state",
+        "opponent_class": 6,
+        "played": true,
+        "my_score": 14,
+        "opp_score": 42,
+        "won": false,
+        "overtime": false,
+        "forfeit": false
       }
     ]
   },
@@ -34938,6 +38682,30 @@
         "my_score": 42,
         "opp_score": 0,
         "won": true,
+        "overtime": false,
+        "forfeit": false
+      },
+      {
+        "date": "11/6/2026",
+        "opponent": "Joplin",
+        "opponent_type": "in_state",
+        "opponent_class": 6,
+        "played": true,
+        "my_score": 49,
+        "opp_score": 28,
+        "won": true,
+        "overtime": false,
+        "forfeit": false
+      },
+      {
+        "date": "11/13/2026",
+        "opponent": "Nixa",
+        "opponent_type": "in_state",
+        "opponent_class": 6,
+        "played": true,
+        "my_score": 27,
+        "opp_score": 34,
+        "won": false,
         "overtime": false,
         "forfeit": false
       }
@@ -35068,6 +38836,18 @@
         "won": true,
         "overtime": false,
         "forfeit": false
+      },
+      {
+        "date": "11/6/2026",
+        "opponent": "Nixa",
+        "opponent_type": "in_state",
+        "opponent_class": 6,
+        "played": true,
+        "my_score": 0,
+        "opp_score": 49,
+        "won": false,
+        "overtime": false,
+        "forfeit": false
       }
     ]
   },
@@ -35181,6 +38961,42 @@
         "played": true,
         "my_score": 52,
         "opp_score": 35,
+        "won": true,
+        "overtime": false,
+        "forfeit": false
+      },
+      {
+        "date": "11/6/2026",
+        "opponent": "Lee's Summit",
+        "opponent_type": "in_state",
+        "opponent_class": 6,
+        "played": true,
+        "my_score": 28,
+        "opp_score": 14,
+        "won": true,
+        "overtime": false,
+        "forfeit": false
+      },
+      {
+        "date": "11/13/2026",
+        "opponent": "Blue Springs South",
+        "opponent_type": "in_state",
+        "opponent_class": 6,
+        "played": true,
+        "my_score": 44,
+        "opp_score": 17,
+        "won": true,
+        "overtime": false,
+        "forfeit": false
+      },
+      {
+        "date": "11/20/2026",
+        "opponent": "Nixa",
+        "opponent_type": "in_state",
+        "opponent_class": 6,
+        "played": true,
+        "my_score": 42,
+        "opp_score": 14,
         "won": true,
         "overtime": false,
         "forfeit": false
@@ -35310,6 +39126,30 @@
         "my_score": 24,
         "opp_score": 21,
         "won": true,
+        "overtime": false,
+        "forfeit": false
+      },
+      {
+        "date": "11/6/2026",
+        "opponent": "Rock Bridge",
+        "opponent_type": "in_state",
+        "opponent_class": 6,
+        "played": true,
+        "my_score": 28,
+        "opp_score": 7,
+        "won": true,
+        "overtime": false,
+        "forfeit": false
+      },
+      {
+        "date": "11/13/2026",
+        "opponent": "Blue Springs",
+        "opponent_type": "in_state",
+        "opponent_class": 6,
+        "played": true,
+        "my_score": 17,
+        "opp_score": 44,
+        "won": false,
         "overtime": false,
         "forfeit": false
       }
@@ -35568,6 +39408,18 @@
         "won": true,
         "overtime": false,
         "forfeit": false
+      },
+      {
+        "date": "11/6/2026",
+        "opponent": "Blue Springs",
+        "opponent_type": "in_state",
+        "opponent_class": 6,
+        "played": true,
+        "my_score": 14,
+        "opp_score": 28,
+        "won": false,
+        "overtime": false,
+        "forfeit": false
       }
     ]
   },
@@ -35812,6 +39664,18 @@
         "won": true,
         "overtime": false,
         "forfeit": false
+      },
+      {
+        "date": "11/6/2026",
+        "opponent": "Blue Springs South",
+        "opponent_type": "in_state",
+        "opponent_class": 6,
+        "played": true,
+        "my_score": 7,
+        "opp_score": 28,
+        "won": false,
+        "overtime": false,
+        "forfeit": false
       }
     ]
   },
@@ -35940,6 +39804,18 @@
         "won": true,
         "overtime": false,
         "forfeit": false
+      },
+      {
+        "date": "11/6/2026",
+        "opponent": "Raymore-Peculiar",
+        "opponent_type": "in_state",
+        "opponent_class": 6,
+        "played": true,
+        "my_score": 41,
+        "opp_score": 52,
+        "won": false,
+        "overtime": false,
+        "forfeit": false
       }
     ]
   },
@@ -36054,6 +39930,18 @@
         "my_score": 61,
         "opp_score": 13,
         "won": true,
+        "overtime": false,
+        "forfeit": false
+      },
+      {
+        "date": "11/6/2026",
+        "opponent": "Rockhurst",
+        "opponent_type": "in_state",
+        "opponent_class": 6,
+        "played": true,
+        "my_score": 32,
+        "opp_score": 33,
+        "won": false,
         "overtime": false,
         "forfeit": false
       }
@@ -36300,6 +40188,30 @@
         "won": true,
         "overtime": false,
         "forfeit": false
+      },
+      {
+        "date": "11/6/2026",
+        "opponent": "Lee's Summit West",
+        "opponent_type": "in_state",
+        "opponent_class": 6,
+        "played": true,
+        "my_score": 52,
+        "opp_score": 41,
+        "won": true,
+        "overtime": false,
+        "forfeit": false
+      },
+      {
+        "date": "11/13/2026",
+        "opponent": "Rockhurst",
+        "opponent_type": "in_state",
+        "opponent_class": 6,
+        "played": true,
+        "my_score": 16,
+        "opp_score": 24,
+        "won": false,
+        "overtime": false,
+        "forfeit": false
       }
     ]
   },
@@ -36413,6 +40325,42 @@
         "played": true,
         "my_score": 16,
         "opp_score": 10,
+        "won": true,
+        "overtime": false,
+        "forfeit": false
+      },
+      {
+        "date": "11/6/2026",
+        "opponent": "North Kansas City",
+        "opponent_type": "in_state",
+        "opponent_class": 6,
+        "played": true,
+        "my_score": 33,
+        "opp_score": 32,
+        "won": true,
+        "overtime": false,
+        "forfeit": false
+      },
+      {
+        "date": "11/13/2026",
+        "opponent": "Raymore-Peculiar",
+        "opponent_type": "in_state",
+        "opponent_class": 6,
+        "played": true,
+        "my_score": 24,
+        "opp_score": 16,
+        "won": true,
+        "overtime": false,
+        "forfeit": false
+      },
+      {
+        "date": "11/20/2026",
+        "opponent": "Liberty North",
+        "opponent_type": "in_state",
+        "opponent_class": 6,
+        "played": true,
+        "my_score": 17,
+        "opp_score": 12,
         "won": true,
         "overtime": false,
         "forfeit": false
@@ -36788,6 +40736,42 @@
         "won": false,
         "overtime": false,
         "forfeit": false
+      },
+      {
+        "date": "11/6/2026",
+        "opponent": "Staley",
+        "opponent_type": "in_state",
+        "opponent_class": 6,
+        "played": true,
+        "my_score": 45,
+        "opp_score": 7,
+        "won": true,
+        "overtime": false,
+        "forfeit": false
+      },
+      {
+        "date": "11/13/2026",
+        "opponent": "Oak Park",
+        "opponent_type": "in_state",
+        "opponent_class": 6,
+        "played": true,
+        "my_score": 41,
+        "opp_score": 14,
+        "won": true,
+        "overtime": false,
+        "forfeit": false
+      },
+      {
+        "date": "11/20/2026",
+        "opponent": "Rockhurst",
+        "opponent_type": "in_state",
+        "opponent_class": 6,
+        "played": true,
+        "my_score": 12,
+        "opp_score": 17,
+        "won": false,
+        "overtime": false,
+        "forfeit": false
       }
     ]
   },
@@ -36916,6 +40900,30 @@
         "won": true,
         "overtime": false,
         "forfeit": false
+      },
+      {
+        "date": "11/6/2026",
+        "opponent": "Park Hill",
+        "opponent_type": "in_state",
+        "opponent_class": 6,
+        "played": true,
+        "my_score": 27,
+        "opp_score": 7,
+        "won": true,
+        "overtime": false,
+        "forfeit": false
+      },
+      {
+        "date": "11/13/2026",
+        "opponent": "Liberty North",
+        "opponent_type": "in_state",
+        "opponent_class": 6,
+        "played": true,
+        "my_score": 14,
+        "opp_score": 41,
+        "won": false,
+        "overtime": false,
+        "forfeit": false
       }
     ]
   },
@@ -37029,6 +41037,18 @@
         "played": true,
         "my_score": 3,
         "opp_score": 30,
+        "won": false,
+        "overtime": false,
+        "forfeit": false
+      },
+      {
+        "date": "11/6/2026",
+        "opponent": "Oak Park",
+        "opponent_type": "in_state",
+        "opponent_class": 6,
+        "played": true,
+        "my_score": 7,
+        "opp_score": 27,
         "won": false,
         "overtime": false,
         "forfeit": false
@@ -37158,6 +41178,18 @@
         "my_score": 42,
         "opp_score": 14,
         "won": true,
+        "overtime": false,
+        "forfeit": false
+      },
+      {
+        "date": "11/6/2026",
+        "opponent": "Liberty North",
+        "opponent_type": "in_state",
+        "opponent_class": 6,
+        "played": true,
+        "my_score": 7,
+        "opp_score": 45,
+        "won": false,
         "overtime": false,
         "forfeit": false
       }
