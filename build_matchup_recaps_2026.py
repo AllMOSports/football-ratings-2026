@@ -159,11 +159,16 @@ def pct_text(p):
     return f"{round(p * 100)}%"
 
 
-def a_an(pct_str):
-    """'an 87%', 'an 8%', 'an 11%', 'an 18%', 'a 46%', 'a >99%'."""
-    digits = pct_str.lstrip("<>")
-    starts_vowel_sound = digits.startswith("8") or digits in ("11%", "18%") or digits.startswith("11") and len(digits) == 3
-    return ("an " if starts_vowel_sound and pct_str[0].isdigit() else "a ") + pct_str
+def a_an(text):
+    """Article for a percent or a score: 'an 87%', 'an 8%', 'an 11%', 'a 46%', 'a >99%',
+    'an 84-81 win', 'an 11-8 win', 'a 63-54 win'."""
+    import re
+    m = re.match(r"(\d+)", text)
+    if not m:
+        return "a " + text
+    n = m.group(1)
+    vowel = n.startswith("8") or n in ("11", "18") or (len(n) in (5, 6) and n[:2] in ("11", "18"))
+    return ("an " if vowel else "a ") + text
 
 
 def ordinal_word(n):
@@ -328,7 +333,7 @@ def write_headline(W, L, sw, sl, proj, rnd, cls):
             how = "exactly" if actual == margin_proj else "almost exactly"
             return f"Right on the number: {W} wins by {actual}, {how} the projected margin."
         if actual <= margin_proj - SWING_POINTS:
-            return f"{W} survives: a {score} win that was closer than projected."
+            return f"{W} survives: {a_an(score)} win that was closer than projected."
         if actual >= margin_proj + SWING_POINTS:
             return f"{W} rolls past {L}, {actual - margin_proj} points better than projected."
     return f"{W} beats {L}, {score}."
@@ -353,15 +358,15 @@ def write_story(W, L, sw, sl, ctxW, ctxL, proj, rnd, rnd_i, cls, notesW, classif
     if rnd and rnd_i is not None:
         phrase = next_round_phrase(rnd_i, cls)
         if phrase:
-            out.append(f"{W} {phrase} with a {score} win over {L}.")
+            out.append(f"{W} {phrase} with {a_an(score)} win over {L}.")
         else:
-            out.append(f"{W} finished the season {ctxW['record']} with a {score} win over {L} in the state championship game.")
+            out.append(f"{W} finished the season {ctxW['record']} with {a_an(score)} win over {L} in the state championship game.")
         if classified_L:
             out.append(f"{L}'s season ends at {ctxL['record']}.")
     else:
         lose_txt = f"; {L} falls to {ctxL['record']}" if classified_L else ""
         if classified_W:
-            out.append(f"{W} improved to {ctxW['record']} with a {score} win over {L}{lose_txt}.")
+            out.append(f"{W} improved to {ctxW['record']} with {a_an(score)} win over {L}{lose_txt}.")
         else:   # out-of-state winner: its record here would count Missouri games only
             out.append(f"{W} beat {L} {score}{lose_txt}.")
     if proj:
