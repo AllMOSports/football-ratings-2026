@@ -1,0 +1,101 @@
+# .github/workflows/build-matchup-recaps.yml
+#
+# Runs build_matchup_recaps_2026.py and commits matchup_recaps_2026/
+# (one file per game date + manifest.json) - the data behind the Matchup
+# Recap page and the Sport Detail page's "Matchup Recap" buttons.
+#
+# Recaps are frozen once written, so most runs change nothing and commit
+# nothing. A new recap appears after a game is final AND the next ratings
+# update (and, for playoff games, the next Playoff Hub build) has landed.
+#
+# Triggers:
+#   - push: when the games, ratings or playoff hub files change
+#   - workflow_run: after the workflows that write those files finish
+#     (commits made by github-actions[bot] don't fire "push")
+#   - repository_dispatch: cron-job.org (event_type: build-matchup-recaps)
+#   - workflow_dispatch: manual run, with an optional full rebuild
+#
+# Needs the repo's full git history: pre-game projections come from the
+# football_ratings_2026.json version committed before each kickoff.
+
+name: Build Matchup Recaps
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - "football_games_2026_all.json"
+      - "football_ratings_2026.json"
+      - "playoff_hub_2026.json"
+      - "manual_overrides.json"
+      - "build_matchup_recaps_2026.py"
+  workflow_run:
+    workflows:
+      - "2026 Football Ratings (No Past)"
+      - "Build Playoff Hub"
+      - "Scrape MSHSAA Football Games (2026)"
+    types: [completed]
+  repository_dispatch:
+    types: [build-matchup-recaps]
+  workflow_dispatch:
+    inputs:
+      rebuild:
+        description: "Rebuild every recap (unfreezes all; use after changing the templates)"
+        required: false
+        default: "false"
+        type: choice
+        options: ["false", "true"]
+
+permissions:
+  contents: write
+
+concurrency:
+  group: build-matchup-recaps
+  cancel-in-progress: false      # let a run finish; the next one picks up anything new
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+
+    steps:
+      - name: Check out repo (full history)
+        uses: actions/checkout@v4
+        with:
+          ref: main
+          fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies
+        run: pip install numpy
+
+      - name: Build matchup recaps
+        env:
+          REBUILD: ${{ github.event.inputs.rebuild || 'false' }}
+        run: |
+          if [ "$REBUILD" = "true" ]; then
+            python build_matchup_recaps_2026.py --rebuild
+          else
+            python build_matchup_recaps_2026.py
+          fi
+
+      - name: Commit matchup recaps
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add matchup_recaps_2026
+          if git diff --cached --quiet; then
+            echo "No new or changed recaps."
+            exit 0
+          fi
+          git commit -m "Update matchup recaps ($(TZ=America/Chicago date +'%Y-%m-%d %H:%M CT'))"
+          for i in 1 2 3; do
+            git pull --rebase origin main && git push origin HEAD:main && exit 0
+            echo "Push failed (attempt $i), retrying..."
+            sleep 5
+          done
+          exit 1
